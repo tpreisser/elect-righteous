@@ -42,6 +42,7 @@ git add -A && git commit -m "description" && git push
 6. **PLAIN ENGLISH** — 8th-grade reading level. No political jargon.
 7. **THEOLOGICAL LENS** — Conservative Protestant, Baptist-leaning, 2-3 point Calvinist. For recommendations section ONLY, not main articles.
 8. **STATIC EXPORT** — No API routes, no server runtime. All data baked at build time in `candidates.ts` and `elections.ts`.
+9. **SEPARATE OPPOSITION PHASE** — Broad profile research and adverse public-record research are different tasks. Every candidate should eventually have both `raw-dump.md` and `opposition-research.md`.
 
 ## Project Structure
 
@@ -49,8 +50,8 @@ git add -A && git commit -m "description" && git push
 ├── CLAUDE.md              # Full project manual (400+ lines)
 ├── HANDOFF.md             # Step-by-step pickup guide
 ├── AGENTS.md              # THIS FILE
-├── agents/                # 6-agent pipeline (PROMPT.md + soul.md each)
-├── memory/candidates/     # 54 folders, each has raw-dump.md
+├── agents/                # 7-agent pipeline (PROMPT.md + soul.md each)
+├── memory/candidates/     # 54 folders, each has raw-dump.md; adverse findings live in opposition-research.md
 ├── reports/               # 28 formatted dossiers (14,000+ lines)
 ├── plans/                 # Implementation plans
 ├── scripts/               # launch.command, consolidate-intel.sh
@@ -64,13 +65,14 @@ git add -A && git commit -m "description" && git push
 
 Read `HANDOFF.md` for full details. Summary:
 
-1. **Build `scripts/transform-dossiers.mjs`** — parse 28 markdown report files into `candidates.ts` TypeScript data for all 54 candidates
-2. **Populate ALL candidates per election** — KS-01 needs 4 candidates, Senate needs 9, Governor needs 11, etc.
-3. **Restructure elections page** — categories: Federal → State → Local → Ballot Measures (not ballot measures first)
-4. **Church recommendations page** — separate section with faith-based guidance (conservative Protestant lens)
-5. **Delete unused grading components** — values-badge.tsx, consistency-badge.tsx, flag-alert.tsx, values-alignment-chart.tsx, comparison-table.tsx
-6. **Source completeness** — extract ALL URLs from `memory/candidates/{slug}/raw-dump.md` into sources arrays
-7. **Mobile optimization**
+1. **Run both research lanes** — broad profile research into `raw-dump.md`, adverse public-record research into `opposition-research.md`
+2. **Build `scripts/transform-dossiers.mjs`** — parse reports plus candidate-side notes into `candidates.ts` TypeScript data for all 54 candidates
+3. **Populate ALL candidates per election** — KS-01 needs 4 candidates, Senate needs 9, Governor needs 11, etc.
+4. **Restructure elections page** — categories: Federal → State → Local → Ballot Measures (not ballot measures first)
+5. **Church recommendations page** — separate section with faith-based guidance (conservative Protestant lens)
+6. **Delete unused grading components** — values-badge.tsx, consistency-badge.tsx, flag-alert.tsx, values-alignment-chart.tsx, comparison-table.tsx
+7. **Source completeness** — extract ALL URLs from `raw-dump.md` and `opposition-research.md` into sources arrays
+8. **Mobile optimization**
 
 ## Data Model
 
@@ -115,4 +117,4 @@ Multi-candidate reports (parse per candidate):
 - reports/ellis-county-elected-officials-deep-investigation.md (717 lines)
 - reports/usd489-board-deep-investigation-2026-03-30.md (494 lines)
 
-Every candidate also has `memory/candidates/{slug}/raw-dump.md` as a fallback data source.
+Every candidate also has `memory/candidates/{slug}/raw-dump.md` as a fallback data source. New adverse-public-record work should be written to `memory/candidates/{slug}/opposition-research.md` so the site can balance biography and criticism.

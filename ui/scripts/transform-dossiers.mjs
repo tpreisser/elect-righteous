@@ -546,6 +546,19 @@ const RECORD_KEYWORDS = [
 ];
 
 const FACT_KEYWORDS = [
+  "opposition research",
+  "adverse public record",
+  "verified adverse findings",
+  "public criticism",
+  "litigation",
+  "complaints",
+  "investigations",
+  "ethics",
+  "discipline",
+  "conflicts of interest",
+  "contradictions",
+  "deleted content",
+  "archived deleted content",
   "controvers",
   "assessment",
   "key vulnerabilities",
@@ -566,6 +579,23 @@ const FACT_KEYWORDS = [
   "what you should know",
   "additional public record findings",
   "public record findings",
+];
+
+const OPPOSITION_KEYWORDS = [
+  "opposition research",
+  "adverse public record",
+  "verified adverse findings",
+  "public criticism",
+  "litigation",
+  "complaints",
+  "investigations",
+  "ethics",
+  "discipline",
+  "conflicts of interest",
+  "contradictions",
+  "deleted content",
+  "archived deleted content",
+  "controvers",
 ];
 
 const FAITH_KEYWORDS = [
@@ -593,6 +623,10 @@ const FIELD_LABELS = {
   district: ["district", "district coverage"],
   campaignWebsite: ["campaign website", "campaign site", "official website", "website"],
 };
+
+function donor(name, amount) {
+  return { name, amount };
+}
 
 const CAMPAIGN_WEBSITE_OVERRIDES = {
   "roger-marshall": "https://kansansformarshall.com",
@@ -658,6 +692,482 @@ const FACT_OVERRIDES = {
   ],
 };
 
+const FINANCE_OVERRIDES = {
+  "jason-hart": {
+    totalRaised: "No public FEC finance summary available online as of 2026-04-01",
+    narrative:
+      "Hart entered the Senate race in March 2026, and this pass did not surface an official FEC candidate-overview page or a posted 2025-2026 finance summary with receipts, spending, or cash-on-hand figures. In practical terms, that means there was still no usable public donor ledger online to reconstruct as of April 1, 2026.",
+    donors: [donor("Campaign finance data", "No campaign finance data available online yet")],
+    undisclosed:
+      "Hart's first meaningful federal finance report may still be pending the next FEC disclosure window.",
+    reportingPeriod: "through 2026-04-01",
+    source: "FEC search, campaign records, and reviewed public reporting",
+  },
+  "patrick-schmidt": {
+    totalRaised: "FEC says no 2025-2026 finance summary is available yet",
+    narrative:
+      "Patrick Schmidt now has an official FEC Senate candidate page and committee, PATRICK SCHMIDT FOR SENATE (C00937599). But the FEC candidate overview currently says, 'We don't have SCHMIDT, PATRICK for 2025-2026,' which is more precise than the older report-based guesswork. So the official status is: committee on file, but no processed receipts, spending, or cash-on-hand summary published yet.",
+    donors: [
+      donor("PATRICK SCHMIDT FOR SENATE (C00937599)", "Committee on file"),
+      donor("Campaign finance data", "No campaign finance data available online yet"),
+    ],
+    undisclosed:
+      "The FEC confirms the committee exists, but not yet a processed 2025-2026 donor ledger or summary table.",
+    reportingPeriod: "through 2026-04-01",
+    source: "FEC candidate overview S6KS00288 / committee C00937599",
+  },
+  "christy-cauble-davis": {
+    totalRaised: "$80,478.96 (FEC coverage: 07/01/2025 to 12/31/2025)",
+    narrative:
+      "Davis does have a real 2025-2026 Senate finance summary on her official FEC page. CHRISTY DAVIS FOR KANSAS 2026 (C00915934) reported $80,478.96 in receipts, $38,100.53 in disbursements, and $42,378.43 cash on hand for the coverage period from July 1, 2025 through December 31, 2025. That makes her campaign materially more developed than the earlier placeholder language implied, even if outside reporting still focused heavily on disclosure and compliance problems.",
+    donors: [
+      donor("Itemized individual contributions", "$76,528.96"),
+      donor("Unitemized individual contributions", "$3,950.00"),
+    ],
+    undisclosed:
+      "I did not fully reconstruct her donor-by-donor Schedule A in this pass, but the official FEC summary totals are public.",
+    reportingPeriod: "through 2025-12-31",
+    source: "FEC candidate overview S6KS00247 / committee C00915934",
+  },
+  "sandy-spidel-neumann": {
+    totalRaised: "$167,587.11 (FEC coverage: 10/14/2025 to 12/31/2025)",
+    narrative:
+      "Spidel Neumann's official FEC candidate page is much stronger than the old placeholder text suggested. SANDY FOR KANSAS (C00923474) reported $167,587.11 in receipts, $40,660.59 in disbursements, and $126,926.52 cash on hand for the period from October 14, 2025 through December 31, 2025. The key finance fact is the structure of the money: $100,000 came in as candidate loans, only $3,500 as direct candidate contributions, $37,150 as itemized individual contributions, and $26,937.11 as unitemized contributions.",
+    donors: [
+      donor("Loans made by candidate", "$100,000.00"),
+      donor("Itemized individual contributions", "$37,150.00"),
+      donor("Unitemized individual contributions", "$26,937.11"),
+      donor("Candidate contributions", "$3,500.00"),
+    ],
+    undisclosed:
+      "I did not fully extract the donor-by-donor transactions page in this pass, but the official FEC summary now clearly shows a substantial self-loan-backed campaign.",
+    reportingPeriod: "through 2025-12-31",
+    source: "FEC candidate overview S6KS00262 / committee C00923474",
+  },
+  "erik-murray": {
+    totalRaised: "$124,598.62 (FEC coverage: 11/23/2025 to 12/31/2025)",
+    narrative:
+      "Murray's official FEC page shows a much more serious finance operation than the old thin entry suggested. ERIK MURRAY FOR KANSAS (C00929240) reported $124,598.62 in receipts, $15,625.69 in disbursements, and $108,972.93 cash on hand for the period from November 23, 2025 through December 31, 2025. Importantly, this money was donor-driven rather than self-loan-driven: the FEC summary shows $119,800 in itemized individual contributions, $4,798.62 in unitemized contributions, and $0 in candidate loans.",
+    donors: [
+      donor("Itemized individual contributions", "$119,800.00"),
+      donor("Unitemized individual contributions", "$4,798.62"),
+      donor("Loans made by candidate", "$0.00"),
+    ],
+    undisclosed:
+      "I did not fully reconstruct Murray's donor-by-donor transaction list in this pass, but the official FEC summary totals are now clear.",
+    reportingPeriod: "through 2025-12-31",
+    source: "FEC candidate overview S6KS00270 / committee C00929240",
+  },
+  "anne-parelkar": {
+    totalRaised: "$16,982.00 (FEC coverage: 03/03/2025 to 12/31/2025)",
+    narrative:
+      "Parelkar's official FEC candidate page provides a complete topline summary. ANNE FOR KANSAS (C00913293) reported $16,982.00 in receipts, $16,478.89 in disbursements, and just $503.11 cash on hand for the period from March 3, 2025 through December 31, 2025. The notable detail is that $4,500.00 of the total came from candidate loans, meaning the campaign was modest and partially self-financed rather than broadly donor-backed.",
+    donors: [
+      donor("Itemized individual contributions", "$8,876.00"),
+      donor("Unitemized individual contributions", "$3,606.00"),
+      donor("Loans made by candidate", "$4,500.00"),
+    ],
+    undisclosed:
+      "I did not fully reconstruct Anne for Kansas's donor-by-donor transaction table in this pass, but the FEC summary totals and candidate-loan figure are public.",
+    reportingPeriod: "through 2025-12-31",
+    source: "FEC candidate overview S6KS00239 / committee C00913293",
+  },
+  "michael-soetaert": {
+    totalRaised: "FEC says no 2025-2026 finance summary is available yet",
+    narrative:
+      "The current official FEC candidate page for SOETAERT, MICHAEL says, 'We don't have SOETAERT, MICHAEL for 2025-2026.' That is the cleanest public answer right now. Soetaert does have a federal candidate page, but as of April 1, 2026 the FEC is not showing a processed receipts, spending, or cash-on-hand summary for this cycle.",
+    donors: [donor("Campaign finance data", "No campaign finance data available online yet")],
+    undisclosed:
+      "Older federal runs exist in the record, but the current Senate-cycle summary page does not yet show 2025-2026 finance data.",
+    reportingPeriod: "through 2026-04-01",
+    source: "FEC candidate overview S2KS00097",
+  },
+  "chase-laporte": {
+    totalRaised: "FEC says no 2025-2026 finance summary is available yet",
+    narrative:
+      "LaPorte now has an official FEC Senate candidate overview page, but the page says, 'We don't have LAPORTE, CHASE for 2025-2026.' That is more specific than the earlier placeholder language: the candidacy is real and officially filed, but the FEC is not yet showing a processed summary of receipts, spending, or cash on hand for this cycle.",
+    donors: [donor("Campaign finance data", "No campaign finance data available online yet")],
+    undisclosed:
+      "The candidate page exists, but the FEC has not yet published a processed 2025-2026 donor ledger or summary table.",
+    reportingPeriod: "through 2026-04-01",
+    source: "FEC candidate overview S6KS00254",
+  },
+  "colin-mcroberts": {
+    totalRaised: "$24,699.29 (Jul.-Dec. 2025)",
+    narrative:
+      "McRoberts still has the clearest federal filing record of the KS-01 Democratic challengers, and the official FEC page adds more precision than the old generated text. COLIN FOR KANSAS (C00919860) reported $24,699.29 in receipts, $17,243.10 in disbursements, and $7,456.19 cash on hand for the period from July 1, 2025 through December 31, 2025. The receipts breakdown shows $19,130.00 in itemized individual contributions, $4,912.00 in unitemized individual contributions, and $338.00 in direct candidate contributions.",
+    donors: [
+      donor("Itemized individual contributions", "$19,130.00"),
+      donor("Unitemized individual contributions", "$4,912.00"),
+      donor("Candidate contributions", "$338.00"),
+    ],
+    undisclosed:
+      "The committee is clearly active, but I did not fully reconstruct the donor-by-donor FEC transactions table in this pass.",
+    reportingPeriod: "Jul.-Dec. 2025",
+    source: "FEC candidate overview H6KS01195 / committee C00919860",
+  },
+  "lauren-reinhold": {
+    totalRaised: "FEC says no 2025-2026 finance summary is available yet",
+    narrative:
+      "Reinhold does now have an official FEC candidate page and committee, LAUREN REINHOLD FOR KANSAS (C00932855). But the FEC summary page says, 'We don't have REINHOLD, LAUREN for 2025-2026.' So the official position is no longer 'no committee filed'; it is 'committee exists, but the FEC is not yet showing processed finance data for this cycle.'",
+    donors: [
+      donor("LAUREN REINHOLD FOR KANSAS (C00932855)", "Committee on file"),
+      donor("Campaign finance data", "No campaign finance data available online yet"),
+    ],
+    undisclosed:
+      "The FEC confirms a committee exists, but not yet a processed donor ledger or topline receipts summary for 2025-2026.",
+    reportingPeriod: "through 2026-04-01",
+    source: "FEC candidate overview H6KS01203 / committee C00932855",
+  },
+  "craig-musser": {
+    totalRaised: "FEC says no 2025-2026 finance summary is available yet",
+    narrative:
+      "Musser does have an official FEC House candidate page, but that page says, 'We don't have MUSSER, CRAIG A for 2025-2026.' That is the clean public status as of April 1, 2026: official candidacy page present, no processed receipts/spending/cash summary posted yet.",
+    donors: [donor("Campaign finance data", "No campaign finance data available online yet")],
+    undisclosed:
+      "The official candidate page exists, but the FEC is not yet showing a usable finance summary or donor ledger for this cycle.",
+    reportingPeriod: "through 2026-04-01",
+    source: "FEC candidate overview H6KS01211",
+  },
+  "scott-schwab": {
+    totalRaised: "$1,418,672 (2025 year-end)",
+    narrative:
+      "Scott Schwab raised $1,418,672 in 2025, spent $365,533, and had $1,053,139 cash on hand at year-end. Of that total, $1,045,000 came from personal loans, which means only about $374,000 was truly donor-funded. That makes him one of the most heavily self-funded candidates in the race.",
+    donors: [
+      donor("Scott Schwab (self-funded loans)", "$1,045,000"),
+      donor("Jenni Prochnow", "$4,000"),
+      donor("Frankie Giudicessi", "$4,000"),
+      donor("Michael Rader", "$2,000"),
+      donor("Jeanette Prenger", "$2,000"),
+      donor("Julie Mirray", "$2,000"),
+      donor("Kent Needham", "$500"),
+      donor("Tim Garvey", "$500"),
+    ],
+    undisclosed:
+      "Full line-item donor detail remains in the Kansas ethics filing PDF and itemized-contributions database.",
+    reportingPeriod: "2025 year-end (2026 election cycle)",
+    source: "Kansas ethics filing SW01SS_202601 and Kansas Reflector",
+  },
+  "vicki-schmidt": {
+    totalRaised: "$980,372.71 (2025 year-end)",
+    narrative:
+      "Schmidt's 2025 filing showed $980,372.71 raised, $52,211.35 spent, and $928,161.36 cash on hand. Only about $81,500 of that total was self-funded, which is why she has been able to claim the broadest donor-funded operation in the Republican governor field. The public reporting also pegged her donor count at 800-plus, with 57% of the money coming from Kansans.",
+    donors: [
+      donor("Jeanette Elder", "$25"),
+      donor("David Pope", "$50"),
+      donor("James Daniel", "$75"),
+      donor("Steven Steele", "$100"),
+      donor("David Kerr", "$250"),
+      donor("Lisa Stubbs", "$250"),
+      donor("Robert Regnier", "$500"),
+      donor("Thomas Blackburn", "$500"),
+      donor("Strategic Partners International LLC", "$1,000"),
+    ],
+    undisclosed:
+      "The filing shows a much larger donor universe than the small sample extracted here, including major out-of-state participation.",
+    reportingPeriod: "2025 year-end (2026 election cycle)",
+    source: "Kansas ethics filing and statewide campaign-finance reporting",
+  },
+  "ty-masterson": {
+    totalRaised: "$695,998.16 (2025 year-end)",
+    narrative:
+      "Masterson's year-end filing showed $695,998.16 raised, only $8,476.06 spent, and $687,522.10 cash on hand. Unlike the self-loan-heavy candidates, this was donor-funded money. The much bigger story, though, is the aligned dark-money vehicle Take Back Kansas, which reportedly had another $700,000 without public donor disclosure.",
+    donors: [
+      donor("David Murfm", "$4,000"),
+      donor("Janet Murfm", "$4,000"),
+      donor("SHAMAN BOTANICALS LLC", "$4,000"),
+      donor("Rick Kloos", "$1,000"),
+      donor("Pennie Kloos", "$1,000"),
+      donor("Brad Starnes", "$104.10"),
+    ],
+    undisclosed:
+      "Take Back Kansas, the aligned 501(c)(4), remains the major undisclosed-money story around Masterson.",
+    reportingPeriod: "2025 year-end (2026 election cycle)",
+    source: "Kansas ethics filing and statewide campaign-finance reporting",
+  },
+  "jeff-colyer": {
+    totalRaised: "$2,070,322.09 (2025 year-end)",
+    narrative:
+      "Colyer's year-end filing showed $2,070,322.09 raised, $185,812.31 spent, and $1,884,509.78 cash on hand, plus additional in-kind support. He personally loaned the campaign $1.05 million, but he also matched that with roughly another million dollars in donor support, giving him the strongest pure donor operation in the GOP field.",
+    donors: [
+      donor("Stephen Reintjes", "$516.53"),
+      donor("Alan Cobb", "$104.10"),
+      donor("Janie Welsh", "$1,033.06"),
+      donor("Dylan Avatar Arnold", "$520.51"),
+      donor("Sarah Demovish", "$516.53"),
+    ],
+    undisclosed:
+      "The reviewed sample donors are only a slice of a very large statewide filing.",
+    reportingPeriod: "2025 year-end (2026 election cycle)",
+    source: "Kansas ethics filing SW01JC_202601 and campaign-finance reporting",
+  },
+  "ethan-corson": {
+    totalRaised: "$902,641.13 (2025 year-end)",
+    narrative:
+      "Corson's 2025 filing showed $902,641.13 raised, $375,665.32 spent, and $526,975.81 cash on hand. Public reporting stressed that the campaign took no personal loans, drew more than 3,000 contributions, and got about 70% of those donations in amounts under $100. That makes Corson one of the clearest grassroots-funded candidates in the race.",
+    donors: [
+      donor("Tony Atterbury", "$4,000"),
+      donor("Amy Bartak", "$250"),
+      donor("Mary Becker", "$200"),
+      donor("Matt Birch", "$500"),
+      donor("Louis Bornman", "$100"),
+      donor("William Bradley", "$500"),
+      donor("Jim Breneman", "$25"),
+    ],
+    undisclosed:
+      "The filing contains many more donors than the small extracted sample listed here.",
+    reportingPeriod: "2025 year-end (2026 election cycle)",
+    source: "Kansas ethics filing and campaign-finance reporting",
+  },
+  "cindy-holscher": {
+    totalRaised: "$397,952.07 (2025 year-end)",
+    narrative:
+      "Holscher's year-end filing showed $397,952.07 raised, $218,060.34 spent, and $179,891.73 cash on hand. She was clearly behind Corson financially, but still had a real statewide donor base and no sign of self-funding. Her numbers looked more like a conventional Democratic primary campaign than a vanity project.",
+    donors: [
+      donor("Thomas Adrian", "$500"),
+      donor("Quinta Avance", "$50"),
+      donor("Elizabeth Bishop", "$100"),
+      donor("Archie Blumhorst", "$250"),
+      donor("Rick Blumhorst", "$100"),
+      donor("Rick Blumhorst", "$1,000"),
+    ],
+    undisclosed:
+      "The extracted donor sample is only a partial view of the full filing.",
+    reportingPeriod: "2025 year-end (2026 election cycle)",
+    source: "Kansas ethics filing and campaign-finance reporting",
+  },
+  "marty-tuley": {
+    totalRaised: "$2,600.00 (2025 year-end)",
+    narrative:
+      "Tuley's filing was tiny by statewide standards: $2,600.00 raised, $193.89 spent, and $2,406.11 cash on hand. That matches the rest of the public record, which portrays him as a long-shot outsider campaign with a small early donor circle rather than a developed statewide finance machine.",
+    donors: [
+      donor("Todd Decuir", "$500"),
+      donor("George Grieb", "$500"),
+      donor("Ernesto Hodison", "$100"),
+      donor("William England", "$50"),
+    ],
+    undisclosed:
+      "The raw-dump pass did not fully reconstruct the complete itemized schedule.",
+    reportingPeriod: "2025 year-end (2026 election cycle)",
+    source: "Kansas ethics filing and candidate research files",
+  },
+  "charlotte-ohara": {
+    totalRaised: "$589,550.97 (2025 year-end)",
+    narrative:
+      "O'Hara's filing showed $589,550.97 raised, $78,652.57 spent, and $510,898.40 cash on hand. A large piece of that came from O'Hara herself, including a $193,000 self-funding entry, which makes her campaign far more financially serious than her long-shot status might otherwise suggest.",
+    donors: [
+      donor("Charlotte O'Hara (self-funding entry)", "$193,000"),
+      donor("Victor Wirtz", "$104.10"),
+      donor("Ralph Yaple", "$100"),
+      donor("Sandra Nider", "$35"),
+      donor("Nancy Czinege", "$104.10"),
+      donor("Pam and Robb Ferguson", "$260.25"),
+    ],
+    reportingPeriod: "2025 year-end (2026 election cycle)",
+    source: "Kansas ethics filing and candidate research files",
+  },
+  "stacy-rogers": {
+    totalRaised: "$24,862.65 (2025 year-end)",
+    narrative:
+      "Rogers' filing showed $24,862.65 in receipts, $11,072.75 in expenditures, and $14,470.23 cash on hand, plus $1,200 in in-kind support. That is enough to prove a real campaign committee, but it remains a minor operation in a very crowded governor primary.",
+    donors: [
+      donor("James Korf Jr.", "$200.00"),
+      donor("Shae's Point of View (in-kind video services)", "$1,200.00"),
+      donor("Stacy Rogers loan to campaign", "$2,397.79"),
+      donor("Itemized receipts", "$20,989.36"),
+      donor("Unitemized contributions", "$3,873.29"),
+    ],
+    reportingPeriod: "2025 year-end (2026 election cycle)",
+    source: "Kansas ethics filing and candidate research files",
+  },
+  "joy-eakins": {
+    totalRaised: "$1,142,759.55 (2025 year-end)",
+    narrative:
+      "Eakins reported $1,142,759.55 in contributions and other receipts, $116,268.91 in expenditures, and $1,026,490.64 cash on hand. The central fact is the $1,000,000 personal loan, which means this was overwhelmingly a self-funded campaign with only about $140,000 in outside support.",
+    donors: [
+      donor("Joy Eakins (self-loan)", "$1,000,000.00"),
+      donor("Ryan Baty", "$1,041.02"),
+      donor("Debby Ponton", "$364.36"),
+      donor("Sandy Pickert", "$250.00"),
+      donor("Walter Rosenbaum", "$260.25"),
+      donor("Fred Postlewait", "$100.00"),
+    ],
+    reportingPeriod: "2025 year-end (2026 election cycle)",
+    source: "Kansas ethics filing and candidate research files",
+  },
+  "philip-sarnecki": {
+    totalRaised: "$2,528,715.73 (direct committee receipts at 2025 year-end)",
+    narrative:
+      "Sarnecki's year-end committee filing showed $2,528,715.73 in contributions and other receipts, $209,667.81 spent, and $2,319,047.92 cash on hand, plus more than $215,000 in in-kind support. The defining feature is a $2,000,000 self-loan, which means the campaign was still dominated by Sarnecki's personal money even before counting the outside organizations aligned with him.",
+    donors: [
+      donor("Philip Sarnecki (self-loan)", "$2,000,000.00"),
+      donor("John Goodwin", "$2,500.00"),
+      donor("Ronda Anderson", "$260.25"),
+      donor("Jim Burt", "$250.00"),
+      donor("Eben Fowler", "$100.00"),
+      donor("Lenin Guerra", "$100.00"),
+    ],
+    undisclosed:
+      "Separate supportive organizations were repeatedly referenced in reporting, but not fully identified donor by donor.",
+    reportingPeriod: "2025 year-end (2026 election cycle)",
+    source: "Kansas ethics filing and statewide campaign-finance reporting",
+  },
+  "kris-kobach": {
+    totalRaised: "$337,330.24 (2025 year-end)",
+    narrative:
+      "Kobach's 2025 filing showed $337,330.24 raised, $52,558.52 spent, and $502,626 cash on hand. He did not need self-funding to post a strong cash position, and the early itemized sample suggested a donor base built more on many smaller Kansas contributions than on one or two giant checks.",
+    donors: [
+      donor("Kevin Arburn", "$10.41"),
+      donor("Gary Grimes", "$25.00"),
+      donor("Julia Kirk", "$26.03"),
+      donor("Karen Piper", "$26.03"),
+      donor("Barbara Anderson", "$26.03"),
+      donor("John Rysavy", "$29.80"),
+      donor("Timothy Voth", "$50.00"),
+      donor("David Powell", "$50.00"),
+      donor("Ann Peterson", "$100.00"),
+    ],
+    undisclosed:
+      "The extracted sample covers only the first visible slice of a much longer Schedule A.",
+    reportingPeriod: "2025 year-end (2026 election cycle)",
+    source: "Kansas ethics filing and campaign research files",
+  },
+  "chris-mann": {
+    totalRaised: "$536,639.57 (2025 year-end)",
+    narrative:
+      "Mann's filing showed $536,639.57 raised, $280,041.49 spent, and $257,257.08 cash on hand, plus $7,655.77 in in-kind support and no personal loans on the reviewed summary page. That made him a serious, donor-backed challenger who actually outraised the incumbent during the period reviewed.",
+    donors: [
+      donor("James Bartimus", "$1,000.00"),
+      donor("Andrea Himoff", "$1,000.00"),
+      donor("Scott Teeter", "$1,000.00"),
+      donor("Thomas Adrian", "$500.00"),
+      donor("Karen Mann", "$500.00"),
+      donor("Linda Salem", "$500.00"),
+      donor("Paige Ballard", "$200.00"),
+      donor("Louis Bornman", "$50.00"),
+    ],
+    undisclosed:
+      "The filing includes many more contributors than the small extracted sample listed here.",
+    reportingPeriod: "2025 year-end (2026 election cycle)",
+    source: "Kansas ethics filing and campaign research files",
+  },
+  "pat-proctor": {
+    totalRaised: "$312,046.74 (2025 year-end)",
+    narrative:
+      "Proctor's filing showed $312,046.74 raised in 2025 and about $209,383.28 cash on hand entering 2026. Statewide reporting also indicated roughly $134,000 of that total came from personal loans, which means the donor-funded portion was much smaller than the topline figure first suggests.",
+    donors: [
+      donor("John Lahnes", "$250.00"),
+      donor("Dennis White", "$250.00"),
+      donor("John Jacob Kotzman", "$100.00"),
+      donor("Mike Lehnherr", "$100.00"),
+      donor("Chad Stafford", "$100.00"),
+      donor("John Donovan", "$100.00"),
+      donor("George Pogge", "$50.00"),
+      donor("Michelle Cebe", "$50.00"),
+    ],
+    undisclosed:
+      "The full Schedule A contains many more donors than the sample extracted here.",
+    reportingPeriod: "2025 year-end (2026 election cycle)",
+    source: "Kansas ethics filing SW04PP_202601 and statewide reporting",
+  },
+  "ken-rahjes": {
+    totalRaised: "$24,070.30 (2025 year-end)",
+    narrative:
+      "Rahjes reported $24,070.30 raised, only $1,442.98 spent, and $22,627.32 cash on hand. He was financially dwarfed by Pat Proctor, which fits the broader story of Rahjes as the traditional but under-resourced Republican in the secretary of state primary.",
+    donors: [
+      donor("Scott Foote", "$3,300"),
+      donor("Kansas Sorghum Producers Association", "$2,000"),
+      donor("Michael McClellan", "$1,000"),
+      donor("Clay Scott", "$500"),
+      donor("Kent Glasscock", "$100"),
+      donor("Johnson Farms", "$100"),
+      donor("Kent Winter", "$100"),
+    ],
+    reportingPeriod: "2025 year-end (2026 election cycle)",
+    source: "Kansas ethics filing and campaign research files",
+  },
+  "jennifer-day": {
+    totalRaised: "$84,304.87 (2025 year-end)",
+    narrative:
+      "Day's official Kansas statewide filing showed $84,304.87 raised, $69,564.35 spent, and $14,740.52 cash on hand for the period from January 1, 2025 through December 31, 2025. The donor mix in the filing is exactly what her public brand suggests: mostly small and medium individual contributions from northeast Kansas rather than a PAC-driven statewide machine.",
+    donors: [
+      donor("James D Childers", "$25"),
+      donor("Louis Bornman", "$100"),
+      donor("Michael Tourtellot", "$100"),
+      donor("Dan Wancura", "$50"),
+      donor("David Lambertson", "$250"),
+      donor("Leslie Mark", "$25"),
+      donor("Diana Stewart", "$10"),
+      donor("Dan Osman", "$250"),
+    ],
+    undisclosed:
+      "The filing contained more itemized contributors than the short extracted sample shown here.",
+    reportingPeriod: "2025 year-end (2026 election cycle)",
+    source: "Kansas ethics filing SW04JD_202601",
+  },
+  "sam-lane": {
+    totalRaised: "$590.91 (early public filing)",
+    narrative:
+      "Lane's filing was tiny compared with the rest of the statewide field: $590.91 raised, including $580.27 from Lane himself. That lines up with the larger public picture of a personal, lightly resourced outsider campaign without a serious donor network or PAC structure behind it.",
+    donors: [donor("Samuel Lane", "$580.27")],
+    undisclosed:
+      "The reviewed record did not show a broader institutional donor base beyond Lane's own contribution and a very small handful of minor activity.",
+    reportingPeriod: "most recent public filing reviewed",
+    source: "Campaign research files and reviewed public finance summary",
+  },
+  "daniel-hawkins": {
+    totalRaised: "$417,305.07 (2025 year-end)",
+    narrative:
+      "Hawkins' filing showed $417,305.07 raised, $33,295.22 spent, and $384,009.85 cash on hand, including a $10,000 personal loan. The money proves this is a real statewide campaign, but the more important finance story is the conflict question: Hawkins is an active insurance agent receiving commissions from companies he would regulate as insurance commissioner.",
+    donors: [
+      donor("Kenny Doonan", "$2,000.00"),
+      donor("Chad Stafford", "$1,000.00"),
+      donor("Visa", "$1,000.00"),
+      donor("Gary Obomy", "$1,041.02"),
+      donor("Pat Do", "$350.00"),
+      donor("Bill Pickert", "$104.10"),
+      donor("Kyle Hoffman", "$100.00"),
+      donor("C. Douglas Blex", "$52.05"),
+    ],
+    undisclosed:
+      "The larger filing should be read alongside Hawkins' statements of substantial interest because of the insurance-industry conflict question.",
+    reportingPeriod: "2025 year-end (2026 election cycle)",
+    source: "Kansas ethics filing SW03DH_202601 and campaign research files",
+  },
+  "dinah-sykes": {
+    totalRaised: "No Kansas statewide finance report listed online as of 2026-04-01",
+    narrative:
+      "The official Kansas statewide filings index lists Dinah Sykes with a treasurer appointment form, but the report columns for 2024, 2025, and 2026 are all N/A. That means there was no statewide receipts-and-expenditures report posted online for her insurance-commissioner campaign in this pass. The clearest finance fact that is public is therefore her own campaign pledge: she says she will not take money from the insurance industry.",
+    donors: [
+      donor("Kansas statewide filing report", "No report listed online"),
+      donor("Insurance-industry contributions", "Pledged to decline"),
+    ],
+    undisclosed:
+      "The treasurer appointment is public, but a statewide donor ledger/report was not listed on the Kansas filing index as of April 1, 2026.",
+    reportingPeriod: "through 2026-04-01",
+    source: "Kansas statewide filings index / campaign statements / Kansas Reflector",
+  },
+  "barb-wasinger": {
+    totalRaised: "$11,134.20 (House filing coverage: 01/01/2025 to 12/31/2025)",
+    narrative:
+      "Wasinger's official House filing is much clearer than the earlier placeholder text. Her 2025 year-end report showed $11,134.20 in contributions and other receipts, $31,179.60 in expenditures, and $17,133.63 cash on hand after starting the period with $37,179.03 already in the account. The donor mix in the filing is notable for a rural Republican incumbent: DoorDash, elevator-union money, security and healthcare interests, banking and contractor PACs, plus Wasinger's own contribution all appear in the posted Schedule A.",
+    donors: [
+      donor("DoorDash, Inc.", "$500.00"),
+      donor("International Union of Elevator Constructors Political Account", "$250.00"),
+      donor("Amarok Ultimate Perimeter Security", "$250.00"),
+      donor("Operating Engineers Local 101", "$500.00"),
+      donor("POM of Kansas LLC", "$500.00"),
+      donor("Kansas Livestock", "$500.00"),
+      donor("Kansas Bankers Association PAC", "$500.00"),
+      donor("Barbara Wasinger", "$2,792.50"),
+    ],
+    undisclosed:
+      "The posted House PDF contains additional donors beyond the sample listed here.",
+    reportingPeriod: "2025 year-end (2026 House cycle)",
+    source: "Kansas House ethics filing H111BW_202601",
+  },
+};
+
 const BAD_HEADING_PHRASES = [
   "relationship to",
   "information gaps",
@@ -669,6 +1179,388 @@ const BAD_HEADING_PHRASES = [
   "key findings",
   "recommended next steps",
   "gold standard",
+];
+
+const TONE_REPLACEMENTS = [
+  { pattern: /THIS IS YOUR GUY\.?\s*/gi, replacement: "" },
+  {
+    pattern: /your project's home church and inspiration/gi,
+    replacement: "Celebration Community Church",
+  },
+  {
+    pattern: /This is not someone who shows up on Easter and Christmas\./g,
+    replacement: "The public record describes sustained church involvement over many years.",
+  },
+  {
+    pattern: /\ban notable level\b/gi,
+    replacement: "a notable level",
+  },
+  {
+    pattern: /this is not a photo-op position/gi,
+    replacement: "this is a long-running volunteer role",
+  },
+  {
+    pattern: /This is someone who has been faithfully serving/gi,
+    replacement: "Public records describe him as serving",
+  },
+  {
+    pattern: /Celebration Community Church -- Celebration Community Church --/g,
+    replacement: "Celebration Community Church --",
+  },
+  {
+    pattern: /He is the Board PRESIDENT of USD 489\./g,
+    replacement: "He is the board president of USD 489.",
+  },
+  {
+    pattern: /This is someone who knows theology\./g,
+    replacement:
+      "The language used is more theological and specific than a generic campaign faith reference.",
+  },
+  {
+    pattern: /This is a man whose faith clearly informs his worldview\./g,
+    replacement: "The available public record suggests his faith informs his worldview.",
+  },
+  {
+    pattern: /\bnot performative\b/gi,
+    replacement: "documented in public reporting",
+  },
+  {
+    pattern: /\bgenuine, sustained commitment\b/gi,
+    replacement: "documented, sustained involvement",
+  },
+  {
+    pattern: /\bgenuine legacy initiative\b/gi,
+    replacement: "documented initiative",
+  },
+  {
+    pattern: /\bgenuine community investment\b/gi,
+    replacement: "documented community involvement",
+  },
+  {
+    pattern: /\bgenuinely bipartisan\b/gi,
+    replacement: "described in public reporting as bipartisan",
+  },
+  {
+    pattern: /\bgenuinely invisible\b/gi,
+    replacement: "largely absent",
+  },
+  { pattern: /\bextraordinary\b/gi, replacement: "notable" },
+  { pattern: /\bcompelling\b/gi, replacement: "notable" },
+  { pattern: /\bremarkable\b/gi, replacement: "unusual" },
+  { pattern: /\bemphatic\b/gi, replacement: "clear" },
+  {
+    pattern: /\belder statesperson\b/gi,
+    replacement: "long-serving member",
+  },
+  {
+    pattern: /\belder stateswoman\b/gi,
+    replacement: "long-serving member",
+  },
+  {
+    pattern: /\binstitutional backbone of the commission\b/gi,
+    replacement: "longest-serving member of the commission",
+  },
+  {
+    pattern: /\battack dog\b/gi,
+    replacement: "aggressive critic",
+  },
+  {
+    pattern: /\bcrossover appeal\b/gi,
+    replacement: "cross-party appeal",
+  },
+  {
+    pattern: /\bpowerful signal\b/gi,
+    replacement: "notable signal",
+  },
+  {
+    pattern: /\bhigh-profile Republican insider\b/gi,
+    replacement: "well-known Republican insider",
+  },
+  {
+    pattern: /\bleading conservative legislative figure\b/gi,
+    replacement: "senior conservative legislative figure",
+  },
+  {
+    pattern: /\bmajor statewide storyline\b/gi,
+    replacement: "significant statewide race dynamic",
+  },
+  {
+    pattern: /\bstrong cash position\b/gi,
+    replacement: "large cash-on-hand balance",
+  },
+  {
+    pattern: /\bserious donor network\b/gi,
+    replacement: "substantial donor network",
+  },
+  {
+    pattern: /\breal statewide campaign\b/gi,
+    replacement: "active statewide campaign",
+  },
+  {
+    pattern: /\breal campaign committee\b/gi,
+    replacement: "active campaign committee",
+  },
+  {
+    pattern: /\breal campaign identity\b/gi,
+    replacement: "prominent part of his campaign identity",
+  },
+  {
+    pattern: /\blong-shot outsider campaign\b/gi,
+    replacement: "lower-profile outsider campaign",
+  },
+  {
+    pattern: /\blong-shot candidate\b/gi,
+    replacement: "lower-profile candidate",
+  },
+  {
+    pattern: /\bmost enigmatic candidate\b/gi,
+    replacement: "least documented candidate",
+  },
+  {
+    pattern: /\bmost unconventional candidate\b/gi,
+    replacement: "one of the more unconventional candidates",
+  },
+  {
+    pattern: /\bmost experienced commissioner\b/gi,
+    replacement: "longest-serving commissioner",
+  },
+  {
+    pattern: /\bmost dramatic personal story\b/gi,
+    replacement: "most widely reported personal story",
+  },
+  {
+    pattern: /\bmost powerful person in Hays city government\b/gi,
+    replacement: "central administrator in Hays city government",
+  },
+  {
+    pattern: /\bmost consequential unelected official\b/gi,
+    replacement: "one of the most influential unelected officials",
+  },
+  {
+    pattern: /\beffectively irreplaceable\b/gi,
+    replacement: "difficult to replace in the near term",
+  },
+  {
+    pattern: /\bstrongest pure donor operation\b/gi,
+    replacement: "largest non-self-loan donor base",
+  },
+  {
+    pattern: /\bclearest grassroots-funded candidates?\b/gi,
+    replacement: "more heavily small-dollar-funded candidates",
+  },
+  {
+    pattern: /\bclearest federal filing record\b/gi,
+    replacement: "most fully documented federal filing record",
+  },
+  {
+    pattern: /\bclearest finance fact\b/gi,
+    replacement: "most explicit public finance fact",
+  },
+  {
+    pattern: /\bclearest neutral third-party identity anchor\b/gi,
+    replacement: "most straightforward third-party identity anchor",
+  },
+  {
+    pattern: /\bclearest current messaging\b/gi,
+    replacement: "most current messaging",
+  },
+  {
+    pattern: /\bclearest public view\b/gi,
+    replacement: "most direct public view",
+  },
+  {
+    pattern: /\bclearest public-facing theme\b/gi,
+    replacement: "main public-facing theme",
+  },
+  {
+    pattern: /\bstrongest public throughline\b/gi,
+    replacement: "main public throughline",
+  },
+  {
+    pattern: /\bfaith credentials are among the strongest on this entire investigation\b/gi,
+    replacement: "public faith record is among the most extensively documented in this investigation",
+  },
+  {
+    pattern: /\bdeepest and most documented church leadership records\b/gi,
+    replacement: "most fully documented church leadership records",
+  },
+  {
+    pattern: /\bstrongest credential\b/gi,
+    replacement: "most prominent credential",
+  },
+  {
+    pattern: /\bstrongest corporate-finance résumé\b/gi,
+    replacement: "most extensive corporate-finance résumé",
+  },
+  {
+    pattern: /\bstrongest corporate resume\b/gi,
+    replacement: "most extensive corporate resume",
+  },
+  {
+    pattern: /\bstrongest geographic credentials\b/gi,
+    replacement: "clearest geographic ties",
+  },
+  {
+    pattern: /\bstrongest economic development credentials\b/gi,
+    replacement: "deepest economic-development background",
+  },
+  {
+    pattern: /\bstrongest institutional candidate\b/gi,
+    replacement: "most institutionally established candidate",
+  },
+  {
+    pattern: /\bstrongest Democratic candidate by every measurable metric\b/gi,
+    replacement: "best-funded and most institutionally backed Democratic candidate in the available public record",
+  },
+  {
+    pattern: /\bstrongest policy-focused Democrats?\b/gi,
+    replacement: "more policy-focused Democrats",
+  },
+  {
+    pattern: /\bstrongest corporate-finance\b/gi,
+    replacement: "most extensive corporate-finance",
+  },
+  {
+    pattern: /\bHis profile is strongest among Republicans who prioritize election security above all else\b/gi,
+    replacement: "His profile is most aligned with Republicans who prioritize election security above all else",
+  },
+  {
+    pattern: /\bmost credible establishment alternative\b/gi,
+    replacement: "most established alternative",
+  },
+  {
+    pattern: /\bmost credible Democratic institutional figure\b/gi,
+    replacement: "most senior Democratic institutional figure",
+  },
+  {
+    pattern: /\bcredible military-and-business conservative\b/gi,
+    replacement: "military-and-business conservative",
+  },
+  {
+    pattern: /\bcredible Jewish candidate\b/gi,
+    replacement: "visible Jewish candidate",
+  },
+  {
+    pattern: /\benough prior legislative identity to be credible\b/gi,
+    replacement: "enough prior legislative identity to be recognizable",
+  },
+  {
+    pattern: /\beither refreshingly authentic or dangerously unprepared -- depends on the voter\b/gi,
+    replacement: "a mix of outsider appeal and limited campaign infrastructure",
+  },
+  {
+    pattern: /\bno viable path to the nomination\b/gi,
+    replacement: "a limited visible path to the nomination",
+  },
+  {
+    pattern: /\bdisqualifying for most voters\b/gi,
+    replacement: "a likely vulnerability with many voters",
+  },
+  {
+    pattern: /\bessentially a placeholder candidate at this stage\b/gi,
+    replacement: "still minimally documented at this stage",
+  },
+  {
+    pattern: /\bThe January 6 motivation for entering politics is sincere\b/gi,
+    replacement: "He has publicly tied his decision to run to January 6",
+  },
+  {
+    pattern: /\bRecommend direct inquiry\b/gi,
+    replacement: "Direct inquiry would be required for verification",
+  },
+  {
+    pattern: /\bThis is not generic \"I'm spiritual\" language\./gi,
+    replacement: "This language is more specific than a generic campaign faith reference.",
+  },
+  {
+    pattern: /\bThe money proves this is a real statewide campaign\b/gi,
+    replacement: "The filing shows an active statewide campaign",
+  },
+  {
+    pattern: /\bThe state ethics report gives the clearest public view of how his campaign is funded\b/gi,
+    replacement: "The state ethics report gives the most direct public view of how his campaign is funded",
+  },
+  {
+    pattern: /\bone of the clearest examples of a self-funded challenge\b/gi,
+    replacement: "one of the more clearly documented self-funded challenges",
+  },
+  {
+    pattern: /\bfar more developed public paper trail than any challenger\b/gi,
+    replacement: "more extensive public paper trail than any challenger",
+  },
+  {
+    pattern: /\bdwarf the rest of the field\b/gi,
+    replacement: "are larger than the rest of the field",
+  },
+  {
+    pattern: /\bone of the clearest perennial candidates in the field\b/gi,
+    replacement: "one of the more visible perennial candidates in the field",
+  },
+  {
+    pattern: /\bthe clearest geographic ties\b/gi,
+    replacement: "the most direct geographic ties",
+  },
+  {
+    pattern: /\bThe clearest public policy marker\b/gi,
+    replacement: "The most visible public policy marker",
+  },
+  {
+    pattern: /\bone of the clearest examples in this cohort\b/gi,
+    replacement: "one of the more visible examples in this cohort",
+  },
+  {
+    pattern: /\bHe is the clearest example of faith lived out in public service on this entire list\b/gi,
+    replacement:
+      "He is one of the most fully documented examples of faith connected to public service on this list",
+  },
+  {
+    pattern: /\bone of the clearest board voices on capital planning\b/gi,
+    replacement: "one of the more consistent board voices on capital planning",
+  },
+  {
+    pattern: /\bone of the clearest \"process first\" voices on the board\b/gi,
+    replacement: "one of the more consistently \"process first\" voices on the board",
+  },
+  {
+    pattern: /\bone of the clearest supporters of the bond-buildout phase\b/gi,
+    replacement: "one of the more consistent supporters of the bond-buildout phase",
+  },
+  {
+    pattern: /\bthe clearest finance answer\b/gi,
+    replacement: "the most explicit finance answer",
+  },
+  {
+    pattern: /\bone of the clearest public answers in the field\b/gi,
+    replacement: "one of the most explicit public answers in the field",
+  },
+  {
+    pattern: /\bhistoric significance as the first openly gay Kansas Senate candidate is genuine\b/gi,
+    replacement: "historic significance as the first openly gay Kansas Senate candidate is documented",
+  },
+  {
+    pattern: /\bnotable and genuine\b/gi,
+    replacement: "notable and well documented",
+  },
+  {
+    pattern: /\bgenuine cross-party appeal\b/gi,
+    replacement: "some cross-party appeal",
+  },
+  {
+    pattern: /\bCatholic faith appears genuine\b/gi,
+    replacement: "Catholic faith appears well documented",
+  },
+  {
+    pattern: /\bThis is genuine, documented in public reporting\b/gi,
+    replacement: "This appears well documented in public reporting",
+  },
+  {
+    pattern: /\bthe \"moderate Republican\" wing of Kansas politics sees her as credible\b/gi,
+    replacement: "the \"moderate Republican\" wing of Kansas politics appears to see her as a recognizable contender",
+  },
+  {
+    pattern: /\bmost consequential campaign action\b/gi,
+    replacement: "main campaign action",
+  },
 ];
 
 function normalize(value) {
@@ -786,8 +1678,9 @@ function scoreSection(candidate, reportId, reportName, title) {
 
   const codexBoost = /codex deep research/i.test(title) ? 60 : 0;
   const roundTwoBoost = /round 2/i.test(title) ? 5 : 0;
+  const oppositionBoost = reportName === "opposition-research.md" ? 35 : 0;
 
-  return fileScore + headingScore + codexBoost + roundTwoBoost;
+  return fileScore + headingScore + codexBoost + roundTwoBoost + oppositionBoost;
 }
 
 function captureCandidateSections(candidate, reports) {
@@ -1137,6 +2030,63 @@ function ensureSentence(value) {
   return /[.!?]$/.test(trimmed) ? trimmed : `${trimmed}.`;
 }
 
+function neutralizePublishedText(value) {
+  if (!value) {
+    return value;
+  }
+
+  let updated = value;
+  for (const { pattern, replacement } of TONE_REPLACEMENTS) {
+    updated = updated.replace(pattern, replacement);
+  }
+
+  return updated
+    .replace(/[ \t]+\n/g, "\n")
+    .replace(/\n{3,}/g, "\n\n")
+    .replace(/\s{2,}/g, " ")
+    .replace(/\s+([,.;:!?])/g, "$1")
+    .trim();
+}
+
+function neutralizeCampaignFinance(finance) {
+  if (!finance) {
+    return finance;
+  }
+
+  return {
+    ...finance,
+    narrative: neutralizePublishedText(finance.narrative),
+    undisclosed: finance.undisclosed ? neutralizePublishedText(finance.undisclosed) : undefined,
+  };
+}
+
+function neutralizeCandidateTone(candidateRecord) {
+  candidateRecord.whoTheyAre = neutralizePublishedText(candidateRecord.whoTheyAre);
+  candidateRecord.theirRecord = neutralizePublishedText(candidateRecord.theirRecord);
+
+  if (candidateRecord.whereTheyWorship) {
+    candidateRecord.whereTheyWorship = neutralizePublishedText(candidateRecord.whereTheyWorship);
+  }
+
+  if (candidateRecord.church?.details) {
+    candidateRecord.church.details = neutralizePublishedText(candidateRecord.church.details);
+  }
+
+  if (Array.isArray(candidateRecord.whatYouShouldKnow)) {
+    candidateRecord.whatYouShouldKnow = dedupeParagraphs(
+      candidateRecord.whatYouShouldKnow
+        .map((fact) => ensureSentence(neutralizePublishedText(fact)))
+        .filter(Boolean)
+    ).map((fact) => fact.replace(/\.$/, ""));
+  }
+
+  if (candidateRecord.campaignFinance) {
+    candidateRecord.campaignFinance = neutralizeCampaignFinance(candidateRecord.campaignFinance);
+  }
+
+  return candidateRecord;
+}
+
 function dedupeParagraphs(paragraphs) {
   const result = [];
   const seen = new Set();
@@ -1180,6 +2130,14 @@ function titlePriority(title) {
   if (normalized.includes("public record findings")) return 86;
   if (normalized.includes("campaign finance deep dive")) return 92;
   if (normalized.includes("faith church denomination church url")) return 92;
+  if (normalized.includes("adverse public record")) return 98;
+  if (normalized.includes("verified adverse findings")) return 97;
+  if (normalized.includes("opposition research")) return 96;
+  if (normalized.includes("conflicts of interest")) return 95;
+  if (normalized.includes("litigation complaints investigations")) return 94;
+  if (normalized.includes("contradictions and reversals")) return 94;
+  if (normalized.includes("public criticism")) return 92;
+  if (normalized.includes("deleted changed archived content")) return 90;
   if (normalized.includes("controvers")) return 80;
   if (normalized.includes("personal information")) return 55;
   if (normalized.includes("basic profile")) return 54;
@@ -1220,7 +2178,11 @@ function dedupeSegments(segments) {
 function buildNarrative(segments, fallback, maxParagraphs = 4) {
   const paragraphs = [];
   for (const segment of segments) {
-    paragraphs.push(...sectionToParagraphs(segment.content, maxParagraphs));
+    paragraphs.push(
+      ...sectionToParagraphs(segment.content, maxParagraphs).map((paragraph) =>
+        neutralizePublishedText(paragraph)
+      )
+    );
     if (paragraphs.length >= maxParagraphs) {
       break;
     }
@@ -1301,12 +2263,15 @@ function buildFamily(fieldMaps, segments) {
 
 function buildFacts(candidate, segments, finance, faithNarrative) {
   const facts = [];
-  const factSegments = selectSegments(segments, FACT_KEYWORDS, 8);
+  const factSegments = dedupeSegments([
+    ...selectSegments(segments, OPPOSITION_KEYWORDS, 5),
+    ...selectSegments(segments, FACT_KEYWORDS, 8),
+  ]);
 
   for (const segment of factSegments) {
     const lines = sectionToParagraphs(segment.content, 3);
     for (const line of lines) {
-      const cleaned = line.replace(/\.$/, "");
+      const cleaned = neutralizePublishedText(line).replace(/\.$/, "");
       if (cleaned.length < 30) {
         continue;
       }
@@ -1319,7 +2284,7 @@ function buildFacts(candidate, segments, finance, faithNarrative) {
   }
 
   if (faithNarrative) {
-    const firstSentence = faithNarrative.split(/[.!?]\s/)[0]?.trim();
+    const firstSentence = neutralizePublishedText(faithNarrative).split(/[.!?]\s/)[0]?.trim();
     if (firstSentence && firstSentence.length > 25) {
       facts.push(firstSentence.replace(/\.$/, ""));
     }
@@ -1334,7 +2299,7 @@ function buildFacts(candidate, segments, finance, faithNarrative) {
     for (const segment of supplementalSegments) {
       const lines = sectionToParagraphs(segment.content, 3);
       for (const line of lines) {
-        const cleaned = line.replace(/\.$/, "");
+        const cleaned = neutralizePublishedText(line).replace(/\.$/, "");
         if (cleaned.length < 30) {
           continue;
         }
@@ -1476,31 +2441,29 @@ function prettifyHeading(title) {
 }
 
 function buildCampaignFinance(candidate, segments) {
+  const override = FINANCE_OVERRIDES[candidate.slug];
+  if (override) {
+    return neutralizeCampaignFinance(override);
+  }
+
   const financeSegments = selectSegments(segments, FINANCE_KEYWORDS, 6);
 
   if (financeSegments.length === 0) {
-    return {
-      totalRaised: "no detailed total was published in the report materials reviewed",
-      narrative:
-        `The report materials reviewed for ${candidate.name} did not include a full donor-by-donor breakdown. We still linked every finance source we found below so readers can inspect the filings directly.`,
-      donors: [{ name: "Detailed donor list", amount: "Not disclosed in the report materials reviewed" }],
-      undisclosed:
-        "This profile uses the campaign-finance sources available in the dossier set. Some filings may require direct review at FEC, OpenSecrets, or Kansas ethics records for line-item detail.",
-      reportingPeriod: "2026 cycle",
-      source: "Report dossiers and linked finance sources",
-    };
+    return buildContextualFinanceFallback(candidate);
   }
 
-  const narrative = buildNarrative(
+  const narrative = neutralizePublishedText(
+    buildNarrative(
     financeSegments,
     `Campaign finance reporting for ${candidate.name} is documented in the source links below.`,
     2
+    )
   );
 
   let totalRaised =
     pickField(financeSegments.map((segment) => extractFieldMap(segment.content)), ["total raised"]) ??
     findMoneyLine(financeSegments, /total raised|raised/i) ??
-    "finance totals were discussed in the report materials reviewed";
+    inferFinanceHeadline(candidate, narrative);
 
   if (!/^[$~0-9]/.test(totalRaised) && !/finance totals/i.test(totalRaised)) {
     totalRaised = totalRaised.replace(/^Total raised:\s*/i, "");
@@ -1567,23 +2530,266 @@ function buildCampaignFinance(candidate, segments) {
     }
   }
 
+  if (shouldUseContextualFinanceFallback(candidate, narrative)) {
+    return buildContextualFinanceFallback(candidate, narrative);
+  }
+
   if (donors.length === 0) {
-    donors.push({ name: "Detailed donor list", amount: "Not broken out in the report materials" });
+    donors.push(...fallbackDonorsFromNarrative(candidate, narrative));
   }
 
   const undisclosed =
     /not identified|not disclosed|gap|require|check/i.test(narrative) || donors[0].amount.includes("Not")
-      ? "The dossier set flags gaps in line-item donor detail for this candidate. Use the linked filing sources for the complete record."
+      ? buildContextualUndisclosed(candidate, narrative)
       : undefined;
 
-  return {
+  return neutralizeCampaignFinance({
     totalRaised,
     narrative,
     donors,
     undisclosed,
-    reportingPeriod: financeSegments[0]?.reportDate?.slice(0, 4) === "2026" ? "2026 cycle" : "recent reporting period",
-    source: "Report dossiers and linked filing sources",
+    reportingPeriod: inferFinanceReportingPeriod(candidate, financeSegments, narrative),
+    source: buildFinanceSourceLabel(candidate, narrative),
+  });
+}
+
+function shouldUseContextualFinanceFallback(candidate, narrative) {
+  const lowered = (narrative ?? "").toLowerCase();
+
+  return (
+    /not applicable/.test(lowered) ||
+    /not a candidate/.test(lowered) ||
+    /appointed superintendent/.test(lowered) ||
+    /no itemized donor ledger/.test(lowered) ||
+    /no public donor table/.test(lowered) ||
+    /no donor-by-donor table/.test(lowered) ||
+    /no public itemized donor table/.test(lowered) ||
+    /did not surface a clearly indexed public campaign finance report/.test(lowered) ||
+    /no candidate-specific public campaign finance ledger surfaced/.test(lowered) ||
+    /did not find a donor table or itemized county-race finance report/.test(lowered) ||
+    /family, friends, and community members/.test(lowered) ||
+    /no outside money/.test(lowered) ||
+    /outside the school district/.test(lowered) ||
+    /self-funded or very lightly funded/.test(lowered) ||
+    /county republican committee spending \$999/.test(lowered) ||
+    /text broadcast for "clerk bobbi dreiling"/.test(lowered) ||
+    candidate.position.includes("City Manager") ||
+    candidate.position.includes("Superintendent")
+  );
+}
+
+function buildContextualFinanceFallback(candidate, narrative) {
+  const lowered = (narrative ?? "").toLowerCase();
+
+  if (
+    /not applicable/.test(lowered) ||
+    /not a candidate/.test(lowered) ||
+    /appointed superintendent/.test(lowered) ||
+    candidate.position.includes("City Manager") ||
+    candidate.position.includes("Superintendent")
+  ) {
+    return {
+      totalRaised: "Not applicable",
+      narrative:
+        narrative ||
+        `${candidate.name} is not running in a campaign-finance context in the reviewed public record, so there is no donor ledger to reconstruct.`,
+      donors: [donor("Campaign finance", "Not applicable")],
+      reportingPeriod: "not applicable",
+      source: "Reviewed public records",
+    };
+  }
+
+  if (/county republican committee spending \$999/.test(lowered) || /text broadcast/.test(lowered)) {
+    return {
+      totalRaised: "No clean candidate total verified from reviewed county materials",
+      narrative,
+      donors: [
+        donor("County Republican committee text broadcast for Clerk Bobbi Dreiling", "$999"),
+        donor("Meeting-room rental tied to race activity", "$50"),
+      ],
+      undisclosed:
+        "The reviewed county-level material showed support spending tied to the race, but not a full candidate donor ledger.",
+      reportingPeriod: "most recent public county materials reviewed",
+      source: "Local reporting, county records, and reviewed public filings",
+    };
+  }
+
+  if (
+    /family, friends, and community members/.test(lowered) ||
+    /no outside money/.test(lowered) ||
+    /outside the school district/.test(lowered)
+  ) {
+    return {
+      totalRaised: schoolBoardFinanceLabel(candidate),
+      narrative,
+      donors: [
+        donor("Outside PAC/out-of-district money", "None reported"),
+        donor("Support base", "Family, friends, and community members"),
+      ],
+      undisclosed:
+        "The public record supports a local, low-dollar school-board finance profile rather than a donor-by-donor PAC ledger.",
+      reportingPeriod: "most recent school-board materials reviewed",
+      source: "Candidate questionnaires, local reporting, and reviewed public records",
+    };
+  }
+
+  if (/self-funded or very lightly funded/.test(lowered)) {
+    return {
+      totalRaised: "No public total verified; campaign appears self-funded or lightly funded",
+      narrative,
+      donors: [
+        donor("Public donor table", "No itemized ledger surfaced"),
+        donor("Campaign profile", "Appears self-funded or lightly funded"),
+      ],
+      undisclosed:
+        "The reviewed material pointed to a small, lightly financed campaign rather than a robust donor network.",
+      reportingPeriod: "most recent public materials reviewed",
+      source: "Local reporting and reviewed public records",
+    };
+  }
+
+  if (
+    /no itemized donor ledger|no public donor table|no donor-by-donor table|no public itemized donor table/.test(lowered) ||
+    /did not surface a clearly indexed public campaign finance report/.test(lowered) ||
+    /no candidate-specific public campaign finance ledger surfaced/.test(lowered) ||
+    /did not find a donor table or itemized county-race finance report/.test(lowered)
+  ) {
+    return {
+      totalRaised: "No campaign finance data available online",
+      narrative,
+      donors: [donor("Campaign finance data", "No campaign finance data available online")],
+      undisclosed:
+        "I did not find a searchable online donor ledger or filed campaign-finance report in this pass.",
+      reportingPeriod: "most recent public materials reviewed",
+      source: buildFinanceSourceLabel(candidate, narrative),
+    };
+  }
+
+  return {
+    totalRaised: inferFinanceHeadline(candidate, narrative),
+    narrative:
+      narrative ||
+      `The reviewed finance material for ${candidate.name} did not yield a clean donor ledger or a confirmed top-line total.`,
+    donors: fallbackDonorsFromNarrative(candidate, narrative),
+    undisclosed: buildContextualUndisclosed(candidate, narrative),
+    reportingPeriod: inferFinanceReportingPeriod(candidate, [], narrative),
+    source: buildFinanceSourceLabel(candidate, narrative),
   };
+}
+
+function fallbackDonorsFromNarrative(candidate, narrative) {
+  const lowered = (narrative ?? "").toLowerCase();
+
+  if (/outside the school district|no outside money|family, friends, and community members/.test(lowered)) {
+    return [
+      donor("Outside PAC/out-of-district money", "None reported"),
+      donor("Support base", "Family, friends, and community members"),
+    ];
+  }
+
+  if (
+    /no itemized donor ledger|no public donor table|no donor-by-donor table|no public itemized donor table/.test(lowered) ||
+    /did not surface a clearly indexed public campaign finance report/.test(lowered) ||
+    /no candidate-specific public campaign finance ledger surfaced/.test(lowered) ||
+    /did not find a donor table or itemized county-race finance report/.test(lowered)
+  ) {
+    return [donor("Campaign finance data", "No campaign finance data available online")];
+  }
+
+  return [donor("Campaign finance data", "No campaign finance data available online")];
+}
+
+function inferFinanceHeadline(candidate, narrative) {
+  const lowered = (narrative ?? "").toLowerCase();
+
+  if (/not applicable|not a candidate|appointed superintendent/.test(lowered)) {
+    return "Not applicable";
+  }
+
+  if (/outside the school district|no outside money|family, friends, and community members/.test(lowered)) {
+    return schoolBoardFinanceLabel(candidate);
+  }
+
+  if (
+    /no itemized donor ledger|no public donor table|no donor-by-donor table|no public itemized donor table/.test(lowered) ||
+    /did not surface a clearly indexed public campaign finance report/.test(lowered) ||
+    /no candidate-specific public campaign finance ledger surfaced/.test(lowered) ||
+    /did not find a donor table or itemized county-race finance report/.test(lowered)
+  ) {
+    return "No campaign finance data available online";
+  }
+
+  if (/self-funded or very lightly funded/.test(lowered)) {
+    return "No public total verified; campaign appears self-funded or lightly funded";
+  }
+
+  if (candidate.position.includes("U.S.")) {
+    return "No confirmed public federal total surfaced in reviewed sources";
+  }
+
+  return "No clean total verified in reviewed public sources";
+}
+
+function schoolBoardFinanceLabel(candidate) {
+  return `${candidate.name} reported a local, no-outside-money school-board finance profile`;
+}
+
+function localFinanceLabel(candidate) {
+  return "No campaign finance data available online";
+}
+
+function buildContextualUndisclosed(candidate, narrative) {
+  const lowered = (narrative ?? "").toLowerCase();
+
+  if (/not applicable|not a candidate|appointed superintendent/.test(lowered)) {
+    return undefined;
+  }
+
+  if (candidate.position.includes("U.S.")) {
+    return "The reviewed public record confirmed campaign activity but not a full federal donor-by-donor breakdown.";
+  }
+
+  if (/outside the school district|no outside money|family, friends, and community members/.test(lowered)) {
+    return "The public record supports a local donor story, but not a complete itemized ledger.";
+  }
+
+  return "The reviewed sources flagged gaps in line-item donor detail, so readers should rely on the linked filing trail for deeper verification.";
+}
+
+function inferFinanceReportingPeriod(candidate, financeSegments, narrative) {
+  const lowered = (narrative ?? "").toLowerCase();
+
+  if (/not applicable|not a candidate|appointed superintendent/.test(lowered)) {
+    return "not applicable";
+  }
+
+  if (/most recent public|school-board|county-level|local/.test(lowered)) {
+    return "most recent public materials reviewed";
+  }
+
+  return financeSegments[0]?.reportDate?.slice(0, 4) === "2026" ? "2026 cycle" : "recent reporting period";
+}
+
+function buildFinanceSourceLabel(candidate, narrative) {
+  const lowered = (narrative ?? "").toLowerCase();
+
+  if (/not applicable|not a candidate|appointed superintendent/.test(lowered)) {
+    return "Reviewed public records";
+  }
+
+  if (candidate.position.includes("U.S.")) {
+    return "FEC records, campaign research files, and reviewed public reporting";
+  }
+
+  if (/USD 489/.test(candidate.position)) {
+    return "Candidate questionnaires, local reporting, and reviewed public records";
+  }
+
+  if (/Hays|Ellis County/.test(candidate.position)) {
+    return "Local reporting, county records, and reviewed public filings";
+  }
+
+  return "Reviewed campaign-finance materials and public reporting";
 }
 
 function findMoneyLine(segments, pattern) {
@@ -1624,6 +2830,7 @@ function buildFaith(candidate, sections, segments, sources) {
       ...extractLabeledParagraphs(segment.content, "Faith Statements"),
     ])
   )
+    .map((paragraph) => neutralizePublishedText(paragraph))
     .slice(0, 3)
     .join("\n\n");
 
@@ -1642,13 +2849,15 @@ function buildFaith(candidate, sections, segments, sources) {
     narrative = `No public church affiliation was identified in the report materials reviewed for ${candidate.name}.`;
   }
 
+  narrative = neutralizePublishedText(narrative);
+
   const church =
     churchName
       ? {
           name: churchName,
           denomination,
           url: churchUrl,
-          details: (details || narrative).replace(/\n\n/g, " "),
+          details: neutralizePublishedText((details || narrative).replace(/\n\n/g, " ")),
         }
       : undefined;
 
@@ -1890,6 +3099,8 @@ function buildCandidate(candidate, reports) {
     campaignFinance: finance,
     sources,
   };
+
+  neutralizeCandidateTone(built);
 
   Object.keys(built).forEach((key) => {
     if (built[key] === undefined) {

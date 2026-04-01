@@ -21,7 +21,7 @@ A multi-agent election intelligence system + editorial website for Hays, Kansas 
 ## CURRENT STATE (2026-04-01)
 
 ### What's Done
-- [x] 6-agent pipeline framework (PROMPT.md + soul.md for each agent)
+- [x] 7-agent pipeline framework (PROMPT.md + soul.md for each agent, including a separate opposition-research phase)
 - [x] 54 candidate folders with raw intelligence dumps (127,074 total lines)
 - [x] 28 formatted investigation reports (14,000+ lines)
 - [x] 24 election files covering every 2026 race relevant to Hays
@@ -40,6 +40,7 @@ A multi-agent election intelligence system + editorial website for Hays, Kansas 
 2. Populate `candidates.ts` with real data for ALL 54 candidates (currently only Tracey Mann has real data)
 3. Every candidate page needs: whoTheyAre, theirRecord, whatYouShouldKnow, whereTheyWorship, church (with website URL), campaignFinance (with donor table), quotes, and ALL sources (every URL the agents found)
 4. Run consolidation script again after wiring: `bash scripts/consolidate-intel.sh`
+5. Keep broad profile research and adverse public-record research in separate files: `raw-dump.md` and `opposition-research.md`
 
 #### P1: ELECTIONS PAGE RESTRUCTURE
 5. Reorganize elections page into categories: **Federal Elections**, **State Elections**, **Local Elections**, **Ballot Measures** — each as an expandable folder/section
@@ -57,8 +58,9 @@ A multi-agent election intelligence system + editorial website for Hays, Kansas 
 
 #### P3: REMAINING CANDIDATE DOSSIERS
 15. Re-run investigation agents for candidates with incomplete data (several hit rate limits)
-16. Candidates needing more data: Pat Proctor, Ken Rahjes, Jennifer Day, Sam Lane, Daniel Hawkins, Dinah Sykes, Colin McRoberts, Lauren Reinhold, Craig Musser, all 8 Senate Democrats, Chase LaPorte
-17. All local Hays/Ellis officials need expanded profiles
+16. Run the separate opposition-research pass for candidates whose files are still mostly positive/profile material
+17. Candidates needing more data: Pat Proctor, Ken Rahjes, Jennifer Day, Sam Lane, Daniel Hawkins, Dinah Sykes, Colin McRoberts, Lauren Reinhold, Craig Musser, all 8 Senate Democrats, Chase LaPorte
+18. All local Hays/Ellis officials need expanded profiles
 
 #### P4: SOURCE COMPLETENESS
 18. Every candidate page must include EVERY URL the agents found — not just 8-10
@@ -136,10 +138,11 @@ elect-righteous/
 ├── CLAUDE.md                          # THIS FILE — master reference
 ├── .github/workflows/deploy.yml       # GitHub Pages auto-deploy
 │
-├── agents/                            # 6-agent pipeline definitions
+├── agents/                            # 7-agent pipeline definitions
 │   ├── election-finder/PROMPT.md + soul.md
 │   ├── candidate-profiler/PROMPT.md + soul.md
 │   ├── deep-scraper/PROMPT.md + soul.md
+│   ├── opposition-research/PROMPT.md + soul.md
 │   ├── media-extractor/PROMPT.md + soul.md
 │   ├── integrity-analyzer/PROMPT.md + soul.md
 │   └── report-generator/PROMPT.md + soul.md
@@ -152,6 +155,7 @@ elect-righteous/
 │   │   └── {slug}/
 │   │       ├── raw-dump.md            # MASTER file — ALL intel consolidated
 │   │       ├── profile.md             # Initial profile (some candidates)
+│   │       ├── opposition-research.md # Separate adverse public-record findings
 │   │       └── raw-intel.md           # Deep scraper output (some candidates)
 │   └── knowledge/
 │       ├── judeo-christian-framework.md

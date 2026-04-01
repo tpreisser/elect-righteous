@@ -6,14 +6,25 @@
 ## Read These Files First (in this order)
 1. `/Users/tylerpreisser/Desktop/elect-righteous/AGENTS.md` — project rules, build commands, data model
 2. `/Users/tylerpreisser/Desktop/elect-righteous/HANDOFF.md` — step-by-step what to do next
-3. `/Users/tylerpreisser/Desktop/elect-righteous/ui/src/data/candidates.ts` — current data model + Tracey Mann template
-4. `/Users/tylerpreisser/Desktop/elect-righteous/ui/src/data/elections.ts` — election data
-5. `/Users/tylerpreisser/Desktop/elect-righteous/ui/src/app/candidates/[slug]/client.tsx` — the editorial article component
+3. `/Users/tylerpreisser/Desktop/elect-righteous/RESEARCH-PROMPT.md` — broad public-profile research pass
+4. `/Users/tylerpreisser/Desktop/elect-righteous/OPPOSITION-RESEARCH-PROMPT.md` — separate adverse public-record pass
+5. `/Users/tylerpreisser/Desktop/elect-righteous/ui/src/data/candidates.ts` — current data model + Tracey Mann template
+6. `/Users/tylerpreisser/Desktop/elect-righteous/ui/src/data/elections.ts` — election data
+7. `/Users/tylerpreisser/Desktop/elect-righteous/ui/src/app/candidates/[slug]/client.tsx` — the editorial article component
 
 ## What You Are Building
 An election intelligence website for Hays, Kansas deployed to GitHub Pages. 54 candidates across 12+ races. The website is live at https://tpreisser.github.io/elect-righteous/ but only ONE candidate (Tracey Mann) has real data. The other 53 show "Research In Progress." The raw data for all 54 candidates EXISTS in this repo — it just needs to be parsed from markdown reports and wired into the TypeScript data files.
 
 ## Your Job — Do These In Order
+
+### Task 0: Make sure research is balanced before coding
+
+Do NOT rely on broad profile research alone. Each candidate should ultimately have BOTH:
+
+- `memory/candidates/{slug}/raw-dump.md` — broad profile, campaign, church, quotes, finance, background
+- `memory/candidates/{slug}/opposition-research.md` — separate adverse public-record file: lawsuits, complaints, ethics, contradictions, conflicts, deleted content, public criticism
+
+If `opposition-research.md` does not exist or is thin, run the separate adverse-public-record pass before treating the profile as complete.
 
 ### Task 1: Parse all report markdown files into candidate data
 
@@ -48,7 +59,7 @@ For each candidate, extract from their report:
 - **campaignFinance** — pull from campaign finance sections: `{ totalRaised, narrative, donors: [{name, amount}], undisclosed, reportingPeriod, source }`
 - **sources** — extract EVERY URL found in the report file. Use grep: `grep -oE 'https?://[^ )\]"]+' <file> | sort -u`
 
-Also check `memory/candidates/{slug}/raw-dump.md` for additional data not in the dossier reports.
+Also check `memory/candidates/{slug}/raw-dump.md` for additional data not in the dossier reports, and check `memory/candidates/{slug}/opposition-research.md` for verified negative/adverse findings that should inform `whatYouShouldKnow`.
 
 Write all extracted data into `/Users/tylerpreisser/Desktop/elect-righteous/ui/src/data/candidates.ts`. Follow the exact same pattern as the existing Tracey Mann entry (`TRACEY_MANN_FULL`). The TypeScript interfaces are already defined at the top of that file.
 
@@ -109,7 +120,7 @@ GitHub Actions auto-deploys to https://tpreisser.github.io/elect-righteous/
 2. **EVERY CANDIDATE** — All 54 must have content. If a report is thin, use whatever data exists from `memory/candidates/{slug}/raw-dump.md`.
 3. **DONOR TABLE** — Campaign finance must show a Name | Amount table, not just a narrative paragraph.
 4. **CHURCH WEBSITE** — Link to the church's website in the ChurchInfo object's `url` field.
-5. **ALL SOURCES** — Every URL from the reports goes in the sources array. Not 8. ALL of them.
+5. **ALL SOURCES** — Every URL from the reports, raw dumps, and opposition files goes in the sources array. Not 8. ALL of them.
 6. **PLAIN ENGLISH** — Write for an 8th-grade reading level.
 7. **STATIC EXPORT** — `generateStaticParams` in server page.tsx, NOT in "use client" files.
 8. **basePath** — Next.js config has `basePath: "/elect-righteous"` for GitHub Pages.

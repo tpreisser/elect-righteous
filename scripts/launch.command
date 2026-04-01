@@ -39,7 +39,7 @@ claude -p "
 **Date**: $DATE
 **Project Directory**: $PROJECT_DIR
 
-Execute the complete 6-phase pipeline as defined in CLAUDE.md:
+Execute the complete 7-phase pipeline as defined in CLAUDE.md:
 
 ### Phase 1: DISCOVER
 Run the Election Finder agent (agents/election-finder/PROMPT.md).
@@ -56,17 +56,22 @@ Run the Deep Scraper agent (agents/deep-scraper/PROMPT.md).
 For each candidate, execute ALL 15 search passes IN PARALLEL.
 Write results to memory/candidates/{candidate-slug}/raw-intel.md.
 
-### Phase 4: EXTRACT
+### Phase 4: DIG FOR DIRT
+Run the Opposition Research agent (agents/opposition-research/PROMPT.md).
+For each candidate, run the dedicated adverse-public-record pass separately from the profile pass.
+Write results to memory/candidates/{candidate-slug}/opposition-research.md.
+
+### Phase 5: EXTRACT
 Run the Media Extractor agent (agents/media-extractor/PROMPT.md).
 Find and transcribe all media for each candidate.
 Write to data/transcripts/ and data/quotes/.
 
-### Phase 5: ANALYZE
+### Phase 6: ANALYZE
 Run the Integrity Analyzer agent (agents/integrity-analyzer/PROMPT.md).
 Analyze all gathered intelligence per candidate.
 Write to memory/candidates/{candidate-slug}/analysis.md.
 
-### Phase 6: REPORT
+### Phase 7: REPORT
 Run the Report Generator agent (agents/report-generator/PROMPT.md).
 Compile all reports:
 - Full dossiers → reports/$DATE/

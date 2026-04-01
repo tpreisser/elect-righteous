@@ -6,6 +6,8 @@ For EVERY one of the 54 candidates in this project, you must conduct the most ex
 
 You have 54 candidates. Each one gets the FULL treatment below. No shortcuts. No summaries. No "data not available." If it exists on the public internet, you find it.
 
+This prompt is the BROAD PUBLIC-PROFILE pass. It is not sufficient by itself. After this pass, run the separate adverse-public-record pass in `OPPOSITION-RESEARCH-PROMPT.md` so the final product reflects both profile information and verified criticism/controversy.
+
 ---
 
 ## FOR EVERY CANDIDATE, SEARCH ALL OF THE FOLLOWING
@@ -309,7 +311,11 @@ Split the 54 candidates across MULTIPLE research agents running SIMULTANEOUSLY:
 - **Agent 5**: Ellis County (Scott Braun, Aaron Cunningham, Bobbi Dreiling, Neal Younger, Nathan Leiker, Michael Berges, Vernon Ruder Jr, Rebecca Herzog)
 - **Agent 6**: USD 489 (Ken Brooks, Curt Vajnar, Ruth Ruder, Derek Yarmer, Allen Park, Jayme Goetz, Craig Pallister, Ron Wilson)
 
-Each agent runs ALL 230+ search categories for every candidate in its group. They write findings directly to `memory/candidates/{slug}/raw-dump.md` and to the structured data in `candidates.ts`.
+Each agent runs ALL 230+ search categories for every candidate in its group. They write findings directly to `memory/candidates/{slug}/raw-dump.md`.
+
+Then run the separate opposition phase for the same candidate groups and write those findings to:
+
+`memory/candidates/{slug}/opposition-research.md`
 
 ---
 
@@ -325,6 +331,10 @@ For each candidate, the final `candidates.ts` entry must have:
 - **quotes**: 3-10 verbatim quotes with source, date, url, and topic
 - **campaignFinance**: narrative + donors table with Name | Amount for every known donor
 - **sources**: EVERY SINGLE URL found during research. Not 10. Not 20. ALL of them. If you found 150 URLs for Roger Marshall, all 150 go in the sources array.
+
+The profile is NOT complete until there is also a separate `opposition-research.md` file for that candidate, even if the conclusion is simply:
+
+`No verified adverse public-record findings surfaced in this pass.`
 
 **Tracey Mann is your quality bar. Look at his page. Every other candidate matches that depth or exceeds it.**
 

@@ -86,8 +86,12 @@ HEADER
     fi
   done
 
-  # Then: include existing profile.md and raw-intel.md if they exist
-  for existing in "$CANDIDATES_DIR/$slug/profile.md" "$CANDIDATES_DIR/$slug/raw-intel.md" "$CANDIDATES_DIR/$slug/analysis.md"; do
+  # Then: include existing candidate-level notes if they exist
+  for existing in \
+    "$CANDIDATES_DIR/$slug/profile.md" \
+    "$CANDIDATES_DIR/$slug/raw-intel.md" \
+    "$CANDIDATES_DIR/$slug/opposition-research.md" \
+    "$CANDIDATES_DIR/$slug/analysis.md"; do
     if [ -f "$existing" ]; then
       echo "## SOURCE: $(basename "$existing")" >> "$DUMP_FILE"
       echo "" >> "$DUMP_FILE"

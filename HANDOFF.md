@@ -10,6 +10,10 @@
 
 Tyler built an election intelligence website for Hays, Kansas. 54 candidates across 12+ races. 150,000+ lines of raw intel collected. One candidate (Tracey Mann) has a complete editorial article on the live website. The other 53 are showing "Research In Progress" placeholders. The raw data EXISTS in the repo — it just needs to be parsed and wired into the website.
 
+Important editorial correction: the research workflow now needs TWO lanes per candidate:
+- broad public-profile research (`raw-dump.md`)
+- adverse public-record / opposition research (`opposition-research.md`)
+
 **The single most important task is: transform the markdown dossier reports into the TypeScript data file so all 54 candidates have real content on the website.**
 
 ---
@@ -32,7 +36,26 @@ Create `ui/scripts/transform-dossiers.mjs` that:
    - `campaignFinance` ← from "## Campaign Finance" sections
    - `sources` ← ALL URLs found in the file (grep for https?://)
 4. Falls back to `memory/candidates/{slug}/raw-dump.md` for candidates without dedicated dossiers
+5. Also reads `memory/candidates/{slug}/opposition-research.md` so "what you should know" pulls from a deliberate adverse-research pass rather than only positive/profile material
 5. Outputs updated `candidates.ts` with all 54 candidates populated
+
+### Step 1A: Run The Separate Opposition Pass
+
+Before trusting any candidate page as balanced, make sure there is a candidate-specific adverse-public-record file:
+
+`memory/candidates/{slug}/opposition-research.md`
+
+That file should contain verified:
+- controversies
+- litigation / complaints / investigations
+- conflicts of interest
+- contradictions / reversals
+- deleted or changed content
+- public criticism
+
+If nothing significant surfaced, the file should still exist and say:
+
+`No verified adverse public-record findings surfaced in this pass.`
 
 ### Step 2: Populate ALL Candidates in Elections
 
@@ -98,9 +121,13 @@ Remove all imports of these from other files (check `index.ts` barrel export).
 
 ### Step 6: Source Completeness
 
-Every candidate's `sources` array must include EVERY URL found during investigation. To extract:
+Every candidate's `sources` array must include EVERY URL found during investigation, including opposition research URLs. To extract:
 ```bash
 grep -oE 'https?://[^ )\]\"]+' memory/candidates/{slug}/raw-dump.md | sed 's/[)\]",]$//' | sort -u
+```
+And repeat for:
+```bash
+grep -oE 'https?://[^ )\]\"]+' memory/candidates/{slug}/opposition-research.md | sed 's/[)\]",]$//' | sort -u
 ```
 
 ### Step 7: Mobile Optimization
@@ -145,6 +172,7 @@ GitHub Actions will auto-deploy to https://tpreisser.github.io/elect-righteous/
 - **ALL sources** — every URL the agents found, not just 8-10
 - **Plain English** — 8th-grade reading level, no jargon
 - **Equal treatment** — every candidate gets the same depth, regardless of party or viability
+- **Separate adverse pass** — every candidate should have both positive/profile research and a distinct opposition-research file
 - **Conservative Protestant perspective** — for the recommendations section only, not the main articles
 
 ---
@@ -174,7 +202,7 @@ GitHub Actions will auto-deploy to https://tpreisser.github.io/elect-righteous/
 | Plain English | reports/plain-english-voter-guide.md | 479 |
 | Ballot Measures | reports/2026-kansas-ballot-measures-investigation.md | 473 |
 
-Every candidate also has `memory/candidates/{slug}/raw-dump.md` with ALL consolidated intel.
+Every candidate also has `memory/candidates/{slug}/raw-dump.md` with ALL consolidated intel. Adverse public-record work should live beside it in `memory/candidates/{slug}/opposition-research.md`.
 
 ---
 
