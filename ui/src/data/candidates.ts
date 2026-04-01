@@ -2784,20 +2784,21 @@ On the governor’s campaign trail, Schwab has made property tax reduction his c
       }
     ],
     "campaignFinance": {
-      "totalRaised": "2025 year-end summary: $1,418,671.56 raised, $365,533.06 spent, $1,053,138.50 cash on hand, $1,045,000.00 other transactions.",
-      "narrative": "Kansas Ethics filing: SW01SS_202601.pdf.\n\n2025 year-end summary: $1,418,671.56 raised, $365,533.06 spent, $1,053,138.50 cash on hand, $1,045,000.00 other transactions.",
+      "totalRaised": "$1,418,672 (2025 year-end)",
+      "narrative": "Scott Schwab raised $1,418,672 in 2025, spent $365,533, and had $1,053,139 cash on hand at year-end. Of that total, $1,045,000 was self-funded through personal loans — making him one of the most heavily self-funded candidates in the race. Only about $374,000 came from actual donors. His fundraising lags behind Jeff Colyer ($2.07M) and Philip Sarnecki ($2.53M) in total, but he was the first major candidate to announce (January 2025) and has the strongest property tax message in the field.",
       "donors": [
-        {
-          "name": "Named contributors visible in the itemized filing include Jenni Prochnow (), Frankie Giudicessi ($4,000), Michael Rader ($2,000), Jeanette Prenger ($2,000), Julie Mirray ($2,000), Roger Mason ($250), Kent Needham ($500), and Tim Garvey ($500).",
-          "amount": "$4,000"
-        },
-        {
-          "name": "Itemized small-dollar donors in the accessible report included Kevin Arburn Gary Grimes $25, Julia Kirk $26.03, Karen Piper $26.03, Barbara Anderson $26.03, John Rysavy $29.80, Timothy Voth $50, David Powell $50, and Ann Peterson $100.",
-          "amount": "$10.41,"
-        }
+        { "name": "Scott Schwab (self-funded loans)", "amount": "$1,045,000" },
+        { "name": "Frankie Giudicessi", "amount": "$4,000" },
+        { "name": "Michael Rader", "amount": "$2,000" },
+        { "name": "Jeanette Prenger", "amount": "$2,000" },
+        { "name": "Julie Mirray", "amount": "$2,000" },
+        { "name": "Kent Needham", "amount": "$500" },
+        { "name": "Tim Garvey", "amount": "$500" },
+        { "name": "Roger Mason", "amount": "$250" }
       ],
-      "reportingPeriod": "2026 cycle",
-      "source": "Report dossiers and linked filing sources"
+      "undisclosed": "Full itemized donor list available in Kansas Ethics Commission filing SW01SS_202601.pdf. The vast majority of non-self-funded contributions appear to be small-dollar individual donors.",
+      "reportingPeriod": "2025 year-end (2026 election cycle)",
+      "source": "Kansas Governmental Ethics Commission / Kansas Reflector"
     },
     "sources": [
       {
