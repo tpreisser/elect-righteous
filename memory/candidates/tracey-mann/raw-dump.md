@@ -3051,3 +3051,55 @@ District 5 covers western Kansas, including Hays. The current member is **Cathy 
 
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+- Tracey Robert Mann
+- Republican U.S. representative for Kansas's 1st District, in office since January 2021.
+- Former lieutenant governor of Kansas and a third-term incumbent running for re-election in 2026.
+
+### Bio
+Mann is the classic western-Kansas incumbent: agriculture, faith, and a strong family-centered public image. His office and campaign present him as a rural Kansan who moved from state politics into Congress, where he has leaned into small-business, farm, and social-conservative issues.
+
+Compared with the Senate field, Mann's public record is less about a single dramatic incident and more about consistency. He has maintained a steady Republican brand, a large fundraising advantage, and a highly visible faith-forward persona that shows up in his official work, not just on campaign literature.
+
+### Record / Actions
+- Served as Kansas lieutenant governor before winning the 1st District seat in 2020.
+- In Congress, has emphasized agriculture, small business, and social-conservative legislation.
+- Co-chaired the National Prayer Breakfast in both 2023 and 2024.
+- Publicly backed the FAITH in Small Business Act and other faith-adjacent policy work.
+- Won re-election in 2024 with 69.1 percent of the vote, underscoring the district's strong Republican baseline.
+
+### Verbatim Quotes
+- "The Conservative You Can Trust." - campaign site, n.d., https://www.traceymann.com/ (campaign slogan)
+- "Tracey Mann served as the 50th Lt. Governor of the great state of Kansas." - campaign/about page, n.d., https://www.traceymann.com/ or https://mann.house.gov/about (biographical line)
+- "We gather in historic Statuary Hall this morning in the spirit of Jesus to pray for the president, for one another and for the country" - National Prayer Breakfast, 2024, https://mann.house.gov/about (faith/public prayer)
+
+### Faith / Church
+- Publicly identified as Lutheran in the Pietist tradition.
+- Specific congregation in Salina was not publicly verified.
+- No church website could be confirmed in the accessible research trail, but his public faith profile is strong through the National Prayer Breakfast and related congressional work.
+
+### Campaign Finance
+- FEC candidate page: https://www.fec.gov/data/candidate/H0KS01123/
+- FEC committee page: https://www.fec.gov/data/candidate/H0KS01123/
+- Public FEC summary for 2025 shows $895,505.15 in receipts, $317,525.15 spent, and $2,331,676.84 cash on hand.
+- The donor mix included meaningful committee money and transfers, which fits an incumbent with an established congressional committee operation.
+- No public donor-by-donor breakdown was surfaced in the accessible snippets I reviewed.
+
+### Controversies / Notable Facts
+- Mann's biggest public vulnerability is not corruption but exposure: he is a deeply conservative incumbent in a district that is structurally very safe for Republicans.
+- His faith-forward profile is unusually visible for a sitting member of Congress and is a real part of his political brand.
+- The most useful opposition line against him is usually about district alignment and national Republican messaging, not local ethics.
+
+### Sources
+- https://www.traceymann.com/
+- https://mann.house.gov/about
+- https://mann.house.gov/media/press-releases/rep-mann-defends-religious-freedom-small-business-owners
+- https://www.fec.gov/data/candidate/H0KS01123/
+- https://www.fec.gov/data/committee/C00460659/
+- https://ballotpedia.org/Tracey_Mann
+- https://www.presidentialprayerteam.org/2022/08/02/tracey-mann-representative-for-kansas/
+- https://www.au.org/the-latest/church-and-state/articles/unhealthy-breakfast-how-the-national-prayer-breakfast-a-relic-from-the-1950s-era-of-civil-religion-evolved-into-a-florid-display-of-christian-nationalism/
+- https://thegreenpapers.com/G26/KS
+

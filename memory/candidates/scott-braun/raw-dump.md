@@ -2,6 +2,52 @@
 ## Consolidated: 2026-03-31
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+Scott Braun is the elected Ellis County Sheriff and a long-tenured local law enforcement officer. The public record ties him to Victoria High School, Barton County Community College, Fort Hays State University, and more than two decades of service with the Ellis County and Ellis Police departments before he won the sheriff's race.
+
+### Biography
+Braun's career is unusually easy to track because the sheriff's office and Hays Post both documented his promotions, awards, and department structure. He rose from reserve deputy work in 1995 to deputy, narcotics detective, undersheriff, and then sheriff, while earning a Certified Public Manager designation and the Kansas Law Enforcement Training Center credential. The current official sheriff page also identifies him as president of the Kansas Sheriffs' Association, which makes him one of the more publicly visible county officials in western Kansas.
+
+His public reputation is built around two things: law enforcement credibility and a very strong Catholic identity. Braun is tied to St. Nicholas of Myra Catholic Church through parish council leadership and Knights of Columbus involvement, and the public record shows that faith is not a side note for him. In Hays, that combination matters because it places him inside the same Catholic civic network that connects several other Ellis County leaders.
+
+### Record And Actions
+Braun's most consequential policy work in the current cycle is his push for a new jail and his explanation of the ICE memorandum. On jail space, he has argued the county is already stretched and that the new facility is not a luxury. On immigration enforcement, he said the county's holds are limited, tied to local custody, and not a license for street-level immigration policing. That distinction is important because it shows both a hardline public-safety posture and an effort to avoid overstating county authority.
+
+He has also taken a visible role in drug forfeiture and jail-population planning. The annual report lines in the dossier show heavy call volume, traffic stops, inmate transports, and courthouse security work, which supports his argument that the sheriff's office is already operating at a high load. In practice, Braun is a county-law-enforcement administrator as much as a patrol sheriff.
+
+### What Public Sources Show
+1. The sheriff's office mission language emphasizes professional public service, fairness, accountability, and constitutional enforcement.
+2. Braun says the jail issue is a long-term capacity problem, not a short-term political talking point.
+3. He signed the ICE memorandum while also stressing that deputies cannot hold people beyond the lawful window.
+4. He has publicly argued that drug forfeiture losses would affect taxpayers.
+5. He remains deeply embedded in parish-level Catholic life through church council leadership.
+
+### Faith / Church
+Braun is the strongest faith-confirmed local official in this seven-person Ellis County group. Public records tie him to St. Nicholas of Myra Catholic Church in Hays, and the church parish page URL is available for verification: https://salinadiocese.org/parish/st-nicholas-of-myra-parish-hays/. The church-council and Knights of Columbus references make this a confirmed, active Catholic connection rather than a vague family heritage note.
+
+### Campaign Finance
+No itemized county-campaign donor table surfaced in the source set reviewed for this pass. The public record here is much stronger on office record, parish involvement, and policy positions than on donor-by-donor finance detail.
+
+### Quotes
+- "a busy but typical year" - Hays Post annual report coverage, 2026-01-? - https://hayspost.com/posts/eb108042-f876-49f9-b426-8047d18940ef - topic: yearly workload
+- "a need, not a want" - Hays Post, 2024-07-11 - https://hayspost.com/posts/3f35aea3-a505-43de-a463-78d6976e129d - topic: jail expansion
+- "It has to be within that 48-hour window. We will not hold them one minute longer than that." - Hays Post, 2025-11-20 - https://hayspost.com/posts/3bc2ad3c-f94d-4a73-a42b-77f18e6317d6 - topic: ICE hold limits
+- "If forfeiture is taken away from law enforcement, it will have an effect on taxpayers" - JC Post / KSA coverage - https://jcpost.com/posts/0b4a5662-3939-49d6-808a-c3857ad67db9 - topic: drug forfeiture
+
+### Source URLs
+- https://www.kansassheriffs.org/county_map/county/914
+- https://elliscountysheriff.com/ecso/
+- https://hayspost.com/posts/eb108042-f876-49f9-b426-8047d18940ef
+- https://hayspost.com/posts/4564af70-9835-4a1d-897a-9940279e3348
+- https://hayspost.com/posts/3f35aea3-a505-43de-a463-78d6976e129d
+- https://hayspost.com/posts/3bc2ad3c-f94d-4a73-a42b-77f18e6317d6
+- https://hayspost.com/posts/69131eb8-04ac-4b1d-9561-e24c9309ad07
+- https://jcpost.com/posts/0b4a5662-3939-49d6-808a-c3857ad67db9
+- https://salinadiocese.org/parish/st-nicholas-of-myra-parish-hays/
+- https://hayspost.com/posts/70a84c66-2d84-4023-b4bb-df360cbe90dd
+
 ## SOURCE: ellis-county-elected-officials-deep-investigation.md
 
 # DEEP INVESTIGATION: Ellis County, Kansas -- All Elected Officials
@@ -3043,4 +3089,3 @@ This is likely a political tactic by the NRSC (standard opposition practice) rat
 - [ ] Integrity Analyzer: Pending
 
 ---
-

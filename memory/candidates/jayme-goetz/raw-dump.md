@@ -1663,3 +1663,46 @@ The major controversies have been almost entirely about **money** (bond spending
 
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified identity
+Jayme Goetz is a lifelong Hays resident, Fort Hays State mathematics instructor, and current USD 489 board member. Her public profile says she grew up in Hays, earned three degrees from Fort Hays State, and returned to teach here after one year in Ellsworth.
+
+### Who she is
+Goetz's public identity is teacher-first. She is not a career administrator; she is a classroom educator who also has children in the district, which makes her comments feel like they come from the middle of the school ecosystem. Her 2023 profile says her husband works for Glassman Corporation and that their two daughters were already in USD 489 preschool and Roosevelt kindergarten.
+
+That family-and-work combination matters because she writes about the district in terms of relationships, transparency, and the day-to-day experience of students and teachers. She is one of the board's clearest voices for communication and process, and her questions tend to be practical rather than ideological.
+
+### Their record
+Goetz has repeatedly pushed the board toward better communication, clearer discipline policy, and more transparent budget decisions. In 2025 she asked how the 2.5 percent raise figure was calculated, and she pushed the district to clarify handbook discipline rules so families know the consequences. She also supported laptops for Hays High students after hearing from teachers who preferred them.
+
+She has a visible habit of asking the board to slow down and explain itself. That showed up in the handbook fight, in questions about capital purchases, and in her insistence that the district's decisions should be understandable to the families who pay for them. She is not a passive member; she is an asking-questions member.
+
+### What you should know
+1. She has lived in Hays her whole life and has deep USD 489 roots.
+2. She taught at Hays High for seven years before moving to FHSU.
+3. She has two young daughters in the district.
+4. She uses transparency and discipline clarity as board priorities.
+5. She is willing to challenge how raises, laptops, and policies are justified.
+
+### Where they worship
+I did not find a reliable public source that identifies Jayme Goetz's church home or denomination. Because the public record is thin here, I am not assigning a church without evidence.
+
+### Campaign finance
+I did not surface a reliable itemized donor table for Goetz in the sources reviewed for this pass. The public record I found supports her biography and board actions, but not a clean contribution ledger.
+
+### Quotes
+- "Being a lifelong Hays resident" - Hays Post, 2023 candidate profile
+- "I have greatly enjoyed getting involved in all different levels of education." - Hays Post, 2023 candidate profile
+- "I believe in the importance of transparency and clear communication." - Hays Post, 2023 candidate profile
+- "Each decision that comes through the board impacts someone in our community." - Hays Post, 2023 candidate profile
+
+### Source URLs
+- https://hayspost.com/posts/8c99812c-9463-4172-9aef-4df43a05b5d9
+- https://hayspost.com/posts/74087102-4ca2-4d13-89e0-5ddd64e94d6f
+- https://hayspost.com/posts/b8de0496-38a0-459d-813c-fbb70028b4c8
+- https://hayspost.com/posts/de2764c1-3767-4d5a-8353-888aa39a31cf
+- https://hayspost.com/posts/03620484-d421-4ae2-b3be-d87652788a17
+- https://hayspost.com/posts/fc95a5ee-b8b3-4d06-b876-7cba2008d1cb
+- https://hayspost.com/posts/b833cbe0-37a8-4535-be13-b7d1c2ca645a
+- https://usd489.community.highbond.com/portal/members.aspx?id=18

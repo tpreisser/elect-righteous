@@ -1663,3 +1663,45 @@ The major controversies have been almost entirely about **money** (bond spending
 
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified identity
+Derek Yarmer is a Hays USD 489 board member and an emergency medicine doctor. His public profile says he was raised in Albert, graduated from FHSU in chemistry, completed KU School of Medicine and UMKC residency training, and moved back to Hays in 2015 with his wife Emily.
+
+### Who he is
+Yarmer comes at school-board work from the medical side, not the education bureaucracy side. He is a doctor who sees the effects of policy on children and working families, and he says the pandemic made him pay closer attention to how school-board decisions cascade through households. That gives his public comments a strong practical tone.
+
+He also has a family stake in the district. His 2023 profile says he and Emily have three children who were all going to attend school in the district that year. That makes his arguments about class time, core subjects, and fiscal stewardship feel rooted in his own household rather than abstract politics.
+
+### Their record
+Yarmer has been one of the more skeptical voices on spending and process. He has said board decisions should be broadcast, agendas should come out earlier, and bond money should be spent responsibly. In 2025 he asked for bids on flooring and asbestos work to come to the board before a vote, saying that if everything is an emergency then nothing is an emergency.
+
+He has also voted against some expenditures that other members supported, including furniture and other purchases where he wanted the board to be more deliberate. His public posture is not anti-school, but it is strongly pro-oversight. He reads like a board member who wants more explanation, more bidding, and more patience before large commitments.
+
+### What you should know
+1. He is the only board member in this group who is also a practicing emergency physician.
+2. His education path runs from Otis-Bison to FHSU to KU Med to UMKC.
+3. He explicitly ties his school-board run to the pandemic and bond spending.
+4. He wants core academics and classroom time protected.
+5. He is willing to vote no when he thinks spending or process is moving too quickly.
+
+### Where they worship
+I did not find a reliable public source that identifies Derek Yarmer's church home or denomination. Because the public record is thin here, I am not assigning a church without evidence.
+
+### Campaign finance
+I did not surface a reliable itemized donor table for Yarmer in the sources reviewed for this pass. The public record I found supports his biography and board positions, but not a clean contribution ledger.
+
+### Quotes
+- "I am originally from Albert, Kan." - Hays Post, 2023 candidate profile
+- "I want to be an advocate for the students' interests, as well as be fiscally responsible." - Hays Post, 2023 candidate profile
+- "I believe extra-curricular activities are important ... but the main responsibility of the school is to teach the core subjects." - Hays Post, 2023 candidate profile
+- "If everything is an emergency, then nothing is an emergency." - Hays Post, 2025 board coverage
+
+### Source URLs
+- https://hayspost.com/posts/ae86883e-49b6-4bb5-af6c-acddd174da30
+- https://hayspost.com/posts/95dab7ab-70ba-44ee-91ee-2760e55665bf
+- https://hayspost.com/posts/0ef676f6-e0ff-4a1c-b697-d9f74d3d7649
+- https://hayspost.com/posts/19aa6807-369c-4e64-9c1c-8af9d88c84df
+- https://hayspost.com/posts/de2764c1-3767-4d5a-8353-888aa39a31cf
+- https://usd489.community.highbond.com/portal/members.aspx?id=18
+- https://www.ksde.gov/Portals/0/Directories/2025-26%20Kansas%20Educational%20Directory.pdf?ver=2025-11-07-175254-390

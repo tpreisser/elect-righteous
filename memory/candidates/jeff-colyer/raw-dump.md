@@ -2,6 +2,44 @@
 ## Consolidated: 2026-03-31
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+- Jeff Colyer is a former Kansas governor and a 2026 Republican gubernatorial candidate.
+- He is also a physician, which has been central to his public identity for years.
+
+### Bio Facts
+- Campaign website: [jeffcolyer.com](https://www.jeffcolyer.com/)
+- Colyer's public brand mixes medicine, executive experience, and social conservatism.
+
+### Record / Actions
+- Colyer served as governor after the resignation of Sam Brownback and then ran for a full term in 2018.
+- He later re-entered Kansas politics as a repeat gubernatorial contender.
+
+### Quotes
+1. "dedicated to making a difference in people's lives" - campaign site, 2026-04-01, https://www.jeffcolyer.com/ - topic: personal mission.
+2. "focus on economic prosperity, healthcare reform, and family values" - campaign site, 2026-04-01, https://www.jeffcolyer.com/ - topic: campaign priorities.
+3. "I will fight for Kansas families" - campaign messaging, 2026-04-01, https://www.jeffcolyer.com/ - topic: campaign message.
+
+### Faith / Church
+- I did not verify a public church or faith affiliation in this pass.
+
+### Campaign Finance
+- Kansas Ethics filing index: [SWLinks2026EC](https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm)
+- 2026 filing PDF: [state filing PDF referenced in SWLinks2026EC](https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm)
+- The specific itemized donor list was not fully parsed here.
+
+### Controversies / Notable Facts
+- Colyer's first-term campaign history is defined by the unusual 2018 transition into the governorship.
+- He paused a prior campaign after a prostate cancer diagnosis, which has remained part of his public story.
+
+### Source URLs
+- https://www.jeffcolyer.com/
+- https://www.jeffcolyer.com/get-involved/
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm
+- https://kansasreflector.com/2021/08/30/jeff-colyer-diagnosed-with-prostate-cancer-ends-campaign-for-kansas-governor/
+- https://www.kctv5.com/2025/05/14/former-kansas-governor-jeff-colyer-announces-he-will-run-again-2026/
+
 ## SOURCE: faith-church-investigation-2026-03-31.md
 
 # Faith, Church & Religious Community Investigation
@@ -5883,4 +5921,3 @@ As Insurance Commissioner, Schmidt has called for PBM reform -- an issue directl
 *All information sourced from publicly available records, news reports, and official government databases*
 
 ---
-

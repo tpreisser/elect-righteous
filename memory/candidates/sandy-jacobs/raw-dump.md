@@ -2768,3 +2768,46 @@ This is likely a political tactic by the NRSC (standard opposition practice) rat
 
 ---
 
+
+## CODEX DEEP RESEARCH 2026-04-01 - Sandy Jacobs
+
+**Verified identity**
+Sandy Jacobs is a Hays city commissioner, the city's former mayor, and a retired banker. Public city records list her on the commission, and Hays Post's 2025 and 2026 coverage shows her as one of the city's most experienced governing-body members. Her public identity is tied to finance discipline, R9 water work, and a steady, consensus-oriented style.
+
+**Bio facts**
+Jacobs' public biography is anchored in long service and local roots. She told Hays Post she has served eight years and described herself as a native of Hays. Her public comments show a city leader who is comfortable with the slow grind of infrastructure work, especially when it comes to the R9 water project, housing, and city budgeting.
+
+She also comes across as one of the commission's most collaborative voices. In coverage of both the candidate Q&A and the 2026 reorganization, Jacobs emphasized that the commission works well together, finds common solutions, and stays focused on long-term projects. That makes her a useful contrast to more brand-driven local politicians.
+
+**Detailed record / actions**
+- Re-elected in 2025 and returned to office for another term.
+- Served as Hays mayor before the 2026 reorganization, when Mason Ruder was chosen as mayor and Alaina Cunningham as vice mayor.
+- Has pushed the R9 project for years and repeatedly treated it as the city's top long-term water issue.
+- Backed housing and incentive-district policy changes while defending revenue-neutral budgeting and a conservative tax posture.
+- Has publicly supported major park, retail, and infrastructure efforts while acknowledging the city may need to revisit park spending and maintenance.
+
+**Verbatim quotes**
+- "I've served for eight years, and my passion continues to be for this city as a native." Source: Hays Post, 2025-10-22, https://hayspost.com/posts/c0016433-275d-4af3-aabe-af7379f8c56f, topic: public service and biography.
+- "We've asked for less water than is allowed by the state." Source: Hays Post, 2025-10-22, https://hayspost.com/posts/c0016433-275d-4af3-aabe-af7379f8c56f, topic: R9 water policy.
+- "we're rock stars compared to other communities" Source: Hays Post, 2025-06-22, https://hayspost.com/posts/ab9f126e-6b0d-4482-9212-ba76a853c772, topic: budget discipline.
+
+**Faith / church**
+No verified public church affiliation surfaced in the sources reviewed.
+
+**Campaign finance**
+I did not surface a clearly indexed public campaign finance report in this pass. The public web results were much stronger on candidate Q&A, budget coverage, and city leadership reporting than on formal committee filings.
+
+**Controversies / notable facts**
+- Jacobs is one of the clearest public champions of the R9 project and water conservation.
+- She has openly defended revenue-neutral budgeting and low-tax arguments, which makes her relevant for fiscal conservatives.
+- Public records show her as a consensus builder rather than a flashpoint figure.
+
+**Source URLs**
+- https://www.haysusa.com/270/Sandy-Jacobs
+- https://www.haysusa.com/269/City-Commission
+- https://hayspost.com/posts/c0016433-275d-4af3-aabe-af7379f8c56f
+- https://hayspost.com/posts/0de13ea6-3e03-4110-a99e-58f98b4d361c
+- https://hayspost.com/posts/021a5674-353e-46c4-b816-42284ec8514b
+- https://hayspost.com/posts/ab9f126e-6b0d-4482-9212-ba76a853c772
+- https://hayspost.com/posts/21208822-3905-4a26-a33d-5003cf6f8f08
+- https://hayspost.com/posts/26583ec1-c757-4e20-9de0-62af6beffcd2

@@ -1426,3 +1426,46 @@ The major controversies have been almost entirely about **money** (bond spending
 
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified identity
+Ron Wilson is the superintendent of Hays USD 489. The district's official board portal lists him as superintendent, and the Kansas Educational Directory confirms the same.
+
+### Who he is
+Wilson is not an elected candidate, but he is central to the district leadership page because he shapes the implementation side of every board decision. Public coverage places him at the center of the bond buildout, the Roosevelt addition, and the long-running facilities debate. He comes across as a superintendent who sees facilities as a moral and practical obligation to students.
+
+His public quotes are unusually direct for an administrator. He does not hide behind jargon when talking about the bond or the age of district facilities, and he has repeatedly argued that Hays should stop settling for outdated buildings. That makes him a useful record for understanding the district's direction even though he is not on the ballot.
+
+### Their record
+Wilson's record is the bond era itself. He has been the public face of Roosevelt and Hays High construction, the district's capital outlay plan, and the ongoing maintenance work that still has to happen after the ribbon cuttings. He has also spoken out when state or federal decisions threaten district funding, including title grant delays and other budget pressures.
+
+Because he is the superintendent, the board mostly evaluates him through implementation: facility delivery, staffing, budget management, and communications. The public record shows him as a steady advocate for the district's large capital projects and as the person who keeps those projects moving once the board votes.
+
+### What you should know
+1. He is the district superintendent, so he is the top administrator.
+2. He is the public face of the bond and facility work.
+3. He has pushed the district to build schools that are better than the ones it had.
+4. He is visible in ribbon-cuttings, bond updates, and budget debates.
+5. He is not a candidate, but he affects every candidate's district experience.
+
+### Where they worship
+I did not find a reliable public source that identifies Ron Wilson's church home or denomination. Because the public record is thin here, I am not assigning a church without evidence.
+
+### Campaign finance
+Not applicable. Wilson is an appointed superintendent, not a candidate running for office in the sources I reviewed.
+
+### Quotes
+- "We have to stop settling for the schools and facilities that we have, and we need to start building for schools that we deserve." - Hays Post, 2024 opinion coverage
+- "Our baseball stadium is probably the best facility we have now. However, in three years, it will go from being our best facility to our worst facility." - Hays Post, 2023 coverage
+- "Hays USD 489 Superintendent Ron Wilson" - USD 489 board portal
+- "Ron Wilson" - Kansas Educational Directory, superintendent listing
+
+### Source URLs
+- https://usd489.community.highbond.com/portal/members.aspx?id=18
+- https://www.ksde.gov/Portals/0/Directories/2025-26%20Kansas%20Educational%20Directory.pdf?ver=2025-11-07-175254-390
+- https://hayspost.com/posts/0b83b105-6458-48ce-a689-c56394359c9d
+- https://hayspost.com/posts/18d3a237-b1c0-45a5-886e-980bb0c81483
+- https://hayspost.com/posts/53134bbf-3c90-47ed-ae9b-c3d0232bf211
+- https://hayspost.com/posts/4ecf935d-41cb-472c-9754-49c567a9dddc
+- https://hayspost.com/posts/caf3d4b9-e869-42ad-84f8-def54af685e2
+- https://core-docs.s3.us-east-1.amazonaws.com/documents/asset/uploaded_file/1196/USD_489/4733695/HMS_2024-2025_Handbook.pdf

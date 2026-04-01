@@ -2,6 +2,43 @@
 ## Consolidated: 2026-03-31
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+- Daniel Hawkins is the Kansas House Speaker and a 2026 Republican candidate for Insurance Commissioner.
+
+### Bio Facts
+- Campaign website: [danhawkinskansas.com](https://danhawkinskansas.com/)
+- Hawkins is an established GOP legislative leader and insurance agent.
+
+### Record / Actions
+- Hawkins has been central to Kansas House Republican strategy and messaging.
+- His insurance commissioner run makes him the most high-profile legislative leader in the field for that office.
+
+### Quotes
+1. "PRO-LIFE" - Kansas Reflector coverage of his launch, 2026-04-01, https://kansasreflector.com/2025/05/13/kansas-house-speaker-launches-campaign-for-insurance-commissioner-with-pro-trump-rhetoric-1/ - topic: ideological branding.
+2. "We have nothing to do with Medicaid" - Kansas Reflector coverage, 2026-04-01, https://kansasreflector.com/2024/04/18/kansas-house-speaker-meets-opposition-as-he-makes-case-against-medicaid-expansion-in-plainville/ - topic: health policy.
+3. "insurance commissioner" - campaign framing, 2026-04-01, https://danhawkinskansas.com/ - topic: office bid.
+
+### Faith / Church
+- I did not verify a public church affiliation in the sources reviewed.
+
+### Campaign Finance
+- Kansas Ethics filing index: [SWLinks2026EC](https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm)
+- 2026 filing PDF: [SW03DH_AT.pdf](https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/Treasurers/SW03DH_AT.pdf)
+- I did not fully parse itemized donors in this pass.
+
+### Controversies / Notable Facts
+- Hawkins is a leading conservative legislative figure, so his insurance bid is automatically a major statewide storyline.
+- His public record on Medicaid expansion and pro-life politics is likely to be scrutinized in the race.
+
+### Source URLs
+- https://danhawkinskansas.com/
+- https://www.jocoelection.org/candidates-elected-officials/daniel-hawkins
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/Treasurers/SW03DH_AT.pdf
+- https://kansasreflector.com/2025/05/13/kansas-house-speaker-launches-campaign-for-insurance-commissioner-with-pro-trump-rhetoric-1/
+- https://kansasreflector.com/2024/04/18/kansas-house-speaker-meets-opposition-as-he-makes-case-against-medicaid-expansion-in-plainville/
+
 ## SOURCE: Kansas-2026-Senate-Insurance-Commissioner-Investigation.md
 
 # DEEP INVESTIGATION: 2026 Kansas U.S. Senate (Democratic Challengers) & Insurance Commissioner Race
@@ -712,3 +749,62 @@ All facts in this report are sourced from the following publications and databas
 
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Daniel Hawkins, Insurance Commissioner Candidate
+
+Daniel Hawkins is the Kansas House Speaker and a Wichita-area conservative who is running for insurance commissioner with a message built around business experience, family, and limited government. His campaign site says he grew up on his grandfather's dairy farm in southern Harper County, married his college sweetheart Diane in 1985, started his first business with his father in 1991, and has worked in the insurance industry since 1995.
+
+He is a classic Republican institutional candidate: military background, long business resume, legislative leadership, and a campaign that explicitly ties policy to conservative values. Hawkins presents himself as someone who knows how insurance markets, small businesses, and state regulation actually function.
+
+### Their Record
+
+Hawkins has represented the 100th District since 2013 and rose from House committee chair to Majority Leader and then Speaker. His public record in this race is fundamentally about the insurance industry, but his campaign also leans on broader conservative governing themes: defending life, strengthening the family, and limiting bureaucracy.
+
+That makes his candidacy stronger on experience than on fresh ideas. He already knows Topeka's process from the inside, and his campaign frames that as an advantage for an office that regulates an industry touching nearly every Kansas household.
+
+### What You Should Know
+
+1. His 2025 filing shows $417,305.07 raised and $384,009.85 cash on hand.
+2. He spent 30 years in the insurance business before running for statewide office.
+3. He is Speaker of the Kansas House.
+4. His public faith background is suggested by Trevecca Nazarene University, but no current church was verified in this sweep.
+5. He is one of the most openly conservative candidates in the insurance race.
+
+### Where They Worship
+
+I did not verify a current public church affiliation for Daniel Hawkins. His educational background includes Trevecca Nazarene University, which suggests a Christian environment, and his campaign uses explicitly pro-life and family language, but I did not confirm a congregation or church website.
+
+### Campaign Finance
+
+| Donor | Amount |
+|---|---:|
+| Kenny Doonan | $2,000.00 |
+| Pat Do | $350.00 |
+| Kyle Hoffman | $100.00 |
+| Chad Stafford | $1,000.00 |
+| Gary Obomy | $1,041.02 |
+| C Douglas Blex | $52.05 |
+| Bill Pickert | $104.10 |
+| Visa | $1,000.00 |
+
+The filing shows a very Kansas donor profile: business leaders, legislators, retired Kansans, and small-dollar supporters. The campaign also had significant cash on hand entering 2026.
+
+### Quotes
+
+> "Conservative Leadership."
+
+> "Unchecked government expansion limits our freedom as individuals and hinders the growth of the businesses our state's economy relies on to thrive."
+
+> "I believe in the importance of defending life, strengthening the family, and protecting our most cherished rights."
+
+> "Serving 25 years in the U.S. Army, I've defended our freedoms and fought for the ideals of democracy."
+
+### Sources
+
+- https://danhawkinskansas.com/
+- https://danhawkinskansas.com/about/
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW03DH_202601.pdf
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm
+- https://www.kslegislature.gov/li/b2025_26/members/rep_hawkins_daniel_1/
+- https://ballotpedia.org/Daniel_Hawkins_(Kansas)

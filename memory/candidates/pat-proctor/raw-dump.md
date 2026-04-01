@@ -2,6 +2,43 @@
 ## Consolidated: 2026-03-31
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+- Pat Proctor is a Kansas state representative and 2026 Republican candidate for Secretary of State.
+
+### Bio Facts
+- Campaign website: [patproctor4ks.com](https://patproctor4ks.com/)
+- Public candidate pages identify him as a legislative leader on elections issues.
+
+### Record / Actions
+- Proctor has been active on Kansas election policy from inside the Legislature.
+- He has cast himself as the candidate most focused on securing elections and defending the office's constitutional role.
+
+### Quotes
+1. "I’m here to Hold the Line." - campaign site, 2026-04-01, https://patproctor4ks.com/ - topic: campaign slogan.
+2. "The Secretary of State is at the front line of the fight to defend our democracy." - campaign site, 2026-04-01, https://patproctor4ks.com/ - topic: office framing.
+3. "defend our democracy" - campaign site language, 2026-04-01, https://patproctor4ks.com/ - topic: election administration.
+
+### Faith / Church
+- I did not verify a public church affiliation in the sources reviewed.
+
+### Campaign Finance
+- Kansas Ethics filing index: [SWLinks2026EC](https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm)
+- 2026 filing PDF: [SW04PP_202601.pdf](https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW04PP_202601.pdf)
+- Itemized donor schedule was not fully parsed in this pass.
+
+### Controversies / Notable Facts
+- Proctor is a state legislative insider in a race that also includes outsider voices.
+- His profile is strongest among Republicans who prioritize election security above all else.
+
+### Source URLs
+- https://patproctor4ks.com/
+- https://www.jocoelection.org/candidates-elected-officials/pat-proctor
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW04PP_202601.pdf
+- https://hayspost.com/posts/1069c202-2991-4f2f-9961-773bec76a5a4
+- https://www.kansascatholic.org/current-news/election-2026
+
 ## SOURCE: plain-english-voter-guide.md
 
 # PLAIN ENGLISH VOTER GUIDE: 2026 KANSAS ELECTIONS
@@ -486,3 +523,62 @@ District 5 covers western Kansas, including Hays. The current member is **Cathy 
 
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Pat Proctor, Secretary of State Candidate
+
+Pat Proctor is a retired Army colonel, Leavenworth Republican, business owner, and Wichita State professor who built his public identity around election security, military service, and small-business experience. His campaign site says he spent 25 years in the U.S. Army, served in Iraq and Afghanistan, co-owns Baan Thai Restaurant with his wife Aree, and has represented Leavenworth in the Kansas House since 2020.
+
+He is a classic Republican institutional candidate: military background, long business resume, legislative leadership, and a campaign that explicitly ties policy to conservative values. Proctor presents himself as someone who knows how insurance markets, small businesses, and state regulation actually function.
+
+### Their Record
+
+Proctor's record centers on election administration, security, and business regulation. The campaign site says he has championed measures ensuring only U.S. citizens vote, restoring election day as the deadline for ballot casting, and strengthening paper audits. He also frames his business ownership as proof that he understands what the secretary of state office means for real-world entrepreneurs.
+
+His military career and university teaching give him a national-security frame that is unusual for a Kansas secretary of state candidate. The raw research on this file shows that his pitch is less about clerical administration and more about hardening the system against fraud, tightening deadlines, and pairing business-friendliness with more assertive election rules.
+
+### What You Should Know
+
+1. He raised $312,046.74 in 2025 and ended the year with $209,383.28 cash on hand.
+2. He has served in the Kansas House and chairs the House Elections Committee.
+3. He spent 25 years in the U.S. Army and led in Iraq and Afghanistan.
+4. He and his wife own Baan Thai Restaurant, a significant local business in Leavenworth.
+5. No public church affiliation was verified in the sources reviewed for this sweep.
+
+### Where They Worship
+
+No verified public church affiliation surfaced for Pat Proctor. His campaign literature emphasizes service, family, and security more than worship or denomination, and I did not find a congregation-level record I could safely cite.
+
+### Campaign Finance
+
+| Donor | Amount |
+|---|---:|
+| John Lahnes | $250.00 |
+| John Jacob Kotzman | $100.00 |
+| Mike Lehnherr | $100.00 |
+| Chad Stafford | $100.00 |
+| George Pogge | $50.00 |
+| Dennis White | $250.00 |
+| John Donovan | $100.00 |
+| Michelle Cebe | $50.00 |
+
+The ethics filing shows a broad donor mix and a strong cash position entering 2026. The full Schedule A contains many additional itemized contributions, but the early pages already show support from military, business, and suburban Kansas donors.
+
+### Quotes
+
+> "Restoring Confidence in Our Elections, Growing Our Economy."
+
+> "The Kansas Secretary of State has two primary duties - securing and accurately executing our elections, and being the key agency to facilitate establishing and operating businesses in Kansas."
+
+> "As Secretary of State, I will be ever vigilant regarding these threats."
+
+> "Serving 25 years in the U.S. Army, I've defended our freedoms and fought for the ideals of democracy."
+
+### Sources
+
+- https://patproctor4ks.com/
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW04PP_202601.pdf
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm
+- https://kansasreflector.com/2025/04/04/leavenworth-house-member-first-republican-to-declare-as-2026-candidate-for-secretary-of-state/
+- https://www.kslegislature.gov/li/b2025_26/members/rep_proctor_pat_1/
+- https://www.hayspost.com/posts/2026-kansas-election-guide/

@@ -2,6 +2,51 @@
 ## Consolidated: 2026-03-31
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+Nathan Leiker is the Ellis County Commissioner for District 3 and vice chair of the commission in 2026. The dossier consistently ties him to L5 Farms, the TMP-Marian class of 2004, and the western-edge district that covers the eastern side of Ellis County and land north of Hays.
+
+### Biography
+Leiker reads as a classic Ellis County farm-and-family officeholder. He grew up in Hays, graduated from TMP-Marian, and entered the family agriculture business rather than a traditional metro career path. The public record places him at L5 Farms as vice president, with farm operations in Ellis and Rush counties and a background that emphasizes long planning horizons, tight cash flow, and weather-aware agriculture.
+
+He is also part of the broader Catholic heritage web that runs through Ellis County. The public record does not give a direct personal church declaration, but the Leiker family name and the funeral record for his grandmother point strongly toward St. Nicholas of Myra and the local Volga German Catholic network.
+
+### Record And Actions
+Leiker has been one of the more fiscally conservative county commissioners, but not in a reflexively anti-government way. He supported the 2026 budget increase while arguing the county must justify each department line item, and he framed mental-health spending as cheaper than building a bigger jail. That is a practical county-government posture, not a culture-war one.
+
+He also backed the Big Creek Estates housing approvals and openly said the county should work with the city of Hays on water and job growth. That combination - a farmer who is cautious about taxes but not hostile to county investment - is the best summary of his public record so far.
+
+### What Public Sources Show
+1. He is a working farmer first and a county commissioner second.
+2. He likes county spending scrutinized line by line.
+3. He sees water, housing, and jobs as connected local issues.
+4. He has moved into commission leadership quickly, including chairman in 2024 and vice chair in 2026.
+5. The public record is strong on office action and weak on personal life detail.
+
+### Faith / Church
+Public evidence points strongly toward St. Nicholas of Myra Catholic Church in Hays, but I did not find a direct statement from Leiker himself confirming parish membership. The strongest source is the family-obituary trail tied to the Leiker name and St. Nicholas: https://salinadiocese.org/parish/st-nicholas-of-myra-parish-hays/. I would treat this as a strong indicator rather than a hard confirmation.
+
+### Campaign Finance
+No public itemized donor table surfaced in the source set reviewed for this pass. If county-level filings exist, they were not present in the materials I could verify here.
+
+### Quotes
+- "work with the city of Hays to get more water to Hays and higher-paying jobs." - Hays Post candidate coverage - https://hayspost.com/posts/6e260438-27db-4402-bf8e-e8df621996d4 - topic: local development
+- "Ellis County spending too much money" - Hays Post candidate coverage - https://hayspost.com/posts/70a84c66-2d84-4023-b4bb-df360cbe90dd - topic: campaign concern
+- "We spent almost 13 hours going through each department" - Hays Post budget coverage - https://hayspost.com/posts/18d99844-46b7-4bc0-a558-9d9a87fa92e6 - topic: budget review
+- "is less expensive than building a new jail." - Hays Post budget coverage - https://hayspost.com/posts/18d99844-46b7-4bc0-a558-9d9a87fa92e6 - topic: mental health funding
+
+### Source URLs
+- https://www.ellisco.net/120/County-Commission
+- https://hayspost.com/posts/6e260438-27db-4402-bf8e-e8df621996d4
+- https://hayspost.com/posts/70a84c66-2d84-4023-b4bb-df360cbe90dd
+- https://hayspost.com/posts/18d99844-46b7-4bc0-a558-9d9a87fa92e6
+- https://www.manta.com/c/mhxwpdc/l5-farms-inc
+- https://www.linkedin.com/in/nathan-leiker-1236bb276
+- https://salinadiocese.org/parish/st-nicholas-of-myra-parish-hays/
+- https://www.haysmemorial.com/obituary/Marilyn-KlausLeiker/
+- https://fhsuguides.fhsu.edu/kansasheritage/elliscounty
+
 ## SOURCE: ellis-county-elected-officials-deep-investigation.md
 
 # DEEP INVESTIGATION: Ellis County, Kansas -- All Elected Officials
@@ -2644,4 +2689,3 @@ This is likely a political tactic by the NRSC (standard opposition practice) rat
 *All information from publicly available sources. Source URLs provided for verification.*
 
 ---
-

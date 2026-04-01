@@ -29,7 +29,7 @@ import SiteHeader from "@/components/layout/site-header";
 export const metadata: Metadata = {
   title: "About | Elect Righteous",
   description:
-    "Learn how Elect Righteous researches candidates, how our 6-agent pipeline works, our 8-pillar values framework, and our source reliability standards.",
+    "Learn how Elect Righteous researches candidates, how the reporting pipeline works, and the source reliability standards behind each profile.",
 };
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -77,7 +77,7 @@ const AGENT_PIPELINE: AgentStep[] = [
     name: "Integrity Analyzer",
     icon: <ShieldCheck size={20} strokeWidth={1.5} />,
     description:
-      "Analyzes all gathered intelligence for patterns, contradictions, and character signals. Checks words against actions, identifies green and red flags, and evaluates the full public record against our 8-pillar Judeo-Christian values framework.",
+      "Reviews all gathered intelligence for patterns, contradictions, and notable facts. It checks words against actions, highlights documented context, and helps shape the final editorial profile without reducing people to a score.",
   },
   {
     phase: "Phase 6",
@@ -519,62 +519,6 @@ export default function AboutPage() {
               ))}
             </div>
 
-            {/* Rating guide */}
-            <div className="mt-12 max-w-3xl mx-auto">
-              <h3
-                className="text-xl font-heading font-bold mb-5 text-center"
-                style={{ color: "var(--color-navy)" }}
-              >
-                How We Rate Each Pillar
-              </h3>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                {[
-                  {
-                    label: "Strong",
-                    desc: "Clear, consistent pattern in public record",
-                    color: "var(--color-green-flag)",
-                    bg: "var(--color-green-flag-bg)",
-                  },
-                  {
-                    label: "Moderate",
-                    desc: "Generally supportive with some inconsistencies",
-                    color: "var(--color-teal-dark)",
-                    bg: "rgba(28,195,175,0.10)",
-                  },
-                  {
-                    label: "Weak",
-                    desc: "Positions or record that undermine this value",
-                    color: "var(--color-red-flag)",
-                    bg: "var(--color-red-flag-bg)",
-                  },
-                  {
-                    label: "Unknown",
-                    desc: "Insufficient public record to assess",
-                    color: "var(--color-unknown)",
-                    bg: "var(--color-unknown-bg)",
-                  },
-                ].map((rating) => (
-                  <div
-                    key={rating.label}
-                    className="rounded-lg p-4 text-center"
-                    style={{ backgroundColor: rating.bg }}
-                  >
-                    <div
-                      className="text-sm font-heading font-bold mb-1"
-                      style={{ color: rating.color }}
-                    >
-                      {rating.label}
-                    </div>
-                    <div
-                      className="text-xs leading-snug"
-                      style={{ color: "var(--color-slate)" }}
-                    >
-                      {rating.desc}
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
           </div>
         </section>
 

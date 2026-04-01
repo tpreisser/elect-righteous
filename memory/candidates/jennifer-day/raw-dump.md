@@ -2,6 +2,41 @@
 ## Consolidated: 2026-03-31
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+- Jennifer Day is a former Kansas state representative and 2026 Democratic candidate for Secretary of State.
+
+### Bio Facts
+- Campaign website: [electjenday.com](https://www.electjenday.com/)
+- Day's public profile emphasizes voting rights, access, and the idea that elections should be easy to participate in and hard to corrupt.
+
+### Record / Actions
+- Day's candidacy is rooted in her legislative background and her advocacy for participation and election accessibility.
+
+### Quotes
+1. "OUR RIGHT TO VOTE IS FUNDAMENTAL." - campaign site, 2026-04-01, https://www.electjenday.com/ - topic: voting rights.
+2. "election integrity is increasingly under threat" - campaign site, 2026-04-01, https://www.electjenday.com/ - topic: election security.
+3. "protect the right to vote" - campaign framing, 2026-04-01, https://www.electjenday.com/ - topic: mission.
+
+### Faith / Church
+- I did not verify a public church affiliation in the sources reviewed.
+
+### Campaign Finance
+- Kansas Ethics filing index: [SWLinks2026EC](https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm)
+- 2026 filing PDF: [state filing PDF referenced in SWLinks2026EC](https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm)
+- I did not fully parse itemized donors in this pass.
+
+### Controversies / Notable Facts
+- Day's campaign is part of the Democratic effort to offer a voting-rights counterweight to Republican election-security messaging.
+
+### Source URLs
+- https://www.electjenday.com/
+- https://kansasdems.org/candidates
+- https://www.jocoelection.org/candidates-elected-officials/candidates
+- https://www.kslegislature.gov/li/b2025_26/committees/ctte_h_electns_1/documents/testimony/20260120_21.pdf
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm
+
 ## SOURCE: plain-english-voter-guide.md
 
 # PLAIN ENGLISH VOTER GUIDE: 2026 KANSAS ELECTIONS
@@ -486,3 +521,62 @@ District 5 covers western Kansas, including Hays. The current member is **Cathy 
 
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Jennifer Day, Secretary of State Candidate
+
+Jennifer Day is a former Kansas House member from Overland Park who is pitching herself as a practical, business-aware elections candidate. Her campaign site says she has 16 years of business experience in technology, real estate, and finance, built a small real-estate investment firm, founded an interior design company, volunteered with the League of Women Voters, and spent seven years working as an election worker before serving in the Legislature.
+
+That mix matters because her campaign is built around the idea that the secretary of state should be boring in the best possible way: accurate elections, clear business filings, and public trust. She frames voting as fundamental and argues that disinformation has damaged confidence in Kansas election systems.
+
+### Their Record
+
+Day's legislative page shows she served in the Kansas House from 2020 to 2021 and sponsored bills on concealed carry in the Capitol, the death penalty, World War II funeral honors, and international relations. Her current campaign leans on that service and on her practical experience working around elections and small business.
+
+Her public pitch is less ideological than many other candidates in the race. She talks about secure and accessible elections, easier business registration, and communication that restores trust rather than stoking fear. That makes her one of the more institutionally oriented candidates in the secretary-of-state field.
+
+### What You Should Know
+
+1. Her 2025 filing reports $84,304.87 raised and $14,740.52 cash on hand.
+2. She says she spent seven years as an election worker.
+3. She represents the former House District 48 and is a former Kansas legislator.
+4. Her campaign foregrounds business formation and election integrity at the same time.
+5. No public church affiliation was verified in the sweep.
+
+### Where They Worship
+
+I did not verify a public church affiliation for Jennifer Day. Her campaign messaging uses civic language, not faith language, and the public record reviewed here did not identify a congregation.
+
+### Campaign Finance
+
+| Donor | Amount |
+|---|---:|
+| James D Childers | $25.00 |
+| Louis Bornman | $100.00 |
+| Michael Tourtellot | $100.00 |
+| Dan Wancura | $50.00 |
+| David Lambertson | $250.00 |
+| Leslie Mark | $25.00 |
+| Diana Stewart | $10.00 |
+| Dan Osman | $250.00 |
+
+Day's filing shows a healthy mix of small and medium donors from Lawrence, Johnson County, and the broader northeast Kansas area.
+
+### Quotes
+
+> "I'm running to safeguard our elections."
+
+> "The Secretary of State is charged with overseeing and protecting the electoral process across Kansas."
+
+> "With 16 years of business experience in technology, real estate, and finance, I understand firsthand the challenges that both small and large businesses face."
+
+> "Voting should not be a partisan issue."
+
+### Sources
+
+- https://www.electjenday.com/
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW04JD_202601.pdf
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm
+- https://www.kslegislature.gov/li_2022/b2021_22/members/rep_day_jennifer_1/
+- https://www.thebeaconnews.org/stories/2023/01/17/johnson-county-wyandotte-county-representatives-2023-kansas-legislature/
+- https://www.opensecrets.org/

@@ -2768,3 +2768,46 @@ This is likely a political tactic by the NRSC (standard opposition practice) rat
 
 ---
 
+
+## CODEX DEEP RESEARCH 2026-04-01 - Shaun Musil
+
+**Verified identity**
+Shaun Musil is a Hays city commissioner and the city's former mayor; the city commission page lists him on the governing body, and Hays Post identifies him as an account representative for Nex-Tech who has served on the commission for 12 years and lived in Hays for 30 years. His public identity is that of a long-tenured local officeholder with a strong civic profile and a steady focus on growth issues.
+
+**Bio facts**
+Musil's public record is unusually consistent across a long period of city service. He has been on the commission long enough to watch the city's water, housing, retail, parks, and transportation conversations turn from recurring debates into long-running capital priorities. His visible style is pragmatic and patient, with a repeated emphasis on listening, sustainability, and incremental progress.
+
+The clearest public biography available in local coverage is his own candidate Q&A and election-night reporting. In those sources, he comes across as a growth-oriented incumbent who wants more retail, more housing, and a finished water plan while keeping the city's mill levy as flat as possible. The record does not show a lot of personal branding beyond that, which makes the public office itself his main civic identity.
+
+**Detailed record / actions**
+- Re-elected in 2025 for another city commission term after more than a decade in office.
+- Repeatedly framed the R9 water project as unfinished business and a generational necessity.
+- Backed RHID and housing policy changes that he says have increased the number of houses being built.
+- Has pressed for retail growth and a stronger sales-tax base as part of the city's broader financial health.
+- Publicly supports reviewing ACCESS and other city services through a sustainability lens rather than assuming current systems should remain untouched.
+
+**Verbatim quotes**
+- "I think we have some unfinished business. For me, mainly, it's our water project." Source: Hays Post, 2025-10-24, https://hayspost.com/posts/49060a66-e8fc-4755-a296-382a14c00a3d, topic: campaign priorities.
+- "I love representing Hays." Source: Hays Post, 2025-10-24, https://hayspost.com/posts/49060a66-e8fc-4755-a296-382a14c00a3d, topic: civic service.
+- "This shows that we're serious about development. ... We need retail. It's a priority." Source: Hays Post, 2024-12-07, https://hayspost.com/posts/93368d50-a4df-410c-93b2-0ea148af9b4b, topic: development and retail.
+
+**Faith / church**
+No verified public church affiliation surfaced in the sources reviewed.
+
+**Campaign finance**
+I did not surface a clearly indexed public campaign finance report in this pass. Publicly visible coverage centered on candidate Q&A, election results, and city-record reporting.
+
+**Controversies / notable facts**
+- Musil's most visible issue area is water, especially the R9 project and broader utility planning.
+- He has spoken plainly about retail and sales tax as part of the city's financial base, which makes him relevant to growth-oriented voters.
+- I did not find a major public controversy in the sources reviewed, but his long tenure means his record is heavily tied to the city's current growth trajectory.
+
+**Source URLs**
+- https://www.haysusa.com/273/Shaun-Musil
+- https://www.haysusa.com/269/City-Commission
+- https://hayspost.com/posts/49060a66-e8fc-4755-a296-382a14c00a3d
+- https://hayspost.com/posts/b7a4b7ea-3e19-4919-a7fa-1de6db7bed8c
+- https://hayspost.com/posts/1afb725b-f6c4-4d09-93de-94b9008ba5ae
+- https://hayspost.com/posts/93368d50-a4df-410c-93b2-0ea148af9b4b
+- https://hayspost.com/posts/39d62580-9e3b-4536-85da-783f3cfe22bd
+- https://hayspost.com/posts/21208822-3905-4a26-a33d-5003cf6f8f08

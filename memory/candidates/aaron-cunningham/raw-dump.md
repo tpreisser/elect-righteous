@@ -2,6 +2,52 @@
 ## Consolidated: 2026-03-31
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+Aaron J. Cunningham is the Ellis County Attorney, a 2012 Hays High graduate, K-State alumnus, and Washburn Law graduate who returned to Hays after law school. The public record consistently describes him as a homegrown local prosecutor with a clear preference for law-and-order enforcement.
+
+### Biography
+Cunningham's story is rooted in Hays. He is visible in school coverage, county office materials, and Hays Post reporting, which together show a local who left for college and law school and then came back. The county attorney office page now lists him as the officeholder from 2025 onward, and the Hays High Guidon profile captures the career-speaker version of the same story: a student who was active in music and clubs and who later found his lane in advocacy and law.
+
+The more personal public line comes from his about.me page, which uses explicitly Christian language. That does not identify a church building, but it does show that faith is part of how he presents himself publicly. In the Hays civic ecosystem, that matters because it helps explain why his prosecutorial style is stricter than the officeholder he replaced.
+
+### Record And Actions
+His biggest policy move so far is the reversal of the county's marijuana-prosecution pause. Cunningham says the Legislature, not the county attorney, decides what is criminal, and he has made clear that he intends to enforce Kansas law as written. He has also signaled a hard line on hemp-derived Delta-8 and Delta-10 cases while still recognizing the office's resource limits and prioritization needs.
+
+The office page itself confirms the practical side of his agenda: the county attorney's office handles misdemeanors, felonies, juvenile matters, alcohol/drug care cases, child-in-need-of-care cases, and mental-illness related work. That makes Cunningham less of a one-issue prosecutor than the media buzz might suggest. He is managing a backlogged rural office, a staffed victim/witness process, and a public expectation that the office do more than just file charges.
+
+### What Public Sources Show
+1. He was locally educated and came back to serve in Ellis County.
+2. He is publicly Christian, but no specific church membership was found in this pass.
+3. He restored marijuana prosecutions after his predecessor had paused them.
+4. He frames prosecution as a Legislature-driven duty, not a personal policy menu.
+5. He says victim/crime prioritization and office efficiency are essential because rural counties do not have unlimited attorney capacity.
+
+### Faith / Church
+The public record shows explicit Christian self-description, including references to the sovereignty of God and redeeming grace, but I could not verify a specific Hays church or denomination from the sources reviewed in this pass. The closest verifiable evidence remains his about.me profile: https://about.me/aaron.cunningham. If a church affiliation exists publicly, it was not surfaced by the sources I could verify here.
+
+### Campaign Finance
+No itemized donor table surfaced in the public materials reviewed for this pass. This is a county officeholder profile, so the public evidence is concentrated in office actions rather than donor disclosures.
+
+### Quotes
+- "I tend to be of the philosophy" - Hays Post, 2025-02-17 - https://hayspost.com/posts/7ccb3a8f-a8c6-4baa-9767-cf155c00f4a1 - topic: prosecutorial philosophy
+- "I have an obligation to enforce the law as it's written." - Hays Post, 2025-02-17 - https://hayspost.com/posts/7ccb3a8f-a8c6-4baa-9767-cf155c00f4a1 - topic: marijuana prosecution
+- "I always had a strong sense of justice" - Hays High Guidon, 2019-10-26 - https://hayshighguidon.com/news/2019/10/26/assistant-ellis-county-attorney-aaron-cunningham-speaks-to-students-about-career-in-law/ - topic: career path
+- "a fallen individual in need of Christ's salvation" - about.me, accessed in dossier - https://about.me/aaron.cunningham - topic: faith identity
+
+### Source URLs
+- https://www.ellisco.net/92/Attorney
+- https://hayshighguidon.com/news/2019/10/26/assistant-ellis-county-attorney-aaron-cunningham-speaks-to-students-about-career-in-law/
+- https://hayspost.com/posts/7ccb3a8f-a8c6-4baa-9767-cf155c00f4a1
+- https://hayspost.com/posts/9397fb25-5dc6-4443-a340-6aae96abc594
+- https://hayspost.com/posts/a5f579fa-6c33-44fd-921e-5a8435208d58
+- https://salinapost.com/posts/4397834a-4587-449e-ac2b-6effc74eb6c3
+- https://about.me/aaron.cunningham
+- https://www.avvo.com/attorneys/67601-ks-aaron-cunningham-5075775.html
+- https://www.elliscountyksbar.org/members
+- https://haysmed.com/provider/alaina-cunningham/
+
 ## SOURCE: ellis-county-elected-officials-deep-investigation.md
 
 # DEEP INVESTIGATION: Ellis County, Kansas -- All Elected Officials
@@ -3046,4 +3092,3 @@ This is likely a political tactic by the NRSC (standard opposition practice) rat
 - [ ] Integrity Analyzer: Pending
 
 ---
-

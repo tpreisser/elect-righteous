@@ -2,6 +2,43 @@
 ## Consolidated: 2026-03-31
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+- Stacy Rogers is a Wichita business owner and 2026 Republican gubernatorial candidate.
+
+### Bio Facts
+- Campaign website: [stacyrogersforks.com](https://stacyrogersforks.com/)
+- Public coverage portrays Rogers as a political newcomer with a straight-talk style.
+
+### Record / Actions
+- Rogers has emphasized business background and a desire to disrupt politics-as-usual.
+- Public-facing campaign material shows a strong focus on messaging discipline and less on policy paper density.
+
+### Quotes
+1. "Straight Talk. Real Issues. For All Kansans." - The Rogers Report, 2026-04-01, https://stacyrogersforks.com/the-rogers-report - topic: campaign slogan.
+2. "No spin. No political filter." - The Rogers Report, 2026-04-01, https://stacyrogersforks.com/the-rogers-report - topic: style.
+3. "for all Kansans" - campaign slogan, 2026-04-01, https://stacyrogersforks.com/ - topic: audience.
+
+### Faith / Church
+- I did not verify a public church affiliation in the sources reviewed.
+
+### Campaign Finance
+- Kansas Ethics filing index: [SWLinks2026EC](https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm)
+- 2026 filing PDF: [SW01SR_202601.pdf](https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01SR_202601.pdf)
+- Public reporting on the filing showed roughly $25,542.98 raised and $14,470.23 cash on hand.
+
+### Controversies / Notable Facts
+- Rogers is a lower-profile candidate whose viability depends heavily on message resonance and donor support.
+- Public coverage treats her as a political newcomer rather than an established officeholder.
+
+### Source URLs
+- https://stacyrogersforks.com/
+- https://stacyrogersforks.com/the-rogers-report
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01SR_202601.pdf
+- https://www.jocoelection.org/candidates-elected-officials/stacy-l-rogers-michael-w-smith
+- https://www.yahoo.com/news/articles/stacy-rogers-says-shes-taking-090609003.html
+
 ## SOURCE: governor-2026-all-remaining-candidates-complete.md
 
 # 2026 Kansas Governor Race: Complete Investigation of All Remaining Candidates
@@ -2996,4 +3033,3 @@ As Insurance Commissioner, Schmidt has called for PBM reform -- an issue directl
 *All information sourced from publicly available records, news reports, and official government databases*
 
 ---
-

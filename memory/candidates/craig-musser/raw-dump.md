@@ -513,3 +513,93 @@ Based on all available evidence, **Tracey Mann wins re-election easily.** The mo
 
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+- Craig A. Musser
+- United Kansas Party / independent general-election candidate for Kansas's 1st Congressional District.
+- Manager, Environment, Health & Safety at PureField Ingredients in Russell, Kansas.
+
+### Bio
+Musser is the geographic authenticity candidate in KS-01. He lives in Ellinwood, which puts him in the rural heart of the district rather than in Lawrence or a metropolitan feeder city, and his industrial-manufacturing background lines up closely with the district's working-class identity.
+
+He is also the least resourced of the general-election entrants. The file shows a February 2026 filing, almost no public campaign infrastructure, and a brand-new party vehicle that has yet to prove it can win even local elections.
+
+### Record / Actions
+- Filed with the FEC on February 14, 2026.
+- Runs under the United Kansas Party, which markets itself as a cross-partisan alternative.
+- Brings manufacturing, safety, and operations experience from a long career in industrial settings.
+
+### Verbatim Quotes
+- "Kansans deserve a representative who serves them -- not donors, party bosses or Washington insiders." - campaign announcement, https://musserforuscongress.com/ and Hays Post, 2026 (campaign pitch)
+- "Effective governance is not about ideology -- it's about listening and delivering outcomes." - campaign announcement, https://musserforuscongress.com/ and Great Bend Post, 2026 (governance)
+- "The long odds are exactly why this fight is so important." - campaign coverage, 2026, https://hayspost.com/posts/2ac5a87c-4b19-4a42-8db8-1deab18eb3f7 (campaign meaning)
+
+### Faith / Church
+- No public church affiliation was verified.
+
+### Campaign Finance
+- FEC candidate page: https://www.fec.gov/data/candidate/H6KS01211/
+- FEC filing: February 14, 2026.
+- No substantive fundraising data surfaced in the accessible research trail.
+- The campaign appears to be a very small, early-stage operation with limited fundraising visibility.
+
+### Controversies / Notable Facts
+- He is the only general-election challenger in the race outside the two major parties.
+- The United Kansas Party is brand-new and unproven, which makes his candidacy a test of whether the label has any real traction.
+- The biggest risk is not scandal but viability: no website infrastructure, no visible donor base, and minimal campaign presence.
+
+### Sources
+- https://musserforuscongress.com/
+- https://www.fec.gov/data/candidate/H6KS01211/
+- https://ballotpedia.org/Craig_Musser
+- https://hayspost.com/posts/2ac5a87c-4b19-4a42-8db8-1deab18eb3f7
+- https://www.unitedkansas.com/
+- https://www.linkedin.com/in/craig-musser-82880838/
+- https://www.zoominfo.com/p/Craig-Musser/9122088966
+
+
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+- Craig A. Musser
+- United Kansas Party / independent general-election candidate for Kansas's 1st Congressional District.
+- Manager, Environment, Health & Safety at PureField Ingredients in Russell, Kansas.
+
+### Bio
+Musser is the geographic authenticity candidate in KS-01. He lives in Ellinwood, which puts him in the rural heart of the district rather than in Lawrence or a metropolitan feeder city, and his industrial-manufacturing background lines up closely with the district's working-class identity.
+
+He is also the least resourced of the general-election entrants. The file shows a February 2026 filing, almost no public campaign infrastructure, and a brand-new party vehicle that has yet to prove it can win even local elections.
+
+### Record / Actions
+- Filed with the FEC on February 14, 2026.
+- Runs under the United Kansas Party, which markets itself as a cross-partisan alternative.
+- Brings manufacturing, safety, and operations experience from a long career in industrial settings.
+
+### Verbatim Quotes
+- "Kansans deserve a representative who serves them -- not donors, party bosses or Washington insiders." - campaign announcement, https://musserforuscongress.com/ and Hays Post, 2026 (campaign pitch)
+- "Effective governance is not about ideology -- it's about listening and delivering outcomes." - campaign announcement, https://musserforuscongress.com/ and Great Bend Post, 2026 (governance)
+- "The long odds are exactly why this fight is so important." - campaign coverage, 2026, https://hayspost.com/posts/2ac5a87c-4b19-4a42-8db8-1deab18eb3f7 (campaign meaning)
+
+### Faith / Church
+- No public church affiliation was verified.
+
+### Campaign Finance
+- FEC candidate page: https://www.fec.gov/data/candidate/H6KS01211/
+- FEC filing: February 14, 2026.
+- No substantive fundraising data surfaced in the accessible research trail.
+- The campaign appears to be a very small, early-stage operation with limited fundraising visibility.
+
+### Controversies / Notable Facts
+- He is the only general-election challenger in the race outside the two major parties.
+- The United Kansas Party is brand-new and unproven, which makes his candidacy a test of whether the label has any real traction.
+- The biggest risk is not scandal but viability: no website infrastructure, no visible donor base, and minimal campaign presence.
+
+### Sources
+- https://musserforuscongress.com/
+- https://www.fec.gov/data/candidate/H6KS01211/
+- https://ballotpedia.org/Craig_Musser
+- https://hayspost.com/posts/2ac5a87c-4b19-4a42-8db8-1deab18eb3f7
+- https://www.unitedkansas.com/
+- https://www.linkedin.com/in/craig-musser-82880838/
+- https://www.zoominfo.com/p/Craig-Musser/9122088966

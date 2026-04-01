@@ -3318,3 +3318,50 @@ This is likely a political tactic by the NRSC (standard opposition practice) rat
 
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+- Erik Murray
+- Democratic candidate for U.S. Senate from Kansas City, Kansas.
+- Commercial real estate developer and entrepreneur.
+
+### Bio
+Murray is the business/development candidate in the Democratic field. He was born in KCK, later spent about a decade in Oakland and San Francisco, then returned to Kansas in 2023 to help drive a billion-dollar redevelopment of the former Indian Springs Mall site.
+
+The public record paints him as a candidate who thinks in project terms: capital stack, community goals, mixed-use development, and broad coalition work. That gives him a distinctive profile, but it also creates a vulnerability because he is easier to attack as a developer than as a traditional community activist.
+
+### Record / Actions
+- Led or helped lead a major KCK redevelopment project with housing, retail, job training, childcare, and transit components.
+- Returned to Kansas after a decade in California and has framed that move as a homecoming.
+- Became a media target after remarks on The Disruption Lab podcast about Elaine Brown.
+
+### Verbatim Quotes
+- "between what capital wants and what community wants" - Kansas Reflector, March 16, 2026, https://kansasreflector.com/2026/03/16/kansas-city-entrepreneur-prioritizes-passion-decency-in-campaign-for-u-s-senate/ (motivation)
+- "politician-created problems" - same coverage, https://kansasreflector.com/2026/03/16/kansas-city-entrepreneur-prioritizes-passion-decency-in-campaign-for-u-s-senate/ (tariffs and tax policy critique)
+- "It'll change some wiring in your brain." - The Disruption Lab podcast, Nov. 2025, referenced in https://freebeacon.com/democrats/kansas-senate-candidate-names-his-political-inspiration-a-black-panther-soldier-working-to-destroy-the-american-empire/ (Elaine Brown remark)
+
+### Faith / Church
+- No current church affiliation was publicly verified.
+- Childhood background in the file points to Fellowship Christian Church and St. Patrick's Catholic School, but that is background rather than a current congregation.
+
+### Campaign Finance
+- FEC candidate page: https://www.fec.gov/data/candidate/S6KS00270/
+- Committee page: https://www.fec.gov/data/committee/C00929240/
+- Public FEC summary shows $124,598.62 in receipts, $15,625.69 spent, and $108,972.93 cash on hand through 2025-12-31.
+- No donor-by-donor public breakdown surfaced in the accessible snippets I reviewed.
+
+### Controversies / Notable Facts
+- The Elaine Brown/Black Panther line is the main general-election liability and a ready-made opposition-ad line.
+- He also faces the familiar Kansas attack that he spent a decade in California before returning.
+- His redevelopment project has had disputes with the local government, which gives opponents a governance angle.
+
+### Sources
+- https://erikforkansas.com/
+- https://erikforkansas.com/meet-erik/
+- https://www.fec.gov/data/candidate/S6KS00270/
+- https://www.fec.gov/data/committee/C00929240/
+- https://kansasreflector.com/2026/03/16/kansas-city-entrepreneur-prioritizes-passion-decency-in-campaign-for-u-s-senate/
+- https://sunflowerstatejournal.com/kck-developer-announces-for-u-s-senate-as-democratic-primary-grows-to-five/
+- https://freebeacon.com/democrats/kansas-senate-candidate-names-his-political-inspiration-a-black-panther-soldier-working-to-destroy-the-american-empire/
+- https://www.linkedin.com/in/erikmurraysior
+

@@ -4,7 +4,7 @@ export interface Election {
   slug: string;
   name: string;
   level: ElectionLevel;
-  date: string; // ISO format YYYY-MM-DD
+  date: string;
   jurisdiction: string;
   seats: number;
   status: "Open Seat" | "Incumbent Running" | "N/A";
@@ -17,28 +17,6 @@ export interface Election {
 
 export const ELECTIONS: Election[] = [
   {
-    slug: "kansas-governor-2026",
-    name: "Kansas Governor",
-    level: "State",
-    date: "2026-11-03",
-    jurisdiction: "State of Kansas",
-    seats: 1,
-    status: "Open Seat",
-    candidateCount: 4,
-    candidateSlugs: [
-      "scott-schwab",
-      "vicki-schmidt",
-      "ty-masterson",
-      "jeff-colyer",
-    ],
-    description:
-      "The race to succeed term-limited Governor Laura Kelly. Four Republican candidates are competing in the primary for this open seat.",
-    plainEnglish:
-      "Governor Laura Kelly is term-limited and cannot run again, so this seat is wide open. Four Republicans are competing in the primary — the winner will almost certainly become the next governor of Kansas. The governor sets the state budget, appoints judges, and can veto legislation.",
-    whyItMatters:
-      "Whoever wins this race will have more influence over Kansas than almost any other elected official — signing or vetoing every bill that comes out of the legislature, appointing judges, and directing state agencies that touch education, roads, and public health.",
-  },
-  {
     slug: "us-senate-2026",
     name: "U.S. Senate",
     level: "Federal",
@@ -46,14 +24,24 @@ export const ELECTIONS: Election[] = [
     jurisdiction: "State of Kansas",
     seats: 1,
     status: "Incumbent Running",
-    candidateCount: 1,
-    candidateSlugs: ["roger-marshall"],
+    candidateCount: 9,
+    candidateSlugs: [
+      "roger-marshall",
+      "jason-hart",
+      "patrick-schmidt",
+      "christy-cauble-davis",
+      "sandy-spidel-neumann",
+      "erik-murray",
+      "anne-parelkar",
+      "michael-soetaert",
+      "chase-laporte",
+    ],
     description:
-      "U.S. Senator Roger Marshall seeks re-election to his Senate seat representing all Kansans.",
+      "Roger Marshall faces a crowded field of Democratic challengers plus a Republican primary challenger in one of Kansas's highest-profile races.",
     plainEnglish:
-      "Senator Roger Marshall, a physician from Great Bend, is seeking a second six-year term in the U.S. Senate. He was elected in 2020, previously serving as the KS-01 Congressman. He sits on the Senate Agriculture and Health committees.",
+      "Kansas gets only two U.S. senators, and this seat is on the ballot in November 2026. Incumbent Roger Marshall is running again, while Democrats have built an unusually large field of challengers and Chase LaPorte has filed on the Republican side.",
     whyItMatters:
-      "U.S. Senators serve six-year terms and vote on every major federal issue — from Supreme Court nominees to the federal budget. Kansas has only two senators, so this vote carries significant weight in Washington.",
+      "U.S. senators vote on judges, war powers, federal spending, farm policy, healthcare, and the national laws that affect Kansas every day. This race shapes who speaks for the entire state in Washington.",
   },
   {
     slug: "ks-01-house-2026",
@@ -63,14 +51,48 @@ export const ELECTIONS: Election[] = [
     jurisdiction: "Kansas 1st Congressional District",
     seats: 1,
     status: "Incumbent Running",
-    candidateCount: 1,
-    candidateSlugs: ["tracey-mann"],
+    candidateCount: 4,
+    candidateSlugs: [
+      "tracey-mann",
+      "colin-mcroberts",
+      "lauren-reinhold",
+      "craig-musser",
+    ],
     description:
-      "Congressman Tracey Mann seeks his third term representing Kansas's 1st Congressional District, which includes Hays.",
+      "Tracey Mann is seeking another term in the Big First, with Democratic and independent challengers already in the field.",
     plainEnglish:
-      "Tracey Mann, a fifth-generation farmer from Quinter, is running for his third term in Congress representing the Big First — the massive western Kansas district that includes Hays, Dodge City, and Salina. He sits on the Agriculture and Transportation committees.",
+      "If you live in Hays, this is your U.S. House race. Tracey Mann is the incumbent, and Colin McRoberts, Lauren Reinhold, and Craig Musser have all entered the contest to represent western and central Kansas.",
     whyItMatters:
-      "The KS-01 district covers most of the western half of Kansas, making its congressman the primary voice in Washington for rural Kansas agriculture, water rights, and rural infrastructure. If you live in Hays, this is your representative.",
+      "The KS-01 member of Congress becomes the main federal voice for agriculture, water, roads, trade, and rural infrastructure across a huge stretch of Kansas.",
+  },
+  {
+    slug: "kansas-governor-2026",
+    name: "Kansas Governor",
+    level: "State",
+    date: "2026-11-03",
+    jurisdiction: "State of Kansas",
+    seats: 1,
+    status: "Open Seat",
+    candidateCount: 11,
+    candidateSlugs: [
+      "scott-schwab",
+      "vicki-schmidt",
+      "ty-masterson",
+      "jeff-colyer",
+      "philip-sarnecki",
+      "charlotte-ohara",
+      "stacy-rogers",
+      "joy-eakins",
+      "ethan-corson",
+      "cindy-holscher",
+      "marty-tuley",
+    ],
+    description:
+      "With Laura Kelly term-limited, both parties are building large fields for one of the most important open-seat races in Kansas politics.",
+    plainEnglish:
+      "Kansas will elect a new governor in 2026 because Laura Kelly cannot run again. Republicans already have a crowded primary, Democrats have multiple contenders, and the winner will control the executive branch in Topeka.",
+    whyItMatters:
+      "The governor signs or vetoes bills, writes budgets, appoints agency leaders, and shapes policy on education, taxes, roads, public health, and much more.",
   },
   {
     slug: "kansas-ag-2026",
@@ -80,14 +102,14 @@ export const ELECTIONS: Election[] = [
     jurisdiction: "State of Kansas",
     seats: 1,
     status: "Incumbent Running",
-    candidateCount: 1,
-    candidateSlugs: ["kris-kobach"],
+    candidateCount: 2,
+    candidateSlugs: ["kris-kobach", "chris-mann"],
     description:
-      "Attorney General Kris Kobach seeks re-election after winning his AG race in 2022.",
+      "Kris Kobach is seeking another term as attorney general while Chris Mann runs as the Democratic challenger.",
     plainEnglish:
-      "Kris Kobach is the state's top law enforcement officer and chief legal counsel. He decides which cases to prosecute, which federal laws to challenge, and how the state's legal resources are deployed. He was elected in 2022 after previously serving as Kansas Secretary of State.",
+      "The attorney general is Kansas's top lawyer and one of its most visible statewide offices. Kris Kobach is the incumbent, and Chris Mann is the main challenger on the board right now.",
     whyItMatters:
-      "The Attorney General enforces state laws, protects consumers, and can file lawsuits on behalf of Kansas against the federal government or corporations. The AG's decisions on which cases to pursue directly affect Kansans' daily lives.",
+      "This office decides which lawsuits Kansas joins, which criminal or civil fights get statewide attention, and how aggressively state law is enforced in court.",
   },
   {
     slug: "kansas-sos-2026",
@@ -97,14 +119,14 @@ export const ELECTIONS: Election[] = [
     jurisdiction: "State of Kansas",
     seats: 1,
     status: "Open Seat",
-    candidateCount: 0,
-    candidateSlugs: [],
+    candidateCount: 4,
+    candidateSlugs: ["pat-proctor", "ken-rahjes", "jennifer-day", "sam-lane"],
     description:
-      "An open-seat race for Kansas Secretary of State. No candidates have formally announced as of this writing.",
+      "Scott Schwab is leaving the office to run for governor, which opens a four-candidate contest over who will manage Kansas elections and business filings.",
     plainEnglish:
-      "The Secretary of State oversees Kansas elections — managing voter registration, certifying results, and administering the voting process statewide. Scott Schwab currently holds this office but is vacating it to run for governor, leaving this seat open.",
+      "The secretary of state runs Kansas elections, handles candidate filings, and oversees major state records. With Scott Schwab stepping aside, Pat Proctor, Ken Rahjes, Jennifer Day, and Sam Lane are all in the race.",
     whyItMatters:
-      "The Secretary of State is the official in charge of how elections are run in Kansas. Who holds this office directly shapes voter registration rules, ballot access, and the overall integrity of the election process.",
+      "This office decides how easy or difficult it is to vote, how election disputes are handled, and how confidently Kansans can trust the statewide process.",
   },
   {
     slug: "kansas-insurance-2026",
@@ -114,14 +136,14 @@ export const ELECTIONS: Election[] = [
     jurisdiction: "State of Kansas",
     seats: 1,
     status: "Open Seat",
-    candidateCount: 0,
-    candidateSlugs: [],
+    candidateCount: 2,
+    candidateSlugs: ["daniel-hawkins", "dinah-sykes"],
     description:
-      "An open-seat race for the elected Kansas Insurance Commissioner position.",
+      "The open-seat insurance commissioner race currently pits Daniel Hawkins against Dinah Sykes.",
     plainEnglish:
-      "The Insurance Commissioner regulates insurance companies doing business in Kansas — approving rate increases, investigating complaints, and ensuring companies pay claims. Vicki Schmidt currently holds this office and is vacating it to run for governor.",
+      "Kansas elects its insurance commissioner, and this office touches rates, claims, consumer complaints, and company oversight. Daniel Hawkins and Dinah Sykes are the two main candidates on the site right now.",
     whyItMatters:
-      "Health insurance premiums, auto insurance rates, and homeowners coverage are all subject to review by this office. The Commissioner's decisions affect what Kansans pay for insurance and whether their claims get paid.",
+      "Insurance decisions affect what Kansans pay for health, auto, crop, and home coverage, and whether regulators push back when companies fail consumers.",
   },
   {
     slug: "ks-house-111",
@@ -134,15 +156,15 @@ export const ELECTIONS: Election[] = [
     candidateCount: 1,
     candidateSlugs: ["barb-wasinger"],
     description:
-      "State Representative Barb Wasinger seeks re-election in House District 111, covering parts of Ellis County.",
+      "Barb Wasinger currently anchors the House District 111 race on the site as the district's incumbent representative.",
     plainEnglish:
-      "Barb Wasinger is seeking re-election to the Kansas House in District 111, which covers parts of Ellis County including portions of Hays. State representatives vote on the state budget, education funding, and local issues that directly affect your community.",
+      "House District 111 is one of the most directly local state races for Hays-area voters. Barb Wasinger is the incumbent, and this race affects the laws and budget choices that hit closest to home.",
     whyItMatters:
-      "Your state representative is the closest elected official to home — voting on school funding, road budgets, and the laws that govern everyday life in Kansas. This is one of the most local and direct votes on your ballot.",
+      "Your state representative votes on school funding, tax policy, roads, public safety, and the state laws that shape daily life in Ellis County.",
   },
   {
     slug: "sboe-district-5",
-    name: "SBOE District 5",
+    name: "State Board of Education District 5",
     level: "State",
     date: "2026-11-03",
     jurisdiction: "Kansas State Board of Education District 5",
@@ -151,11 +173,86 @@ export const ELECTIONS: Election[] = [
     candidateCount: 0,
     candidateSlugs: [],
     description:
-      "The Kansas State Board of Education seat for District 5, which includes Ellis County.",
+      "District 5 covers western Kansas, including Ellis County, and the seat is back on the ballot in 2026.",
     plainEnglish:
-      "The State Board of Education sets curriculum standards, oversees testing, and makes policy decisions affecting every public school in Kansas. District 5 covers a large swath of central and western Kansas including Ellis County.",
+      "The State Board of Education helps decide statewide standards, curriculum fights, accreditation, and major school policy. District 5 includes Hays and much of western Kansas, so this race matters even if the candidate field is still thin on the site.",
     whyItMatters:
-      "The State Board of Education determines what Kansas children are taught — from reading standards to science curriculum to sex education policy. This board also controls the accreditation of Kansas schools and teacher licensing requirements.",
+      "Board members influence what schools teach, how districts are judged, and what statewide education debates look like for years to come.",
+  },
+  {
+    slug: "hays-city-current",
+    name: "Hays City Leadership",
+    level: "Local",
+    date: "2027-11-02",
+    jurisdiction: "City of Hays, Kansas",
+    seats: 6,
+    status: "N/A",
+    candidateCount: 6,
+    candidateSlugs: [
+      "mason-ruder",
+      "alaina-cunningham",
+      "shaun-musil",
+      "sandy-jacobs",
+      "david-vilaysing",
+      "toby-dougherty",
+    ],
+    description:
+      "City races are not on the 2026 Hays ballot, but these are the officeholders currently running city government and setting local direction.",
+    plainEnglish:
+      "Hays city elections are not the main focus of the 2026 ballot, but the people already in office still make decisions about water, housing, growth, budgeting, and city services. This page groups the current city leadership in one place.",
+    whyItMatters:
+      "Local city decisions shape day-to-day life faster than almost anything else: utility projects, zoning, housing growth, city spending, and how Hays responds to long-running issues like water.",
+  },
+  {
+    slug: "ellis-county-current",
+    name: "Ellis County Officials",
+    level: "Local",
+    date: "2026-11-03",
+    jurisdiction: "Ellis County, Kansas",
+    seats: 7,
+    status: "N/A",
+    candidateCount: 7,
+    candidateSlugs: [
+      "scott-braun",
+      "aaron-cunningham",
+      "bobbi-dreiling",
+      "nathan-leiker",
+      "neal-younger",
+      "rebecca-herzog",
+      "vernon-ruder-jr",
+    ],
+    description:
+      "Some Ellis County offices return to the ballot in 2026 and others do not, but these are the county officials currently holding the posts most relevant to Hays voters.",
+    plainEnglish:
+      "County government handles elections, law enforcement, prosecutions, taxes, property records, and commission decisions that affect Hays and the surrounding rural areas. This guide groups the current Ellis County officeholders together for context.",
+    whyItMatters:
+      "County officials touch public safety, election administration, land records, tax collection, and the county budget that underpins a lot of everyday local government.",
+  },
+  {
+    slug: "usd-489-current",
+    name: "USD 489 School Leadership",
+    level: "Local",
+    date: "2027-11-02",
+    jurisdiction: "Hays USD 489",
+    seats: 8,
+    status: "N/A",
+    candidateCount: 8,
+    candidateSlugs: [
+      "ken-brooks",
+      "curt-vajnar",
+      "ruth-ruder",
+      "derek-yarmer",
+      "allen-park",
+      "jayme-goetz",
+      "craig-pallister",
+      "ron-wilson",
+    ],
+    description:
+      "The next USD 489 school board election is in 2027, but the people in charge now are already making high-impact decisions about curriculum, contracts, and district direction.",
+    plainEnglish:
+      "USD 489 is not a 2026 ballot fight, but the board and superintendent still matter right now. They control district policy, bond oversight, curriculum fights, and the tone of public-school leadership in Hays.",
+    whyItMatters:
+      "School leaders influence what kids are taught, how tax-backed bond projects are managed, and how parents experience the district long before the next board election arrives.",
   },
   {
     slug: "supreme-court-amendment",
@@ -168,11 +265,11 @@ export const ELECTIONS: Election[] = [
     candidateCount: 0,
     candidateSlugs: [],
     description:
-      "A proposed constitutional amendment regarding the structure and appointment process for the Kansas Supreme Court. Appears on the August primary ballot.",
+      "A constitutional amendment that would change how Kansans choose state Supreme Court justices.",
     plainEnglish:
-      "Right now, Kansas Supreme Court justices are selected by a nonpartisan commission of lawyers and citizens, then confirmed by a retention vote. This amendment would change that process — likely moving toward direct gubernatorial appointment or partisan elections. The exact language changes how much political control the governor and legislature have over who sits on the state's highest court.",
+      "This August 4, 2026 measure would reshape how Kansas Supreme Court justices are selected. It is one of the most important statewide ballot questions because it changes the rules, not just the people involved.",
     whyItMatters:
-      "The Kansas Supreme Court is the final word on Kansas law — including abortion access, school funding, and constitutional rights. How justices are selected determines whether the court is insulated from political pressure or subject to it. This amendment would make a permanent change to that balance.",
+      "Judicial selection changes can outlast any single election cycle and affect abortion law, school funding, constitutional rights, and the court's independence from direct political pressure.",
   },
   {
     slug: "citizenship-amendment",
@@ -185,35 +282,18 @@ export const ELECTIONS: Election[] = [
     candidateCount: 0,
     candidateSlugs: [],
     description:
-      "A proposed constitutional amendment clarifying that only U.S. citizens may vote in Kansas elections.",
+      "A constitutional amendment about citizen-only voting language that will appear on the November 2026 ballot.",
     plainEnglish:
-      "This amendment would add language to the Kansas Constitution explicitly stating that only U.S. citizens may vote in Kansas elections. Non-citizen voting in state elections is already illegal under current Kansas and federal law. Supporters say this adds permanent constitutional protection; opponents say it addresses a problem that doesn't exist and could complicate voter verification processes.",
+      "This measure would add explicit citizen-only voting language to the Kansas Constitution. Supporters call it a safeguard, while opponents say it solves a problem already covered by existing law.",
     whyItMatters:
-      "While the practical impact may be limited — since non-citizen voting is already prohibited — this vote is fundamentally about what belongs in Kansas's constitution. A yes vote adds explicit citizenship language; a no vote leaves existing law in place without constitutional amendment.",
-  },
-  {
-    slug: "judicial-retention-2026",
-    name: "Judicial Retention",
-    level: "State",
-    date: "2026-11-03",
-    jurisdiction: "State of Kansas",
-    seats: 0,
-    status: "N/A",
-    candidateCount: 0,
-    candidateSlugs: [],
-    description:
-      "Kansans will vote yes or no on retaining several Kansas Court of Appeals judges under the merit selection system.",
-    plainEnglish:
-      "Under Kansas's merit selection system, judges are appointed by the governor but must periodically face a retention vote — voters simply say yes or no, they are not choosing between competing candidates. In 2026, several Court of Appeals judges are on the retention ballot.",
-    whyItMatters:
-      "Judicial retention votes are how Kansans hold appointed judges accountable without making judicial seats partisan contests. A no vote removes a judge from the bench; a yes vote keeps them for another term. These judges hear thousands of appeals each year on criminal, civil, and family law cases.",
+      "Even when a measure changes little on day one, it can shape future voting laws and court fights by changing the language written into the state constitution itself.",
   },
 ];
 
 export function getElectionBySlug(slug: string): Election | undefined {
-  return ELECTIONS.find((e) => e.slug === slug);
+  return ELECTIONS.find((election) => election.slug === slug);
 }
 
 export function getAllElectionSlugs(): string[] {
-  return ELECTIONS.map((e) => e.slug);
+  return ELECTIONS.map((election) => election.slug);
 }

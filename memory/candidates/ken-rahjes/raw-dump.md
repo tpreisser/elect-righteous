@@ -2,6 +2,42 @@
 ## Consolidated: 2026-03-31
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+- Ken Rahjes is a Kansas state representative and 2026 Republican candidate for Secretary of State.
+
+### Bio Facts
+- Campaign website: [kenforkansas.com](https://kenforkansas.com/)
+- Rahjes is publicly identified with agriculture, local media, and state legislative service.
+
+### Record / Actions
+- Rahjes has framed his run around making sure votes are counted accurately and the office stays accessible.
+- His biography gives him a rural / western Kansas profile within the Republican field.
+
+### Quotes
+1. "fair and honest elections" - campaign announcement, 2026-04-01, https://kenforkansas.com/news/rahjes-files-for-secretary-of-state/ - topic: election integrity.
+2. "their vote matters is counted" - campaign announcement, 2026-04-01, https://kenforkansas.com/news/rahjes-files-for-secretary-of-state/ - topic: voter confidence.
+3. "confidence in all elections" - campaign announcement, 2026-04-01, https://kenforkansas.com/news/rahjes-files-for-secretary-of-state/ - topic: ballot trust.
+
+### Faith / Church
+- I did not verify a public church affiliation in the sources reviewed.
+
+### Campaign Finance
+- Kansas Ethics filing index: [SWLinks2026EC](https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm)
+- 2026 filing PDF: [state filing PDF referenced in SWLinks2026EC](https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm)
+- I did not fully parse the itemized donor schedule in this pass.
+
+### Controversies / Notable Facts
+- Rahjes is a more rural Republican option in the field, with a message aimed at confidence in the voting system.
+
+### Source URLs
+- https://kenforkansas.com/
+- https://kenforkansas.com/news/rahjes-files-for-secretary-of-state/
+- https://www.jocoelection.org/candidates-elected-officials/ken-rahjes
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm
+- https://hayspost.com/posts/d7c59a6a-6884-4ac9-aad1-7c9d728f5f5f
+
 ## SOURCE: plain-english-voter-guide.md
 
 # PLAIN ENGLISH VOTER GUIDE: 2026 KANSAS ELECTIONS
@@ -486,3 +522,61 @@ District 5 covers western Kansas, including Hays. The current member is **Cathy 
 
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Ken Rahjes, Secretary of State Candidate
+
+Ken Rahjes is a farm-and-ranch Kansan from Agra who turned a broadcasting and agriculture-communications career into a decade in the Kansas House. His campaign site says he was raised on a diversified family farm and ranch outside Agra, lives there now with his wife Lori, studied agricultural communications at Kansas State, and has built a public life around rural Kansas, farm policy, and small-business advocacy.
+
+He is one of the more grounded secretary of state candidates in the race. Rahjes does not come across as a culture-war campaigner; instead he emphasizes trust, stewardship, and practical systems. His public profile is built on agriculture, local institutions, and a sense that state government should be useful rather than intrusive.
+
+### Their Record
+
+Rahjes has spent the last decade in the Kansas House representing the 110th District. He chairs the Agriculture and Natural Resources Committee and has served on budget and water committees, which means his public record is anchored in the policy territory that matters most to western Kansas: land, water, agriculture, and business conditions.
+
+The campaign's secretary-of-state pitch is straightforward. He says he wants to help Kansans trust elections, keep business registration simple, and get government out of the way. That is a traditional rural Republican argument, but Rahjes presents it with a more measured tone than some of the louder candidates in the field.
+
+### What You Should Know
+
+1. His 2025 filing reports $24,070.30 raised, $1,442.98 spent, and $22,627.32 cash on hand.
+2. He was raised on a farm and ranch near Agra and still lives there.
+3. He chairs the House Agriculture and Natural Resources Committee.
+4. He and Lori are members of the United Presbyterian Church in Phillipsburg, but I did not verify a public church website for that congregation.
+5. He is running as a rural, business-minded conservative rather than a hardline ideological candidate.
+
+### Where They Worship
+
+The raw research notes identify Rahjes and his wife as members of the United Presbyterian Church in Phillipsburg. I was not able to verify a congregation website from the current public sweep, so I am treating the church name as identified but the URL as not publicly verified.
+
+### Campaign Finance
+
+| Donor | Amount |
+|---|---:|
+| Scott Foote | $3,300.00 |
+| Kansas Sorghum Producers Assoc | $2,000.00 |
+| Michael McClellan | $1,000.00 |
+| Clay Scott | $500.00 |
+| Kent Glasscock | $100.00 |
+| Johnson Farms | $100.00 |
+| Kent Winter | $100.00 |
+
+Rahjes's Schedule A shows a compact but very Kansas donor base: farmers, ag organizations, and rural business owners. That profile fits the campaign's pitch almost perfectly.
+
+### Quotes
+
+> "A family man, built from trust and integrity."
+
+> "I wanted to be one to help work on solutions in the arena not on the sidelines."
+
+> "We as Kansans, get up everyday and head off to work, school or other daily activities, and all face challenges to pay the bills and have a little for retirement or a rainy day."
+
+> "We will work hand in hand to make the process as smooth as possible with as few delays as possible then get out of the way and watch their success."
+
+### Sources
+
+- https://kenforkansas.com/
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW04KR_202601.pdf
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm
+- https://www.kslegislature.gov/li/b2025_26/members/rep_rahjes_ken_1/
+- https://www.kansasreflector.com/2025/04/04/leavenworth-house-member-first-republican-to-declare-as-2026-candidate-for-secretary-of-state/
+- https://www.followthemoney.org/

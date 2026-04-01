@@ -1663,3 +1663,46 @@ The major controversies have been almost entirely about **money** (bond spending
 
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified identity
+Craig Pallister is the current USD 489 board member who returned to the board in 2025 after previously serving as vice president and president. The public record identifies him as a retired teacher and principal.
+
+### Who he is
+Pallister's biography is one of the most education-heavy in the district. He told Hays Post that he spent 21 years as a middle-school principal and three years as an assistant principal before that, and he started in the district as a bus driver while he was still a college student. That gives him a 360-degree view of the system from transportation to leadership.
+
+He also presents himself as deeply family-centered and deeply invested in Hays USD 489. His wife is a retired teacher from the district, all of his children attended USD 489, and he said in the election cycle that he now had a grandchild attending Hays Middle. That combination of professional history and family history is why he frames board work as shared ownership rather than politics.
+
+### Their record
+Pallister's record is about retention, recruitment, and keeping the system functional as the district completes the bond buildout. In his 2023 profile he said the board needs to keep teacher, administrator, and staff retention a priority. In later coverage he came back to the board with the same eye toward continuity and student experience.
+
+He also tends to favor steady, operational problem-solving. He supports bond completion, district technology, and budget questions that ask whether spending actually helps student achievement. As a former principal, he sounds like someone who has spent decades living with the consequences of board decisions rather than just reacting to them.
+
+### What you should know
+1. He has 24 years of district leadership experience if you count his principal and assistant principal years.
+2. He started in USD 489 as a bus driver, so his history with the district is unusually broad.
+3. He says board decisions should protect teacher retention and recruitment.
+4. His own children attended the district and his grandchild is now in it.
+5. He returned to the board in 2025 after previously serving as a leader on it.
+
+### Where they worship
+I did not find a public record that reliably identifies Craig Pallister's current church home. Because the public record is thin here, I am not naming a church without a direct source.
+
+### Campaign finance
+I did not surface a reliable itemized donor table for Pallister in the public records reviewed for this pass. The sources I checked support his biography and board record, but not a clean contribution ledger.
+
+### Quotes
+- "I worked for the school district as a middle school principal for 21 years, an assistant principal for three years prior to that." - Hays Post, 2025 candidate Q&A
+- "I have just been involved with education all my life." - Hays Post, 2025 candidate Q&A
+- "Everybody in the school district could be on the school board." - Hays Post, 2025 candidate Q&A
+- "The USD 489 Board of Education needs to continue to make teacher, administrator and staff retention and recruitment a priority." - Hays Post, 2023 candidate profile
+
+### Source URLs
+- https://hayspost.com/posts/66f0b3ef-9525-40e2-a3f2-f74e9deebb43
+- https://hayspost.com/posts/d484e173-9cdf-49f3-b7fa-5effce503aab
+- https://hayspost.com/posts/ff929dc5-f4f5-433c-876e-59fc19df6a2d
+- https://hayspost.com/posts/7b0b83c9-2b64-4462-959d-ff904e2d896e
+- https://hayspost.com/posts/95dab7ab-70ba-44ee-91ee-2760e55665bf
+- https://usd489.community.highbond.com/portal/members.aspx?id=18
+- https://www.fhsu.edu/news/2020/05/pizza-kits-and-book-giveaways-set-for-monday-in-downtown-hays
+

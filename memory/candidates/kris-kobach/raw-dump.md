@@ -5606,3 +5606,66 @@ His 2026 campaign rests on property tax reform as the central issue, supported b
 
 ---
 
+
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Kris Kobach, Kansas Attorney General
+
+Kris Kobach is a Topeka-raised lawyer with Harvard, Oxford, and Yale credentials who has spent two decades building a Kansas career around immigration, election law, and conservative legal fights. His public biography says he was raised in Topeka, graduated from Washburn Rural High School, and later returned to Kansas after clerkships, federal service, and legal teaching. He lives near Lecompton with his wife Heather and their five children.
+
+His public record is defined by hard-line election and immigration fights. Before becoming attorney general in 2023, he served as Kansas secretary of state from 2011 to 2019 and became one of the state GOP's most polarizing figures. As AG he has continued filing high-profile lawsuits, including challenges to federal vaccine mandates and immigration policy, while also leaning heavily into election-integrity messaging and the 2026 constitutional amendment drive to elect Kansas Supreme Court justices.
+
+On the campaign-finance side, the January 10, 2026 state filing shows Kobach with $502,626 cash on hand after raising $337,330.24 during 2025. The filing also shows his campaign spending was relatively modest compared with the amount available to him entering the year, which gives him a substantial war chest in a low-turnout Kansas primary.
+
+### Their Record
+
+Kobach's current AG record is built around visible fights rather than quiet office management. His campaign biography says he brought suit against OSHA over Biden vaccine mandates, against DHS on behalf of ICE agents and sheriffs, and against the Air Force on behalf of pilots facing religious-belief penalties. In practice, that means he has used the attorney general's office to elevate national conservative litigation themes into Kansas politics.
+
+His broader public reputation still runs through his earlier work as secretary of state and his role in proof-of-citizenship litigation. The raw materials in this project show him pushing the 2026 Supreme Court-election amendment as a populist response to an "attorney-controlled system," and the historical record shows that his name remains tied to the SAFE Act, voter-roll fights, and campaign-finance enforcement controversies. The 2022 FEC fine tied to his U.S. Senate campaign also remains part of the public story.
+
+### What You Should Know
+
+1. Kobach's 2025 state filing reports $502,626 cash on hand and $337,330.24 in contributions.
+2. His campaign literature emphasizes lawsuits against OSHA, DHS, and the Air Force.
+3. He is the face of the 2026 effort to elect Kansas Supreme Court justices.
+4. His public record still includes the 2022 FEC fine connected to the We Build the Wall matter.
+5. No verified public church affiliation surfaced in the sweep; his faith appears in policy framing more than congregation-level disclosure.
+
+### Where They Worship
+
+No specific church could be verified from the public record reviewed for Kobach. The strongest faith-related material found was his public legal defense of Air Force pilots exercising religious beliefs, but that is not the same as a documented congregation or worship community. If a church affiliation exists, it was not public-facing in the sources used here.
+
+### Campaign Finance
+
+| Donor | Amount |
+|---|---:|
+| Kevin Arburn | $10.41 |
+| Gary Grimes | $25.00 |
+| Julia Kirk | $26.03 |
+| Karen Piper | $26.03 |
+| Barbara Anderson | $26.03 |
+| John Rysavy | $29.80 |
+| Timothy Voth | $50.00 |
+| David Powell | $50.00 |
+| Ann Peterson | $100.00 |
+
+Kobach's filing is also backed by the broader summary totals in the state ethics report: $337,330.24 raised, $52,558.52 spent, and $502,626 cash on hand. The Schedule A report is far longer than the small sample above, but these early itemized contributions already show a donor base heavy on small Kansas checks and credit-card gifts.
+
+### Quotes
+
+> "Kansas Attorney General Kris Kobach was raised in Topeka, Kansas where he graduated from Washburn Rural High School."
+
+> "Prior to serving as Kansas' 45th Attorney General, Kobach engaged in three federal lawsuits against the Biden administration."
+
+> "Today marks an historic turning point in Kansas. Voters will now get to decide whether to reclaim the right to vote for justices."
+
+> "People, not only lawyers in smoke-filled back rooms, should have a voice in selecting Kansas Supreme Court justices."
+
+### Sources
+
+- https://kriskobach.com/meet-kris/
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW02KK_202601.pdf
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm
+- https://www.kansasreflector.com/2022/12/31/kobachs-u-s-senate-campaign-we-build-the-wall-hit-by-30000-fine-for-campaign-law-violations/
+- https://www.opensecrets.org/officeholders/kris-kobach/summary
+- https://kansasreflector.com/2025/03/19/kansas-supreme-court-justices-election-amendment/

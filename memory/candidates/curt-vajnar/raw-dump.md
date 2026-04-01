@@ -1663,3 +1663,47 @@ The major controversies have been almost entirely about **money** (bond spending
 
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified identity
+Curt Vajnar is the current USD 489 board president, a retired Hays teacher, rancher, and business owner. His public biography says he taught for 31 years in USD 489, won Kansas Teacher of the Year, and has lived in Hays for 35 years.
+
+### Who he is
+Vajnar's public identity is built around agricultural education and long service in the district. Hays Post describes him as a business owner, rancher, and retired teacher, and his earlier honors material from Emporia State identifies him as an agricultural science / driver's education teacher whose program became one of the best-equipped in the state. He is not a newcomer trying to reinvent Hays politics; he is one of the people who built the district's institutional memory.
+
+He also has a very direct family stake in the schools. In 2025 he said three of his children had already gone through USD 489, two more were still in the district, and he had a grandchild on the way. That helps explain why his comments repeatedly sound like a long-range facilities manager rather than a short-term campaigner.
+
+### Their record
+Vajnar has been one of the clearest board voices on capital planning. He told Hays Post he wants a 10-year facilities plan because the district has several turf and facility replacements with overlapping warranty cycles. He also wants naming-rights revenue to go back into replacement reserves rather than into the general fund, which is a very specific stewardship philosophy.
+
+He has been broadly supportive of the bond buildout and says the work should be finished well rather than rushed. In later board coverage he also showed up as a steady vote for operations like transportation leasing and building improvements, and the district directory lists him as board president. He reads as a process-and-maintenance board member, not a culture-war board member.
+
+### What you should know
+1. He taught in USD 489 for 31 years and won Kansas Teacher of the Year.
+2. He wants a 10-year plan, not just a five-year plan, for facilities.
+3. He is focused on making bond money and naming-rights money last.
+4. He has deep family ties to USD 489, including current and former students in his household.
+5. He is currently the board president, so his vote and agenda-setting matter a lot.
+
+### Where they worship
+I did not find a direct public statement confirming Curt Vajnar's current church home. A Knights of Columbus newsletter tied to Immaculate Heart of Mary Church in Hays lists "Curt C. Vajnar" in its birthday roster, which suggests a Catholic community connection, but it does not prove current attendance or membership. Related church reference: [https://www.ihm-church.com/](https://www.ihm-church.com/).
+
+### Campaign finance
+I did not find a clean public itemized donor table for Vajnar in the sources reviewed for this pass. The public record I checked is enough to verify his school-board role and policy positions, but not enough to reconstruct a reliable donor ledger.
+
+### Quotes
+- "I taught for 31 years in USD 489." - Hays Post, 2025 candidate Q&A
+- "I want to see them finished." - Hays Post, 2025 candidate Q&A
+- "I would like to see a 10-year plan." - Hays Post, 2025 candidate Q&A
+- "I think 10 years is better, business-wise." - Hays Post, 2025 candidate Q&A
+
+### Source URLs
+- https://hayspost.com/posts/199257e6-fc97-4089-8a4c-67a87d3422f8
+- https://hayspost.com/posts/ff929dc5-f4f5-433c-876e-59fc19df6a2d
+- https://hayspost.com/posts/caf3d4b9-e869-42ad-84f8-def54af685e2
+- https://hayspost.com/posts/95dab7ab-70ba-44ee-91ee-2760e55665bf
+- https://hayspost.com/posts/19aa6807-369c-4e64-9c1c-8af9d88c84df
+- https://doczz.net/doc/6776409/3rd-degree-monthly-newsletter---immaculate-heart-of-mary-church
+- https://www.emporia.edu/teachers-college/about-college/honors-awards/kansas-master-teacher-award-home/previous-winners/
+- https://usd489.community.highbond.com/portal/members.aspx?id=18
+- https://www.ksde.gov/Portals/0/Directories/2025-26%20Kansas%20Educational%20Directory.pdf?ver=2025-11-07-175254-390

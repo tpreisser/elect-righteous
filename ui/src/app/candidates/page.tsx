@@ -94,7 +94,8 @@ export default function CandidatesPage() {
                 style={{ color: "rgba(246,246,246,0.80)" }}
               >
                 50+ officials and candidates researched — backgrounds, voting
-                records, campaign finance, and values alignment.
+                records, church ties, campaign finance, and source-backed
+                reporting in plain English.
               </p>
             </div>
           </Container>

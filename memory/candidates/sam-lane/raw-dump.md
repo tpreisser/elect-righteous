@@ -2,6 +2,41 @@
 ## Consolidated: 2026-03-31
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+- Sam Lane is a Kansas Secretary of State candidate who entered the race as a construction-industry worker / inspector.
+
+### Bio Facts
+- Campaign website: [samuellane.org](https://www.samuellane.org/)
+- Lane's public pitch stresses honesty, accountability, and a working-class perspective.
+
+### Record / Actions
+- Lane has framed the secretary of state's office as a place where integrity and ordinary Kansans matter more than insider politics.
+
+### Quotes
+1. "I’m here to Hold the Line." - campaign site, 2026-04-01, https://www.samuellane.org/ - topic: campaign slogan.
+2. "We need honest people more than ever now." - campaign site, 2026-04-01, https://www.samuellane.org/ - topic: public trust.
+3. "what does the secretary of state do" - campaign explainer page, 2026-04-01, https://www.samuellane.org/what-does-the-secretary-of-state-do - topic: civic education.
+
+### Faith / Church
+- I did not verify a public church affiliation in the sources reviewed.
+
+### Campaign Finance
+- Kansas Ethics filing index: [SWLinks2026EC](https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm)
+- 2026 filing PDF: [state filing PDF referenced in SWLinks2026EC](https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm)
+- I did not fully parse itemized donors in this pass.
+
+### Controversies / Notable Facts
+- Lane is a rare independent-leaning working-class voice in a race dominated by politicians and party operators.
+
+### Source URLs
+- https://www.samuellane.org/
+- https://www.samuellane.org/about-me
+- https://www.samuellane.org/what-does-the-secretary-of-state-do
+- https://www.jocoelection.org/candidates-elected-officials/candidates
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm
+
 ## SOURCE: plain-english-voter-guide.md
 
 # PLAIN ENGLISH VOTER GUIDE: 2026 KANSAS ELECTIONS
@@ -486,3 +521,54 @@ District 5 covers western Kansas, including Hays. The current member is **Cathy 
 
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Samuel Lane, Secretary of State Candidate
+
+Samuel Lane presents himself as a lifelong Kansan and lifelong independent who is running as a Democrat because he wants to protect elections rather than game them. His campaign site is unusually direct: he says the federal government is in chaos, that he cannot stand by and do nothing, and that the secretary of state job matters because it is the office that guards Kansas elections and business filings.
+
+Lane has no public office history and no traditional political resume. That is part of his pitch. He is trying to make a very small campaign matter by emphasizing honesty, fairness, and the need for someone who will "hold the line" instead of treating the office like a partisan trophy.
+
+### Their Record
+
+Because Lane is a political novice, his record is mostly a public philosophy rather than a long list of votes. He frames the secretary of state as the front line for democracy, argues against voter suppression, and says the office should be handled by someone who cares about fairness and accuracy rather than partisan maneuvering.
+
+His campaign finance filing is tiny compared with the other statewide candidates, which reinforces how small and personal this campaign is. The raw materials do not show a donor network or an institutional base; they show a candidate self-funding a modest early campaign and trying to build credibility through message rather than apparatus.
+
+### What You Should Know
+
+1. His 2025 filing shows $590.91 raised, with $580.27 coming from Lane himself.
+2. He is a lifelong Kansan and lifelong independent who is now running as a Democrat.
+3. He has no public office experience.
+4. His website says the secretary of state is about fair elections and honest administration.
+5. No public church affiliation was verified in the sweep.
+
+### Where They Worship
+
+No public church affiliation was verified for Samuel Lane. His campaign rhetoric is civic and institutional rather than faith-based, and I did not find a congregation I could safely cite.
+
+### Campaign Finance
+
+| Donor | Amount |
+|---|---:|
+| Samuel Lane | $580.27 |
+
+Lane's filing is effectively a self-funded seed report. The only clearly itemized contribution in the filing text reviewed here is his own donation.
+
+### Quotes
+
+> "I'm a lifelong Kansan and lifelong independent, but I'm throwing my hat in with the Democrats to run for Secretary of State."
+
+> "We need honest people more than ever now."
+
+> "In Kansas, the office of the Secretary of State has several duties."
+
+> "I can't fix this whole country by myself. But with your vote, I'll at least be able to safeguard Kansas."
+
+### Sources
+
+- https://www.samuellane.org/
+- https://www.samuellane.org/what-does-the-secretary-of-state-do
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW04SL_202601.pdf
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm
+- https://ballotpedia.org/Samuel_Lane

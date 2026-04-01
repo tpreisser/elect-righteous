@@ -2,6 +2,41 @@
 ## Consolidated: 2026-03-31
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+- Dinah Sykes is the Kansas Senate minority leader and a 2026 Democratic candidate for Insurance Commissioner.
+
+### Bio Facts
+- I did not verify a dedicated campaign website in this pass.
+- Public coverage frames Sykes as a consumer-protection Democrat running against high insurance costs and industry influence.
+
+### Record / Actions
+- Sykes has made the case that Kansas insurance pricing is hurting households and that the office should hold carriers accountable.
+
+### Quotes
+1. "The cost of health insurance in Kansas is simply out of control" - Kansas Reflector brief, 2026-04-01, https://kansasreflector.com/briefs/kansas-senate-minority-leader-challenges-gop-house-speaker-for-state-insurance-commissioner/ - topic: affordability.
+2. "big insurance companies accountable" - Kansas Reflector brief, 2026-04-01, https://kansasreflector.com/briefs/kansas-senate-minority-leader-challenges-gop-house-speaker-for-state-insurance-commissioner/ - topic: accountability.
+3. "refuse insurance-industry money" - campaign reporting, 2026-04-01, https://kansasreflector.com/briefs/kansas-senate-minority-leader-challenges-gop-house-speaker-for-state-insurance-commissioner/ - topic: ethics.
+
+### Faith / Church
+- I did not verify a public church affiliation in the sources reviewed.
+
+### Campaign Finance
+- Kansas Ethics filing index: [SWLinks2026EC](https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm)
+- 2026 filing PDF: [SW03DS_AT.pdf](https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/Treasurers/SW03DS_AT.pdf)
+- I did not fully parse itemized donors in this pass.
+
+### Controversies / Notable Facts
+- Sykes is running as the anti-insurance-industry candidate in a race with a House Speaker opponent.
+- Her pledge to reject industry money is one of the clearest differentiators in the field.
+
+### Source URLs
+- https://kansasreflector.com/briefs/kansas-senate-minority-leader-challenges-gop-house-speaker-for-state-insurance-commissioner/
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/Treasurers/SW03DS_AT.pdf
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm
+- https://kansasdems.org/candidates
+
 ## SOURCE: Kansas-2026-Senate-Insurance-Commissioner-Investigation.md
 
 # DEEP INVESTIGATION: 2026 Kansas U.S. Senate (Democratic Challengers) & Insurance Commissioner Race
@@ -1196,3 +1231,54 @@ District 5 covers western Kansas, including Hays. The current member is **Cathy 
 
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Dinah Sykes, Insurance Commissioner Candidate
+
+Dinah Sykes is a Kansas Senate leader from Johnson County who is running for insurance commissioner as the candidate most focused on affordability, consumer protection, and accountability. Her campaign site says she is running because she has seen firsthand how honest and independent leadership can improve people's lives, and it places the cost of health insurance and coverage gaps at the center of the race.
+
+Unlike Hawkins, Sykes is not running as a regulator-friendly insider from the industry side. She is running as the candidate who wants to make the insurance industry answer to consumers. That framing fits her legislative brand: practical, relational, and oriented toward lowering costs rather than preserving industry power.
+
+### Their Record
+
+Sykes's public record in the Kansas Senate includes leadership roles, bipartisan work, and a consistent focus on health care affordability. In this race, she is trying to translate that legislative profile into an insurance-commissioner argument: the office should protect Kansans, not insurance companies.
+
+The public record reviewed for this sweep did not surface a 2026 itemized campaign finance report on the Kansas ethics index, but her campaign is active, uses ActBlue, and has been endorsed by former commissioners Sandy Praeger and Kathleen Sebelius. That gives her a legitimacy-and-expertise pitch that none of the other candidates can match.
+
+### What You Should Know
+
+1. No 202601 state finance report was publicly linked for her in the state index I reviewed.
+2. Her campaign site says she is the only candidate with a real track record of delivering results that matter.
+3. She is running on affordability, consumer protection, transparency, and fairness.
+4. Her endorsements include Sandy Praeger and Kathleen Sebelius.
+5. No public church affiliation was verified in the sweep.
+
+### Where They Worship
+
+No public church affiliation was verified for Dinah Sykes. Her campaign language is values-oriented, but the public sources reviewed here did not identify a congregation or worship site.
+
+### Campaign Finance
+
+| Donor | Amount |
+|---|---:|
+| No 202601 itemized report located | N/A |
+
+The current public ethics index linked only her appointment-of-treasurer filing, not a 2026 receipts-and-expenditures report. If a later filing exists, it was not surfaced in the state index I reviewed.
+
+### Quotes
+
+> "Fighting for Affordable Insurance and Protecting Kansas Families."
+
+> "Kansas deserves an Insurance Commissioner who puts people first."
+
+> "She's seen firsthand how honest and independent leadership can actually improve people's lives."
+
+> "For Dinah, it all comes down to two things: fairness and affordability."
+
+### Sources
+
+- https://www.dinahsykes.com/
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm
+- https://www.kslegislature.gov/li/b2025_26/members/sen_sykes_dinah_1/
+- https://ballotpedia.org/Dinah_Sykes
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/Treasurers/SW03DS_AT.pdf

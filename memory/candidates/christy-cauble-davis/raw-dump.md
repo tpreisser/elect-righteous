@@ -3318,3 +3318,50 @@ This is likely a political tactic by the NRSC (standard opposition practice) rat
 
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+- Christy Cauble Davis
+- Democratic candidate for the U.S. Senate from Cottonwood Falls, Kansas.
+- Former Kansas USDA Rural Development state director under the Biden administration.
+
+### Bio
+Davis is the most rural of the Democratic Senate candidates with a major federal executive record. She is a fifth-generation Kansan, grew up in Kansas, and spent years working in historic preservation, cultural programming, and rural-development roles before being appointed state director at USDA Rural Development.
+
+Her campaign is built around visible service delivery: she says she helped move more than $1.3 billion into Kansas communities and wants to pair that record with a pitch that Marshall is absent from the state. That gives her a concrete resume item the rest of the field largely lacks.
+
+### Record / Actions
+- Worked in historic preservation across Kansas counties before moving into federal rural-development leadership.
+- Oversaw more than $1.3 billion in Kansas investment through USDA Rural Development.
+- Ran for Congress in 2020 and lost the Democratic primary to Kali Barnett.
+- Entered the Senate race early and has used her rural residence as a major authenticity marker.
+
+### Verbatim Quotes
+- "It's time for Kansas to have a Senator who shows up." - campaign launch, 2025, https://www.christydavisforkansas.com/ (campaign slogan)
+- "Kansans are uniquely equipped to tackle national challenges." - Emporia Gazette, Aug. 19, 2025, https://www.emporiagazette.com/free/article_a62c2b8f-db73-4d78-b386-94bee4080a06.html (launch message)
+- "Rooted in Kansas. Ready to Rebuild." - campaign site, n.d., https://www.christydavisforkansas.com/ (campaign slogan)
+
+### Faith / Church
+- No church affiliation or congregation was publicly verified in the accessible research trail.
+
+### Campaign Finance
+- FEC candidate page: https://www.fec.gov/data/candidate/S6KS00247/
+- Committee page: https://www.fec.gov/data/committee/C00915934/
+- Public FEC summary shows $80,478.96 in receipts, $38,100.53 spent, and $42,378.43 cash on hand through 2025-12-31.
+- No donor-by-donor breakdown surfaced in the accessible snippets I reviewed.
+
+### Controversies / Notable Facts
+- The NRSC complaint named her for a late personal financial disclosure filing.
+- Her prior 2020 congressional primary loss is the main political headwind.
+- The Biden USDA association is a likely general-election attack line, even though it is also the source of her strongest resume item.
+
+### Sources
+- https://www.christydavisforkansas.com/
+- https://www.christydavisforkansas.com/post/christy-davis-launches-campaign-for-u-s-senate-it-s-time-for-kansas-to-have-a-senator-who-shows-u
+- https://www.fec.gov/data/candidate/S6KS00247/
+- https://www.fec.gov/data/committee/C00915934/
+- https://kansasreflector.com/2025/08/18/democratic-u-s-senate-candidate-eager-to-broaden-kansas-voice-in-d-c-politics/
+- https://www.emporiagazette.com/free/article_a62c2b8f-db73-4d78-b386-94bee4080a06.html
+- https://www.kcur.org/politics-elections-and-government/2025-12-30/whos-running-to-represent-kansas-in-the-u-s-senate-in-2026-heres-a-guide-to-the-candidates
+- https://ballotpedia.org/Christy_Davis
+

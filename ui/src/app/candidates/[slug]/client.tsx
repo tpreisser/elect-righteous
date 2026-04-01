@@ -137,8 +137,6 @@ export default function CandidateDetailClient({
       ? "Nonpartisan"
       : "Independent";
 
-  const isFullDossier = candidate.slug === "tracey-mann";
-
   // At-a-glance facts for the key facts box
   const glanceFacts = [
     { label: "Age / Born", value: candidate.born },
@@ -198,19 +196,6 @@ export default function CandidateDetailClient({
       <header className="section-navy" style={{ paddingTop: "3.5rem", paddingBottom: "3.5rem" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl">
-            {/* Research status tag */}
-            {!isFullDossier && (
-              <p
-                className="inline-block font-heading font-semibold text-xs uppercase tracking-widest px-3 py-1 rounded-full mb-5"
-                style={{
-                  backgroundColor: "rgba(196,146,42,0.20)",
-                  color: "var(--color-gold-light)",
-                }}
-              >
-                Research In Progress
-              </p>
-            )}
-
             {/* Party + status line */}
             <p
               className="font-heading font-semibold text-sm uppercase tracking-widest mb-3"
@@ -218,7 +203,7 @@ export default function CandidateDetailClient({
             >
               {partyLabel}
               {" · "}
-              {candidate.incumbent ? "Incumbent" : "Challenger"}
+              {candidate.incumbent ? "Incumbent" : "Candidate"}
             </p>
 
             {/* Candidate name */}
@@ -415,7 +400,7 @@ export default function CandidateDetailClient({
               )}
 
               <p className="text-xs mt-4" style={{ color: "var(--color-slate)" }}>
-                Source: <a href="https://www.opensecrets.org" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: "var(--color-teal-dark)" }}>OpenSecrets.org</a> / FEC — {candidate.campaignFinance.reportingPeriod}
+                Source: {candidate.campaignFinance.source} — {candidate.campaignFinance.reportingPeriod}
               </p>
             </>
           )}

@@ -1357,3 +1357,50 @@ District 5 covers western Kansas, including Hays. The current member is **Cathy 
 
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+- Kenneth Colin McRoberts
+- Democratic candidate for Kansas's 1st Congressional District.
+- Associate Teaching Professor of Law at the University of Kansas School of Business.
+
+### Bio
+McRoberts is the academic-and-negotiator candidate in KS-01. He has Harvard Law credentials, a University of Kansas teaching role, and a consulting practice that centers on negotiation and communication analysis.
+
+He also has the clearest "why now" story of the two Democratic House candidates: he says Marshall's Oakley town hall pushed him to run, and he frames the district as a place where gerrymandering and partisan wedges have kept people from getting a real choice.
+
+### Record / Actions
+- Filed for the race in September 2025, earlier than his Democratic opponent.
+- Teaches law, business fundamentals, and conspiracy-theory analysis at KU.
+- Built a campaign around negotiation, rural credibility, and a rejection of partisan wedge politics.
+
+### Verbatim Quotes
+- "The long odds are exactly why this fight is so important." - campaign announcement, Sept. 17, 2025, https://colinforkansas.com/ and https://www.kwch.com/2025/09/17/colin-mcroberts-files-1st-congressional-district-seat/ (campaign launch)
+- "We're all neighbors." - Kansas Reflector, Jan. 5, 2026, https://kansasreflector.com/2026/01/05/lawrence-democrats-take-aim-at-kansas-republicans-congressional-seat/ (district framing)
+- "The first district is red in a red state." - Hays Post / Kansas Democracy Fest, 2026, https://www.hayspost.com/ (electability framing)
+- "I'm running not as a politician, but as a businessman and negotiator." - Hays Post, 2026, https://www.hayspost.com/ (campaign style)
+
+### Faith / Church
+- No public faith identity or church affiliation was verified.
+
+### Campaign Finance
+- FEC candidate page: https://www.fec.gov/data/candidate/H6KS01195/
+- FEC committee page: https://www.fec.gov/data/committee/C00919860/
+- Public FEC summary shows $24,699.29 in receipts, $17,243.10 spent, and $7,456.19 cash on hand through 2025-12-31.
+- The itemized contribution mix includes $19,130.00 in itemized individual donations and $338.00 in candidate contributions.
+
+### Controversies / Notable Facts
+- He is not a lifelong Democrat, which remains the easiest primary attack against him.
+- His Lawrence residence is technically in the district but remains an obvious "eastern Kansas" vulnerability.
+- The Harvard Law / conspiracy-theory research combination is distinctive but also easy to caricature.
+
+### Sources
+- https://colinforkansas.com/
+- https://www.colin-mcroberts.com/
+- https://business.ku.edu/people/colin-mcroberts
+- https://www.fec.gov/data/candidate/H6KS01195/
+- https://www.fec.gov/data/committee/C00919860/
+- https://www.kwch.com/2025/09/17/colin-mcroberts-files-1st-congressional-district-seat/
+- https://kansasreflector.com/2026/01/05/lawrence-democrats-take-aim-at-kansas-republicans-congressional-seat/
+- https://www.hayspost.com/
+

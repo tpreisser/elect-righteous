@@ -4100,3 +4100,45 @@ This concentration of political power in one family across city, county, and sch
 
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01 - Mason Ruder
+
+**Verified identity**
+Mason Ruder is the mayor of Hays and a member of the city commission. The city's official commission page lists him as mayor, and Hays Catholic Schools describes him as a 2010 Thomas More Prep-Marian graduate who serves as director of institutional advancement. The public record ties him closely to Hays' Catholic and civic infrastructure, not just municipal politics.
+
+**Bio facts**
+Ruder's public biography is unusually local and unusually layered. He grew up in Hays, attended TMP-Marian, and later returned to work in Catholic school advancement after earlier work in county environmental services and local food service management. That mix of nonprofit, school, and city work shows up repeatedly in his public roles and makes him one of the more institutionally embedded figures in Hays.
+
+His career also maps onto the city's biggest policy fights. He has been one of the most visible commissioners on water supply, housing, downtown placemaking, airport funding, and the city's long-running R9 Ranch project. Public coverage also shows him moving quickly from commissioner to vice mayor and then mayor, which suggests he is both politically ambitious and broadly trusted by the current commission majority.
+
+**Detailed record / actions**
+- Elected to the Hays City Commission in 2019 and later re-elected as the top vote getter in 2023.
+- Cast the sole dissenting vote against the 2020 mask mandate, a notable split in an otherwise fairly unified commission.
+- Helped guide the R9 water transfer discussion from a long-running planning issue into a citywide priority, repeatedly describing it as a generational infrastructure project.
+- Backed downtown and quality-of-life projects, including the permanent stage proposal in Municipal Park and later development work tied to housing and retail growth.
+- Was elected mayor by fellow commissioners in January 2026 after serving as vice mayor and then leading on major budget and water items.
+
+**Verbatim quotes**
+- "Faith and family have always provided a solid foundation." Source: Hays Catholic Schools, 2022-11-30, https://www.hfehays.org/o/hfe/article/923439, topic: faith and biography.
+- "Let's keep growing Hays. We have a lot of work to do." Source: Hays Post, 2023-11-08, https://hayspost.com/posts/5c04aec5-5ab3-413c-8844-d90e91aa0d31, topic: election night comments.
+- "Every day is now an R9 Ranch Day." Source: Hays Post, 2023-01-16, https://hayspost.com/posts/a356c3c3-47d3-49eb-98d5-fe030ffd2b8e, topic: water/R9 project.
+
+**Faith / church**
+Confirmed Roman Catholic affiliation. Hays Catholic Schools' profile says he is a member of Immaculate Heart of Mary Parish in Hays. Church URL: https://www.ihm-church.com/
+
+**Campaign finance**
+I did not surface a clearly indexed public campaign finance report in this pass. The visible public record was much stronger on city minutes, Hays Post coverage, and Catholic school/parish sources than on campaign receipts.
+
+**Controversies / notable facts**
+- His 2020 mask-mandate dissent is the clearest public split vote attached to his tenure.
+- The R9 water project repeatedly appears in his record, which makes him especially relevant for water-policy scrutiny.
+- His Catholic-school leadership role and parish membership make faith a visible part of his public identity.
+
+**Source URLs**
+- https://www.haysusa.com/269/City-Commission
+- https://www.hfehays.org/o/hfe/article/923439
+- https://hayspost.com/posts/5c04aec5-5ab3-413c-8844-d90e91aa0d31
+- https://hayspost.com/posts/a356c3c3-47d3-49eb-98d5-fe030ffd2b8e
+- https://hayspost.com/posts/39d62580-9e3b-4536-85da-783f3cfe22bd
+- https://hayspost.com/posts/21208822-3905-4a26-a33d-5003cf6f8f08
+- https://hayspost.com/posts/69f1b5b1-a69e-4dab-80b1-ee8c00201441
+- https://www.ihm-church.com/

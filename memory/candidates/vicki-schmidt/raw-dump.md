@@ -2,6 +2,46 @@
 ## Consolidated: 2026-03-31
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+- Vicki Schmidt is the Kansas Insurance Commissioner and a 2026 Republican gubernatorial candidate.
+- She is the first pharmacist to hold statewide elected office in Kansas.
+
+### Bio Facts
+- Campaign website: [vickiforgovernor.com](https://vickiforgovernor.com/)
+- Public office bio: [Kansas Insurance Department](https://insurance.kansas.gov/about-us/)
+- Schmidt built her public career in health care and health policy before moving into statewide regulation.
+
+### Record / Actions
+- As insurance commissioner, Schmidt has been the face of Kansas insurance regulation and consumer complaints.
+- Her office has publicized large dollar recoveries for consumers and insurers.
+
+### Quotes
+1. "hard work, honesty and faith" - Vicki Schmidt campaign bio, 2026-04-01, https://vickischmidt.org/meet-vicki/ - topic: personal values.
+2. "more than $391 million in recouped dollars" - campaign bio, 2026-04-01, https://vickischmidt.org/meet-vicki/ - topic: office results.
+3. "I will keep fighting for Kansas families" - campaign language, 2026-04-01, https://vickiforgovernor.com/ - topic: campaign message.
+
+### Faith / Church
+- Public campaign language references faith, but I did not verify a specific church or parish in public sources during this pass.
+
+### Campaign Finance
+- Kansas Ethics filing index: [SWLinks2026EC](https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm)
+- 2026 filing PDF: [SW01VS_202601.pdf](https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01VS_202601.pdf)
+- Itemized donor schedule was not fully parsed in this pass.
+
+### Controversies / Notable Facts
+- Schmidt entered the governor race as a sitting statewide executive, which gave her immediate name recognition.
+- Her office's consumer-recovery claims are a major part of her case for higher office.
+
+### Source URLs
+- https://vickiforgovernor.com/
+- https://vickischmidt.org/meet-vicki/
+- https://insurance.kansas.gov/about-us/
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01VS_202601.pdf
+- https://www.kctv5.com/2025/07/09/another-woman-throws-her-hat-into-kansas-gubernatorial-race-vicki-schmidt/
+
 ## SOURCE: faith-church-investigation-2026-03-31.md
 
 # Faith, Church & Religious Community Investigation
@@ -5073,4 +5113,3 @@ As Insurance Commissioner, Schmidt has called for PBM reform -- an issue directl
 *All information sourced from publicly available records, news reports, and official government databases*
 
 ---
-

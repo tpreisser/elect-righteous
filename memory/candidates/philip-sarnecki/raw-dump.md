@@ -2,6 +2,44 @@
 ## Consolidated: 2026-03-31
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+- Philip Sarnecki is a Kansas businessman and 2026 Republican gubernatorial candidate.
+
+### Bio Facts
+- Campaign website: [philipsarnecki.org](https://philipsarnecki.org/)
+- Public coverage presents him as a faith-forward outsider candidate rather than a political insider.
+
+### Record / Actions
+- Sarnecki has built his campaign around a Christian conservative worldview and business experience.
+- He has not run a major statewide office before, which makes his candidacy largely identity- and message-driven.
+
+### Quotes
+1. "I’m just a Kansas dad, husband and businessman" - campaign site, 2026-04-01, https://philipsarnecki.org/ - topic: identity.
+2. "guided by his Christian faith and conservative values" - Real Media KC profile, 2026-04-01, https://www.realmediakc.com/podcast/philip-sarnecki-for-kansas-governor-faith-business-outsider-vision/ - topic: worldview.
+3. "faith, business, outsider vision" - podcast/title language, 2026-04-01, https://www.realmediakc.com/podcast/philip-sarnecki-for-kansas-governor-faith-business-outsider-vision/ - topic: campaign framing.
+
+### Faith / Church
+- Faith is publicly Christian.
+- I did not verify a specific church membership or church website in public sources during this pass.
+
+### Campaign Finance
+- Kansas Ethics filing index: [SWLinks2026EC](https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm)
+- 2026 filing PDF: [SW01PS_202601.pdf](https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01PS_202601.pdf)
+- Itemized donor schedule was not fully parsed in this pass.
+
+### Controversies / Notable Facts
+- Sarnecki is one of the least established candidates in the field and therefore depends heavily on faith and outsider framing.
+- He appears to be aiming at socially conservative voters looking for a business-led alternative.
+
+### Source URLs
+- https://philipsarnecki.org/
+- https://www.realmediakc.com/podcast/philip-sarnecki-for-kansas-governor-faith-business-outsider-vision/
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01PS_202601.pdf
+- https://www.kansascatholic.org/current-news/election-2026
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm
+
 ## SOURCE: governor-2026-all-remaining-candidates-complete.md
 
 # 2026 Kansas Governor Race: Complete Investigation of All Remaining Candidates
@@ -3404,4 +3442,3 @@ As Insurance Commissioner, Schmidt has called for PBM reform -- an issue directl
 *All information sourced from publicly available records, news reports, and official government databases*
 
 ---
-

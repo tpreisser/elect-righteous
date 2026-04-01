@@ -2,6 +2,45 @@
 ## Consolidated: 2026-03-31
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+- Scott Schwab is the Kansas Secretary of State and a 2026 Republican gubernatorial candidate.
+
+### Bio Facts
+- Campaign website: [scottschwab.com](https://scottschwab.com/)
+- Official state bio: [Kansas Secretary of State biography](https://www.sos.ks.gov/about/schwab-biography.html)
+- Schwab is a longtime Kansas Republican figure with a background in the Legislature and elections administration.
+
+### Record / Actions
+- Schwab has been a public face for Kansas election administration through several contentious cycles.
+- He has positioned himself as a state-level check on federal election policy and political overreach.
+
+### Quotes
+1. "As a Christian, my faith has guided me" - Scott Schwab campaign site, 2026-04-01, https://scottschwab.com/ - topic: faith and worldview.
+2. "fight against federal interference in our state" - Scott Schwab campaign site, 2026-04-01, https://scottschwab.com/ - topic: campaign framing.
+3. "A constitutional conservative who will protect Kansas" - campaign language on scottschwab.com, 2026-04-01, https://scottschwab.com/ - topic: governing philosophy.
+
+### Faith / Church
+- Faith is publicly Christian.
+- I did not verify a specific church membership in public sources during this pass.
+
+### Campaign Finance
+- Kansas Ethics filing index: [SWLinks2026EC](https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm)
+- 2026 filing PDF: [SW01SS_202601.pdf](https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01SS_202601.pdf)
+- Itemized donor schedule was not fully parsed in this pass.
+
+### Controversies / Notable Facts
+- Schwab was drawn into the broader Kansas election-fraud debate because his office certifies and administers statewide elections.
+- He has also been criticized by hard-line election skeptics for not echoing false fraud claims.
+
+### Source URLs
+- https://scottschwab.com/
+- https://www.sos.ks.gov/about/schwab-biography.html
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01SS_202601.pdf
+- https://apnews.com/article/4587939711dc7a5effb1879374405147
+
 ## SOURCE: faith-church-investigation-2026-03-31.md
 
 # Faith, Church & Religious Community Investigation
@@ -5684,4 +5723,3 @@ As Insurance Commissioner, Schmidt has called for PBM reform -- an issue directl
 *All information sourced from publicly available records, news reports, and official government databases*
 
 ---
-

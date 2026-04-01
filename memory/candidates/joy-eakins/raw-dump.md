@@ -2,6 +2,43 @@
 ## Consolidated: 2026-03-31
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+- Joy Eakins is a Wichita business owner and 2026 Republican gubernatorial candidate.
+
+### Bio Facts
+- Campaign website: [kansascomeback.com](https://www.kansascomeback.com/)
+- Eakins public bio emphasizes her data-analytics work and prior service on the Wichita school board.
+
+### Record / Actions
+- Eakins used her professional background in data analytics to argue for reopening schools safely during COVID-era disruptions.
+- She leans into education and parental-control themes rather than traditional party machinery.
+
+### Quotes
+1. "strong conservative and America First patriot" - about page, 2026-04-01, https://www.kansascomeback.com/about - topic: ideology.
+2. "Joy used her data analytics firm to prove how we could get kids back into Kansas classrooms safely" - education page, 2026-04-01, https://www.kansascomeback.com/education - topic: school reopening.
+3. "Kansas comeback" - campaign brand, 2026-04-01, https://www.kansascomeback.com/ - topic: campaign identity.
+
+### Faith / Church
+- I did not verify a public church affiliation in the sources reviewed.
+
+### Campaign Finance
+- Kansas Ethics filing index: [SWLinks2026EC](https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm)
+- 2026 filing PDF: [SW01JK_AT.pdf](https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/Treasurers/SW01JK_AT.pdf)
+- Itemized donor schedule was not fully parsed in this pass.
+
+### Controversies / Notable Facts
+- Eakins' school-board profile during COVID-era school closures is the main public policy origin story for her campaign.
+- She is one of the few candidates whose pitch is tightly bound to school reopening and data analysis.
+
+### Source URLs
+- https://www.kansascomeback.com/
+- https://www.kansascomeback.com/about
+- https://www.kansascomeback.com/education
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/Treasurers/SW01JK_AT.pdf
+- https://www.kansascatholic.org/current-news/election-2026
+
 ## SOURCE: governor-2026-all-remaining-candidates-complete.md
 
 # 2026 Kansas Governor Race: Complete Investigation of All Remaining Candidates
@@ -3404,4 +3441,3 @@ As Insurance Commissioner, Schmidt has called for PBM reform -- an issue directl
 *All information sourced from publicly available records, news reports, and official government databases*
 
 ---
-

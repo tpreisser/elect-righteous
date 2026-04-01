@@ -3318,3 +3318,48 @@ This is likely a political tactic by the NRSC (standard opposition practice) rat
 
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+- Sandy Spidel Neumann
+- Democratic candidate for U.S. Senate from Mission, Kansas.
+- Retired Ameriprise Financial Services executive.
+
+### Bio
+Spidel Neumann brings the strongest corporate resume in the field. She was born in Topeka, adopted as a newborn, grew up in Johnson County, and built a 40-year career in business and financial services, including 22 years as an executive at Ameriprise.
+
+She is also the candidate with the clearest self-funding potential. The public record in this file shows a later-cycle entrance, a very substantial personal loan to her campaign, and a donor network that already includes 120+ contributions to Democratic causes over time.
+
+### Record / Actions
+- Retired in May 2025 and entered politics for the first time shortly after.
+- Cites Marshall's Oakley town hall and his tariff/Medicaid posture as key motivators.
+- Uses her finance background to argue she can lower costs and manage government more competently than Marshall.
+
+### Verbatim Quotes
+- "Let's Get to Work, Kansas." - campaign site, n.d., https://sandyforkansas.com/ (campaign slogan)
+- "everyone deserves a fair shot" - campaign site, n.d., https://sandyforkansas.com/ (campaign value line)
+- "the big abomination of a bill" - Kansas Reflector, brief coverage, https://kansasreflector.com/briefs/kansas-democrat-launches-u-s-senate-campaign-criticizes-gop-incumbent-marshall/ (Medicaid cuts)
+
+### Faith / Church
+- No church affiliation was publicly verified in the accessible research trail.
+
+### Campaign Finance
+- FEC candidate page: https://www.fec.gov/data/candidate/S6KS00262/
+- Committee page: https://www.fec.gov/data/committee/C00923474/
+- Public FEC summary shows $167,587.11 in receipts, $40,660.59 spent, and $126,926.52 cash on hand through 2025-12-31.
+- The filing also includes a $100,000 candidate loan, which is the clearest public indication of personal financial commitment.
+
+### Controversies / Notable Facts
+- The NRSC complaint named her for a late personal financial disclosure filing.
+- She has no prior elected experience, which is both a freshness advantage and a credibility risk.
+- Her Johnson County base overlaps with other Democratic hopefuls, especially Anne Parelkar and Erik Murray.
+
+### Sources
+- https://sandyforkansas.com/
+- https://www.fec.gov/data/candidate/S6KS00262/
+- https://www.fec.gov/data/committee/C00923474/
+- https://kansasreflector.com/briefs/kansas-democrat-launches-u-s-senate-campaign-criticizes-gop-incumbent-marshall/
+- https://www.kcur.org/politics-elections-and-government/2025-12-30/whos-running-to-represent-kansas-in-the-u-s-senate-in-2026-heres-a-guide-to-the-candidates
+- https://ballotpedia.org/Sandy_Spidel_Neumann
+- https://www.linkedin.com/in/sandy-spidel-neumann-a278536/
+

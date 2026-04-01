@@ -2385,3 +2385,44 @@ The major controversies have been almost entirely about **money** (bond spending
 
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified identity
+Ruth A. Ruder is a Hays-born USD 489 graduate, vice president at Golden Plains Credit Union, and a current USD 489 board member. The district portal lists her as a board member, and her public profile shows deep local roots.
+
+### Who she is
+Ruder's biography is as local as it gets: born in Hays, graduated from Hays High in 1988, married to Vernon Ruder Jr. for 34 years, and the mother of three children. She has worked at Golden Plains Credit Union for 30 years and has been the Hays branch VP for more than 15 years. She also serves in civic roles outside the board, including Wonder Women League, Wild West Fest, and the Chamber.
+
+That profile makes her a useful bridge between families, employers, and school finance. She does not present herself as an education lifer the way Craig Pallister does or as a medical-professional outsider the way Derek Yarmer does; instead, she brings a long local-business and community-network perspective into the boardroom.
+
+### Their record
+Ruder's public record on the board emphasizes communication, fiscal discipline, and a willingness to slow down when land use or spending choices could have long-term consequences. In December 2025 she voiced concern that a buyer of district land next to the middle school might simply hold it for a tax deduction rather than use it productively. In other votes, she supported laptop purchases for Hays High and said students should be at the center of the district's decisions.
+
+She is also a board voice who cares about the district's reputation as a community asset. In her election profile she said USD 489 can be "the highlight of our community" and that the district should balance smart growth with fiscal responsibility. Her comments on sponsorships and land sales show a board member who is comfortable asking what the public gets back for a given dollar.
+
+### What you should know
+1. She grew up in Hays and graduated from Hays High in 1988.
+2. She has spent 30 years at Golden Plains Credit Union.
+3. She is already serving on the USD 489 board, so her positions matter now.
+4. She is comfortable slowing down land or sponsorship decisions when the use case is unclear.
+5. She speaks frequently about communication, fiscal responsibility, and student-centered planning.
+
+### Where they worship
+I did not find a reliable public source that identifies Ruth Ruder's church home or denomination. Because the public record is thin here, I am not assigning a church without evidence.
+
+### Campaign finance
+I did not find a clean public itemized donor table for Ruder in the sources reviewed for this pass. The public record I found was enough to confirm her local profile and board actions, but not enough to reconstruct a reliable donor ledger.
+
+### Quotes
+- "My first obligation, if elected, will be to the children in our district." - Hays Post, 2023 candidate profile
+- "All employees of USD 489 are equally important." - Hays Post, 2023 candidate profile
+- "I will do my best at representing the taxpayer in being fiscally responsible." - Hays Post, 2023 candidate profile
+- "Board member Ruth Ruder expressed concern that someone might purchase the land for a tax deduction, only to leave it vacant." - Hays Post, 2025 land-sale coverage
+
+### Source URLs
+- https://hayspost.com/posts/b833cbe0-37a8-4535-be13-b7d1c2ca645a
+- https://hayspost.com/posts/03620484-d421-4ae2-b3be-d87652788a17
+- https://hayspost.com/posts/b8de0496-38a0-459d-813c-fbb70028b4c8
+- https://hayspost.com/posts/de2764c1-3767-4d5a-8353-888aa39a31cf
+- https://hayspost.com/posts/fc95a5ee-b8b3-4d06-b876-7cba2008d1cb
+- https://usd489.community.highbond.com/portal/members.aspx?id=18

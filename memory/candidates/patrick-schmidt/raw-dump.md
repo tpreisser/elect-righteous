@@ -3318,3 +3318,49 @@ This is likely a political tactic by the NRSC (standard opposition practice) rat
 
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+### Verified Identity
+- Patrick C. Schmidt
+- Democratic candidate for the U.S. Senate from Kansas.
+- Kansas state senator for District 19 and former U.S. Naval Intelligence Officer.
+
+### Bio
+Schmidt is the only sitting elected official in the Democratic primary field, which gives him a built-in credibility advantage despite his short tenure in the state Senate. He was born in Overland Park, represents the Lawrence/Topeka area, and comes from a family of public school teachers with deep Kansas roots.
+
+His public pitch mixes military service, state legislative experience, and family values. That combination is meant to show competence and seriousness while also giving him a Kansas-specific biography that is broader than the normal first-time candidate profile.
+
+### Record / Actions
+- Elected to the Kansas State Senate in 2024 and seated in January 2025.
+- Served on the USS Ronald Reagan in U.S. Navy intelligence support, which he uses as a national-security credential.
+- Filed for the Senate race on February 4, 2026, making him one of the earliest major Democratic entrants.
+- In the primary field, he is the only candidate who currently holds elected office.
+
+### Verbatim Quotes
+- "Patrick Schmidt is a former U.S. Naval Intelligence Officer running to represent Kansas in the US Senate" - campaign site, n.d., https://patrickforkansas.com/ (campaign identity line)
+- "Patrick will be guided by the family values he learned from his mother, his father, and the generations of Kansans who came before him" - campaign about page, n.d., https://patrickforkansas.com/about/ (family-values line)
+- "defending U.S. interests from China and Russia" - Kansas Senate Democrats profile, n.d., https://www.kssenatedems.org/patrick-schmidt (Navy service framing)
+
+### Faith / Church
+- No public church affiliation was verified in the accessible research trail.
+- Public materials emphasize family and Kansas values more than explicit faith language.
+
+### Campaign Finance
+- FEC candidate page: https://www.fec.gov/data/candidate/S6KS00288/?cycle=2026&election_full=true
+- FEC currently shows the filing, but no 2025-2026 totals yet in the accessible summary view.
+- Earlier House-campaign FEC history exists at https://www.fec.gov/data/candidate/H2KS02143/ for context.
+
+### Controversies / Notable Facts
+- His Senate campaign began very soon after his first state-senate term started, which some voters may see as ambitious.
+- Because he is the only elected official in the primary, he will be the default establishment candidate by many observers.
+- The main challenge is less scandal than timing: he has to prove he is more than a short-tenure officeholder with a fast jump to higher office.
+
+### Sources
+- https://patrickforkansas.com/
+- https://patrickforkansas.com/about/
+- https://www.kssenatedems.org/patrick-schmidt
+- https://www.fec.gov/data/candidate/S6KS00288/?cycle=2026&election_full=true
+- https://www.fec.gov/data/candidate/H2KS02143/
+- https://www.kcur.org/politics-elections-and-government/2025-12-30/whos-running-to-represent-kansas-in-the-u-s-senate-in-2026-heres-a-guide-to-the-candidates
+- https://ballotpedia.org/Patrick_Schmidt
+- https://www.kansas.com/news/politics-government/election/article
+

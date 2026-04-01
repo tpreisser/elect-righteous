@@ -3802,3 +3802,49 @@ This is likely a political tactic by the NRSC (standard opposition practice) rat
 
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+- Jason Hart
+- Wichita-based Democratic candidate for the U.S. Senate.
+- Former federal prosecutor and Assistant U.S. Attorney who prosecuted child abuse cases for 16 years.
+
+### Bio
+Hart is a late-entering Senate candidate with a prosecutorial résumé that is unusually strong for a first-time politician. He practiced law in Dodge City, served as an assistant district attorney in Shawnee County, worked in the Kansas Attorney General's office, and then spent 16 years as an Assistant U.S. Attorney.
+
+His campaign story is built around law enforcement, crossover appeal, and a deliberately blunt electability pitch. He has positioned himself as the candidate who can speak to Republican voters without abandoning Democratic priorities, which is why his self-description and party-switch history have become such a large part of the public conversation.
+
+### Record / Actions
+- Quit his AUSA job in early March 2026 to run.
+- Switched party registration from Independent to Republican in February 2026, then to Democrat in March 2026.
+- Framed his campaign around Republicans "in the wilderness" and a law-and-order message.
+- Became a media focal point after entering the race very late, with coverage from Kansas Reflector, KMUW, and HPPR.
+
+### Verbatim Quotes
+- "There are many Republicans who are in the wilderness right now." - Kansas Reflector, March 23, 2026, https://kansasreflector.com/2026/03/23/democratic-candidate-in-u-s-senate-race-opens-arms-to-kansas-republicans-lost-in-the-wilderness/ (crossover appeal)
+- "I ask people questions for a living." - Kansas Reflector, March 23, 2026, https://kansasreflector.com/2026/03/23/democratic-candidate-in-u-s-senate-race-opens-arms-to-kansas-republicans-lost-in-the-wilderness/ (listening style)
+- "white, male, Christian, hetero, 2A-friendly, LEO-friendly" - Kansas Reflector, March 23, 2026, https://kansasreflector.com/2026/03/23/democratic-candidate-in-u-s-senate-race-opens-arms-to-kansas-republicans-lost-in-the-wilderness/ (electability argument)
+- "prayerful and tearful discussions with my wife and family" - Kansas Reflector, March 23, 2026, https://kansasreflector.com/2026/03/23/democratic-candidate-in-u-s-senate-race-opens-arms-to-kansas-republicans-lost-in-the-wilderness/ (decision to run)
+
+### Faith / Church
+- Publicly self-identifies as Christian.
+- No denomination or church affiliation was publicly verified in the accessible research trail.
+
+### Campaign Finance
+- Public FEC page was not surfaced with a clean totals summary in the accessible research trail.
+- Campaign website: https://hartforsenate.com/
+- ActBlue and campaign pages are the main public finance touchpoints so far.
+
+### Controversies / Notable Facts
+- The two party switches in one month are the most obvious vulnerability.
+- His "straight, white, Christian man" framing is a memorable electability claim but can also alienate Democratic voters.
+- No campaign manager was identified in the available reporting.
+
+### Sources
+- https://hartforsenate.com/
+- https://kansasreflector.com/2026/03/23/democratic-candidate-in-u-s-senate-race-opens-arms-to-kansas-republicans-lost-in-the-wilderness/
+- https://www.kmuw.org/government/2026-03-25/democratic-candidate-in-u-s-senate-race-opens-arms-to-kansas-republicans-lost-in-the-wilderness
+- https://www.justice.gov/archive/usao/ks/PressReleases/2012/Nov%202012/Nov29a.html
+- https://www.kcur.org/politics-elections-and-government/2025-12-30/whos-running-to-represent-kansas-in-the-u-s-senate-in-2026-heres-a-guide-to-the-candidates
+- https://secure.actblue.com/donate/jason-hart
+

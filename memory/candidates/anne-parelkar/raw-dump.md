@@ -4162,3 +4162,50 @@ This is likely a political tactic by the NRSC (standard opposition practice) rat
 
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+- Anne Lea Parelkar
+- Democratic candidate for the U.S. Senate from Overland Park, Kansas.
+- Immigration attorney licensed in Kansas, Arkansas, and Missouri.
+
+### Bio
+Parelkar is the immigration-law specialist in the field, which gives her a distinct professional niche even though she has never run for office before. She studied at Lyon College and the University of Arkansas at Little Rock, then built a legal career centered on immigration and public-service law.
+
+She is also one of the candidates most closely tied to the Oakley town hall as a political origin story. In multiple public profiles she says that attending Marshall's event and watching how the senator handled constituents helped push her into the race.
+
+### Record / Actions
+- Filed for the race in August 2025, making her one of the earliest entrants.
+- Works on immigration law and has used that expertise as the centerpiece of her platform.
+- Wants to simplify children's health coverage by replacing the Medicaid/CHIP patchwork with one consolidated program.
+- Has pushed constituent-access and transparency as key themes after Marshall's town halls.
+
+### Verbatim Quotes
+- "We have a very big problem with immigration in our country right now." - Kansas Reflector, Aug. 25, 2025, https://kansasreflector.com/2025/08/25/democratic-immigration-lawyer-wants-to-fix-broken-system-with-run-for-u-s-senate-in-kansas/ (immigration)
+- "a single consolidated program" - Kansas Reflector, Aug. 25, 2025, https://kansasreflector.com/2025/08/25/democratic-immigration-lawyer-wants-to-fix-broken-system-with-run-for-u-s-senate-in-kansas/ (children's healthcare)
+- "answer to the people. Not to party leaders. Not to political donors. Just to the people." - campaign site, n.d., https://www.anneforkansas.com/ (governance line)
+
+### Faith / Church
+- No church affiliation was publicly verified in the accessible research trail.
+
+### Campaign Finance
+- FEC candidate page: https://www.fec.gov/data/candidate/S6KS00239/
+- Committee page: https://www.fec.gov/data/committee/C00913293/?cycle=2026
+- Public FEC summary shows $16,982.00 in receipts, $16,478.89 spent, and $503.11 cash on hand through 2025-12-31.
+- Candidate loans totaled $4,500, which is the clearest public financing detail beyond small donations.
+
+### Controversies / Notable Facts
+- The NRSC complaint named her for a late personal financial disclosure filing.
+- Immigration is a tougher issue for Democrats in Kansas than for some of the other candidates, making her professional specialty both a strength and a liability.
+- She competes for the same Johnson County lane as Sandy Spidel Neumann.
+
+### Sources
+- https://www.anneforkansas.com/
+- https://kansasreflector.com/2025/08/25/democratic-immigration-lawyer-wants-to-fix-broken-system-with-run-for-u-s-senate-in-kansas/
+- https://1350kman.com/2026/03/within-reason-with-mike-matson-anne-parelkar-overland-park-immigration-attorney/
+- https://www.fec.gov/data/candidate/S6KS00239/
+- https://www.fec.gov/data/committee/C00913293/?cycle=2026
+- https://www.kcur.org/politics-elections-and-government/2025-12-30/whos-running-to-represent-kansas-in-the-u-s-senate-in-2026-heres-a-guide-to-the-candidates
+- https://ballotpedia.org/Anne_Parelkar
+- https://immirail.com/profile-anne-lea-parelkar
+

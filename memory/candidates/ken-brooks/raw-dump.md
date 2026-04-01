@@ -1663,3 +1663,47 @@ The major controversies have been almost entirely about **money** (bond spending
 
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified identity
+Ken Brooks is a Hays school-board incumbent and the district's current vice president. Public profiles identify him as a loss-control safety specialist at Insurance Planning, a Kiwanis member, and a long-time Hays parent whose three daughters graduated from Hays High.
+
+### Who he is
+Brooks has spent most of his adult life in Hays and keeps his public identity rooted in community service rather than partisan politics. In his 2021 Hays Post profile, he said he had helped lead the children's ministry at Celebration Community Church for almost 14 years and had coordinated the Thanksgiving Community Food Drive since 2008. He describes himself as a listener and says he came to the board to help improve the district and the town at the same time.
+
+His education biography is less flashy than some candidates, but it is deeply local. By the time he ran again in 2025, all three of his daughters had graduated from Hays High, and he said the school district had been central to his family's life. That gives his board work a very personal, taxpayer-and-parent lens.
+
+### Their record
+Brooks' public record is centered on facilities, fees, and budget stewardship. He supported the 2017 bond, later ran on keeping the current bond work on pace, and said the district has done a good job finding ways to fund immediate facility concerns. In 2025 he said he wanted to keep lowering student enrollment fees, and he defended district budgeting as responsible and trustworthy.
+
+He also favors a board that governs without micromanaging. In his 2025 Q&A, he said the board should provide oversight while leaving day-to-day operations to administrators and teachers, and he specifically pointed to Superintendent Ron Wilson and the district finance team as people he trusts to answer budget questions. That makes Brooks a pragmatic, systems-and-process board member rather than an ideologue.
+
+### What you should know
+1. He told Hays Post he has "a love for our community, and a love for kids."
+2. He has been a visible church and service volunteer, not just a school-board name on a ballot.
+3. He pushed repeatedly to lower school enrollment fees for families.
+4. He supported the district's bond and its major facility buildout.
+5. He says the board should trust administrators on daily operations and focus on oversight.
+
+### Where they worship
+Brooks publicly identified Celebration Community Church in Hays as his worship community. The church's Hays campus is at [https://www.celebratejesus.org/hays-campus](https://www.celebratejesus.org/hays-campus), and his 2021 candidate profile said he had helped lead the children's ministry there for almost 14 years.
+
+### Campaign finance
+In his 2021 Hays Post profile, Brooks answered "No" when asked if he had received funds or in-kind donations from outside the school district or a PAC. I did not surface a fuller itemized donor table in the public records reviewed for this pass.
+
+### Quotes
+- "I have a love for our community, and I have a love for kids." - Hays Post, 2025 candidate Q&A
+- "Since I've been on the board, we've lowered the school fees." - Hays Post, 2025 candidate Q&A
+- "There hasn't been anything where our school district has proven they're not responsible with their budget." - Hays Post, 2025 candidate Q&A
+- "I have helped lead the Children's Ministry at Celebration Community Church for almost 14 years." - Hays Post, 2021 candidate profile
+
+### Source URLs
+- https://hayspost.com/posts/8ce0d386-aba6-4c42-b880-1307752c8220
+- https://hayspost.com/posts/2613aaa8-8055-4feb-9a79-d1b5479babca
+- https://hayspost.com/posts/ff929dc5-f4f5-433c-876e-59fc19df6a2d
+- https://hayspost.com/posts/95dab7ab-70ba-44ee-91ee-2760e55665bf
+- https://hayspost.com/posts/19aa6807-369c-4e64-9c1c-8af9d88c84df
+- https://www.celebratejesus.org/
+- https://www.celebratejesus.org/hays-campus
+- https://usd489.community.highbond.com/portal/members.aspx?id=18
+- https://www.ksde.gov/Portals/0/Directories/2025-26%20Kansas%20Educational%20Directory.pdf?ver=2025-11-07-175254-390

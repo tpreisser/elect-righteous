@@ -2,6 +2,45 @@
 ## Consolidated: 2026-03-31
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+Rebecca Herzog is the Ellis County Register of Deeds, first elected in 2024 and now serving her first term. The official county page and the Kansas Register of Deeds Association listing both confirm the officeholder identity.
+
+### Biography
+Herzog is the quietest of the seven county profiles in this pass, but the official record still gives us a useful outline. She appears to have spent years working inside the register of deeds office before winning the elected seat, and the county's own page describes the office as public-facing but technically focused.
+
+That makes her a good example of an official whose most important work is invisible until something goes wrong. The register of deeds office touches land ownership, recording, and public access to documents. If the office works well, nobody notices. If it breaks, every homeowner and title company does.
+
+### Record And Actions
+The strongest verified point in Herzog's record is simply that she is running a professional, low-profile office with public access requirements. The county page says the office records land documents and keeps records open to the public, which is the core responsibility of the post. The 2024 election result page confirms she was reelected with 7,074 votes, which suggests that the local electorate is comfortable with her in the job even without heavy media coverage.
+
+The rest of her public record is thin. That is not a criticism so much as a description of the office type: register of deeds is one of those county roles where competence is the headline.
+
+### What Public Sources Show
+1. Her office is document-heavy and land-record centered.
+2. She is not a high-profile public speaker or campaign personality.
+3. The county record suggests she likely has experience inside the office before election.
+4. Her 2024 reelection was comfortable, with no high-drama contest in the public sources reviewed.
+5. Her public profile remains much thinner than the other county officeholders.
+
+### Faith / Church
+I did not verify a personal church affiliation or denomination for Rebecca Herzog in this pass. The office is tied to public land records, not to a public faith identity, and I am not claiming a church URL for her.
+
+### Campaign Finance
+No public donor table surfaced in the source set reviewed. The available public evidence is election results and office description, not finance detail.
+
+### Quotes
+- "quality public service" - Ellis County Register of Deeds official page - https://www.ellisco.net/100/Register-of-Deeds - topic: office mission
+- "files and records documents" - Ellis County Register of Deeds official page - https://www.ellisco.net/100/Register-of-Deeds - topic: office duties
+- "Record all documents submitted by the public" - Ellis County Register of Deeds official page - https://www.ellisco.net/100/Register-of-Deeds - topic: recording duty
+- "open to the public" - Ellis County Register of Deeds official page - https://www.ellisco.net/100/Register-of-Deeds - topic: records access
+
+### Source URLs
+- https://www.ellisco.net/100/Register-of-Deeds
+- https://ksrods.com/contact-information/ellis-county-el-nc-district/
+- https://hayspost.com/posts/1873ff67-3bab-44c2-896b-8aee3a992496
+
 ## SOURCE: ellis-county-elected-officials-deep-investigation.md
 
 # DEEP INVESTIGATION: Ellis County, Kansas -- All Elected Officials
@@ -3004,4 +3043,3 @@ This is likely a political tactic by the NRSC (standard opposition practice) rat
 *All information from publicly available sources. Source URLs provided for verification.*
 
 ---
-

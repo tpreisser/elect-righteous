@@ -2,6 +2,46 @@
 ## Consolidated: 2026-03-31
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+Neal Younger is the Ellis County Commissioner for District 2 and the 2026 commission chairman. The public record consistently shows him as an electrician and plumber with a blue-collar background and a low-visibility public profile.
+
+### Biography
+Younger is the least flamboyant of the county commissioners and maybe the easiest to describe: trade worker, local resident, practical county budget voter. The official materials and candidate coverage say he built his identity around listening, communication, and common-sense solutions rather than a polished political brand.
+
+That same no-frills style carries into his public presence. He has essentially no social-media footprint, no apparent personal brand, and no public church trail in the sources reviewed. What the public does see is a commissioner who asks questions, works through county budgets, and tries to connect county spending to real-life outcomes.
+
+### Record And Actions
+Younger's clearest record point is fiscal pragmatism. He campaigned on the county spending too much money, but once in office he supported the 2026 budget increase because he thought the mental-health line item was cheaper than a jail expansion. He also backed the county's water and housing conversations, which suggests he is not opposed to growth when it is tied to practical infrastructure.
+
+The public record also shows a commissioner who takes county administration seriously. He was active in the Imagine Ellis County planning process, used plain language in public meetings, and stayed focused on staffing, department review, and long-term county health rather than symbolic politics.
+
+### What Public Sources Show
+1. He is a trade professional, not a career politician.
+2. He favors tight review of county spending.
+3. He is willing to spend money where he thinks it prevents larger costs later.
+4. He has no notable public controversy in the source set reviewed.
+5. His public footprint is smaller than the other county officials.
+
+### Faith / Church
+No public church or denomination record was located for Neal Younger in the source set reviewed for this pass. I am not claiming one here.
+
+### Campaign Finance
+No public itemized donor table surfaced in the materials reviewed. The available record is almost entirely office activity and budget coverage.
+
+### Quotes
+- "common sense solutions" - Hays Post candidate profile - https://hayspost.com/posts/70a84c66-2d84-4023-b4bb-df360cbe90dd - topic: governing style
+- "Ellis County spending too much money" - Hays Post candidate profile - https://hayspost.com/posts/70a84c66-2d84-4023-b4bb-df360cbe90dd - topic: campaign concern
+- "is less expensive than building a new jail." - Hays Post budget coverage - https://hayspost.com/posts/18d99844-46b7-4bc0-a558-9d9a87fa92e6 - topic: mental health funding
+
+### Source URLs
+- https://www.ellisco.net/120/County-Commission
+- https://hayspost.com/posts/70a84c66-2d84-4023-b4bb-df360cbe90dd
+- https://hayspost.com/posts/18d99844-46b7-4bc0-a558-9d9a87fa92e6
+- https://voterly.com/politicians/DmRJRnnSKN/neal-younger
+- https://hayspost.com/posts/6e260438-27db-4402-bf8e-e8df621996d4
+
 ## SOURCE: ellis-county-elected-officials-deep-investigation.md
 
 # DEEP INVESTIGATION: Ellis County, Kansas -- All Elected Officials
@@ -3004,4 +3044,3 @@ This is likely a political tactic by the NRSC (standard opposition practice) rat
 *All information from publicly available sources. Source URLs provided for verification.*
 
 ---
-

@@ -2,6 +2,43 @@
 ## Consolidated: 2026-03-31
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+- Cindy Holscher is a Kansas state senator from Overland Park and a 2026 Democratic gubernatorial candidate.
+
+### Bio Facts
+- Campaign website: [cindyforkansas.com](https://cindyforkansas.com/)
+- Holscher's public record emphasizes consumer protection, education, and family economics.
+
+### Record / Actions
+- Holscher has consistently centered her politics on public schools, health care, and cost pressures facing families.
+- She has taken a more confrontational posture toward the GOP supermajority than many Kansas Democrats.
+
+### Quotes
+1. "I’m running for Governor to fight for all Kansans" - campaign site, 2026-04-01, https://cindyforkansas.com/ - topic: campaign message.
+2. "I will fight for our kids, our seniors, our veterans, and our farmers" - campaign site, 2026-04-01, https://cindyforkansas.com/ - topic: coalition appeal.
+3. "cost of living is too high" - campaign/legislative framing, 2026-04-01, https://cindyforkansas.com/ - topic: affordability.
+
+### Faith / Church
+- I did not verify a public church affiliation in the sources reviewed.
+
+### Campaign Finance
+- Kansas Ethics filing index: [SWLinks2026EC](https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm)
+- 2026 filing PDF: [SW01CH_202601.pdf](https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01CH_202601.pdf)
+- Itemized donor schedule was not fully parsed in this pass.
+
+### Controversies / Notable Facts
+- Holscher has been a frequent critic of Republican leadership and has been part of high-visibility policy fights.
+- She is one of the stronger progressive voices in a Johnson County Democratic lane.
+
+### Source URLs
+- https://cindyforkansas.com/
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01CH_202601.pdf
+- https://kansasreflector.com/briefs/kansas-governor-candidate-cindy-holscher-objects-to-alleged-pressure-campaign-by-kellys-staff/
+- https://kansasdems.org/candidates
+
 ## SOURCE: faith-church-investigation-2026-03-31.md
 
 # Faith, Church & Religious Community Investigation
@@ -2580,4 +2617,3 @@ District 5 covers western Kansas, including Hays. The current member is **Cathy 
 - [Kansas Reflector: Board races could shift power to conservative bloc](https://kansasreflector.com/2024/10/22/kansas-board-of-education-races-could-shift-power-to-conservative-bloc/)
 
 ---
-

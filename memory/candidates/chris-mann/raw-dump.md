@@ -2006,3 +2006,63 @@ District 5 covers western Kansas, including Hays. The current member is **Cathy 
 
 ---
 
+
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Chris Mann, Kansas Attorney General Challenger
+
+Chris Mann's campaign biography is deliberately simple: he has spent his career as a police officer and prosecutor, and his campaign frames him as a defender of the Constitution and the rule of law. The public materials reviewed for this sweep show a Johnson County/Overland Park candidate who is building an AG campaign around law-enforcement credibility rather than ideology, with a campaign home page that is clean, short, and pointed.
+
+The candidate's 2025 state filing shows $536,639.57 in contributions and $257,257.08 cash on hand, which is a strong opening number for a challenger but still well behind Kobach's cash balance. His finance profile also shows broad support from individual Kansas donors, which fits the campaign's message that he is the more straightforward, public-safety-oriented alternative.
+
+### Their Record
+
+Mann does not have a long elective record to audit, but he does have a career record. His campaign site says he has dedicated his life to serving Kansas communities as a police officer and then as a prosecutor. In the raw materials already assembled for this project, he is the candidate who has the clearest law-and-order pitch: protect Kansas families, defend the Constitution, and focus on the basics rather than the national culture-war machinery that defines Kobach.
+
+That makes his biography significant even without years in public office. He enters the race as a former officer-prosecutor with a public reputation built around public safety rather than partisan warfare, which is precisely why the campaign is trying to make the contest about competence and trust.
+
+### What You Should Know
+
+1. His 2025 filing reports $536,639.57 raised and $257,257.08 cash on hand.
+2. He is running as a prosecutor and police-officer candidate, not as a career politician.
+3. His campaign is built around "defend the rule of law" messaging.
+4. He is trying to present himself as a practical alternative to Kobach.
+5. No verified public church affiliation surfaced in the material reviewed here.
+
+### Where They Worship
+
+No public church affiliation could be verified for Chris Mann in the sources reviewed. His campaign materials do not foreground faith, and the raw research files do not identify a congregation. If he worships privately, that information was not public-facing in the material I could verify.
+
+### Campaign Finance
+
+| Donor | Amount |
+|---|---:|
+| James Bartimus | $1,000.00 |
+| Thomas Adrian | $500.00 |
+| Paige Ballard | $200.00 |
+| Louis Bornman | $50.00 |
+| Jim Breneman | $50.00 |
+| Evelyn Adams | $25.00 |
+| Jane Byrnes | $25.00 |
+| Anita Dick | $10.00 |
+
+This is only a slice of the itemized Schedule A report, but it shows the kind of donor mix Mann has early on: lawyers, suburban donors, and smaller-dollar supporters spread across Johnson County and beyond.
+
+### Quotes
+
+> "Chris Mann has dedicated his life to serving and protecting Kansas communities - first as a police officer and then as a prosecutor."
+
+> "He will defend the Constitution, protect the rule of law, and ensure Kansas families are safe."
+
+> "Common sense, common ground."
+
+> "defend the rule of law."
+
+### Sources
+
+- https://chrismannforkansas.com/
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW02CM_202601.pdf
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm
+- https://kansasreflector.com/2026/03/23/former-prosecutor-enters-kansas-senate-race/
+- https://www.kslegislature.gov/li_2022/b2021_22/members/rep_mann_chris_1/
+- https://www.opensecrets.org/

@@ -2,6 +2,52 @@
 ## Consolidated: 2026-03-31
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+Bobbi L. Dreiling is the Ellis County Clerk and Election Officer. The county's official clerk page names her directly, and the 2024 general election result page confirms she won reelection with 9,971 votes. A separate obituary hit for another Bobbi Dreiling should not be conflated with this active officeholder.
+
+### Biography
+The public record shows a very ordinary Kansas county-official origin story: Hutchinson Community College associate's degree, eight years as deputy clerk under Donna Maskus, then election to the top clerk job in 2020. She is now in her second term and remains the person responsible for elections, tax-roll certification, commission minutes, and a stack of county administrative duties that are easy to underestimate from the outside.
+
+Her public reputation is built less on ideology than on process. Dreiling is the official who implemented the revenue-neutral-rate mailings first in Ellis County, expanded election security cameras, and moved Saturday early voting into the county workflow. Those are the kinds of decisions that do not generate national headlines but matter a lot in a county where local trust is everything.
+
+### Record And Actions
+The defining issue of Dreiling's tenure is the Fort Hays State polling-location fight. She closed the 601 Main site for low turnout and ADA issues, combined precincts, and defended the decision by pointing to the 69 registered on-campus voters figure. Opponents framed the move as access reduction, but Dreiling's own rationale was cost and turnout.
+
+She also took a practical, systems-oriented approach to election administration. Her office received security grants, installed drop-box and room cameras, and added a notification system. The misprinted-ballots incident from her deputy-clerk years remains a blemish, but her later actions show a clerk who tries to tighten procedures rather than improvise around them.
+
+### What Public Sources Show
+1. She is a process-first clerk, not a campaign-style officeholder.
+2. She has a clear record of tightening election security after state grants became available.
+3. She defended the FHSU polling decision on cost and usage grounds.
+4. She won reelection comfortably in 2024 despite that controversy.
+5. Public materials show little about her personal life, church, or broader political worldview.
+
+### Faith / Church
+I could not verify a current personal church affiliation or denomination for Bobbi L. Dreiling from the sources reviewed in this pass. Older Dreiling-family material in Ellis County is strongly Catholic, but that is family-context evidence, not a confirmed parish record for this officeholder. No church URL is being claimed here.
+
+### Campaign Finance
+No itemized donor table surfaced in the public source set I reviewed for this pass. The public record is much stronger on election administration than on donor-by-donor finance detail.
+
+### Quotes
+- "The County Clerk's Office is located in the Administrative Center, 718 Main in Hays, Kansas." - Ellis County Clerk official page - https://www.ellisco.net/93/Clerk - topic: office location
+- "The County Clerk serves as secretary to the Board of Commissioners." - Ellis County Clerk official page - https://www.ellisco.net/93/Clerk - topic: office duties
+- "the numbers don't show for me to allow to spend taxpayer dollars" - Hays Post, 2024-10-18 - https://hayspost.com/posts/90ec3907-2122-4b32-9bc1-b4199532ec34 - topic: FHSU polling location
+- "The County Clerk's Office ... voter registration" - Ellis County Clerk official page - https://www.ellisco.net/93/Clerk - topic: services
+
+### Source URLs
+- https://www.ellisco.net/93/Clerk
+- https://hayspost.com/posts/90ec3907-2122-4b32-9bc1-b4199532ec34
+- https://hayspost.com/posts/64efa3e4-3296-4e5c-897f-8417a78e7fc3
+- https://hayspost.com/posts/3a3f06a1-6b07-45c6-bf3c-8b76f4d564d7
+- https://www.aclukansas.org/press-releases/hundreds-ellis-county-sign-petition-polling-location-fhsu/
+- https://www.wibw.com/2023/11/02/students-community-members-plead-polling-location-fort-hays-state/
+- https://hayspost.com/posts/1ff3108c-562d-421d-9200-395f040c2103
+- https://hayspost.com/posts/d677444a-0c16-457b-a0e9-54004981ff78
+- https://www.ellisco.net/729/Revenue-Neutral-Rate
+- https://hayspost.com/posts/1873ff67-3bab-44c2-896b-8aee3a992496
+
 ## SOURCE: ellis-county-elected-officials-deep-investigation.md
 
 # DEEP INVESTIGATION: Ellis County, Kansas -- All Elected Officials
@@ -3004,4 +3050,3 @@ This is likely a political tactic by the NRSC (standard opposition practice) rat
 *All information from publicly available sources. Source URLs provided for verification.*
 
 ---
-

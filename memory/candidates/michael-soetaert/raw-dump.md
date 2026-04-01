@@ -3678,3 +3678,49 @@ This is likely a political tactic by the NRSC (standard opposition practice) rat
 
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+- Michael Soetaert
+- Democratic candidate for the U.S. Senate from Wellington, Kansas.
+- Art gallery owner, former Wellington city council member, and first openly gay Kansas Senate candidate.
+
+### Bio
+Soetaert is the most ideologically fluid candidate in the field. He grew up in Spring Hill, lives in Wellington, has run for multiple offices over many years, and moved from a Republican identity into the Democratic lane as his views on abortion and marriage changed.
+
+His campaign is historically notable even if it is not especially well resourced. He is the first openly gay person to run for the Kansas Senate seat, and his small-town base gives him a different profile from the Johnson County candidates in the same primary.
+
+### Record / Actions
+- Served on the Wellington City Council until recently.
+- Ran as a Republican in prior cycles, then switched to the Democratic Party.
+- Previously ran for other local, state, and federal offices, including the 2020 1st District race.
+- Resigned from the Wellington City Council after a very short stint, which reinforced the "perennial candidate" critique.
+
+### Verbatim Quotes
+- "Michael 'Mike' Soetaert is ONE of TWO DEMOCRATIC candidates" - ActBlue page, n.d., https://secure.actblue.com/donate/michael-soetaert (campaign pitch)
+- "Kansans voted for bodily autonomy" - campaign site, n.d., https://mikeforkansas.my.canva.site/ (abortion reversal)
+- "first openly gay candidate to run for U.S. Senate in Kansas" - Kansas candidate coverage, 2026, https://kcur.org/politics-elections-and-government/2025-12-30/whos-running-to-represent-kansas-in-the-u-s-senate-in-2026-heres-a-guide-to-the-candidates (historic note)
+
+### Faith / Church
+- Publicly described as Christian, with a Roman Catholic adoptive-family background in the file.
+- No current church affiliation was publicly verified.
+
+### Campaign Finance
+- FEC candidate page: https://www.fec.gov/data/candidate/S2KS00097/
+- Current FEC summary view shows the filing but no 2025-2026 totals yet in the accessible page text.
+- Campaign finance therefore remains thin and mostly visible through the campaign's ActBlue page rather than through a robust public totals page.
+
+### Controversies / Notable Facts
+- Multiple failed campaigns across different offices and parties make him a textbook perennial candidate.
+- His platform shifts on abortion and marriage are real and public, but they also invite scrutiny from both parties.
+- The free Canva website is a visible signal of minimal campaign infrastructure.
+
+### Sources
+- https://mikeforkansas.my.canva.site/
+- https://secure.actblue.com/donate/michael-soetaert
+- https://www.fec.gov/data/candidate/S2KS00097/
+- https://ballotpedia.org/Michael_Soetaert
+- https://www.kcur.org/politics-elections-and-government/2025-12-30/whos-running-to-represent-kansas-in-the-u-s-senate-in-2026-heres-a-guide-to-the-candidates
+- https://www.cityofwellington.net/newsview.aspx?nid=6940
+- https://www.kake.com/kansas-senate-candidate-shows-support-for-respect-for-marriage-act/article_7d6721ed-79ed-52f2-8765-2e521ef88df5.html
+

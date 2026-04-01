@@ -2,6 +2,43 @@
 ## Consolidated: 2026-03-31
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+- Marty Tuley is a Lawrence-area Democratic candidate in the 2026 Kansas governor race.
+
+### Bio Facts
+- Campaign website: [tuley4gov2026.com](https://www.tuley4gov2026.com/)
+- Tuley presents himself as a common-sense, values-forward Kansan rather than a career political insider.
+
+### Record / Actions
+- Tuley's campaign messaging is centered on broad Kansas appeals rather than a long public office record.
+- He has not built the same statewide political resume as the major candidates in the field.
+
+### Quotes
+1. "a campaign built on common sense, Kansas values, and bold solutions" - campaign site, 2026-04-01, https://www.tuley4gov2026.com/ - topic: campaign framing.
+2. "Kansas works best when it works for everyone" - Ministry of Influence profile, 2026-04-01, https://ministryofinfluence.org/candidates/martin-tuley/ - topic: governing philosophy.
+3. "common sense" - campaign site language, 2026-04-01, https://www.tuley4gov2026.com/ - topic: tone.
+
+### Faith / Church
+- I did not verify a public church affiliation in the sources reviewed.
+
+### Campaign Finance
+- Kansas Ethics filing index: [SWLinks2026EC](https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm)
+- 2026 filing PDF: [SW01MT_AT.pdf](https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/Treasurers/SW01MT_AT.pdf)
+- Itemized donor schedule was not fully parsed in this pass.
+
+### Controversies / Notable Facts
+- Tuley is the least visible of the Democratic governor candidates in public coverage.
+- His campaign appears built more on values language than on a long legislative resume.
+
+### Source URLs
+- https://www.tuley4gov2026.com/
+- https://www.tuley4gov2026.com/contact
+- https://ministryofinfluence.org/candidates/martin-tuley/
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/Treasurers/SW01MT_AT.pdf
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm
+
 ## SOURCE: governor-2026-all-remaining-candidates-complete.md
 
 # 2026 Kansas Governor Race: Complete Investigation of All Remaining Candidates
@@ -1171,4 +1208,3 @@ This report was compiled by searching:
 **Recommended action:** Call the Ellis County Clerk at 785-628-9410 or check [ellisco.net/626/Candidate-Filings](https://www.ellisco.net/626/Candidate-Filings) after June 1, 2026 for the definitive candidate list.
 
 ---
-

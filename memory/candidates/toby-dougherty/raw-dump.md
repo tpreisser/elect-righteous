@@ -2768,3 +2768,46 @@ This is likely a political tactic by the NRSC (standard opposition practice) rat
 
 ---
 
+
+## CODEX DEEP RESEARCH 2026-04-01 - Toby Dougherty
+
+**Verified identity**
+Toby Dougherty is Hays' city manager. The city's official office page lists him as city manager, and Hays Post coverage shows him as the staff member who shepherds the budget, water, roads, and long-range infrastructure work behind city policy. He is appointed rather than elected, but his role is central to how Hays actually functions.
+
+**Bio facts**
+Dougherty's public biography is all administration, planning, and water infrastructure. He has been in the city manager role since 2007 after serving as assistant city manager, and his public comments repeatedly show a municipal operator who thinks in decades rather than budget cycles. His visible career is especially tied to water conservation, R9, streets, and the practical maintenance work that keeps the city operating.
+
+He also comes through in local coverage as one of the city's most consistent explanatory voices. Whether he is talking about drought, street maintenance, airport lighting, or the water transfer case, his job is to translate complex infrastructure and finance problems into something the commission and the public can understand.
+
+**Detailed record / actions**
+- Has been city manager since 2007 and previously served as assistant city manager.
+- Helped steer the city through R9 water planning, water conservation measures, and repeated legal challenges over the transfer.
+- Oversaw budget discussions where the city emphasized maintenance rather than expansion in 2026.
+- Led or explained major public works items such as water meter replacement, street maintenance, and airport lighting upgrades.
+- Public coverage consistently presents him as the city's chief operator for long-term resilience and capital planning.
+
+**Verbatim quotes**
+- "The budget is based overall on a slightly cautionary approach." Source: Hays Post, 2025-06-22, https://hayspost.com/posts/5258642a-dc46-4a52-9423-0fc5b6468bcc, topic: 2026 budget planning.
+- "We have a bond rolling off." Source: Hays Post, 2024-06-28, https://hayspost.com/posts/292e6398-09de-4575-8f00-59772bbb0c0c, topic: water meter replacement and budget planning.
+- "I felt like the dumbest kid in the classroom out there." Source: Hays Post / Kansas News Service, 2022-05-26, https://hayspost.com/posts/6003cad5-e6bf-4ab2-87a9-fd03d8a5750c, topic: water conservation realization.
+
+**Faith / church**
+No verified public church affiliation surfaced in the sources reviewed.
+
+**Campaign finance**
+Not applicable in the same way as an elected candidate. I did not surface any public political finance filing for Dougherty in this pass.
+
+**Controversies / notable facts**
+- Dougherty is one of the key public voices behind Hays' water strategy and one of the clearest explanations of why the city treats water as a generational issue.
+- Public coverage makes clear that Hays' capital planning is built around maintenance and conservation as much as expansion.
+- I did not find a major controversy in the sources reviewed.
+
+**Source URLs**
+- https://www.haysusa.com/149/City-Managers-Office
+- https://www.haysusa.com/Directory.aspx?DID=6
+- https://hayspost.com/posts/5258642a-dc46-4a52-9423-0fc5b6468bcc
+- https://hayspost.com/posts/292e6398-09de-4575-8f00-59772bbb0c0c
+- https://hayspost.com/posts/6003cad5-e6bf-4ab2-87a9-fd03d8a5750c
+- https://hayspost.com/posts/92c6bbf2-25be-47de-ad1c-a2e44e17e420
+- https://hayspost.com/posts/84fcc453-7b77-49a8-a26e-b9011a8d1597
+- https://hayspost.com/posts/227c6d39-b8a1-4133-9b9a-8843072fe5a2

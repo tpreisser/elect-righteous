@@ -2,6 +2,46 @@
 ## Consolidated: 2026-03-31
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+- Ty Masterson is the Kansas Senate President and a 2026 Republican gubernatorial candidate.
+
+### Bio Facts
+- Campaign website: [mastersonforgovernor.com](https://www.mastersonforgovernor.com/)
+- Public bio: [Senator Ty Masterson](https://senatortymasterson.com/meet-ty/)
+- Masterson's public story emphasizes family, business experience, and a hardline conservative record.
+
+### Record / Actions
+- Masterson has led the Kansas Senate through major fights over taxes, education, elections, and abortion policy.
+- He has been one of the most influential Republican legislators in Kansas.
+
+### Quotes
+1. "They attend NewSpring Church." - Ty Masterson biography, 2026-04-01, https://senatortymasterson.com/meet-ty/ - topic: faith/church.
+2. "Kansas isn't for sale, and we're taking it back." - campaign site, 2026-04-01, https://www.mastersonforgovernor.com/ - topic: campaign framing.
+3. "common sense conservative leadership" - campaign site language, 2026-04-01, https://www.mastersonforgovernor.com/ - topic: governing philosophy.
+
+### Faith / Church
+- Publicly linked to NewSpring Church in Wichita.
+- Church website: [newspring.org](https://www.newspring.org/)
+
+### Campaign Finance
+- Kansas Ethics filing index: [SWLinks2026EC](https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm)
+- 2026 filing PDF: [SW01TM_202601.pdf](https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01TM_202601.pdf)
+- I did not fully parse itemized donors in this pass.
+
+### Controversies / Notable Facts
+- Masterson is a major architect of Kansas Senate Republican strategy, so his policy record is already highly visible.
+- His gubernatorial pitch depends on converting legislative power into executive power.
+
+### Source URLs
+- https://www.mastersonforgovernor.com/
+- https://senatortymasterson.com/meet-ty/
+- https://www.newspring.org/
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01TM_202601.pdf
+- https://apnews.com/article/c465aadcc7c53c6c274f790928fc6208
+
 ## SOURCE: faith-church-investigation-2026-03-31.md
 
 # Faith, Church & Religious Community Investigation
@@ -5173,4 +5213,3 @@ As Insurance Commissioner, Schmidt has called for PBM reform -- an issue directl
 *All information sourced from publicly available records, news reports, and official government databases*
 
 ---
-

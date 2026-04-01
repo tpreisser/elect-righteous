@@ -1357,3 +1357,48 @@ District 5 covers western Kansas, including Hays. The current member is **Cathy 
 
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+- Lauren Elizabeth Reinhold
+- Democratic candidate for Kansas's 1st Congressional District.
+- Attorney and former Social Security Administration employee.
+
+### Bio
+Reinhold is the worker-advocate candidate in KS-01. She spent years in legal practice, worked at the Social Security Administration, and then turned a DOGE-related federal employment loss into the launch story for her congressional campaign.
+
+Her pitch is more emotional than McRoberts' and is built around public-service experience rather than academic expertise. That makes her a credible contrast candidate, even if the district remains structurally difficult for Democrats.
+
+### Record / Actions
+- Filed for the race in January 2026, after a long career in law and federal service.
+- Toured the district before announcing, including stops in Hays, Dodge City, Salina, Hutchinson, and other rural towns.
+- Centered her campaign on government services, healthcare, wages, and protecting rural Kansas.
+
+### Verbatim Quotes
+- "I was a proud public servant." - campaign announcement, https://www.laurenforkansas.com/ (DOGE origin story)
+- "Fight back and restore what the American people need." - Kansas Reflector, Jan. 5, 2026, https://kansasreflector.com/2026/01/05/lawrence-democrats-take-aim-at-kansas-republicans-congressional-seat/ (campaign motivation)
+- "If anyone in Washington wants to push policies that hurt our farmers, our hospitals, our workers, or our towns, they'll have to go through me first." - campaign site, https://www.laurenforkansas.com/ (district defense)
+- "Politics shouldn't be something done to people." - campaign material, https://www.laurenforkansas.com/ (representative government)
+
+### Faith / Church
+- Christian is listed in public records, but no specific church affiliation was publicly verified.
+
+### Campaign Finance
+- FEC candidate page: https://www.fec.gov/data/candidate/H6KS01203/?cycle=2026&election_full=true
+- Current FEC page shows the filing but no 2025-2026 totals yet in the accessible summary view.
+- That means the campaign is publicly visible, but the finance picture is still relatively thin compared with the better-filed House race candidates.
+
+### Controversies / Notable Facts
+- Like McRoberts, she is based in Lawrence, which is the most liberal city in the district.
+- Her origin story around DOGE and federal layoffs is compelling in Democratic circles but may not help much in R+16 KS-01.
+- She entered later than McRoberts and still appears to have less visible infrastructure.
+
+### Sources
+- https://www.laurenforkansas.com/
+- https://www.fec.gov/data/candidate/H6KS01203/?cycle=2026&election_full=true
+- https://www.fec.gov/data/committee/C00932855/
+- https://kansasreflector.com/2026/01/05/lawrence-democrats-take-aim-at-kansas-republicans-congressional-seat/
+- https://www.lawrencejournalworld.com/
+- https://www.facebook.com/dgcodems/videos/2299093513898616/
+- https://www.linkedin.com/in/laurenreinhold/
+

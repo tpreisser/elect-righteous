@@ -2875,3 +2875,56 @@ District 5 covers western Kansas, including Hays. The current member is **Cathy 
 
 ---
 
+
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Barb Wasinger, Kansas House District 111
+
+Barb Wasinger is one of the most established local Republicans in Hays: former mayor, former city commissioner, former Ellis County commissioner, and now the long-time House District 111 representative. Her campaign site says she and her husband Tom have made Hays home for four decades, raised four adult children there, and continue to run a local small business while she serves in Topeka.
+
+Her public identity is unusually coherent. She talks about taxes, water, education, family, and faith in the same breath, and the public sources reviewed for this project show that her Catholic identity is not decorative. It is part of how she explains service, limited government, and community obligation.
+
+### Their Record
+
+Wasinger's record is concrete rather than theatrical. The campaign site lists tax cuts, grocery and Social Security tax elimination, fentanyl and online-porn protections for kids, special-education funding, Medicaid and foster-care adjustments, and the R9 Ranch water bill. She is the kind of legislator who gets credit or blame for actual local outcomes.
+
+The public record shows she is also a committee player. She chairs the General Government Budget and Administrative Rules work on the House side, which gives her procedural leverage beyond her district. In Hays terms, that means she is not just a symbolic incumbent; she is someone with real power to affect appropriations and regulatory outcomes.
+
+### What You Should Know
+
+1. She says she is an active member of St. Joseph Catholic Church in Hays.
+2. Her campaign site says she graduated from St. Catherine University and has a theology concentration.
+3. She has been in Hays-area elected office for more than 20 years.
+4. Her public policy brand is pragmatic conservative rather than ideological bomb-thrower.
+5. The raw finance notes in this file did not surface a full donor table through web search alone.
+
+### Where They Worship
+
+Barb Wasinger's worship home is publicly identified as St. Joseph Catholic Church in Hays, Kansas. The campaign site says she is an active member, but I did not verify a congregation website in this sweep.
+
+### Campaign Finance
+
+| Donor | Amount |
+|---|---:|
+| Not publicly extracted here | N/A |
+
+The best public finance note I could verify from the existing materials is that the campaign finance viewer is available through Kansas state systems, but a clean donor table was not extracted in this sweep.
+
+### Quotes
+
+> "My approach in Topeka is simple: talk less, listen more, and work together to actually get things done."
+
+> "It’s an honor to serve the good people of Ellis County."
+
+> "I’m committed to building on that momentum for you."
+
+> "Judeo-Christian values established a framework of morality which is necessary for our system of limited government."
+
+### Sources
+
+- https://barbwasinger.com/
+- https://barbforkansas.com/
+- https://www.kslegislature.gov/li/b2025_26/members/rep_wasinger_barbara_1/
+- https://justfacts.votesmart.org/candidate/145676/barb-wasinger
+- https://ivoterguide.com/candidate/48696/race/11694/election/797
+- https://www.kansas.gov/campaign-finance/

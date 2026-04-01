@@ -2768,3 +2768,45 @@ This is likely a political tactic by the NRSC (standard opposition practice) rat
 
 ---
 
+
+## CODEX DEEP RESEARCH 2026-04-01 - David Vilaysing
+
+**Verified identity**
+David Vilaysing is a Hays city commissioner, the owner of DXI Training Solutions, and a retired Hays police sergeant with military police experience. Hays Post's candidate Q&A says he has 22 years of combined law-enforcement and military-police experience and has been teaching first responders around the country. His public identity is still relatively new to politics, but the civic and public-safety background is substantial.
+
+**Bio facts**
+Vilaysing's public record is built on law enforcement rather than party machinery. He spent nearly two decades with the Hays Police Department and had already been working in training and leadership development before he ran for office. In his candidate Q&A, he framed his candidacy as a way to give back to Hays and bring a police-officer's perspective to city government.
+
+Because he is so recently elected, the public record is thinner than for the longtime incumbents, but the themes are consistent: water, housing, retail, and city operations. He has also been candid about wanting a more transparent process and a stronger sense that city leaders are listening to residents.
+
+**Detailed record / actions**
+- Elected to the Hays City Commission in 2025 on a platform centered on water, housing, and city transparency.
+- Entered office with a background in police budgets, training, and frontline city operations.
+- Said he wants a permanent water solution and better public visibility into the R9 process.
+- Has stressed low- and middle-income housing and a desire to help make Hays more livable for working families.
+- Publicly backed a more collaborative commission culture and a cleaner break from what he described as a missed sense of core values.
+
+**Verbatim quotes**
+- "I knew at my core I missed giving back to my community." Source: Hays Post, 2025-10-25, https://hayspost.com/posts/5e243ec1-847a-40f8-a7dd-665ffe2f85de, topic: motivation for running.
+- "I have a good set of core values." Source: Hays Post, 2025-10-25, https://hayspost.com/posts/5e243ec1-847a-40f8-a7dd-665ffe2f85de, topic: worldview and governance.
+- "David began his employment with the Hays Police Department in 2005 as a Police Officer." Source: Hays Post, 2020-11-15, https://hayspost.com/posts/40e17885-6833-42a5-9562-0abd9f173b21, topic: career history.
+
+**Faith / church**
+No verified public church affiliation surfaced in the sources reviewed.
+
+**Campaign finance**
+I did not surface a clearly indexed public campaign finance report in this pass. The public record was more visible on his police career and candidate Q&A than on committee filings.
+
+**Controversies / notable facts**
+- Vilaysing is one of the newer faces on the commission, so his public record is still forming.
+- He runs a first-responder training company, which gives him a different professional lens from the other commissioners.
+- His public comments emphasize transparency and listening more than ideology.
+
+**Source URLs**
+- https://www.haysusa.com/269/City-Commission
+- https://hayspost.com/posts/5e243ec1-847a-40f8-a7dd-665ffe2f85de
+- https://hayspost.com/posts/b7a4b7ea-3e19-4919-a7fa-1de6db7bed8c
+- https://hayspost.com/posts/40e17885-6833-42a5-9562-0abd9f173b21
+- https://hayspost.com/posts/21208822-3905-4a26-a33d-5003cf6f8f08
+- https://hayspost.com/posts/0de13ea6-3e03-4110-a99e-58f98b4d361c
+- https://hayspost.com/posts/a0f7dc0e-e11c-483b-95ef-cbd4ad3ac930

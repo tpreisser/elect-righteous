@@ -1663,3 +1663,46 @@ The major controversies have been almost entirely about **money** (bond spending
 
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified identity
+Allen Park is a retired USD 489 elementary principal, a licensed insurance agent, and a current USD 489 board member. Public profiles say he has worked in USD 489 for 31 years and is now also doing part-time UPS work.
+
+### Who he is
+Park is one of the district's most experienced education hands. He comes from a family of educators, earned both industrial/elementary education and administration degrees from Fort Hays State, and spent decades in roles ranging from paraprofessional to K-12 teacher to principal. He and his wife Patti have both been in education for a long time, and all four of their children went through USD 489 from pre-K through Hays High.
+
+That background shows up in how he talks about the board. He frames school-board service as an obligation to keep promises made to students and families, and he writes about board work as a mix of technology, facilities, and fiscal responsibility rather than political branding. He also emphasizes that he still works with the district rather than just talking about it from the outside.
+
+### Their record
+Park is one of the clearest supporters of the bond-buildout phase and the district's effort to lower student fees. He told Hays Post that the bond is replacing and repairing facilities, more teachers have been hired, and reduced fees help families in tight times. He also repeatedly says communication and transparency are what build trust with stakeholders.
+
+His more recent board coverage shows him willing to question spending that he thinks is too fast or too expensive. In 2025 he voted against some furniture purchases, and he has been willing to pause or delay decisions when he wants more review. He is not a reflexive "yes" vote; he is a long-term district steward who likes structured process.
+
+### What you should know
+1. He served 25 years as Washington Elementary principal.
+2. He says he has 100 percent board-meeting attendance across four years of service.
+3. He has four children who all graduated from Hays High.
+4. He likes bond projects, but only when they are executed carefully and transparently.
+5. He says taxpayer dollars should be spent through careful review, not autopilot.
+
+### Where they worship
+I did not find a reliable public source that identifies Allen Park's church home or denomination. Because the public record is thin here, I am not assigning a church without evidence.
+
+### Campaign finance
+Park gave one of the clearest public answers in the field: he said he had not received money outside the school district, that his donations came from family, friends, and community members who care about kids and education, and that any additional expenses were paid personally. That means I did not find a PAC-driven donor table here, just a statement that his support was local and modest.
+
+### Quotes
+- "I have worked in education for over 35 years." - Hays Post, 2023 candidate profile
+- "With the recently passed bond, the facilities are being replaced and repaired." - Hays Post, 2023 candidate profile
+- "Communication is so important and can always be improved." - Hays Post, 2023 candidate profile
+- "I have not received any money outside of the school district." - Hays Post, 2023 candidate profile
+
+### Source URLs
+- https://hayspost.com/posts/ba82fc30-cb69-4a6d-8f09-c3ec5d9d51a7
+- https://hayspost.com/posts/7acb9e0e-4c56-4e6f-a618-4312a49cd922
+- https://hayspost.com/posts/ff929dc5-f4f5-433c-876e-59fc19df6a2d
+- https://hayspost.com/posts/19aa6807-369c-4e64-9c1c-8af9d88c84df
+- https://hayspost.com/posts/95dab7ab-70ba-44ee-91ee-2760e55665bf
+- https://www.fhsu.edu/news/2020/05/pizza-kits-and-book-giveaways-set-for-monday-in-downtown-hays
+- https://usd489.community.highbond.com/portal/members.aspx?id=18
+- https://www.ksde.gov/Portals/0/Directories/2025-26%20Kansas%20Educational%20Directory.pdf?ver=2025-11-07-175254-390

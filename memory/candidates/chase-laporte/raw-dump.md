@@ -3678,3 +3678,47 @@ This is likely a political tactic by the NRSC (standard opposition practice) rat
 
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+- Chase LaPorte
+- Republican candidate in the Kansas Senate primary against Roger Marshall.
+- U.S. Army veteran and business administrator.
+
+### Bio
+LaPorte is the most thinly resourced Republican challenger in the field. He was born in Carthage, Missouri, served in the Army from 2005 to 2013, earned an associate degree from Cowley County Community College, and works as a business administrator.
+
+Publicly, he looks like a serial candidate rather than a movement-building challenger. The available record shows a gubernatorial web presence, a Senate filing, and very little else that would suggest a serious primary threat to Marshall.
+
+### Record / Actions
+- Filed for the Senate primary rather than building a large standalone campaign operation.
+- Has also run for other offices, including the U.S. House and governor.
+- Uses a small-government / spending-cut platform with term-limits language.
+
+### Verbatim Quotes
+- "LaPorte for a Brighter America" - FEC filing, 2025-09-12, https://docquery.fec.gov/pdf/703/202509129790051703/202509129790051703.pdf (committee/style line)
+- "Transparency in government keep officials accountable." - public positions page, n.d., https://www.opencampaign.com/politicians-in-united-states/197957/chase-laporte/issue-positions (governance)
+- "I believe in maintaining a strong National Guard presence." - public positions page, n.d., https://www.opencampaign.com/politicians-in-united-states/197957/chase-laporte/issue-positions (National Guard)
+
+### Faith / Church
+- No public church or faith affiliation was verified.
+
+### Campaign Finance
+- FEC candidate page: https://www.fec.gov/data/candidate/H6KS03258/
+- FEC filing PDF: https://docquery.fec.gov/pdf/703/202509129790051703/202509129790051703.pdf
+- Current FEC page shows no 2025-2026 totals yet in the accessible page text.
+- A Kansas ethics report snippet in the research trail surfaced small donor entries, including Ty Masterson $2,500, Carri Person $100, Joy Eakins $150, Kristina Smith $100, and Nancy Moneymaker $80.
+
+### Controversies / Notable Facts
+- He is widely described in the source material as a token or protest primary challenger rather than a serious threat.
+- He does not appear to have a dedicated Senate campaign website.
+- The limited finance and infrastructure trail makes him easy to ignore and easy to attack.
+
+### Sources
+- https://www.fec.gov/data/candidate/H6KS03258/
+- https://docquery.fec.gov/pdf/703/202509129790051703/202509129790051703.pdf
+- https://docquery.fec.gov/pdf/488/202306099581781488/202306099581781488.pdf
+- https://ballotpedia.org/Chase_LaPorte
+- https://www.kcur.org/politics-elections-and-government/2025-12-30/whos-running-to-represent-kansas-in-the-u-s-senate-in-2026-heres-a-guide-to-the-candidates
+- https://www.opencampaign.com/politicians-in-united-states/197957/chase-laporte/issue-positions
+

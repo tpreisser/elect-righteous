@@ -2,6 +2,48 @@
 ## Consolidated: 2026-03-31
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+Vernon Ruder Jr. is the Ellis County Treasurer and a second-term county officeholder. The public record ties him to prior work as a financial advisor, district manager for E.A. Sween, county solid-waste management, and the office's current motor-vehicle and tax collection systems.
+
+### Biography
+Ruder's public biography is the classic Hays family-government story: Catholic-school background, local work history, and a county office that fits a practical, administrative personality. He is not a loud political figure, but he is responsible for a lot of the county's revenue workflow and motor-vehicle processing.
+
+His family connections matter because they connect him to Hays city leadership, USD 489, and the broader Ruder civic network. The public record shows the treasurer, his wife Ruth, and his son Mason all occupying public roles, which is unusual even by small-town Kansas standards.
+
+### Record And Actions
+Ruder's signature accomplishment is the $2.50 facility fee for walk-in motor-vehicle transactions. He says the fee is allowed by state law, helps fund the office, and reduces the burden on property taxpayers. The office has also benefited from queue-management improvements and a more modern customer flow, which fits a county office trying to be both efficient and less annoying to the public.
+
+The budget numbers are the real story. Ruder says the fee generated more than $50,000 annually and helped cut the treasury budget from $452,000 to $367,000. That is the kind of county-office win that does not get a lot of attention outside Ellis County but is exactly the sort of thing local taxpayers care about.
+
+### What Public Sources Show
+1. He manages a revenue office more than a campaign office.
+2. His fee policy is framed as tax burden relief, not simple fee generation.
+3. He has modernized service flow through queue tools and office procedures.
+4. He sits inside a prominent Hays family network that reaches city and school government.
+5. The public record is stronger on office operations than on personal biography.
+
+### Faith / Church
+The public record suggests strong Catholic family and school ties for Vernon Ruder Jr., but I did not verify a direct parish-membership statement in this pass. Because the evidence is indirect, I am not claiming a specific church URL as a confirmed personal worship location.
+
+### Campaign Finance
+No public itemized donor table surfaced in the source set reviewed for this pass. The current source set is office-focused rather than finance-focused.
+
+### Quotes
+- "The Ellis County Treasurer's Office ... is responsible for the tax billing, collection, and distribution" - Ellis County Treasury official page - https://www.ellisco.net/566/Treasury - topic: office mission
+- "The Treasurer's Office also acts as an agent for the Kansas Department of Revenue" - Ellis County Treasury official page - https://www.ellisco.net/566/Treasury - topic: motor vehicle duties
+- "I feel like we should be funding our motor vehicle department with motor vehicle money" - Hays Post, 2023-11-20 - https://hayspost.com/posts/637d35a7-f280-4818-bef9-6bd7f8d30494 - topic: fee policy
+- "The state no longer purchases our computers or printers" - Hays Post, 2023-11-20 - https://hayspost.com/posts/637d35a7-f280-4818-bef9-6bd7f8d30494 - topic: office funding
+
+### Source URLs
+- https://www.ellisco.net/566/Treasury
+- https://hayspost.com/posts/a828fae7-451a-45b3-aed9-e12596bf13f4
+- https://hayspost.com/posts/637d35a7-f280-4818-bef9-6bd7f8d30494
+- https://www.hdnews.net/city-commissioners-sworn-in-ruder-elected-mayor-cunningham-vice-mayor/
+- https://kspress.com/news/2025/09/20/forgetting-the-lesson-of-911-is-the-danger-we-face-now-says-ruder
+- https://www.zoominfo.com/p/Vernon-Ruder/2569532965
+
 ## SOURCE: ellis-county-elected-officials-deep-investigation.md
 
 # DEEP INVESTIGATION: Ellis County, Kansas -- All Elected Officials
@@ -3503,4 +3545,3 @@ The major controversies have been almost entirely about **money** (bond spending
 *Investigation conducted March 30, 2026. Updated March 31, 2026 with enrollment, budget, teacher pay, sales tax, mental health, dress code/satanism controversy, cell phone policy, bond construction status, and performance metrics. All information sourced from publicly available records, news coverage, and government databases.*
 
 ---
-

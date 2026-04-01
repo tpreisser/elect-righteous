@@ -2,6 +2,45 @@
 ## Consolidated: 2026-03-31
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+- Ethan Corson is a Kansas state senator from Fairway and a 2026 Democratic gubernatorial candidate.
+
+### Bio Facts
+- Campaign website: [ethanforkansas.com](https://ethanforkansas.com/)
+- Corson is a lawyer, former Kansas Democratic Party executive director, and Johnson County legislator.
+- He played baseball at Garden City Community College before law school at Washington University.
+
+### Record / Actions
+- Corson has focused his Senate career on judiciary, transportation, taxation, utilities, and oversight work.
+- He is publicly identified with education funding, workforce development, and cost-of-living policy.
+
+### Quotes
+1. "work hard, give back whenever you can" - Ethan Corson bio, 2026-04-01, https://ethanforkansas.com/about - topic: personal ethos.
+2. "always keep your word" - Ethan Corson bio, 2026-04-01, https://ethanforkansas.com/about - topic: values.
+3. "lowering cost of living" - Senate campaign / legislative profile, 2026-04-01, https://ethanforkansas.com/ - topic: governing priorities.
+
+### Faith / Church
+- Corson is publicly Jewish.
+- No specific synagogue membership was verified in the sources reviewed.
+
+### Campaign Finance
+- Kansas Ethics filing index: [SWLinks2026EC](https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm)
+- 2026 filing PDF: [SW01EC_202601.pdf](https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01EC_202601.pdf)
+- Itemized donors were not fully parsed in this pass.
+
+### Controversies / Notable Facts
+- Corson is one of the race's best-connected Democrats and has endorsements from major Kansas Democratic figures.
+- His campaign is defined more by competence and coalition-building than ideology.
+
+### Source URLs
+- https://ethanforkansas.com/
+- https://ethanforkansas.com/about
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm
+- https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01EC_202601.pdf
+- https://www.kcjc.com/section-blog/1819-news/archived-news/4844-from-a-love-of-baseball-to-a-love-of-politics
+
 ## SOURCE: faith-church-investigation-2026-03-31.md
 
 # Faith, Church & Religious Community Investigation
@@ -2580,4 +2619,3 @@ District 5 covers western Kansas, including Hays. The current member is **Cathy 
 - [Kansas Reflector: Board races could shift power to conservative bloc](https://kansasreflector.com/2024/10/22/kansas-board-of-education-races-could-shift-power-to-conservative-bloc/)
 
 ---
-

@@ -7310,6 +7310,66 @@ This is likely a political tactic by the NRSC (standard opposition practice) rat
 
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01
+
+### Verified Identity
+- Roger Wayne Marshall, M.D.
+- Republican U.S. senator for Kansas, first elected in 2020 and in office since January 2021.
+- Born in El Dorado, Kansas, raised in a farm family, and long associated with Great Bend.
+
+### Bio
+Marshall built his public career around medicine, rural identity, and conservative social politics. He trained as a physician, practiced OB/GYN in Great Bend for more than 25 years, and repeatedly frames himself as a Kansas doctor who brought local, practical experience into Washington. He remains deeply tied to the Great Bend area and to the larger western-Kansas rural worldview that animates much of his messaging.
+
+His official and campaign materials emphasize that he is not a transactional Washington figure but a small-town Kansan who stayed rooted in local institutions. That record matters in this file because it is unusually well documented: church leadership, medical practice, military reserve service, and civic board work all reinforce the same identity narrative.
+
+### Record / Actions
+- Served in the U.S. Army Reserve, then completed medical training and built a long OB/GYN practice in Great Bend.
+- Delivered more than 5,000 babies, a fact he routinely ties to his pro-life stance.
+- Won the Kansas Senate seat in 2020 after serving in the U.S. House from 2017 to 2021.
+- In 2025-2026 he remained closely associated with Trump-aligned messaging on budget cuts, border policy, Ukraine aid, and DOGE.
+- The Oakley town hall walkout became a durable vulnerability after he left early and then characterized attendees as "paid Democratic operatives."
+
+### Verbatim Quotes
+- "Delivering for Kansas." - campaign site, n.d., https://kansansformarshall.com/ (campaign slogan)
+- "abortion is wrong at any stage" - campaign life page, n.d., https://kansansformarshall.com/life (abortion)
+- "Look, I was wrong." - The Hill, March 2026, https://thehill.com/homenews/senate/5778492-roger-marshall-iran-nuclear-program-comments/ (Iran walkback)
+- "We cannot continue selling our grandchildren down a river..." - Senate press release, April 2024, https://www.marshall.senate.gov/newsroom/press-releases/senator-marshall-releases-statement-on-foreign-aid-bill/ (Ukraine aid)
+
+### Faith / Church
+- Verified congregation: First Christian Church, Great Bend, Kansas.
+- Denominational identity: Christian Church (Disciples of Christ), often described publicly as nondenominational Christian in his own bios.
+- Public leadership record: elder, deacon, board chairman, and Sunday school teacher with wife Laina for more than 25 years.
+- Church URLs found: https://www.firstchristianchurchgb.com/ and https://kansasdisciples.org/property/great-bend-first-christian-church/
+
+### Campaign Finance
+- FEC candidate page: https://www.fec.gov/data/candidate/S0KS00315/
+- FEC committee page: https://www.fec.gov/data/committee/C00576173/?cycle=2026
+- Public FEC summary shows total receipts of $4,759,694.80 and ending cash on hand of $4,072,295.56 through 2025-12-31.
+- 2025 receipts alone were $2,563,147.27, with $195,870.35 in disbursements.
+- Public donor notes from prior research: Koch Industries PAC $10,000, Spirit AeroSystems PAC $10,000, and U.S. Chamber of Commerce IE support of roughly $1.9M.
+
+### Controversies / Notable Facts
+- Left the Oakley town hall early and his team claimed the crowd was made up of "paid Democratic operatives."
+- Was publicly pressed after Iran comments and admitted, "Look, I was wrong."
+- He remains one of the most reliable Trump-aligned votes in the Kansas delegation, which keeps him politically secure but also highly polarizing.
+- His faith record is unusually deep and sustained compared with most candidates in the project.
+
+### Sources
+- https://kansansformarshall.com/
+- https://kansansformarshall.com/life
+- https://www.marshall.senate.gov/about/
+- https://www.marshall.senate.gov/newsroom/press-releases/senator-marshall-releases-statement-on-foreign-aid-bill/
+- https://www.marshall.senate.gov/newsroom/press-releases/senator-marshall-releases-statement-after-president-trumps-joint-address-to-congress/
+- https://www.marshall.senate.gov/newsroom/press-releases/senator-marshall-introduces-comprehensive-bill-to-reform-americas-dysfunctional-budget-process/
+- https://www.fec.gov/data/candidate/S0KS00315/
+- https://www.fec.gov/data/committee/C00576173/?cycle=2026
+- https://www.opensecrets.org/members-of-congress/roger-marshall/summary?cid=N00037034
+- https://www.kwch.com/2025/03/04/sen-marshall-doubles-down-decision-leave-town-hall-early-claim-that-it-was-sabotaged/
+- https://www.firstchristianchurchgb.com/
+- https://kansasdisciples.org/property/great-bend-first-christian-church/
+- https://justfacts.votesmart.org/candidate/biography/172080/roger-marshall
+
+
 ## SOURCE: raw-intel.md
 
 # Roger Marshall, M.D. — Raw Intelligence Dossier
@@ -8002,4 +8062,3 @@ Primary: August 4, 2026
 - [x] Pass 15: Financial Disclosures — COMPLETE
 
 ---
-

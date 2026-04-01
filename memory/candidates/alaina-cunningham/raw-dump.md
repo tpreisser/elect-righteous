@@ -3490,3 +3490,45 @@ This is likely a political tactic by the NRSC (standard opposition practice) rat
 
 ---
 
+## CODEX DEEP RESEARCH 2026-04-01 - Alaina Cunningham
+
+**Verified identity**
+Alaina Cunningham is the vice mayor of Hays and a sitting city commissioner. Public city records list her on the commission, and Hays Post identified her as an RN who was originally appointed to fill the unexpired city seat vacated by Michael Berges. Her public footprint is civic and healthcare-oriented, with community roles that run through youth, education, and local nonprofit boards.
+
+**Bio facts**
+Cunningham's local biography is rooted in service work more than partisan politics. In Hays Post's candidate Q&A, she described thirteen years in Hays, a background in nursing, and a consistent pattern of community involvement through the Downtown Hays Development Corporation, HaysMed Foundation, Hays High Academic Booster Club, and O'Loughlin PTA. That combination makes her one of the more community-board-connected city leaders in Hays.
+
+Her public comments show a pragmatic, finance-minded approach to city government. She has repeatedly framed water, housing supply, tax strategy, and economic development as linked problems rather than separate issues. Her public posture is less combative than some of her colleagues, but her comments show she is still willing to defend the city's budget choices and development incentives.
+
+**Detailed record / actions**
+- Appointed to the Hays City Commission to fill the unexpired Berges seat, then elected to a full term in 2023.
+- Elevated to vice mayor in January 2026 when the commission reorganized.
+- Focused publicly on the city's sustainable water supply, housing shortage, youth retention, and support for retirees.
+- Supported development incentives and financing tools meant to keep Hays attractive to builders and businesses.
+- On KAYS radio, helped frame fireworks policy as a live public-interest question rather than a settled issue.
+
+**Verbatim quotes**
+- "I feel it is my duty to serve the public and 'Do Good.'" Source: Hays Post, 2023-10-25, https://hayspost.com/posts/5552ce0e-bfbc-418e-addf-a4318ee25055, topic: candidate biography and motivation.
+- "We are all aware how valuable water is to our area." Source: Hays Post, 2023-10-25, https://hayspost.com/posts/5552ce0e-bfbc-418e-addf-a4318ee25055, topic: water and city priorities.
+- "Fireworks is always a hot topic." Source: Hays Post, 2025-05-10, https://hayspost.com/posts/26608269-25e1-4f29-b80f-d2edbb3bba3d, topic: public opinion on fireworks.
+
+**Faith / church**
+No verified public church affiliation surfaced in the sources reviewed. Her public bios and local coverage centered on nursing, family, youth activity, and city service rather than faith or parish identity.
+
+**Campaign finance**
+I did not surface a clearly indexed public campaign finance report in this pass. The public web results were much stronger on candidate Q&A, city minutes, and local media than on any formal committee filing.
+
+**Controversies / notable facts**
+- Her public record is relatively low-conflict and service-oriented.
+- She has been a visible part of the city's development and water discussions rather than a headline-driven figure.
+- Her appointment origin remains a notable part of her identity because it ties her first entry to Michael Berges' move to county office.
+
+**Source URLs**
+- https://www.haysusa.com/269/City-Commission
+- https://hayspost.com/posts/5552ce0e-bfbc-418e-addf-a4318ee25055
+- https://hayspost.com/posts/c8cd14ed-94b7-4507-8a9c-ad71038ac5b6
+- https://hayspost.com/posts/31a9d9f8-0883-480f-aada-22ac084f09b9
+- https://hayspost.com/posts/26608269-25e1-4f29-b80f-d2edbb3bba3d
+- https://www.haysmed.com/services/chi-what-we-offer/
+- https://www.lkm.org/members/?id=50545549
+- https://www.haysusa.com/AgendaCenter/ViewFile/Minutes/_01042024-1458
