@@ -1679,8 +1679,9 @@ function scoreSection(candidate, reportId, reportName, title) {
   const codexBoost = /codex deep research/i.test(title) ? 60 : 0;
   const roundTwoBoost = /round 2/i.test(title) ? 5 : 0;
   const oppositionBoost = reportName === "opposition-research.md" ? 35 : 0;
+  const authoredProfileBoost = reportName === "site-profile.md" ? 140 : 0;
 
-  return fileScore + headingScore + codexBoost + roundTwoBoost + oppositionBoost;
+  return fileScore + headingScore + codexBoost + roundTwoBoost + oppositionBoost + authoredProfileBoost;
 }
 
 function captureCandidateSections(candidate, reports) {
@@ -2344,44 +2345,49 @@ function extractQuotes(candidate, sections, segments) {
       const line = lines[index].trim();
 
       if (line.startsWith(">")) {
-        const text = stripInlineMarkdown(line.replace(/^>\s*/, "")).replace(/^"+|"+$/g, "");
-        if (!text || !/[A-Za-z]/.test(text) || /^--/.test(text)) {
-          continue;
+        const block = [];
+        while (index < lines.length && lines[index].trim().startsWith(">")) {
+          block.push(lines[index].trim().replace(/^>\s*/, ""));
+          index += 1;
         }
+        index -= 1;
 
-        let source = `${candidate.name} research file`;
-        const nextLine = lines[index + 1]?.trim();
-        if (nextLine?.startsWith(">") || /^--/.test(nextLine ?? "")) {
-          source = stripInlineMarkdown((nextLine ?? "").replace(/^(>\s*)?--?\s*/, ""));
+        const attributionLines = block.filter((entry) => /^--/.test(entry));
+        const quoteLines = block.filter((entry) => !/^--/.test(entry));
+        const text = stripInlineMarkdown(quoteLines.join(" ").trim()).replace(/^"+|"+$/g, "");
+        if (!isMeaningfulQuote(text)) {
+          continue;
         }
 
         quotes.push({
           text,
-          source,
+          source: stripInlineMarkdown(
+            attributionLines[0]?.replace(/^--\s*/, "") ?? `${candidate.name} research file`
+          ),
           date: segment.reportDate,
-          url: fallbackUrl,
+          url: extractUrls(attributionLines[0] ?? "")[0] ?? fallbackUrl,
           topic: prettifyHeading(segment.title),
         });
       }
 
-      const bulletQuoteMatch = line.match(/^(?:[-*]|\d+\.)\s*"([^"]+)"\s*$/);
+      const bulletQuoteMatch = line.match(
+        /^(?:[-*]|\d+\.)\s*["“]([^"”]+)["”](?:\s*[-—–]\s*(.+))?$/
+      );
       if (bulletQuoteMatch) {
         const text = stripInlineMarkdown(bulletQuoteMatch[1]);
-        if (!text || text.length < 25 || /^--/.test(text)) {
+        if (!isMeaningfulQuote(text) || /^--/.test(text)) {
           continue;
         }
 
-        let source = `${candidate.name} research file`;
-        const nextLine = lines[index + 1]?.trim();
-        if (nextLine && (/^--/.test(nextLine) || /^source:/i.test(nextLine))) {
-          source = stripInlineMarkdown(nextLine.replace(/^(?:--\s*|source:\s*)/i, ""));
-        }
+        const source = stripInlineMarkdown(
+          bulletQuoteMatch[2] ?? `${candidate.name} research file`
+        );
 
         quotes.push({
           text,
           source,
           date: segment.reportDate,
-          url: fallbackUrl,
+          url: extractUrls(source)[0] ?? fallbackUrl,
           topic: prettifyHeading(segment.title),
         });
       }
@@ -2389,7 +2395,7 @@ function extractQuotes(candidate, sections, segments) {
 
     for (const match of segment.content.matchAll(/\*\*Key Quote\*\*:?\s*"?([^"\n]+)"?/gi)) {
       const text = stripInlineMarkdown(match[1]);
-      if (!text || /^--/.test(text)) {
+      if (!isMeaningfulQuote(text) || /^--/.test(text)) {
         continue;
       }
 
@@ -2402,9 +2408,17 @@ function extractQuotes(candidate, sections, segments) {
       });
     }
 
-    for (const match of segment.content.matchAll(/"([^"\n]{25,})"/g)) {
+    for (const match of segment.content.matchAll(/"([^"\n]{45,})"/g)) {
       const text = stripInlineMarkdown(match[1]).trim();
-      if (!text || /^--/.test(text)) {
+      const contextStart = Math.max(0, (match.index ?? 0) - 80);
+      const contextEnd = Math.min(segment.content.length, (match.index ?? 0) + match[0].length + 80);
+      const context = segment.content.slice(contextStart, contextEnd);
+
+      if (
+        !isMeaningfulQuote(text) ||
+        /^--/.test(text) ||
+        !/(said|says|stated|told|called|wrote|tweeted|argued|described|quote)/i.test(context)
+      ) {
         continue;
       }
 
@@ -2418,18 +2432,7 @@ function extractQuotes(candidate, sections, segments) {
     }
   }
 
-  const unique = [];
-  const seen = new Set();
-  for (const quote of quotes) {
-    const key = normalize(quote.text);
-    if (!key || seen.has(key)) {
-      continue;
-    }
-    seen.add(key);
-    unique.push(quote);
-  }
-
-  return unique.slice(0, 6);
+  return dedupeQuotes(quotes).slice(0, 6);
 }
 
 function prettifyHeading(title) {
@@ -3013,6 +3016,31 @@ function addSource(sources, seen, source) {
   sources.push(source);
 }
 
+function dedupeSources(sources) {
+  const result = [];
+  const seen = new Set();
+
+  for (const source of sources) {
+    addSource(result, seen, source);
+  }
+
+  return result;
+}
+
+function parseSourceList(text) {
+  const sources = [];
+  const seen = new Set();
+
+  for (const url of extractUrls(text)) {
+    addSource(sources, seen, {
+      title: publicationFromUrl(url),
+      url,
+    });
+  }
+
+  return sources;
+}
+
 function publicationFromUrl(url) {
   try {
     return titleFromDomain(new URL(url).hostname);
@@ -3042,6 +3070,239 @@ function extractLabeledParagraphs(text, label) {
   return sectionToParagraphs(match[1], 3);
 }
 
+function findCandidateReport(reports, slug, fileName) {
+  return reports.find((report) => report.id === `memory/candidates/${slug}/${fileName}`);
+}
+
+function getHeadingBody(report, headingNames) {
+  const headings = parseHeadings(report.content);
+  const target = headings.find((heading) =>
+    headingNames.some((name) => normalize(heading.title) === normalize(name))
+  );
+
+  if (!target) {
+    return "";
+  }
+
+  return report.content.slice(target.bodyStart, target.end).trim();
+}
+
+function parseAuthoredFactList(text) {
+  const lines = text.split("\n");
+  const facts = [];
+
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (!trimmed) {
+      continue;
+    }
+
+    if (/^[-*]\s+/.test(trimmed) || /^\d+\.\s+/.test(trimmed)) {
+      const item = stripInlineMarkdown(trimmed.replace(/^[-*]\s+/, "").replace(/^\d+\.\s+/, ""));
+      if (item) {
+        facts.push(item.replace(/\.$/, ""));
+      }
+    }
+  }
+
+  if (facts.length > 0) {
+    return dedupeParagraphs(facts);
+  }
+
+  return sectionToParagraphs(text, 8).map((paragraph) => paragraph.replace(/\.$/, ""));
+}
+
+function isMeaningfulQuote(text) {
+  const cleaned = stripInlineMarkdown(text).replace(/^"+|"+$/g, "").trim();
+  if (!cleaned || cleaned.includes("\\")) {
+    return false;
+  }
+
+  const words = cleaned.split(/\s+/).filter(Boolean);
+  if (cleaned.length < 45 || words.length < 7) {
+    return false;
+  }
+
+  if (!/[A-Za-z]/.test(cleaned)) {
+    return false;
+  }
+
+  if (/^[A-Z][A-Za-z'’-]+(?:\s+[A-Z][A-Za-z'’-]+){0,3}$/.test(cleaned)) {
+    return false;
+  }
+
+  return true;
+}
+
+function dedupeQuotes(quotes) {
+  const unique = [];
+  const seen = new Set();
+  for (const quote of quotes) {
+    const key = normalize(quote.text);
+    if (!key || seen.has(key)) {
+      continue;
+    }
+    seen.add(key);
+    unique.push(quote);
+  }
+  return unique;
+}
+
+function scoreQuote(quote) {
+  let score = quote.text.length;
+
+  if (/research file/i.test(quote.source ?? "")) {
+    score -= 15;
+  }
+
+  if (quote.url) {
+    score += 5;
+  }
+
+  return score;
+}
+
+function parseAuthoredQuotes(candidate, report, text) {
+  const quotes = [];
+  const lines = text.split("\n");
+  const fallbackUrl = extractUrls(text)[0] ?? extractUrls(report.content)[0];
+
+  for (let index = 0; index < lines.length; index += 1) {
+    const line = lines[index].trim();
+    if (!line) {
+      continue;
+    }
+
+    if (line.startsWith(">")) {
+      const block = [];
+      while (index < lines.length && lines[index].trim().startsWith(">")) {
+        block.push(lines[index].trim().replace(/^>\s*/, ""));
+        index += 1;
+      }
+      index -= 1;
+
+      const attributionLines = block.filter((entry) => /^--/.test(entry));
+      const quoteLines = block.filter((entry) => !/^--/.test(entry));
+      const textValue = stripInlineMarkdown(quoteLines.join(" ").trim()).replace(/^"+|"+$/g, "");
+
+      if (!isMeaningfulQuote(textValue)) {
+        continue;
+      }
+
+      const attribution = stripInlineMarkdown(
+        attributionLines[0]?.replace(/^--\s*/, "") ?? `${candidate.name} research file`
+      );
+      const quoteUrl = extractUrls(attribution)[0] ?? fallbackUrl;
+
+      quotes.push({
+        text: textValue,
+        source: attribution || `${candidate.name} research file`,
+        date: report.reportDate,
+        url: quoteUrl,
+        topic: "Quotes",
+      });
+      continue;
+    }
+
+    const attributedBullet = line.match(
+      /^(?:[-*]|\d+\.)\s*["“]([^"”]+)["”](?:\s*[-—–]\s*(.+))?$/
+    );
+    if (attributedBullet) {
+      const textValue = stripInlineMarkdown(attributedBullet[1]).trim();
+      const attribution = stripInlineMarkdown(attributedBullet[2] ?? `${candidate.name} research file`).trim();
+      const quoteUrl = extractUrls(attribution)[0] ?? fallbackUrl;
+
+      if (!isMeaningfulQuote(textValue)) {
+        continue;
+      }
+
+      quotes.push({
+        text: textValue,
+        source: attribution || `${candidate.name} research file`,
+        date: report.reportDate,
+        url: quoteUrl,
+        topic: "Quotes",
+      });
+    }
+  }
+
+  return dedupeQuotes(quotes);
+}
+
+function extractAuthoredProfile(candidate, reports) {
+  const report = findCandidateReport(reports, candidate.slug, "site-profile.md");
+  if (!report) {
+    return null;
+  }
+
+  const whoTheyAreBody = getHeadingBody(report, ["Who They Are"]);
+  const theirRecordBody = getHeadingBody(report, ["Their Record"]);
+  const whatYouShouldKnowBody = getHeadingBody(report, ["What You Should Know"]);
+  const whereTheyWorshipBody = getHeadingBody(report, ["Where They Worship"]);
+  const quotesBody = getHeadingBody(report, ["Quotes"]);
+  const campaignFinanceBody = getHeadingBody(report, ["Campaign Finance"]);
+  const sourcesBody = getHeadingBody(report, ["Sources"]);
+
+  return {
+    whoTheyAre:
+      whoTheyAreBody.length > 0 ? sectionToParagraphs(whoTheyAreBody, 6).join("\n\n") : undefined,
+    theirRecord:
+      theirRecordBody.length > 0 ? sectionToParagraphs(theirRecordBody, 6).join("\n\n") : undefined,
+    whatYouShouldKnow:
+      whatYouShouldKnowBody.length > 0 ? parseAuthoredFactList(whatYouShouldKnowBody) : undefined,
+    whereTheyWorship:
+      whereTheyWorshipBody.length > 0 ? sectionToParagraphs(whereTheyWorshipBody, 3).join("\n\n") : undefined,
+    quotes: quotesBody.length > 0 ? parseAuthoredQuotes(candidate, report, quotesBody) : undefined,
+    campaignFinanceNarrative:
+      campaignFinanceBody.length > 0 ? sectionToParagraphs(campaignFinanceBody, 4).join("\n\n") : undefined,
+    sources: parseSourceList(`${sourcesBody}\n${quotesBody}\n${campaignFinanceBody}`),
+  };
+}
+
+function requireAuthoredProfile(candidate, authoredProfile) {
+  if (!authoredProfile) {
+    throw new Error(`Missing authored site-profile.md for ${candidate.slug}`);
+  }
+
+  const missing = [];
+
+  if (!authoredProfile.whoTheyAre?.trim()) {
+    missing.push("Who They Are");
+  }
+
+  if (!authoredProfile.theirRecord?.trim()) {
+    missing.push("Their Record");
+  }
+
+  if (!Array.isArray(authoredProfile.whatYouShouldKnow) || authoredProfile.whatYouShouldKnow.length === 0) {
+    missing.push("What You Should Know");
+  }
+
+  if (missing.length > 0) {
+    throw new Error(
+      `Authored site profile for ${candidate.slug} is missing required section(s): ${missing.join(", ")}`
+    );
+  }
+
+  return authoredProfile;
+}
+
+function authoredTextOrDefault(text, fallback) {
+  return typeof text === "string" && text.trim().length > 0 ? text.trim() : fallback;
+}
+
+function buildFinanceNarrativePlaceholder(candidate, finance) {
+  if (/no campaign finance data/i.test(finance?.narrative ?? "")) {
+    return "No campaign finance data available online.";
+  }
+
+  if (finance?.totalRaised || (Array.isArray(finance?.donors) && finance.donors.length > 0)) {
+    return `Public campaign finance records for ${candidate.name} were reviewed and summarized in the structured filing data below.`;
+  }
+
+  return "No campaign finance data available online.";
+}
+
 function buildCandidate(candidate, reports) {
   if (candidate.slug === "tracey-mann") {
     return null;
@@ -3052,24 +3313,40 @@ function buildCandidate(candidate, reports) {
     (a, b) => b.score - a.score
   );
   const fieldMaps = segments.map((segment) => extractFieldMap(segment.content));
-  const sources = buildSources(sections);
+  const authoredProfile = requireAuthoredProfile(candidate, extractAuthoredProfile(candidate, reports));
+  const sources = dedupeSources([...(authoredProfile?.sources ?? []), ...buildSources(sections)]);
   const faith = buildFaith(candidate, sections, segments, sources);
   const finance = buildCampaignFinance(candidate, segments);
+  const normalizedFinance = {
+    ...finance,
+    narrative: authoredTextOrDefault(
+      authoredProfile.campaignFinanceNarrative,
+      buildFinanceNarrativePlaceholder(candidate, finance)
+    ),
+  };
 
-  const whoTheyAre = buildNarrative(
-    selectSegments(segments, BIO_KEYWORDS, 6),
-    `Research files for ${candidate.name} were reviewed in full for this profile, but the biography sections were thin. The linked sources below carry the original reporting and document trail.`,
-    4
+  const whoTheyAre = authoredProfile.whoTheyAre;
+
+  const theirRecord = authoredProfile.theirRecord;
+
+  const extractedQuotes = dedupeQuotes(extractQuotes(candidate, sections, segments)).sort(
+    (a, b) => scoreQuote(b) - scoreQuote(a)
   );
+  const authoredQuotes = authoredProfile?.quotes ?? [];
 
-  const theirRecord = buildNarrative(
-    selectSegments(segments, RECORD_KEYWORDS, 6),
-    `The report files for ${candidate.name} do not include a long voting-record narrative, but they do include office history, platform material, and source links for further review.`,
-    4
-  );
+  let normalizedQuotes;
+  if (authoredQuotes.length >= 3) {
+    normalizedQuotes = authoredQuotes.slice(0, 3);
+  } else if (authoredQuotes.length > 0) {
+    normalizedQuotes = dedupeQuotes([...authoredQuotes, ...extractedQuotes]).slice(0, 3);
+  } else {
+    normalizedQuotes =
+      extractedQuotes.length >= 3
+        ? extractedQuotes.slice(0, 6)
+        : QUOTE_OVERRIDES[candidate.slug] ?? extractedQuotes;
+  }
 
-  const quotes = extractQuotes(candidate, sections, segments);
-  const normalizedQuotes = quotes.length >= 3 ? quotes : QUOTE_OVERRIDES[candidate.slug] ?? quotes;
+  const whatYouShouldKnow = authoredProfile.whatYouShouldKnow;
 
   const built = {
     slug: candidate.slug,
@@ -3092,11 +3369,14 @@ function buildCandidate(candidate, reports) {
     campaignWebsite: firstCampaignWebsite(candidate, fieldMaps, sources),
     whoTheyAre,
     theirRecord,
-    whatYouShouldKnow: buildFacts(candidate, segments, finance, faith.narrative),
-    whereTheyWorship: faith.narrative,
+    whatYouShouldKnow,
+    whereTheyWorship: authoredTextOrDefault(
+      authoredProfile.whereTheyWorship,
+      `No verified church affiliation was identified in the authored research file for ${candidate.name}.`
+    ),
     church: faith.church,
     quotes: normalizedQuotes,
-    campaignFinance: finance,
+    campaignFinance: normalizedFinance,
     sources,
   };
 

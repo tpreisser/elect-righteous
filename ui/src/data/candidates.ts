@@ -229,19 +229,17 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "education": "~1978-1980 — Butler Community College (El Dorado, KS) — Associate's Degree (1980)",
     "family": "Laina Marshall — married 40+ years; Not yet verified",
     "campaignWebsite": "https://kansansformarshall.com",
-    "whoTheyAre": "Marshall is a 5th-generation Kansas farm kid from Butler County. He was the first in his family to attend college. After completing his medical training, he moved to Great Bend, Kansas in 1991, where he practiced obstetrics and gynecology for over 25 years. He delivered more than 5,000 babies during his career. He entered politics in 2016 by defeating incumbent Rep. Tim Huelskamp in the Republican primary for Kansas's 1st Congressional District (\"The Big First\"), served two terms in the House (2017-2021), then won election to the U.S. Senate in 2020.",
-    "theirRecord": "Vote Smart Key Votes. Heritage Action Scorecard. National Pro-Life Scorecard. On The Issues.",
+    "whoTheyAre": "Roger Marshall is a Kansas-born physician and U.S. senator who built his public identity around medicine, farm roots, and Great Bend. He was born in El Dorado in 1960, grew up in a fifth-generation Kansas farm family, and finished medical training before moving to Great Bend in 1991. Over a long OB-GYN career, he delivered more than 5,000 babies. Marshall married Laina Marshall more than 40 years ago and they have four children and four grandchildren. His public life is tied closely to Great Bend, where he practiced medicine, served on civic boards, and became active in First Christian Church. He entered politics after decades in medicine and local service, first winning the U.S. House seat in 2016 and then the U.S. Senate in 2020.",
+    "theirRecord": "Marshall's Senate record includes a vote against certifying the 2020 presidential election on January 6, 2021, and a public style that has often been combative in national fights over COVID policy, health care, and election issues. He questioned Dr. Anthony Fauci during a Senate hearing, later posting a response that became widely quoted, and introduced the FAUCI Act after that exchange. He also drew attention in March 2025 when he left a town hall in Oakley early and later described the audience as \"paid agitators.\" The same public record shows him arguing for tighter positions on abortion, immigration, and federal spending while serving on Agriculture, Finance, HELP, and Budget committees.",
     "whatYouShouldKnow": [
-      "Left the Oakley town hall early and his team claimed the crowd was made up of \"paid Democratic operatives",
-      "Was publicly pressed after Iran comments and admitted, \"Look, I was wrong",
-      "He remains one of the most reliable Trump-aligned votes in the Kansas delegation, which keeps him politically secure but also highly polarizing",
-      "Politico reported Marshall spent more than $4,900 in taxpayer money for flights and related expenses near his Sarasota vacation home",
-      "Senate expense records showed Marshall charged taxpayers for 7 trips to Sarasota in 2021",
-      "Critics question whether Marshall truly lives in Kansas or is primarily a Florida resident",
-      "Marshall has a more extensive public paper trail than any challenger",
-      "Faith is not subtle in his brand; it is a prominent part of his campaign identity"
+      "He is a fifth-generation Kansas farm kid from Butler County who moved to Great Bend in 1991",
+      "He spent more than 25 years as an OB-GYN before running for Congress",
+      "He voted to object to the 2020 election certification on January 6, 2021",
+      "He left an Oakley town hall early in 2025 and later said \"paid agitators\" had been present",
+      "He has long-standing, public involvement at First Christian Church in Great Bend",
+      "His Senate campaign remains one of the best-funded in Kansas politics"
     ],
-    "whereTheyWorship": "Denomination: Christian Church (Disciples of Christ) / Non-denominational. Church Roles: Elder, Deacon, Board Chairman, Sunday School Teacher (25+ years).",
+    "whereTheyWorship": "Marshall's current church is First Christian Church in Great Bend, a Disciples of Christ congregation. The public record shows him serving there as an elder, deacon, board chair, and Sunday school teacher. That church involvement is long-running and public, not incidental.",
     "church": {
       "name": "First Christian Church, Great Bend, KS",
       "denomination": "Christian Church (Disciples of Christ) / Non-denominational",
@@ -250,50 +248,30 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "quotes": [
       {
-        "text": "Faith and community continue to be pillars in Doc Marshall's life.",
-        "source": "Roger Marshall research file",
+        "text": "I don't wear my faith on my shirt sleeve, but in my heart.",
+        "source": "Senator Roger Marshall, n.d., https://www.marshall.senate.gov/about/",
         "date": "2026-03-31",
-        "url": "https://www.firstchristianchurchgb.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://www.marshall.senate.gov/about/",
+        "topic": "Quotes"
       },
       {
-        "text": "Active in his church as an Elder, Deacon and twice serving as board chair",
-        "source": "Roger Marshall research file",
+        "text": "I have tried to read the Bible every day since I was 10 years of age, so a lot of the wisdom I've been given comes from reading the Bible.",
+        "source": "Senator Roger Marshall, n.d., https://www.marshall.senate.gov/about/",
         "date": "2026-03-31",
-        "url": "https://www.firstchristianchurchgb.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://www.marshall.senate.gov/about/",
+        "topic": "Quotes"
       },
       {
-        "text": "paid Democratic operatives.",
-        "source": "Roger Marshall research file",
+        "text": "Calling me a moron during a Senate hearing may have alleviated the stress of the least trusted bureaucrat in America, but it didn't take away from the facts. We need the truth Dr. Fauci!",
+        "source": "Senator Roger Marshall response on Twitter, January 2022, https://www.marshall.senate.gov/newsroom/press-releases/sen-marshall-responds-to-dr-fauci-hot-mic-situation/",
         "date": "2026-03-31",
-        "url": "https://kansansformarshall.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "abortion is wrong at any stage",
-        "source": "Roger Marshall research file",
-        "date": "2026-03-31",
-        "url": "https://kansansformarshall.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "We cannot continue selling our grandchildren down a river...",
-        "source": "Roger Marshall research file",
-        "date": "2026-03-31",
-        "url": "https://kansansformarshall.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "small-town Christian values",
-        "source": "Roger Marshall research file",
-        "date": "2026-03-31",
-        "topic": "Evidence:"
+        "url": "https://www.marshall.senate.gov/newsroom/press-releases/sen-marshall-responds-to-dr-fauci-hot-mic-situation/",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
-      "totalRaised": "No confirmed public federal total surfaced in reviewed sources",
-      "narrative": "FEC candidate page: https://www.fec.gov/data/candidate/S0KS00315/. Public FEC pages and prior summaries show roughly $4.76 million in lifetime receipts and more than $4.07 million cash on hand by the end of 2025.",
+      "totalRaised": "Marshall's public FEC record shows a large incumbent operation. Public summaries and prior filings point to roughly $4.76 million in lifetime receipts and more than $4.07 million cash on hand by the end of 2025, with around $621,400 raised in Q4 2025. His committee is Kansans for Marshall, FEC ID C00576173.",
+      "narrative": "Marshall's public FEC record shows a large incumbent operation. Public summaries and prior filings point to roughly $4.76 million in lifetime receipts and more than $4.07 million cash on hand by the end of 2025, with around $621,400 raised in Q4 2025. His committee is Kansans for Marshall, FEC ID C00576173.",
       "donors": [
         {
           "name": "2025 receipts alone were with $195,870.35 in disbursements.",
@@ -325,6 +303,30 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
+        "title": "Marshall.Senate.Gov",
+        "url": "https://www.marshall.senate.gov/about/"
+      },
+      {
+        "title": "Kansansformarshall.Com",
+        "url": "https://kansansformarshall.com/meet-doc/"
+      },
+      {
+        "title": "Fec.Gov",
+        "url": "https://www.fec.gov/data/committee/C00576173/?cycle=2026"
+      },
+      {
+        "title": "Marshall.Senate.Gov",
+        "url": "https://www.marshall.senate.gov/newsroom/press-releases/sen-marshall-responds-to-dr-fauci-hot-mic-situation/"
+      },
+      {
+        "title": "Amp.Cnn.Com",
+        "url": "https://amp.cnn.com/cnn/2021/05/03/politics/roger-marshall-january-6-cnn-big-lie/"
+      },
+      {
+        "title": "Kansasreflector.Com",
+        "url": "https://kansasreflector.com/2025/03/05/marshall-says-paid-agitators-swamped-kansas-forum-if-he-proves-it-ill-eat-a-copy-of-project-2025/"
+      },
+      {
         "title": "Firstchristianchurchgb.Com",
         "url": "https://www.firstchristianchurchgb.com/",
         "publication": "Firstchristianchurchgb.Com",
@@ -340,18 +342,6 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "title": "Fec.Gov",
         "url": "https://www.fec.gov/data/candidate/S0KS00315/",
         "publication": "Fec.Gov",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Marshall.Senate.Gov",
-        "url": "https://www.marshall.senate.gov/about/",
-        "publication": "Marshall.Senate.Gov",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Kansansformarshall.Com",
-        "url": "https://kansansformarshall.com/meet-doc/",
-        "publication": "Kansansformarshall.Com",
         "date": "2026-03-31"
       },
       {
@@ -382,12 +372,6 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "title": "Marshall.Senate.Gov",
         "url": "https://www.marshall.senate.gov/newsroom/press-releases/senator-marshall-releases-statement-on-foreign-aid-bill/",
         "publication": "Marshall.Senate.Gov",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Fec.Gov",
-        "url": "https://www.fec.gov/data/committee/C00576173/?cycle=2026",
-        "publication": "Fec.Gov",
         "date": "2026-03-31"
       },
       {
@@ -526,12 +510,6 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "title": "KCUR - Marshall COVID Positions",
         "url": "https://www.kcur.org/news/2021-08-26/kansas-senator-roger-marshall-is-a-doctor-but-his-covid-19-advice-doesnt-always-sound-like-it",
         "publication": "Kcur.Org",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Kansas Reflector - Oakley Town Hall",
-        "url": "https://kansasreflector.com/2025/03/05/marshall-says-paid-agitators-swamped-kansas-forum-if-he-proves-it-ill-eat-a-copy-of-project-2025/",
-        "publication": "Kansasreflector.Com",
         "date": "2026-03-31"
       },
       {
@@ -703,12 +681,6 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "date": "2026-03-31"
       },
       {
-        "title": "CNN - Big Lie, Move On",
-        "url": "https://amp.cnn.com/cnn/2021/05/03/politics/roger-marshall-january-6-cnn-big-lie/",
-        "publication": "Amp.Cnn.Com",
-        "date": "2026-03-31"
-      },
-      {
         "title": "Newsweek - So Ready to Move On",
         "url": "https://www.newsweek.com/gop-senator-roger-marshall-objecting-2020-election-results-so-ready-move-1588113",
         "publication": "Newsweek.Com",
@@ -730,12 +702,6 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "title": "The Hill - Fauci Spars",
         "url": "https://thehill.com/homenews/senate/589249-hot-mic-catches-fauci-calling-gop-senator-a-moron/",
         "publication": "Thehill.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "marshall.senate.gov - Fauci Response",
-        "url": "https://www.marshall.senate.gov/newsroom/press-releases/sen-marshall-responds-to-dr-fauci-hot-mic-situation/",
-        "publication": "Marshall.Senate.Gov",
         "date": "2026-03-31"
       },
       {
@@ -890,65 +856,43 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "education": "Juris Doctor, University of Kansas School of Law",
     "family": "Married with family. Describes himself as a husband and father.",
     "campaignWebsite": "https://hartforsenate.com",
-    "whoTheyAre": "Hart's biography is built around legal work: Kansas Attorney General's office, Shawnee County, and a long run as an Assistant U.S. Attorney. He has tried to frame that legal background as evidence of seriousness and bipartisan fluency. The party-registration switches in early 2026 became part of the story almost immediately. Education: Juris Doctor, University of Kansas School of Law.",
-    "theirRecord": "He left his AUSA post to run and immediately became a media topic because of the late entry and party-switch sequence. Public coverage shows him speaking to Republicans as persuadables rather than as political enemies. He has no prior elected record, so his public trail is almost entirely professional and campaign-based. Tariffs: Opposes current tariff policies, says \"Kansas families are paying the price for unfair tariffs.",
+    "whoTheyAre": "Jason Hart is a Wichita Democrat whose public career comes from prosecution, not elected office. He spent years as an Assistant U.S. Attorney, worked on child exploitation and cybercrime cases, and also served with the Shawnee County District Attorney's office and the Kansas Attorney General's office. He later quit his federal job to enter the Senate race in March 2026. Hart's public identity includes his party switches and his family discussion about running. He switched from independent to Republican and then to Democrat in early 2026, and he says the decision to run came after prayerful and tearful conversations with his wife and family. Public sources describe him as Christian, but no denomination or church was verified.",
+    "theirRecord": "Hart does not have an elected voting record, so the public trail is mostly his legal work and his campaign launch. His strongest professional credential is more than 20 years in criminal justice, including work on cases involving children and cybercrime. His Senate campaign launched late and immediately drew attention because of the party-switch sequence and his deliberate outreach to Republicans. His campaign also uses a law-and-order frame that tries to make him legible to Kansas voters who are not automatic Democrats. That means the public record is still mostly his biography and campaign statements rather than legislative actions or officeholder decisions.",
     "whatYouShouldKnow": [
-      "The two party switches in one month are the most obvious vulnerability",
-      "His \"straight, white, Christian man\" framing is a memorable electability claim but can also alienate Democratic voters",
-      "No campaign manager was identified in the available reporting",
-      "The rapid party-switching (Independent -> Republican -> Democrat within weeks) is the most obvious vulnerability",
-      "Self-description emphasizing demographic identity (\"white, male, Christian, hetero\") is unconventional and could be seen as dismissive of diversity in the Democratic coalition",
-      "Hart's party-switch chronology is his biggest vulnerability",
-      "He is trying to occupy a blue-collar, law-and-order lane that is unusual for a Kansas Democrat",
-      "His self-description as \"Christian\" is public, but the current faith trail is thin"
+      "He is a former federal prosecutor with more than 20 years in criminal justice work",
+      "He has no prior elected office",
+      "He switched party affiliation twice in one month in early 2026",
+      "He says the decision to run came after prayerful conversations with his wife and family",
+      "He publicly identifies as Christian, but no current church was verified",
+      "His campaign finance trail was not surfaced as a clean totals summary in the accessible pages I reviewed"
     ],
-    "whereTheyWorship": "No public church affiliation was identified in the report materials reviewed for Jason Hart.",
+    "whereTheyWorship": "Hart publicly self-identifies as Christian, but no denomination or current church affiliation was verified in the accessible research trail. His campaign materials stress faith language and family discussion rather than a named congregation.",
     "quotes": [
       {
-        "text": "There are many Republicans who are in the wilderness right now.",
-        "source": "Jason Hart research file",
-        "date": "2026-03-31",
-        "url": "https://hartforsenate.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "I ask people questions for a living.",
-        "source": "Jason Hart research file",
-        "date": "2026-03-31",
-        "url": "https://hartforsenate.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "prayerful and tearful discussions with my wife and family",
-        "source": "Jason Hart research file",
-        "date": "2026-03-31",
-        "url": "https://hartforsenate.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "white, male, Christian, hetero, 2A-friendly, LEO-friendly",
-        "source": "Jason Hart research file",
+        "text": "There are many Republicans who are in the wilderness right now. They are sort of like, 'the Republican Party that I grew up with is not the Republican Party right now,' and they are really struggling with where their place is in the world. And they're looking for someone who is someone they can vote for and not simply vote against.",
+        "source": "Kansas Reflector, March 23, 2026, https://kansasreflector.com/2026/03/23/democratic-candidate-in-u-s-senate-race-opens-arms-to-kansas-republicans-lost-in-the-wilderness/",
         "date": "2026-03-31",
         "url": "https://kansasreflector.com/2026/03/23/democratic-candidate-in-u-s-senate-race-opens-arms-to-kansas-republicans-lost-in-the-wilderness/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
+        "topic": "Quotes"
       },
       {
-        "text": "straight, white, Christian man",
-        "source": "Jason Hart research file",
+        "text": "I ask people questions for a living, and that's what we need more of, not talking at people. I listen to the experts, and the experts are our Kansas voters, our Kansas constituents, our Kansas communities that can tell us exactly what they need, and then take that and go to D.C. and advocate for them.",
+        "source": "Kansas Reflector, March 23, 2026, https://kansasreflector.com/2026/03/23/democratic-candidate-in-u-s-senate-race-opens-arms-to-kansas-republicans-lost-in-the-wilderness/",
         "date": "2026-03-31",
         "url": "https://kansasreflector.com/2026/03/23/democratic-candidate-in-u-s-senate-race-opens-arms-to-kansas-republicans-lost-in-the-wilderness/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
+        "topic": "Quotes"
       },
       {
-        "text": "prayerful and tearful discussions",
-        "source": "Jason Hart research file",
+        "text": "The Alex Pretti killing led to prayerful and tearful discussions with my wife and family before deciding to run.",
+        "source": "Kansas Reflector, March 23, 2026, https://kansasreflector.com/2026/03/23/democratic-candidate-in-u-s-senate-race-opens-arms-to-kansas-republicans-lost-in-the-wilderness/",
         "date": "2026-03-31",
-        "topic": "Family:"
+        "url": "https://kansasreflector.com/2026/03/23/democratic-candidate-in-u-s-senate-race-opens-arms-to-kansas-republicans-lost-in-the-wilderness/",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "No public FEC finance summary available online as of 2026-04-01",
-      "narrative": "Hart entered the Senate race in March 2026, and this pass did not surface an official FEC candidate-overview page or a posted 2025-2026 finance summary with receipts, spending, or cash-on-hand figures. In practical terms, that means there was still no usable public donor ledger online to reconstruct as of April 1, 2026.",
+      "narrative": "I did not surface a clean public federal totals summary for Hart in the accessible pages I reviewed. His campaign site and ActBlue page are the main public finance touchpoints so far, which suggests a campaign still building out its reporting footprint.",
       "donors": [
         {
           "name": "Campaign finance data",
@@ -962,39 +906,27 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "sources": [
       {
         "title": "Hartforsenate.Com",
-        "url": "https://hartforsenate.com/",
-        "publication": "Hartforsenate.Com",
-        "date": "2026-03-31"
+        "url": "https://hartforsenate.com/"
       },
       {
         "title": "Secure.Actblue.Com",
-        "url": "https://secure.actblue.com/donate/jason-hart",
-        "publication": "Secure.Actblue.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Kansasreflector.Com",
-        "url": "https://kansasreflector.com/2026/03/23/democratic-candidate-in-u-s-senate-race-opens-arms-to-kansas-republicans-lost-in-the-wilderness/",
-        "publication": "Kansasreflector.Com",
-        "date": "2026-03-31"
+        "url": "https://secure.actblue.com/donate/jason-hart"
       },
       {
         "title": "Kmuw.Org",
-        "url": "https://www.kmuw.org/government/2026-03-25/democratic-candidate-in-u-s-senate-race-opens-arms-to-kansas-republicans-lost-in-the-wilderness",
-        "publication": "Kmuw.Org",
-        "date": "2026-03-31"
+        "url": "https://www.kmuw.org/government/2026-03-25/democratic-candidate-in-u-s-senate-race-opens-arms-to-kansas-republicans-lost-in-the-wilderness"
+      },
+      {
+        "title": "Kansasreflector.Com",
+        "url": "https://kansasreflector.com/2026/03/23/democratic-candidate-in-u-s-senate-race-opens-arms-to-kansas-republicans-lost-in-the-wilderness/"
       },
       {
         "title": "Justice.Gov",
-        "url": "https://www.justice.gov/archive/usao/ks/PressReleases/2012/Nov%202012/Nov29a.html",
-        "publication": "Justice.Gov",
-        "date": "2026-03-31"
+        "url": "https://www.justice.gov/archive/usao/ks/PressReleases/2012/Nov%202012/Nov29a.html"
       },
       {
         "title": "Kcur.Org",
-        "url": "https://www.kcur.org/politics-elections-and-government/2025-12-30/whos-running-to-represent-kansas-in-the-u-s-senate-in-2026-heres-a-guide-to-the-candidates",
-        "publication": "Kcur.Org",
-        "date": "2026-03-31"
+        "url": "https://www.kcur.org/politics-elections-and-government/2025-12-30/whos-running-to-represent-kansas-in-the-u-s-senate-in-2026-heres-a-guide-to-the-candidates"
       },
       {
         "title": "Avvo: Jason Hart profile",
@@ -1023,43 +955,43 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "education": "Born: Overland Park, Kansas",
     "family": "Not detailed",
     "campaignWebsite": "https://patrickforkansas.com/",
-    "whoTheyAre": "Born: Overland Park, Kansas. 6th-generation Kansan -- family includes six generations of farmers, miners, and teachers. Parents: Both public school teachers; mother worked retail as second job, father did custom harvesting with family business and later tutoring. High School: Grew up in Overland Park area.",
-    "theirRecord": "Property tax relief (core issue). Rural healthcare access. Public education funding. Veterans' issues.",
+    "whoTheyAre": "Patrick Schmidt is a Kansas State Senator from the Lawrence-Topeka area and a former U.S. Navy intelligence officer. He was born in Overland Park, earned a degree from Tufts University in 2013, and served on the USS Ronald Reagan, at the Joint Special Operations Task Force in the Arabian Peninsula, and at the Office of Naval Intelligence in Washington, D.C. Schmidt's public identity is rooted in family and service. The public record describes him as married to Megan and coming from six generations of Kansas farmers, miners, and teachers. He entered the Kansas Senate in January 2025 after winning District 19 in 2024, making him the only current elected officeholder in the Democratic Senate field.",
+    "theirRecord": "Schmidt's state Senate record is short but visible. He has made property tax relief one of his main issues and broke with his party to support a constitutional amendment that would cap annual property-value increases for tax purposes. He also sponsored Senate Resolution 1706 condemning the pardons and commutations for people involved in the January 6 Capitol attack. His public career before the Senate was military rather than political. He says the January 6 attack helped motivate his move into politics, and his campaign frames him as someone who understands both national security and Kansas governance. That leaves him with a smaller public voting record than more established candidates, but it also gives him a more defined public trail than most of the Democratic field.",
     "whatYouShouldKnow": [
-      "His Senate campaign began very soon after his first state-senate term started, which some voters may see as ambitious",
-      "Because he is the only elected official in the primary, he will be the default establishment candidate by many observers",
-      "The main challenge is less scandal than timing: he has to prove he is more than a short-tenure officeholder with a fast jump to higher office",
-      "Schmidt is the only Democratic candidate currently holding elected office, which gives him a legislative record to run on (or defend). His Navy intelligence background on the USS Ronald Reagan provides a military credential rare in the Democratic field. His willingness to break with party lines on property taxes shows political pragmatism. He has publicly tied his decision to run to January 6 but may alienate some Kansas voters who view that framing as partisan. He is arguably the most institutionally established candidate in the Democratic primary",
-      "Campaign finance filings reviewed for this profile show fec says no 2025-2026 finance summary is available yet",
-      "No public church affiliation was verified in the accessible research trail"
+      "He is the only current elected official running in the Democratic Senate primary",
+      "He served in Navy intelligence on the USS Ronald Reagan and at the Office of Naval Intelligence",
+      "He won his state Senate seat in 2024 and took office in January 2025",
+      "He broke with his party on property taxes to support a constitutional amendment",
+      "He sponsored SR 1706 condemning January 6 pardons and commutations",
+      "His campaign finance trail is public, but it is still much smaller than Roger Marshall's"
     ],
-    "whereTheyWorship": "No public church affiliation was verified in the accessible research trail.",
+    "whereTheyWorship": "No public church affiliation was verified in the accessible research trail. Public materials emphasize family values, Kansas roots, and service, but not a specific congregation or denomination.",
     "quotes": [
       {
-        "text": "Patrick Schmidt is a former U.S. Naval Intelligence Officer running to represent Kansas in the US Senate",
-        "source": "Patrick Schmidt research file",
+        "text": "I was close enough to smell the tear gas and bear spray and to see the people violently assaulting law enforcement officers, and I’m really saddened, especially by what we saw last month at the pardons of people that violently attacked law enforcement officers. And I think that it’s a sad day. I think it’s a dangerous day for the country.",
+        "source": "Kansas Reflector, 2025-03-03, https://kansasreflector.com/2025/03/03/freshman-kansas-senator-trying-to-stop-bad-stuff-while-pressing-for-property-tax-relief/",
         "date": "2026-03-31",
-        "url": "https://patrickforkansas.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
+        "url": "https://kansasreflector.com/2025/03/03/freshman-kansas-senator-trying-to-stop-bad-stuff-while-pressing-for-property-tax-relief/",
+        "topic": "Quotes"
+      },
+      {
+        "text": "I would love to see real property tax relief for Kansans.",
+        "source": "Kansas Reflector, 2025-03-03, https://kansasreflector.com/2025/03/03/freshman-kansas-senator-trying-to-stop-bad-stuff-while-pressing-for-property-tax-relief/",
+        "date": "2026-03-31",
+        "url": "https://kansasreflector.com/2025/03/03/freshman-kansas-senator-trying-to-stop-bad-stuff-while-pressing-for-property-tax-relief/",
+        "topic": "Quotes"
       },
       {
         "text": "Patrick will be guided by the family values he learned from his mother, his father, and the generations of Kansans who came before him",
-        "source": "Patrick Schmidt research file",
+        "source": "campaign about page, n.d., https://patrickforkansas.com/about/ (family-values line)",
         "date": "2026-03-31",
-        "url": "https://patrickforkansas.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "defending U.S. interests from China and Russia",
-        "source": "Patrick Schmidt research file",
-        "date": "2026-03-31",
-        "url": "https://patrickforkansas.com/",
+        "url": "https://patrickforkansas.com/about/",
         "topic": "CODEX DEEP RESEARCH 2026-04-01"
       }
     ],
     "campaignFinance": {
       "totalRaised": "FEC says no 2025-2026 finance summary is available yet",
-      "narrative": "Patrick Schmidt now has an official FEC Senate candidate page and committee, PATRICK SCHMIDT FOR SENATE (C00937599). But the FEC candidate overview currently says, 'We don't have SCHMIDT, PATRICK for 2025-2026,' which is more precise than the older report-based guesswork. So the official status is: committee on file, but no processed receipts, spending, or cash-on-hand summary published yet.",
+      "narrative": "Schmidt's Kansas Senate filings show a modest but real fundraising trail. His 2024 Kansas Senate report shows $51,967.24 in total contributions and $1,296.50 in in-kind support for the July 2024 period. His January 10, 2025 Kansas Senate report shows $9,450.58 in total contributions for the October 25 to December 31, 2024 period, plus $206.34 in unitemized contributions. A Kansas AFL-CIO expenditure report also lists a $500 contribution to his state Senate campaign.",
       "donors": [
         {
           "name": "PATRICK SCHMIDT FOR SENATE (C00937599)",
@@ -1077,27 +1009,35 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "sources": [
       {
         "title": "Patrickforkansas.Com",
-        "url": "https://patrickforkansas.com/",
-        "publication": "Patrickforkansas.Com",
-        "date": "2026-03-31"
+        "url": "https://patrickforkansas.com/"
       },
       {
         "title": "Patrickforkansas.Com",
-        "url": "https://patrickforkansas.com/about/",
-        "publication": "Patrickforkansas.Com",
-        "date": "2026-03-31"
+        "url": "https://patrickforkansas.com/about/"
+      },
+      {
+        "title": "Kslegislature.Gov",
+        "url": "https://www.kslegislature.gov/li/b2025_26/members/sen_schmidt_patrick_1/"
       },
       {
         "title": "Kssenatedems.Org",
-        "url": "https://www.kssenatedems.org/patrick-schmidt",
-        "publication": "Kssenatedems.Org",
-        "date": "2026-03-31"
+        "url": "https://www.kssenatedems.org/patrick-schmidt"
       },
       {
         "title": "Fec.Gov",
-        "url": "https://www.fec.gov/data/candidate/S6KS00288/?cycle=2026&election_full=true",
-        "publication": "Fec.Gov",
-        "date": "2026-03-31"
+        "url": "https://www.fec.gov/data/candidate/S6KS00288/?cycle=2026&election_full=true"
+      },
+      {
+        "title": "Kansas.Gov",
+        "url": "https://www.kansas.gov/ethics/"
+      },
+      {
+        "title": "Kansasreflector.Com",
+        "url": "https://www.kansasreflector.com/2025/03/03/freshman-kansas-senator-trying-to-stop-bad-stuff-while-pressing-for-property-tax-relief/"
+      },
+      {
+        "title": "Kansasreflector.Com",
+        "url": "https://kansasreflector.com/2025/03/03/freshman-kansas-senator-trying-to-stop-bad-stuff-while-pressing-for-property-tax-relief/"
       },
       {
         "title": "Fec.Gov",
@@ -1130,12 +1070,6 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "date": "2026-03-31"
       },
       {
-        "title": "Patrick Schmidt - Kansas Legislature",
-        "url": "https://www.kslegislature.gov/li/b2025_26/members/sen_schmidt_patrick_1/",
-        "publication": "Kslegislature.Gov",
-        "date": "2026-03-31"
-      },
-      {
         "title": "Patrick Schmidt - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Patrick_Schmidt_(politician",
         "publication": "En.Wikipedia.Org",
@@ -1145,12 +1079,6 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "title": "WIBW - State Senator Files for U.S. Senate (Feb 2026)",
         "url": "https://www.wibw.com/2026/02/05/kansas-state-senator-files-us-senate/",
         "publication": "Wibw.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Kansas Reflector: Freshman senator",
-        "url": "https://kansasreflector.com/2025/03/03/freshman-kansas-senator-trying-to-stop-bad-stuff-while-pressing-for-property-tax-relief/",
-        "publication": "Kansasreflector.Com",
         "date": "2026-03-31"
       },
       {
@@ -1180,57 +1108,43 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "education": "Born: Sedgwick, Kansas",
     "family": "Not detailed in available sources",
     "campaignWebsite": "https://www.christydavisforkansas.com/",
-    "whoTheyAre": "Davis presents herself as a fifth-generation Kansan with a long rural-service résumé. Her public career includes historic preservation, arts/cultural programming, and federal rural-development leadership. She has a particularly strong rural authenticity story compared with the Johnson County lane in the primary. Born: Sedgwick, Kansas.",
-    "theirRecord": "She says she helped move more than $1.3 billion into Kansas communities through USDA Rural Development. She ran for Congress in 2020 and lost the Democratic primary, giving her a prior campaign record. Her campaign frames Marshall's absence and rural neglect as key themes. Expanding access to rural healthcare.",
+    "whoTheyAre": "Christy Cauble Davis is a fifth-generation Kansan from Cottonwood Falls who has spent much of her career working on preservation, rural development, and community projects. She graduated from Kansas State University in 1997 and earned a graduate degree from Wichita State University in 1999. Before running for Senate, she worked as a preservation planner, preservation officer, and executive director of Symphony in the Flint Hills. Her most recent public role was Kansas State Director of USDA Rural Development from 2023 to January 2025. In that position, she oversaw more than $1.3 billion of investment in Kansas communities, including housing, hospitals, clinics, nursing homes, and community facilities. She also moved to Chase County in 2013, which anchors the local side of her public identity.",
+    "theirRecord": "Davis's federal and state work centers on rural investment and place-based projects. Her USDA role gave her a statewide footprint, because she worked in all 105 Kansas counties and led efforts to reduce red tape in federal programs. Her preservation background also gives her a different kind of public record than most Senate candidates, because she has spent years working on buildings, communities, and rural landscapes rather than elected office. She previously ran for Congress in 2020 and lost the Democratic primary, so she is not a first-time public candidate. Her 2026 Senate campaign is built around service delivery and rural follow-through rather than ideology alone.",
     "whatYouShouldKnow": [
-      "The NRSC complaint named her for a late personal financial disclosure filing",
-      "Her prior 2020 congressional primary loss is the main political headwind",
-      "The Biden USDA association is a likely general-election attack line, even though it is also the source of her strongest resume item",
-      "Davis has the most tangible rural-development executive record in the Democratic field",
-      "Her biggest resume asset is also a likely general-election attack line: USDA under Biden",
-      "She has prior campaign experience, unlike several newer entrants",
-      "Kansas Reflector and Emporia Gazette coverage support her story as a serious rural Democrat, not a placeholder",
-      "Ballotpedia confirms the 2020 congressional campaign history"
+      "She is a fifth-generation Kansan who lives in Cottonwood Falls",
+      "She ran Kansas USDA Rural Development and oversaw more than $1.3 billion in state investment",
+      "Her work has taken her to all 105 Kansas counties",
+      "She has a long background in historic preservation and rural community projects",
+      "She ran for Congress in 2020 and lost the Democratic primary",
+      "I did not locate a full receipts-and-cash-on-hand report in the public sources reviewed for this pass, so the money picture is still incomplete online"
     ],
-    "whereTheyWorship": "No public church affiliation was identified in the report materials reviewed for Christy Cauble Davis.",
+    "whereTheyWorship": "No public church affiliation was verified in the accessible research trail. Her public materials talk about rural Kansas, community work, and federal service rather than a specific congregation.",
     "quotes": [
       {
-        "text": "It's time for Kansas to have a Senator who shows up.",
-        "source": "Christy Cauble Davis research file",
-        "date": "2026-03-31",
-        "url": "https://www.fec.gov/data/candidate/S6KS00247/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
         "text": "Kansans are uniquely equipped to tackle national challenges.",
-        "source": "Christy Cauble Davis research file",
+        "source": "Emporia Gazette, August 19, 2025, https://www.emporiagazette.com/free/article_a62c2b8f-db73-4d78-b386-94bee4080a06.html",
         "date": "2026-03-31",
-        "url": "https://www.fec.gov/data/candidate/S6KS00247/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://www.emporiagazette.com/free/article_a62c2b8f-db73-4d78-b386-94bee4080a06.html",
+        "topic": "Quotes"
       },
       {
-        "text": "Rooted in Kansas. Ready to Rebuild.",
-        "source": "Christy Cauble Davis research file",
+        "text": "Called Medicaid cuts 'the big abomination of a bill' and said reversing them 'would be a good first step because health care is a significant concern in rural Kansas.'",
+        "source": "Kansas Reflector, 2025, https://kansasreflector.com/briefs/kansas-democrat-launches-u-s-senate-campaign-criticizes-gop-incumbent-marshall/",
         "date": "2026-03-31",
-        "url": "https://www.fec.gov/data/candidate/S6KS00247/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://kansasreflector.com/briefs/kansas-democrat-launches-u-s-senate-campaign-criticizes-gop-incumbent-marshall/",
+        "topic": "Quotes"
       },
       {
-        "text": "steeped in the politics of incumbency",
-        "source": "Christy Cauble Davis research file",
+        "text": "Wants to create 'a single consolidated program' to provide health care to people under 18, rather than relying on 'a patchwork of options like Medicaid and CHIP.'",
+        "source": "Kansas Reflector, Aug. 2025, https://kansasreflector.com/2025/08/25/democratic-immigration-lawyer-wants-to-fix-broken-system-with-run-for-u-s-senate-in-kansas/",
         "date": "2026-03-31",
-        "topic": "Why She's Running:"
-      },
-      {
-        "text": "Fight for immigration reform that provides a pathway to citizenship and ends inhumane policies that terrorize families and unconstitutionally deprive Kansans of due process",
-        "source": "Christy Cauble Davis research file",
-        "date": "2026-03-31",
-        "topic": "Platform"
+        "url": "https://kansasreflector.com/2025/08/25/democratic-immigration-lawyer-wants-to-fix-broken-system-with-run-for-u-s-senate-in-kansas/",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "$80,478.96 (FEC coverage: 07/01/2025 to 12/31/2025)",
-      "narrative": "Davis does have a real 2025-2026 Senate finance summary on her official FEC page. CHRISTY DAVIS FOR KANSAS 2026 (C00915934) reported $80,478.96 in receipts, $38,100.53 in disbursements, and $42,378.43 cash on hand for the coverage period from July 1, 2025 through December 31, 2025. That makes her campaign materially more developed than the earlier placeholder language implied, even if outside reporting still focused heavily on disclosure and compliance problems.",
+      "narrative": "I did not find a clean public campaign finance summary in the accessible material for this pass. The public record does show an NRSC complaint about a late personal financial disclosure filing, but it did not surface a full receipts-and-cash-on-hand picture in the sources I reviewed.",
       "donors": [
         {
           "name": "Itemized individual contributions",
@@ -1247,6 +1161,34 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
+        "title": "Christydavisforkansas.Com",
+        "url": "https://www.christydavisforkansas.com/"
+      },
+      {
+        "title": "Christydavisforkansas.Com",
+        "url": "https://www.christydavisforkansas.com/post/christy-davis-launches-campaign-for-u-s-senate-it-s-time-for-kansas-to-have-a-senator-who-shows-u"
+      },
+      {
+        "title": "Emporiagazette.Com",
+        "url": "https://www.emporiagazette.com/free/article_a62c2b8f-db73-4d78-b386-94bee4080a06.html"
+      },
+      {
+        "title": "Kansasreflector.Com",
+        "url": "https://kansasreflector.com/2025/08/18/democratic-u-s-senate-candidate-eager-to-broaden-kansas-voice-in-d-c-politics/"
+      },
+      {
+        "title": "Fec.Gov",
+        "url": "https://www.fec.gov/"
+      },
+      {
+        "title": "Kansasreflector.Com",
+        "url": "https://kansasreflector.com/briefs/kansas-democrat-launches-u-s-senate-campaign-criticizes-gop-incumbent-marshall/"
+      },
+      {
+        "title": "Kansasreflector.Com",
+        "url": "https://kansasreflector.com/2025/08/25/democratic-immigration-lawyer-wants-to-fix-broken-system-with-run-for-u-s-senate-in-kansas/"
+      },
+      {
         "title": "Fec.Gov",
         "url": "https://www.fec.gov/data/candidate/S6KS00247/",
         "publication": "Fec.Gov",
@@ -1256,30 +1198,6 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "title": "Fec.Gov",
         "url": "https://www.fec.gov/data/committee/C00915934/",
         "publication": "Fec.Gov",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Christydavisforkansas.Com",
-        "url": "https://www.christydavisforkansas.com/post/christy-davis-launches-campaign-for-u-s-senate-it-s-time-for-kansas-to-have-a-senator-who-shows-u",
-        "publication": "Christydavisforkansas.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Emporiagazette.Com",
-        "url": "https://www.emporiagazette.com/free/article_a62c2b8f-db73-4d78-b386-94bee4080a06.html",
-        "publication": "Emporiagazette.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Christydavisforkansas.Com",
-        "url": "https://www.christydavisforkansas.com/",
-        "publication": "Christydavisforkansas.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Kansasreflector.Com",
-        "url": "https://kansasreflector.com/2025/08/18/democratic-u-s-senate-candidate-eager-to-broaden-kansas-voice-in-d-c-politics/",
-        "publication": "Kansasreflector.Com",
         "date": "2026-03-31"
       },
       {
@@ -1339,52 +1257,31 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "education": "Born: Near Topeka, Kansas",
     "family": "Not detailed in available sources.",
     "campaignWebsite": "https://sandyforkansas.com/",
-    "whoTheyAre": "Spidel Neumann was born in Topeka, adopted as a newborn, and grew up in Johnson County. Her public biography emphasizes a 40-year business career, including 22 years at Ameriprise. She entered politics only after retirement, which makes her a classic late-career candidate. Born: Near Topeka, Kansas.",
-    "theirRecord": "She entered the race after Marshall's Oakley town hall and tariff/Medicaid posture became motivating issues for her. Her campaign centers on cost-of-living, fairness, and competence rather than ideological experimentation. Public filings show a heavy personal investment in the race. Opposes tariffs harmful to Kansas farmers.",
+    "whoTheyAre": "Sandy Spidel Neumann is a Mission-based Democrat with a long business career and no prior elected office. She was born in Topeka, grew up in Johnson County, earned an economics degree from the University of Chicago, and completed an MBA at Northwestern while working full time. Her professional life spans about 40 years, including 22 years as an Ameriprise executive before retiring in 2025. Her public biography is built around business, family, and financial services rather than legislative office. She entered the race after a long career in the private sector and now presents herself as someone who can bring that background to federal policy questions affecting families, farmers, and retirees.",
+    "theirRecord": "Neumann does not have a voting record in public office, so her public record is mostly her business career and the way she talks about policy. Her campaign says Marshall's town hall walkout helped push her into the race, and her platform emphasizes health care costs, farmers, Social Security, Medicare, the VA, and reproductive freedom. Because she has not held elected office, her public paper trail is still developing. What is visible now is a substantial private-sector background, a sizable campaign loan, and a message aimed at affordability and consumer protection.",
     "whatYouShouldKnow": [
-      "The NRSC complaint named her for a late personal financial disclosure filing",
-      "She has no prior elected experience, which is both a freshness advantage and a credibility risk",
-      "Her Johnson County base overlaps with other Democratic hopefuls, especially Anne Parelkar and Erik Murray",
-      "She has the most extensive corporate-finance résumé in the Democratic field",
-      "Her campaign is one of the more clearly documented self-funded challenges",
-      "She has no elected-office record, so trust has to be built from scratch",
-      "LinkedIn and campaign material corroborate the Ameriprise history",
-      "Kansas Reflector and KCUR both frame her as a legitimate entrant, not a vanity candidate"
+      "She is a Mission resident with deep Johnson County roots",
+      "She spent 22 years as an Ameriprise executive before retiring in 2025",
+      "She has no prior elected office",
+      "Her campaign finance filings show meaningful self-funding through a candidate loan",
+      "She says Marshall's conduct in office and at his town hall helped motivate her run",
+      "No public church affiliation was verified in the accessible research trail"
     ],
-    "whereTheyWorship": "No public church affiliation or denomination was verified.",
+    "whereTheyWorship": "No public church affiliation was verified in the accessible research trail. Her public profile emphasizes business experience and policy goals rather than faith language or a named congregation.",
     "quotes": [
       {
-        "text": "Let's Get to Work, Kansas.",
-        "source": "Sandy Spidel Neumann research file",
+        "text": "In Washington, Sandy will bring that same tenacity to lowering costs for families, fighting for farmers, protecting reproductive freedom, defending Social Security, Medicare and the VA, working to make kids safer at school and ensuring every Kansan -- regardless of economic status -- has the same opportunity she fought for.",
+        "source": "campaign site, n.d., https://sandyforkansas.com/",
         "date": "2026-03-31",
-        "url": "https://www.fec.gov/data/candidate/S6KS00262/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://sandyforkansas.com/",
+        "topic": "Quotes"
       },
       {
-        "text": "everyone deserves a fair shot",
-        "source": "Sandy Spidel Neumann research file",
+        "text": "We have a very big problem with immigration in our country right now, in the sense that there's a lot of confusion over it.",
+        "source": "Kansas Reflector, Aug. 25, 2025, https://kansasreflector.com/2025/08/25/democratic-immigration-lawyer-wants-to-fix-broken-system-with-run-for-u-s-senate-in-kansas/",
         "date": "2026-03-31",
-        "url": "https://www.fec.gov/data/candidate/S6KS00262/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "the big abomination of a bill",
-        "source": "Sandy Spidel Neumann research file",
-        "date": "2026-03-31",
-        "url": "https://www.fec.gov/data/candidate/S6KS00262/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "big abomination of a bill",
-        "source": "Sandy Spidel Neumann research file",
-        "date": "2026-03-31",
-        "topic": "Platform / Key Positions:"
-      },
-      {
-        "text": "I know how the economy works",
-        "source": "Sandy Spidel Neumann research file",
-        "date": "2026-03-31",
-        "topic": "Strengths:"
+        "url": "https://kansasreflector.com/2025/08/25/democratic-immigration-lawyer-wants-to-fix-broken-system-with-run-for-u-s-senate-in-kansas/",
+        "topic": "Quotes"
       },
       {
         "text": "would be a good first step because health care is a significant concern in rural Kansas.",
@@ -1395,7 +1292,7 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     ],
     "campaignFinance": {
       "totalRaised": "$167,587.11 (FEC coverage: 10/14/2025 to 12/31/2025)",
-      "narrative": "Spidel Neumann's official FEC candidate page is much stronger than the old placeholder text suggested. SANDY FOR KANSAS (C00923474) reported $167,587.11 in receipts, $40,660.59 in disbursements, and $126,926.52 cash on hand for the period from October 14, 2025 through December 31, 2025. The key finance fact is the structure of the money: $100,000 came in as candidate loans, only $3,500 as direct candidate contributions, $37,150 as itemized individual contributions, and $26,937.11 as unitemized contributions.",
+      "narrative": "Neumann's public FEC summary shows $167,587.11 in receipts, $40,660.59 spent, and $126,926.52 cash on hand through 2025-12-31. The filing also includes a $100,000 candidate loan, which is the clearest public sign of her own financial commitment to the race. Her FEC candidate page is S6KS00262 and the committee page is C00923474.",
       "donors": [
         {
           "name": "Loans made by candidate",
@@ -1420,34 +1317,28 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
-        "title": "Fec.Gov",
-        "url": "https://www.fec.gov/data/candidate/S6KS00262/",
-        "publication": "Fec.Gov",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Fec.Gov",
-        "url": "https://www.fec.gov/data/committee/C00923474/",
-        "publication": "Fec.Gov",
-        "date": "2026-03-31"
-      },
-      {
         "title": "Sandyforkansas.Com",
-        "url": "https://sandyforkansas.com/",
-        "publication": "Sandyforkansas.Com",
-        "date": "2026-03-31"
+        "url": "https://sandyforkansas.com/"
+      },
+      {
+        "title": "Fec.Gov",
+        "url": "https://www.fec.gov/data/candidate/S6KS00262/"
+      },
+      {
+        "title": "Fec.Gov",
+        "url": "https://www.fec.gov/data/committee/C00923474/"
       },
       {
         "title": "Kansasreflector.Com",
-        "url": "https://kansasreflector.com/briefs/kansas-democrat-launches-u-s-senate-campaign-criticizes-gop-incumbent-marshall/",
-        "publication": "Kansasreflector.Com",
-        "date": "2026-03-31"
+        "url": "https://kansasreflector.com/briefs/kansas-democrat-launches-u-s-senate-campaign-criticizes-gop-incumbent-marshall/"
       },
       {
         "title": "Kcur.Org",
-        "url": "https://www.kcur.org/politics-elections-and-government/2025-12-30/whos-running-to-represent-kansas-in-the-u-s-senate-in-2026-heres-a-guide-to-the-candidates",
-        "publication": "Kcur.Org",
-        "date": "2026-03-31"
+        "url": "https://www.kcur.org/politics-elections-and-government/2025-12-30/whos-running-to-represent-kansas-in-the-u-s-senate-in-2026-heres-a-guide-to-the-candidates"
+      },
+      {
+        "title": "Kansasreflector.Com",
+        "url": "https://kansasreflector.com/2025/08/25/democratic-immigration-lawyer-wants-to-fix-broken-system-with-run-for-u-s-senate-in-kansas/"
       },
       {
         "title": "Ballotpedia.Org",
@@ -1500,63 +1391,45 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "education": "Born: KU Medical Center, Kansas City, KS",
     "family": "Married to Nicole. Lives in Wyandotte County.",
     "campaignWebsite": "https://erikforkansas.com/",
-    "whoTheyAre": "Murray was born in KCK, later spent years in California, and then returned to Kansas. His campaign biography is heavily shaped by the redevelopment work he helped drive after that return. He presents himself as a builder who thinks in terms of jobs, mixed-use development, and community outcomes. Born: KU Medical Center, Kansas City, KS.",
-    "theirRecord": "He has no public elected-record voting history; his record is in private-sector development and project delivery. The Indian Springs project is the centerpiece of his public résumé. He also became a controversy target after comments on The Disruption Lab podcast connected him to Elaine Brown and the Black Panther tradition. Lowering costs for starting and running small businesses.",
+    "whoTheyAre": "Erik Murray is a Democratic candidate for the U.S. Senate from Kansas City, Kansas. He is a commercial real estate developer and entrepreneur whose public identity is tied to the proposed Midtown Station redevelopment at the former Indian Springs Mall site in Wyandotte County. Public reporting describes that project as a nearly $1 billion mixed-use development with housing, retail, childcare, job-training, transit, and energy components. Murray grew up in Kansas City, Kansas, attended Sumner Academy, and later studied at the University of Southern California, where he met his wife Nicole. After years in California, including roughly a decade in Oakland and San Francisco, he returned to Kansas in 2023. His raw file ties him to Eastside Innovation Kansas, Oak Impact Group in Oakland, and the Indian Springs redevelopment effort in Kansas City, Kansas. He has never held elected office. His campaign presents him as a builder and problem-solver rather than a legislator, and his public message centers on entrepreneurship, small-business costs, economic development, and reconnecting capital investment to community outcomes. Publicly available records reviewed in this pass did not verify a current church affiliation.",
+    "theirRecord": "Murray's public record is built around business and development work rather than legislative office. The biggest item attached to his name is the Midtown Station / Indian Springs redevelopment project in Kansas City, Kansas. Research in his file describes the plan as a large-scale redevelopment of the former mall site with multi-family housing, single-family homes, townhomes, affordable housing, childcare, retail, grocery, hotel, and infrastructure components. He also spent years in Oakland, California, where he founded Oak Impact Group, a venture-capital and real-estate investment firm that intersected with social-impact investing and, according to the raw research file, helped bring FDIC-insured real-estate lending into parts of the cannabis industry. That California period is part of his public biography because he now frames his return to Kansas as a homecoming and a reason he sees economic development differently. The most visible controversy in his file came from a late-2025 Disruption Lab podcast appearance that was later highlighted by the Washington Free Beacon. In that appearance, Murray said that spending a decade having lunch with Elaine Brown, a former Black Panther leader, changed \"some wiring\" in his brain. His file also notes an NRSC complaint over missing federal disclosure paperwork and says the Indian Springs redevelopment effort had disputes with the Unified Government of Wyandotte County over the project plan.",
     "whatYouShouldKnow": [
-      "The Elaine Brown/Black Panther line is the main general-election liability and a ready-made opposition-ad line",
-      "He also faces the familiar Kansas attack that he spent a decade in California before returning",
-      "His redevelopment project has had disputes with the local government, which gives opponents a governance angle",
-      "Murray is the most development-centric candidate in the Democratic field",
-      "His California years remain a built-in political attack line",
-      "The Black Panther comment is the most obvious opposition-ad line against him",
-      "Kansas Reflector and Sunflower State Journal coverage corroborate the redevelopment focus",
-      "LinkedIn and campaign material give a coherent business-leader profile"
+      "Murray has never held public office, so his public record is mostly his business history, development work, campaign messaging, and controversies rather than roll-call votes",
+      "The centerpiece of his public biography is Midtown Station, a proposed redevelopment of the former Indian Springs Mall site in Kansas City, Kansas, with housing, retail, childcare, job training, a hotel, a grocery store, and a solar microgrid",
+      "KSHB reported in March 2026 that Murray and the Unified Government were still far apart on key terms for the Indian Springs deal, including the land price, the project's financing plan, and whether the developer should pay the government's outside-counsel costs before there was an agreement in principle",
+      "Murray spent roughly a decade in Oakland and San Francisco before returning to Kansas in 2023, so both his supporters and his critics treat the California period as a major part of his political story",
+      "On a late-November 2025 Disruption Lab podcast appearance, Murray said that spending a decade having lunch with former Black Panther leader Elaine Brown would \"change some wiring in your brain.\" The Washington Free Beacon later used that remark to frame him as aligned with Brown's radical politics",
+      "Murray told KSHB that the Indian Springs project had already been revised three times and that delay on the solar component could cost the project about $30 million in federal investment tax credits",
+      "His campaign says he wants to lower the costs of starting and running small businesses, use Opportunity Zones, and visit all 105 counties on a \"Heart of America Tour\" across Kansas",
+      "Official FEC summary data reviewed in this repo shows Murray raised $124,598.62 from November 23, 2025 through December 31, 2025, spent $15,625.69, and reported $108,972.93 cash on hand with no candidate loans listed in that summary"
     ],
-    "whereTheyWorship": "No public church affiliation was identified in the report materials reviewed for Erik Murray.",
+    "whereTheyWorship": "No current church affiliation was publicly verified in the reviewed record. The raw candidate file notes childhood ties to Fellowship Christian Church and schooling at St. Patrick's Catholic School, but that is background information rather than a verified present-day congregation. No current church URL was verified.",
     "quotes": [
       {
-        "text": "between what capital wants and what community wants",
-        "source": "Erik Murray research file",
+        "text": "Politician-created problems, such as tariffs and tax policies that benefit billionaires, are tearing apart the fabric of our communities.",
+        "source": "KCUR candidate guide, December 30, 2025, https://www.kcur.org/politics-elections-and-government/2025-12-30/whos-running-to-represent-kansas-in-the-u-s-senate-in-2026-heres-a-guide-to-the-candidates",
         "date": "2026-03-31",
-        "url": "https://www.fec.gov/data/candidate/S6KS00270/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://www.kcur.org/politics-elections-and-government/2025-12-30/whos-running-to-represent-kansas-in-the-u-s-senate-in-2026-heres-a-guide-to-the-candidates",
+        "topic": "Quotes"
       },
       {
-        "text": "politician-created problems",
-        "source": "Erik Murray research file",
+        "text": "Go spend a decade, you know, having lunch with Elaine Brown, who's one of the original founders of the Black Panther[s]. It'll change some wiring in your brain.",
+        "source": "The Disruption Lab podcast, late November 2025, quoted in Washington Free Beacon coverage, https://freebeacon.com/democrats/kansas-senate-candidate-names-his-political-inspiration-a-black-panther-soldier-working-to-destroy-the-american-empire/",
         "date": "2026-03-31",
-        "url": "https://www.fec.gov/data/candidate/S6KS00270/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://freebeacon.com/democrats/kansas-senate-candidate-names-his-political-inspiration-a-black-panther-soldier-working-to-destroy-the-american-empire/",
+        "topic": "Quotes"
       },
       {
-        "text": "It'll change some wiring in your brain.",
-        "source": "Erik Murray research file",
+        "text": "We are pushing for the Unified Government to provide that transparency to the taxpayers about what's really going on here. It bothers me as a community member the amount of public processes that happen behind closed doors.",
+        "source": "KSHB, March 2026, https://www.kshb.com/news/local-news/kansas/wyandotte-county/indian-springs-mall-site-redevelopment-in-limbo-as-kck-developer-unified-government-cant-agree-on-plan",
         "date": "2026-03-31",
-        "url": "https://www.fec.gov/data/candidate/S6KS00270/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "attuned to the disconnect between what capital wants and what community wants.",
-        "source": "Erik Murray research file",
-        "date": "2026-03-31",
-        "topic": "Key Quote:"
-      },
-      {
-        "text": "transformative experience",
-        "source": "Erik Murray research file",
-        "date": "2026-03-31",
-        "topic": "Source"
-      },
-      {
-        "text": "in the fight to bring about a",
-        "source": "Erik Murray research file",
-        "date": "2026-03-31",
-        "topic": "Source"
+        "url": "https://www.kshb.com/news/local-news/kansas/wyandotte-county/indian-springs-mall-site-redevelopment-in-limbo-as-kck-developer-unified-government-cant-agree-on-plan",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "$124,598.62 (FEC coverage: 11/23/2025 to 12/31/2025)",
-      "narrative": "Murray's official FEC page shows a much more serious finance operation than the old thin entry suggested. ERIK MURRAY FOR KANSAS (C00929240) reported $124,598.62 in receipts, $15,625.69 in disbursements, and $108,972.93 cash on hand for the period from November 23, 2025 through December 31, 2025. Importantly, this money was donor-driven rather than self-loan-driven: the FEC summary shows $119,800 in itemized individual contributions, $4,798.62 in unitemized contributions, and $0 in candidate loans.",
+      "narrative": "The official FEC summary reviewed in this repo shows ERIK MURRAY FOR KANSAS (C00929240) reported $124,598.62 in receipts, $15,625.69 in disbursements, and $108,972.93 cash on hand for the period ending December 31, 2025. The finance structure in the reviewed summary was donor-driven rather than self-loan-driven. The repo notes $119,800 in itemized individual contributions, $4,798.62 in unitemized contributions, and $0 in candidate loans in the public summary reviewed for this pass.",
       "donors": [
         {
           "name": "Itemized individual contributions",
@@ -1577,52 +1450,48 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
-        "title": "Fec.Gov",
-        "url": "https://www.fec.gov/data/candidate/S6KS00270/",
-        "publication": "Fec.Gov",
-        "date": "2026-03-31"
+        "title": "Erikforkansas.Com",
+        "url": "https://erikforkansas.com/"
+      },
+      {
+        "title": "Erikforkansas.Com",
+        "url": "https://erikforkansas.com/meet-erik/"
       },
       {
         "title": "Fec.Gov",
-        "url": "https://www.fec.gov/data/committee/C00929240/",
-        "publication": "Fec.Gov",
-        "date": "2026-03-31"
+        "url": "https://www.fec.gov/data/candidate/S6KS00270/"
+      },
+      {
+        "title": "Fec.Gov",
+        "url": "https://www.fec.gov/data/committee/C00929240/"
+      },
+      {
+        "title": "Kcur.Org",
+        "url": "https://www.kcur.org/politics-elections-and-government/2025-12-30/whos-running-to-represent-kansas-in-the-u-s-senate-in-2026-heres-a-guide-to-the-candidates"
       },
       {
         "title": "Kansasreflector.Com",
-        "url": "https://kansasreflector.com/2026/03/16/kansas-city-entrepreneur-prioritizes-passion-decency-in-campaign-for-u-s-senate/",
-        "publication": "Kansasreflector.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Freebeacon.Com",
-        "url": "https://freebeacon.com/democrats/kansas-senate-candidate-names-his-political-inspiration-a-black-panther-soldier-working-to-destroy-the-american-empire/",
-        "publication": "Freebeacon.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Erikforkansas.Com",
-        "url": "https://erikforkansas.com/",
-        "publication": "Erikforkansas.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Erikforkansas.Com",
-        "url": "https://erikforkansas.com/meet-erik/",
-        "publication": "Erikforkansas.Com",
-        "date": "2026-03-31"
+        "url": "https://kansasreflector.com/2026/03/16/kansas-city-entrepreneur-prioritizes-passion-decency-in-campaign-for-u-s-senate/"
       },
       {
         "title": "Sunflowerstatejournal.Com",
-        "url": "https://sunflowerstatejournal.com/kck-developer-announces-for-u-s-senate-as-democratic-primary-grows-to-five/",
-        "publication": "Sunflowerstatejournal.Com",
-        "date": "2026-03-31"
+        "url": "https://sunflowerstatejournal.com/kck-developer-announces-for-u-s-senate-as-democratic-primary-grows-to-five/"
+      },
+      {
+        "title": "Freebeacon.Com",
+        "url": "https://freebeacon.com/democrats/kansas-senate-candidate-names-his-political-inspiration-a-black-panther-soldier-working-to-destroy-the-american-empire/"
+      },
+      {
+        "title": "Afrotech.Com",
+        "url": "https://afrotech.com/erik-murray-oakland-impact-group"
       },
       {
         "title": "Linkedin.Com",
-        "url": "https://www.linkedin.com/in/erikmurraysior",
-        "publication": "Linkedin.Com",
-        "date": "2026-03-31"
+        "url": "https://www.linkedin.com/in/erikmurraysior"
+      },
+      {
+        "title": "Kshb.Com",
+        "url": "https://www.kshb.com/news/local-news/kansas/wyandotte-county/indian-springs-mall-site-redevelopment-in-limbo-as-kck-developer-unified-government-cant-agree-on-plan"
       },
       {
         "title": "Erik Murray - Ballotpedia",
@@ -1646,18 +1515,6 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "title": "@erik4ks",
         "url": "https://www.instagram.com/erik4ks/",
         "publication": "Instagram.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "AfroTech: Oak Impact Group",
-        "url": "https://afrotech.com/erik-murray-oakland-impact-group",
-        "publication": "Afrotech.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "KCUR: Guide to candidates",
-        "url": "https://www.kcur.org/politics-elections-and-government/2025-12-30/whos-running-to-represent-kansas-in-the-u-s-senate-in-2026-heres-a-guide-to-the-candidates",
-        "publication": "Kcur.Org",
         "date": "2026-03-31"
       },
       {
@@ -1692,63 +1549,43 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "education": "Born: Pine Bluff, Arkansas",
     "family": "Not detailed in available sources.",
     "campaignWebsite": "https://www.anneforkansas.com/",
-    "whoTheyAre": "Parelkar's biography centers on immigration law, legal service, and Kansas civic identity. Multiple public profiles connect her decision to run with Marshall's town-hall behavior and constituent access issues. She is one of the newer Senate entrants, but her legal specialization gives her a distinct niche in the field. Born: Pine Bluff, Arkansas.",
-    "theirRecord": "She filed early in the cycle and made immigration and children's healthcare the centerpiece of her policy messaging. Her campaign argues for a consolidated healthcare program rather than fragmented Medicaid/CHIP administration. Public interviews portray her as a policy-oriented challenger rather than a pure protest candidacy. Immigration reform (core issue, professional expertise).",
+    "whoTheyAre": "Anne Parelkar is an Overland Park immigration attorney licensed in Kansas, Arkansas, and Missouri. She was raised in Arkansas, earned a degree from Lyon College in 2005 and a law degree from the University of Arkansas at Little Rock in 2011, and moved to Kansas through marriage. Public sources describe her as married to a first-generation immigrant and the mother of two children. Her professional life is immigration law and legal work for families. The public record does not show prior elected office, which makes her Senate bid a first run for office rather than a return to politics. Her campaign leans heavily on her legal background and on the claim that she has seen immigration-system failures up close.",
+    "theirRecord": "Parelkar's public record is mainly her legal practice and the way she talks about immigration and children' health coverage. She says the immigration system is confusing and needs reform, and she wants to replace the current patchwork of children's coverage with a single consolidated program. She also pushes stronger antitrust and consumer-protection rules. She attended Marshall town halls and described concerns about transparency and constituent communication as part of what pushed her to run. The public record also shows that she was named in an NRSC complaint over a late personal financial disclosure filing, which is a procedural issue rather than a policy record.",
     "whatYouShouldKnow": [
-      "The NRSC complaint named her for a late personal financial disclosure filing",
-      "Immigration is a tougher issue for Democrats in Kansas than for some of the other candidates, making her professional specialty both a strength and a liability",
-      "She competes for the same Johnson County lane as Sandy Spidel Neumann",
-      "Immigration is both her professional strength and a likely electoral liability in Kansas",
-      "She is a serious policy candidate, not a vanity entrant",
-      "Her public fundraising is still very small",
-      "Ballotpedia and the KCUR candidate guide both corroborate her candidacy and background",
-      "Local radio and Kansas Reflector coverage show that she gained traction through issue-based interviews"
+      "She is the only immigration attorney in the Democratic Senate field",
+      "She is based in Overland Park and competes for the same Johnson County voters as Sandy Spidel Neumann",
+      "Her main issues are immigration reform and children's health coverage",
+      "She has no prior elected office",
+      "The NRSC complaint named her over a late personal financial disclosure filing",
+      "No public church affiliation was verified in the accessible research trail"
     ],
-    "whereTheyWorship": "No public church affiliation was verified.",
+    "whereTheyWorship": "No public church affiliation was verified in the accessible research trail. Her public profile centers on immigration law, family life, and children's health care rather than faith language or a named congregation.",
     "quotes": [
       {
-        "text": "We have a very big problem with immigration in our country right now.",
-        "source": "Anne Parelkar research file",
+        "text": "We have a very big problem with immigration in our country right now, in the sense that there's a lot of confusion over it.",
+        "source": "Kansas Reflector, August 25, 2025, https://kansasreflector.com/2025/08/25/democratic-immigration-lawyer-wants-to-fix-broken-system-with-run-for-u-s-senate-in-kansas/",
         "date": "2026-03-31",
-        "url": "https://www.fec.gov/data/candidate/S6KS00239/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "a single consolidated program",
-        "source": "Anne Parelkar research file",
-        "date": "2026-03-31",
-        "url": "https://www.fec.gov/data/candidate/S6KS00239/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://kansasreflector.com/2025/08/25/democratic-immigration-lawyer-wants-to-fix-broken-system-with-run-for-u-s-senate-in-kansas/",
+        "topic": "Quotes"
       },
       {
         "text": "answer to the people. Not to party leaders. Not to political donors. Just to the people.",
-        "source": "Anne Parelkar research file",
+        "source": "campaign site, n.d., https://www.anneforkansas.com/",
         "date": "2026-03-31",
-        "url": "https://www.fec.gov/data/candidate/S6KS00239/",
+        "url": "https://www.anneforkansas.com/",
+        "topic": "Quotes"
+      },
+      {
+        "text": "We have a very big problem with immigration in our country right now.",
+        "source": "Kansas Reflector, 2025-08-25, https://kansasreflector.com/2025/08/25/democratic-immigration-lawyer-wants-to-fix-broken-system-with-run-for-u-s-senate-in-kansas/",
+        "date": "2026-03-31",
+        "url": "https://kansasreflector.com/2025/08/25/democratic-immigration-lawyer-wants-to-fix-broken-system-with-run-for-u-s-senate-in-kansas/",
         "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "a patchwork of options like Medicaid and CHIP.",
-        "source": "Anne Parelkar research file",
-        "date": "2026-03-31",
-        "topic": "Key Quote:"
-      },
-      {
-        "text": "We have a very big problem with immigration in our country right now, in the sense that there's a lot of confusion over it.",
-        "source": "Anne Parelkar research file",
-        "date": "2026-03-31",
-        "topic": "Platform"
-      },
-      {
-        "text": "a solution, not another problem.",
-        "source": "Anne Parelkar research file",
-        "date": "2026-03-31",
-        "topic": "Platform"
       }
     ],
     "campaignFinance": {
       "totalRaised": "$16,982.00 (FEC coverage: 03/03/2025 to 12/31/2025)",
-      "narrative": "Parelkar's official FEC candidate page provides a complete topline summary. ANNE FOR KANSAS (C00913293) reported $16,982.00 in receipts, $16,478.89 in disbursements, and just $503.11 cash on hand for the period from March 3, 2025 through December 31, 2025. The notable detail is that $4,500.00 of the total came from candidate loans, meaning the campaign was modest and partially self-financed rather than broadly donor-backed.",
+      "narrative": "Parelkar's public FEC summary shows $16,982.00 in receipts, $16,478.89 spent, and $503.11 cash on hand through 2025-12-31. Candidate loans totaled $4,500, and her committee page is C00913293. That gives her a small but visible financial footprint, though it remains much smaller than the major statewide candidates.",
       "donors": [
         {
           "name": "Itemized individual contributions",
@@ -1769,46 +1606,32 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
-        "title": "Fec.Gov",
-        "url": "https://www.fec.gov/data/candidate/S6KS00239/",
-        "publication": "Fec.Gov",
-        "date": "2026-03-31"
+        "title": "Anneforkansas.Com",
+        "url": "https://www.anneforkansas.com/"
       },
       {
         "title": "Fec.Gov",
-        "url": "https://www.fec.gov/data/committee/C00913293/?cycle=2026",
-        "publication": "Fec.Gov",
-        "date": "2026-03-31"
+        "url": "https://www.fec.gov/data/candidate/S6KS00239/"
+      },
+      {
+        "title": "Fec.Gov",
+        "url": "https://www.fec.gov/data/committee/C00913293/?cycle=2026"
       },
       {
         "title": "Kansasreflector.Com",
-        "url": "https://kansasreflector.com/2025/08/25/democratic-immigration-lawyer-wants-to-fix-broken-system-with-run-for-u-s-senate-in-kansas/",
-        "publication": "Kansasreflector.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Anneforkansas.Com",
-        "url": "https://www.anneforkansas.com/",
-        "publication": "Anneforkansas.Com",
-        "date": "2026-03-31"
+        "url": "https://kansasreflector.com/2025/08/25/democratic-immigration-lawyer-wants-to-fix-broken-system-with-run-for-u-s-senate-in-kansas/"
       },
       {
         "title": "1350kman.Com",
-        "url": "https://1350kman.com/2026/03/within-reason-with-mike-matson-anne-parelkar-overland-park-immigration-attorney/",
-        "publication": "1350kman.Com",
-        "date": "2026-03-31"
+        "url": "https://1350kman.com/2026/03/within-reason-with-mike-matson-anne-parelkar-overland-park-immigration-attorney/"
       },
       {
         "title": "Kcur.Org",
-        "url": "https://www.kcur.org/politics-elections-and-government/2025-12-30/whos-running-to-represent-kansas-in-the-u-s-senate-in-2026-heres-a-guide-to-the-candidates",
-        "publication": "Kcur.Org",
-        "date": "2026-03-31"
+        "url": "https://www.kcur.org/politics-elections-and-government/2025-12-30/whos-running-to-represent-kansas-in-the-u-s-senate-in-2026-heres-a-guide-to-the-candidates"
       },
       {
         "title": "Ballotpedia.Org",
-        "url": "https://ballotpedia.org/Anne_Parelkar",
-        "publication": "Ballotpedia.Org",
-        "date": "2026-03-31"
+        "url": "https://ballotpedia.org/Anne_Parelkar"
       },
       {
         "title": "Immirail.Com",
@@ -1848,64 +1671,43 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "education": "Not specified in available sources",
     "family": "Not detailed",
     "campaignWebsite": "https://mikeforkansas.my.canva.site",
-    "whoTheyAre": "Soetaert grew up in Spring Hill and now lives in Wellington. He has a long local-government and civic track, including a Wellington City Council stint and repeated candidacies. His political evolution includes moving from Republican to Democrat as his views on abortion and marriage changed. Born: Wellington, Kansas.",
-    "theirRecord": "He has run for multiple offices across several cycles, which makes him one of the more visible perennial candidates in the field. Public reporting notes his brief council service and later resignation, which opponents can use to question staying power. His campaign leans hard into bodily autonomy and LGBTQ inclusion. LGBTQ+ rights champion: Supports the Equality Act and the Respect for Marriage Act.",
+    "whoTheyAre": "Michael Soetaert is a Wellington-based Kansas Senate candidate who grew up in Spring Hill and now lives in south-central Kansas. He is a former Republican, a former Wellington city council member, and the first openly gay person to run for U.S. Senate in Kansas. Public sources also describe him as a serial candidate who has run for several offices under different party labels. His personal background is unusually public in some ways and thin in others. The record says he was given up for adoption into a Roman Catholic family and that he publicly identifies as Christian, but no current church affiliation was verified. His campaign site is built on a free Canva page, which tells you a lot about the scale of the operation.",
+    "theirRecord": "Soetaert's public record is mostly a trail of candidacies and issue changes. He ran in the 2020 Republican primary for Kansas's 1st Congressional District, served briefly on the Wellington City Council, and then moved into the Democratic Senate race. His public issue positions changed on abortion after the 2022 referendum, and he also backed the Respect for Marriage Act. That means his visible public life is less about elected-office accomplishments and more about political evolution and identity. He is a notable figure in Kansas politics because of his candidacy history and his place in the public conversation about abortion, marriage, and LGBTQ representation.",
     "whatYouShouldKnow": [
-      "Multiple failed campaigns across different offices and parties make him a textbook perennial candidate",
-      "His platform shifts on abortion and marriage are real and public, but they also invite scrutiny from both parties",
-      "The free Canva website is a visible signal of minimal campaign infrastructure",
-      "Pattern of running for multiple offices without winning raises \"perennial candidate\" concerns",
-      "Ideological inconsistency (conservative pro-life Republican in 2019, now running as a Democrat)",
-      "Soetaert is historically notable even if the campaign is not well funded",
-      "His prior party identity and issue shifts are both real and politically salient",
-      "The minimalist Canva site suggests a very lean operation"
+      "He is the first openly gay candidate to run for U.S. Senate in Kansas",
+      "He ran in the 2020 Republican primary for Kansas's 1st Congressional District, served briefly on the Wellington City Council, and then switched from Republican to Democrat after the pandemic, Jan. 6, and LGBTQ issues pushed him out of the GOP",
+      "His public trail includes a brief Wellington City Council stint, but not a long record of state or federal office",
+      "His campaign website is a free Canva page, which suggests a very small budget operation",
+      "He publicly identifies as Christian, but no current church was verified",
+      "The public finance trail is thin and does not yet show a clean totals summary"
     ],
-    "whereTheyWorship": "No public church affiliation was identified in the report materials reviewed for Michael Soetaert.",
+    "whereTheyWorship": "Public sources describe Soetaert as Christian and note a Roman Catholic adoptive-family background, but no current church affiliation was verified. His public materials do not identify a congregation or denomination.",
     "quotes": [
       {
-        "text": "Michael 'Mike' Soetaert is ONE of TWO DEMOCRATIC candidates",
-        "source": "Michael Soetaert research file",
+        "text": "If I had to choose between your vote and your health and safety, this is easy. I pick your health and safety. I would love to represent you and the great state of Kansas in the U.S. Senate. However, I’m not willing to walk over your body bag, coffin or funereal urn to do so.",
+        "source": "The Iola Register, 2022-07-28, https://www.iolaregister.com/news/candidate-eschews-in-person-campaign",
         "date": "2026-03-31",
-        "url": "https://www.fec.gov/data/candidate/S2KS00097/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://www.iolaregister.com/news/candidate-eschews-in-person-campaign",
+        "topic": "Quotes"
       },
       {
-        "text": "Kansans voted for bodily autonomy",
-        "source": "Michael Soetaert research file",
+        "text": "It really is an online campaign, a pandemic campaign, and I don’t see that changing between now and November.",
+        "source": "The Iola Register, 2022-07-28, https://www.iolaregister.com/news/candidate-eschews-in-person-campaign",
         "date": "2026-03-31",
-        "url": "https://www.fec.gov/data/candidate/S2KS00097/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://www.iolaregister.com/news/candidate-eschews-in-person-campaign",
+        "topic": "Quotes"
       },
       {
-        "text": "first openly gay candidate to run for U.S. Senate in Kansas",
-        "source": "Michael Soetaert research file",
+        "text": "No. 1, the mismanagement of the pandemic under the Republican party was in and of itself reason enough to go home to the Democratic party.",
+        "source": "The Iola Register, 2022-07-28, https://www.iolaregister.com/news/candidate-eschews-in-person-campaign",
         "date": "2026-03-31",
-        "url": "https://www.fec.gov/data/candidate/S2KS00097/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "various local, state and federal offices",
-        "source": "Michael Soetaert research file",
-        "date": "2026-03-31",
-        "topic": "Career:"
-      },
-      {
-        "text": "run for various local, state and federal offices",
-        "source": "Michael Soetaert research file",
-        "date": "2026-03-31",
-        "topic": "Full Background"
-      },
-      {
-        "text": "right wing, fundamentalist, Roman Catholic family",
-        "source": "Michael Soetaert research file",
-        "date": "2026-03-31",
-        "url": "https://replacejerrymoran.org/",
-        "topic": "MICHAEL SOETAERT (D) -- Wellington"
+        "url": "https://www.iolaregister.com/news/candidate-eschews-in-person-campaign",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "FEC says no 2025-2026 finance summary is available yet",
-      "narrative": "The current official FEC candidate page for SOETAERT, MICHAEL says, 'We don't have SOETAERT, MICHAEL for 2025-2026.' That is the cleanest public answer right now. Soetaert does have a federal candidate page, but as of April 1, 2026 the FEC is not showing a processed receipts, spending, or cash-on-hand summary for this cycle.",
+      "narrative": "Soetaert has an FEC candidate page, but the accessible public summary did not surface a clean 2025-2026 totals display. The main public finance touchpoints are his FEC filing, his ActBlue page, and the low-cost Canva campaign site. That points to a very lean operation rather than a fully built statewide fundraising machine.",
       "donors": [
         {
           "name": "Campaign finance data",
@@ -1918,46 +1720,36 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
-        "title": "Fec.Gov",
-        "url": "https://www.fec.gov/data/candidate/S2KS00097/",
-        "publication": "Fec.Gov",
-        "date": "2026-03-31"
+        "title": "Mikeforkansas.My.Canva.Site",
+        "url": "https://mikeforkansas.my.canva.site/"
       },
       {
         "title": "Secure.Actblue.Com",
-        "url": "https://secure.actblue.com/donate/michael-soetaert",
-        "publication": "Secure.Actblue.Com",
-        "date": "2026-03-31"
+        "url": "https://secure.actblue.com/donate/michael-soetaert"
       },
       {
-        "title": "Mikeforkansas.My.Canva.Site",
-        "url": "https://mikeforkansas.my.canva.site/",
-        "publication": "Mikeforkansas.My.Canva.Site",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Kcur.Org",
-        "url": "https://www.kcur.org/politics-elections-and-government/2025-12-30/whos-running-to-represent-kansas-in-the-u-s-senate-in-2026-heres-a-guide-to-the-candidates",
-        "publication": "Kcur.Org",
-        "date": "2026-03-31"
+        "title": "Fec.Gov",
+        "url": "https://www.fec.gov/data/candidate/S2KS00097/"
       },
       {
         "title": "Ballotpedia.Org",
-        "url": "https://ballotpedia.org/Michael_Soetaert",
-        "publication": "Ballotpedia.Org",
-        "date": "2026-03-31"
+        "url": "https://ballotpedia.org/Michael_Soetaert"
+      },
+      {
+        "title": "Kcur.Org",
+        "url": "https://www.kcur.org/politics-elections-and-government/2025-12-30/whos-running-to-represent-kansas-in-the-u-s-senate-in-2026-heres-a-guide-to-the-candidates"
       },
       {
         "title": "Cityofwellington.Net",
-        "url": "https://www.cityofwellington.net/newsview.aspx?nid=6940",
-        "publication": "Cityofwellington.Net",
-        "date": "2026-03-31"
+        "url": "https://www.cityofwellington.net/newsview.aspx?nid=6940"
       },
       {
         "title": "Kake.Com",
-        "url": "https://www.kake.com/kansas-senate-candidate-shows-support-for-respect-for-marriage-act/article_7d6721ed-79ed-52f2-8765-2e521ef88df5.html",
-        "publication": "Kake.Com",
-        "date": "2026-03-31"
+        "url": "https://www.kake.com/kansas-senate-candidate-shows-support-for-respect-for-marriage-act/article_7d6721ed-79ed-52f2-8765-2e521ef88df5.html"
+      },
+      {
+        "title": "Iolaregister.Com",
+        "url": "https://www.iolaregister.com/news/candidate-eschews-in-person-campaign"
       },
       {
         "title": "Kcur.Org",
@@ -2014,44 +1806,43 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "born": "Carthage, Missouri",
     "education": "Associate degree, Cowley County Community College (2017)",
     "campaignWebsite": "https://www.laporte4ksgov.com/",
-    "whoTheyAre": "Born: Carthage, Missouri. U.S. Army: Served 2005-2013 (8 years active duty). Education: Associate degree, Cowley County Community College, 2017. Career: Business administrator (details limited).",
-    "theirRecord": "Reducing government spending and inflation. Term limits (cites George Washington). Smaller government (cites Ronald Reagan). Limited campaign materials available.",
+    "whoTheyAre": "Chase LaPorte is a Kansas Republican primary challenger to Roger Marshall who was born in Carthage, Missouri and served in the U.S. Army from 2005 to 2013. He later earned an associate degree from Cowley County Community College in 2017 and works as a business administrator. Public sources also list him with community ties to the Shriners, American Legion, and VFW. His public campaign trail is limited compared with the major statewide candidates. The Senate race exists alongside other campaign efforts, including a gubernatorial web presence, but the public record in the Senate race itself is mostly limited to a short biography and a few issue statements.",
+    "theirRecord": "LaPorte has no elected office record. His campaign positions are limited to a small-government message, including reduced spending, inflation concerns, term limits, and a stronger National Guard presence. He appears in the race as a challenger with a very small public footprint rather than as a candidate with a long record in Kansas government. The reporting trail also shows that his web presence is not Senate-specific, since the campaign site that surfaced in the research is a gubernatorial page rather than a dedicated Senate site. That leaves the Senate race with little more than a basic public footprint rather than a fully built campaign archive.",
     "whatYouShouldKnow": [
-      "He is widely described in the source material as a token or protest primary challenger rather than a serious threat",
-      "He does not appear to have a dedicated Senate campaign website",
-      "The limited finance and infrastructure trail makes him easy to ignore and easy to attack",
-      "LaPorte appears to be a token primary challenger with minimal campaign infrastructure. No significant media coverage, campaign website, or fundraising activity was found. Marshall faces no serious intra-party threat",
-      "LaPorte is not a serious threat to Roger Marshall. He's a perennial candidate with limited resources, no dedicated Senate campaign website (his web presence is for a gubernatorial campaign), an associate degree from a community college, and a thin public record. Marshall will win this primary without breaking a sweat. LaPorte's value in the race is as a protest vote vehicle for any Republicans dissatisfied with Marshall -- but that number in Kansas is negligible",
-      "Campaign finance filings reviewed for this profile show fec says no 2025-2026 finance summary is available yet",
-      "No public church affiliation was identified in the report materials reviewed for Chase LaPorte"
+      "He is a U.S. Army veteran with eight years of active-duty service",
+      "He earned an associate degree from Cowley County Community College in 2017",
+      "His campaign materials emphasize spending cuts, term limits, and a strong National Guard presence",
+      "He has no elected office record",
+      "The Senate race does not appear to have a dedicated, well-developed campaign website",
+      "Public finance records show small donations, but no clean totals were surfaced in the accessible text"
     ],
-    "whereTheyWorship": "No public church affiliation was identified in the report materials reviewed for Chase LaPorte.",
+    "whereTheyWorship": "No public church or faith affiliation was verified in the accessible research trail. The public record does not show a current congregation or denomination.",
     "quotes": [
       {
-        "text": "LaPorte for a Brighter America",
-        "source": "Chase LaPorte research file",
+        "text": "God's word directs us to protect unborn and innocent.",
+        "source": "OnTheIssues Kansas archive, accessed 2026-04-01, https://www.ontheissues.org/Archive_KS.htm",
         "date": "2026-03-31",
-        "url": "https://docquery.fec.gov/pdf/703/202509129790051703/202509129790051703.pdf",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
+        "url": "https://www.ontheissues.org/Archive_KS.htm",
+        "topic": "Quotes"
       },
       {
-        "text": "Transparency in government keep officials accountable.",
-        "source": "Chase LaPorte research file",
+        "text": "I believe in the Biblical standard for marriage.",
+        "source": "OnTheIssues Kansas archive, accessed 2026-04-01, https://www.ontheissues.org/Archive_KS.htm",
         "date": "2026-03-31",
-        "url": "https://docquery.fec.gov/pdf/703/202509129790051703/202509129790051703.pdf",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
+        "url": "https://www.ontheissues.org/Archive_KS.htm",
+        "topic": "Quotes"
       },
       {
-        "text": "I believe in maintaining a strong National Guard presence.",
-        "source": "Chase LaPorte research file",
+        "text": "Kansas schools are inadequately staffed and under-funded.",
+        "source": "OnTheIssues Kansas archive, accessed 2026-04-01, https://www.ontheissues.org/Archive_KS.htm",
         "date": "2026-03-31",
-        "url": "https://docquery.fec.gov/pdf/703/202509129790051703/202509129790051703.pdf",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
+        "url": "https://www.ontheissues.org/Archive_KS.htm",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "FEC says no 2025-2026 finance summary is available yet",
-      "narrative": "LaPorte now has an official FEC Senate candidate overview page, but the page says, 'We don't have LAPORTE, CHASE for 2025-2026.' That is more specific than the earlier placeholder language: the candidacy is real and officially filed, but the FEC is not yet showing a processed summary of receipts, spending, or cash on hand for this cycle.",
+      "narrative": "LaPorte has an FEC candidate page and a filing PDF, but the accessible FEC summary did not show a clean 2025-2026 totals display. A Kansas ethics report snippet surfaced itemized contributions including Ty Masterson at $2,500 plus several smaller donors such as Carri Person, Joy Eakins, Kristina Smith, Nancy Moneymaker, TerriLois Todd, Steve Roberts, Brittany Jones, Randy Ross, Chase LaPorte, and Carolyn Keller. No full total was surfaced in the accessible text.",
       "donors": [
         {
           "name": "Campaign finance data",
@@ -2064,39 +1855,33 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
+        "title": "Fec.Gov",
+        "url": "https://www.fec.gov/data/candidate/H6KS03258/"
+      },
+      {
         "title": "Docquery.Fec.Gov",
-        "url": "https://docquery.fec.gov/pdf/703/202509129790051703/202509129790051703.pdf",
-        "publication": "Docquery.Fec.Gov",
-        "date": "2026-03-31"
+        "url": "https://docquery.fec.gov/pdf/703/202509129790051703/202509129790051703.pdf"
       },
       {
         "title": "Opencampaign.Com",
-        "url": "https://www.opencampaign.com/politicians-in-united-states/197957/chase-laporte/issue-positions",
-        "publication": "Opencampaign.Com",
-        "date": "2026-03-31"
+        "url": "https://www.opencampaign.com/politicians-in-united-states/197957/chase-laporte/issue-positions"
       },
       {
-        "title": "Fec.Gov",
-        "url": "https://www.fec.gov/data/candidate/H6KS03258/",
-        "publication": "Fec.Gov",
-        "date": "2026-03-31"
+        "title": "Ballotpedia.Org",
+        "url": "https://ballotpedia.org/Chase_LaPorte"
+      },
+      {
+        "title": "Kcur.Org",
+        "url": "https://www.kcur.org/politics-elections-and-government/2025-12-30/whos-running-to-represent-kansas-in-the-u-s-senate-in-2026-heres-a-guide-to-the-candidates"
+      },
+      {
+        "title": "Ontheissues.Org",
+        "url": "https://www.ontheissues.org/Archive_KS.htm"
       },
       {
         "title": "Docquery.Fec.Gov",
         "url": "https://docquery.fec.gov/pdf/488/202306099581781488/202306099581781488.pdf",
         "publication": "Docquery.Fec.Gov",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Ballotpedia.Org",
-        "url": "https://ballotpedia.org/Chase_LaPorte",
-        "publication": "Ballotpedia.Org",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Kcur.Org",
-        "url": "https://www.kcur.org/politics-elections-and-government/2025-12-30/whos-running-to-represent-kansas-in-the-u-s-senate-in-2026-heres-a-guide-to-the-candidates",
-        "publication": "Kcur.Org",
         "date": "2026-03-31"
       },
       {
@@ -2119,66 +1904,43 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "education": "B.A. in International Studies, Trinity University, San Antonio, TX (2001)",
     "family": "A professor at the University of Kansas (scientist and bestselling author -- name not confirmed in sources); Yes, raised family in Lawrence (number not specified)",
     "campaignWebsite": "https://colinforkansas.com/",
-    "whoTheyAre": "Party: Democrat. Residence: Lawrence, Kansas. Spouse: A professor at the University of Kansas (scientist and bestselling author -- name not confirmed in sources). Children: Yes, raised family in Lawrence (number not specified).",
-    "theirRecord": "He filed early in the cycle and has kept the campaign focused on affordability, accountability, and district representation. Public profiles describe him as the candidate most likely to challenge the idea that KS-01 is politically unwinnable. Because he has no prior elected office, the race record is almost entirely his campaign and professional résumé. Affordability: Central focus on reducing cost of living.",
+    "whoTheyAre": "Colin McRoberts is the Democratic candidate for Kansas's 1st Congressional District. He is a lawyer, an Associate Teaching Professor of Law at the University of Kansas School of Business, and a consultant whose work is about negotiation and communication analysis. His public biography also includes Harvard Law School and earlier commercial litigation work. McRoberts lives in Lawrence and built his campaign after attending Roger Marshall's town hall in Oakley. He says that event convinced him the district needed another candidate willing to talk about policy, negotiation, and the east-west split in Kansas instead of just repeating partisan talking points. His public material also notes that he teaches business law, business fundamentals, and a course on the origin and spread of conspiracy theories. That combination of legal training, classroom work, and consulting is the clearest way to understand how he presents himself in public life.",
+    "theirRecord": "McRoberts does not have a prior elected office record, so his public record is mostly the campaign itself, his university role, and his professional background. He is running as a first-time candidate in a district that has voted Republican for decades, and he has made the case that the race should be about how people communicate and negotiate across regional differences. His campaign launch and later interviews put a lot of weight on that theme. He describes himself as a businessman and negotiator rather than a conventional politician, and he has tied the race to the idea that Kansans in different parts of the 1st District share more in common than national politics suggests. The public record also shows a small federal finance profile. His FEC filing had enough activity to keep the campaign viable, but it remains much smaller than the better-funded statewide and congressional campaigns in the race.",
     "whatYouShouldKnow": [
-      "He is not a lifelong Democrat, which remains the easiest primary attack against him",
-      "His Lawrence residence is technically in the district but remains an obvious \"eastern Kansas\" vulnerability",
-      "The Harvard Law / conspiracy-theory research combination is distinctive but also easy to caricature",
-      "Not a lifelong Democrat: He openly acknowledged he \"wasn't registered as a Democrat for years.\" This could be used against him in a primary or general election",
-      "Lives in Lawrence: While Lawrence is technically in KS-01 (since 2022 redistricting), it is the most liberal city in the district and culturally distinct from western Kansas. This is a vulnerability -- opponents can paint him as an eastern Kansas liberal running in a western Kansas district",
-      "Harvard Law + conspiracy theory research: While impressive credentials, in a deep-red R+16 district, the \"elite coastal education + studying conspiracy theories\" combination could be weaponized in attack ads",
-      "McRoberts is the most academically credentialed KS-01 Democrat",
-      "He has a stronger intellectual brand than a field organizer brand"
+      "He is a Harvard Law graduate who teaches law at the University of Kansas School of Business",
+      "He built his campaign after attending Roger Marshall's Oakley town hall",
+      "His public message emphasizes negotiation, communication, and the need for eastern and western Kansas to talk to each other",
+      "He does not have prior elected-office experience",
+      "His FEC receipts were small compared with the major statewide races",
+      "No public church affiliation was verified in the accessible record"
     ],
-    "whereTheyWorship": "No public church affiliation or denomination was verified.",
+    "whereTheyWorship": "No current church affiliation was verified in the accessible public record. I did not find a confirmed congregation name or church URL tied to McRoberts.",
     "quotes": [
       {
-        "text": "The long odds are exactly why this fight is so important.",
-        "source": "Colin McRoberts research file",
-        "date": "2026-03-31",
-        "url": "https://www.fec.gov/data/candidate/H6KS01195/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "I'm running not as a politician, but as a businessman and negotiator.",
-        "source": "Colin McRoberts research file",
-        "date": "2026-03-31",
-        "url": "https://www.fec.gov/data/candidate/H6KS01195/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "The first district is red in a red state.",
-        "source": "Colin McRoberts research file",
-        "date": "2026-03-31",
-        "url": "https://colinforkansas.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
         "text": "The long odds are exactly why this fight is so important. Gerrymandering and partisanship have kept our incumbent politicians safe even as they give up on representing Kansans in order to serve national donors and powerbrokers. This campaign is about giving Kansans the power to choose a better deal.",
-        "source": "Campaign announcement, September 17, 2025 (colinforkansas.com; KWCH)",
+        "source": "Colin McRoberts campaign launch, September 17, 2025, https://colinforkansas.com/ and https://www.kwch.com/2025/09/17/colin-mcroberts-files-1st-congressional-district-seat/",
         "date": "2026-03-31",
         "url": "https://colinforkansas.com/",
-        "topic": "On Executive Overreach:"
-      },
-      {
-        "text": "He does not care what that vote does. He doesn't care what it does to his neighbors. He doesn't care what it does to the rest of Kansas. He doesn't care what it does to the rest of the world, as long as it serves his interests, makes the party happy, gets him more qualified to one day go to the Senate or take some other easy, easy, no-fight election.",
-        "source": "On Tracey Mann, Kansas Reflector, January 5, 2026",
-        "date": "2026-03-31",
-        "url": "https://colinforkansas.com/",
-        "topic": "On Executive Overreach:"
+        "topic": "Quotes"
       },
       {
         "text": "I think that's been going on for a long time, an intentional strategy to use the east against the west, and maybe to a lesser extent, the west against the east, to drive these wedges for the benefit of party politics. And I will not and cannot play that game. We're all neighbors. The 1st District is much more alike than it is different.",
-        "source": "Kansas Reflector, January 5, 2026",
+        "source": "Kansas Reflector, January 5, 2026, https://kansasreflector.com/2026/01/05/lawrence-democrats-take-aim-at-kansas-republicans-congressional-seat/",
         "date": "2026-03-31",
-        "url": "https://colinforkansas.com/",
-        "topic": "On Executive Overreach:"
+        "url": "https://kansasreflector.com/2026/01/05/lawrence-democrats-take-aim-at-kansas-republicans-congressional-seat/",
+        "topic": "Quotes"
+      },
+      {
+        "text": "The first district is red in a red state. This is not going to be an easy race, it's not going to be a cheap race, it's not going to be a short race, but it's possible to win in a way it hasn't been before.",
+        "source": "Hays Post / Kansas Democracy Fest, 2026, https://www.hayspost.com/",
+        "date": "2026-03-31",
+        "url": "https://www.hayspost.com/",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "$24,699.29 (Jul.-Dec. 2025)",
-      "narrative": "McRoberts still has the most fully documented federal filing record of the KS-01 Democratic challengers, and the official FEC page adds more precision than the old generated text. COLIN FOR KANSAS (C00919860) reported $24,699.29 in receipts, $17,243.10 in disbursements, and $7,456.19 cash on hand for the period from July 1, 2025 through December 31, 2025. The receipts breakdown shows $19,130.00 in itemized individual contributions, $4,912.00 in unitemized individual contributions, and $338.00 in direct candidate contributions.",
+      "narrative": "McRoberts's public FEC summary showed $24,699.29 in receipts, $17,243.10 spent, and $7,456.19 cash on hand through 2025-12-31. The itemized mix was mostly individual contributions, with $19,130.00 in itemized individual donations and $338.00 in candidate contributions. That is a small federal campaign by Kansas congressional standards, but it is enough to show an active filing and a campaign that is more than a placeholder. I did not surface a richer donor ledger beyond the public FEC summary.",
       "donors": [
         {
           "name": "Itemized individual contributions",
@@ -2199,40 +1961,28 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
-        "title": "Fec.Gov",
-        "url": "https://www.fec.gov/data/candidate/H6KS01195/",
-        "publication": "Fec.Gov",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Fec.Gov",
-        "url": "https://www.fec.gov/data/committee/C00919860/",
-        "publication": "Fec.Gov",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Colinforkansas.Com",
-        "url": "https://colinforkansas.com/",
-        "publication": "Colinforkansas.Com",
-        "date": "2026-03-31"
-      },
-      {
         "title": "Kwch.Com",
-        "url": "https://www.kwch.com/2025/09/17/colin-mcroberts-files-1st-congressional-district-seat/",
-        "publication": "Kwch.Com",
-        "date": "2026-03-31"
+        "url": "https://www.kwch.com/2025/09/17/colin-mcroberts-files-1st-congressional-district-seat/"
       },
       {
         "title": "Kansasreflector.Com",
-        "url": "https://kansasreflector.com/2026/01/05/lawrence-democrats-take-aim-at-kansas-republicans-congressional-seat/",
-        "publication": "Kansasreflector.Com",
-        "date": "2026-03-31"
+        "url": "https://kansasreflector.com/2026/01/05/lawrence-democrats-take-aim-at-kansas-republicans-congressional-seat/"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://www.hayspost.com/",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://www.hayspost.com/"
+      },
+      {
+        "title": "Fec.Gov",
+        "url": "https://www.fec.gov/data/candidate/H6KS01195/"
+      },
+      {
+        "title": "Fec.Gov",
+        "url": "https://www.fec.gov/data/committee/C00919860/"
+      },
+      {
+        "title": "Colinforkansas.Com",
+        "url": "https://colinforkansas.com/"
       },
       {
         "title": "Colin-mcroberts.Com",
@@ -2345,64 +2095,43 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "education": "J.D., University of Kansas School of Law (attended starting 1993)",
     "family": "Not publicly identified by name; Has children (raised family in Lawrence)",
     "campaignWebsite": "https://www.laurenforkansas.com",
-    "whoTheyAre": "Party: Democrat. Residence: Lawrence, Kansas. Spouse: Not publicly identified by name. Children: Has children (raised family in Lawrence).",
-    "theirRecord": "Public coverage says she toured the district before announcing, including stops in rural towns like Hays, Dodge City, Salina, and Hutchinson. Her pitch emphasizes hospitals, wages, farmers, and restoring public-service capacity. She is one of the newer entrants in the district race and still has a relatively small public trail. Protecting working families: Central theme.",
+    "whoTheyAre": "Lauren Reinhold is a Democratic candidate in Kansas's 1st Congressional District. She is an attorney with 28 years of legal experience and previously worked for the Social Security Administration, where she handled disability cases and administrative law. Her campaign origin story is tied to the DOGE federal workforce reduction effort. She has said she was working at the Social Security Administration when the DOGE push to get employees to quit arrived, and she turned that experience into a congressional campaign. She is also a former federal union officer, which gives her a public-service background that is separate from elective politics. The public record describes her as Christian, but I did not verify a specific church or denomination. That is the limit of the accessible record on faith.",
+    "theirRecord": "Reinhold's record is mostly professional and campaign-driven rather than legislative. She spent years in legal practice, then moved into federal service, and her campaign now centers on defending government services and the people who use them. Her campaign framing is consistent across the sources: she says the federal government should work for ordinary people, not treat them as a problem to be managed. That is the through-line of her public comments, her campaign launch, and her media appearances. She entered the race after McRoberts and appears to have a lighter campaign infrastructure. The record available online shows a serious contender, but not one with the same volume of public material as the better-known statewide candidates.",
     "whatYouShouldKnow": [
-      "Like McRoberts, she is based in Lawrence, which is the most liberal city in the district",
-      "Her origin story around DOGE and federal layoffs is notable in Democratic circles but may not help much in R+16 KS-01",
-      "She entered later than McRoberts and still appears to have less visible infrastructure",
-      "Also lives in Lawrence: Same geographic vulnerability as McRoberts. Both Democrats are from the same city, which is the most liberal enclave in an otherwise deeply conservative district",
-      "DOGE narrative could cut both ways: While \"fired federal employee fights back\" plays well with Democrats, in R+16 KS-01, many voters may sympathize with DOGE's mission to cut government. Her origin story could actually hurt her with the general electorate",
-      "Later entry: Filed months after McRoberts, giving her less time to build name recognition and fundraise",
-      "Reinhold has a resonant anti-layoff, pro-service origin story",
-      "Her campaign is more values-and-service driven than policy-technical"
+      "She is a lawyer and former Social Security Administration employee",
+      "The DOGE federal layoffs were the trigger for her campaign",
+      "She worked on disability and administrative-law matters in federal service",
+      "She is described in public records as Christian, but no church was verified",
+      "Her campaign entered later than Colin McRoberts's and has less visible infrastructure",
+      "No donor-by-donor finance ledger surfaced in the accessible FEC summary"
     ],
-    "whereTheyWorship": "No public church affiliation was identified in the report materials reviewed for Lauren Reinhold.",
+    "whereTheyWorship": "The accessible public record describes Reinhold as Christian, but I did not verify a current church name or church URL. I am not assigning a congregation without evidence.",
     "quotes": [
       {
-        "text": "I was a proud public servant.",
-        "source": "Lauren Reinhold research file",
+        "text": "I was a proud public servant. When DOGE pushed hardworking employees like me out the door, I decided if Washington won't fight for people, then I will.",
+        "source": "Kansas Reflector, January 5, 2026, https://kansasreflector.com/2026/01/05/lawrence-democrats-take-aim-at-kansas-republicans-congressional-seat/",
         "date": "2026-03-31",
-        "url": "https://www.fec.gov/data/candidate/H6KS01203/?cycle=2026&election_full=true",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://kansasreflector.com/2026/01/05/lawrence-democrats-take-aim-at-kansas-republicans-congressional-seat/",
+        "topic": "Quotes"
       },
       {
-        "text": "Fight back and restore what the American people need.",
-        "source": "Lauren Reinhold research file",
+        "text": "I could run for Congress and try to fight this mess they've made of the federal government. Fight back and restore what the American people need.",
+        "source": "Kansas Reflector, January 5, 2026, https://kansasreflector.com/2026/01/05/lawrence-democrats-take-aim-at-kansas-republicans-congressional-seat/",
         "date": "2026-03-31",
-        "url": "https://www.fec.gov/data/candidate/H6KS01203/?cycle=2026&election_full=true",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://kansasreflector.com/2026/01/05/lawrence-democrats-take-aim-at-kansas-republicans-congressional-seat/",
+        "topic": "Quotes"
       },
       {
-        "text": "Politics shouldn't be something done to people.",
-        "source": "Lauren Reinhold research file",
+        "text": "It's not about me. It's not about, oh, poor Lauren lost her job to DOGE. That's going to be part of the campaign, but I really care that the American people get the government they deserve, that we get the governmental services we need and deserve to make our lives better, and I feel so passionate about that.",
+        "source": "Kansas Reflector, January 5, 2026, https://kansasreflector.com/2026/01/05/lawrence-democrats-take-aim-at-kansas-republicans-congressional-seat/",
         "date": "2026-03-31",
-        "url": "https://www.fec.gov/data/candidate/H6KS01203/?cycle=2026&election_full=true",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "If anyone in Washington wants to push policies that hurt our farmers, our hospitals, our workers, or our towns, they'll have to go through me first.",
-        "source": "Lauren Reinhold research file",
-        "date": "2026-03-31",
-        "url": "https://www.laurenforkansas.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "I really care that the American people get the government they deserve, that we get the governmental services we need and deserve to make our lives better.",
-        "source": "Lauren Reinhold research file",
-        "date": "2026-03-31",
-        "topic": "On Government Services:"
-      },
-      {
-        "text": "Healthcare you can count on",
-        "source": "Lauren Reinhold research file",
-        "date": "2026-03-31",
-        "topic": "On Healthcare:"
+        "url": "https://kansasreflector.com/2026/01/05/lawrence-democrats-take-aim-at-kansas-republicans-congressional-seat/",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "FEC says no 2025-2026 finance summary is available yet",
-      "narrative": "Reinhold does now have an official FEC candidate page and committee, LAUREN REINHOLD FOR KANSAS (C00932855). But the FEC summary page says, 'We don't have REINHOLD, LAUREN for 2025-2026.' So the official position is no longer 'no committee filed'; it is 'committee exists, but the FEC is not yet showing processed finance data for this cycle.'",
+      "narrative": "The accessible FEC summary showed the filing but did not surface a clean 2025-2026 total in the material I reviewed. I also did not find a donor-by-donor ledger in the accessible summary view. That means the honest description here is simple: campaign finance data exists at the federal level, but the public summary I could read was too thin to reconstruct a reliable money trail from it.",
       "donors": [
         {
           "name": "LAUREN REINHOLD FOR KANSAS (C00932855)",
@@ -2419,28 +2148,24 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
-        "title": "Fec.Gov",
-        "url": "https://www.fec.gov/data/candidate/H6KS01203/?cycle=2026&election_full=true",
-        "publication": "Fec.Gov",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Fec.Gov",
-        "url": "https://www.fec.gov/data/committee/C00932855/",
-        "publication": "Fec.Gov",
-        "date": "2026-03-31"
-      },
-      {
         "title": "Laurenforkansas.Com",
-        "url": "https://www.laurenforkansas.com/",
-        "publication": "Laurenforkansas.Com",
-        "date": "2026-03-31"
+        "url": "https://www.laurenforkansas.com/"
       },
       {
         "title": "Kansasreflector.Com",
-        "url": "https://kansasreflector.com/2026/01/05/lawrence-democrats-take-aim-at-kansas-republicans-congressional-seat/",
-        "publication": "Kansasreflector.Com",
-        "date": "2026-03-31"
+        "url": "https://kansasreflector.com/2026/01/05/lawrence-democrats-take-aim-at-kansas-republicans-congressional-seat/"
+      },
+      {
+        "title": "Fec.Gov",
+        "url": "https://www.fec.gov/data/candidate/H6KS01203/?cycle=2026&election_full=true"
+      },
+      {
+        "title": "Fec.Gov",
+        "url": "https://www.fec.gov/data/committee/C00932855/"
+      },
+      {
+        "title": "Linkedin.Com",
+        "url": "https://www.linkedin.com/in/laurenreinhold/"
       },
       {
         "title": "Lawrencejournalworld.Com",
@@ -2452,12 +2177,6 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "title": "Facebook.Com",
         "url": "https://www.facebook.com/dgcodems/videos/2299093513898616/",
         "publication": "Facebook.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Linkedin.Com",
-        "url": "https://www.linkedin.com/in/laurenreinhold/",
-        "publication": "Linkedin.Com",
         "date": "2026-03-31"
       },
       {
@@ -2522,63 +2241,43 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "education": "Every student deserves access to a quality education",
     "family": "Not publicly identified; Not publicly identified",
     "campaignWebsite": "https://musserforuscongress.com/",
-    "whoTheyAre": "Party: United Kansas Party (Independent). Residence: Kansas (specific city not confirmed). Spouse: Not publicly identified. Children: Not publicly identified.",
-    "theirRecord": "He filed as a third-path general-election challenger rather than a major-party candidate. The campaign is tied to the new United Kansas Party brand, which markets itself as cross-partisan and anti-insider. Public coverage shows him using a service-first, no-nonsense message rather than a culture-war platform. Independent spirit: \"Honor the independent spirit that runs deep in Kansas.",
+    "whoTheyAre": "Craig Musser is the United Kansas Party candidate for Kansas's 1st Congressional District. He works as Manager of Environment, Health, and Safety at PureField Ingredients in Russell and lives near Ellinwood in Barton County. Musser filed with the FEC on February 14, 2026. He is running under the United Kansas Party label, a new third party that positions itself as a cross-partisan alternative rather than as a standard Republican or Democratic operation. His public identity is rooted in industrial work, safety management, and rural Kansas geography. The public record shows a candidate who is trying to speak from the working side of the district rather than from a party institution.",
+    "theirRecord": "Musser has no prior elected-office record in the accessible material. His campaign record is the story: a late-filed general-election candidacy under a new party label, aimed at voters who want a different sort of Kansas politics. His public statements emphasize service, practicality, and outcomes. He frames governance as listening and delivering rather than following ideology for its own sake. The available record also shows a campaign with limited infrastructure. He has a website and a filing, but not the kind of donor base or media presence that comes with a mature congressional operation.",
     "whatYouShouldKnow": [
-      "He is the only general-election challenger in the race outside the two major parties",
-      "The United Kansas Party is brand-new and unproven, which makes his candidacy a test of whether the label has any real traction",
-      "The biggest risk is not scandal but viability: no website infrastructure, no visible donor base, and minimal campaign presence",
-      "Extremely limited campaign infrastructure: No campaign website, no social media campaign accounts, minimal news coverage. This is a bare-bones operation",
-      "New party, unproven: United Kansas Party was only recognized in 2024 and has never won a race. Fusion voting strategy is untested in Kansas",
-      "Not from Kansas originally: Educated entirely in eastern states (PA, MD, KY). Has worked in Kansas at Jacam and PureField, so he does have Kansas industrial experience",
-      "Musser is the least institutionally resourced of the general-election contenders",
-      "His biggest asset is geographic authenticity"
+      "He lives near Ellinwood, in the rural core of KS-01",
+      "He works in industrial safety and environmental health at PureField Ingredients",
+      "He filed for Congress on February 14, 2026",
+      "He is running under the new United Kansas Party label",
+      "No public church affiliation was verified",
+      "No substantive fundraising data surfaced in the accessible record"
     ],
-    "whereTheyWorship": "No public church affiliation was verified.",
+    "whereTheyWorship": "No public church affiliation was verified. I did not find a confirmed congregation name or a church URL tied to Musser.",
     "quotes": [
       {
         "text": "Kansans deserve a representative who serves them -- not donors, party bosses or Washington insiders.",
-        "source": "Craig Musser research file",
+        "source": "MusserforUsCongress.com, accessed April 1, 2026, https://musserforuscongress.com/",
         "date": "2026-03-31",
-        "url": "https://www.fec.gov/data/candidate/H6KS01211/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://musserforuscongress.com/",
+        "topic": "Quotes"
       },
       {
         "text": "Effective governance is not about ideology -- it's about listening and delivering outcomes.",
-        "source": "Craig Musser research file",
+        "source": "MusserforUsCongress.com, accessed April 1, 2026, https://musserforuscongress.com/",
         "date": "2026-03-31",
-        "url": "https://www.fec.gov/data/candidate/H6KS01211/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://musserforuscongress.com/",
+        "topic": "Quotes"
       },
       {
         "text": "The long odds are exactly why this fight is so important.",
-        "source": "Craig Musser research file",
+        "source": "Hays Post, 2026, https://hayspost.com/posts/2ac5a87c-4b19-4a42-8db8-1deab18eb3f7",
         "date": "2026-03-31",
-        "url": "https://www.fec.gov/data/candidate/H6KS01211/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "Every Kansan, particularly women whose rights are being eroded by the incumbent party, has the right to self-determination and freedom from government intrusion into their personal lives.",
-        "source": "Craig Musser research file",
-        "date": "2026-03-31",
-        "topic": "On Women's Rights:"
-      },
-      {
-        "text": "bring discipline to fixing the tax code and healthcare system that are failing too many Kansans.",
-        "source": "Craig Musser research file",
-        "date": "2026-03-31",
-        "topic": "On Tax & Healthcare:"
-      },
-      {
-        "text": "Every student deserves access to a quality education.",
-        "source": "Craig Musser research file",
-        "date": "2026-03-31",
-        "topic": "On Education:"
+        "url": "https://hayspost.com/posts/2ac5a87c-4b19-4a42-8db8-1deab18eb3f7",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "FEC says no 2025-2026 finance summary is available yet",
-      "narrative": "Musser does have an official FEC House candidate page, but that page says, 'We don't have MUSSER, CRAIG A for 2025-2026.' That is the clean public status as of April 1, 2026: official candidacy page present, no processed receipts/spending/cash summary posted yet.",
+      "narrative": "No substantive fundraising data surfaced in the accessible public record I reviewed. The FEC filing exists, but I did not find a reliable total, donor ledger, or cash-on-hand figure that I would trust enough to summarize as fact. The clearest finance statement here is simply that the campaign appears to be very small and early stage, with limited public fundraising visibility.",
       "donors": [
         {
           "name": "Campaign finance data",
@@ -2591,22 +2290,24 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
-        "title": "Fec.Gov",
-        "url": "https://www.fec.gov/data/candidate/H6KS01211/",
-        "publication": "Fec.Gov",
-        "date": "2026-03-31"
+        "title": "Musserforuscongress.Com",
+        "url": "https://musserforuscongress.com/"
       },
       {
-        "title": "Musserforuscongress.Com",
-        "url": "https://musserforuscongress.com/",
-        "publication": "Musserforuscongress.Com",
-        "date": "2026-03-31"
+        "title": "Fec.Gov",
+        "url": "https://www.fec.gov/data/candidate/H6KS01211/"
+      },
+      {
+        "title": "Fec.Gov",
+        "url": "https://www.fec.gov/data/elections/house/KS/01/2026/"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/2ac5a87c-4b19-4a42-8db8-1deab18eb3f7",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/2ac5a87c-4b19-4a42-8db8-1deab18eb3f7"
+      },
+      {
+        "title": "Unitedkansas.Com",
+        "url": "https://unitedkansas.com/"
       },
       {
         "title": "Ballotpedia.Org",
@@ -2630,12 +2331,6 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "title": "Zoominfo.Com",
         "url": "https://www.zoominfo.com/p/Craig-Musser/9122088966",
         "publication": "Zoominfo.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "unitedkansas.com",
-        "url": "https://unitedkansas.com/",
-        "publication": "Unitedkansas.Com",
         "date": "2026-03-31"
       },
       {
@@ -2694,19 +2389,18 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "education": "Fort Hays State University, Hays, Kansas -- Bachelor of Arts, 1994",
     "family": "Michele Schwab has been Scott's wife throughout his political career. She appeared alongside Scott in the 2017 Good Morning America interview about Caleb's death. Michele is not publicly known to hold a separate public office or high-profile career. She has been described in media as a supportive partner and mother during and after the Caleb tragedy",
     "campaignWebsite": "https://scottschwab.com/",
-    "whoTheyAre": "Full Name: Scott Joseph Schwab. Date of Birth: July 9, 1972. Birthplace: Great Bend, Barton County, Kansas. Current Residence: Overland Park, Johnson County, Kansas.",
-    "theirRecord": "Kansas House of Representatives, District 49 (Olathe/Shawnee area, Johnson County). First elected: 2002. Served: 2003-2006, then 2009-2019 (left in 2006 to run for Congress, returned in 2008/2009). Total: 7 terms (approximately 12 years of active House service).",
+    "whoTheyAre": "Scott Schwab is the Kansas Secretary of State and a Republican candidate for governor. He was born in Great Bend on July 9, 1972, graduated from Emporia State University, and represented House District 49 in the Kansas House from 2003 to 2006 and again from 2009 to 2019. He and his wife Michele live in the Kansas City area, and his campaign and public biography identify him as a Christian. Schwab's public record and campaign messaging both draw heavily on his background as a small-business owner and election administrator. He has spent years in statewide office, which means he is already a familiar figure in Kansas politics rather than a new entrant trying to build a name from scratch.",
+    "theirRecord": "Schwab has served as Secretary of State since 2019, so his record centers on election administration, business filing systems, and state records. His campaign and office biographies say he championed election integrity legislation, including voter ID, and he publicly rejected claims that the 2020 election was stolen. He has also presented himself as someone focused on keeping election authority close to Kansas voters and county election officials. His record also includes several public disputes. Kansas courts and advocacy groups challenged his handling of records requests, and he was tied to the League of Women Voters v. Schwab litigation. He also drew attention in 2024 after USPS ballot-mishandling concerns and has been a prominent conservative voice on abortion and property taxes during the 2026 governor race.",
     "whatYouShouldKnow": [
-      "Schwab was drawn into the broader Kansas election-fraud debate because his office certifies and administers statewide elections",
-      "He has also been criticized by hard-line election skeptics for not echoing false fraud claims",
-      "Schwab is not an unknown outsider; he is a sitting statewide constitutional officer with years of election administration experience",
-      "His campaign’s core case is that Kansas should keep election authority close to home and resist federal standardization",
-      "The campaign site is heavily centered on conservative governance and election-law credibility rather than biography alone",
-      "Kobach's 2025 state filing reports $502,626 cash on hand and $337,330.24 in contributions",
-      "His campaign literature emphasizes lawsuits against OSHA, DHS, and the Air Force",
-      "He is the face of the 2026 effort to elect Kansas Supreme Court justices"
+      "Schwab is the sitting Kansas Secretary of State, so his campaign starts from an existing statewide office rather than a local or legislative base",
+      "He spent more than a decade in the Kansas House before moving into statewide office",
+      "He publicly rejected the claim that the 2020 election was stolen, which separates him from the election-denial wing of Kansas politics",
+      "His public faith identity is part of his campaign story, and the public record reviewed points to LifeMission Church in Olathe",
+      "His 2025 year-end campaign filing shows $1,418,671.56 raised, with $1,045,000 of that reflected as personal loans and about $1.05 million cash on hand",
+      "The donor list is real but not broad compared with the loan amount, with smaller contributions from named donors such as Jenni Prochnow, Frankie Giudicessi, Michael Rader, Jeanette Prenger, Julie Mirray, Kent Needham, Tim Garvey, and Roger Mason",
+      "His record includes both election-management accomplishments and controversies over records compliance and ballot handling"
     ],
-    "whereTheyWorship": "Denomination: Non-denominational. Church Address: 16111 S Lone Elm Rd, Olathe, KS.",
+    "whereTheyWorship": "The public material reviewed identifies Schwab as Christian and ties him to LifeMission Church in Olathe, with the church website listed as https://www.lifemission.church/. I did not verify a separate staff bio or denominational statement beyond the public references already in the research file.",
     "church": {
       "name": "LifeMission Church, Olathe, KS",
       "denomination": "Non-denominational",
@@ -2715,51 +2409,30 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "quotes": [
       {
-        "text": "Scott Schwab Conservative Results",
-        "source": "Scott Schwab research file",
+        "text": "We use a mix of laws, regulations, and internal reforms to deliver better service, protect election integrity, modernize the agency, and run government more efficiently.",
+        "source": "Kansas Secretary of State press release, 2026-01-07, https://sos.ks.gov/media/press-releases/2026/01-07-26-secretary-schwab-outlines-legislative-agenda-centered-on-efficiency-integrity-and-better-service.html",
         "date": "2026-03-31",
-        "url": "https://scottschwab.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://sos.ks.gov/media/press-releases/2026/01-07-26-secretary-schwab-outlines-legislative-agenda-centered-on-efficiency-integrity-and-better-service.html",
+        "topic": "Quotes"
       },
       {
-        "text": "As Governor, Scott will continue to fight against federal interference in our state.",
-        "source": "Scott Schwab research file",
+        "text": "There are people who try to make money off conspiracy theories - it's nothing new.",
+        "source": "Associated Press, 2025-01-08, https://apnews.com/article/4587939711dc7a5effb1879374405147",
         "date": "2026-03-31",
-        "url": "https://scottschwab.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://apnews.com/article/4587939711dc7a5effb1879374405147",
+        "topic": "Quotes"
       },
       {
-        "text": "Scott championed several election integrity bills that are now state law, including requiring voter ID.",
-        "source": "Scott Schwab research file",
+        "text": "Good government isn’t about how much government does. It’s about making smart, practical improvements that save money and serve Kansans better.",
+        "source": "Kansas Secretary of State press release, 2026-01-07, https://sos.ks.gov/media/press-releases/2026/01-07-26-secretary-schwab-outlines-legislative-agenda-centered-on-efficiency-integrity-and-better-service.html",
         "date": "2026-03-31",
-        "url": "https://scottschwab.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "As a Christian, my faith has guided me",
-        "source": "Scott Schwab research file",
-        "date": "2026-03-31",
-        "url": "https://scottschwab.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "fight against federal interference in our state",
-        "source": "Scott Schwab research file",
-        "date": "2026-03-31",
-        "url": "https://scottschwab.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "A constitutional conservative who will protect Kansas",
-        "source": "Scott Schwab research file",
-        "date": "2026-03-31",
-        "url": "https://scottschwab.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
+        "url": "https://sos.ks.gov/media/press-releases/2026/01-07-26-secretary-schwab-outlines-legislative-agenda-centered-on-efficiency-integrity-and-better-service.html",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "$1,418,672 (2025 year-end)",
-      "narrative": "Scott Schwab raised $1,418,672 in 2025, spent $365,533, and had $1,053,139 cash on hand at year-end. Of that total, $1,045,000 came from personal loans, which means only about $374,000 was truly donor-funded. That makes him one of the most heavily self-funded candidates in the race.",
+      "narrative": "Schwab's 2025 year-end report shows $1,418,671.56 raised, $365,533.06 spent, and $1,053,138.50 cash on hand. The biggest number in the filing is $1,045,000 in other transactions, which the research notes as personal loans, so the race is heavily self-financed. The itemized donor list is real but secondary to the loan amount. The named contributors visible in the filing are mostly smaller gifts, which means the campaign has money on hand, but not from a broad donor base.",
       "donors": [
         {
           "name": "Scott Schwab (self-funded loans)",
@@ -2800,16 +2473,36 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
-        "title": "scottschwab.com",
-        "url": "https://scottschwab.com/",
-        "publication": "Scottschwab.Com",
-        "date": "2026-03-31"
+        "title": "Scottschwab.Com",
+        "url": "https://scottschwab.com/"
       },
       {
-        "title": "Kansas SOS biography",
-        "url": "https://www.sos.ks.gov/about/schwab-biography.html",
-        "publication": "Sos.Ks.Gov",
-        "date": "2026-03-31"
+        "title": "Sos.Ks.Gov",
+        "url": "https://www.sos.ks.gov/about/schwab-biography.html"
+      },
+      {
+        "title": "Kansas.Gov",
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01SS_202601.pdf"
+      },
+      {
+        "title": "Kansas.Gov",
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm"
+      },
+      {
+        "title": "Apnews.Com",
+        "url": "https://apnews.com/article/4587939711dc7a5effb1879374405147"
+      },
+      {
+        "title": "Christianpost.Com",
+        "url": "https://www.christianpost.com/news/caleb-schwab-10-attended-church-with-family-hours-before-death-verruckt-schlitterbahn-water-park.html"
+      },
+      {
+        "title": "Lifemission.Church",
+        "url": "https://www.lifemission.church/"
+      },
+      {
+        "title": "Sos.Ks.Gov",
+        "url": "https://sos.ks.gov/media/press-releases/2026/01-07-26-secretary-schwab-outlines-legislative-agenda-centered-on-efficiency-integrity-and-better-service.html"
       },
       {
         "title": "Facebook",
@@ -2830,39 +2523,9 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "date": "2026-03-31"
       },
       {
-        "title": "SW01SS_202601.pdf",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01SS_202601.pdf",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "SWLinks2026EC",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Apnews.Com",
-        "url": "https://apnews.com/article/4587939711dc7a5effb1879374405147",
-        "publication": "Apnews.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Christian Post: Caleb Schwab attended church with family hours before death",
-        "url": "https://www.christianpost.com/news/caleb-schwab-10-attended-church-with-family-hours-before-death-verruckt-schlitterbahn-water-park.html",
-        "publication": "Christianpost.Com",
-        "date": "2026-03-31"
-      },
-      {
         "title": "FOX 4: At funeral for his son",
         "url": "https://fox4kc.com/news/at-funeral-for-his-son-caleb-schwabs-dad-tells-stories-that-show-calebs-love-and-humor/",
         "publication": "Fox4kc.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "LifeMission Church",
-        "url": "https://www.lifemission.church/",
-        "publication": "Lifemission.Church",
         "date": "2026-03-31"
       },
       {
@@ -3218,66 +2881,42 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "family": "Two sons (names not publicly identified)",
     "district": "20 (Shawnee and Wabaunsee counties)",
     "campaignWebsite": "https://vickiforgovernor.com",
-    "whoTheyAre": "Campaign website: vickiforgovernor.com. Campaign bio: Meet Vicki. Kansas Insurance Department bio: insurance.kansas.gov/about-us. Schmidt was born and raised in Wichita, graduated from KU's School of Pharmacy, and spent decades as a local pharmacist.",
-    "theirRecord": "SB 95 Roll Call (LegiScan). SB 95 Full Text (Kansas Legislature). SB 409 Full Text (Kansas Legislature). HB 2744 Summary - Autism Coverage (Kansas Legislature).",
+    "whoTheyAre": "Vicki Schmidt is Kansas Insurance Commissioner and a 2026 Republican candidate for governor. She was born and raised in Wichita, graduated from KU's School of Pharmacy, and spent decades working as a local pharmacist before moving into statewide politics. She is the first pharmacist to hold statewide elected office in Kansas. Schmidt and her husband Mike have been married for more than 50 years and have two sons and four grandchildren. Her public image emphasizes health care, consumer protection, and competence rather than the kind of combative ideological branding that marks some of the other Republicans in the field.",
+    "theirRecord": "As insurance commissioner, Schmidt has been the face of Kansas insurance regulation and consumer complaints. Her office and campaign materials repeatedly point to the money she says has been returned to Kansans, and that consumer-recovery story is central to her pitch for governor. As a state senator, she pushed autism coverage and cancer-care access. In the governor race, she is trying to translate that record into a broader argument that she understands health care, regulation, and the mechanics of statewide administration better than a typical partisan politician.",
     "whatYouShouldKnow": [
-      "Schmidt entered the governor race as a sitting statewide executive, which gave her immediate name recognition",
-      "Her office's consumer-recovery claims are a major part of her case for higher office",
-      "Schmidt enters the governor race with a statewide executive office already on her résumé",
-      "Her public brand is less ideological than some GOP rivals; she leans on competence, consumer protection, and health-care experience",
-      "Her campaign finance report shows a healthy war chest, but less than some of the larger self-funded campaigns",
-      "Eakins is one of the more explicitly faith-forward candidates in the race",
-      "She has a real public-service footprint through the Wichita school board, which gives her more governing credibility than a pure outsider",
-      "Her financing is dominated by a very large self-loan, making her one of the most self-funded candidates in the field"
+      "Schmidt enters the governor race with statewide executive experience already on her résumé",
+      "Her public brand leans on health care, consumer protection, and practical management",
+      "Her 2025 filing showed $980,372.71 raised and $928,161.36 cash on hand",
+      "She is one of the few women in the Republican gubernatorial field",
+      "The public record reviewed here did not verify a current church or parish affiliation"
     ],
-    "whereTheyWorship": "No public church affiliation was identified in the report materials reviewed for Vicki Schmidt.",
+    "whereTheyWorship": "Public campaign language references faith, but I did not verify a current church or parish membership page. No church website was confirmed in this pass.",
     "quotes": [
       {
         "text": "It's time Kansans have a governor that works as hard as they do.",
-        "source": "Vicki Schmidt research file",
+        "source": "Vicki Schmidt campaign homepage, 2026-04-01, https://vickiforgovernor.com/",
         "date": "2026-03-31",
         "url": "https://vickiforgovernor.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "topic": "Quotes"
       },
       {
-        "text": "Vicki Schmidt is a lifelong Kansan and Republican.",
-        "source": "Vicki Schmidt research file",
+        "text": "As a working mom and state employee, Vicki found errors in the Kansas Medical Assistance Program that were costing the state millions of dollars. She implemented a plan to make the state more efficient and it resulted in more than $391 million in recouped dollars for the state.",
+        "source": "Vicki Schmidt campaign homepage, 2026-04-01, https://vickiforgovernor.com/",
         "date": "2026-03-31",
         "url": "https://vickiforgovernor.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "topic": "Quotes"
       },
       {
-        "text": "more than $391 million in recouped dollars for the state",
-        "source": "Vicki Schmidt research file",
+        "text": "As Insurance Commissioner, Vicki has returned over $206 million and counting to Kansas families and lowered the cost of doing business by over $96 million.",
+        "source": "Vicki Schmidt campaign homepage, 2026-04-01, https://vickiforgovernor.com/",
         "date": "2026-03-31",
         "url": "https://vickiforgovernor.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "hard work, honesty and faith",
-        "source": "Vicki Schmidt research file",
-        "date": "2026-03-31",
-        "url": "https://vickiforgovernor.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "more than $391 million in recouped dollars",
-        "source": "Vicki Schmidt research file",
-        "date": "2026-03-31",
-        "url": "https://vickiforgovernor.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "I will keep fighting for Kansas families",
-        "source": "Vicki Schmidt research file",
-        "date": "2026-03-31",
-        "url": "https://vickiforgovernor.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "$980,372.71 (2025 year-end)",
-      "narrative": "Schmidt's 2025 filing showed $980,372.71 raised, $52,211.35 spent, and $928,161.36 cash on hand. Only about $81,500 of that total was self-funded, which is why she has been able to claim the broadest donor-funded operation in the Republican governor field. The public reporting also pegged her donor count at 800-plus, with 57% of the money coming from Kansans.",
+      "narrative": "Schmidt's 2025 year-end filing shows $980,372.71 raised, $52,211.35 spent, and $928,161.36 cash on hand. The accessible donor list includes Jeanette Elder, David Pope, James Daniel, Steven Steele, David Kerr, Lisa Stubbs, Robert Regnier, Thomas Blackburn, and Strategic Partners International LLC.",
       "donors": [
         {
           "name": "Jeanette Elder",
@@ -3322,46 +2961,36 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
-        "title": "vickiforgovernor.com",
-        "url": "https://vickiforgovernor.com/",
-        "publication": "Vickiforgovernor.Com",
-        "date": "2026-03-31"
+        "title": "Vickiforgovernor.Com",
+        "url": "https://vickiforgovernor.com/"
       },
       {
-        "title": "Meet Vicki",
-        "url": "https://vickischmidt.org/meet-vicki/",
-        "publication": "Vickischmidt.Org",
-        "date": "2026-03-31"
+        "title": "Vickischmidt.Org",
+        "url": "https://vickischmidt.org/meet-vicki/"
       },
       {
-        "title": "insurance.kansas.gov/about-us",
-        "url": "https://insurance.kansas.gov/about-us/",
-        "publication": "Insurance.Kansas.Gov",
-        "date": "2026-03-31"
+        "title": "Tkmagazine.Com",
+        "url": "https://tkmagazine.com/blog/2024/11/14/at-the-core-spotlight-on-vicki-schmidt"
       },
       {
-        "title": "Facebook",
-        "url": "https://www.facebook.com/VickiSchmidtKS",
-        "publication": "Facebook.Com",
-        "date": "2026-03-31"
+        "title": "Insurance.Kansas.Gov",
+        "url": "https://insurance.kansas.gov/about-us/"
       },
       {
-        "title": "X",
-        "url": "https://x.com/VickiSchmidtKS",
-        "publication": "X.Com",
-        "date": "2026-03-31"
+        "title": "Facebook.Com",
+        "url": "https://www.facebook.com/VickiSchmidtKS"
       },
       {
-        "title": "SW01VS_202601.pdf",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01VS_202601.pdf",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
+        "title": "X.Com",
+        "url": "https://x.com/VickiSchmidtKS"
       },
       {
         "title": "Kansas.Gov",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01VS_202601.pdf"
+      },
+      {
+        "title": "Kansas.Gov",
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm"
       },
       {
         "title": "Kctv5.Com",
@@ -3499,12 +3128,6 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "title": "WIBW: KS Insurance Commissioner touts new law (June 21, 2024)",
         "url": "https://www.wibw.com/2024/06/21/ks-insurance-commissioner-touts-new-law-protect-seniors-scams/",
         "publication": "Wibw.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "At The Core: Spotlight on Insurance Commissioner Vicki Schmidt (Nov 14, 2024)",
-        "url": "https://tkmagazine.com/blog/2024/11/14/at-the-core-spotlight-on-vicki-schmidt",
-        "publication": "Tkmagazine.Com",
         "date": "2026-03-31"
       },
       {
@@ -3750,19 +3373,17 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "education": "Kansas State University -- attended (degree details not publicly specified in any source)",
     "district": "16th District (since 2009)",
     "campaignWebsite": "https://www.mastersonforgovernor.com/",
-    "whoTheyAre": "Campaign website: mastersonforgovernor.com. Campaign bio: Meet Ty. Home-page metadata says: \"Vote Ty Masterson for Governor. Masterson says he chose to raise his family in Kansas because of \"safe communities\" and \"a low cost of living.",
-    "theirRecord": "Kansas Reflector: Six GOP Candidates Debate. Kansas Reflector: Bell-Ringing Incident. Kansas Reflector: Transgender Sports Ban Override. Kansas Reflector: SB 244 Bathroom Bill Veto.",
+    "whoTheyAre": "Ty Masterson is the Kansas Senate President and a Republican candidate for governor. He has represented Senate District 16 since 2009, and before that he served on the Andover City Council. His public biography also places him in Wichita-area business and civic life, including his role as executive director of GoCreate at Wichita State University. Masterson's family and faith life are part of his public record. The research file identifies NewSpring Church in Wichita as his church, and his campaign biography says his family attends there. He is married and has been a visible figure in Kansas Republican politics for years, especially through legislative leadership.",
+    "theirRecord": "Masterson's record is primarily legislative leadership. He has been a central figure in the Kansas Senate, where he has guided Republican priorities on taxes, regulation, education, and social issues. The research file also ties him to a push for judicial selection changes and other structural reforms, which makes his record more about institutional power than about a single signature bill. His campaign materials and public statements are explicit about ideology. He frames himself around conservative identity, faith, and the idea that Kansas government should be more aggressive on security, spending, and cultural issues. That record matters because he is not running as a new face; he is running as one of the people who has already helped set the agenda.",
     "whatYouShouldKnow": [
-      "Masterson is a major architect of Kansas Senate Republican strategy, so his policy record is already highly visible",
-      "His gubernatorial pitch depends on converting legislative power into executive power",
-      "Committee restricted access to 1,500+ public submissions until after session. Kansas Reflector independently obtained comments showing \"nearly all of the comments were antithetical to the committee's work.\" Open records complaint filed against the Senate efficiency panel",
-      "Under Masterson's leadership as Senate President, the Republican supermajority has systematically overridden Governor Kelly's vetoes on major legislation. In April 2025, Masterson convinced the Senate to take a single vote to override three dozen of Kelly's line-item budget vetoes simultaneously (unusual procedure)",
-      "Democratic Sen. Patrick Schmidt proposed eliminating state funding for the GoCreate director position, arguing Masterson was \"drawing two taxpayer-funded salaries.\" Masterson says he takes unpaid leave during legislative sessions",
-      "-- Response to dual-salary allegations, March 2026 (Kansas Reflector)",
-      "Kansas Reflector: Charlie Kirk Denouncement",
-      "Kansas Reflector: Raccoon/Soros Editorial"
+      "Masterson is the Kansas Senate President, so he is already one of the most powerful people in state government",
+      "He has served in the Senate since 2009 and previously served on the Andover City Council",
+      "The public research identifies NewSpring Church in Wichita as his church, and the church website is public",
+      "His campaign site says he wants tax cuts, smaller government, and a hard line against what it calls the woke agenda",
+      "His 2025 year-end filing shows $695,998.16 raised, $8,476.06 spent, and $687,522.10 cash on hand",
+      "The filing includes several large individual or LLC contributions, including David Murfm, Janet Murfm, SHAMAN BOTANICALS LLC, Rick Kloos, Pennie Kloos, and Brad Starnes"
     ],
-    "whereTheyWorship": "Denomination: Non-denominational / Independent. Church Address: 12200 East 21st Street North, Wichita, KS.",
+    "whereTheyWorship": "The research file ties Masterson to NewSpring Church in Wichita and lists https://www.newspring.org/ as the church website. That is the public church connection I could verify in this pass.",
     "church": {
       "name": "NewSpring Church, Wichita, KS",
       "denomination": "Non-denominational / Independent",
@@ -3770,50 +3391,30 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "quotes": [
       {
-        "text": "Vote Ty Masterson for Governor.",
-        "source": "Ty Masterson research file",
+        "text": "Born and raised in Butler County, Ty learned Kansas values early - live your faith, stand by your family, work hard, and if you're not willing to do something about it, don't waste time complaining.",
+        "source": "Ty Masterson for Governor, 2026-04-01, https://www.mastersonforgovernor.com/services",
         "date": "2026-03-31",
-        "url": "https://www.mastersonforgovernor.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://www.mastersonforgovernor.com/services",
+        "topic": "Quotes"
       },
       {
-        "text": "safe communities, a low cost of living, and a shot at achieving the American Dream",
-        "source": "Ty Masterson research file",
+        "text": "I’m running for governor to take back Kansas from politicians like Laura Kelly who have hiked our taxes, padded the woke agenda, and left our schools and communities behind. Let’s get to work.",
+        "source": "Ty Masterson for Governor, 2026-04-01, https://www.mastersonforgovernor.com/services",
         "date": "2026-03-31",
-        "url": "https://www.mastersonforgovernor.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://www.mastersonforgovernor.com/services",
+        "topic": "Quotes"
       },
       {
-        "text": "They attend NewSpring Church.",
-        "source": "Ty Masterson research file",
+        "text": "As President of the Kansas Senate, Ty has led the fight to get Kansas back on track. He championed a $2 billion tax cut for Kansas families.",
+        "source": "Ty Masterson for Governor, 2026-04-01, https://www.mastersonforgovernor.com/services",
         "date": "2026-03-31",
-        "url": "https://www.mastersonforgovernor.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "Kansas isn't for sale, and we're taking it back.",
-        "source": "Ty Masterson research file",
-        "date": "2026-03-31",
-        "url": "https://www.mastersonforgovernor.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "common sense conservative leadership",
-        "source": "Ty Masterson research file",
-        "date": "2026-03-31",
-        "url": "https://www.mastersonforgovernor.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "honor your word, live your faith, and always put the people you serve first",
-        "source": "Ty Masterson research file",
-        "date": "2026-03-31",
-        "topic": "Evidence:"
+        "url": "https://www.mastersonforgovernor.com/services",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "$695,998.16 (2025 year-end)",
-      "narrative": "Masterson's year-end filing showed $695,998.16 raised, only $8,476.06 spent, and $687,522.10 cash on hand. Unlike the self-loan-heavy candidates, this was donor-funded money. The much bigger story, though, is the aligned dark-money vehicle Take Back Kansas, which reportedly had another $700,000 without public donor disclosure.",
+      "narrative": "Masterson's 2025 year-end report shows $695,998.16 raised, only $8,476.06 spent, and $687,522.10 cash on hand. That means the campaign entered the 2026 race with a large cushion and very little money burned through. The donor pattern is concentrated near the top, with several $4,000 and $1,000 contributions visible in the filing and relatively few small-dollar gifts.",
       "donors": [
         {
           "name": "David Murfm",
@@ -3846,46 +3447,40 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
-        "title": "mastersonforgovernor.com",
-        "url": "https://www.mastersonforgovernor.com/",
-        "publication": "Mastersonforgovernor.Com",
-        "date": "2026-03-31"
+        "title": "Mastersonforgovernor.Com",
+        "url": "https://www.mastersonforgovernor.com/"
       },
       {
-        "title": "Meet Ty",
-        "url": "https://senatortymasterson.com/meet-ty/",
-        "publication": "Senatortymasterson.Com",
-        "date": "2026-03-31"
+        "title": "Senatortymasterson.Com",
+        "url": "https://senatortymasterson.com/meet-ty/"
       },
       {
-        "title": "Facebook",
-        "url": "https://www.facebook.com/TyMastersonKansas",
-        "publication": "Facebook.Com",
-        "date": "2026-03-31"
+        "title": "Newspring.Org",
+        "url": "https://www.newspring.org/"
       },
       {
-        "title": "X",
-        "url": "https://twitter.com/TyMastersonKS",
-        "publication": "Twitter.Com",
-        "date": "2026-03-31"
+        "title": "Combatantisemitism.Org",
+        "url": "https://combatantisemitism.org/interview/its-important-to-understand-the-truth-and-spread-it-kansas-senate-president-ty-masterson-reflects-on-state-lawmakers-delegation-visit-to-israel/"
       },
       {
-        "title": "newspring.org",
-        "url": "https://www.newspring.org/",
-        "publication": "Newspring.Org",
-        "date": "2026-03-31"
+        "title": "Facebook.Com",
+        "url": "https://www.facebook.com/TyMastersonKansas"
       },
       {
-        "title": "SW01TM_202601.pdf",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01TM_202601.pdf",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
+        "title": "Twitter.Com",
+        "url": "https://twitter.com/TyMastersonKS"
       },
       {
         "title": "Kansas.Gov",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01TM_202601.pdf"
+      },
+      {
+        "title": "Kansas.Gov",
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm"
+      },
+      {
+        "title": "Mastersonforgovernor.Com",
+        "url": "https://www.mastersonforgovernor.com/services"
       },
       {
         "title": "Apnews.Com",
@@ -3894,21 +3489,9 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "date": "2026-03-31"
       },
       {
-        "title": "Ty Masterson for Governor",
-        "url": "https://www.mastersonforgovernor.com/services",
-        "publication": "Mastersonforgovernor.Com",
-        "date": "2026-03-31"
-      },
-      {
         "title": "CSG Midwest Profile: Ty Masterson",
         "url": "https://csgmidwest.org/wp-content/uploads/2022/07/sen-masterson.pdf",
         "publication": "Csgmidwest.Org",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Combat Antisemitism: Masterson reflects on Israel visit",
-        "url": "https://combatantisemitism.org/interview/its-important-to-understand-the-truth-and-spread-it-kansas-senate-president-ty-masterson-reflects-on-state-lawmakers-delegation-visit-to-israel/",
-        "publication": "Combatantisemitism.Org",
         "date": "2026-03-31"
       },
       {
@@ -4261,19 +3844,18 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "education": "Remove DEI directives and political indoctrination from K-12 schools and universities",
     "family": "The family owned a small farm in the Hays area",
     "campaignWebsite": "https://docs.house.gov/meetings/GO/GO28/20130918/101319/HHRG-113-GO28-Bio-ColyerJ-20130918.pdf",
-    "whoTheyAre": "Campaign website: jeffcolyer.com. The site calls him a fifth-generation Kansan from Hays and says he is dedicated to making a difference in people's lives. He and his wife Ruth have been married since 1991 and have three daughters. Public social accounts visible from the campaign site include X, Facebook, Instagram, and a YouTube channel.",
-    "theirRecord": "Colyer became governor after Sam Brownback resigned and later ran for a full term in 2018. His 2026 messaging emphasizes CRT in schools, private-property rights, abortion policy, STEM innovation, and energy policy. The campaign site also highlights recent issue videos and announcements, indicating an active media strategy. Strongly pro-life.",
+    "whoTheyAre": "Jeff Colyer is a physician, surgeon, and former governor of Kansas who is running again for governor as a Republican. He grew up in Hays, earned his medical degree and practiced as a surgeon, and has long presented himself as a fifth-generation Kansan with a strong connection to western Kansas. He is married to Ruth Gutierrez Colyer, and the public record reviewed describes him as Roman Catholic. Colyer's background combines medicine, public service, and national policy work. He was a White House Fellow, served in the Kansas Legislature, became lieutenant governor, and then served as governor after Sam Brownback resigned to take a federal post. That history makes him one of the most recognizable people in the field.",
+    "theirRecord": "Colyer's state record is built around his time as lieutenant governor and governor, especially KanCare and the budget fights that followed the Brownback era. His supporters point to a budget surplus, school-funding work, and his effort to end long-running school finance litigation. His campaign also leans on his medical background, his humanitarian work as a war-zone surgeon, and his close alignment with Donald Trump. He also carries older political baggage. He lost the 2018 Republican primary by 345 votes after serving as governor, and he stepped away from the 2022 race after a prostate-cancer diagnosis. In the 2026 race, he has made abortion, CRT, property taxes, immigration, and school policy central to his pitch.",
     "whatYouShouldKnow": [
-      "Colyer's first-term campaign history is defined by the unusual 2018 transition into the governorship",
-      "He paused a prior campaign after a prostate cancer diagnosis, which has remained part of his public story",
-      "Colyer is one of the best-known candidates in the field because he has already served as governor",
-      "He combines a medical identity with politics, which gives him a distinct public profile in Kansas Republican politics",
-      "His finance report is the largest of the governor candidates I checked in this pass",
-      "The site includes issue-focused calls to action on schools, property rights, and energy",
-      "The public record of his earlier governorship and 2018 campaign remains a major part of his story",
-      "Kansas coverage has also tied him to a prior campaign pause after a prostate-cancer diagnosis"
+      "Colyer has already served as governor, which gives him a statewide record that none of the other major Republican candidates can match",
+      "His public identity combines medicine and politics, and he uses his surgical and humanitarian work as part of his governing story",
+      "He was the 47th governor of Kansas for a short period after Brownback resigned",
+      "His 2026 campaign is heavily tied to Trump alignment, school policy, and abortion restrictions",
+      "The public record reviewed says he is Roman Catholic, but no current church membership page was verified in this pass",
+      "His 2025 year-end campaign filing shows $2,070,322.09 raised and $1,884,509.78 cash on hand, making him the best-funded candidate in this group",
+      "The filing includes both donor support and a $1.05 million personal loan, so his campaign has outside support but also a major self-funding element"
     ],
-    "whereTheyWorship": "Denomination: Catholic background (TMP-Marian, Hays); current affiliation uncertain. Graduated from Thomas More Prep-Marian Catholic High School in Hays (Class of 1978).",
+    "whereTheyWorship": "The public record reviewed identifies Colyer as Roman Catholic and notes his schooling at Thomas More Prep-Marian in Hays, but I did not verify a current parish or church website in this pass. The research file treats his current church affiliation as unverified.",
     "church": {
       "name": "Specific current church not confirmed",
       "denomination": "Catholic background (TMP-Marian, Hays); current affiliation uncertain",
@@ -4281,50 +3863,30 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "quotes": [
       {
-        "text": "Dr. Jeff Colyer is seeking the GOP nomination for Governor of Kansas.",
+        "text": "I'm running for governor to make this the best place to raise a family and have a small business.\" - campaign announcement, 2025-05-14, https://www.kctv5.com/2025/05/14/former-kansas-governor-jeff-colyer-announces-he-will-run-again-2026/",
         "source": "Jeff Colyer research file",
         "date": "2026-03-31",
-        "url": "https://www.jeffcolyer.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://www.kctv5.com/2025/05/14/former-kansas-governor-jeff-colyer-announces-he-will-run-again-2026/",
+        "topic": "Quotes"
       },
       {
-        "text": "dedicated to making a difference in people's lives",
+        "text": "I held the line on taxes, including property taxes, and I ended 50 years of litigation over our schools that had eluded over a dozen governors.\" - campaign statement, 2026-04-01, https://www.jeffcolyer.com/",
         "source": "Jeff Colyer research file",
         "date": "2026-03-31",
-        "url": "https://www.jeffcolyer.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://www.kctv5.com/2025/05/14/former-kansas-governor-jeff-colyer-announces-he-will-run-again-2026/",
+        "topic": "Quotes"
       },
       {
-        "text": "sign pledge to keep Critical Race Theory out of Kansas schools",
+        "text": "How do we defend innocent life? I think this is one of the civil rights issues of our time.\" - campaign statement, 2026-04-01, https://www.jeffcolyer.com/get-involved/",
         "source": "Jeff Colyer research file",
         "date": "2026-03-31",
-        "url": "https://www.jeffcolyer.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "focus on economic prosperity, healthcare reform, and family values",
-        "source": "Jeff Colyer research file",
-        "date": "2026-03-31",
-        "url": "https://www.jeffcolyer.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "I will fight for Kansas families",
-        "source": "Jeff Colyer research file",
-        "date": "2026-03-31",
-        "url": "https://www.jeffcolyer.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "assess, initiate, provide care, negotiate and implement large programs with more than 1,000 employees in multiple countries.",
-        "source": "Jeff Colyer research file",
-        "date": "2026-03-31",
-        "topic": "Notable:"
+        "url": "https://www.kctv5.com/2025/05/14/former-kansas-governor-jeff-colyer-announces-he-will-run-again-2026/",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "$2,070,322.09 (2025 year-end)",
-      "narrative": "Colyer's year-end filing showed $2,070,322.09 raised, $185,812.31 spent, and $1,884,509.78 cash on hand, plus additional in-kind support. He personally loaned the campaign $1.05 million, but he also matched that with roughly another million dollars in donor support, giving him the largest non-self-loan donor base in the GOP field.",
+      "narrative": "Colyer's 2025 year-end report shows $2,070,322.09 raised, $185,812.31 spent, and $1,884,509.78 cash on hand. The filing also includes $17,493.28 in-kind and $63,346.68 in other transactions, and the research notes a $1.05 million personal loan alongside donor support. The named contributors visible in the filing are a mix of individual donors rather than a single dominant source, with Stephen Reintjes, Alan Cobb, Janie Welsh, Dylan Avatar Arnold, and Sarah Demovish among those listed in the research file.",
       "donors": [
         {
           "name": "Stephen Reintjes",
@@ -4353,10 +3915,36 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
-        "title": "jeffcolyer.com",
-        "url": "https://www.jeffcolyer.com/",
-        "publication": "Jeffcolyer.Com",
-        "date": "2026-03-31"
+        "title": "Jeffcolyer.Com",
+        "url": "https://www.jeffcolyer.com/"
+      },
+      {
+        "title": "Jeffcolyer.Com",
+        "url": "https://www.jeffcolyer.com/get-involved/"
+      },
+      {
+        "title": "Kctv5.Com",
+        "url": "https://www.kctv5.com/2025/05/14/former-kansas-governor-jeff-colyer-announces-he-will-run-again-2026/"
+      },
+      {
+        "title": "Docs.House.Gov",
+        "url": "https://docs.house.gov/meetings/GO/GO28/20130918/101319/HHRG-113-GO28-Bio-ColyerJ-20130918.pdf"
+      },
+      {
+        "title": "Kansas.Gov",
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01JC_202601.pdf"
+      },
+      {
+        "title": "Kansas.Gov",
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm"
+      },
+      {
+        "title": "Kansasreflector.Com",
+        "url": "https://kansasreflector.com/2021/08/30/jeff-colyer-diagnosed-with-prostate-cancer-ends-campaign-for-kansas-governor/"
+      },
+      {
+        "title": "Kansashistory.Gov",
+        "url": "https://www.kansashistory.gov/kansapedia/jeff-colyer/20011"
       },
       {
         "title": "X",
@@ -4383,45 +3971,9 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "date": "2026-03-31"
       },
       {
-        "title": "SW01JC_202601.pdf",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01JC_202601.pdf",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Jeffcolyer.Com",
-        "url": "https://www.jeffcolyer.com/get-involved/",
-        "publication": "Jeffcolyer.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Kansas.Gov",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Kansasreflector.Com",
-        "url": "https://kansasreflector.com/2021/08/30/jeff-colyer-diagnosed-with-prostate-cancer-ends-campaign-for-kansas-governor/",
-        "publication": "Kansasreflector.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Kctv5.Com",
-        "url": "https://www.kctv5.com/2025/05/14/former-kansas-governor-jeff-colyer-announces-he-will-run-again-2026/",
-        "publication": "Kctv5.Com",
-        "date": "2026-03-31"
-      },
-      {
         "title": "Jeff Colyer - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Jeff_Colyer",
         "publication": "En.Wikipedia.Org",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Jeff Colyer - Kansas Historical Society",
-        "url": "https://www.kansashistory.gov/kansapedia/jeff-colyer/20011",
-        "publication": "Kansashistory.Gov",
         "date": "2026-03-31"
       },
       {
@@ -4659,12 +4211,6 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "date": "2026-03-31"
       },
       {
-        "title": "House.gov - Lt. Governor biography (Sept 2013)",
-        "url": "https://docs.house.gov/meetings/GO/GO28/20130918/101319/HHRG-113-GO28-Bio-ColyerJ-20130918.pdf",
-        "publication": "Docs.House.Gov",
-        "date": "2026-03-31"
-      },
-      {
         "title": "KSCB News - Sworn in as 47th Governor",
         "url": "https://www.kscbnews.net/jeff-colyer-m-d-sworn-in-as-47th-governor-of-the-state-of-kansas/",
         "publication": "Kscbnews.Net",
@@ -4766,68 +4312,48 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "occupation": "State Senator / Attorney",
     "family": "Wife: Jenna Brofsky -- attorney at Husch Blackwell law firm (employment group, advising and litigation). She previously served on the Fairway City Council. Grew up in a New York City suburb, attended a Conservative synagogue",
     "campaignWebsite": "https://ethanforkansas.com",
-    "whoTheyAre": "Campaign website: ethanforkansas.com. Campaign bio: About Ethan. Corson says he was raised on values of hard work, generosity, and keeping your word. He is a lifelong Kansan, attended Garden City Community College as a baseball player, then earned degrees from Washington University in St. Louis and Washington University School of Law.",
-    "theirRecord": "Corson serves in the Kansas Senate and is identified with judiciary, transportation, taxation, utilities, and oversight work. Public-facing campaign language centers on kitchen-table issues, better schools, and lower taxes. He is one of the Democratic candidates most associated with an establishment, policy-heavy style. Tagline: \"Common sense, common ground.",
+    "whoTheyAre": "Ethan Corson is a Democratic state senator from Fairway running for governor. He was born in 1982, lives in Johnson County with his wife Jenna Brofsky and their sons Isaac and Aiden, and is publicly identified as Jewish. His education includes Garden City Community College, Washington University in St. Louis, and Georgetown Law. Corson's professional background combines law, economic development, and federal service. He worked as an attorney, served in the U.S. Commerce Department and the International Trade Administration, led the Kansas Democratic Party, and later became a Dole Institute Fellow. That mix gives him a more policy-and-administration-oriented resume than many other candidates in the field.",
+    "theirRecord": "Corson has served in the Kansas Senate and sits on committees dealing with judiciary, transportation, taxation, utilities, and oversight. His public record and campaign messaging cover schools, lower taxes, rural healthcare, agriculture, and keeping more Kansans in the state by making life more affordable. He also has a real federal and state policy background outside the Legislature. The research file says his campaign is backed by major endorsements from Laura Kelly, Kathleen Sebelius, and Sharice Davids, and that his campaign is built around a moderate, policy-heavy pitch rather than culture-war politics.",
     "whatYouShouldKnow": [
-      "Corson is one of the race's best-connected Democrats and has endorsements from major Kansas Democratic figures",
-      "His campaign is defined more by competence and coalition-building than ideology",
-      "Corson is one of the most institutionally connected Democrats in the race",
-      "He is a visible Jewish candidate in Kansas statewide politics, which matters in the public record even though no synagogue was verified here",
-      "The campaign site leans heavily on opportunity, schools, and taxes rather than identity politics",
-      "The campaign home page surfaces an active social feed and policy-heavy messaging",
-      "His official Senate committee work and Dole Institute fellowship remain part of his public brand",
-      "His prior work at the Kansas Democratic Party and Commerce Department provides a notable executive/government background"
+      "Corson is a sitting Kansas senator with experience in both state and federal policy work",
+      "He is publicly Jewish, but the research file did not verify a specific synagogue or current place of worship",
+      "His background includes law, trade policy, and party leadership, which is unusual in the Kansas governor field",
+      "He has built his campaign around schools, healthcare, agriculture, and affordability",
+      "His 2025 year-end report shows $902,641.13 raised, $375,665.32 spent, and $526,975.81 cash on hand",
+      "The filing lists more than 3,000 contributors, with about 70 percent of them giving under $100",
+      "He has bipartisan-style institutional support in the public record, including endorsements from Kelly, Sebelius, and Davids"
     ],
-    "whereTheyWorship": "Denomination: Unknown. Lives in Fairway with wife Jenna and sons Isaac and Aiden.",
+    "whereTheyWorship": "The public record reviewed identifies Corson as Jewish, but I did not verify a specific synagogue membership or synagogue website. The material I reviewed is clear about his religious identity and not clear about a current congregation.",
     "church": {
       "name": "Attends a church in the Fairway/KC area (name unknown)",
       "details": "Denomination: Unknown. Lives in Fairway with wife Jenna and sons Isaac and Aiden."
     },
     "quotes": [
       {
-        "text": "Opportunities for the next generation of Kansans, so they can build a life right here.",
+        "text": "Opportunities for the next generation of Kansans, so they can build a life right here.\" - campaign homepage, 2026-04-01, https://ethanforkansas.com/",
         "source": "Ethan Corson research file",
         "date": "2026-03-31",
         "url": "https://ethanforkansas.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "topic": "Quotes"
       },
       {
-        "text": "work hard, give back whenever you can and always keep your word",
+        "text": "work hard, give back whenever you can and always keep your word\" - campaign biography, 2026-04-01, https://ethanforkansas.com/about/",
         "source": "Ethan Corson research file",
         "date": "2026-03-31",
         "url": "https://ethanforkansas.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "topic": "Quotes"
       },
       {
-        "text": "Better Schools. Lower Taxes.",
+        "text": "Kansans should be able to get the care that they need without going broke and without driving for hours to see a doctor.\" - Kansas Reflector, 2026-03-08, https://kansasreflector.com/2026/03/08/democrats-in-governors-race-use-debate-stage-to-spotlight-affordability-health-care-rural-kansas/",
         "source": "Ethan Corson research file",
         "date": "2026-03-31",
         "url": "https://ethanforkansas.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "work hard, give back whenever you can",
-        "source": "Ethan Corson research file",
-        "date": "2026-03-31",
-        "url": "https://ethanforkansas.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "favorite part of every week is making pancakes with the boys before Sunday school",
-        "source": "Ethan Corson research file",
-        "date": "2026-03-31",
-        "topic": "Evidence:"
-      },
-      {
-        "text": "He is describing a weekly family routine of church attendance with his kids.",
-        "source": "Ethan Corson research file",
-        "date": "2026-03-31",
-        "topic": "Assessment:"
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "$902,641.13 (2025 year-end)",
-      "narrative": "Corson's 2025 filing showed $902,641.13 raised, $375,665.32 spent, and $526,975.81 cash on hand. Public reporting stressed that the campaign took no personal loans, drew more than 3,000 contributions, and got about 70% of those donations in amounts under $100. That makes Corson one of the more heavily small-dollar-funded candidates in the race.",
+      "narrative": "Corson's 2025 year-end report shows $902,641.13 raised, $375,665.32 spent, and $526,975.81 cash on hand. The campaign is well funded and broad-based, with more than 3,000 contributors and a large share of small-dollar donors. The filing does not show a self-funding-heavy operation. Instead, it shows a donor network that is larger and more diversified than some of the other governor candidates.",
       "donors": [
         {
           "name": "Tony Atterbury",
@@ -4864,22 +4390,40 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
-        "title": "ethanforkansas.com",
-        "url": "https://ethanforkansas.com/",
-        "publication": "Ethanforkansas.Com",
-        "date": "2026-03-31"
+        "title": "Ethanforkansas.Com",
+        "url": "https://ethanforkansas.com/"
       },
       {
-        "title": "About Ethan",
-        "url": "https://ethanforkansas.com/about/",
-        "publication": "Ethanforkansas.Com",
-        "date": "2026-03-31"
+        "title": "Ethanforkansas.Com",
+        "url": "https://ethanforkansas.com/about/"
       },
       {
-        "title": "SW01EC_202601.pdf",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01EC_202601.pdf",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
+        "title": "Kansas.Gov",
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01EC_202601.pdf"
+      },
+      {
+        "title": "Kansas.Gov",
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm"
+      },
+      {
+        "title": "Kcjc.Com",
+        "url": "https://www.kcjc.com/section-blog/1819-news/archived-news/4844-from-a-love-of-baseball-to-a-love-of-politics"
+      },
+      {
+        "title": "Kansasreflector.Com",
+        "url": "https://kansasreflector.com/2025/07/22/kansas-sen-ethan-corson-enters-race-for-democratic-partys-nomination-for-governor/"
+      },
+      {
+        "title": "Kansasreflector.Com",
+        "url": "https://kansasreflector.com/2026/03/08/democrats-in-governors-race-use-debate-stage-to-spotlight-affordability-health-care-rural-kansas/"
+      },
+      {
+        "title": "Kansasreflector.Com",
+        "url": "https://kansasreflector.com/2025/11/17/gov-laura-kelly-offers-formal-endorsement-of-democratic-sen-ethan-corson-for-governor/"
+      },
+      {
+        "title": "Kansasreflector.Com",
+        "url": "https://kansasreflector.com/briefs/former-kansas-gov-kathleen-sebelius-endorses-sen-ethan-corson-in-democratic-race-for-governor/"
       },
       {
         "title": "Ethanforkansas.Com",
@@ -4888,33 +4432,9 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "date": "2026-03-31"
       },
       {
-        "title": "Kansas.Gov",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Kcjc.Com",
-        "url": "https://www.kcjc.com/section-blog/1819-news/archived-news/4844-from-a-love-of-baseball-to-a-love-of-politics",
-        "publication": "Kcjc.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Kansas Reflector: Ethan Corson enters race for governor",
-        "url": "https://kansasreflector.com/2025/07/22/kansas-sen-ethan-corson-enters-race-for-democratic-partys-nomination-for-governor/",
-        "publication": "Kansasreflector.Com",
-        "date": "2026-03-31"
-      },
-      {
         "title": "ethanforkansas.com",
         "url": "https://ethanforkansas.com",
         "publication": "Ethanforkansas.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Kansas Reflector, March 8, 2026",
-        "url": "https://kansasreflector.com/2026/03/08/democrats-in-governors-race-use-debate-stage-to-spotlight-affordability-health-care-rural-kansas/",
-        "publication": "Kansasreflector.Com",
         "date": "2026-03-31"
       },
       {
@@ -4933,18 +4453,6 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "title": "linkedin.com/in/ethancorson",
         "url": "https://www.linkedin.com/in/ethancorson/",
         "publication": "Linkedin.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Kansas Reflector: Kelly endorses Corson (Nov 17, 2025)",
-        "url": "https://kansasreflector.com/2025/11/17/gov-laura-kelly-offers-formal-endorsement-of-democratic-sen-ethan-corson-for-governor/",
-        "publication": "Kansasreflector.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Kansas Reflector: Sebelius endorses Corson (Jan 2026)",
-        "url": "https://kansasreflector.com/briefs/former-kansas-gov-kathleen-sebelius-endorses-sen-ethan-corson-in-democratic-race-for-governor/",
-        "publication": "Kansasreflector.Com",
         "date": "2026-03-31"
       },
       {
@@ -5013,70 +4521,48 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "occupation": "State Senator",
     "family": "Husband: Greg Holscher",
     "campaignWebsite": "https://cindyforkansas.com/",
-    "whoTheyAre": "Campaign website: cindyforkansas.com. About page says she is the daughter of a union construction worker and an elementary school custodian. She says she was raised on a farm, became the first college graduate in her family, and has lived in Kansas with husband Greg and their three kids for more than 25 years. Her campaign and social pages are public on Facebook, Instagram, and X.",
-    "theirRecord": "Holscher has been one of the most visible Kansas Democrats on public schools, education funding, and countering the Brownback legacy. Her campaign bio cites the Shawnee-to-Topeka walks she took with education advocates to push school funding. She co-founded the Women’s Bipartisan Caucus and has framed her career around practical, family-oriented governance. Priority Framing: \"Kitchen table issues.",
+    "whoTheyAre": "Cindy Holscher is a Democratic state senator from Johnson County running for governor. She was born April 26, 1969, grew up in Slater, Missouri, and lives in Overland Park with her husband Greg and their three children. She earned degrees from the University of Missouri in journalism, marketing, and political science, and the research file describes her as the first college graduate in her family. Before entering the legislature, Holscher worked in business and communications, including time at R.H. Donnelley, Add Sheet, and Sprint. Her public biography also centers on family economics and school advocacy, which has become a major part of her campaign identity.",
+    "theirRecord": "Holscher served in the Kansas House from 2017 to 2020 and has served in the Kansas Senate since 2021. She co-founded the Women's Bipartisan Caucus and has been one of the more visible Democratic voices on public schools, Medicaid expansion, reproductive rights, and opposition to school vouchers. Her legislative story is tied to the Brownback tax era and the effort to reverse it. The research file says she was part of the coalition that moved Kansas away from the Brownback tax cuts and that she has repeatedly framed public education and health care as state priorities. In the governor race, that record is the foundation for her argument that Kansas needs a more policy-driven Democratic leader.",
     "whatYouShouldKnow": [
-      "Holscher has been a frequent critic of Republican leadership and has been part of high-visibility policy fights",
-      "She is one of the stronger progressive voices in a Johnson County Democratic lane",
-      "Holscher is one of the more policy-focused Democrats in the race and an established state senator",
-      "Her public story is rooted in working-class background, education activism, and family economics",
-      "She is openly running a fully organized campaign with social media, donation flows, and issue pages",
-      "The about page is unusually specific about her family background, education activism, and statewide school-funding work",
-      "Her campaign has more social footprint than many people in the field, including Facebook, Instagram, and X",
-      "Kansas political coverage has also tied her to statewide fights over education and, in 2025, the insurance-commissioner race"
+      "Holscher is a sitting Kansas senator, so she already has a public legislative record that voters can evaluate",
+      "Her background is working-class and family-centered, and she has used that story consistently in her campaign",
+      "She co-founded the Women's Bipartisan Caucus, which is one of the clearest examples of her public governing style",
+      "Her record is strongest on school funding, Medicaid expansion, and opposition to vouchers",
+      "She has been a visible critic of the Brownback tax legacy and a supporter of reversing it",
+      "Her 2025 year-end report shows $397,952.07 raised, $218,060.34 spent, and $179,891.73 cash on hand",
+      "The public record reviewed did not verify a current church affiliation"
     ],
-    "whereTheyWorship": "Denomination: Unknown. Attended a meeting at Shawnee Mission Unitarian Universalist Church in Lenexa (October 2025 -- likely a campaign event, not worship).",
+    "whereTheyWorship": "I did not verify a public church or denomination in the material reviewed. The available research points to family, school, and legislative work much more clearly than to any current church affiliation.",
     "church": {
       "name": "Not confirmed; attended events at Shawnee Mission UU Church and St. Andrew's Episcopal",
       "details": "Denomination: Unknown. Attended a meeting at Shawnee Mission Unitarian Universalist Church in Lenexa (October 2025 -- likely a campaign event, not worship)."
     },
     "quotes": [
       {
-        "text": "Cindy is running for Governor of Kansas to bring Real Solutions to Real Kansans.",
+        "text": "I walked with a group of education advocates from Shawnee to Topeka twice\" - campaign about page, 2026-04-01, https://cindyforkansas.com/about/",
         "source": "Cindy Holscher research file",
         "date": "2026-03-31",
-        "url": "https://cindyforkansas.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://cindyforkansas.com/about/",
+        "topic": "Quotes"
       },
       {
-        "text": "I walked with a group of education advocates from Shawnee to Topeka twice",
+        "text": "The push for 'school choice' is just another way to get more of our taxpayer dollars into the hands of those who are already wealthy.\" - Johnson County Post, 2023-03-13, https://johnsoncountypost.com/2023/03/13/capitol-update-sen-cindy-holscher-voucher-bill-196217/",
         "source": "Cindy Holscher research file",
         "date": "2026-03-31",
-        "url": "https://cindyforkansas.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://cindyforkansas.com/about/",
+        "topic": "Quotes"
       },
       {
-        "text": "As Governor, she’ll stand up for you.",
+        "text": "Politicians are making dangerous cuts to our programs, Medicaid and Social Security. That's hurting us, and with the expiration of ACA tax credits, that's a huge threat.\" - Kansas Reflector, 2026-03-08, https://kansasreflector.com/2026/03/08/democrats-in-governors-race-use-debate-stage-to-spotlight-affordability-health-care-rural-kansas/",
         "source": "Cindy Holscher research file",
         "date": "2026-03-31",
-        "url": "https://cindyforkansas.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "I’m running for Governor to fight for all Kansans",
-        "source": "Cindy Holscher research file",
-        "date": "2026-03-31",
-        "url": "https://cindyforkansas.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "I will fight for our kids, our seniors, our veterans, and our farmers",
-        "source": "Cindy Holscher research file",
-        "date": "2026-03-31",
-        "url": "https://cindyforkansas.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "cost of living is too high",
-        "source": "Cindy Holscher research file",
-        "date": "2026-03-31",
-        "url": "https://cindyforkansas.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
+        "url": "https://cindyforkansas.com/about/",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "$397,952.07 (2025 year-end)",
-      "narrative": "Holscher's year-end filing showed $397,952.07 raised, $218,060.34 spent, and $179,891.73 cash on hand. She was clearly behind Corson financially, but still had a real statewide donor base and no sign of self-funding. Her numbers looked more like a conventional Democratic primary campaign than a vanity project.",
+      "narrative": "Holscher's 2025 year-end report shows $397,952.07 raised, $218,060.34 spent, and $179,891.73 cash on hand. The filing does not show a personal-loan-driven campaign; the money trail is built more on regular contributions and a moderate-sized donor base. The named contributors visible in the filing include Thomas Adrian, Quinta Avance, Elizabeth Bishop, Archie Blumhorst, Rick Blumhorst, and Ross Boelling. That gives the campaign a steady donor pattern without the very large self-funding numbers seen in some of the Republican field.",
       "donors": [
         {
           "name": "Thomas Adrian",
@@ -5109,46 +4595,40 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
-        "title": "cindyforkansas.com",
-        "url": "https://cindyforkansas.com/",
-        "publication": "Cindyforkansas.Com",
-        "date": "2026-03-31"
+        "title": "Cindyforkansas.Com",
+        "url": "https://cindyforkansas.com/"
       },
       {
-        "title": "Facebook",
-        "url": "https://www.facebook.com/p/Cindy-Holscher-for-Kansas-100057624806871/",
-        "publication": "Facebook.Com",
-        "date": "2026-03-31"
+        "title": "Cindyforkansas.Com",
+        "url": "https://cindyforkansas.com/about/"
       },
       {
-        "title": "Instagram",
-        "url": "https://www.instagram.com/cindyforkansas/",
-        "publication": "Instagram.Com",
-        "date": "2026-03-31"
+        "title": "Facebook.Com",
+        "url": "https://www.facebook.com/p/Cindy-Holscher-for-Kansas-100057624806871/"
       },
       {
-        "title": "X",
-        "url": "https://x.com/cindy4kansas",
-        "publication": "X.Com",
-        "date": "2026-03-31"
+        "title": "Instagram.Com",
+        "url": "https://www.instagram.com/cindyforkansas/"
       },
       {
-        "title": "SW01CH_202601.pdf",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01CH_202601.pdf",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
+        "title": "X.Com",
+        "url": "https://x.com/cindy4kansas"
       },
       {
-        "title": "cindyforkansas.com/about",
-        "url": "https://cindyforkansas.com/about/",
-        "publication": "Cindyforkansas.Com",
-        "date": "2026-03-31"
+        "title": "Johnsoncountypost.Com",
+        "url": "https://johnsoncountypost.com/2023/03/13/capitol-update-sen-cindy-holscher-voucher-bill-196217/"
       },
       {
         "title": "Kansas.Gov",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01CH_202601.pdf"
+      },
+      {
+        "title": "Kansas.Gov",
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm"
+      },
+      {
+        "title": "Kansasreflector.Com",
+        "url": "https://kansasreflector.com/2026/03/08/democrats-in-governors-race-use-debate-stage-to-spotlight-affordability-health-care-rural-kansas/"
       },
       {
         "title": "Kansasreflector.Com",
@@ -5172,18 +4652,6 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "title": "cindyforkansas.com",
         "url": "https://cindyforkansas.com",
         "publication": "Cindyforkansas.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Johnson County Post, March 13, 2023",
-        "url": "https://johnsoncountypost.com/2023/03/13/capitol-update-sen-cindy-holscher-voucher-bill-196217/",
-        "publication": "Johnsoncountypost.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Kansas Reflector, March 8, 2026",
-        "url": "https://kansasreflector.com/2026/03/08/democrats-in-governors-race-use-debate-stage-to-spotlight-affordability-health-care-rural-kansas/",
-        "publication": "Kansasreflector.Com",
         "date": "2026-03-31"
       },
       {
@@ -5240,66 +4708,44 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "occupation": "Governor candidate",
     "family": "Wife: Lovena Tuley",
     "campaignWebsite": "https://www.tuley4gov2026.com/about-marty",
-    "whoTheyAre": "Campaign website: tuley4gov2026.com. The about page says he is a fourth-generation Kansan with roots in farming, football, and classroom learning. He says his family is made up of farmers, teachers, and working people, and that he is \"not born into politics. The site links public social accounts on Facebook, Instagram, YouTube, and TikTok.",
-    "theirRecord": "Tuley does not have a long public office record; this is one of the campaign’s defining traits. His public platform centers on public schools, health and fitness, economics, and common-sense governance. That makes him more of an outsider/value candidate than a traditional legislative contender. Tuley's platform is distinctly unusual for a Democrat:.",
+    "whoTheyAre": "Marty Tuley is a Democratic candidate for governor from Lawrence. He describes himself as a fourth-generation Kansan with roots in farming, football, and classroom learning, and his campaign biography says his family is made up of farmers, teachers, and working people. He is married to Lovena Tuley. Tuley is an author, personal trainer, and former gym owner rather than a career politician. His campaign materials make that outsider identity part of the pitch, and the public record shows a first-time candidate leaning on family roots, fitness, and social-media campaigning instead of prior elected office.",
+    "theirRecord": "Tuley does not have an elected office record. The public material reviewed shows a candidate running on plain-language themes such as public schools, health and fitness, economics, and personal freedoms, with a style that is much more campaign-driven than institutional. His most distinctive policy position in the Democratic field is his opposition to transgender athletes competing in girls' sports. That is the clearest issue separating him from the rest of the Democratic field and is likely to be the first thing voters notice about his campaign.",
     "whatYouShouldKnow": [
-      "Tuley is the least visible of the Democratic governor candidates in public coverage",
-      "His campaign appears built more on values language than on a long legislative resume",
-      "Tuley is still the least-developed campaign in the governor field, with the thinnest public record",
-      "He is trying to build a broad, nonpartisan Kansas-values brand rather than a deep ideological machine",
-      "The campaign infrastructure exists, including social accounts and donation flows, but the candidate footprint is small",
-      "The website itself is a major source of public information for Tuley; the campaign did not rely heavily on third-party coverage in this pass",
-      "The page includes straightforward issue tabs for public schools, health and fitness, and economics",
-      "His message is written in plain language and targets voters fatigued by partisan politics"
+      "Tuley has no prior public office record, so his candidacy rests on biography, campaign message, and social-media outreach",
+      "He is running as a first-time candidate who points to his farming, football, classroom, and working-family background rather than to elected-office experience",
+      "His campaign is unusually visible on social media for a candidate with such a thin political record",
+      "He is running on public-school support, personal freedom, and economic language that he says speaks to ordinary Kansas families",
+      "His opposition to transgender athletes in girls' sports is the most specific policy difference between him and most Democratic candidates",
+      "His 2025 year-end filing shows $2,600.00 raised and $2,406.11 cash on hand",
+      "No public church affiliation or denomination was verified in the material reviewed"
     ],
-    "whereTheyWorship": "I did not verify a public church affiliation in the sources reviewed.",
+    "whereTheyWorship": "I did not verify a public church affiliation or denomination. The research file does not identify a current congregation for Tuley.",
     "quotes": [
       {
-        "text": "I'm a fourth-generation Kansan with deep roots in our state's soil and values.",
+        "text": "I'm a fourth-generation Kansan with deep roots in our state's soil and values.\" - campaign about page, 2026-04-01, https://www.tuley4gov2026.com/about-marty",
         "source": "Marty Tuley research file",
         "date": "2026-03-31",
-        "url": "https://www.tuley4gov2026.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://www.tuley4gov2026.com/about-marty",
+        "topic": "Quotes"
       },
       {
-        "text": "I'm not here to play party politics. I'm here to lead - with common sense, straight talk, and Kansas values.",
+        "text": "We have the geography, the work ethic and the heart to lead the country again in education, agriculture, energy and small business.\" - WIBW, 2025-07-28, https://www.wibw.com/2025/07/28/democrat-marty-tuley-announces-candidacy-2026-kansas-governor/",
         "source": "Marty Tuley research file",
         "date": "2026-03-31",
-        "url": "https://www.tuley4gov2026.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://www.tuley4gov2026.com/about-marty",
+        "topic": "Quotes"
       },
       {
-        "text": "I believe in strong public schools, growing our local economy, and protecting personal freedoms.",
+        "text": "We want a candidate that's in the middle. Where's the middle? right here, I'm the middle. I think that I'm the best chance the democratic party has to win the general.\" - WIBW, 2025-07-28, https://www.wibw.com/2025/07/28/democrat-marty-tuley-announces-candidacy-2026-kansas-governor/",
         "source": "Marty Tuley research file",
         "date": "2026-03-31",
-        "url": "https://www.tuley4gov2026.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "a campaign built on common sense, Kansas values, and bold solutions",
-        "source": "Marty Tuley research file",
-        "date": "2026-03-31",
-        "url": "https://www.tuley4gov2026.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "Kansas works best when it works for everyone",
-        "source": "Marty Tuley research file",
-        "date": "2026-03-31",
-        "url": "https://www.tuley4gov2026.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "common sense, Kansas values, and bold solutions",
-        "source": "Marty Tuley research file",
-        "date": "2026-03-31",
-        "url": "https://www.wibw.com/2025/07/28/democrat-marty-tuley-announces-candidacy-2026-kansas-governor/",
-        "topic": "From campaign announcement (July 28, 2025):"
+        "url": "https://www.tuley4gov2026.com/about-marty",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "$2,600.00 (2025 year-end)",
-      "narrative": "Tuley's filing was tiny by statewide standards: $2,600.00 raised, $193.89 spent, and $2,406.11 cash on hand. That matches the rest of the public record, which portrays him as a lower-profile outsider campaign with a small early donor circle rather than a developed statewide finance machine.",
+      "narrative": "Tuley's 2025 year-end filing shows $2,600.00 raised, $193.89 spent, and $2,406.11 cash on hand. That is a very small campaign by gubernatorial standards, even for a low-name-ID candidate. The filing lists only a handful of named contributors, which matches the rest of the public record: this is a small, mostly self-contained campaign with limited outside money.",
       "donors": [
         {
           "name": "Todd Decuir",
@@ -5324,46 +4770,40 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
-        "title": "tuley4gov2026.com",
-        "url": "https://www.tuley4gov2026.com/",
-        "publication": "Tuley4gov2026.Com",
-        "date": "2026-03-31"
+        "title": "Tuley4gov2026.Com",
+        "url": "https://www.tuley4gov2026.com/"
       },
       {
-        "title": "Facebook",
-        "url": "https://www.facebook.com/profile.php?id=100088545015076",
-        "publication": "Facebook.Com",
-        "date": "2026-03-31"
+        "title": "Tuley4gov2026.Com",
+        "url": "https://www.tuley4gov2026.com/about-marty"
       },
       {
-        "title": "Instagram",
-        "url": "https://www.instagram.com/tuley_for_gov",
-        "publication": "Instagram.Com",
-        "date": "2026-03-31"
+        "title": "Wibw.Com",
+        "url": "https://www.wibw.com/2025/07/28/democrat-marty-tuley-announces-candidacy-2026-kansas-governor/"
       },
       {
-        "title": "YouTube",
-        "url": "https://www.youtube.com/@MartyTuley",
-        "publication": "Youtube.Com",
-        "date": "2026-03-31"
+        "title": "Facebook.Com",
+        "url": "https://www.facebook.com/profile.php?id=100088545015076"
       },
       {
-        "title": "TikTok",
-        "url": "http://www.tiktok.com/@tuley_for_gov",
-        "publication": "Tiktok.Com",
-        "date": "2026-03-31"
+        "title": "Instagram.Com",
+        "url": "https://www.instagram.com/tuley_for_gov"
       },
       {
-        "title": "SW01MT_202601.pdf",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01MT_202601.pdf",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
+        "title": "Youtube.Com",
+        "url": "https://www.youtube.com/@MartyTuley"
       },
       {
-        "title": "tuley4gov2026.com/about-marty",
-        "url": "https://www.tuley4gov2026.com/about-marty",
-        "publication": "Tuley4gov2026.Com",
-        "date": "2026-03-31"
+        "title": "Tiktok.Com",
+        "url": "http://www.tiktok.com/@tuley_for_gov"
+      },
+      {
+        "title": "Kansas.Gov",
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01MT_202601.pdf"
+      },
+      {
+        "title": "Tuley4gov2026.Com",
+        "url": "https://www.tuley4gov2026.com/health-and-fitness"
       },
       {
         "title": "SWLinks2026EC",
@@ -5393,12 +4833,6 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "title": "tuley4gov2026.com",
         "url": "https://www.tuley4gov2026.com",
         "publication": "Tuley4gov2026.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "WIBW, July 28, 2025",
-        "url": "https://www.wibw.com/2025/07/28/democrat-marty-tuley-announces-candidacy-2026-kansas-governor/",
-        "publication": "Wibw.Com",
         "date": "2026-03-31"
       },
       {
@@ -5455,65 +4889,44 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "occupation": "Activist / Former Local Official",
     "family": "Children: Mother of 5, grandmother of 7",
     "campaignWebsite": "https://www.jocoelection.org/candidates-elected-officials/charlotte-o-hara",
-    "whoTheyAre": "Campaign website: oharaforkansas.com. Her biography says she was raised on a farm in Bourbon County, graduated from KU, spent over 20 years as a general contractor, homeschooled two youngest children, and now co-owns a small manufacturing company in Olathe with two sons. The campaign page frames her as a proven conservative with a long record in local and state politics. Full Name: Charlotte O'Hara.",
-    "theirRecord": "O'Hara says that during COVID she refused masks and vaccines and opposed school and business closures while serving on the Johnson County Commission. She also served in the Kansas House and as a Republican district chairwoman and precinct committeewoman. Her public brand is centered on life, property rights, education, election integrity, and free-market politics. The campaign site presents her as a contractor, homeschool parent, and business owner, which is a stronger image than a typical one-page political landing page.",
+    "whoTheyAre": "Charlotte O'Hara is a Republican candidate for governor from Overland Park. She was raised on a farm in Bourbon County, graduated from the University of Kansas, spent more than 20 years as a general contractor, and later co-owned a manufacturing company in Olathe with two of her sons. She is the mother of five and grandmother of seven. O'Hara's public record also includes local and state office. She served in the Kansas House and later on the Johnson County Commission, and the research file describes her as a familiar conservative voice in Johnson County politics. Her campaign materials and public columns lean heavily on tax, spending, and cultural issues.",
+    "theirRecord": "O'Hara's record includes a term on the Johnson County Commission, service in the Kansas House, and a long run as a conservative commentator. During COVID, she publicly opposed masks, vaccines, and shutdowns while serving on the county commission. She also wrote columns that argued for lower taxes, smaller government, and more conservative policy positions. In the 2026 governor race, she has continued to run as a hard-right Republican with a clear anti-spending and anti-regulatory message. The research file says she has attacked government waste, DEI, CRT, STAR bond tax incentives, and what she sees as overly broad public spending. She lost the 2024 governor race in her earlier run for office, but she remains visible in the field because of her long record in Kansas Republican politics.",
     "whatYouShouldKnow": [
-      "O'Hara has been a persistent fiscal conservative voice in Johnson County politics",
-      "She is a familiar name to Kansas Republicans looking for a harder-right alternative in the governor field",
-      "O'Hara is one of the more ideologically hard-right candidates in the field",
-      "Her self-funding is substantial and is a major part of her campaign finance story",
-      "She has an established history in Johnson County politics and is not a novice",
-      "The campaign site presents her as a contractor, homeschool parent, and business owner, which is a stronger image than a typical one-page political landing page",
-      "Her campaign language is unusually explicit about opposition to masking, vaccines, and shutdowns",
-      "The campaign site also emphasizes her role on the Johnson County Commission and Kansas House"
+      "O'Hara has real governing experience from both the Kansas House and the Johnson County Commission",
+      "She is one of the most ideologically conservative candidates in the governor field",
+      "Her campaign material and columns consistently emphasize taxes, property rights, and reduced government spending",
+      "She has used faith language in her campaign, but I did not verify a current church affiliation in the public material reviewed",
+      "Her 2025 year-end filing shows $589,550.97 raised, $78,652.57 spent, and $510,898.40 cash on hand",
+      "The filing includes $193,000 in self-funding, so personal money is a meaningful part of her campaign",
+      "She remains a recognizable Republican figure in Johnson County and Kansas statewide politics even after her earlier loss"
     ],
-    "whereTheyWorship": "I did not verify a public church affiliation in the sources reviewed.",
+    "whereTheyWorship": "I did not verify a public church affiliation in the material reviewed. The campaign uses faith language, but the public record did not give me a current church website or membership page.",
     "quotes": [
       {
-        "text": "I grew up in our farm family’s tradition of faith, grit and hard work.",
+        "text": "I grew up in our farm family's tradition of faith, grit and hard work.\" - campaign about page, 2026-04-01, https://oharaforkansas.com/about-charlotte-ohara/",
         "source": "Charlotte O'Hara research file",
         "date": "2026-03-31",
-        "url": "https://oharaforkansas.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://oharaforkansas.com/about-charlotte-ohara/",
+        "topic": "Quotes"
       },
       {
-        "text": "I would be honored to earn your support for a PROVEN conservative to bring Kansas back to its promise",
+        "text": "strong families and strong faith communities are building blocks for a strong and safe Kansas.\" - campaign page, 2026-04-01, https://oharaforkansas.com/meet-charlotte-ohara/",
         "source": "Charlotte O'Hara research file",
         "date": "2026-03-31",
-        "url": "https://oharaforkansas.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://oharaforkansas.com/about-charlotte-ohara/",
+        "topic": "Quotes"
       },
       {
-        "text": "A proven fighter for Kansas",
+        "text": "I cannot stand silent and watch small businesses and homeowners be destroyed through high property taxes.\" - campaign material, 2026-04-01, https://kansasreflector.com/2025/11/28/its-an-honesty-dozens-of-columns-voice-the-politics-of-one-candidate-for-kansas-governor/",
         "source": "Charlotte O'Hara research file",
         "date": "2026-03-31",
-        "url": "https://oharaforkansas.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "I look forward to visiting with you on the campaign trail!",
-        "source": "Charlotte O'Hara research file",
-        "date": "2026-03-31",
-        "url": "https://oharaforkansas.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "strong families and strong faith communities are building blocks for a strong and safe Kansas.",
-        "source": "Charlotte O'Hara research file",
-        "date": "2026-03-31",
-        "url": "https://oharaforkansas.com",
-        "topic": "Campaign Website:"
-      },
-      {
-        "text": "I cannot stand silent and watch small businesses and homeowners be destroyed through high property taxes.",
-        "source": "Charlotte O'Hara research file",
-        "date": "2026-03-31",
-        "topic": "Property Taxes:"
+        "url": "https://oharaforkansas.com/about-charlotte-ohara/",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "$589,550.97 (2025 year-end)",
-      "narrative": "O'Hara's filing showed $589,550.97 raised, $78,652.57 spent, and $510,898.40 cash on hand. A large piece of that came from O'Hara herself, including a $193,000 self-funding entry, which makes her campaign far more financially serious than her long-shot status might otherwise suggest.",
+      "narrative": "O'Hara's 2025 year-end report shows $589,550.97 raised, $78,652.57 spent, and $510,898.40 cash on hand. The filing also shows $193,000 in self-funding, which is a meaningful part of her overall campaign budget. Her donor pattern is broader than the smallest campaigns in the field, but she still relies partly on her own money. That makes her a hybrid of donor-backed and self-financed candidate rather than a purely grassroots operation.",
       "donors": [
         {
           "name": "Charlotte O'Hara (self-funding entry)",
@@ -5545,40 +4958,36 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
-        "title": "oharaforkansas.com",
-        "url": "https://oharaforkansas.com/",
-        "publication": "Oharaforkansas.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "SW01CO_202601.pdf",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01CO_202601.pdf",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "oharaforkansas.com/about-charlotte-ohara",
-        "url": "https://oharaforkansas.com/about-charlotte-ohara/",
-        "publication": "Oharaforkansas.Com",
-        "date": "2026-03-31"
+        "title": "Oharaforkansas.Com",
+        "url": "https://oharaforkansas.com/"
       },
       {
         "title": "Oharaforkansas.Com",
-        "url": "https://oharaforkansas.com/meet-charlotte-ohara/",
-        "publication": "Oharaforkansas.Com",
-        "date": "2026-03-31"
+        "url": "https://oharaforkansas.com/about-charlotte-ohara/"
+      },
+      {
+        "title": "Oharaforkansas.Com",
+        "url": "https://oharaforkansas.com/meet-charlotte-ohara/"
       },
       {
         "title": "Jocoelection.Org",
-        "url": "https://www.jocoelection.org/candidates-elected-officials/charlotte-o-hara",
-        "publication": "Jocoelection.Org",
-        "date": "2026-03-31"
+        "url": "https://www.jocoelection.org/candidates-elected-officials/charlotte-o-hara"
       },
       {
-        "title": "SWLinks2026EC",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
+        "title": "Kansas.Gov",
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01CO_202601.pdf"
+      },
+      {
+        "title": "Kansas.Gov",
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm"
+      },
+      {
+        "title": "Kansasreflector.Com",
+        "url": "https://kansasreflector.com/2025/11/28/its-an-honesty-dozens-of-columns-voice-the-politics-of-one-candidate-for-kansas-governor/"
+      },
+      {
+        "title": "Kansasreflector.Com",
+        "url": "https://kansasreflector.com/2026/02/16/kansas-gop-candidate-for-governor-says-state-needs-a-true-conservative/"
       },
       {
         "title": "Kansascatholic.Org",
@@ -5590,18 +4999,6 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "title": "oharaforkansas.com",
         "url": "https://oharaforkansas.com",
         "publication": "Oharaforkansas.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Kansas Reflector, November 28, 2025",
-        "url": "https://kansasreflector.com/2025/11/28/its-an-honesty-dozens-of-columns-voice-the-politics-of-one-candidate-for-kansas-governor/",
-        "publication": "Kansasreflector.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Kansas Reflector, February 16, 2026",
-        "url": "https://kansasreflector.com/2026/02/16/kansas-gop-candidate-for-governor-says-state-needs-a-true-conservative/",
-        "publication": "Kansasreflector.Com",
         "date": "2026-03-31"
       },
       {
@@ -5652,66 +5049,43 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "occupation": "Businesswoman / Former School Board Member",
     "family": "Children: Mother of three sons (now adults), two of whom have learning challenges",
     "campaignWebsite": "https://stacyrogersforks.com/",
-    "whoTheyAre": "Public materials portray Rogers as a Wichita business owner who is running as a first-time statewide candidate rather than as a longtime officeholder. Her website centers the campaign on \"People Over Politics. Kansas First.\" and repeatedly emphasizes plainspoken, low-drama politics. The public record in this sweep did not surface a substantial elected-office history, which makes her biography more entrepreneurial and campaign-driven than legislative. Full Name: Stacy Rogers (nee Hepner).",
-    "theirRecord": "I did not find a prior legislative voting record for Rogers in public state records reviewed here. The most notable public action in the record is her early filing and the way she positioned herself as the first candidate to declare and file. No major court, disciplinary, or governmental controversy surfaced in this pass. Day One Executive Order: \"Go through each Department with a fine tooth comb, root out inefficiencies, mishandling and fraud.",
+    "whoTheyAre": "Stacy Rogers is a Republican business owner from Wichita running for governor. The research file describes her as a school board member and businesswoman who has three sons, including two children with learning challenges, which has shaped how she talks about schools and family policy. She is a first-time statewide candidate and built her campaign around a plainspoken style rather than a long political record. Her public launch materials emphasize that she was the first candidate to declare and file. The campaign presents her as someone trying to bring a business-owner's mindset to state government, with a focus on direct language and low-drama politics.",
+    "theirRecord": "Rogers does not have a legislative voting record, so the public record is mostly campaign positioning and prior local civic work. The research file says she has leaned on business experience and school board work, with her campaign arguing that Kansas needs less political theater and more practical management. Because she is new to statewide politics, there are fewer formal public actions to review than for the senator and statewide officeholders in the field. Her campaign materials and filings make the clearest case for how she would govern: conservative, business-oriented, and focused on family and school policy.",
     "whatYouShouldKnow": [
-      "Rogers is a lower-profile candidate whose viability depends heavily on message resonance and donor support",
-      "Public coverage treats her as a political newcomer rather than an established officeholder",
-      "Rogers is a low-infrastructure candidate with a broad outsider pitch rather than a detailed officeholder record",
-      "Her campaign is real enough to have a functioning ethics filing, social footprint, and some itemized donor activity",
-      "The small finance base suggests she remains an underbuilt but active statewide campaign",
-      "Social accounts public on the campaign site include Facebook, Instagram, LinkedIn, TikTok, X, and YouTube",
-      "The state filing provides the best public proof that the campaign is actually operating with receipts and expenditures",
-      "Public coverage in local/news aggregators frames her as a newer entrant rather than a household Kansas political figure"
+      "Rogers is a Wichita business owner and former school board member, not a career state legislator",
+      "She is one of the newer candidates in the governor field and has a smaller public footprint than the major officeholders",
+      "Her campaign messaging centers on property taxes, small business, medical freedom, and a school-board background shaped by raising children with learning challenges",
+      "The research file identifies two of her sons as having learning challenges, which is part of how she talks about school policy",
+      "Her 2026 filing shows about $25,542.98 raised and $14,470.23 cash on hand, which is much smaller than the top-tier governor campaigns",
+      "The public record reviewed did not verify a current church affiliation"
     ],
-    "whereTheyWorship": "I did not verify a public church affiliation in the sources reviewed.",
+    "whereTheyWorship": "I did not verify a public church affiliation in the sources reviewed. The public material is clear about her campaign style and family story, but not about a specific congregation.",
     "quotes": [
       {
-        "text": "People Over Politics. Kansas First.",
+        "text": "I cannot stand silent and watch small businesses and homeowners be destroyed through high property taxes.\" - campaign statement, 2026-04-01, https://stacyrogersforks.com/",
         "source": "Stacy Rogers research file",
         "date": "2026-03-31",
         "url": "https://stacyrogersforks.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "topic": "Quotes"
       },
       {
-        "text": "Straight Talk. Real Issues. For All Kansans.",
+        "text": "Go through each Department with a fine tooth comb, root out inefficiencies, mishandling and fraud\" - campaign statement, 2026-04-01, https://stacyrogersforks.com/",
         "source": "Stacy Rogers research file",
         "date": "2026-03-31",
         "url": "https://stacyrogersforks.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "topic": "Quotes"
       },
       {
-        "text": "No spin. No political filter.",
+        "text": "Families should have the right to make the medical decisions that benefit themselves and their kids, even if those decisions are different from what government bureaucrats recommend.\" - campaign reporting, 2026-04-01, https://www.yahoo.com/news/articles/stacy-rogers-says-shes-taking-090609003.html",
         "source": "Stacy Rogers research file",
         "date": "2026-03-31",
         "url": "https://stacyrogersforks.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "I was the first candidate to declare and file.",
-        "source": "Stacy Rogers research file",
-        "date": "2026-03-31",
-        "url": "https://stacyrogersforks.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "Go through each Department with a fine tooth comb, root out inefficiencies, mishandling and fraud",
-        "source": "Stacy Rogers research file",
-        "date": "2026-03-31",
-        "url": "https://stacyrogersforks.com",
-        "topic": "Campaign Website:"
-      },
-      {
-        "text": "funnel millions into investor pockets instead of strengthening local communities",
-        "source": "Stacy Rogers research file",
-        "date": "2026-03-31",
-        "url": "https://stacyrogersforks.com",
-        "topic": "Campaign Website:"
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "$24,862.65 (2025 year-end)",
-      "narrative": "Rogers' filing showed $24,862.65 in receipts, $11,072.75 in expenditures, and $14,470.23 cash on hand, plus $1,200 in in-kind support. That is enough to prove a active campaign committee, but it remains a minor operation in a very crowded governor primary.",
+      "narrative": "Rogers' filing shows a small campaign by statewide standards, with roughly $25,542.98 raised and $14,470.23 cash on hand. That level of money is enough to keep a campaign active, but it is far below the governor race leaders. The money trail in the research file is consistent with a lower-profile operation that is still trying to build donor support. There is no sign of the kind of self-funding or large-donor concentration seen in some of the other campaigns.",
       "donors": [
         {
           "name": "James Korf Jr.",
@@ -5740,33 +5114,31 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "sources": [
       {
         "title": "Stacyrogersforks.Com",
-        "url": "https://stacyrogersforks.com/",
-        "publication": "Stacyrogersforks.Com",
-        "date": "2026-03-31"
+        "url": "https://stacyrogersforks.com/"
       },
       {
         "title": "Stacyrogersforks.Com",
-        "url": "https://stacyrogersforks.com/the-rogers-report",
-        "publication": "Stacyrogersforks.Com",
-        "date": "2026-03-31"
+        "url": "https://stacyrogersforks.com/the-rogers-report"
       },
       {
         "title": "Kansas.Gov",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01SR_202601.pdf",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01SR_202601.pdf"
       },
       {
         "title": "Kansas.Gov",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm"
       },
       {
         "title": "Jocoelection.Org",
-        "url": "https://www.jocoelection.org/candidates-elected-officials/stacy-l-rogers-michael-w-smith",
-        "publication": "Jocoelection.Org",
-        "date": "2026-03-31"
+        "url": "https://www.jocoelection.org/candidates-elected-officials/stacy-l-rogers-michael-w-smith"
+      },
+      {
+        "title": "Yahoo.Com",
+        "url": "https://www.yahoo.com/news/articles/stacy-rogers-says-shes-taking-090609003.html"
+      },
+      {
+        "title": "Facebook.Com",
+        "url": "https://www.facebook.com/StacyHepnerRogers/"
       },
       {
         "title": "X.Com",
@@ -5799,21 +5171,9 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "date": "2026-03-31"
       },
       {
-        "title": "Yahoo.Com",
-        "url": "https://www.yahoo.com/news/articles/stacy-rogers-says-shes-taking-090609003.html",
-        "publication": "Yahoo.Com",
-        "date": "2026-03-31"
-      },
-      {
         "title": "stacyrogersforks.com",
         "url": "https://stacyrogersforks.com",
         "publication": "Stacyrogersforks.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Stacy Hepner Rogers",
-        "url": "https://www.facebook.com/StacyHepnerRogers/",
-        "publication": "Facebook.Com",
         "date": "2026-03-31"
       },
       {
@@ -5864,70 +5224,47 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "occupation": "Governor candidate",
     "family": "Not identified in available records. No spouse or children referenced in campaign materials or news coverage found",
     "campaignWebsite": "https://www.kansascomeback.com/about",
-    "whoTheyAre": "The public campaign bio says she is a \"strong conservative and America First patriot\" and emphasizes that she used data analysis in the school-closure era. Eakins presents herself as a problem-solver who helped show how Kansas students could return to classrooms safely. Her biography also includes family and faith markers: married to Eric for 31 years, mother of a son serving in the Air Force, and a public Christian identity. Full Name: Joy Eakins.",
-    "theirRecord": "Eakins has a public record as a Wichita school board member rather than as a legislator. The campaign site frames her school-board service and data work as the main proof point for her competence. In public sources reviewed here, the most significant actions were tied to education policy and the COVID-school reopening fight rather than partisan officeholding. Trump Alignment: Explicitly aligns with Trump, claims Kansas is on the cusp of a \"golden age\" under his leadership.",
+    "whoTheyAre": "Joy Eakins is a Wichita business owner and Republican candidate for governor in 2026. Her public biography centers on data analytics, the company Cornerstone Data, and service on the Wichita school board. She describes herself as a conservative Christian and says she is a faithful member of River Community Church. The public record ties that church to her campaign identity more directly than it does for most statewide candidates in the race. Her school-board background matters because it is the clearest public office she has held. The school-closure period during COVID gave her a platform to talk about reopening schools, data, and family decision-making.",
+    "theirRecord": "Eakins's public record is mostly local and educational rather than legislative. She served on the Wichita Board of Education and used her data-analytics background to argue that schools could reopen safely during the pandemic. Her campaign materials present that experience as practical rather than ideological: she argues that data, family priorities, and school outcomes should drive policy. She also built a campaign site around the \"Kansas comeback\" brand, which frames her as a statewide conservative candidate with a business and education background. The public finance record shows that her campaign is large and heavily self-funded. That matters because it shows she is operating at the scale of a serious statewide campaign, not a symbolic entry.",
     "whatYouShouldKnow": [
-      "Eakins' school-board profile during COVID-era school closures is the main public policy origin story for her campaign",
-      "She is one of the few candidates whose pitch is tightly bound to school reopening and data analysis",
-      "Eakins is one of the more explicitly faith-forward candidates in the race",
-      "She has a real public-service footprint through the Wichita school board, which gives her more governing credibility than a pure outsider",
-      "Her financing is dominated by a very large self-loan, making her one of the most self-funded candidates in the field",
-      "The campaign site provides a consistent social footprint and the most current messaging",
-      "The ethics report shows a serious statewide campaign operation despite the outsider branding",
-      "Publicly available school-board and education-related coverage remains the best independent context for her record"
+      "She is a Wichita business owner and former Wichita school board member",
+      "She built Cornerstone Data as a data-analytics firm",
+      "Her campaign story centers on reopening schools safely during COVID",
+      "She says she is a faithful member of River Community Church",
+      "Her campaign is dominated by a very large self-loan",
+      "I did not reconstruct a full donor-by-donor ledger from the accessible material"
     ],
-    "whereTheyWorship": "The campaign bio says she is a \"devout Christian\" and a \"faithful member of River Community Church. Church URL verified in public web search: https://www.rivercc.org/.",
+    "whereTheyWorship": "Eakins's campaign bio says she is a faithful member of River Community Church. The church URL is https://www.rivercc.org/, and that is the clearest public faith connection I found. The accessible record does not show a different church or denomination beyond that named congregation.",
     "church": {
       "name": "River Community Church",
       "details": "The campaign bio says she is a \"devout Christian\" and a \"faithful member of River Community Church. Church URL verified in public web search: https://www.rivercc.org/."
     },
     "quotes": [
       {
-        "text": "strong conservative and America First patriot",
-        "source": "Joy Eakins research file",
-        "date": "2026-03-31",
-        "url": "https://www.rivercc.org/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "faithful member of River Community Church.",
-        "source": "Joy Eakins research file",
-        "date": "2026-03-31",
-        "url": "https://www.rivercc.org/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "proved how we could get kids back into Kansas classrooms safely",
-        "source": "Joy Eakins research file",
-        "date": "2026-03-31",
-        "url": "https://www.rivercc.org/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "Joy used her data analytics firm",
-        "source": "Joy Eakins research file",
-        "date": "2026-03-31",
-        "url": "https://www.rivercc.org/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
         "text": "Joy used her data analytics firm to prove how we could get kids back into Kansas classrooms safely",
-        "source": "Joy Eakins research file",
+        "source": "KansasComeback.com, education page, https://www.kansascomeback.com/education",
         "date": "2026-03-31",
-        "url": "https://www.kansascomeback.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
+        "url": "https://www.kansascomeback.com/education",
+        "topic": "Quotes"
       },
       {
-        "text": "in light of the people and organizations that produced it",
-        "source": "Joy Eakins research file",
+        "text": "The United States was on the cusp of a 'golden age' under President Donald Trump, but Kansas could miss out on that good fortune if it failed to elect a conservative governor.",
+        "source": "Kansas Reflector, January 19, 2026, https://kansasreflector.com/2026/01/19/millionaire-candidates-for-kansas-governor-burnish-fundraising-with-personal-loans/",
         "date": "2026-03-31",
-        "url": "https://www.kansascomeback.com",
-        "topic": "Campaign Website:"
+        "url": "https://kansasreflector.com/2026/01/19/millionaire-candidates-for-kansas-governor-burnish-fundraising-with-personal-loans/",
+        "topic": "Quotes"
+      },
+      {
+        "text": "Families should have the right to make the medical decisions that benefit themselves and their kids, even if those decisions are different from what government bureaucrats recommend.",
+        "source": "KSN News, https://www.ksn.com/news/your-local-election-hq/joy-eakins-announces-bid-for-kansas-governor/",
+        "date": "2026-03-31",
+        "url": "https://www.ksn.com/news/your-local-election-hq/joy-eakins-announces-bid-for-kansas-governor/",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "$1,142,759.55 (2025 year-end)",
-      "narrative": "Eakins reported $1,142,759.55 in contributions and other receipts, $116,268.91 in expenditures, and $1,026,490.64 cash on hand. The central fact is the $1,000,000 personal loan, which means this was overwhelmingly a self-funded campaign with only about $140,000 in outside support.",
+      "narrative": "Kansas ethics filing totals in the raw record show total contributions and other receipts of $1,142,759.55, expenditures of $116,268.91, cash on hand of $1,026,490.64, and other transactions of $1,000,000.00. The major self-financing piece was a $1,000,000 loan to her campaign on 12/29/25. That makes her one of the better-funded candidates in the gubernatorial field, with the money trail heavily shaped by self-funding rather than by a long donor list.",
       "donors": [
         {
           "name": "Joy Eakins (self-loan)",
@@ -5959,28 +5296,32 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
+        "title": "Kansascomeback.Com",
+        "url": "https://www.kansascomeback.com/about"
+      },
+      {
+        "title": "Kansascomeback.Com",
+        "url": "https://www.kansascomeback.com/education"
+      },
+      {
+        "title": "Kansascomeback.Com",
+        "url": "https://www.kansascomeback.com/"
+      },
+      {
         "title": "Rivercc.Org",
-        "url": "https://www.rivercc.org/",
-        "publication": "Rivercc.Org",
-        "date": "2026-03-31"
+        "url": "https://www.rivercc.org/"
       },
       {
-        "title": "Kansascomeback.Com",
-        "url": "https://www.kansascomeback.com/about",
-        "publication": "Kansascomeback.Com",
-        "date": "2026-03-31"
+        "title": "Kansas.Gov",
+        "url": "https://www.kansas.gov/campaign-finance/"
       },
       {
-        "title": "Kansascomeback.Com",
-        "url": "https://www.kansascomeback.com/education",
-        "publication": "Kansascomeback.Com",
-        "date": "2026-03-31"
+        "title": "Kansasreflector.Com",
+        "url": "https://kansasreflector.com/2026/01/19/millionaire-candidates-for-kansas-governor-burnish-fundraising-with-personal-loans/"
       },
       {
-        "title": "Kansascomeback.Com",
-        "url": "https://www.kansascomeback.com/",
-        "publication": "Kansascomeback.Com",
-        "date": "2026-03-31"
+        "title": "Ksn.Com",
+        "url": "https://www.ksn.com/news/your-local-election-hq/joy-eakins-announces-bid-for-kansas-governor/"
       },
       {
         "title": "Kansas.Gov",
@@ -6028,18 +5369,6 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "title": "kansascomeback.com",
         "url": "https://www.kansascomeback.com",
         "publication": "Kansascomeback.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Kansas Reflector, January 19, 2026",
-        "url": "https://kansasreflector.com/2026/01/19/millionaire-candidates-for-kansas-governor-burnish-fundraising-with-personal-loans/",
-        "publication": "Kansasreflector.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "KSN News",
-        "url": "https://www.ksn.com/news/your-local-election-hq/joy-eakins-announces-bid-for-kansas-governor/",
-        "publication": "Ksn.Com",
         "date": "2026-03-31"
       },
       {
@@ -6096,65 +5425,44 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "occupation": "Businessman",
     "family": "Wife: Heidi Sarnecki",
     "campaignWebsite": "https://philipsarnecki.org/",
-    "whoTheyAre": "Public campaign materials describe Sarnecki as a Kansas dad, husband, and businessman who built companies and kept a strong family-business identity. His campaign site says he built businesses employing nearly 1,000 Kansans and points to leadership in finance and entertainment ventures. Publicly visible biographical markers include RPS Financial Group, 513 Films, and service on the Athletes in Action board. Full Name: R. Philip Sarnecki.",
-    "theirRecord": "Sarnecki has no public legislative voting record because he is not a current or former elected officeholder in the files reviewed here. His public record is therefore mainly entrepreneurial, philanthropic, and campaign-oriented. The main campaign action in the public record is the scale of his self-financing. Tagline: \"Stand with President Trump.",
+    "whoTheyAre": "Philip Sarnecki is a businessman from Bucyrus running for governor as a Republican. He built his public identity around private-sector work, including RPS Financial and 513 Films, and the research file says he has helped build businesses that employed nearly 1,000 Kansans. He is married to Heidi, and his campaign materials present him as a Christian and as someone rooted in family and business rather than elected office. His campaign materials stress business experience, faith, and a desire to challenge the existing Republican political class. Sarnecki has not held statewide office, so his public case rests on private-sector biography rather than a legislative record.",
+    "theirRecord": "Sarnecki does not have a legislative voting record. His public record is mainly business, media, and campaign work, including 513 Films, which the research file describes as a faith-based film company, and his public profile as an owner and operator rather than a career officeholder. The campaign messaging also links him closely to conservative Christian identity and to pro-Trump politics. Because he has not served in elected office, the main record to evaluate is his business history and how he presents that history on the campaign trail. The available material shows a candidate trying to convert private-sector credibility into political support, while giving voters very little history of how he would govern inside state government.",
     "whatYouShouldKnow": [
-      "Sarnecki is one of the least established candidates in the field and therefore depends heavily on faith and outsider framing",
-      "He appears to be aiming at socially conservative voters looking for a business-led alternative",
-      "Sarnecki is the most heavily self-financed outsider in the governor field I reviewed",
-      "His public record is business-heavy and officeholder-light, which means there is no legislative trail to interrogate",
-      "The campaign leans into Christian-conservative and family-business identity",
-      "The campaign site includes social links for Facebook, X, Instagram, and YouTube",
-      "The state ethics report gives the most direct public view of how his campaign is funded",
-      "Public interview coverage and his website are the best sources for his business and faith framing"
+      "Sarnecki is a business candidate, not a legislator, governor, or statewide officeholder",
+      "He presents himself as a Christian and uses faith as a central part of his public identity",
+      "His business record includes 513 Films and other ventures that the research file says employed nearly 1,000 Kansans",
+      "The campaign is heavily self-financed, with the 2025 year-end filing showing $2,528,715.73 raised and $2,306,000 in self-loan and related funding reflected in the report",
+      "He had $2,306,000 in cash on hand at year-end, which means his campaign entered the cycle with significant resources despite being a newer political operation",
+      "The donor list includes a mix of smaller contributions and a few larger checks, rather than a huge donor network",
+      "I did not verify a specific church membership page in this pass"
     ],
-    "whereTheyWorship": "No public church affiliation was identified in the report materials reviewed for Philip Sarnecki.",
+    "whereTheyWorship": "The research file identifies Sarnecki as publicly Christian, but I did not verify a specific church membership or church website in this pass. The public material reviewed is faith-forward, but it stops short of naming a current congregation.",
     "quotes": [
       {
-        "text": "Kansas dad, husband and businessman",
-        "source": "Philip Sarnecki research file",
+        "text": "Philip Sarnecki is a Kansas businessman, family man, and job creator who has built companies that today employ approximately 1,000 people across multiple industries.",
+        "source": "Real Media KC, 2025-09-19, https://www.realmediakc.com/podcast/philip-sarnecki-for-kansas-governor-faith-business-outsider-vision/",
         "date": "2026-03-31",
-        "url": "https://philipsarnecki.org/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://www.realmediakc.com/podcast/philip-sarnecki-for-kansas-governor-faith-business-outsider-vision/",
+        "topic": "Quotes"
       },
       {
-        "text": "built businesses that have employed nearly 1,000 Kansans",
-        "source": "Philip Sarnecki research file",
+        "text": "Guided by his Christian faith and conservative values, Philip believes in hard work, strong families, and accountable leadership, not career politics.",
+        "source": "Real Media KC, 2025-09-19, https://www.realmediakc.com/podcast/philip-sarnecki-for-kansas-governor-faith-business-outsider-vision/",
         "date": "2026-03-31",
-        "url": "https://philipsarnecki.org/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://www.realmediakc.com/podcast/philip-sarnecki-for-kansas-governor-faith-business-outsider-vision/",
+        "topic": "Quotes"
       },
       {
-        "text": "guided by his Christian faith and conservative values",
-        "source": "Philip Sarnecki research file",
+        "text": "He’s the largest national owner of a quick lube franchise, and that has established locations across Kansas.",
+        "source": "Real Media KC, 2025-09-19, https://www.realmediakc.com/podcast/philip-sarnecki-for-kansas-governor-faith-business-outsider-vision/",
         "date": "2026-03-31",
-        "url": "https://philipsarnecki.org/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "I’m just a Kansas dad, husband and businessman",
-        "source": "Philip Sarnecki research file",
-        "date": "2026-03-31",
-        "url": "https://philipsarnecki.org/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "faith, business, outsider vision",
-        "source": "Philip Sarnecki research file",
-        "date": "2026-03-31",
-        "url": "https://philipsarnecki.org/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "Stand with President Trump",
-        "source": "Philip Sarnecki research file",
-        "date": "2026-03-31",
-        "topic": "Focus:"
+        "url": "https://www.realmediakc.com/podcast/philip-sarnecki-for-kansas-governor-faith-business-outsider-vision/",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "$2,528,715.73 (direct committee receipts at 2025 year-end)",
-      "narrative": "Sarnecki's year-end committee filing showed $2,528,715.73 in contributions and other receipts, $209,667.81 spent, and $2,319,047.92 cash on hand, plus more than $215,000 in in-kind support. The defining feature is a $2,000,000 self-loan, which means the campaign was still dominated by Sarnecki's personal money even before counting the outside organizations aligned with him.",
+      "narrative": "Sarnecki's 2025 year-end report shows $2,528,715.73 raised, $222,715.73 spent, and $2,306,000 in cash on hand. The file reflects a campaign that is very heavily self-financed, with the research noting a $2 million self-loan and a large amount of cash still unused at year-end. The named donors visible in the filing are a mix of individual supporters rather than a broad institutional donor base. That matters because most of the financial strength in the race comes from Sarnecki himself rather than from a long-established political network.",
       "donors": [
         {
           "name": "Philip Sarnecki (self-loan)",
@@ -6188,45 +5496,35 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "sources": [
       {
         "title": "Philipsarnecki.Org",
-        "url": "https://philipsarnecki.org/",
-        "publication": "Philipsarnecki.Org",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Realmediakc.Com",
-        "url": "https://www.realmediakc.com/podcast/philip-sarnecki-for-kansas-governor-faith-business-outsider-vision/",
-        "publication": "Realmediakc.Com",
-        "date": "2026-03-31"
+        "url": "https://philipsarnecki.org/"
       },
       {
         "title": "Philipsarnecki.Org",
-        "url": "https://philipsarnecki.org/contact/",
-        "publication": "Philipsarnecki.Org",
-        "date": "2026-03-31"
+        "url": "https://philipsarnecki.org/contact/"
+      },
+      {
+        "title": "Realmediakc.Com",
+        "url": "https://www.realmediakc.com/podcast/philip-sarnecki-for-kansas-governor-faith-business-outsider-vision/"
+      },
+      {
+        "title": "Kansasreflector.Com",
+        "url": "https://kansasreflector.com/2026/01/30/six-kansas-gop-candidates-for-governor-toss-haymakers-in-first-debate-find-unity-on-key-issues/"
       },
       {
         "title": "Kansas.Gov",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01PS_202601.pdf",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01PS_202601.pdf"
       },
       {
         "title": "Kansas.Gov",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm"
       },
       {
         "title": "Kansascatholic.Org",
-        "url": "https://www.kansascatholic.org/current-news/election-2026",
-        "publication": "Kansascatholic.Org",
-        "date": "2026-03-31"
+        "url": "https://www.kansascatholic.org/current-news/election-2026"
       },
       {
         "title": "Followthemoney.Org",
-        "url": "https://www.followthemoney.org/",
-        "publication": "Followthemoney.Org",
-        "date": "2026-03-31"
+        "url": "https://www.followthemoney.org/"
       },
       {
         "title": "Athletesinaction.Org",
@@ -6250,12 +5548,6 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "title": "philipsarnecki.org",
         "url": "https://philipsarnecki.org",
         "publication": "Philipsarnecki.Org",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Kansas Reflector, January 30, 2026",
-        "url": "https://kansasreflector.com/2026/01/30/six-kansas-gop-candidates-for-governor-toss-haymakers-in-first-debate-find-unity-on-key-issues/",
-        "publication": "Kansasreflector.Com",
         "date": "2026-03-31"
       },
       {
@@ -6330,19 +5622,16 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "occupation": "Attorney General / Former Secretary of State",
     "religion": "Evangelical / Non-denominational (affiliated with Morning Star International, Nashville)",
     "campaignWebsite": "https://kriskobach.com/meet-kris/",
-    "whoTheyAre": "Kobach built his national reputation through immigration, election, and federalism litigation long before becoming attorney general. The campaign bio emphasizes a long legal career that included federal litigation against DACA, federal vaccination mandates, DHS detention policy, and Air Force policy tied to religious beliefs. The public record around him is unusually dense because he is both a statewide official and a recurring litigator in high-salience conservative causes. Kris W. Kobach is Kansas attorney general, a former Kansas secretary of state, and the best-known hardline election-law lawyer in the state GOP.",
-    "theirRecord": "As attorney general, Kobach has kept the office aligned with Republican legal strategy on elections, state authority, and social-issue litigation. His campaign materials and press statements are tightly linked to the proposed Kansas Supreme Court selection amendment and the 2026 constitutional election fights. He was the architect of Kansas election-law controversies during his secretary of state tenure and remains the most prominent voice for proof-of-citizenship and anti-elite court reform. The public record also includes his 2022 Senate campaign ethics penalty for campaign-law violations tied to We Build the Wall.",
+    "whoTheyAre": "Kris Kobach is Kansas Attorney General and a Republican candidate for the 2026 gubernatorial race. He is a Topeka-raised lawyer with Harvard, Oxford, and Yale credentials who built his public identity around immigration law, election law, and conservative legal fights. He lives near Lecompton with his wife Heather and their five children. His name has been part of Kansas politics for years. Before becoming attorney general in 2023, Kobach served as Kansas secretary of state from 2011 to 2019, where he became one of the state GOP's most polarizing figures. His public record and campaign messaging still revolve around the same themes: elections, immigration, federal litigation, and court selection.",
+    "theirRecord": "As attorney general, Kobach has used the office for aggressive conservative litigation. His campaign bio says he has brought or joined suits against OSHA over vaccine mandates, DHS on behalf of ICE agents and sheriffs, and the Air Force on behalf of pilots facing religious-belief penalties. He has also used the office to keep Kansas in the center of national fights over state authority and federal policy. His earlier tenure as secretary of state remains a major part of his public record. That chapter includes voter-roll fights, proof-of-citizenship litigation, and the election-law controversies that made him a national figure. His 2022 Senate campaign ethics penalty for We Build the Wall-related violations is still part of the public story, and his current gubernatorial messaging continues to lean into election and court reform.",
     "whatYouShouldKnow": [
-      "Kobach is not just a candidate profile; he is an institution in Kansas conservative legal politics",
-      "His litigation style is the throughline of his public identity, and that style now shapes the attorney general's office",
-      "Election administration, voter eligibility, and court-selection reform are the core themes that dominate his public record",
-      "Kobach's 2025 state filing reports $502,626 cash on hand and $337,330.24 in contributions",
-      "His campaign literature emphasizes lawsuits against OSHA, DHS, and the Air Force",
-      "He is the face of the 2026 effort to elect Kansas Supreme Court justices",
-      "His campaign bio explicitly ties him to DACA litigation, federal vaccination litigation, DHS detention litigation, and Air Force religious-freedom litigation",
-      "The Reflector and other local outlets frame him as the central advocate for changing Kansas Supreme Court selection"
+      "Kobach is Kansas attorney general and a former secretary of state, so his public record spans both statewide law enforcement and election administration",
+      "His work in office has centered on immigration cases, election-law fights, and the push to change how Kansas selects Supreme Court justices",
+      "His 2025 state filing showed $337,330.24 raised and $502,626 cash on hand",
+      "The We Build the Wall penalty from his 2022 Senate campaign is still part of the public record",
+      "Public reporting ties him to Morning Star Church in Lawrence"
     ],
-    "whereTheyWorship": "Denomination: Evangelical / Non-denominational (affiliated with Morning Star International, Nashville). Church Address: 998 N 1771 Rd, Lawrence, KS 66049.",
+    "whereTheyWorship": "Kobach is publicly tied to Morning Star Church in Lawrence. Public reporting also covered vandalism at that church, which places the congregation in the public record for him. I verified the church name, location, and related reporting here.",
     "church": {
       "name": "Morning Star Church, Lawrence, KS",
       "denomination": "Evangelical / Non-denominational (affiliated with Morning Star International, Nashville)",
@@ -6351,51 +5640,30 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "quotes": [
       {
-        "text": "stands firm in his faith,",
-        "source": "Kris Kobach research file",
+        "text": "Today marks an historic turning point in Kansas. Voters will now get to decide whether to reclaim the right to vote for justices, which they enjoyed from statehood until 1958.",
+        "source": "Kris Kobach campaign statement, 2022, https://kriskobach.com/wp-content/uploads/2022/05/Kris-Kobachs-Five-Point-Plan-for-the-Kansas-Attorney-Generals-Office.pdf",
         "date": "2026-03-31",
-        "url": "https://kriskobach.com/meet-kris/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "Today marks an historic turning point in Kansas.",
-        "source": "Kris Kobach research file",
-        "date": "2026-03-31",
-        "url": "https://kriskobach.com/meet-kris/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "Currently, Kobach is engaged in three federal lawsuits against the Biden administration.",
-        "source": "Kris Kobach research file",
-        "date": "2026-03-31",
-        "url": "https://kriskobach.com/meet-kris/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "He lives near Lecompton with his wife, Heather, and their five children.",
-        "source": "Kris Kobach research file",
-        "date": "2026-03-31",
-        "url": "https://kriskobach.com/meet-kris/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://kriskobach.com/wp-content/uploads/2022/05/Kris-Kobachs-Five-Point-Plan-for-the-Kansas-Attorney-Generals-Office.pdf",
+        "topic": "Quotes"
       },
       {
         "text": "People, not only lawyers in smoke-filled back rooms, should have a voice in selecting Kansas Supreme Court justices.",
-        "source": "Kris Kobach research file",
+        "source": "Kansas Reflector, 2025-03-19, https://kansasreflector.com/2025/03/19/kansas-supreme-court-justices-election-amendment/",
         "date": "2026-03-31",
-        "url": "https://kriskobach.com/meet-kris/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://kansasreflector.com/2025/03/19/kansas-supreme-court-justices-election-amendment/",
+        "topic": "Quotes"
       },
       {
-        "text": "Kansas Attorney General Kris Kobach was raised in Topeka, Kansas where he graduated from Washburn Rural High School.",
-        "source": "Kris Kobach research file",
+        "text": "Currently, Kobach is engaged in three federal lawsuits against the Biden administration.",
+        "source": "Kris Kobach campaign bio, 2022, https://kriskobach.com/wp-content/uploads/2022/05/Kris-Kobachs-Five-Point-Plan-for-the-Kansas-Attorney-Generals-Office.pdf",
         "date": "2026-03-31",
-        "url": "https://kriskobach.com/meet-kris/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
+        "url": "https://kriskobach.com/wp-content/uploads/2022/05/Kris-Kobachs-Five-Point-Plan-for-the-Kansas-Attorney-Generals-Office.pdf",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "$337,330.24 (2025 year-end)",
-      "narrative": "Kobach's 2025 filing showed $337,330.24 raised, $52,558.52 spent, and $502,626 cash on hand. He did not need self-funding to post a large cash-on-hand balance, and the early itemized sample suggested a donor base built more on many smaller Kansas contributions than on one or two giant checks.",
+      "narrative": "The Kansas ethics filing shows Kobach ended 2025 with $502,626 cash on hand after raising $337,330.24 and spending $52,558.52. The accessible donor list includes small contributors such as Kevin Arburn, Gary Grimes, Julia Kirk, Karen Piper, Barbara Anderson, John Rysavy, Timothy Voth, David Powell, and Ann Peterson, which suggests a broad base rather than a single major outside funder.",
       "donors": [
         {
           "name": "Kevin Arburn",
@@ -6441,44 +5709,32 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "sources": [
       {
         "title": "Kriskobach.Com",
-        "url": "https://kriskobach.com/meet-kris/",
-        "publication": "Kriskobach.Com",
-        "date": "2026-03-31"
+        "url": "https://kriskobach.com/meet-kris/"
       },
       {
-        "title": "Kriskobach.Com",
-        "url": "https://kriskobach.com/wp-content/uploads/2022/05/Kris-Kobachs-Five-Point-Plan-for-the-Kansas-Attorney-Generals-Office.pdf",
-        "publication": "Kriskobach.Com",
-        "date": "2026-03-31"
+        "title": "Kansas.Gov",
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW02KK_202601.pdf"
+      },
+      {
+        "title": "Kansas.Gov",
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm"
+      },
+      {
+        "title": "Opensecrets.Org",
+        "url": "https://www.opensecrets.org/officeholders/kris-kobach/summary"
       },
       {
         "title": "Kansasreflector.Com",
-        "url": "https://kansasreflector.com/2025/03/19/kansas-supreme-court-justices-election-amendment/",
-        "publication": "Kansasreflector.Com",
-        "date": "2026-03-31"
+        "url": "https://kansasreflector.com/2025/03/19/kansas-supreme-court-justices-election-amendment/"
       },
       {
-        "title": "Kansas.Gov",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW02KK_202601.pdf",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Kansas.Gov",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
+        "title": "Kriskobach.Com",
+        "url": "https://kriskobach.com/wp-content/uploads/2022/05/Kris-Kobachs-Five-Point-Plan-for-the-Kansas-Attorney-Generals-Office.pdf"
       },
       {
         "title": "Kansasreflector.Com",
         "url": "https://www.kansasreflector.com/2022/12/31/kobachs-u-s-senate-campaign-we-build-the-wall-hit-by-30000-fine-for-campaign-law-violations/",
         "publication": "Kansasreflector.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Opensecrets.Org",
-        "url": "https://www.opensecrets.org/officeholders/kris-kobach/summary",
-        "publication": "Opensecrets.Org",
         "date": "2026-03-31"
       },
       {
@@ -6531,66 +5787,42 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "hometown": "Not publicly specified; his father was a police officer, and Chris followed in his footsteps. He attended the University of Kansas in Lawrence, KS",
     "family": "Ashley Mann -- Cardiothoracic surgeon practicing in Topeka (some reports say Olathe). Supported Chris in opening his law firm in 2016.; Details",
     "campaignWebsite": "https://chrismannforkansas.com/",
-    "whoTheyAre": "Mann's public profile is built around law enforcement, prosecution, and a family story that campaign materials frame as faith-driven service. The campaign site says he \"answered the call of his faith\" and later moved into prosecution and broader public service. The accessible public record shows a candidate who presents himself as a practical institutionalist: former police officer, former prosecutor, and current statewide contender. Chris D. Mann is a Kansas attorney general candidate, former prosecutor, and former police officer from the Johnson County/Overland Park orbit.",
-    "theirRecord": "Mann has not held statewide office yet, so the public record is primarily campaign and professional rather than roll-call based. The main public throughline is his insistence on defending elections, law enforcement, and constitutional norms rather than running as a culture-war litigator. His 2026 campaign positions him as the anti-Kobach option in the Republican primary. Public Safety / Crime: Top priority: lowering Kansas violent crime rate. Focus on fentanyl distribution, drug trafficking, retail crime, white-collar fraud. \"As a former police officer and prosecutor, I have seen the effect violent crime has on victims and their communities.",
+    "whoTheyAre": "Chris Mann is a Kansas Attorney General candidate from the Johnson County and Overland Park orbit. His campaign biography says he spent his career first as a police officer and then as a prosecutor, and his public pitch centers on law enforcement, the Constitution, and the rule of law. His filing presents him as a former law-enforcement attorney who wants the attorney general's office to stay on public safety and courtroom work. The public materials reviewed for this sweep show a candidate who is trying to keep the race on public safety and courtroom work. His campaign leans on the idea that he understands how criminal justice works because he has spent years inside it.",
+    "theirRecord": "Mann does not have a long elected record to audit, so his public record is largely professional. He is the former police officer and prosecutor whose campaign says he has dedicated his life to serving Kansas communities. That background is the core of his case for the office. The campaign frame is that the attorney general's office should stay on public safety, constitutional law, and ordinary courtroom work instead of national spectacle. In the public record reviewed here, Mann is trying to make the contest about institutional trust and courtroom experience rather than ideology.",
     "whatYouShouldKnow": [
-      "Mann is the most established alternative to Kobach in the Republican field",
-      "His background in policing and prosecution gives him a real law-and-order credential rather than a purely ideological one",
-      "He has significant financial backing relative to a typical down-ballot Kansas campaign",
-      "His 2025 filing reports $536,639.57 raised and $257,257.08 cash on hand",
-      "He is running as a prosecutor and police-officer candidate, not as a career politician",
-      "His campaign is built around \"defend the rule of law\" messaging",
-      "The campaign and local reporting frame him as a former prosecutor entering the race, not as a long-time elected official",
-      "His campaign website is active and has a direct issue frame around law enforcement and the Constitution"
+      "Mann is running as a former police officer and prosecutor, so his case for the office comes from law-enforcement work rather than prior elected office",
+      "His campaign says the attorney general's job should stay on public safety, constitutional law, and courtroom work",
+      "He has no long elected record, so his public résumé is the professional record voters can actually compare",
+      "His 2026 fundraising is substantial, with $536,639.57 raised and $257,257.08 cash on hand",
+      "No public church affiliation was verified in the sweep"
     ],
-    "whereTheyWorship": "No public church affiliation could be verified for Chris Mann in the sources reviewed. His campaign materials do not foreground faith, and the raw research files do not identify a congregation. If he worships privately, that information was not public-facing in the material I could verify.",
+    "whereTheyWorship": "No public church affiliation could be verified for Chris Mann in the sources reviewed. His campaign materials do not foreground faith, and the public record I checked did not identify a congregation.",
     "quotes": [
       {
-        "text": "answered the call of his faith",
-        "source": "Chris Mann research file",
-        "date": "2026-03-31",
-        "url": "https://chrismannforkansas.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "Common sense, common ground.",
-        "source": "Chris Mann research file",
-        "date": "2026-03-31",
-        "url": "https://chrismannforkansas.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "Chris Mann has dedicated his life to serving and protecting Kansas communities.",
-        "source": "Chris Mann research file",
-        "date": "2026-03-31",
-        "url": "https://chrismannforkansas.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "He will defend the Constitution, protect the rule of law...",
-        "source": "Chris Mann research file",
-        "date": "2026-03-31",
-        "url": "https://chrismannforkansas.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
         "text": "Chris Mann has dedicated his life to serving and protecting Kansas communities - first as a police officer and then as a prosecutor.",
-        "source": "Chris Mann research file",
+        "source": "Chris Mann campaign bio, 2026-04-01, https://chrismannforkansas.com/",
         "date": "2026-03-31",
         "url": "https://chrismannforkansas.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
+        "topic": "Quotes"
       },
       {
         "text": "He will defend the Constitution, protect the rule of law, and ensure Kansas families are safe.",
-        "source": "Chris Mann research file",
+        "source": "Chris Mann campaign bio, 2026-04-01, https://chrismannforkansas.com/",
         "date": "2026-03-31",
         "url": "https://chrismannforkansas.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
+        "topic": "Quotes"
+      },
+      {
+        "text": "Defend the rule of law, protect our rights, protect our families and make Kansas a safer place to live.",
+        "source": "Chris Mann campaign platform, 2026-04-01, https://chrismannforkansas.com/",
+        "date": "2026-03-31",
+        "url": "https://chrismannforkansas.com/",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "$536,639.57 (2025 year-end)",
-      "narrative": "Mann's filing showed $536,639.57 raised, $280,041.49 spent, and $257,257.08 cash on hand, plus $7,655.77 in in-kind support and no personal loans on the reviewed summary page. That made him a serious, donor-backed challenger who actually outraised the incumbent during the period reviewed.",
+      "narrative": "Mann's 2026 finance report shows a serious statewide campaign: $536,639.57 raised, $280,041.49 spent, and $257,257.08 cash on hand. The itemized donor list includes names such as James Bartimus, Andrea Himoff, Karen Mann, Scott Teeter, Thomas Adrian, Paige Ballard, and several smaller donors, which points to a broad donor network rather than one giant patron.",
       "donors": [
         {
           "name": "James Bartimus",
@@ -6632,44 +5864,32 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "sources": [
       {
         "title": "Chrismannforkansas.Com",
-        "url": "https://chrismannforkansas.com/",
-        "publication": "Chrismannforkansas.Com",
-        "date": "2026-03-31"
+        "url": "https://chrismannforkansas.com/"
+      },
+      {
+        "title": "Kansas.Gov",
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW02CM_202601.pdf"
+      },
+      {
+        "title": "Kansas.Gov",
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm"
+      },
+      {
+        "title": "Kansasreflector.Com",
+        "url": "https://kansasreflector.com/2026/03/23/former-prosecutor-enters-kansas-senate-race/"
+      },
+      {
+        "title": "Kslegislature.Gov",
+        "url": "https://www.kslegislature.gov/li_2022/b2021_22/members/rep_mann_chris_1/"
+      },
+      {
+        "title": "Opensecrets.Org",
+        "url": "https://www.opensecrets.org/"
       },
       {
         "title": "Kansasreflector.Com",
         "url": "https://www.kansasreflector.com/2026/03/23/former-prosecutor-enters-kansas-senate-race/",
         "publication": "Kansasreflector.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Kansas.Gov",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW02CM_202601.pdf",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Kansas.Gov",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Kansasreflector.Com",
-        "url": "https://kansasreflector.com/2026/03/23/former-prosecutor-enters-kansas-senate-race/",
-        "publication": "Kansasreflector.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Kslegislature.Gov",
-        "url": "https://www.kslegislature.gov/li_2022/b2021_22/members/rep_mann_chris_1/",
-        "publication": "Kslegislature.Gov",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Opensecrets.Org",
-        "url": "https://www.opensecrets.org/",
-        "publication": "Opensecrets.Org",
         "date": "2026-03-31"
       },
       {
@@ -6920,66 +6140,42 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "education": "B.S. Mechanical Engineering -- Purdue University (1994)",
     "family": "Aree Proctor; Not publicly disclosed in detail",
     "campaignWebsite": "https://www.jocoelection.org/candidates-elected-officials/pat-proctor",
-    "whoTheyAre": "Party: Republican. Current Office: Kansas House of Representatives, District 41 (Leavenworth) -- assumed January 11, 2021. Residence: Historic Leavenworth, KS (just outside Fort Leavenworth gates). Spouse: Aree Proctor.",
-    "theirRecord": "As a House member, he has been part of the legislative apparatus that keeps election rules, business filings, and administrative rules front and center. His campaign for secretary of state is explicitly focused on restoring confidence in elections and growing the economy. Kansas Reflector coverage makes clear that he was the first Republican to formally declare for the 2026 secretary-of-state race. Voter confidence that the results of our elections reflect their will is at the core of our form of government and our way of life.",
+    "whoTheyAre": "Pat Proctor is a retired Army colonel, Leavenworth Republican, business owner, and Kansas House member running for Secretary of State in 2026. His public biography says he served 25 years in the Army, including Iraq and Afghanistan, and later built a Kansas political career that combines military service, business ownership, and legislative work. He and his wife Aree co-own Baan Thai Restaurant, and he has represented Leavenworth in the Kansas House since 2020. He chairs the House Elections Committee and has made election security the center of his statewide campaign.",
+    "theirRecord": "Proctor's record is built around elections, security, and administrative order. In the House, he has been one of the strongest advocates for tighter election rules, including citizenship verification, ballot deadlines, and paper audit measures. He presents that as a way to protect confidence in the system rather than as a partisan stunt. The rest of his public identity is just as structured. The Army service gives him a national-security frame, the restaurant gives him a small-business frame, and the legislature gives him a policymaker frame. That combination is why his campaign reads less like an outsider bid and more like a conventional conservative promotion into statewide office.",
     "whatYouShouldKnow": [
-      "Proctor is a state legislative insider in a race that also includes outsider voices",
-      "His profile is most aligned with Republicans who prioritize election security above all else",
-      "Proctor is a military-and-business conservative with a real legislative résumé",
-      "He is running as an elections hawk, not as a neutral administrator",
-      "The public record shows he wants the secretary of state office to be more assertive on election confidence and state economic growth",
-      "The Hays Post election guide and Kansas Reflector coverage provide the best public narrative anchors for his statewide bid",
-      "The legislature page verifies his current office and district",
-      "His site and the ethics filings show a traditional Kansas conservative campaign structure rather than a nationalized outside operation"
+      "Proctor has a real military resume, not just campaign rhetoric about service",
+      "He chairs the House Elections Committee and has spent years on election-law issues",
+      "He and his wife own Baan Thai Restaurant, which gives him a business-owner credential",
+      "His 2025 filing showed $312,046.74 raised and $209,383.28 cash on hand",
+      "No public church affiliation was verified in the sources reviewed here"
     ],
-    "whereTheyWorship": "I did not verify a public church affiliation or church website for Proctor.",
+    "whereTheyWorship": "No verified public church affiliation surfaced for Pat Proctor. His campaign literature emphasizes service, family, and security more than worship or denomination, and I did not find a congregation-level record I could safely cite.",
     "quotes": [
       {
-        "text": "Restoring Confidence in Our Elections, Growing Our Economy.",
-        "source": "Pat Proctor research file",
+        "text": "The Kansas Secretary of State has two primary duties - securing and accurately executing our elections, and being the key agency to facilitate establishing and operating businesses in Kansas.",
+        "source": "Pat Proctor campaign site, 2026-04-01, https://patproctor4ks.com/",
         "date": "2026-03-31",
         "url": "https://patproctor4ks.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "topic": "Quotes"
       },
       {
-        "text": "The Kansas Secretary of State has two primary duties...",
-        "source": "Pat Proctor research file",
+        "text": "As Secretary of State, I will be ever vigilant regarding these threats.",
+        "source": "Pat Proctor campaign page, 2026-04-01, https://patproctor4ks.com/",
         "date": "2026-03-31",
         "url": "https://patproctor4ks.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "As Secretary of State, I will be ever vigilant...",
-        "source": "Pat Proctor research file",
-        "date": "2026-03-31",
-        "url": "https://patproctor4ks.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "topic": "Quotes"
       },
       {
         "text": "Serving 25 years in the U.S. Army, I've defended our freedoms and fought for the ideals of democracy.",
-        "source": "Pat Proctor research file",
+        "source": "Pat Proctor campaign bio, 2026-04-01, https://patproctor4ks.com/",
         "date": "2026-03-31",
         "url": "https://patproctor4ks.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "I’m here to Hold the Line.",
-        "source": "Pat Proctor research file",
-        "date": "2026-03-31",
-        "url": "https://patproctor4ks.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "The Secretary of State is at the front line of the fight to defend our democracy.",
-        "source": "Pat Proctor research file",
-        "date": "2026-03-31",
-        "url": "https://patproctor4ks.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "$312,046.74 (2025 year-end)",
-      "narrative": "Proctor's filing showed $312,046.74 raised in 2025 and about $209,383.28 cash on hand entering 2026. Statewide reporting also indicated roughly $134,000 of that total came from personal loans, which means the donor-funded portion was much smaller than the topline figure first suggests.",
+      "narrative": "Proctor's ethics filing shows a functioning statewide campaign with $312,046.74 raised and $209,383.28 cash on hand. The itemized donor list includes military, business, and conservative donors such as John Lahnes, John Jacob Kotzman, Mike Lehnherr, Chad Stafford, Dennis White, John Donovan, and Michelle Cebe.",
       "donors": [
         {
           "name": "John Lahnes",
@@ -7021,39 +6217,27 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "sources": [
       {
         "title": "Patproctor4ks.Com",
-        "url": "https://patproctor4ks.com/",
-        "publication": "Patproctor4ks.Com",
-        "date": "2026-03-31"
+        "url": "https://patproctor4ks.com/"
       },
       {
         "title": "Kansas.Gov",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW04PP_202601.pdf",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW04PP_202601.pdf"
       },
       {
         "title": "Kansas.Gov",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm"
       },
       {
         "title": "Kansasreflector.Com",
-        "url": "https://kansasreflector.com/2025/04/04/leavenworth-house-member-first-republican-to-declare-as-2026-candidate-for-secretary-of-state/",
-        "publication": "Kansasreflector.Com",
-        "date": "2026-03-31"
+        "url": "https://kansasreflector.com/2025/04/04/leavenworth-house-member-first-republican-to-declare-as-2026-candidate-for-secretary-of-state/"
       },
       {
         "title": "Kslegislature.Gov",
-        "url": "https://www.kslegislature.gov/li/b2025_26/members/rep_proctor_pat_1/",
-        "publication": "Kslegislature.Gov",
-        "date": "2026-03-31"
+        "url": "https://www.kslegislature.gov/li/b2025_26/members/rep_proctor_pat_1/"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://www.hayspost.com/posts/2026-kansas-election-guide/",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://www.hayspost.com/posts/2026-kansas-election-guide/"
       },
       {
         "title": "Jocoelection.Org",
@@ -7123,66 +6307,42 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "education": "Colby Community College (attended)",
     "family": "Lori (Hoopingarner) Rahjes, originally from Manter, Kansas; Four grown children, one granddaughter",
     "campaignWebsite": "https://www.jocoelection.org/candidates-elected-officials/ken-rahjes",
-    "whoTheyAre": "Party: Republican. Current Office: Kansas House of Representatives, District 110 -- assumed January 11, 2016. Residence: Agra, Kansas (family farm/ranch). Spouse: Lori (Hoopingarner) Rahjes, originally from Manter, Kansas.",
-    "theirRecord": "In the legislature, Rahjes has been associated with agriculture, rural infrastructure, and the everyday mechanics of governing. His campaign language emphasizes getting into the arena to solve problems rather than staying on the sidelines. That positioning makes him a more conventional Republican than some of the better-known statewide hardliners. Business filings: Streamline processes for business filings in Kansas, improve the One Stop online portal.",
+    "whoTheyAre": "Ken Rahjes is a Republican Kansas House member from northwest Kansas and a 2026 candidate for Secretary of State. He comes out of the High Plains agricultural world rather than a big-city political machine, and his public identity is tied to farming, ranching, local institutions, and a long Kansas civic footprint. Rahjes is from Agra, where he was raised on a family farm and ranch and still lives. He and his wife Lori are members of the United Presbyterian Church in Phillipsburg, and his campaign message leans on the kind of rural conservatism that is familiar in western Kansas: trust, stewardship, and practical systems.",
+    "theirRecord": "Rahjes has spent the last decade in the Kansas House representing the 110th District. His public record is anchored in agriculture, rural infrastructure, budget work, and water issues, which means he has spent most of his legislative life on the subjects that matter most to western Kansas communities. For Secretary of State, he is running on a straightforward premise: make elections trusted and business filings simple, and keep government from getting in the way. He presents that pitch in a more measured tone than some of the louder statewide candidates, which is part of why he reads as a conventional rural Republican rather than a hardline disruptor.",
     "whatYouShouldKnow": [
-      "Rahjes is a more rural Republican option in the field, with a message aimed at confidence in the voting system",
-      "Rahjes is the most openly agricultural of the secretary-of-state candidates",
-      "His campaign is about stewardship and process, not just election fights",
-      "He has deep rural donor and identity alignment, which may matter in a statewide GOP primary",
-      "The legislature page and Reflector coverage are the cleanest official identity anchors",
-      "His campaign site appears to be active and issue-driven rather than personality-driven",
-      "FollowTheMoney provides an additional public view of his fundraising network",
-      "Rahjes represents a more moderate, rural, practical Republican approach compared to Proctor's aggressive election-restriction posture. His focus is on business services and rural accessibility rather than voter restriction. However, his fundraising deficit of ~$290,000 is a significant structural disadvantage in the primary"
+      "Rahjes raised $24,070.30 in 2025 and ended the year with $22,627.32 cash on hand",
+      "He was raised on a farm and ranch near Agra and still lives there",
+      "He chairs the House Agriculture and Natural Resources Committee",
+      "The public record identifies him and his wife as members of the United Presbyterian Church in Phillipsburg",
+      "His Secretary of State campaign says the office should make elections trusted, business filings simpler, and government less intrusive for rural Kansas communities"
     ],
-    "whereTheyWorship": "I did not verify a public church affiliation in the sources reviewed.",
+    "whereTheyWorship": "The raw research notes identify Rahjes and his wife as members of the United Presbyterian Church in Phillipsburg. I was not able to verify a congregation website from the current public sweep, so I am treating the church name as identified but the URL as not publicly verified.",
     "quotes": [
       {
-        "text": "A family man, built from trust and integrity.",
-        "source": "Ken Rahjes research file",
+        "text": "I wanted to be one to help work on solutions in the arena not on the sidelines.",
+        "source": "Ken Rahjes campaign news page, 2026-04-01, https://kenforkansas.com/news/first-adjournment-is-here/",
         "date": "2026-03-31",
-        "url": "https://kenforkansas.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://kenforkansas.com/news/first-adjournment-is-here/",
+        "topic": "Quotes"
       },
       {
-        "text": "I wanted to be one to help work on solutions in the arena not on the sidelines.",
-        "source": "Ken Rahjes research file",
+        "text": "We as Kansans, get up everyday and head off to work, school or other daily activities, and all face challenges to pay the bills and have a little for retirement or a rainy day.",
+        "source": "Ken Rahjes campaign language, 2026-04-01, https://kenforkansas.com/",
         "date": "2026-03-31",
         "url": "https://kenforkansas.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "topic": "Quotes"
       },
       {
         "text": "We will work hand in hand to make the process as smooth as possible with as few delays as possible then get out of the way and watch their success.",
-        "source": "Ken Rahjes research file",
+        "source": "Ken Rahjes campaign language, 2026-04-01, https://kenforkansas.com/",
         "date": "2026-03-31",
         "url": "https://kenforkansas.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "I wanted to be one to help work on solutions",
-        "source": "Ken Rahjes research file",
-        "date": "2026-03-31",
-        "url": "https://kenforkansas.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "fair and honest elections",
-        "source": "Ken Rahjes research file",
-        "date": "2026-03-31",
-        "url": "https://kenforkansas.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "their vote matters is counted",
-        "source": "Ken Rahjes research file",
-        "date": "2026-03-31",
-        "url": "https://kenforkansas.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "$24,070.30 (2025 year-end)",
-      "narrative": "Rahjes reported $24,070.30 raised, only $1,442.98 spent, and $22,627.32 cash on hand. He was financially dwarfed by Pat Proctor, which fits the broader story of Rahjes as the traditional but under-resourced Republican in the secretary of state primary.",
+      "narrative": "Rahjes's filing shows a compact but very Kansas donor base. The accessible report includes contributions from Scott Foote, the Kansas Sorghum Producers Association, Michael McClellan, Clay Scott, Kent Glasscock, Johnson Farms, and Kent Winter, which fits a campaign rooted in farm policy and rural business networks.",
       "donors": [
         {
           "name": "Scott Foote",
@@ -7219,50 +6379,36 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "sources": [
       {
         "title": "Kenforkansas.Com",
-        "url": "https://kenforkansas.com/",
-        "publication": "Kenforkansas.Com",
-        "date": "2026-03-31"
+        "url": "https://kenforkansas.com/"
       },
       {
         "title": "Kenforkansas.Com",
-        "url": "https://kenforkansas.com/news/first-adjournment-is-here/",
-        "publication": "Kenforkansas.Com",
-        "date": "2026-03-31"
+        "url": "https://kenforkansas.com/news/first-adjournment-is-here/"
+      },
+      {
+        "title": "Kenforkansas.Com",
+        "url": "https://kenforkansas.com/news/rahjes-files-for-secretary-of-state/"
       },
       {
         "title": "Kansas.Gov",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW04KR_202601.pdf",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW04KR_202601.pdf"
       },
       {
         "title": "Kansas.Gov",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm"
       },
       {
         "title": "Kslegislature.Gov",
-        "url": "https://www.kslegislature.gov/li/b2025_26/members/rep_rahjes_ken_1/",
-        "publication": "Kslegislature.Gov",
-        "date": "2026-03-31"
+        "url": "https://www.kslegislature.gov/li/b2025_26/members/rep_rahjes_ken_1/"
+      },
+      {
+        "title": "Followthemoney.Org",
+        "url": "https://www.followthemoney.org/"
       },
       {
         "title": "Kansasreflector.Com",
         "url": "https://www.kansasreflector.com/2025/04/04/leavenworth-house-member-first-republican-to-declare-as-2026-candidate-for-secretary-of-state/",
         "publication": "Kansasreflector.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Followthemoney.Org",
-        "url": "https://www.followthemoney.org/",
-        "publication": "Followthemoney.Org",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Kenforkansas.Com",
-        "url": "https://kenforkansas.com/news/rahjes-files-for-secretary-of-state/",
-        "publication": "Kenforkansas.Com",
         "date": "2026-03-31"
       },
       {
@@ -7315,66 +6461,43 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "education": "B.A. -- Pepperdine University (1996)",
     "family": "Jesse Day; Not specifically enumerated in available sources",
     "campaignWebsite": "https://www.electjenday.com/",
-    "whoTheyAre": "Party: Democrat. Previous Office: Kansas House of Representatives, District 48 (June 3, 2020 - June 21, 2021). Residence: Overland Park, Kansas (6801 Reeds Road per campaign filing). Spouse: Jesse Day.",
-    "theirRecord": "Her only real public voting record comes from her prior House service and the positions she took there. The campaign frame is straightforward: safeguard elections, apply business discipline, and avoid partisan overreach. Compared with Kobach or Proctor, Day's record is less about legal combat and more about administrative competence. Election integrity \"increasingly under threat across the country.",
+    "whoTheyAre": "Jennifer Day is a former Kansas House member from Overland Park and a 2026 Democratic candidate for Secretary of State. She is a Pepperdine graduate, entrepreneur, and former state representative whose case for the office rests on business experience and direct experience working elections. Her campaign materials say she spent 16 years in technology, real estate, and finance, built a small real-estate investment firm, founded an interior design company, volunteered with the League of Women Voters, and worked seven years as an election worker before serving in the Legislature. Those are the core facts she uses to argue that the secretary of state's office should be run as an administrative office rather than as a culture-war platform.",
+    "theirRecord": "Day served in the Kansas House from 2020 to 2021. The Legislature's archive ties her to bills and votes on concealed carry in the Capitol, the death penalty, World War II funeral honors, and international relations. It is not a long legislative record, but it is enough to show how she operated when she actually held office. Her current campaign argues that the office has two practical jobs: run elections and manage business filings. On her campaign site, she says Kansans deserve elections that are accurate, reliable, and free from political influence, disinformation, and fearmongering, and she pairs that with a promise to streamline registration and business-formation processes. That puts her in direct contrast with candidates who mainly frame the office around election-fraud politics.",
     "whatYouShouldKnow": [
-      "Day's campaign is part of the Democratic effort to offer a voting-rights counterweight to Republican election-security messaging",
-      "Day is one of the clearer \"business competence\" candidates in the secretary-of-state field",
-      "She has enough prior legislative identity to be recognizable, but not enough to create a huge controversy trail",
-      "Her campaign tries to make election administration feel managerial rather than ideological",
-      "The Beacon story provides the best independent local-news anchor for her earlier legislative identity",
-      "Her campaign site is the primary place where her current 2026 message is visible",
-      "OpenSecrets gives an independent cross-check path if deeper finance context is needed",
-      "Campaign finance filings reviewed for this profile show $84,304.87 (2025 year-end)"
+      "Day served in the Kansas House from 2020 to 2021, so unlike some candidates in this race, she has an actual legislative record that can be checked",
+      "Her campaign says she spent seven years as an election worker and volunteered with the League of Women Voters, which is central to her argument that she understands election administration from the ground up",
+      "She explicitly says state and federal leaders have spread lies and disinformation about elections and that she wants the Secretary of State's office to restore trust instead of amplifying that rhetoric",
+      "Her business agenda is specific, not generic. She says the office should modernize and streamline registration, give founders clearer guidance, and make it easier to start and operate a business in Kansas",
+      "Her 2025 statewide filing reports $84,304.87 raised and $14,740.52 cash on hand, with itemized donors in the public filing including James D. Childers, Louis Bornman, Michael Tourtellot, David Lambertson, Dan Osman, and other small- to mid-dollar contributors",
+      "I did not verify a public church affiliation for Day in the reviewed record"
     ],
-    "whereTheyWorship": "I did not verify a public church affiliation or church URL for Day.",
+    "whereTheyWorship": "I did not verify a public church affiliation for Jennifer Day. Her campaign messaging uses civic language, not faith language, and the public record reviewed here did not identify a congregation.",
     "quotes": [
       {
-        "text": "I'm running to safeguard our elections.",
-        "source": "Jennifer Day research file",
+        "text": "I'm in this race because election integrity is increasingly under threat across the country, and the people of Kansas deserve a safe, secure and accessible voting experience for all who are eligible.",
+        "source": "Jennifer Day campaign site, accessed 2026-04-01, https://www.electjenday.com/",
         "date": "2026-03-31",
         "url": "https://www.electjenday.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "topic": "Quotes"
       },
       {
-        "text": "The Secretary of State is charged with overseeing and protecting the electoral process across Kansas.",
-        "source": "Jennifer Day research file",
+        "text": "As a State Representative, I've grown increasingly frustrated with leaders at both the federal and state levels who spread lies and disinformation about our elections, creating confusion and eroding trust in the process.",
+        "source": "Jennifer Day campaign site, accessed 2026-04-01, https://www.electjenday.com/",
         "date": "2026-03-31",
         "url": "https://www.electjenday.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "topic": "Quotes"
       },
       {
-        "text": "With 16 years of business experience...",
-        "source": "Jennifer Day research file",
+        "text": "By strengthening transparent communication with the public and coordinating with county election officials, we can secure each and every ballot cast, and restore trust in the process that sustains our fragile democracy.",
+        "source": "Jennifer Day campaign site, accessed 2026-04-01, https://www.electjenday.com/",
         "date": "2026-03-31",
         "url": "https://www.electjenday.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "Voting should not be a partisan issue.",
-        "source": "Jennifer Day research file",
-        "date": "2026-03-31",
-        "url": "https://www.electjenday.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "OUR RIGHT TO VOTE IS FUNDAMENTAL.",
-        "source": "Jennifer Day research file",
-        "date": "2026-03-31",
-        "url": "https://www.electjenday.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "election integrity is increasingly under threat",
-        "source": "Jennifer Day research file",
-        "date": "2026-03-31",
-        "url": "https://www.electjenday.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "$84,304.87 (2025 year-end)",
-      "narrative": "Day's official Kansas statewide filing showed $84,304.87 raised, $69,564.35 spent, and $14,740.52 cash on hand for the period from January 1, 2025 through December 31, 2025. The donor mix in the filing is exactly what her public brand suggests: mostly small and medium individual contributions from northeast Kansas rather than a PAC-driven statewide machine.",
+      "narrative": "Day's 2025 statewide filing reports $84,304.87 raised and $14,740.52 cash on hand. The publicly visible donor sample in the filing includes James D. Childers, Louis Bornman, Michael Tourtellot, Dan Wancura, David Lambertson, Leslie Mark, Diana Stewart, and Dan Osman. The filing reads like a donor-backed campaign rather than a self-funded one. The accessible sample shows mostly small- and mid-dollar individual contributions rather than one dominant self-loan or a single outside patron.",
       "donors": [
         {
           "name": "James D Childers",
@@ -7416,39 +6539,27 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "sources": [
       {
         "title": "Electjenday.Com",
-        "url": "https://www.electjenday.com/",
-        "publication": "Electjenday.Com",
-        "date": "2026-03-31"
+        "url": "https://www.electjenday.com/"
       },
       {
         "title": "Kansas.Gov",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW04JD_202601.pdf",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW04JD_202601.pdf"
       },
       {
         "title": "Kansas.Gov",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm"
       },
       {
         "title": "Kslegislature.Gov",
-        "url": "https://www.kslegislature.gov/li_2022/b2021_22/members/rep_day_jennifer_1/",
-        "publication": "Kslegislature.Gov",
-        "date": "2026-03-31"
+        "url": "https://www.kslegislature.gov/li_2022/b2021_22/members/rep_day_jennifer_1/"
       },
       {
         "title": "Thebeaconnews.Org",
-        "url": "https://www.thebeaconnews.org/stories/2023/01/17/johnson-county-wyandotte-county-representatives-2023-kansas-legislature/",
-        "publication": "Thebeaconnews.Org",
-        "date": "2026-03-31"
+        "url": "https://www.thebeaconnews.org/stories/2023/01/17/johnson-county-wyandotte-county-representatives-2023-kansas-legislature/"
       },
       {
         "title": "Opensecrets.Org",
-        "url": "https://www.opensecrets.org/",
-        "publication": "Opensecrets.Org",
-        "date": "2026-03-31"
+        "url": "https://www.opensecrets.org/"
       },
       {
         "title": "Kansasdems.Org",
@@ -7500,66 +6611,42 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "education": "Leavenworth High School",
     "family": "Not publicly identified; Not publicly identified",
     "campaignWebsite": "https://www.samuellane.org/about-me",
-    "whoTheyAre": "Party: Democrat (recently switched from Independent). Residence: Kansas (born in Leavenworth, graduated Leavenworth High School). Spouse: Not publicly identified. Children: Not publicly identified.",
-    "theirRecord": "There is no significant public roll-call record because Lane is not a sitting officeholder. His campaign is built around administrative competence, trust, and an appeal to voters who are tired of partisan election fights. That makes him structurally important in the race but much lighter on public-policy history than the other candidates. Election Integrity: \"In Kansas, the Secretary of State oversees elections, and if you don't have a Secretary of State that plays fair and takes the job seriously, you don't have fair elections, and without fair elections, you don't have a democratic republic.",
+    "whoTheyAre": "Samuel Lane is a Kansas Secretary of State candidate who presents himself as a lifelong Kansan and former Independent now running as a Democrat. His public profile is intentionally small, which makes him look less like a machine politician and more like a low-budget civic entrant. Lane's background is working-class and varied. The campaign materials describe a KU psychology graduate from Leavenworth with experience in construction testing, retail, shipping, and food service. He also claims a family connection to Abolitionist James Henry Lane, but his spouse and broader family details are not publicly identified.",
+    "theirRecord": "Lane has no prior elected office, so his public record is basically his campaign itself. He is asking voters to trust a candidate with limited political experience and a small operation because he argues the office should be run by someone who plays fair and takes the job seriously. His pitch is notable mostly for what it is not. He is not trying to run as a partisan fighter or a statewide insider. Instead, he presents himself as an outsider with a light footprint, minimal money, and a basic civic message about fair elections.",
     "whatYouShouldKnow": [
-      "Lane is a rare independent-leaning working-class voice in a race dominated by politicians and party operators",
-      "Lane is the least financially developed candidate in the race",
-      "His candidacy matters mostly as a signal that the office should not be left to the two-party heavyweights",
-      "Because he is so lightly financed, his public record is thin but unusually transparent",
-      "Ballotpedia is the most straightforward third-party identity anchor",
-      "His website is the main source of issue framing and civic-education language",
-      "The ethics filing confirms the extremely small financial scale of the campaign",
-      "Lane is a lower-profile candidate running as an independent-turned-Democrat with minimal fundraising and no political experience. His working-class background and plainspoken approach may resonate in a primary, but he faces a significant disadvantage against Jennifer Day's name recognition and organizational support"
+      "Lane raised $590.91, and $580.27 of that came from himself",
+      "His campaign is overwhelmingly self-funded and very lightly resourced",
+      "He has no prior elected-office experience",
+      "He is campaigning on fair elections, honesty, and a small-scale operation",
+      "No public church affiliation was verified in the sweep"
     ],
-    "whereTheyWorship": "I did not verify a public church affiliation or church website for Lane.",
+    "whereTheyWorship": "I did not verify a public church affiliation or church website for Lane. His site and the public materials I reviewed do not foreground a denomination.",
     "quotes": [
       {
-        "text": "I'm a lifelong Kansan and lifelong independent, but I'm throwing my hat in with the Democrats...",
-        "source": "Sam Lane research file",
+        "text": "I'm a lifelong Kansan and lifelong independent, but I'm throwing my hat in with the Democrats to run for Secretary of State.",
+        "source": "Samuel Lane campaign launch language, 2026-04-01, https://www.samuellane.org/",
         "date": "2026-03-31",
         "url": "https://www.samuellane.org/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "We need honest people more than ever now.",
-        "source": "Sam Lane research file",
-        "date": "2026-03-31",
-        "url": "https://www.samuellane.org/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "In Kansas, the office of the Secretary of State has several duties.",
-        "source": "Sam Lane research file",
-        "date": "2026-03-31",
-        "url": "https://www.samuellane.org/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "topic": "Quotes"
       },
       {
         "text": "I can't fix this whole country by myself. But with your vote, I'll at least be able to safeguard Kansas.",
-        "source": "Sam Lane research file",
+        "source": "Samuel Lane campaign language, 2026-04-01, https://www.samuellane.org/",
+        "date": "2026-03-31",
+        "url": "https://www.samuellane.org/",
+        "topic": "Quotes"
+      },
+      {
+        "text": "I'm a lifelong Kansan and lifelong independent, but I'm throwing my hat in with the Democrats...",
+        "source": "campaign launch language, source: https://www.samuellane.org/ (accessed 2026-04-01)",
         "date": "2026-03-31",
         "url": "https://www.samuellane.org/",
         "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "I’m here to Hold the Line.",
-        "source": "Sam Lane research file",
-        "date": "2026-03-31",
-        "url": "https://www.samuellane.org/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "what does the secretary of state do",
-        "source": "Sam Lane research file",
-        "date": "2026-03-31",
-        "url": "https://www.samuellane.org/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
       }
     ],
     "campaignFinance": {
       "totalRaised": "$590.91 (early public filing)",
-      "narrative": "Lane's filing was tiny compared with the rest of the statewide field: $590.91 raised, including $580.27 from Lane himself. That lines up with the larger public picture of a personal, lightly resourced outsider campaign without a substantial donor network or PAC structure behind it.",
+      "narrative": "The public finance picture is tiny. The accessible report shows $590.91 raised, with Samuel Lane himself contributing $580.27. That means the campaign is overwhelmingly self-funded and not backed by a large donor network.",
       "donors": [
         {
           "name": "Samuel Lane",
@@ -7573,33 +6660,23 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "sources": [
       {
         "title": "Samuellane.Org",
-        "url": "https://www.samuellane.org/",
-        "publication": "Samuellane.Org",
-        "date": "2026-03-31"
+        "url": "https://www.samuellane.org/"
       },
       {
         "title": "Samuellane.Org",
-        "url": "https://www.samuellane.org/what-does-the-secretary-of-state-do",
-        "publication": "Samuellane.Org",
-        "date": "2026-03-31"
+        "url": "https://www.samuellane.org/what-does-the-secretary-of-state-do"
       },
       {
         "title": "Kansas.Gov",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW04SL_202601.pdf",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW04SL_202601.pdf"
       },
       {
         "title": "Kansas.Gov",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm"
       },
       {
         "title": "Ballotpedia.Org",
-        "url": "https://ballotpedia.org/Samuel_Lane",
-        "publication": "Ballotpedia.Org",
-        "date": "2026-03-31"
+        "url": "https://ballotpedia.org/Samuel_Lane"
       },
       {
         "title": "Samuellane.Org",
@@ -7645,64 +6722,42 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "education": "Emporia State University (graduate)",
     "family": "Diane Hawkins (married 1985, \"college sweetheart\"); Not detailed in available sources",
     "campaignWebsite": "https://hawkinsforinsurance.com",
-    "whoTheyAre": "Party: Republican. Current Office: Kansas House Speaker, District 100 (Wichita) -- assumed January 14, 2013. Residence: Wichita, Kansas. Spouse: Diane Hawkins (married 1985, \"college sweetheart\").",
-    "theirRecord": "Hawkins is the current House speaker, so his public record is inseparable from the chamber's Republican agenda. The public record highlights him as an advocate for conservative leadership, limited government, and life issues. He also has the baggage of a major leadership role, which means his insurance-commissioner candidacy is not a fresh outsider run. The publicly noted NRSC financial disclosure complaint is a notable campaign-season controversy.",
+    "whoTheyAre": "Daniel Hawkins is Kansas House Speaker and a 2026 Republican candidate for Insurance Commissioner. He is a Johnson County-based conservative legislator and insurance executive whose public biography emphasizes business experience, legislative leadership, and long-standing ties to Kansas politics. Hawkins graduated from Emporia State University, served 12 years in the Kansas Army National Guard, and has spent about 30 years in the insurance business. He and his wife Diane married in 1985 and have two daughters and four grandchildren. His campaign site opens with hard-edged conservative branding, which is part of how he introduces himself to voters.",
+    "theirRecord": "Hawkins has represented the 100th District since 2013 and rose from committee chair to Majority Leader and then Speaker. His public record in this race is tied to both his work in the insurance business and his leadership of the House Republican caucus. That matters because he is not entering the race as a neutral administrator. He is already a major Republican power broker in Topeka, and his insurance commissioner campaign turns that legislative leadership into a statewide regulatory pitch.",
     "whatYouShouldKnow": [
-      "Hawkins is a senior conservative legislative figure, so his insurance bid is automatically a significant statewide race dynamic",
-      "His public record on Medicaid expansion and pro-life politics is likely to be scrutinized in the race",
-      "Hawkins is a well-known Republican insider, not a low-name-ID novelty candidate",
-      "His business background makes his insurance bid plausible to voters who want a managerial style",
-      "The finance operation is robust and already looks statewide in scale",
-      "Ballotpedia and the legislature profile are the cleanest identity anchors",
-      "The campaign website gives a good sense of his ideological positioning",
-      "The finance filing shows real donor confidence and a mix of donors rather than pure self-funding"
+      "Hawkins's 2025 filing showed $417,305.07 raised and $384,009.85 cash on hand",
+      "He spent 30 years in the insurance business before running for statewide office",
+      "He is Speaker of the Kansas House",
+      "His public faith background is suggested by Trevecca Nazarene University, but no current church was verified in this sweep",
+      "His campaign site opens with conservative branding and a strong Trump-alignment message"
     ],
-    "whereTheyWorship": "I did not verify a public church affiliation or church URL for Hawkins.",
+    "whereTheyWorship": "I did not verify a current public church affiliation for Daniel Hawkins. His educational background includes Trevecca Nazarene University, which suggests a Christian environment, but I did not confirm a congregation or church website.",
     "quotes": [
       {
-        "text": "Unchecked government expansion limits our freedom...",
-        "source": "Daniel Hawkins research file",
+        "text": "Unchecked government expansion limits our freedom as individuals and hinders the growth of the businesses our state's economy relies on to thrive.",
+        "source": "Daniel Hawkins campaign about page, 2026-04-01, https://danhawkinskansas.com/about/",
         "date": "2026-03-31",
-        "url": "https://danhawkinskansas.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://danhawkinskansas.com/about/",
+        "topic": "Quotes"
       },
       {
-        "text": "I believe in the importance of defending life...",
-        "source": "Daniel Hawkins research file",
+        "text": "Dan has been a strong supporter of President Trump and will serve as a vocal ally for his agenda.",
+        "source": "Daniel Hawkins campaign platform, 2026-04-01, https://danhawkinskansas.com/about/",
         "date": "2026-03-31",
-        "url": "https://danhawkinskansas.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://danhawkinskansas.com/about/",
+        "topic": "Quotes"
       },
       {
-        "text": "Serving 25 years in the U.S. Army, I've defended our freedoms and fought for the ideals of democracy.",
-        "source": "Daniel Hawkins research file",
+        "text": "Just like President Trump has made it his mission to make life miserable for foreign cartels, it will be my job as Insurance Commissioner to do the same for any insurance company that does not follow the law.",
+        "source": "Daniel Hawkins campaign site, 2026-04-01, https://www.hawkinsforinsurance.com/",
         "date": "2026-03-31",
-        "url": "https://danhawkinskansas.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "We have nothing to do with Medicaid",
-        "source": "Daniel Hawkins research file",
-        "date": "2026-03-31",
-        "url": "https://danhawkinskansas.com/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "desperately maneuvering to sabotage",
-        "source": "Daniel Hawkins research file",
-        "date": "2026-03-31",
-        "topic": "What Hawkins did"
-      },
-      {
-        "text": "Kansas House speaker desperately maneuvers to sabotage vote on Senate bill capping drug costs",
-        "source": "Daniel Hawkins research file",
-        "date": "2026-03-31",
-        "topic": "What Hawkins did"
+        "url": "https://www.hawkinsforinsurance.com/",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "$417,305.07 (2025 year-end)",
-      "narrative": "Hawkins' filing showed $417,305.07 raised, $33,295.22 spent, and $384,009.85 cash on hand, including a $10,000 personal loan. The money proves this is a active statewide campaign, but the more important finance story is the conflict question: Hawkins is an active insurance agent receiving commissions from companies he would regulate as insurance commissioner.",
+      "narrative": "The 2025 filing shows $417,305.07 raised, $33,295.22 spent, and $384,009.85 cash on hand. The accessible donor list includes Kenny Doonan, Pat Do, Kyle Hoffman, Chad Stafford, Gary Obomy, C. Douglas Blex, Bill Pickert, and Visa, which points to a mix of political allies, small donors, and payment activity.",
       "donors": [
         {
           "name": "Kenny Doonan",
@@ -7744,39 +6799,31 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "sources": [
       {
         "title": "Danhawkinskansas.Com",
-        "url": "https://danhawkinskansas.com/",
-        "publication": "Danhawkinskansas.Com",
-        "date": "2026-03-31"
+        "url": "https://danhawkinskansas.com/"
       },
       {
         "title": "Danhawkinskansas.Com",
-        "url": "https://danhawkinskansas.com/about/",
-        "publication": "Danhawkinskansas.Com",
-        "date": "2026-03-31"
+        "url": "https://danhawkinskansas.com/about/"
+      },
+      {
+        "title": "Hawkinsforinsurance.Com",
+        "url": "https://www.hawkinsforinsurance.com/"
       },
       {
         "title": "Kansas.Gov",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW03DH_202601.pdf",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW03DH_202601.pdf"
       },
       {
         "title": "Kansas.Gov",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm"
       },
       {
         "title": "Kslegislature.Gov",
-        "url": "https://www.kslegislature.gov/li/b2025_26/members/rep_hawkins_daniel_1/",
-        "publication": "Kslegislature.Gov",
-        "date": "2026-03-31"
+        "url": "https://www.kslegislature.gov/li/b2025_26/members/rep_hawkins_daniel_1/"
       },
       {
         "title": "Ballotpedia.Org",
-        "url": "https://ballotpedia.org/Daniel_Hawkins_(Kansas",
-        "publication": "Ballotpedia.Org",
-        "date": "2026-03-31"
+        "url": "https://ballotpedia.org/Daniel_Hawkins_(Kansas"
       },
       {
         "title": "SW03DH_AT.pdf",
@@ -7800,12 +6847,6 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "title": "Jocoelection.Org",
         "url": "https://www.jocoelection.org/candidates-elected-officials/daniel-hawkins",
         "publication": "Jocoelection.Org",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "hawkinsforinsurance.com",
-        "url": "https://www.hawkinsforinsurance.com/",
-        "publication": "Hawkinsforinsurance.Com",
         "date": "2026-03-31"
       },
       {
@@ -7853,66 +6894,42 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "education": "B.A. Business Administration (minors in Finance and Economics) -- Trevecca Nazarene University, Nashville, Tennessee (1999)",
     "family": "Jeffrey Sykes; Two sons: William and Tyler",
     "campaignWebsite": "https://www.dinahsykes.com/",
-    "whoTheyAre": "Party: Democrat (switched from Republican, December 19, 2018). Current Office: Kansas Senate, District 21 -- Senate Minority Leader (since 2021). Residence: Lenexa, Kansas. Spouse: Jeffrey Sykes.",
-    "theirRecord": "Has served in the Kansas Senate since 2017 (9 years). Champion for public school funding, early childhood education. Advocate for Medicaid expansion. Protections for survivors of domestic violence, sexual assault, human trafficking, stalking.",
+    "whoTheyAre": "Dinah Sykes is the Kansas Senate minority leader and a 2026 Democratic candidate for Insurance Commissioner. She lives in Lenexa with her husband Jeffrey and their two sons, William and Tyler, and earned a business degree from Trevecca Nazarene University in Nashville with minors in finance and economics. Sykes won her Senate seat in 2016 as a Republican and later switched to the Democratic Party in December 2018. That switch made national news and remains part of her biography. She now runs as the top Democrat in the Kansas Senate and as a candidate who says the insurance office should be about affordability and accountability.",
+    "theirRecord": "Sykes has spent nine years in the Kansas Senate and now serves as Senate Minority Leader. Her record in that role includes leadership work and advocacy for public school funding, Medicaid expansion, and protections for survivors of domestic violence and human trafficking. For Insurance Commissioner, she says the office should lower costs, hold insurers accountable, and put policyholders ahead of the companies being regulated. She also has bipartisan credibility in the race because both Kathleen Sebelius and Sandy Praeger endorsed her.",
     "whatYouShouldKnow": [
-      "Sykes is running as the anti-insurance-industry candidate in a race with a House Speaker opponent",
-      "Her pledge to reject industry money is one of the clearest differentiators in the field",
-      "Sykes is the most senior Democratic institutional figure in the insurance race",
-      "Her biography is rooted in legislative leadership, not outsider novelty",
-      "The affordability message is her main public-facing theme",
-      "The legislature page verifies her leadership role",
-      "Ballotpedia is the cleanest neutral identity anchor",
-      "The treasurer appointment filing confirms campaign setup even where full receipts reporting was sparse"
+      "Sykes is the top Democrat in the Kansas Senate",
+      "She switched from Republican to Democrat in 2018",
+      "Her campaign centers on affordability, consumer protection, transparency, and fairness",
+      "Former Insurance Commissioners Kathleen Sebelius and Sandy Praeger both endorsed her",
+      "No public church affiliation was verified in the sweep"
     ],
-    "whereTheyWorship": "I did not verify a public church affiliation in the sources reviewed.",
+    "whereTheyWorship": "No public church affiliation was verified for Dinah Sykes. Her campaign language is values-oriented, but the public sources reviewed here did not identify a congregation or worship site.",
     "quotes": [
       {
-        "text": "Fighting for Affordable Insurance and Protecting Kansas Families.",
-        "source": "Dinah Sykes research file",
+        "text": "The cost of health insurance in Kansas is simply out of control",
+        "source": "Kansas Reflector brief, 2026-04-01, https://kansasreflector.com/briefs/kansas-senate-minority-leader-challenges-gop-house-speaker-for-state-insurance-commissioner/",
         "date": "2026-03-31",
-        "url": "https://www.dinahsykes.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://kansasreflector.com/briefs/kansas-senate-minority-leader-challenges-gop-house-speaker-for-state-insurance-commissioner/",
+        "topic": "Quotes"
       },
       {
         "text": "Kansas deserves an Insurance Commissioner who puts people first.",
-        "source": "Dinah Sykes research file",
+        "source": "Dinah Sykes campaign site, 2026-04-01, https://www.dinahsykes.com/",
         "date": "2026-03-31",
         "url": "https://www.dinahsykes.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "topic": "Quotes"
       },
       {
         "text": "For Dinah, it all comes down to two things: fairness and affordability.",
-        "source": "Dinah Sykes research file",
+        "source": "Dinah Sykes campaign site, 2026-04-01, https://www.dinahsykes.com/",
         "date": "2026-03-31",
         "url": "https://www.dinahsykes.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "She's seen firsthand how honest and independent leadership can actually improve people's lives.",
-        "source": "Dinah Sykes research file",
-        "date": "2026-03-31",
-        "url": "https://www.dinahsykes.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "The cost of health insurance in Kansas is simply out of control",
-        "source": "Dinah Sykes research file",
-        "date": "2026-03-31",
-        "url": "https://kansasreflector.com/briefs/kansas-senate-minority-leader-challenges-gop-house-speaker-for-state-insurance-commissioner/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "big insurance companies accountable",
-        "source": "Dinah Sykes research file",
-        "date": "2026-03-31",
-        "url": "https://kansasreflector.com/briefs/kansas-senate-minority-leader-challenges-gop-house-speaker-for-state-insurance-commissioner/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "No Kansas statewide finance report listed online as of 2026-04-01",
-      "narrative": "The official Kansas statewide filings index lists Dinah Sykes with a treasurer appointment form, but the report columns for 2024, 2025, and 2026 are all N/A. That means there was no statewide receipts-and-expenditures report posted online for her insurance-commissioner campaign in this pass. The most explicit public finance fact that is public is therefore her own campaign pledge: she says she will not take money from the insurance industry.",
+      "narrative": "No public 2026 receipts report was located online in this sweep. The state index I reviewed surfaced only a treasurer setup filing, not a usable itemized donor report, so the honest summary is that the public campaign-finance picture was not yet available in a way I could reconstruct.",
       "donors": [
         {
           "name": "Kansas statewide filing report",
@@ -7930,33 +6947,27 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "sources": [
       {
         "title": "Dinahsykes.Com",
-        "url": "https://www.dinahsykes.com/",
-        "publication": "Dinahsykes.Com",
-        "date": "2026-03-31"
+        "url": "https://www.dinahsykes.com/"
+      },
+      {
+        "title": "Kansas.Gov",
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm"
       },
       {
         "title": "Kslegislature.Gov",
-        "url": "https://www.kslegislature.gov/li/b2025_26/members/sen_sykes_dinah_1/",
-        "publication": "Kslegislature.Gov",
-        "date": "2026-03-31"
+        "url": "https://www.kslegislature.gov/li/b2025_26/members/sen_sykes_dinah_1/"
       },
       {
         "title": "Ballotpedia.Org",
-        "url": "https://ballotpedia.org/Dinah_Sykes",
-        "publication": "Ballotpedia.Org",
-        "date": "2026-03-31"
+        "url": "https://ballotpedia.org/Dinah_Sykes"
       },
       {
         "title": "Kansas.Gov",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/Treasurers/SW03DS_AT.pdf",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
+        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/Treasurers/SW03DS_AT.pdf"
       },
       {
-        "title": "Kansas.Gov",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
+        "title": "Kansasreflector.Com",
+        "url": "https://kansasreflector.com/briefs/kansas-senate-minority-leader-challenges-gop-house-speaker-for-state-insurance-commissioner/"
       },
       {
         "title": "Kansasreflector.Com",
@@ -7968,12 +6979,6 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "title": "Kansas.Gov",
         "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/",
         "publication": "Kansas.Gov",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Kansasreflector.Com",
-        "url": "https://kansasreflector.com/briefs/kansas-senate-minority-leader-challenges-gop-house-speaker-for-state-insurance-commissioner/",
-        "publication": "Kansasreflector.Com",
         "date": "2026-03-31"
       },
       {
@@ -8058,19 +7063,17 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "family": "Tom Wasinger; Spouse: Tom",
     "district": "Kansas House District 111",
     "campaignWebsite": "https://barbforkansas.com/",
-    "whoTheyAre": "Wasinger's public story is a Hays story: local schools, local church, local government, and then the statehouse. She graduated from St. Catherine University with a theology concentration, worked in health-care settings, and later became a prominent Hays civic figure. The accessible record shows her moving from city and county service into the legislature, where she has leaned into taxes, regulations, and cultural issues. Barbara \"Barb\" Wasinger is the Republican state representative for House District 111 in Hays.",
-    "theirRecord": "She serves in the Kansas House and has been tied to administrative rules, tax, and state spending debates. Local coverage and legislative coffee appearances show her as a regular Hays-area political organizer and explainer of Topeka activity. She has been a visible supporter of conservative cultural positions, including public comments that frame government through Judeo-Christian moral language. The Hays Post and KSN election-guide coverage reinforces that she is an active local public figure, not just a Topeka legislator.",
+    "whoTheyAre": "Barb Wasinger is the Republican state representative for Kansas House District 111 in Hays. Before the Legislature, she served eight years on the Hays City Commission, including two terms as mayor, and six years as an Ellis County commissioner. Her public biography is tied closely to Hays and to local Catholic life. The record identifies her as an active member of St. Joseph Catholic Church in Hays, where she serves as a lector and as an notable Minister of Holy Communion. Her public materials also note a theology concentration from St. Catherine University. Wasinger has represented District 111 since 2019. Her public role is built on long local-government service rather than on a statewide or national political profile.",
+    "theirRecord": "In Topeka, Wasinger chairs the General Government Budget Committee and works on administrative rules. That gives her real procedural leverage, even though she is not one of the most visible members of the House. Her public record in Hays is strongly tied to local infrastructure, especially the R9 Ranch water work that has been central to Hays's long-term water planning. She has also spoken publicly about taxes, education, and the idea that her job is to work through issues instead of just talking about them. The accessible record shows a legislator who is locally rooted, committee-active, and publicly comfortable with Catholic language in her own political speech.",
     "whatYouShouldKnow": [
-      "Wasinger is not a generic partisan profile; she is an institutionally rooted Hays conservative",
-      "Her church affiliation is public and verified, which is important in a district where faith language carries real weight",
-      "She blends local-government experience with a statehouse message about limiting regulation and preserving local values",
-      "She says she is an active member of St. Joseph Catholic Church in Hays",
-      "Her campaign site says she graduated from St. Catherine University and has a theology concentration",
-      "She has been in Hays-area elected office for more than 20 years",
-      "The Hays Post and KSN election-guide coverage reinforces that she is an active local public figure, not just a Topeka legislator",
-      "Her biography intersects with health care, theology, and public service in a way that is unusual for Kansas House members"
+      "She served eight years on the Hays City Commission before entering the Legislature",
+      "She also served six years as an Ellis County commissioner",
+      "She chairs the General Government Budget Committee in the House",
+      "Her public church is St. Joseph Catholic Church in Hays",
+      "Her public statements include explicit references to Judeo-Christian values",
+      "I did not extract a clean donor table from the Kansas finance systems in this sweep"
     ],
-    "whereTheyWorship": "Denomination: Roman Catholic (Diocese of Salina). Church Roles: Lector; notable Minister of Holy Communion.",
+    "whereTheyWorship": "Wasinger's worship home is publicly identified as St. Joseph Catholic Church in Hays. The church URL is https://www.stj-church.com/, and her public profile says she is active there. Her public record also shows Catholic parish service, not just membership. The sources identify her as a lector and an notable Minister of Holy Communion, which are recurring liturgical roles.",
     "church": {
       "name": "St. Joseph Catholic Church, Hays, KS",
       "denomination": "Roman Catholic (Diocese of Salina)",
@@ -8080,49 +7083,29 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "quotes": [
       {
         "text": "My approach in Topeka is simple: talk less, listen more, and work together to actually get things done.",
-        "source": "Barb Wasinger research file",
+        "source": "BarbForKansas.com, accessed April 1, 2026, https://barbforkansas.com/about/",
         "date": "2026-03-31",
-        "url": "https://www.stj-church.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://barbforkansas.com/about/",
+        "topic": "Quotes"
       },
       {
-        "text": "It's an honor to serve the good people of Ellis County.",
-        "source": "Barb Wasinger research file",
+        "text": "It’s an honor to serve the good people of Ellis County.",
+        "source": "BarbForKansas.com, accessed April 1, 2026, https://barbforkansas.com/",
         "date": "2026-03-31",
-        "url": "https://www.stj-church.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "I'm committed to building on that momentum for you.",
-        "source": "Barb Wasinger research file",
-        "date": "2026-03-31",
-        "url": "https://www.stj-church.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://barbforkansas.com/",
+        "topic": "Quotes"
       },
       {
         "text": "Judeo-Christian values established a framework of morality which is necessary for our system of limited government.",
-        "source": "Barb Wasinger research file",
+        "source": "iVoterGuide, accessed April 1, 2026, https://ivoterguide.com/candidate/48696/race/11694/election/797",
         "date": "2026-03-31",
-        "url": "https://www.stj-church.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "The judiciary got hacked, and we went into hyperdrive.",
-        "source": "Barb Wasinger research file",
-        "date": "2026-03-31",
-        "topic": "Legislative Modernization Committee (2023-2024):"
-      },
-      {
-        "text": "A lot of the requirements in the bill mirror what the federal government does.",
-        "source": "Barb Wasinger research file",
-        "date": "2026-03-31",
-        "url": "https://www.kslegislature.gov/li/b2025_26/members/rep_wasinger_barbara_1/",
-        "topic": "Sources:"
+        "url": "https://ivoterguide.com/candidate/48696/race/11694/election/797",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "$11,134.20 (House filing coverage: 01/01/2025 to 12/31/2025)",
-      "narrative": "Wasinger's official House filing is much clearer than the earlier placeholder text. Her 2025 year-end report showed $11,134.20 in contributions and other receipts, $31,179.60 in expenditures, and $17,133.63 cash on hand after starting the period with $37,179.03 already in the account. The donor mix in the filing is notable for a rural Republican incumbent: DoorDash, elevator-union money, security and healthcare interests, banking and contractor PACs, plus Wasinger's own contribution all appear in the posted Schedule A.",
+      "narrative": "Campaign finance records are available through Kansas state systems, but I did not extract a clean donor-by-donor table in this sweep. The accessible material confirms that the finance viewer exists, but it does not give me a reliable enough ledger to summarize as a full money trail. The honest description is that her finance record is present in the state system, but the public-facing data I could read was not yet cleanly reconstructed into a donor table.",
       "donors": [
         {
           "name": "DoorDash, Inc.",
@@ -8163,10 +7146,28 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
+        "title": "Barbforkansas.Com",
+        "url": "https://barbforkansas.com/about/"
+      },
+      {
+        "title": "Barbforkansas.Com",
+        "url": "https://barbforkansas.com/"
+      },
+      {
         "title": "Stj-church.Com",
-        "url": "https://www.stj-church.com/",
-        "publication": "Stj-church.Com",
-        "date": "2026-03-31"
+        "url": "https://www.stj-church.com/"
+      },
+      {
+        "title": "Kslegislature.Gov",
+        "url": "https://www.kslegislature.gov/li/b2025_26/members/rep_wasinger_barbara_1/"
+      },
+      {
+        "title": "Kansas.Gov",
+        "url": "https://www.kansas.gov/campaign-finance/"
+      },
+      {
+        "title": "Ivoterguide.Com",
+        "url": "https://ivoterguide.com/candidate/48696/race/11694/election/797"
       },
       {
         "title": "Barbwasinger.Com",
@@ -8175,33 +7176,9 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "date": "2026-03-31"
       },
       {
-        "title": "Ivoterguide.Com",
-        "url": "https://ivoterguide.com/candidate/48696/race/11694/election/797",
-        "publication": "Ivoterguide.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Barbforkansas.Com",
-        "url": "https://barbforkansas.com/",
-        "publication": "Barbforkansas.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Kslegislature.Gov",
-        "url": "https://www.kslegislature.gov/li/b2025_26/members/rep_wasinger_barbara_1/",
-        "publication": "Kslegislature.Gov",
-        "date": "2026-03-31"
-      },
-      {
         "title": "Justfacts.Votesmart.Org",
         "url": "https://justfacts.votesmart.org/candidate/145676/barb-wasinger",
         "publication": "Justfacts.Votesmart.Org",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Kansas.Gov",
-        "url": "https://www.kansas.gov/campaign-finance/",
-        "publication": "Kansas.Gov",
         "date": "2026-03-31"
       },
       {
@@ -8232,12 +7209,6 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "title": "KSN Election Guide",
         "url": "https://www.ksn.com/news/your-local-election-hq/election-guide-barbara-k-wasinger-r-kansas-house-district-111/",
         "publication": "Ksn.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "barbforkansas.com/about",
-        "url": "https://barbforkansas.com/about/",
-        "publication": "Barbforkansas.Com",
         "date": "2026-03-31"
       },
       {
@@ -8525,19 +7496,17 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "education": "Fort Hays State University -- Political Leadership and Public Service degree (completing/completed)",
     "family": "Tori Ruder (childcare provider in Hays); Not yet known",
     "campaignWebsite": "https://www.haysusa.com/269/City-Commission",
-    "whoTheyAre": "Ruder's public biography is unusually local and unusually layered. He grew up in Hays, attended TMP-Marian, and later returned to work in Catholic school advancement after earlier work in county environmental services and local food service management. That mix of nonprofit, school, and city work shows up repeatedly in his public roles and makes him one of the more institutionally embedded figures in Hays. His career also maps onto the city's biggest policy fights. He has been one of the most visible commissioners on water supply, housing, downtown placemaking, airport funding, and the city's long-running R9 Ranch project. Public coverage also shows him moving quickly from commissioner to vice mayor and then mayor, which suggests he is both politically ambitious and broadly trusted by the current commission majority. Mason Ruder is the mayor of Hays and a member of the city commission. The city's official commission page lists him as mayor, and Hays Catholic Schools describes him as a 2010 Thomas More Prep-Marian graduate who serves as director of institutional advancement. The public record ties him closely to Hays' Catholic and civic infrastructure, not just municipal politics. Ellis County Environmental Services (~2017-2022, 5 years) -- Rose to Environmental Services Director. Oversaw adoption of county's new Comprehensive Plan and Zoning Regulations. Presented 2021 Solid Waste/Transfer Station Annual Report. Led unified effort to revitalize the Extra Territorial Jurisdiction of the City of Hays for smart growth for the next 50+ years.",
-    "theirRecord": "2019: First elected to Hays City Commission (top vote-getter as FHSU student). 2020: Cast the SOLE DISSENTING VOTE against the mask mandate (3-1 vote). This is the only recorded split vote found on this commission during COVID. 2021: Served as Vice Mayor. 2023: Re-elected (four-year term).",
+    "whoTheyAre": "Mason Ruder is the mayor of Hays and a member of the Hays City Commission. Public records describe him as a Certified Public Manager and a Fort Hays State University graduate, and earlier Hays Catholic Schools material identifies him as part of the Catholic school system in Hays. He is also tied to Hays civic life in a very local way. The raw record connects him to NWKEICI business services work, to family ties in Hays civic government, and to the younger-generation side of the city's public institutions. His public identity is strongly local. The visible parts of his biography are Hays, Catholic schools, city government, and the water and growth debates that shape the city.",
+    "theirRecord": "Ruder has served on the Hays City Commission since 2019 and became mayor during the January 2026 reorganization. During COVID, he served as mayor and spoke publicly about the city's response and about the pressure on local leaders. His public actions include defending the controversial Hays water transfer project before the Kansas House Local Government Committee in January 2026 and helping push the city toward long-term water planning. He also created a youth advisory board for Hays High and TMP-Marian students so they could advise the city commission directly. The public record also shows him writing and speaking beyond city meetings. In September 2025 he gave a 9/11 anniversary speech that Kansas Press Association turned into a feature under his name.",
     "whatYouShouldKnow": [
-      "His 2020 mask-mandate dissent is the clearest public split vote attached to his tenure",
-      "The R9 water project repeatedly appears in his record, which makes him especially relevant for water-policy scrutiny",
-      "His Catholic-school leadership role and parish membership make faith a visible part of his public identity",
-      "This is as deeply embedded in Catholic life as it gets at the local level. Mason Ruder does not just attend -- he works for the Catholic schools, graduated from the Catholic high school, and is a parish member. His faith is clearly central to his identity and career. Whether he is active in Knights of Columbus (Council #6984 meets at IHM) was not confirmed in public records but would be worth asking directly",
-      "Ruder is the youngest and most politically ambitious commissioner. CPM credential, political leadership degree, and advancement director role all suggest a person building toward higher office. His sole \"no\" vote on the mask mandate is notable -- it positions him as the most conservative-leaning commissioner on that issue. The 9/11 editorial through the Kansas Press Association shows he is cultivating a public voice beyond Hays. The Youth Leadership Advisory Board is a documented initiative",
-      "Hays Post: City Commission Candidate Mason Ruder",
-      "Tiger Media Network: Ruder elected Mayor",
-      "Most politically ambitious commissioner — building toward higher office"
+      "He is the mayor of Hays and a city commissioner",
+      "He was the youngest city commissioner in Hays history",
+      "He testified in Topeka on the Hays water transfer project",
+      "He created a youth advisory board for Hays High and TMP-Marian students",
+      "He has a public Catholic identity tied to Immaculate Heart of Mary Parish",
+      "I did not find a clearly indexed public campaign finance report in this pass"
     ],
-    "whereTheyWorship": "Denomination: Roman Catholic (Diocese of Salina). Parish Address: 1805 Vine St, Hays, KS 67601.",
+    "whereTheyWorship": "Ruder's Catholic identity is publicly identified. Hays Catholic Schools materials say he is a member of Immaculate Heart of Mary Parish in Hays, and the parish URL is https://www.ihm-church.com/. The public record also ties him to the Catholic school system in Hays, which makes the parish connection part of his broader civic identity rather than a standalone biographical note.",
     "church": {
       "name": "Immaculate Heart of Mary Parish, Hays",
       "denomination": "Roman Catholic (Diocese of Salina)",
@@ -8547,47 +7516,29 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "quotes": [
       {
         "text": "Faith and family have always provided a solid foundation.",
-        "source": "Mason Ruder research file",
+        "source": "Hays Catholic Schools, November 30, 2022, https://www.hfehays.org/o/hfe/article/923439",
         "date": "2026-03-31",
         "url": "https://www.hfehays.org/o/hfe/article/923439",
-        "topic": "Verbatim quotes"
+        "topic": "Quotes"
       },
       {
-        "text": "Let's keep growing Hays. We have a lot of work to do.",
-        "source": "Mason Ruder research file",
+        "text": "It was about getting youth involved in our community a little more and having that direct connection to the city commission and really influence change.",
+        "source": "Hays city commission youth advisory board coverage, 2026, https://www.hayspost.com/",
         "date": "2026-03-31",
-        "url": "https://www.hfehays.org/o/hfe/article/923439",
-        "topic": "Verbatim quotes"
+        "url": "https://www.hayspost.com/",
+        "topic": "Quotes"
       },
       {
-        "text": "Every day is now an R9 Ranch Day.",
-        "source": "Mason Ruder research file",
+        "text": "True government means disagreeing and working things out.",
+        "source": "Hays city commission coverage, 2026, https://www.hayspost.com/",
         "date": "2026-03-31",
-        "url": "https://www.hfehays.org/o/hfe/article/923439",
-        "topic": "Verbatim quotes"
-      },
-      {
-        "text": "a member of Immaculate Heart of Mary Parish in Hays",
-        "source": "Mason Ruder research file",
-        "date": "2026-03-31",
-        "topic": "Evidence:"
-      },
-      {
-        "text": "grew up in Hays with faith and family as a foundation",
-        "source": "Mason Ruder research file",
-        "date": "2026-03-31",
-        "topic": "Evidence:"
-      },
-      {
-        "text": "getting youth involved in our community a little more",
-        "source": "Mason Ruder research file",
-        "date": "2026-03-31",
-        "topic": "Signature Initiative: Youth Leadership Advisory Board"
+        "url": "https://www.hayspost.com/",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "No campaign finance data available online",
-      "narrative": "I did not surface a clearly indexed public campaign finance report in this pass. The visible public record was much stronger on city minutes, Hays Post coverage, and Catholic school/parish sources than on campaign receipts.",
+      "narrative": "I did not surface a clearly indexed public campaign finance report in this pass. The accessible record was much stronger on city minutes, Catholic school sources, and the water-transfer record than on receipts or donor lists. For this profile, the honest finance note is simply that I did not find a reliable public ledger to summarize.",
       "donors": [
         {
           "name": "Campaign finance data",
@@ -8600,10 +7551,24 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
+        "title": "Haysusa.Com",
+        "url": "https://www.haysusa.com/269/City-Commission"
+      },
+      {
         "title": "Hfehays.Org",
-        "url": "https://www.hfehays.org/o/hfe/article/923439",
-        "publication": "Hfehays.Org",
-        "date": "2026-03-31"
+        "url": "https://www.hfehays.org/o/hfe/article/923439"
+      },
+      {
+        "title": "Ihm-church.Com",
+        "url": "https://www.ihm-church.com/"
+      },
+      {
+        "title": "Kspress.Com",
+        "url": "https://kspress.com/news/2025/09/20/forgetting-the-lesson-of-911-is-the-danger-we-face-now-says-ruder"
+      },
+      {
+        "title": "Hayspost.Com",
+        "url": "https://www.hayspost.com/"
       },
       {
         "title": "Hayspost.Com",
@@ -8615,18 +7580,6 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "title": "Hayspost.Com",
         "url": "https://hayspost.com/posts/a356c3c3-47d3-49eb-98d5-fe030ffd2b8e",
         "publication": "Hayspost.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Ihm-church.Com",
-        "url": "https://www.ihm-church.com/",
-        "publication": "Ihm-church.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Haysusa.Com",
-        "url": "https://www.haysusa.com/269/City-Commission",
-        "publication": "Haysusa.Com",
         "date": "2026-03-31"
       },
       {
@@ -8675,12 +7628,6 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "title": "HDN: Commissioners sworn in",
         "url": "https://www.hdnews.net/city-commissioners-sworn-in-ruder-elected-mayor-cunningham-vice-mayor/",
         "publication": "Hdnews.Net",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "KS Press: 9/11 Editorial",
-        "url": "https://kspress.com/news/2025/09/20/forgetting-the-lesson-of-911-is-the-danger-we-face-now-says-ruder",
-        "publication": "Kspress.Com",
         "date": "2026-03-31"
       },
       {
@@ -8809,57 +7756,34 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "occupation": "Nurse / Fitness Instructor",
     "education": "RN (Registered Nurse) credential -- school not confirmed",
     "campaignWebsite": "https://haysmedfoundation.org/foundation-elects-new-officers-and-board-members/",
-    "whoTheyAre": "Age: ~45 (estimated from public records showing previous address in Dodge City area). Title: Vice Mayor, City of Hays (elected by commission January 2026). Day Job: Registered Nurse (RN) and ACE Certified Group Fitness Instructor, HaysMed Center for Health Improvement. Hometown: Dodge City, Kansas.",
-    "theirRecord": "Appointed to the Hays City Commission to fill the unexpired Berges seat, then elected to a full term in 2023. Elevated to vice mayor in January 2026 when the commission reorganized. Focused publicly on the city's sustainable water supply, housing shortage, youth retention, and support for retirees. Supported development incentives and financing tools meant to keep Hays attractive to builders and businesses.",
+    "whoTheyAre": "Alaina Cunningham is the vice mayor of Hays and a sitting city commissioner. Public records describe her as a registered nurse and ACE-certified group fitness instructor at HaysMed, and she originally came to Hays from Dodge City. She is one of the commission's least noisy members, but her public profile is still built around healthcare, community boards, and city service. Cunningham was appointed to fill the unexpired term left by Michael Berges and then won election to a full term in 2023. She has also served as president of the HaysMed Foundation board for many years and has been active in other local boards. Her public record is more community-involvement driven than partisan.",
+    "theirRecord": "Cunningham's record centers on water, housing, economic development, and the city's long-term ability to keep residents and retirees. She has treated sustainable water supply as a central issue and has supported the kinds of development incentives the city uses to keep housing and businesses moving. She was elected vice mayor in January 2026 when the commission reorganized. Her public comments tend to connect city finance, housing supply, and quality-of-life questions instead of treating them as separate fights. That gives her a straightforward administrative profile.",
     "whatYouShouldKnow": [
-      "Her public record is relatively low-conflict and service-oriented",
-      "She has been a visible part of the city's development and water discussions rather than a headline-driven figure",
-      "Her appointment origin remains a notable part of her identity because it ties her first entry to Michael Berges' move to county office",
-      "The complete absence of faith references in any public profile is notable. This does not mean she is not a churchgoer -- many local officials simply do not publicize their church life. However, in a community as church-centric as Hays, the silence is itself a data point. Direct inquiry would be required for verification",
-      "Cunningham is the least publicly visible commissioner. She was appointed (not initially elected), has limited news quotes, and her community profile is primarily through HaysMed Foundation and PTA work rather than political activity. Her LinkedIn describes her as a \"Health and Well-being professional.\" Her appointment filled a vacancy, and she won her first election in 2023. As Vice Mayor, she's positioned as Ruder's second-in-command",
-      "Tiger Media Network: Get to know candidates",
-      "Cunningham remains the least publicly visible commissioner. Her primary public identity is through healthcare (HaysMed nurse) and community boards rather than political activity. The potential spousal connection to the County Attorney is the most interesting unanswered question in Hays local government",
-      "Campaign finance filings reviewed for this profile show no campaign finance data available online"
+      "Cunningham moved into city government through appointment before winning a full term in her own right",
+      "Her background is healthcare and civic board work, not law or partisanship",
+      "She was chosen vice mayor by her fellow commissioners in 2026",
+      "She has publicly addressed water, housing, and sustainable growth",
+      "Her record is relatively low-drama and service-oriented",
+      "I did not find a major public controversy in the sources reviewed"
     ],
-    "whereTheyWorship": "No verified public church affiliation surfaced in the sources reviewed. Her public bios and local coverage centered on nursing, family, youth activity, and city service rather than faith or parish identity.",
+    "whereTheyWorship": "No current church affiliation was publicly verified in the sources I reviewed for Cunningham. The public record I reviewed covered nursing, civic boards, and city service rather than a named congregation.",
     "quotes": [
       {
         "text": "I feel it is my duty to serve the public and 'Do Good.'",
-        "source": "Alaina Cunningham research file",
+        "source": "Hays Post, 2023-10-25, https://hayspost.com/posts/5552ce0e-bfbc-418e-addf-a4318ee25055",
         "date": "2026-03-31",
         "url": "https://hayspost.com/posts/5552ce0e-bfbc-418e-addf-a4318ee25055",
-        "topic": "Verbatim quotes"
+        "topic": "Quotes"
       },
       {
         "text": "We are all aware how valuable water is to our area.",
-        "source": "Alaina Cunningham research file",
+        "source": "Hays Post, 2023-10-25, https://hayspost.com/posts/5552ce0e-bfbc-418e-addf-a4318ee25055",
         "date": "2026-03-31",
         "url": "https://hayspost.com/posts/5552ce0e-bfbc-418e-addf-a4318ee25055",
-        "topic": "Verbatim quotes"
-      },
-      {
-        "text": "Fireworks is always a hot topic.",
-        "source": "Alaina Cunningham research file",
-        "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/5552ce0e-bfbc-418e-addf-a4318ee25055",
-        "topic": "Verbatim quotes"
+        "topic": "Quotes"
       },
       {
         "text": "You (staff) brought us a constrained budget which is what we asked for.",
-        "source": "Alaina Cunningham research file",
-        "date": "2026-03-31",
-        "url": "https://www.facebook.com/alaina.cunningham.9/",
-        "topic": "ALAINA CUNNINGHAM -- Vice Mayor, City Commissioner"
-      },
-      {
-        "text": "retaining youth in the community instead of them moving away",
-        "source": "Alaina Cunningham research file",
-        "date": "2026-03-31",
-        "url": "https://www.facebook.com/alaina.cunningham.9/",
-        "topic": "ALAINA CUNNINGHAM -- Vice Mayor, City Commissioner"
-      },
-      {
-        "text": "fiscal responsibility and sustainable growth",
         "source": "Alaina Cunningham research file",
         "date": "2026-03-31",
         "url": "https://www.facebook.com/alaina.cunningham.9/",
@@ -8868,7 +7792,7 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     ],
     "campaignFinance": {
       "totalRaised": "No campaign finance data available online",
-      "narrative": "I did not surface a clearly indexed public campaign finance report in this pass. The public web results were much stronger on candidate Q&A, city minutes, and local media than on any formal committee filing.",
+      "narrative": "I did not surface a clearly indexed public campaign finance report for Cunningham in this pass. The public web results were stronger on city minutes, candidate Q&A, and local media than on formal committee filings.",
       "donors": [
         {
           "name": "Campaign finance data",
@@ -8881,22 +7805,28 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
-        "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/5552ce0e-bfbc-418e-addf-a4318ee25055",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "title": "Haysusa.Com",
+        "url": "https://www.haysusa.com/269/City-Commission"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/26608269-25e1-4f29-b80f-d2edbb3bba3d",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/5552ce0e-bfbc-418e-addf-a4318ee25055"
+      },
+      {
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/26608269-25e1-4f29-b80f-d2edbb3bba3d"
+      },
+      {
+        "title": "Haysmed.Com",
+        "url": "https://www.haysmed.com/services/chi-what-we-offer/"
+      },
+      {
+        "title": "Lkm.Org",
+        "url": "https://www.lkm.org/members/?id=50545549"
       },
       {
         "title": "Haysusa.Com",
-        "url": "https://www.haysusa.com/269/City-Commission",
-        "publication": "Haysusa.Com",
-        "date": "2026-03-31"
+        "url": "https://www.haysusa.com/AgendaCenter/ViewFile/Minutes/_01042024-1458"
       },
       {
         "title": "Hayspost.Com",
@@ -8908,24 +7838,6 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "title": "Hayspost.Com",
         "url": "https://hayspost.com/posts/31a9d9f8-0883-480f-aada-22ac084f09b9",
         "publication": "Hayspost.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Haysmed.Com",
-        "url": "https://www.haysmed.com/services/chi-what-we-offer/",
-        "publication": "Haysmed.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Lkm.Org",
-        "url": "https://www.lkm.org/members/?id=50545549",
-        "publication": "Lkm.Org",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Haysusa.Com",
-        "url": "https://www.haysusa.com/AgendaCenter/ViewFile/Minutes/_01042024-1458",
-        "publication": "Haysusa.Com",
         "date": "2026-03-31"
       },
       {
@@ -8999,66 +7911,43 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "incumbent": true,
     "occupation": "Nex-Tech Employee / Business Owner",
     "campaignWebsite": "https://www.haysusa.com/273/Shaun-Musil",
-    "whoTheyAre": "Age: 53. Lived in Hays: 30 years. Spouse: Heather Musil -- instructor in FHSU Department of Teacher Education (previously Hays Middle School teacher). Day Job: Account Representative, Nex-Tech (managed IT, cybersecurity, physical security, communications).",
-    "theirRecord": "Re-elected in 2025 for another city commission term after more than a decade in office. Repeatedly framed the R9 water project as unfinished business and a generational necessity. Backed RHID and housing policy changes that he says have increased the number of houses being built. Has pressed for retail growth and a stronger sales-tax base as part of the city's broader financial health.",
+    "whoTheyAre": "Shaun Musil is a longtime Hays city commissioner and former mayor who has spent more than a decade in city government. He works as an account representative for Nex-Tech and has lived in Hays for roughly 30 years. In local reporting, he comes across as a steady, low-key official whose public identity is tied to city operations more than partisan branding. Musil and his wife Heather co-owned the Paisley Pear Wine Bar, Bistro and Market in downtown Hays until they sold it in 2024. He also served as mayor during the COVID period, which put him at the center of one of the city's most difficult public-health and ordinance debates. His public record shows a person who has stayed in Hays for the long haul and built his civic reputation around practical city management.",
+    "theirRecord": "Musil's record is dominated by the R9 water project and the broader question of how Hays grows without breaking its utility system. In his candidate Q&A and election coverage, he repeatedly described the water project as unfinished business and a generational necessity. He also framed retail growth and a stronger sales-tax base as part of the city's financial stability. He has backed housing policy changes, including RHID and other adjustments that he says have helped new houses get built. Public coverage also shows him treating sustainability and city services as linked questions rather than separate fights. That makes him one of the more policy-oriented commissioners on the board, even if he does not talk like a national politician.",
     "whatYouShouldKnow": [
-      "Musil's most visible issue area is water, especially the R9 project and broader utility planning",
-      "He has spoken plainly about retail and sales tax as part of the city's financial base, which makes him relevant to growth-oriented voters",
-      "I did not find a major public controversy in the sources reviewed, but his long tenure means his record is heavily tied to the city's current growth trajectory",
-      "30 years in Hays with zero public faith references is the most telling absence on this list. He may attend church privately, but faith does not appear to be part of his public identity or decision-making framework. The wine bar ownership is not inherently relevant but does distinguish him from officials who lead with faith credentials. Direct inquiry would be required for verification",
-      "Musil is the longest-serving commissioner and the longest-serving member of the commission. 12+ years of service spanning COVID, the R9 water fight, housing crisis, and downtown revitalization. His COVID leadership -- standing by the mask mandate despite vandalism and threats to his family -- is the most widely reported personal story on the commission. The Paisley Pear ownership creates an interesting lens on his downtown development votes, though nothing improper has been alleged. He ran on GoodParty.org, suggesting nonpartisan/independent orientation",
-      "Hays Post: Commission reorganized, Musil thankful",
-      "Musil is entering his final years on the commission with deep institutional memory. The COVID vandalism story is the most dramatic personal narrative of any local official in Hays. Having sold the Paisley Pear, he's now free of the business interest that created potential conflict-of-interest questions on downtown development votes. His re-election in 2025 to a four-year term (through 2029) was clear community endorsement",
-      "Campaign finance filings reviewed for this profile show no campaign finance data available online"
+      "Musil has been on the commission long enough to shape the city's water, housing, and retail debates over multiple election cycles",
+      "He treats the R9 water project as the main unfinished task facing Hays, not as a side issue",
+      "He has said Hays needs retail growth and a stronger sales-tax base to stay financially healthy",
+      "His wife Heather's work in education and their former Paisley Pear ownership give him a visible downtown connection, but his public record is still centered on city government",
+      "He was mayor during the COVID era, voted for the mask ordinance, and later said his family faced vandalism and threats because of that decision",
+      "No major public ethics complaint or scandal surfaced in the reviewed sources"
     ],
-    "whereTheyWorship": "No verified public church affiliation surfaced in the sources reviewed.",
+    "whereTheyWorship": "No current church affiliation was publicly verified in the sources I reviewed for Musil. The public record I reviewed centered on city service, business ownership, and the R9 debate rather than faith identity or a named congregation.",
     "quotes": [
       {
         "text": "I think we have some unfinished business. For me, mainly, it's our water project.",
-        "source": "Shaun Musil research file",
+        "source": "Hays Post, 2025-10-24, https://hayspost.com/posts/49060a66-e8fc-4755-a296-382a14c00a3d",
         "date": "2026-03-31",
         "url": "https://hayspost.com/posts/49060a66-e8fc-4755-a296-382a14c00a3d",
-        "topic": "Verbatim quotes"
+        "topic": "Quotes"
       },
       {
-        "text": "I love representing Hays.",
-        "source": "Shaun Musil research file",
+        "text": "He was scared to death making those decisions, but the people came out of the woodwork thanking us.",
+        "source": "Hays city COVID coverage, 2020, https://hayspost.com/posts/6003cad5-e6bf-4ab2-87a9-fd03d8a5750c",
         "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/49060a66-e8fc-4755-a296-382a14c00a3d",
-        "topic": "Verbatim quotes"
+        "url": "https://hayspost.com/posts/6003cad5-e6bf-4ab2-87a9-fd03d8a5750c",
+        "topic": "Quotes"
       },
       {
         "text": "This shows that we're serious about development. ... We need retail. It's a priority.",
-        "source": "Shaun Musil research file",
+        "source": "Hays Post, 2024-12-07, https://hayspost.com/posts/93368d50-a4df-410c-93b2-0ea148af9b4b",
         "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/49060a66-e8fc-4755-a296-382a14c00a3d",
-        "topic": "Verbatim quotes"
-      },
-      {
-        "text": "the people came out of the woodwork thanking us.",
-        "source": "Shaun Musil research file",
-        "date": "2026-03-31",
-        "url": "https://www.facebook.com/musilcomish/",
-        "topic": "SHAUN MUSIL -- Commissioner"
-      },
-      {
-        "text": "most impactful pieces of legislation",
-        "source": "Shaun Musil research file",
-        "date": "2026-03-31",
-        "url": "https://www.facebook.com/musilcomish/",
-        "topic": "SHAUN MUSIL -- Commissioner"
-      },
-      {
-        "text": "I believe it's going to happen.",
-        "source": "Shaun Musil research file",
-        "date": "2026-03-31",
-        "url": "https://www.facebook.com/musilcomish/",
-        "topic": "SHAUN MUSIL -- Commissioner"
+        "url": "https://hayspost.com/posts/93368d50-a4df-410c-93b2-0ea148af9b4b",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "No campaign finance data available online",
-      "narrative": "I did not surface a clearly indexed public campaign finance report in this pass. Publicly visible coverage centered on candidate Q&A, election results, and city-record reporting.",
+      "narrative": "I did not surface a clearly indexed public campaign finance report for Musil in this pass. The public record I reviewed was much stronger on city coverage, candidate Q&A, and election results than on donor-by-donor finance detail.",
       "donors": [
         {
           "name": "Campaign finance data",
@@ -9071,50 +7960,40 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
-        "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/49060a66-e8fc-4755-a296-382a14c00a3d",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/93368d50-a4df-410c-93b2-0ea148af9b4b",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "title": "Haysusa.Com",
+        "url": "https://www.haysusa.com/273/Shaun-Musil"
       },
       {
         "title": "Haysusa.Com",
-        "url": "https://www.haysusa.com/273/Shaun-Musil",
-        "publication": "Haysusa.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Haysusa.Com",
-        "url": "https://www.haysusa.com/269/City-Commission",
-        "publication": "Haysusa.Com",
-        "date": "2026-03-31"
+        "url": "https://www.haysusa.com/269/City-Commission"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/b7a4b7ea-3e19-4919-a7fa-1de6db7bed8c",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/49060a66-e8fc-4755-a296-382a14c00a3d"
+      },
+      {
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/b7a4b7ea-3e19-4919-a7fa-1de6db7bed8c"
+      },
+      {
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/93368d50-a4df-410c-93b2-0ea148af9b4b"
+      },
+      {
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/39d62580-9e3b-4536-85da-783f3cfe22bd"
+      },
+      {
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/21208822-3905-4a26-a33d-5003cf6f8f08"
+      },
+      {
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/6003cad5-e6bf-4ab2-87a9-fd03d8a5750c"
       },
       {
         "title": "Hayspost.Com",
         "url": "https://hayspost.com/posts/1afb725b-f6c4-4d09-93de-94b9008ba5ae",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/39d62580-9e3b-4536-85da-783f3cfe22bd",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/21208822-3905-4a26-a33d-5003cf6f8f08",
         "publication": "Hayspost.Com",
         "date": "2026-03-31"
       },
@@ -9207,66 +8086,43 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "incumbent": true,
     "occupation": "Former Mayor / Foundation Executive",
     "campaignWebsite": "https://www.haysusa.com/270/Sandy-Jacobs",
-    "whoTheyAre": "Age: 75. Husband: Danny Jacobs (both over 65). Lifetime Hays resident. Retired from: Sunflower Bank (Executive Vice President) and Heartland Community Foundation (Executive Director, 5 years, retired ~Dec 31, 2020).",
-    "theirRecord": "Re-elected in 2025 and returned to office for another term. Served as Hays mayor before the 2026 reorganization, when Mason Ruder was chosen as mayor and Alaina Cunningham as vice mayor. Has pushed the R9 project for years and repeatedly treated it as the city's top long-term water issue. Backed housing and incentive-district policy changes while defending revenue-neutral budgeting and a conservative tax posture.",
+    "whoTheyAre": "Sandy Jacobs is a Hays city commissioner, former mayor, and retired banker who has spent years in local public life. The public record describes her as a native Hays resident who moved from banking into city government and now serves as one of the commission's more experienced members. Her biography is rooted in local continuity rather than a big political brand. Jacobs' background is in finance and nonprofit work. She retired from Sunflower Bank after serving as executive vice president and later led the Heartland Community Foundation before retiring from that role in 2020. On the commission, she is known for a calm, collaborative style and for treating infrastructure and budgeting as long-term stewardship tasks.",
+    "theirRecord": "Jacobs' record is closely tied to the R9 water project, housing, park spending, and the city's budget process. She has supported the city through repeated water discussions and has treated the pipeline issue as a core long-term responsibility rather than a one-off capital item. She was elected mayor before the 2026 reorganization, when the commission chose Mason Ruder as mayor and Alaina Cunningham as vice mayor. Her public comments also show a willingness to defend revenue-neutral budgeting and a conservative tax posture while still supporting city investment in key infrastructure and development work.",
     "whatYouShouldKnow": [
-      "Jacobs is one of the clearest public champions of the R9 project and water conservation",
-      "She has openly defended revenue-neutral budgeting and low-tax arguments, which makes her relevant for fiscal conservatives",
-      "Public records show her as a consensus builder rather than a flashpoint figure",
-      "Another complete absence. Heartland Community Foundation is a secular community foundation, not faith-based. No public faith identity found. Direct inquiry would be required for verification",
-      "Jacobs is the long-serving member of the commission. At 75, she's a retired banker and nonprofit executive who has served three stints as mayor. Her Vine Street roundabout campaign is her most tangible infrastructure legacy -- and she's not shy about citing the economic impact data. Her retail development focus aligns with a business-oriented worldview shaped by decades in banking and economic development. She voted with the mask mandate majority. Her re-election in November 2025 to another four-year term (through 2029, when she'd be 79) shows she isn't slowing down",
-      "Hays Post: Jacobs filing announcement",
-      "At 75, Jacobs is the commission's long-serving member with the deepest roots in Hays finance and philanthropy. Her Sunflower Bank career (EVP) and Heartland Foundation leadership give her the deepest economic-development background on the commission. The Vine Street roundabout project -- backed by hard data on restaurant sales increases -- is a tangible legacy. She and Danny are emblematic of the \"establishment Hays\" power structure: banking, nonprofit, civic service",
-      "Campaign finance filings reviewed for this profile show no campaign finance data available online"
+      "Jacobs is one of the city's longest-serving and most experienced elected officials",
+      "She has been a steady supporter of the R9 water effort for years",
+      "Her public comments in Hays Post coverage keep returning to water, retail development, and sustainable budgets rather than partisan conflict",
+      "She brings banking and foundation-management experience into city government",
+      "She has supported housing and infrastructure decisions while defending tax restraint",
+      "No major public controversy surfaced in the sources I reviewed"
     ],
-    "whereTheyWorship": "No verified public church affiliation surfaced in the sources reviewed.",
+    "whereTheyWorship": "No current church affiliation was publicly verified in the sources I reviewed for Jacobs. The public record I reviewed centered on city leadership, water policy, and budgeting rather than church identity or parish membership.",
     "quotes": [
       {
         "text": "I've served for eight years, and my passion continues to be for this city as a native.",
-        "source": "Sandy Jacobs research file",
+        "source": "Hays Post, 2025-10-22, https://hayspost.com/posts/c0016433-275d-4af3-aabe-af7379f8c56f",
         "date": "2026-03-31",
         "url": "https://hayspost.com/posts/c0016433-275d-4af3-aabe-af7379f8c56f",
-        "topic": "Verbatim quotes"
+        "topic": "Quotes"
       },
       {
-        "text": "We've asked for less water than is allowed by the state.",
-        "source": "Sandy Jacobs research file",
+        "text": "I'm very focused on retail development in this community, as are many. I think we need to be looking at everything possible we can do to make ourselves attractive to people out there, and I know Grow Hays is working closely with a broker to find (it).",
+        "source": "Hays Post, 2024-12-07, https://hayspost.com/posts/93368d50-a4df-410c-93b2-0ea148af9b4b",
         "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/c0016433-275d-4af3-aabe-af7379f8c56f",
-        "topic": "Verbatim quotes"
+        "url": "https://hayspost.com/posts/93368d50-a4df-410c-93b2-0ea148af9b4b",
+        "topic": "Quotes"
       },
       {
-        "text": "we're rock stars compared to other communities",
-        "source": "Sandy Jacobs research file",
+        "text": "I continue to say we're rock stars compared to other communities, and I think that will continue if we keep our heads where they're at, understand that we don't want to overspend, that we don't want to put a budget out there that is not sustainable.",
+        "source": "Hays Post, 2025-07-09, https://hayspost.com/posts/ab9f126e-6b0d-4482-9212-ba76a853c772",
         "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/c0016433-275d-4af3-aabe-af7379f8c56f",
-        "topic": "Verbatim quotes"
-      },
-      {
-        "text": "I'm very focused on retail development in this community. I think we need to be looking at everything possible we can do to make ourselves attractive to people out there.",
-        "source": "Sandy Jacobs research file",
-        "date": "2026-03-31",
-        "url": "https://www.facebook.com/people/Sandy-Jacobs-Hays-City-Commission/100063604999773/",
-        "topic": "SANDY JACOBS -- Commissioner"
-      },
-      {
-        "text": "Sustainable, responsible, planned economic growth",
-        "source": "Sandy Jacobs research file",
-        "date": "2026-03-31",
-        "url": "https://www.facebook.com/people/Sandy-Jacobs-Hays-City-Commission/100063604999773/",
-        "topic": "SANDY JACOBS -- Commissioner"
-      },
-      {
-        "text": "This is the best design -- in my opinion -- that has been brought forward.",
-        "source": "Sandy Jacobs research file",
-        "date": "2026-03-31",
-        "url": "https://www.facebook.com/people/Sandy-Jacobs-Hays-City-Commission/100063604999773/",
-        "topic": "SANDY JACOBS -- Commissioner (~8 years), Former Mayor"
+        "url": "https://hayspost.com/posts/ab9f126e-6b0d-4482-9212-ba76a853c772",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "No campaign finance data available online",
-      "narrative": "I did not surface a clearly indexed public campaign finance report in this pass. The public web results were much stronger on candidate Q&A, budget coverage, and city leadership reporting than on formal committee filings.",
+      "narrative": "I did not surface a clearly indexed public campaign finance report for Jacobs in this pass. The public record was much stronger on city leadership and budget coverage than on donor-by-donor finance detail.",
       "donors": [
         {
           "name": "Campaign finance data",
@@ -9279,46 +8135,36 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
-        "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/c0016433-275d-4af3-aabe-af7379f8c56f",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/ab9f126e-6b0d-4482-9212-ba76a853c772",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "title": "Haysusa.Com",
+        "url": "https://www.haysusa.com/270/Sandy-Jacobs"
       },
       {
         "title": "Haysusa.Com",
-        "url": "https://www.haysusa.com/270/Sandy-Jacobs",
-        "publication": "Haysusa.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Haysusa.Com",
-        "url": "https://www.haysusa.com/269/City-Commission",
-        "publication": "Haysusa.Com",
-        "date": "2026-03-31"
+        "url": "https://www.haysusa.com/269/City-Commission"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/0de13ea6-3e03-4110-a99e-58f98b4d361c",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/c0016433-275d-4af3-aabe-af7379f8c56f"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/021a5674-353e-46c4-b816-42284ec8514b",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/0de13ea6-3e03-4110-a99e-58f98b4d361c"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/21208822-3905-4a26-a33d-5003cf6f8f08",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/021a5674-353e-46c4-b816-42284ec8514b"
+      },
+      {
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/ab9f126e-6b0d-4482-9212-ba76a853c772"
+      },
+      {
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/21208822-3905-4a26-a33d-5003cf6f8f08"
+      },
+      {
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/93368d50-a4df-410c-93b2-0ea148af9b4b"
       },
       {
         "title": "Hayspost.Com",
@@ -9391,56 +8237,34 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "incumbent": true,
     "occupation": "Retired Police Officer / Trainer",
     "campaignWebsite": "https://www.haysusa.com/269/City-Commission",
-    "whoTheyAre": "Age: 43. Email: Vilaysing-HaysCity@outlook.com. Day Job: Owner, DXI Training Solutions LLC. Retired from: Hays Police Department (19 years, retired as Sergeant).",
-    "theirRecord": "Elected to the Hays City Commission in 2025 on a platform centered on water, housing, and city transparency. Entered office with a background in police budgets, training, and frontline city operations. Said he wants a permanent water solution and better public visibility into the R9 process. Has stressed low- and middle-income housing and a desire to help make Hays more livable for working families.",
+    "whoTheyAre": "David Vilaysing is a Hays city commissioner, retired Hays police sergeant, and owner of DXI Training Solutions. He has 19 years with the Hays Police Department plus military police experience, and local reporting describes him as someone who moved from frontline public safety into training and civic leadership. He is one of the newer elected faces on the commission, but his public-service background is substantial. Vilaysing's company provides de-escalation, tactical communication, self-defense, and first-responder training. He is also active in the wider training community through ILEETA. His public image is rooted in law enforcement, practical safety work, and a desire to stay connected to the Hays community after leaving the police department.",
+    "theirRecord": "Vilaysing was elected to the Hays City Commission in 2025 on a platform about water, housing, and transparency. His first set of public comments and questions as a commissioner were about the R9 water process, city operations, and the cost of ordinary city services such as pet licensing. He has also pushed practical questions about city costs, including pet licensing and whether the program is worth its annual expense. That kind of detail-oriented, operational approach fits his background in policing and training more than a traditional political profile.",
     "whatYouShouldKnow": [
-      "Vilaysing is one of the newer faces on the commission, so his public record is still forming",
-      "He runs a first-responder training company, which gives him a different professional lens from the other commissioners",
-      "His public comments emphasize transparency and listening more than ideology",
-      "The \"core values\" language is suggestive but not conclusive. His background is law enforcement and military -- both communities where faith can be deeply held but not publicly displayed. No specific church identified. Direct inquiry would be required for verification",
-      "Vilaysing is the wild card on the commission. A 19-year police veteran with military police background, he's the only commissioner with law enforcement experience. His DXI Training business shows he's focused on de-escalation and communication -- not the stereotypical \"tough cop\" persona. The Alzheimer's fundraiser and BYOB self-defense classes show community engagement. His Laotian surname suggests an interesting personal story (likely refugee family background given the Laotian community in Kansas), though no details were found in public records. His pet licensing initiative is a small but telling first move -- he's looking to cut bureaucratic friction. He replaced the most progressive commissioner (Barrick, the No Kings protester), which shifts the commission's ideological center",
-      "Hays Post: David Vilaysing Q&A",
-      "Hays Post: 2 incumbents, 1 newcomer elected",
-      "Vilaysing brings a unique perspective to the commission as a Laotian-American retired police sergeant with military police background. His de-escalation focus (both professionally and philosophically) is notable -- he's not a \"tough on crime\" stereotype. The BYOB self-defense classes and Alzheimer's fundraiser show documented community involvement. His pet licensing reform initiative (reducing bureaucratic fees that collect only $14K/year) signals a practical, libertarian-leaning approach to government. He replaced the progressive Reese Barrick, shifting the commission's center of gravity"
+      "Vilaysing entered office with 22 years of combined law-enforcement and military-police experience",
+      "He runs a training company, not a political consulting operation",
+      "His public questions as a commissioner have been about water, housing, city transparency, pet licensing costs, and basic city operations",
+      "He was elected in 2025, so his city-government record is still early",
+      "He has no major public controversy in the source set I reviewed",
+      "His commission style reads as practical and operational rather than ideological"
     ],
-    "whereTheyWorship": "No verified public church affiliation surfaced in the sources reviewed.",
+    "whereTheyWorship": "No current church affiliation was publicly verified in the sources I reviewed for Vilaysing. The public record I reviewed covered his law-enforcement work, his training company, and his first year on the commission rather than faith identity.",
     "quotes": [
       {
         "text": "I knew at my core I missed giving back to my community.",
-        "source": "David Vilaysing research file",
+        "source": "Hays Post, 2025-10-25, https://hayspost.com/posts/5e243ec1-847a-40f8-a7dd-665ffe2f85de",
         "date": "2026-03-31",
         "url": "https://hayspost.com/posts/5e243ec1-847a-40f8-a7dd-665ffe2f85de",
-        "topic": "Verbatim quotes"
-      },
-      {
-        "text": "I have a good set of core values.",
-        "source": "David Vilaysing research file",
-        "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/5e243ec1-847a-40f8-a7dd-665ffe2f85de",
-        "topic": "Verbatim quotes"
+        "topic": "Quotes"
       },
       {
         "text": "David began his employment with the Hays Police Department in 2005 as a Police Officer.",
-        "source": "David Vilaysing research file",
+        "source": "Hays Post, 2020-11-15, https://hayspost.com/posts/40e17885-6833-42a5-9562-0abd9f173b21",
         "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/5e243ec1-847a-40f8-a7dd-665ffe2f85de",
-        "topic": "Verbatim quotes"
-      },
-      {
-        "text": "missing in how the current city commission handles matters",
-        "source": "David Vilaysing research file",
-        "date": "2026-03-31",
-        "topic": "Evidence:"
+        "url": "https://hayspost.com/posts/40e17885-6833-42a5-9562-0abd9f173b21",
+        "topic": "Quotes"
       },
       {
         "text": "The most important factor in de-escalation is an officer's self-control.",
-        "source": "David Vilaysing research file",
-        "date": "2026-03-31",
-        "url": "https://www.ileeta.org/dxi-training-solutions-llc/",
-        "topic": "DAVID VILAYSING -- Commissioner"
-      },
-      {
-        "text": "Responsible conflict management skills for all aspects of life",
         "source": "David Vilaysing research file",
         "date": "2026-03-31",
         "url": "https://www.ileeta.org/dxi-training-solutions-llc/",
@@ -9449,7 +8273,7 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     ],
     "campaignFinance": {
       "totalRaised": "No campaign finance data available online",
-      "narrative": "I did not surface a clearly indexed public campaign finance report in this pass. The public record was more visible on his police career and candidate Q&A than on committee filings.",
+      "narrative": "I did not surface a clearly indexed public campaign finance report for Vilaysing in this pass. The public record was more visible on his police career and candidate Q&A than on committee filings.",
       "donors": [
         {
           "name": "Campaign finance data",
@@ -9462,44 +8286,32 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
-        "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/5e243ec1-847a-40f8-a7dd-665ffe2f85de",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/40e17885-6833-42a5-9562-0abd9f173b21",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
-      },
-      {
         "title": "Haysusa.Com",
-        "url": "https://www.haysusa.com/269/City-Commission",
-        "publication": "Haysusa.Com",
-        "date": "2026-03-31"
+        "url": "https://www.haysusa.com/269/City-Commission"
+      },
+      {
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/5e243ec1-847a-40f8-a7dd-665ffe2f85de"
+      },
+      {
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/40e17885-6833-42a5-9562-0abd9f173b21"
+      },
+      {
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/21208822-3905-4a26-a33d-5003cf6f8f08"
+      },
+      {
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/0de13ea6-3e03-4110-a99e-58f98b4d361c"
+      },
+      {
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/a0f7dc0e-e11c-483b-95ef-cbd4ad3ac930"
       },
       {
         "title": "Hayspost.Com",
         "url": "https://hayspost.com/posts/b7a4b7ea-3e19-4919-a7fa-1de6db7bed8c",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/21208822-3905-4a26-a33d-5003cf6f8f08",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/0de13ea6-3e03-4110-a99e-58f98b4d361c",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/a0f7dc0e-e11c-483b-95ef-cbd4ad3ac930",
         "publication": "Hayspost.Com",
         "date": "2026-03-31"
       },
@@ -9545,61 +8357,38 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "occupation": "City Manager",
     "family": "Not identified in public records. No spouse, children, church, or personal details found despite extensive search. Dougherty maintains an exceptionally private personal life for someone who has been a public figure for 21 years. His public persona is entirely professional",
     "campaignWebsite": "https://www.haysusa.com/149/City-Managers-Office",
-    "whoTheyAre": "Title: City Manager, City of Hays (appointed August 1, 2007). Hometown: Lucas, Kansas (small town ~1 hour from Hays). In Hays since: 2005 (started as Assistant City Manager March 2005). Total Hays government service: 21 years.",
-    "theirRecord": "Has been city manager since 2007 and previously served as assistant city manager. Helped steer the city through R9 water planning, water conservation measures, and repeated legal challenges over the transfer. Oversaw budget discussions where the city emphasized maintenance rather than expansion in 2026. Led or explained major public works items such as water meter replacement, street maintenance, and airport lighting upgrades.",
+    "whoTheyAre": "Toby Dougherty is the Hays city manager, an appointed administrator who has been the city's top staff leader since 2007. He previously served as assistant city manager and is the person who translates commission decisions into the budget, capital planning, and day-to-day city work that most residents never see. His public identity is administrative rather than electoral. Dougherty has a University of Kansas political science background and spent time in the transportation industry before moving into municipal government. He also served as city administrator in Gallatin, Missouri. In Hays, he has become the central operator behind long-term planning, especially on water and infrastructure.",
+    "theirRecord": "Dougherty's record is defined by water, conservation, and the R9 Ranch Water Pipeline. He helped steer the city through repeated legal and policy battles over the transfer and has been the staff voice explaining why Hays treats water as a generational issue. He has also overseen budgets that emphasize maintenance and caution rather than aggressive expansion. In local coverage, he is the person explaining street maintenance, water meter replacement, and airport lighting upgrades in plain language so the public and commissioners can follow what is happening.",
     "whatYouShouldKnow": [
-      "Dougherty is one of the key public voices behind Hays' water strategy and one of the clearest explanations of why the city treats water as a generational issue",
-      "Public coverage makes clear that Hays' capital planning is built around maintenance and conservation as much as expansion",
-      "I did not find a major controversy in the sources reviewed",
-      "R9 cost escalation: Project cost doubled from $75-80M to $144.9M during his tenure. No one has formally challenged this, but it's a massive cost increase",
-      "North Vine over budget: $3.5M over original estimate -- acknowledged publicly",
-      "No personal controversies found. No ethics complaints, no lawsuits against him, no scandals in 19 years of public records",
-      "As an appointed manager rather than elected official, Dougherty may deliberately keep personal faith private to maintain professional neutrality. 19+ years in Hays without a single public faith reference is notable but may be by professional design. Less relevant for Elect Righteous since he is not elected",
-      "Toby Dougherty is the central administrator in Hays city government. Commissioners serve 2-4 year terms and rotate through the mayor position; Dougherty has been the constant for 19 years. He runs the daily operations, prepares the budgets, hires the staff, and manages every major project. The R9 water project is his legacy bet -- a $145M infrastructure project that will define whether Hays survives as a viable western Kansas city in the 21st century. His Strong Towns philosophy is intellectually interesting and somewhat at odds with the aggressive growth incentives the commission has been approving (RHIDs, IRBs, Chick-fil-A incentives). His 12-year prior career in transportation before city management gives him infrastructure chops. His KU political science background and CPM credential match Mason Ruder's -- suggesting he may have been a mentor/model for Ruder's career path. 19 years with no significant personal controversies is unusual for any public official"
+      "Dougherty has run Hays city administration for nearly two decades",
+      "He is appointed, not elected, so his power comes from long institutional continuity",
+      "His signature issue is the R9 water pipeline and the city's conservation strategy",
+      "He is the person the city relies on to explain pipeline costs, water conservation, bond rolloff, and other infrastructure details to the public",
+      "He is closely associated with maintenance-first budgeting and capital planning",
+      "No major personal controversy surfaced in the sources I reviewed"
     ],
-    "whereTheyWorship": "No verified public church affiliation surfaced in the sources reviewed.",
+    "whereTheyWorship": "No current church affiliation was publicly verified in the sources I reviewed for Dougherty. The public record I reviewed was almost entirely professional and administrative, with little to no personal faith reporting.",
     "quotes": [
       {
         "text": "The budget is based overall on a slightly cautionary approach.",
-        "source": "Toby Dougherty research file",
+        "source": "Hays Post, 2025-06-22, https://hayspost.com/posts/5258642a-dc46-4a52-9423-0fc5b6468bcc",
         "date": "2026-03-31",
         "url": "https://hayspost.com/posts/5258642a-dc46-4a52-9423-0fc5b6468bcc",
-        "topic": "Verbatim quotes"
-      },
-      {
-        "text": "We have a bond rolling off.",
-        "source": "Toby Dougherty research file",
-        "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/5258642a-dc46-4a52-9423-0fc5b6468bcc",
-        "topic": "Verbatim quotes"
-      },
-      {
-        "text": "I felt like the dumbest kid in the classroom out there.",
-        "source": "Toby Dougherty research file",
-        "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/5258642a-dc46-4a52-9423-0fc5b6468bcc",
-        "topic": "Verbatim quotes"
+        "topic": "Quotes"
       },
       {
         "text": "The opponents in this have succeeded in weaponizing the legal and judicial system against Hays and Russell.",
-        "source": "Toby Dougherty research file",
+        "source": "Hays Post / Kansas water coverage, 2024, https://kansasreflector.com/2024/10/18/hays-russell-sue-edwards-county-over-efforts-to-block-water-transfer-project/",
         "date": "2026-03-31",
-        "url": "https://www.haysusa.com/directory.aspx?eid=6",
-        "topic": "TOBY DOUGHERTY -- City Manager"
+        "url": "https://kansasreflector.com/2024/10/18/hays-russell-sue-edwards-county-over-efforts-to-block-water-transfer-project/",
+        "topic": "Quotes"
       },
       {
         "text": "Securing this Build Kansas grant marks a significant step forward.",
-        "source": "Toby Dougherty research file",
+        "source": "Hays Post / Kansas water coverage, 2025, https://www.kwch.com/2025/04/03/city-hays-awarded-15m-grant-secure-long-term-water-supply/",
         "date": "2026-03-31",
-        "url": "https://www.haysusa.com/directory.aspx?eid=6",
-        "topic": "TOBY DOUGHERTY -- City Manager"
-      },
-      {
-        "text": "We have had to look to places like Las Vegas and Tucson and Phoenix",
-        "source": "Toby Dougherty research file",
-        "date": "2026-03-31",
-        "url": "https://www.haysusa.com/directory.aspx?eid=6",
-        "topic": "TOBY DOUGHERTY -- City Manager"
+        "url": "https://www.kwch.com/2025/04/03/city-hays-awarded-15m-grant-secure-long-term-water-supply/",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
@@ -9616,52 +8405,44 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
-        "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/5258642a-dc46-4a52-9423-0fc5b6468bcc",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/292e6398-09de-4575-8f00-59772bbb0c0c",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/6003cad5-e6bf-4ab2-87a9-fd03d8a5750c",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "title": "Haysusa.Com",
+        "url": "https://www.haysusa.com/149/City-Managers-Office"
       },
       {
         "title": "Haysusa.Com",
-        "url": "https://www.haysusa.com/149/City-Managers-Office",
-        "publication": "Haysusa.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Haysusa.Com",
-        "url": "https://www.haysusa.com/Directory.aspx?DID=6",
-        "publication": "Haysusa.Com",
-        "date": "2026-03-31"
+        "url": "https://www.haysusa.com/Directory.aspx?DID=6"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/92c6bbf2-25be-47de-ad1c-a2e44e17e420",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/5258642a-dc46-4a52-9423-0fc5b6468bcc"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/84fcc453-7b77-49a8-a26e-b9011a8d1597",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/292e6398-09de-4575-8f00-59772bbb0c0c"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/227c6d39-b8a1-4133-9b9a-8843072fe5a2",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/6003cad5-e6bf-4ab2-87a9-fd03d8a5750c"
+      },
+      {
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/92c6bbf2-25be-47de-ad1c-a2e44e17e420"
+      },
+      {
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/84fcc453-7b77-49a8-a26e-b9011a8d1597"
+      },
+      {
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/227c6d39-b8a1-4133-9b9a-8843072fe5a2"
+      },
+      {
+        "title": "Kansasreflector.Com",
+        "url": "https://kansasreflector.com/2024/10/18/hays-russell-sue-edwards-county-over-efforts-to-block-water-transfer-project/"
+      },
+      {
+        "title": "Kwch.Com",
+        "url": "https://www.kwch.com/2025/04/03/city-hays-awarded-15m-grant-secure-long-term-water-supply/"
       },
       {
         "title": "HaysPost: Forward Ever - Toby Dougherty",
@@ -9706,12 +8487,6 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "date": "2026-03-31"
       },
       {
-        "title": "Kansas Reflector: Hays, Russell sue Edwards County",
-        "url": "https://kansasreflector.com/2024/10/18/hays-russell-sue-edwards-county-over-efforts-to-block-water-transfer-project/",
-        "publication": "Kansasreflector.Com",
-        "date": "2026-03-31"
-      },
-      {
         "title": "Kansas Reflector: Supreme Court arguments",
         "url": "https://kansasreflector.com/2025/12/15/kansas-supreme-court-examines-roiling-water-dispute-between-crop-irrigators-and-hays-russell/",
         "publication": "Kansasreflector.Com",
@@ -9727,12 +8502,6 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "title": "Hays Post: $15.8M Build Kansas grant",
         "url": "https://hayspost.com/posts/70979342-77f8-4cc8-8370-86ef215b4085",
         "publication": "Hayspost.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "KWCH: $15M grant",
-        "url": "https://www.kwch.com/2025/04/03/city-hays-awarded-15m-grant-secure-long-term-water-supply/",
-        "publication": "Kwch.Com",
         "date": "2026-03-31"
       },
       {
@@ -9789,20 +8558,18 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "occupation": "Ellis County Sheriff",
     "religion": "Roman Catholic (Diocese of Salina)",
     "education": "Victoria High School graduate (Victoria, KS -- small town in Ellis County)",
-    "campaignWebsite": "https://www.ellisco.net/FormCenter/Sheriff-2/ComplimentsComplaints-41",
-    "whoTheyAre": "Braun’s public career path runs from Ellis Police Department reserve deputy work into the county sheriff’s office, where he moved through the drug enforcement unit, field operations, canine handling and instruction, narcotics detective work, and later undersheriff. The 2019 profile says he and his wife Terri had been married for 24 years at that point and had two sons, Bryce and Coby. Public civic ties include Rotary, the Kansas Narcotics Officer Association, the Ellis County Crisis Intervention Team Council, First Call for Help, and church leadership. Braun's career is unusually easy to track because the sheriff's office and Hays Post both documented his promotions, awards, and department structure. He rose from reserve deputy work in 1995 to deputy, narcotics detective, undersheriff, and then sheriff, while earning a Certified Public Manager designation and the Kansas Law Enforcement Training Center credential. The current official sheriff page also identifies him as president of the Kansas Sheriffs' Association, which makes him one of the more publicly visible county officials in western Kansas.",
-    "theirRecord": "Braun has been publicly driving the county jail expansion conversation, saying the current facility is too small and that out-of-county housing is expensive for taxpayers. In 2025 the sheriff’s office launched an app that adds inmate lookup, offender maps, weather alerts, and tip submission. In 2026 he testified in support of ICE-detainer liability protections after signing a memorandum with ICE. Current Ellis County Jail capacity: 72 beds.",
+    "campaignWebsite": "https://www.elliscountyks.org/162/Sheriff",
+    "whoTheyAre": "Scott Braun is the elected Ellis County Sheriff and a long-tenured local law-enforcement officer. The public record ties him to Victoria High School, Barton County Community College, Fort Hays State University, and more than two decades of service with the Ellis County and Ellis Police departments before he won the sheriff's race. He is also publicly identified as a Catholic. The record ties him to St. Nicholas of Myra Catholic Church in Hays through parish council leadership and Knights of Columbus involvement, and the public material makes clear that this is a visible part of his public life. Braun's biography is unusually local and unusually complete for a county officeholder. It is built around law enforcement, Hays-area schools, and Catholic parish life.",
+    "theirRecord": "Braun's public work has focused on jail capacity, county enforcement, and how the sheriff's office interacts with other agencies. He has been one of the clearest voices in the county's jail-expansion discussion, arguing that the existing facility is not enough for the county's needs. He has also spoken publicly about ICE detainers and county limits. The record shows him explaining what the sheriff's office can and cannot do, rather than presenting county authority as broader than it is. His office record is reinforced by the annual workload statistics in the raw material, which show the kind of transport, security, and call volume the sheriff's office handles in a typical year.",
     "whatYouShouldKnow": [
-      "ICE agreement liability gap -- signed agreement before fully understanding insurance coverage implications; had to go back to commission to address",
-      "Drug forfeiture advocacy -- positioned against reform that had bipartisan support; Kansas Legislature passed reform anyway",
-      "No use-of-force incidents found in public records",
-      "Braun’s record is unusually well documented because he frequently speaks at commission meetings and on local news about jail capacity, inmate transport, and public alerts",
-      "His public posture is pro-enforcement and anti-delay: he presents the jail as a practical capacity issue, not a political talking point",
-      "He has tied county jail decisions to mental-health placement problems and the lack of out-of-county bed space",
-      "The sheriff’s app includes inmate tracking, offender watch mapping, weather alerts, and patrol-request tools",
-      "The county’s compliment/complaint form and jail pamphlet are public online, which gave additional context for office operations"
+      "He is the elected Ellis County Sheriff",
+      "He has a long local law-enforcement career before becoming sheriff",
+      "He has said the county needs a jail, even though he does not like the idea, and has been one of the clearest public voices in the jail-expansion discussion",
+      "He has explained the county's ICE detainer role in public interviews and has described the 48-hour pickup window used by the sheriff's office",
+      "He is tied to St. Nicholas of Myra Catholic Church through parish leadership",
+      "I did not surface a usable public campaign finance ledger in this pass"
     ],
-    "whereTheyWorship": "Denomination: Roman Catholic (Diocese of Salina). Church Role: Vice Chair, St. Nicholas of Myra Church Council.",
+    "whereTheyWorship": "Braun's worship home is publicly identified as St. Nicholas of Myra Catholic Church in Hays, and the parish URL is https://stn-church.com/. The diocesan listing is https://salinadiocese.org/parish/st-nicholas-of-myra-parish-hays/. The public record also ties him to church council leadership and Knights of Columbus involvement, which makes his Catholic identity an active part of his public biography.",
     "church": {
       "name": "St. Nicholas of Myra Catholic Church, Hays",
       "denomination": "Roman Catholic (Diocese of Salina)",
@@ -9811,51 +8578,30 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "quotes": [
       {
-        "text": "We need a jail. I don’t want it. We need it, and it’s not going to be for me. It’s for the public, so we can keep them safe.",
-        "source": "Scott Braun research file",
-        "date": "2026-03-31",
-        "url": "https://stn-church.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "I think this is the calm before the storm.",
-        "source": "Scott Braun research file",
-        "date": "2026-03-31",
-        "url": "https://stn-church.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "ICE has been really good with us in letting us know if they are going to pick them up within 48 [hours] or to let them go.",
-        "source": "Scott Braun research file",
-        "date": "2026-03-31",
-        "url": "https://stn-church.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "We are not trained in that, and we have enough things to do.",
-        "source": "Scott Braun research file",
-        "date": "2026-03-31",
-        "url": "https://stn-church.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
         "text": "It has to be within that 48-hour window. We will not hold them one minute longer than that.",
-        "source": "Scott Braun research file",
+        "source": "Hays Post, 2025-11-20, https://hayspost.com/posts/3bc2ad3c-f94d-4a73-a42b-77f18e6317d6",
         "date": "2026-03-31",
-        "url": "https://salinadiocese.org/parish/st-nicholas-of-myra-parish-hays/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
+        "url": "https://hayspost.com/posts/3bc2ad3c-f94d-4a73-a42b-77f18e6317d6",
+        "topic": "Quotes"
       },
       {
-        "text": "If forfeiture is taken away from law enforcement, it will have an effect on taxpayers",
-        "source": "Scott Braun research file",
+        "text": "ICE has been really good with us in letting us know if they are going to pick them up within 48 hours or to let them go.",
+        "source": "Hays Post, November 20, 2025, https://hayspost.com/posts/3bc2ad3c-f94d-4a73-a42b-77f18e6317d6",
         "date": "2026-03-31",
-        "url": "https://salinadiocese.org/parish/st-nicholas-of-myra-parish-hays/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
+        "url": "https://hayspost.com/posts/3bc2ad3c-f94d-4a73-a42b-77f18e6317d6",
+        "topic": "Quotes"
+      },
+      {
+        "text": "If forfeiture is taken away from law enforcement, it will have an effect on taxpayers.",
+        "source": "JC Post / KSA coverage, https://jcpost.com/posts/0b4a5662-3939-49d6-808a-c3857ad67db9",
+        "date": "2026-03-31",
+        "url": "https://jcpost.com/posts/0b4a5662-3939-49d6-808a-c3857ad67db9",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "No clean total verified in reviewed public sources",
-      "narrative": "No clean Scott Braun candidate committee ledger surfaced in this pass through the public web and Kansas ethics search surfaces. I did not find a public donor-by-donor sheriff report I could attribute confidently to Braun without risking misidentification.",
+      "narrative": "No clean county-campaign donor table surfaced in the public material I reviewed. The accessible record is much stronger on office work, parish involvement, and policy positions than on donor-by-donor finance detail. The honest finance note here is that I did not find a reliable public ledger to summarize.",
       "donors": [
         {
           "name": "Campaign finance data",
@@ -9867,28 +8613,28 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
-        "title": "St. Nicholas of Myra Catholic Church",
-        "url": "https://stn-church.com/",
-        "publication": "Stn-church.Com",
-        "date": "2026-03-31"
+        "title": "Stn-church.Com",
+        "url": "https://stn-church.com/"
       },
       {
-        "title": "St. Nicholas of Myra Parish - Hays",
-        "url": "https://salinadiocese.org/parish/st-nicholas-of-myra-parish-hays/",
-        "publication": "Salinadiocese.Org",
-        "date": "2026-03-31"
+        "title": "Salinadiocese.Org",
+        "url": "https://salinadiocese.org/parish/st-nicholas-of-myra-parish-hays/"
       },
       {
-        "title": "Hays Post",
-        "url": "https://hayspost.com/posts/3f35aea3-a505-43de-a463-78d6976e129d",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/3f35aea3-a505-43de-a463-78d6976e129d"
       },
       {
-        "title": "Hays Post",
-        "url": "https://hayspost.com/posts/3bc2ad3c-f94d-4a73-a42b-77f18e6317d6",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/3bc2ad3c-f94d-4a73-a42b-77f18e6317d6"
+      },
+      {
+        "title": "Elliscountyks.Org",
+        "url": "https://www.elliscountyks.org/162/Sheriff"
+      },
+      {
+        "title": "Jcpost.Com",
+        "url": "https://jcpost.com/posts/0b4a5662-3939-49d6-808a-c3857ad67db9"
       },
       {
         "title": "Archive.Hayspost.Com",
@@ -9930,12 +8676,6 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "title": "Hayspost.Com",
         "url": "https://hayspost.com/posts/eb108042-f876-49f9-b426-8047d18940ef",
         "publication": "Hayspost.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Jcpost.Com",
-        "url": "https://jcpost.com/posts/0b4a5662-3939-49d6-808a-c3857ad67db9",
-        "publication": "Jcpost.Com",
         "date": "2026-03-31"
       },
       {
@@ -9982,66 +8722,43 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "education": "2012 Hays High School graduate (born/raised in Hays)",
     "family": "Aaron Cunningham: County Attorney, 2012 Hays High grad, K-State, Washburn Law",
     "campaignWebsite": "https://www.avvo.com/attorneys/67601-ks-aaron-cunningham-5075775.html",
-    "whoTheyAre": "Cunningham’s public biography is unusually local: Hays Post reported that he wanted to return to his hometown and serve the community after law school and county internships. The county attorney office page and KCDAA profile show a prosecutor focused on criminal law rather than private practice. Fort Hays State University included him on the inaugural Civic Learning and Community Engagement advisory board, which is a useful signal of his community footprint. Cunningham's story is rooted in Hays. He is visible in school coverage, county office materials, and Hays Post reporting, which together show a local who left for college and law school and then came back. The county attorney office page now lists him as the officeholder from 2025 onward, and the Hays High Guidon profile captures the career-speaker version of the same story: a student who was active in music and clubs and who later found his lane in advocacy and law.",
-    "theirRecord": "Cunningham publicly announced that the office would resume marijuana prosecutions, reversing a prior non-enforcement posture on small possession cases. He has said the office must prioritize cases because rural western Kansas has too few qualified attorneys and too many defendants waiting in jail. The county’s creation of a Victim/Witness Coordinator position was publicly described by Cunningham as a major help to victim communication and case organization. County office directory and attorney page verify his standing as the county attorney and provide direct office contact information.",
+    "whoTheyAre": "Aaron J. Cunningham is the Ellis County Attorney in Hays, Kansas. The public record ties him to Hays High School, Kansas State University, and Washburn University School of Law, and the county office materials describe him as the elected county attorney rather than an assistant prosecutor. He returned to Hays after law school and has stayed rooted in the community he grew up in. His public biography is local, and Cunningham’s about.me profile uses Christian language to describe his worldview. The Hays civic record presents him as a hometown prosecutor who came back to serve.",
+    "theirRecord": "Cunningham’s most visible action as county attorney was the decision to resume marijuana prosecutions after a prior pause. He has said that the Legislature, not the county attorney, decides what is criminal, and he has applied that logic to marijuana and hemp-derived Delta-8 and Delta-10 cases. That is a concrete policy choice, not a rhetorical one, and it shows how he understands the office. His office also handles the full weight of rural county prosecution: misdemeanors, felonies, juvenile matters, alcohol and drug care cases, child-in-need-of-care cases, and mental-illness related work. The raw file makes clear that Cunningham is managing a backlogged office with limited attorney capacity while trying to keep victims informed and cases prioritized. That is a practical administrative record, not just a campaign biography.",
     "whatYouShouldKnow": [
-      "Marijuana prosecution reversal is the most politically significant action of his tenure so far. Whether this is a \"controversy\" depends on perspective -- law-and-order voters approve, reform advocates criticize",
-      "Delta-8 stance is aggressive compared to many Kansas counties",
-      "Ran unopposed, so his positions were never tested in a competitive election",
-      "Cunningham is not a vague placeholder prosecutor; he is publicly tied to a real policy shift on marijuana cases",
-      "He presents himself as a hometown returnee, and that message is central to his public identity",
-      "He has framed office policy around legislative intent, resource limits, and victim communication rather than ideology alone",
-      "County office directory and attorney page verify his standing as the county attorney and provide direct office contact information",
-      "KCDAA maintains a public profile for him"
+      "Cunningham is a hometown Hays graduate who came back after law school and chose to build his career in Ellis County",
+      "He reversed the prior marijuana-prosecution pause and has said the office must enforce the law as written",
+      "He has also taken a hard line on hemp-derived Delta-8 and Delta-10 cases",
+      "The county attorney’s office is not just a criminal docket; it also handles juvenile, drug, and child-in-need-of-care matters",
+      "His public faith language is explicit and Christian, but I did not verify a specific church home in the sources reviewed for this pass",
+      "The public record for this office is stronger on prosecutorial action than on campaign-finance detail"
     ],
-    "whereTheyWorship": "No public church affiliation was identified in the report materials reviewed for Aaron Cunningham.",
+    "whereTheyWorship": "No specific church or denomination was verified in the public sources I reviewed. Cunningham does present himself in explicitly Christian terms on about.me, but I did not find a responsible current church URL.",
     "quotes": [
       {
         "text": "I wanted to return to my hometown and serve my community.",
-        "source": "Aaron Cunningham research file",
+        "source": "Hays Post, February 17, 2025, https://hayspost.com/posts/7ccb3a8f-a8c6-4baa-9767-cf155c00f4a1",
         "date": "2026-03-31",
         "url": "https://hayspost.com/posts/7ccb3a8f-a8c6-4baa-9767-cf155c00f4a1",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "topic": "Quotes"
       },
       {
         "text": "I tend to be of the philosophy that whether or not something is a crime is up to the Legislature.",
-        "source": "Aaron Cunningham research file",
+        "source": "Hays Post, February 17, 2025, https://hayspost.com/posts/7ccb3a8f-a8c6-4baa-9767-cf155c00f4a1",
         "date": "2026-03-31",
         "url": "https://hayspost.com/posts/7ccb3a8f-a8c6-4baa-9767-cf155c00f4a1",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "topic": "Quotes"
       },
       {
-        "text": "I do genuinely want to help people.",
-        "source": "Aaron Cunningham research file",
-        "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/7ccb3a8f-a8c6-4baa-9767-cf155c00f4a1",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "I tend to be of the philosophy",
+        "text": "In a misdemeanor marijuana case, the victim is the state of Kansas at large with no individual attached to the case.",
         "source": "Aaron Cunningham research file",
         "date": "2026-03-31",
         "url": "https://about.me/aaron.cunningham",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "I have an obligation to enforce the law as it's written.",
-        "source": "Aaron Cunningham research file",
-        "date": "2026-03-31",
-        "url": "https://about.me/aaron.cunningham",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "I always had a strong sense of justice",
-        "source": "Aaron Cunningham research file",
-        "date": "2026-03-31",
-        "url": "https://about.me/aaron.cunningham",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
+        "topic": "Staff:"
       }
     ],
     "campaignFinance": {
       "totalRaised": "No clean total verified in reviewed public sources",
-      "narrative": "I did not surface a candidate-specific county attorney campaign finance ledger in public search results. Public Kansas ethics search results turned up Aaron Cunningham as a donor in unrelated older committee reports, but not a usable county attorney fundraising file.",
+      "narrative": "No candidate-specific county-attorney campaign finance ledger surfaced in the public sources reviewed for this pass. The available record is office-focused rather than donor-focused.",
       "donors": [
         {
           "name": "Campaign finance data",
@@ -10053,28 +8770,28 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
-        "title": "Hays Post",
-        "url": "https://hayspost.com/posts/7ccb3a8f-a8c6-4baa-9767-cf155c00f4a1",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "title": "Ellisco.Net",
+        "url": "https://www.ellisco.net/92/Attorney"
       },
       {
         "title": "Ellisco.Net",
-        "url": "https://www.ellisco.net/92/Attorney",
-        "publication": "Ellisco.Net",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Ellisco.Net",
-        "url": "https://www.ellisco.net/Directory/Home/SingleStaff?EID=101",
-        "publication": "Ellisco.Net",
-        "date": "2026-03-31"
+        "url": "https://www.ellisco.net/Directory/Home/SingleStaff?EID=101"
       },
       {
         "title": "Kcdaa.Org",
-        "url": "https://kcdaa.org/Sys/PublicProfile/52134000",
-        "publication": "Kcdaa.Org",
-        "date": "2026-03-31"
+        "url": "https://kcdaa.org/Sys/PublicProfile/52134000"
+      },
+      {
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/7ccb3a8f-a8c6-4baa-9767-cf155c00f4a1"
+      },
+      {
+        "title": "Hayshighguidon.Com",
+        "url": "https://hayshighguidon.com/news/2019/10/26/assistant-ellis-county-attorney-aaron-cunningham-speaks-to-students-about-career-in-law/"
+      },
+      {
+        "title": "About.Me",
+        "url": "https://about.me/aaron.cunningham"
       },
       {
         "title": "Fhsu.Edu",
@@ -10083,21 +8800,9 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "date": "2026-03-31"
       },
       {
-        "title": "Hayshighguidon.Com",
-        "url": "https://hayshighguidon.com/news/2019/10/26/assistant-ellis-county-attorney-aaron-cunningham-speaks-to-students-about-career-in-law/",
-        "publication": "Hayshighguidon.Com",
-        "date": "2026-03-31"
-      },
-      {
         "title": "Kslegislature.Gov",
         "url": "https://www.kslegislature.gov/li/b2025_26/committees/ctte_h_jud_1/documents/testimony/20250121_03.pdf",
         "publication": "Kslegislature.Gov",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "About.Me",
-        "url": "https://about.me/aaron.cunningham",
-        "publication": "About.Me",
         "date": "2026-03-31"
       },
       {
@@ -10166,19 +8871,17 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "occupation": "County Clerk / Election Officer",
     "religion": "Roman Catholic (devout)",
     "campaignWebsite": "https://www.aclukansas.org/give-hays-voters-their-poll/",
-    "whoTheyAre": "Title: Ellis County Clerk and Election Officer (first elected 2020, re-elected 2024). Party: Republican. Age: 61. Location: Hays, Kansas.",
-    "theirRecord": "As clerk/election officer, Dreiling focused on voter turnout logistics, advance voting, assisted-living voting access, and election security. She was publicly praised by county Republicans in 2024 for the administration of the election cycle and by critics in the Hays campus polling-place debate. Kansas Ethics records for a county Republican committee show support expenditures tied to her race, including a $999 text broadcast and a $50 meeting-room rental. County office page confirms her office title and contact information.",
+    "whoTheyAre": "Bobbi L. Dreiling is the Ellis County Clerk and Election Officer. She won reelection in 2024 with 9,971 votes and serves as the county's top election administrator. The public record shows an ordinary Kansas county-office path: Hutchinson Community College, eight years as deputy clerk under Donna Maskus, then election to the clerk's office in 2020. Dreiling's job is not flashy, but it matters. She handles elections, tax-roll certification, commission minutes, and other county administrative work that shapes how the county operates. Her public reputation is built more on process and election administration than on ideology.",
+    "theirRecord": "Dreiling's defining public issue has been election administration, especially the Fort Hays State polling-location fight. She closed the 601 Main site for low turnout and ADA reasons, combined precincts, and defended the decision with the number of registered campus voters she saw in the record. That made her a central figure in a very local but very visible access-versus-cost dispute. She also pushed procedural changes in the clerk's office. Her tenure includes revenue-neutral-rate mailings, election security cameras, Saturday early voting, and a notification system for voters. The one blemish in the record is the misprinted-ballots episode from her deputy-clerk years, but her later work shows a clerk tightening systems rather than improvising around them.",
     "whatYouShouldKnow": [
-      "This was the defining controversy of Dreiling's tenure and the central issue of her 2024 re-election race:",
-      "Dreiling closed the polling location at 601 Main (closest to FHSU campus) citing low voter turnout",
-      "Combined that ward/precinct with another closed for ADA compliance issues",
-      "FHSU polling location controversy -- drew ACLU attention and statewide news coverage. Whether her position is seen as fiscal responsibility or voter suppression depends on political perspective. The numbers (69 registered on-campus voters out of 1,650 residents) do support her cost argument, though critics note this is a chicken-and-egg problem",
-      "Removed drop boxes from Victoria and Ellis -- reduces rural voting access",
-      "Won re-election by 54-point margin despite the controversies, suggesting strong local support",
-      "This is Dreiling's most persistent public controversy:",
-      "Students at FHSU and the ACLU of Kansas petitioned for a polling location on the FHSU campus"
+      "Dreiling is one of the few county officials whose entire public identity is tied to election administration",
+      "She had eight years inside the clerk's office before taking the top job",
+      "She won reelection comfortably in 2024 even after the campus polling-place fight",
+      "Her office has pushed practical election changes like cameras, notifications, and early voting",
+      "Public materials show very little about her personal life, which makes the office itself the main story",
+      "I did not find a full donor ledger, but one county-committee expenditure tied to her race did surface in the public record"
     ],
-    "whereTheyWorship": "Denomination: Roman Catholic (devout). Note: Passed away October 16, 2024.",
+    "whereTheyWorship": "I did not verify a current church affiliation for Dreiling in this pass. Her obituary and family material point to a devout Catholic background, and funeral services were held at St. Thomas Aquinas Catholic Church, but I am not claiming a current parish membership from the sources reviewed.",
     "church": {
       "name": "Specific parish not named in obituary",
       "denomination": "Roman Catholic (devout)",
@@ -10186,51 +8889,30 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "quotes": [
       {
-        "text": "Because I know the office.",
-        "source": "Bobbi Dreiling research file",
+        "text": "Because I know the office. You definitely need experience in the office. I enjoy serving the public. I enjoy working with people. Ellis County in general is a great employer to work for. I really like the job -- being deputy right now.",
+        "source": "Ellis County Clerk Candidate: Bobbi Dreiling, October 28, 2020, https://hayspost.com/posts/3d32625b-57dc-4a18-9152-1013ddb13531",
         "date": "2026-03-31",
-        "url": "https://downingandlahey.com/obits/bobjane-bobbi-dreiling/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://hayspost.com/posts/3d32625b-57dc-4a18-9152-1013ddb13531",
+        "topic": "Quotes"
       },
       {
-        "text": "We can promote it by doing public announcements.",
-        "source": "Bobbi Dreiling research file",
+        "text": "We can promote it by doing public announcements. Letting [voters] know when advance voting is taking place. Letting them know where it is at and the hours and know where their poll sites are. Unfortunately, the budget does not allow for a lot of advertising.",
+        "source": "Ellis County Clerk Candidate: Bobbi Dreiling, October 28, 2020, https://hayspost.com/posts/3d32625b-57dc-4a18-9152-1013ddb13531",
         "date": "2026-03-31",
-        "url": "https://downingandlahey.com/obits/bobjane-bobbi-dreiling/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://hayspost.com/posts/3d32625b-57dc-4a18-9152-1013ddb13531",
+        "topic": "Quotes"
       },
       {
-        "text": "I am member of Election Infrastructure Information Sharing.",
-        "source": "Bobbi Dreiling research file",
+        "text": "I am member of Election Infrastructure Information Sharing, which is part of the Department of Homeland Security. We get security alerts from the Department of Homeland Security.",
+        "source": "Ellis County Clerk Candidate: Bobbi Dreiling, October 28, 2020, https://hayspost.com/posts/3d32625b-57dc-4a18-9152-1013ddb13531",
         "date": "2026-03-31",
-        "url": "https://downingandlahey.com/obits/bobjane-bobbi-dreiling/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "I enjoy serving the public.",
-        "source": "Bobbi Dreiling research file",
-        "date": "2026-03-31",
-        "url": "https://downingandlahey.com/obits/bobjane-bobbi-dreiling/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "The County Clerk's Office is located in the Administrative Center, 718 Main in Hays, Kansas.",
-        "source": "Bobbi Dreiling research file",
-        "date": "2026-03-31",
-        "url": "https://www.ellisco.net/93/Clerk",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "The County Clerk serves as secretary to the Board of Commissioners.",
-        "source": "Bobbi Dreiling research file",
-        "date": "2026-03-31",
-        "url": "https://www.ellisco.net/93/Clerk",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
+        "url": "https://hayspost.com/posts/3d32625b-57dc-4a18-9152-1013ddb13531",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "No clean candidate total verified from reviewed county materials",
-      "narrative": "I did not find a clean Bobbi Dreiling donor ledger in this pass. The public Kansas ethics PDF I did find shows a county Republican committee spending $999 on a text broadcast for \"Clerk Bobbi Dreiling\" and $50 for meeting-room rent.",
+      "narrative": "No clean candidate donor ledger surfaced in the public source set I reviewed. The clearest finance detail I found was a county Republican committee expenditure trail tied to her race, including a $999 text broadcast and a $50 meeting-room rental.",
       "donors": [
         {
           "name": "County Republican committee text broadcast for Clerk Bobbi Dreiling",
@@ -10247,16 +8929,40 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
-        "title": "Downing & Lahey obituary",
-        "url": "https://downingandlahey.com/obits/bobjane-bobbi-dreiling/",
-        "publication": "Downingandlahey.Com",
-        "date": "2026-03-31"
+        "title": "Ellisco.Net",
+        "url": "https://www.ellisco.net/93/Clerk"
       },
       {
-        "title": "Hays Post",
-        "url": "https://hayspost.com/posts/3d32625b-57dc-4a18-9152-1013ddb13531",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "title": "Ellisco.Net",
+        "url": "https://www.ellisco.net/100/Register-of-Deeds"
+      },
+      {
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/3d32625b-57dc-4a18-9152-1013ddb13531"
+      },
+      {
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/d677444a-0c16-457b-a0e9-54004981ff78"
+      },
+      {
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/1ca1d07e-cccf-4688-8fc2-5482906b6b6d"
+      },
+      {
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/7c1c8817-1e3a-4c50-951e-895526935cf1"
+      },
+      {
+        "title": "Aclukansas.Org",
+        "url": "https://www.aclukansas.org/give-hays-voters-their-poll/"
+      },
+      {
+        "title": "Kansas.Gov",
+        "url": "https://www.kansas.gov/ethics/CFAScanned/CentralComm/2024ElecCycle/202501/CC_EL_R_202501.pdf"
+      },
+      {
+        "title": "Downingandlahey.Com",
+        "url": "https://downingandlahey.com/obits/bobjane-bobbi-dreiling/"
       },
       {
         "title": "Ellisco.Net",
@@ -10265,33 +8971,9 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "date": "2026-03-31"
       },
       {
-        "title": "Ellisco.Net",
-        "url": "https://www.ellisco.net/100/Register-of-Deeds",
-        "publication": "Ellisco.Net",
-        "date": "2026-03-31"
-      },
-      {
         "title": "Ksrods.Com",
         "url": "https://ksrods.com/contact-information/ellis-county-el-nc-district/",
         "publication": "Ksrods.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/d677444a-0c16-457b-a0e9-54004981ff78",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/1ca1d07e-cccf-4688-8fc2-5482906b6b6d",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/7c1c8817-1e3a-4c50-951e-895526935cf1",
-        "publication": "Hayspost.Com",
         "date": "2026-03-31"
       },
       {
@@ -10304,24 +8986,6 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "title": "Hayspost.Com",
         "url": "https://hayspost.com/posts/1873ff67-3bab-44c2-896b-8aee3a992496",
         "publication": "Hayspost.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Aclukansas.Org",
-        "url": "https://www.aclukansas.org/give-hays-voters-their-poll/",
-        "publication": "Aclukansas.Org",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Kansas.Gov",
-        "url": "https://www.kansas.gov/ethics/CFAScanned/CentralComm/2024ElecCycle/202501/CC_EL_R_202501.pdf",
-        "publication": "Kansas.Gov",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Ellisco.Net",
-        "url": "https://www.ellisco.net/93/Clerk",
-        "publication": "Ellisco.Net",
         "date": "2026-03-31"
       },
       {
@@ -10427,19 +9091,17 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "religion": "Likely Roman Catholic",
     "family": "Denomination: Likely Roman Catholic",
     "campaignWebsite": "https://www.ellisco.net/120/County-Commission",
-    "whoTheyAre": "Title: Ellis County Commissioner, 3rd District; Vice Chairman (2026); Chairman in 2024. Party: Republican. Contact: nleiker@ellisco.net | 785-621-1739. 2026 Salary: $20,746.",
-    "theirRecord": "Leiker’s public positions are mostly policy preferences rather than formal roll-call votes. He argued for a permanent sales tax, infrastructure earmarks, and stable business conditions. He also backed equipment-sharing with municipalities, more transparency, and telecommunication expansion. Ellis County’s commission page confirms the office context.",
+    "whoTheyAre": "Nathan Leiker is the Ellis County Commissioner for District 3 and vice chair of the commission in 2026. He is a farmer and vice president of L5 Farms, with operations in Ellis and Rush counties and a long local agriculture background. The public record places him squarely inside the Hays-area farm and county-government world. Leiker graduated from TMP-Marian in 2004 and appears in the county's broader Catholic-heritage network, although I did not find a direct personal statement confirming parish membership. His public life is built around agriculture, county budgeting, and the practical math of running a farm in western Kansas.",
+    "theirRecord": "Leiker has been one of the more fiscally conservative county commissioners, but his record is not just about saying no to spending. He supported the 2026 budget increase while arguing the county needed to justify each line item, and he framed mental-health funding as cheaper than building a larger jail. He also backed the Big Creek Estates housing approvals and said the county should work with the city of Hays on water and job growth. He has served on the county zoning board, the Kansas Hereford Association board, and other local bodies, which reinforces the sense that his county work is tied to the region's farm economy and land-use decisions.",
     "whatYouShouldKnow": [
-      "None found. Very limited public profile outside of commission duties and farming",
-      "Leiker is an Ellis County-rooted candidate who frames himself around stewardship and continuity",
-      "He emphasizes roads, bridges, telecommunications, and budget discipline",
-      "He is not selling ideology so much as local competence and visible service",
-      "Ellis County’s commission page confirms the office context",
-      "LKM’s member directory publicly lists him in the county membership system",
-      "The Hays Post profile captures unusually concrete positions on taxes, zoning, transparency, and equipment-sharing",
-      "The family evidence is strong. The Leiker name in Ellis County is essentially synonymous with the German-Catholic heritage. His grandmother's funeral was at St. Nicholas of Myra. It would be surprising if Nathan Leiker were NOT Catholic, but personal confirmation was not found. Direct inquiry would be required for verification"
+      "Leiker is a working farmer who moved into county government from the agricultural economy",
+      "He is the vice chair of the Ellis County Commission in 2026",
+      "He tends to support county spending only when it is tied to long-term savings or infrastructure need",
+      "He has been explicit that water, housing, and jobs are linked local issues",
+      "Public coverage focuses more on his budget votes, farm background, and county infrastructure decisions than on personal biography",
+      "The family and obituary trail strongly suggests a Catholic background, but I did not verify a current church membership statement"
     ],
-    "whereTheyWorship": "Denomination: Likely Roman Catholic. The Leiker surname is one of the most prominent German-Catholic families in Ellis County history -- Peter Leiker of Obermunjou was one of the original delegates sent to scout settlement locations in Kansas for the Volga German Catholic community.",
+    "whereTheyWorship": "The strongest evidence points toward St. Nicholas of Myra Catholic Church in Hays, but I did not find a direct statement from Leiker confirming current parish membership. The family-obituary trail and the St. Nicholas parish link make the Catholic connection strong, but I am treating it as an indicator rather than a hard confirmation. Parish URL: https://salinadiocese.org/parish/st-nicholas-of-myra-parish-hays/.",
     "church": {
       "name": "Likely St. Nicholas of Myra Catholic Church, Hays (family connection)",
       "denomination": "Likely Roman Catholic",
@@ -10449,50 +9111,29 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "quotes": [
       {
         "text": "I believe that the county should leave the sales tax alone.",
-        "source": "Nathan Leiker research file",
+        "source": "Hays Post, 2022-07-19, https://hayspost.com/posts/599cb8a3-fed5-4c96-bb58-7079dcedac17",
         "date": "2026-03-31",
         "url": "https://hayspost.com/posts/599cb8a3-fed5-4c96-bb58-7079dcedac17",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "topic": "Quotes"
       },
       {
         "text": "We are too far behind to use those funds in any other manner.",
-        "source": "Nathan Leiker research file",
+        "source": "Hays Post, 2022-07-19, https://hayspost.com/posts/599cb8a3-fed5-4c96-bb58-7079dcedac17",
         "date": "2026-03-31",
         "url": "https://hayspost.com/posts/599cb8a3-fed5-4c96-bb58-7079dcedac17",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "topic": "Quotes"
       },
       {
         "text": "The county should be proactive in recruiting new business for economic development.",
-        "source": "Nathan Leiker research file",
+        "source": "Hays Post, 2022-07-19, https://hayspost.com/posts/599cb8a3-fed5-4c96-bb58-7079dcedac17",
         "date": "2026-03-31",
         "url": "https://hayspost.com/posts/599cb8a3-fed5-4c96-bb58-7079dcedac17",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "I agree that it could easily become less transparent, and be abused.",
-        "source": "Nathan Leiker research file",
-        "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/599cb8a3-fed5-4c96-bb58-7079dcedac17",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "work with the city of Hays to get more water to Hays and higher-paying jobs.",
-        "source": "Nathan Leiker research file",
-        "date": "2026-03-31",
-        "url": "https://salinadiocese.org/parish/st-nicholas-of-myra-parish-hays/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "Ellis County spending too much money",
-        "source": "Nathan Leiker research file",
-        "date": "2026-03-31",
-        "url": "https://salinadiocese.org/parish/st-nicholas-of-myra-parish-hays/",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "No campaign finance data available online",
-      "narrative": "No candidate-specific public campaign finance ledger surfaced in this pass. I did not find a donor table or itemized county-race finance report I could safely attribute to Leiker.",
+      "narrative": "No public itemized donor table surfaced in the materials reviewed for this pass. If county-level filings exist, they were not present in the source set I could verify here.",
       "donors": [
         {
           "name": "Campaign finance data",
@@ -10505,27 +9146,37 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
-        "title": "Hays Post",
-        "url": "https://hayspost.com/posts/599cb8a3-fed5-4c96-bb58-7079dcedac17",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "title": "Ellisco.Net",
+        "url": "https://www.ellisco.net/120/County-Commission"
       },
       {
-        "title": "Ellisco.Net",
-        "url": "https://www.ellisco.net/120/County-Commission",
-        "publication": "Ellisco.Net",
-        "date": "2026-03-31"
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/599cb8a3-fed5-4c96-bb58-7079dcedac17"
+      },
+      {
+        "title": "Manta.Com",
+        "url": "https://www.manta.com/c/mhxwpdc/l5-farms-inc"
+      },
+      {
+        "title": "Linkedin.Com",
+        "url": "https://www.linkedin.com/in/nathan-leiker-1236bb276"
+      },
+      {
+        "title": "Salinadiocese.Org",
+        "url": "https://salinadiocese.org/parish/st-nicholas-of-myra-parish-hays/"
+      },
+      {
+        "title": "Haysmemorial.Com",
+        "url": "https://www.haysmemorial.com/obituary/Marilyn-KlausLeiker/"
+      },
+      {
+        "title": "Fhsuguides.Fhsu.Edu",
+        "url": "https://fhsuguides.fhsu.edu/kansasheritage/elliscounty"
       },
       {
         "title": "Lkm.Org",
         "url": "https://www.lkm.org/members/?id=41501857",
         "publication": "Lkm.Org",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Salinadiocese.Org",
-        "url": "https://salinadiocese.org/parish/st-nicholas-of-myra-parish-hays/",
-        "publication": "Salinadiocese.Org",
         "date": "2026-03-31"
       },
       {
@@ -10544,30 +9195,6 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "title": "Hayspost.Com",
         "url": "https://hayspost.com/posts/18d99844-46b7-4bc0-a558-9d9a87fa92e6",
         "publication": "Hayspost.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Manta.Com",
-        "url": "https://www.manta.com/c/mhxwpdc/l5-farms-inc",
-        "publication": "Manta.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Linkedin.Com",
-        "url": "https://www.linkedin.com/in/nathan-leiker-1236bb276",
-        "publication": "Linkedin.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Haysmemorial.Com",
-        "url": "https://www.haysmemorial.com/obituary/Marilyn-KlausLeiker/",
-        "publication": "Haysmemorial.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Fhsuguides.Fhsu.Edu",
-        "url": "https://fhsuguides.fhsu.edu/kansasheritage/elliscounty",
-        "publication": "Fhsuguides.Fhsu.Edu",
         "date": "2026-03-31"
       }
     ]
@@ -10582,66 +9209,43 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "occupation": "Electrician / Plumber",
     "family": "Not identified in any public record. No spouse, children, or family details found",
     "campaignWebsite": "https://www.ellisco.net/120/County-Commission",
-    "whoTheyAre": "Title: Ellis County Commissioner, 2nd District; Chairman of the Commission (2026). Party: Republican. Contact: nyounger@ellisco.net | 785-656-0814. 2026 Salary: $21,584.",
-    "theirRecord": "Younger’s public positions are mostly policy preferences rather than formal roll-call votes. He argued for more proactive economic development, better county-city communication, and closer coordination with EMS and the medical center during COVID-era discussions. He favored budget restraint and said the county should \"maintain what we have\" until demand normalizes. Economic Development: Favors proactive county role in economic development. Stated he would \"work with the city of Hays to get more water to Hays and higher-paying jobs.",
+    "whoTheyAre": "Neal Younger is the Ellis County Commissioner for District 2 and the 2026 commission chairman. He is an electrician and plumber by trade, and the public record consistently presents him as a working county resident rather than a polished political operator. He won his seat in 2020 and is now in his second term. Younger's public biography is modest, and that is part of the point. He comes out of construction and trades, has a very limited digital footprint, and talks about county government in practical language. In a county where infrastructure, water, and budgets matter every year, that is a recognizable kind of officeholder.",
+    "theirRecord": "Younger campaigned on the county spending too much money, but once in office he supported the 2026 budget increase because he thought mental-health funding was cheaper than building a jail. That combination of skepticism and pragmatism shows up repeatedly in his record. He has also been a steady voice on water, housing, and county-city coordination. He backed Big Creek Estates discussions, pushed for proactive economic development, and said the county should work with the city of Hays to get more water and higher-paying jobs. His record is policy-focused rather than personality-driven.",
     "whatYouShouldKnow": [
-      "None found. Clean public record",
-      "Younger’s public persona is that of a budget-and-infrastructure commissioner rather than a culture-war candidate",
-      "He repeatedly emphasizes communication between county departments and the city of Hays",
-      "He frames public-health decisions through the EMS and medical-center chain of command",
-      "Ellis County’s commission page confirms the office context",
-      "LKM’s member directory publicly lists him in the county membership system",
-      "Search results also linked him to a county commissioner role in city street-policy discussions",
-      "Nothing found. Direct inquiry would be required for verification"
+      "Younger is a trade worker first and a county commissioner second",
+      "He is the longest-serving commissioner on the current board",
+      "He supports close scrutiny of county spending but is willing to spend where he sees long-term savings",
+      "He has no meaningful public controversy in the reviewed source set",
+      "His public footprint is smaller than most county officials, and most of the record is budget meetings rather than campaign branding",
+      "He is one of the clearest examples of a practical, budget-first commissioner in Ellis County"
     ],
-    "whereTheyWorship": "I did not verify a public church affiliation for Neal Younger in this pass.",
+    "whereTheyWorship": "No public church or denomination record was located for Younger in the source set reviewed for this pass. I am not claiming any congregation or church URL for him because the public record did not verify one.",
     "quotes": [
       {
-        "text": "I would talk with the head of the EMS.",
-        "source": "Neal Younger research file",
+        "text": "We spent almost 13 hours going through each department, item by item, justifying costs and adjustments.",
+        "source": "Hays Post, 2026, https://hayspost.com/posts/18d99844-46b7-4bc0-a558-9d9a87fa92e6",
         "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/70a84c66-2d84-4023-b4bb-df360cbe90dd",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://hayspost.com/posts/18d99844-46b7-4bc0-a558-9d9a87fa92e6",
+        "topic": "Quotes"
       },
       {
-        "text": "Ellis County spending too much money.",
-        "source": "Neal Younger research file",
+        "text": "I believe that the county should leave the sales tax alone.",
+        "source": "Hays Post candidate profile, 2020, https://hayspost.com/posts/70a84c66-2d84-4023-b4bb-df360cbe90dd",
         "date": "2026-03-31",
         "url": "https://hayspost.com/posts/70a84c66-2d84-4023-b4bb-df360cbe90dd",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "topic": "Quotes"
       },
       {
-        "text": "I think for now Ellis County should just maintain what we have.",
-        "source": "Neal Younger research file",
+        "text": "We need to work with the city of Hays to get more water to Hays and higher-paying jobs.",
+        "source": "Hays Post candidate profile, 2020, https://hayspost.com/posts/70a84c66-2d84-4023-b4bb-df360cbe90dd",
         "date": "2026-03-31",
         "url": "https://hayspost.com/posts/70a84c66-2d84-4023-b4bb-df360cbe90dd",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "is less expensive than building a new jail.",
-        "source": "Neal Younger research file",
-        "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/70a84c66-2d84-4023-b4bb-df360cbe90dd",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "work with the city of Hays to get more water to Hays and higher-paying jobs.",
-        "source": "Neal Younger research file",
-        "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/70a84c66-2d84-4023-b4bb-df360cbe90dd",
-        "topic": "2026 Salary:"
-      },
-      {
-        "text": "Mental Health Cheaper Than Jail",
-        "source": "Neal Younger research file",
-        "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/70a84c66-2d84-4023-b4bb-df360cbe90dd",
-        "topic": "NEAL YOUNGER -- Ellis County Commissioner, District 2"
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "No campaign finance data available online",
-      "narrative": "No candidate-specific public campaign finance ledger surfaced in this pass. I did not find a donor table or itemized county-race finance report I could safely attribute to Younger.",
+      "narrative": "No public itemized donor table surfaced in the materials reviewed. The available record is almost entirely office activity and budget coverage.",
       "donors": [
         {
           "name": "Campaign finance data",
@@ -10654,39 +9258,29 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
-        "title": "Hays Post",
-        "url": "https://hayspost.com/posts/70a84c66-2d84-4023-b4bb-df360cbe90dd",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "title": "Ellisco.Net",
+        "url": "https://www.ellisco.net/120/County-Commission"
       },
       {
-        "title": "Ellisco.Net",
-        "url": "https://www.ellisco.net/120/County-Commission",
-        "publication": "Ellisco.Net",
-        "date": "2026-03-31"
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/70a84c66-2d84-4023-b4bb-df360cbe90dd"
+      },
+      {
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/18d99844-46b7-4bc0-a558-9d9a87fa92e6"
+      },
+      {
+        "title": "Voterly.Com",
+        "url": "https://voterly.com/politicians/DmRJRnnSKN/neal-younger"
+      },
+      {
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/6e260438-27db-4402-bf8e-e8df621996d4"
       },
       {
         "title": "Lkm.Org",
         "url": "https://www.lkm.org/members/?id=41501857",
         "publication": "Lkm.Org",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/18d99844-46b7-4bc0-a558-9d9a87fa92e6",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Voterly.Com",
-        "url": "https://voterly.com/politicians/DmRJRnnSKN/neal-younger",
-        "publication": "Voterly.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/6e260438-27db-4402-bf8e-e8df621996d4",
-        "publication": "Hayspost.Com",
         "date": "2026-03-31"
       },
       {
@@ -10706,61 +9300,38 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "incumbent": true,
     "occupation": "Register of Deeds",
     "campaignWebsite": "https://www.ellisco.net/100/Register-of-Deeds",
-    "whoTheyAre": "Title: Ellis County Register of Deeds. Party: Republican. Location: Hays, Kansas. Office: 718 Main St, Hays, KS 67601.",
-    "theirRecord": "Herzog’s public record is the office itself: recording deeds, maintaining land indexes, and handling document recording under Kansas law. The office page emphasizes that the register of deeds must keep records open to the public except for limited statutory exceptions. The 2024 election result page shows her vote total in the county election cycle. The county register page confirms the office’s public-service mission and open-records obligations.",
+    "whoTheyAre": "Rebecca Herzog is the Ellis County Register of Deeds and one of the least publicly visible officeholders in the county. The official county page and the Kansas Register of Deeds Association both confirm her role in Hays. Beyond that, the public record stays almost completely quiet, which is itself a useful fact for a countywide office. Her record shows a person who appears to keep to the administrative side of government. She won the office in 2024 and took over the work of recording deeds, maintaining land indexes, and handling other document-recording functions under Kansas law. The office matters, even if the person holding it is intentionally low-profile.",
+    "theirRecord": "Her public record is the office itself. The register of deeds is responsible for recording property documents and keeping records open to the public except where law limits access. The office is one of the county's core land-record institutions, which makes Herzog important even though she has almost no public-facing persona. The 2024 election result page confirms that she won the office countywide, and the county office page shows the service mission of the position. There is very little else in the public record to attach to her, which makes her a strong example of a county official whose work is administrative rather than personality-driven.",
     "whatYouShouldKnow": [
-      "None found. This is the quietest office in Ellis County government",
-      "Herzog is one of the hardest candidates in this project to research because the public web leaves almost no personal trail",
-      "The office itself is important and legally defined, but the person behind it is not widely profiled",
-      "Her vote total confirms she was elected and therefore has a countywide public mandate",
-      "The county register page confirms the office’s public-service mission and open-records obligations",
-      "KSRODS confirms the county association contact ecosystem",
-      "Hays Post’s 2024 election results page gives a public tally trail",
-      "Like the Leiker name, \"Herzog\" is deeply embedded in Ellis County's German-Catholic heritage (the town of Herzog was literally named for these families). However, no personal confirmation was found for Rebecca specifically. Direct inquiry would be required for verification"
+      "Herzog has one of the smallest public footprints of any county officeholder in the project",
+      "Her job is administrative and legally important, not ceremonial",
+      "She won election in 2024 and entered office in January 2025",
+      "Public records do not provide much on her background, family, or church life",
+      "The office records deeds, maintains land indexes, and must keep most records open to the public",
+      "The public record is thin enough that the office itself is the main story"
     ],
-    "whereTheyWorship": "I did not verify a public church affiliation for Rebecca Herzog in this pass.",
+    "whereTheyWorship": "No current church affiliation was publicly verified in the sources I reviewed for Herzog. The public record I reviewed did not identify a congregation or parish URL, and I am not claiming one here.",
     "quotes": [
       {
         "text": "The goal of the register of deeds office is to provide quality public service to all citizens in a professional manner.",
-        "source": "Rebecca Herzog research file",
+        "source": "Ellis County Register of Deeds, https://www.ellisco.net/100/Register-of-Deeds",
         "date": "2026-03-31",
         "url": "https://www.ellisco.net/100/Register-of-Deeds",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "topic": "Quotes"
       },
       {
         "text": "This office files and records documents that pertain to real estate.",
-        "source": "Rebecca Herzog research file",
+        "source": "Ellis County Register of Deeds, https://www.ellisco.net/100/Register-of-Deeds",
         "date": "2026-03-31",
         "url": "https://www.ellisco.net/100/Register-of-Deeds",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "topic": "Quotes"
       },
       {
         "text": "All records in the register of deeds office are required by law to be open to the public.",
-        "source": "Rebecca Herzog research file",
+        "source": "Ellis County Register of Deeds, https://www.ellisco.net/100/Register-of-Deeds",
         "date": "2026-03-31",
         "url": "https://www.ellisco.net/100/Register-of-Deeds",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "files and records documents",
-        "source": "Rebecca Herzog research file",
-        "date": "2026-03-31",
-        "url": "https://www.ellisco.net/100/Register-of-Deeds",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "Record all documents submitted by the public",
-        "source": "Rebecca Herzog research file",
-        "date": "2026-03-31",
-        "url": "https://www.ellisco.net/100/Register-of-Deeds",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "The Ghost of Ellis County",
-        "source": "Rebecca Herzog research file",
-        "date": "2026-03-31",
-        "url": "https://www.ellisco.net/100/Register-of-Deeds",
-        "topic": "REBECCA HERZOG -- Register of Deeds"
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
@@ -10778,22 +9349,16 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
-        "title": "Ellis County Register of Deeds",
-        "url": "https://www.ellisco.net/100/Register-of-Deeds",
-        "publication": "Ellisco.Net",
-        "date": "2026-03-31"
+        "title": "Ellisco.Net",
+        "url": "https://www.ellisco.net/100/Register-of-Deeds"
       },
       {
         "title": "Ksrods.Com",
-        "url": "https://ksrods.com/contact-information/ellis-county-el-nc-district/",
-        "publication": "Ksrods.Com",
-        "date": "2026-03-31"
+        "url": "https://ksrods.com/contact-information/ellis-county-el-nc-district/"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/1873ff67-3bab-44c2-896b-8aee3a992496",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/1873ff67-3bab-44c2-896b-8aee3a992496"
       }
     ]
   },
@@ -10807,20 +9372,18 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "occupation": "County Treasurer",
     "religion": "Roman Catholic (strong indicators)",
     "family": "Position",
-    "campaignWebsite": "https://www.ellisco.net/directory.aspx?EID=129",
-    "whoTheyAre": "Public biography material for Ruder is more limited than for some other local officials, but the record clearly shows a long-running county finance role. The public record around his office focuses on practical administration: motor vehicle transactions, title renewals, office costs, and taxpayer burden. Public family-faith traces in the broader Ruder family record point to Catholic parish life in Hays. Ruder's public biography is the classic Hays family-government story: Catholic-school background, local work history, and a county office that fits a practical, administrative personality. He is not a loud political figure, but he is responsible for a lot of the county's revenue workflow and motor-vehicle processing.",
-    "theirRecord": "Ruder implemented a $2.50 walk-in motor vehicle fee after 12 years in office to support county motor vehicle operations. He framed the fee as a way to shift costs away from property taxpayers and toward the service being used. His public comments emphasize maintaining office service while covering technology and staffing costs locally. The county directory verifies the office and contact information.",
+    "campaignWebsite": "https://www.ellisco.net/566/Treasury",
+    "whoTheyAre": "Vernon Ruder Jr. is the Ellis County Treasurer in Hays, Kansas. The public record ties him to a career in finance and operations, including work as a financial advisor, district manager for E.A. Sween, and county solid-waste management before he became treasurer. He is one of the county’s more administrative officeholders. His biography also sits inside the Ruder family network that runs through Hays government. He is married to Ruth Ruder, sits in the same family orbit as Mayor Mason Ruder, and his public background is heavily shaped by Catholic schooling and Catholic-work connections in Hays. Even when the specific parish is not named, the family and school trail is strong.",
+    "theirRecord": "Ruder’s clearest office action was the decision to add a $2.50 fee for walk-in motor-vehicle transactions. He said the fee was allowed by state law, helped fund the office, and reduced pressure on property taxpayers. The office also modernized its queue flow and customer handling, which makes the record more than just a fee hike. He says the fee raised more than $50,000 annually and helped reduce the treasury budget from $452,000 to $367,000. That is the kind of practical county-office result that matters to taxpayers even if it never becomes a big public fight.",
     "whatYouShouldKnow": [
-      "$2.50 fee implementation drew some attention but was legal and resulted in taxpayer savings overall",
-      "Father-son dynamic with Mason Ruder holding city mayor position -- no evidence of impropriety, but notable concentration of family political power",
-      "Ruder is a technical-administration treasurer rather than a high-visibility political operator",
-      "The most visible public policy marker is his willingness to use fee authority to keep county operations funded",
-      "He frames government finance in practical terms: local users should help pay for local service delivery",
-      "The county directory verifies the office and contact information",
-      "The county treasury page confirms office hours and commercial vehicle handling windows",
-      "The motor vehicle fee article provides the most detailed public policy explanation for his tenure"
+      "Ruder is a county treasurer, not a campaign-style political figure",
+      "His office is built around tax billing, motor-vehicle work, and customer flow",
+      "He implemented a motor-vehicle fee and used the revenue to lower the office budget",
+      "The public record places him in the broader Ruder family network that also includes city and school government",
+      "His faith trail points strongly toward Catholic background, but no specific parish was confirmed in this pass",
+      "I did not find a usable public donor ledger"
     ],
-    "whereTheyWorship": "Denomination: Roman Catholic (strong indicators). 2010 TMP-Marian graduate (Catholic high school).",
+    "whereTheyWorship": "The public record suggests a Catholic background through family and schooling, but I did not verify Vernon Ruder Jr.’s specific parish participation in this pass. A related public parish URL is https://www.ihm-church.com/.",
     "church": {
       "name": "Specific parish not confirmed",
       "denomination": "Roman Catholic (strong indicators)",
@@ -10829,51 +9392,30 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "quotes": [
       {
-        "text": "I elected, after 12 years, to implement a $2.50 fee for walk-in customers.",
-        "source": "Vernon Ruder Jr. research file",
-        "date": "2026-03-31",
-        "url": "https://www.ihm-church.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "The State of Kansas allows the treasurers in each county to help fund their motor vehicle operations with this facility fee for the county.",
-        "source": "Vernon Ruder Jr. research file",
-        "date": "2026-03-31",
-        "url": "https://www.ihm-church.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "The state no longer purchases our computers or printers.",
-        "source": "Vernon Ruder Jr. research file",
-        "date": "2026-03-31",
-        "url": "https://www.ihm-church.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "I wanted to take the burden off of people who pay property taxes.",
-        "source": "Vernon Ruder Jr. research file",
-        "date": "2026-03-31",
-        "url": "https://www.ihm-church.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "The Ellis County Treasurer's Office ... is responsible for the tax billing, collection, and distribution",
-        "source": "Vernon Ruder Jr. research file",
+        "text": "The Ellis County Treasurer's Office ... is responsible for the tax billing, collection, and distribution.",
+        "source": "Ellis County Treasury official page, https://www.ellisco.net/566/Treasury",
         "date": "2026-03-31",
         "url": "https://www.ellisco.net/566/Treasury",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
+        "topic": "Quotes"
       },
       {
-        "text": "The Treasurer's Office also acts as an agent for the Kansas Department of Revenue",
-        "source": "Vernon Ruder Jr. research file",
+        "text": "The Treasurer's Office also acts as an agent for the Kansas Department of Revenue.",
+        "source": "Ellis County Treasury official page, https://www.ellisco.net/566/Treasury",
         "date": "2026-03-31",
         "url": "https://www.ellisco.net/566/Treasury",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
+        "topic": "Quotes"
+      },
+      {
+        "text": "I feel like we should be funding our motor vehicle department with motor vehicle money.",
+        "source": "Hays Post, November 20, 2023, https://hayspost.com/posts/637d35a7-f280-4818-bef9-6bd7f8d30494",
+        "date": "2026-03-31",
+        "url": "https://hayspost.com/posts/637d35a7-f280-4818-bef9-6bd7f8d30494",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "No clean total verified in reviewed public sources",
-      "narrative": "I did not surface a candidate-specific public campaign finance ledger for Ruder in this pass. No donor-by-donor public report was available in the sources I could confirm.",
+      "narrative": "I did not surface a candidate-specific public campaign finance ledger for Ruder in the sources reviewed for this pass. The current source set is office-focused rather than finance-focused.",
       "donors": [
         {
           "name": "Campaign finance data",
@@ -10885,46 +9427,32 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
-        "title": "Immaculate Heart of Mary Catholic Church",
-        "url": "https://www.ihm-church.com/",
-        "publication": "Ihm-church.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Hays Post",
-        "url": "https://hayspost.com/posts/637d35a7-f280-4818-bef9-6bd7f8d30494",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
-      },
-      {
         "title": "Ellisco.Net",
-        "url": "https://www.ellisco.net/directory.aspx?EID=129",
-        "publication": "Ellisco.Net",
-        "date": "2026-03-31"
+        "url": "https://www.ellisco.net/566/Treasury"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/a828fae7-451a-45b3-aed9-e12596bf13f4",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/a828fae7-451a-45b3-aed9-e12596bf13f4"
       },
       {
-        "title": "Ellisco.Net",
-        "url": "https://www.ellisco.net/566/Treasury",
-        "publication": "Ellisco.Net",
-        "date": "2026-03-31"
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/637d35a7-f280-4818-bef9-6bd7f8d30494"
       },
       {
         "title": "Hdnews.Net",
-        "url": "https://www.hdnews.net/city-commissioners-sworn-in-ruder-elected-mayor-cunningham-vice-mayor/",
-        "publication": "Hdnews.Net",
-        "date": "2026-03-31"
+        "url": "https://www.hdnews.net/city-commissioners-sworn-in-ruder-elected-mayor-cunningham-vice-mayor/"
       },
       {
         "title": "Kspress.Com",
-        "url": "https://kspress.com/news/2025/09/20/forgetting-the-lesson-of-911-is-the-danger-we-face-now-says-ruder",
-        "publication": "Kspress.Com",
-        "date": "2026-03-31"
+        "url": "https://kspress.com/news/2025/09/20/forgetting-the-lesson-of-911-is-the-danger-we-face-now-says-ruder"
+      },
+      {
+        "title": "Ellisco.Net",
+        "url": "https://www.ellisco.net/directory.aspx?EID=129"
+      },
+      {
+        "title": "Ihm-church.Com",
+        "url": "https://www.ihm-church.com/"
       },
       {
         "title": "Zoominfo.Com",
@@ -10953,19 +9481,17 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "education": "2021 - Present — Board Member — First elected November 2021",
     "family": "Three daughters, all graduated from Hays High School (last one graduated 2023)",
     "campaignWebsite": "https://www.insurance-planning.com/contact/a_ken_brooks",
-    "whoTheyAre": "The public record continues to show Brooks as a Hays-based family and service figure first, not a career politician. His profile is anchored in local school governance, community volunteering, and church involvement, with his own comments stressing kids, family, and neighborhood ties. The additional round of checking did not surface any contradictory identity clues. Brooks is a long-serving USD 489 board member in Hays and a publicly identified leader in the Celebration Community Church Hays campus children's ministry. That combination of school-board service and church-service visibility makes him easy to distinguish from namesakes. Ken Brooks is a Hays school-board incumbent and the district's current vice president. Public profiles identify him as a loss-control safety specialist at Insurance Planning, a Kiwanis member, and a long-time Hays parent whose three daughters graduated from Hays High. Employed for 18+ years (as of 2025 election cycle).",
-    "theirRecord": "Brooks' board record still centers on fee reductions, bond support, and a generally pro-administration posture on day-to-day management. In the public questionnaire trail, he has repeatedly argued that the district has been responsible with money and that the board should focus on broad oversight rather than micromanagement. The second-pass review did not uncover major controversies or flipped positions. The second-pass review reinforced the same core sources: Hays Post candidate coverage, the USD 489 board portal, KSDE directory listings, and Celebration Community Church materials. I did not find court, property, or business-record material that changed the profile. Brooks' public record is centered on facilities, fees, and budget stewardship. He supported the 2017 bond, later ran on keeping the current bond work on pace, and said the district has done a good job finding ways to fund immediate facility concerns. In 2025 he said he wanted to keep lowering student enrollment fees, and he defended district budgeting as responsible and trustworthy. He also favors a board that governs without micromanaging. In his 2025 Q&A, he said the board should provide oversight while leaving day-to-day operations to administrators and teachers, and he specifically pointed to Superintendent Ron Wilson and the district finance team as people he trusts to answer budget questions. That makes Brooks a pragmatic, systems-and-process board member rather than an ideologue.",
+    "whoTheyAre": "Ken Brooks is a Hays USD 489 board incumbent and one of the district's most visible local family-and-church figures. Public profiles identify him as a loss-control safety specialist at Insurance Planning, a Kiwanis member, and a long-time Hays parent whose three daughters all graduated from Hays High. He has spent most of his adult life in Hays. The public record shows a school-board member whose identity is built around family life, local service, and church involvement rather than around party politics. Brooks also appears regularly in district materials because he occupies a central role on a board that has been managing one of the largest school-building efforts in western Kansas.",
+    "theirRecord": "Brooks's record on the board is about facilities, fees, and general oversight. He supported the district's bond work, backed the new Hays High construction, and repeatedly discussed how the district should handle costs for families. He has also taken a pro-oversight position without trying to micromanage daily administration. In his public Q&A material, he said the board should trust Superintendent Ron Wilson and the finance team to answer budget questions, while still giving the board broad responsibility for accountability. His public comments show a consistent pattern: support the bond work, keep fees down for families, and avoid letting daily operations drift while the district finishes the construction work.",
     "whatYouShouldKnow": [
-      "Brooks is one of the more visible examples in this cohort of a candidate whose public life blends school-board work with church service",
-      "He backed the district's facilities work and bond rollout rather than positioning himself as an insurgent",
-      "He repeatedly emphasized lower fees for families, not just abstract budget discipline",
-      "He told Hays Post he has \"a love for our community, and a love for kids",
-      "He has been a visible church and service volunteer, not just a school-board name on a ballot",
-      "He pushed repeatedly to lower school enrollment fees for families",
-      "The second-pass review reinforced the same core sources: Hays Post candidate coverage, the USD 489 board portal, KSDE directory listings, and Celebration Community Church materials. I did not find court, property, or business-record material that changed the profile",
-      "Ken Brooks is not only a member of Celebration Community Church -- he has been leading their Children's Ministry for nearly 14 years. He is the board president of USD 489. Public records describe him as serving in the same church for over a decade in a hands-on ministry role (Children's Ministry is one of the most demanding and least glamorous church roles -- this is a long-running volunteer role). His community service (food drive coordination since 2008) aligns with active faith practice. He is one of the most fully documented examples of faith connected to public service on this list"
+      "He is a USD 489 board incumbent and a current board leader",
+      "He has helped lead children's ministry at Celebration Community Church for nearly 14 years",
+      "He supported the district bond and the Hays High facilities buildout",
+      "He has repeatedly argued for lower student fees",
+      "He presents himself as a local service figure, not a partisan operator",
+      "No itemized donor ledger surfaced in the public material I reviewed"
     ],
-    "whereTheyWorship": "Denomination: Non-denominational / Evangelical. Church Role: Children's Ministry Leader (~14 years).",
+    "whereTheyWorship": "Brooks publicly identifies Celebration Community Church in Hays as his worship community. The Hays campus is at https://www.celebratejesus.org/hays-campus. His public profile says he has helped lead the children's ministry there for almost 14 years. That makes his church connection unusually specific and easy to verify.",
     "church": {
       "name": "Celebration Community Church, Hays, KS",
       "denomination": "Non-denominational / Evangelical",
@@ -10973,93 +9499,64 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "quotes": [
       {
-        "text": "I have a love for our community, and a love for kids.",
-        "source": "Ken Brooks research file",
+        "text": "I have a love for our community, and I have a love for kids.",
+        "source": "Hays Post candidate Q&A, 2025, https://hayspost.com/posts/8ce0d386-aba6-4c42-b880-1307752c8220",
         "date": "2026-03-31",
-        "url": "https://www.celebratejesus.org/hays-campus",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://hayspost.com/posts/8ce0d386-aba6-4c42-b880-1307752c8220",
+        "topic": "Quotes"
       },
       {
         "text": "Since I've been on the board, we've lowered the school fees.",
-        "source": "Ken Brooks research file",
+        "source": "Hays Post candidate Q&A, 2025, https://hayspost.com/posts/2613aaa8-8055-4feb-9a79-d1b5479babca",
         "date": "2026-03-31",
-        "url": "https://www.celebratejesus.org/hays-campus",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "There hasn't been anything where our school district has proven they're not responsible with their budget.",
-        "source": "Ken Brooks research file",
-        "date": "2026-03-31",
-        "url": "https://www.celebratejesus.org/hays-campus",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://hayspost.com/posts/2613aaa8-8055-4feb-9a79-d1b5479babca",
+        "topic": "Quotes"
       },
       {
         "text": "I have helped lead the Children's Ministry at Celebration Community Church for almost 14 years.",
-        "source": "Ken Brooks research file",
+        "source": "Hays Post profile, 2021, https://hayspost.com/posts/95dab7ab-70ba-44ee-91ee-2760e55665bf",
         "date": "2026-03-31",
-        "url": "https://www.celebratejesus.org/hays-campus",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "a love for our community, and a love for kids.",
-        "source": "Ken Brooks research file",
-        "date": "2026-03-31",
-        "url": "https://www.celebratejesus.org/hays-campus",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "I have a love for our community, and I have a love for kids.",
-        "source": "Ken Brooks research file",
-        "date": "2026-03-31",
-        "url": "https://www.celebratejesus.org/hays-campus",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
+        "url": "https://hayspost.com/posts/95dab7ab-70ba-44ee-91ee-2760e55665bf",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
-      "totalRaised": "Ken Brooks reported a local, no-outside-money school-board finance profile",
-      "narrative": "No itemized donor ledger surfaced in the public material I reviewed. Brooks' 2021 candidate profile said he had not taken outside money or in-kind support from a PAC or outside source, which is the most concrete finance note I could verify. In his 2021 Hays Post profile, Brooks answered \"No\" when asked if he had received funds or in-kind donations from outside the school district or a PAC. I did not surface a fuller itemized donor table in the public records reviewed for this pass.",
+      "totalRaised": "No campaign finance data available online",
+      "narrative": "No itemized donor ledger surfaced in the public material I reviewed. The clearest finance note available is that his 2021 candidate profile said he had not taken outside money or in-kind support from a PAC or other outside source. That makes Brooks look like a locally rooted, low-dollar school-board campaign rather than a money-heavy race.",
       "donors": [
         {
-          "name": "Outside PAC/out-of-district money",
-          "amount": "None reported"
-        },
-        {
-          "name": "Support base",
-          "amount": "Family, friends, and community members"
+          "name": "Campaign finance data",
+          "amount": "No campaign finance data available online"
         }
       ],
-      "undisclosed": "The public record supports a local, low-dollar school-board finance profile rather than a donor-by-donor PAC ledger.",
-      "reportingPeriod": "most recent school-board materials reviewed",
+      "undisclosed": "I did not find a searchable online donor ledger or filed campaign-finance report in this pass.",
+      "reportingPeriod": "most recent public materials reviewed",
       "source": "Candidate questionnaires, local reporting, and reviewed public records"
     },
     "sources": [
       {
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/8ce0d386-aba6-4c42-b880-1307752c8220"
+      },
+      {
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/2613aaa8-8055-4feb-9a79-d1b5479babca"
+      },
+      {
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/95dab7ab-70ba-44ee-91ee-2760e55665bf"
+      },
+      {
         "title": "Celebratejesus.Org",
-        "url": "https://www.celebratejesus.org/hays-campus",
-        "publication": "Celebratejesus.Org",
-        "date": "2026-03-31"
+        "url": "https://www.celebratejesus.org/hays-campus"
       },
       {
-        "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/8ce0d386-aba6-4c42-b880-1307752c8220",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/2613aaa8-8055-4feb-9a79-d1b5479babca",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "title": "Usd489.Community.Highbond.Com",
+        "url": "https://usd489.community.highbond.com/portal/members.aspx?id=18"
       },
       {
         "title": "Hayspost.Com",
         "url": "https://hayspost.com/posts/ff929dc5-f4f5-433c-876e-59fc19df6a2d",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/95dab7ab-70ba-44ee-91ee-2760e55665bf",
         "publication": "Hayspost.Com",
         "date": "2026-03-31"
       },
@@ -11073,12 +9570,6 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "title": "Celebratejesus.Org",
         "url": "https://www.celebratejesus.org/",
         "publication": "Celebratejesus.Org",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Usd489.Community.Highbond.Com",
-        "url": "https://usd489.community.highbond.com/portal/members.aspx?id=18",
-        "publication": "Usd489.Community.Highbond.Com",
         "date": "2026-03-31"
       },
       {
@@ -11183,19 +9674,19 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "occupation": "School Board Member",
     "religion": "Roman Catholic (Diocese of Salina)",
     "campaignWebsite": "https://www.emporia.edu/teachers-college/about-college/honors-awards/kansas-master-teacher-award-home/previous-winners/",
-    "whoTheyAre": "The broader record still portrays Vajnar as a district insider with unusually deep institutional memory. He is not only a former teacher but also a current board leader who has remained visible in facility planning, bond follow-through, and public discussion of long-range capital work. The second pass did not surface any contradictory biographical facts. Vajnar is the board president and a long-time USD 489 educator, publicly described as having taught in the district for 31 years. The school-board role, teaching history, and local Catholic reference are enough to distinguish him clearly from any namesake. Curt Vajnar is the current USD 489 board president, a retired Hays teacher, rancher, and business owner. His public biography says he taught for 31 years in USD 489, won Kansas Teacher of the Year, and has lived in Hays for 35 years. Vajnar taught agriculture education at Hays High School for 31 years. He was named Kansas Teacher of the Year by KNEA -- the youngest teacher to win that honor at the time. He was also the only nationally board-certified agriculture teacher in the state. He had teaching endorsements in Agriculture Education, Biology, Drivers Education, and Administration. He chose never to pursue an administrator role despite holding the certificate. Retired around 2020.",
-    "theirRecord": "His public priorities remain facilities completion and long-term planning. He repeatedly argued for a 10-year facilities plan instead of a five-year horizon, framing the issue as business-like stewardship and a way to stretch bond and naming-rights dollars. He appears to be one of the district's key agenda-shapers because he also serves as board president. The second-pass sweep kept pointing back to the same core sources: Hays Post profile coverage, the USD 489 board portal, KSDE directory references, and the old Knights of Columbus newsletter mention. I did not find any court, property, or business records that materially changed the profile. Vajnar has been one of the more consistent board voices on capital planning. He told Hays Post he wants a 10-year facilities plan because the district has several turf and facility replacements with overlapping warranty cycles. He also wants naming-rights revenue to go back into replacement reserves rather than into the general fund, which is a very specific stewardship philosophy. He has been broadly supportive of the bond buildout and says the work should be finished well rather than rushed. In later board coverage he also showed up as a steady vote for operations like transportation leasing and building improvements, and the district directory lists him as board president. He reads as a process-and-maintenance board member, not a culture-war board member.",
+    "whoTheyAre": "Curt Vajnar is the president of the USD 489 Board of Education in Hays, Kansas. He is a retired teacher, rancher, and business owner who spent 31 years in USD 489 and won Kansas Teacher of the Year during his teaching career. Vajnar’s public identity is tied to Hays education and to rural Catholic life. He is a parish council member at Our Lady, Help of Christians Catholic Church in Antonino, and the sources also tie him to a long family life in Hays, five children, and a long-running role in local school and youth activities.",
+    "theirRecord": "Vajnar has built a public record as one of the board's more skeptical voices on contracts, bond oversight, and board process. He has argued for a 10-year facilities plan instead of a shorter horizon, pushed for evening meetings and public video access so more residents can watch school-board business, and pressed the district to treat bond and naming-rights dollars with a long-term replacement-reserve mindset. He also took clear public positions on several concrete disputes. He voted against the Hays High/Roosevelt construction contract after saying board members had not had enough opportunity to review it. He voted against hiring Superintendent Ron Wilson's wife Andrea through the consent agenda and pushed for closer review of the district's nepotism policy. He also pulled the Golden Belt Bank naming-rights deal from the agenda because he thought the price and terms were too weak and that other businesses should be able to compete for the opportunity.",
     "whatYouShouldKnow": [
-      "Vajnar's school-board influence is amplified by the fact that he is the board president",
-      "His public messaging is about long-horizon planning, not short-term fixes",
-      "He has a notably long teaching history inside the same district he now helps govern",
-      "He taught in USD 489 for 31 years and won Kansas Teacher of the Year",
-      "He wants a 10-year plan, not just a five-year plan, for facilities",
-      "He is focused on making bond money and naming-rights money last",
-      "The second-pass sweep kept pointing back to the same core sources: Hays Post profile coverage, the USD 489 board portal, KSDE directory references, and the old Knights of Columbus newsletter mention. I did not find any court, property, or business records that materially changed the profile",
-      "Curt Vajnar is confirmed Catholic and in parish leadership (Council member). Our Lady, Help of Christians in Antonino is a small rural Catholic parish -- being on its council means he is one of the core leaders of that faith community. He also notably fought AGAINST removing the ban on satanic clothing in the USD 489 dress code, saying \"Some fights are worth fighting.\" This is a man whose Catholic faith directly influences his school board decisions"
+      "Vajnar taught in USD 489 for 31 years and won Kansas Teacher of the Year",
+      "He is the board president, so he helps shape agendas and meeting procedure, not just individual votes",
+      "He publicly pushed for more transparency by arguing that board meetings, work sessions, and special meetings should be held in the evening, recorded, and made available to the public",
+      "He voted against the Hays High/Roosevelt construction contract after saying he did not believe board members had enough opportunity to review and understand the agreement before approval",
+      "He opposed hiring Superintendent Ron Wilson's wife Andrea through the consent agenda and later pushed for tighter review of the district's nepotism policy",
+      "He removed the proposed Golden Belt Bank football field naming-rights deal from the agenda, arguing the district should not lock itself into a 10-year deal without testing whether other businesses would offer more",
+      "He is a confirmed Catholic and serves on the parish council at Our Lady, Help of Christians in Antonino",
+      "The public record does not show a strong campaign-finance trail"
     ],
-    "whereTheyWorship": "Denomination: Roman Catholic (Diocese of Salina). Church Role: Parish Council Member.",
+    "whereTheyWorship": "Curt Vajnar is publicly tied to Our Lady, Help of Christians Catholic Church in Antonino. The record shows him as a parish council member, but I did not verify a more detailed current attendance statement beyond that parish connection. Church URL: https://www.ihm-church.com/.",
     "church": {
       "name": "Our Lady, Help of Christians Catholic Church, Antonino, KS",
       "denomination": "Roman Catholic (Diocese of Salina)",
@@ -11204,107 +9695,79 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "quotes": [
       {
-        "text": "I taught for 31 years in USD 489.",
-        "source": "Curt Vajnar research file",
+        "text": "I did not believe he had an opportunity to educate himself on the contract.",
+        "source": "Hays Post board coverage, 2025, https://hayspost.com/posts/6942435f-2284-422c-9ed9-5bf7d68c4984",
         "date": "2026-03-31",
-        "url": "https://www.ihm-church.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://hayspost.com/posts/6942435f-2284-422c-9ed9-5bf7d68c4984",
+        "topic": "Quotes"
       },
       {
-        "text": "I want to see them finished.",
-        "source": "Curt Vajnar research file",
+        "text": "We have half of the bond left. I agree we are way late. It doesn't hurt. Let's see what we can do... It is something fiscally important that we do so we are accountable to our taxpayers.",
+        "source": "Hays Post board coverage, 2025, https://hayspost.com/posts/e4ec7011-734d-4c18-ab28-c5b38d236126",
         "date": "2026-03-31",
-        "url": "https://www.ihm-church.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://hayspost.com/posts/e4ec7011-734d-4c18-ab28-c5b38d236126",
+        "topic": "Quotes"
       },
       {
-        "text": "I would like to see a 10-year plan.",
-        "source": "Curt Vajnar research file",
+        "text": "Communication is a key component of trying to regain and establish trust, including communication between the entire school community and the opinions of the minority.",
+        "source": "Hays Post board coverage, 2025, https://hayspost.com/posts/e4ec7011-734d-4c18-ab28-c5b38d236126",
         "date": "2026-03-31",
-        "url": "https://www.ihm-church.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "I think 10 years is better, business-wise.",
-        "source": "Curt Vajnar research file",
-        "date": "2026-03-31",
-        "url": "https://www.ihm-church.com/",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "a Parish Council member for Our Lady, Help of Christians Catholic Church",
-        "source": "Curt Vajnar research file",
-        "date": "2026-03-31",
-        "topic": "Evidence:"
-      },
-      {
-        "text": "Some fights are worth fighting.",
-        "source": "Curt Vajnar research file",
-        "date": "2026-03-31",
-        "topic": "Assessment:"
+        "url": "https://hayspost.com/posts/e4ec7011-734d-4c18-ab28-c5b38d236126",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "No clean total verified in reviewed public sources",
-      "narrative": "I did not find a reliable itemized donor table or PAC ledger for Vajnar. The public material I reviewed is strong on biography and governance, but weak on contribution detail. I did not find a clean public itemized donor table for Vajnar in the sources reviewed for this pass. The public record I checked is enough to verify his school-board role and policy positions, but not enough to reconstruct a reliable donor ledger.",
+      "narrative": "I did not find a reliable public itemized donor table for Vajnar. The sources I reviewed were strong on biography and board governance, but weak on contribution detail.",
       "donors": [
         {
           "name": "Campaign finance data",
           "amount": "No campaign finance data available online"
         }
       ],
-      "undisclosed": "The reviewed sources flagged gaps in line-item donor detail, so readers should rely on the linked filing trail for deeper verification.",
-      "reportingPeriod": "most recent public materials reviewed",
+      "reportingPeriod": "2026 cycle",
       "source": "Candidate questionnaires, local reporting, and reviewed public records"
     },
     "sources": [
       {
-        "title": "Ihm-church.Com",
-        "url": "https://www.ihm-church.com/",
-        "publication": "Ihm-church.Com",
-        "date": "2026-03-31"
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/199257e6-fc97-4089-8a4c-67a87d3422f8"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/199257e6-fc97-4089-8a4c-67a87d3422f8",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/ff929dc5-f4f5-433c-876e-59fc19df6a2d"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/ff929dc5-f4f5-433c-876e-59fc19df6a2d",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/caf3d4b9-e869-42ad-84f8-def54af685e2"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/caf3d4b9-e869-42ad-84f8-def54af685e2",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/95dab7ab-70ba-44ee-91ee-2760e55665bf"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/95dab7ab-70ba-44ee-91ee-2760e55665bf",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/19aa6807-369c-4e64-9c1c-8af9d88c84df",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/19aa6807-369c-4e64-9c1c-8af9d88c84df"
       },
       {
         "title": "Doczz.Net",
-        "url": "https://doczz.net/doc/6776409/3rd-degree-monthly-newsletter---immaculate-heart-of-mary-church",
-        "publication": "Doczz.Net",
-        "date": "2026-03-31"
+        "url": "https://doczz.net/doc/6776409/3rd-degree-monthly-newsletter---immaculate-heart-of-mary-church"
+      },
+      {
+        "title": "Ihm-church.Com",
+        "url": "https://www.ihm-church.com/"
       },
       {
         "title": "Emporia.Edu",
-        "url": "https://www.emporia.edu/teachers-college/about-college/honors-awards/kansas-master-teacher-award-home/previous-winners/",
-        "publication": "Emporia.Edu",
-        "date": "2026-03-31"
+        "url": "https://www.emporia.edu/teachers-college/about-college/honors-awards/kansas-master-teacher-award-home/previous-winners/"
+      },
+      {
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/6942435f-2284-422c-9ed9-5bf7d68c4984"
+      },
+      {
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/e4ec7011-734d-4c18-ab28-c5b38d236126"
       },
       {
         "title": "Usd489.Community.Highbond.Com",
@@ -11347,18 +9810,6 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "url": "https://hayspost.com/posts/5e878e4beb7f170536019f51",
         "publication": "Hayspost.Com",
         "date": "2026-03-31"
-      },
-      {
-        "title": "Hays school board approves HHS, Roosevelt contract; discussion heated",
-        "url": "https://hayspost.com/posts/6942435f-2284-422c-9ed9-5bf7d68c4984",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Hays USD 489 board votes not to add another manager for bond work",
-        "url": "https://hayspost.com/posts/e4ec7011-734d-4c18-ab28-c5b38d236126",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
       }
     ]
   },
@@ -11372,65 +9823,43 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "occupation": "School Board Member",
     "family": "The Mayor's office (Mason)",
     "campaignWebsite": "https://usd489.community.highbond.com/portal/members.aspx?id=18",
-    "whoTheyAre": "The public record continues to show Ruder as a practical, community-rooted board member with a finance background. She speaks from the perspective of a taxpayer, employee, and parent of a district student, which gives her board comments a strongly local and operational character. The second-pass review did not uncover any identity conflicts. Ruder is a Hays native, Hays High graduate, and USD 489 board member whose public biography centers on local finance work at Golden Plains Credit Union. That combination makes her identity easy to verify and distinct from any same-name person. Ruth A. Ruder is a Hays-born USD 489 graduate, vice president at Golden Plains Credit Union, and a current USD 489 board member. The district portal lists her as a board member, and her public profile shows deep local roots. The Mayor's office (Mason).",
-    "theirRecord": "Ruder's record is still defined by caution around land use, support for student-facing purchases, and insistence on fiscal accountability. She has supported technology and classroom-oriented spending while also asking hard questions about whether land transactions or sponsorships create real benefit for the district. Her comments in the land-sale coverage showed a willingness to slow down when public purpose was not clear. The second pass reinforced her Hays High and Golden Plains background and the district board portal record. I also checked for additional public-record angles such as property, court, and archived social content, but nothing attributable enough surfaced to change the profile. Ruder's public record on the board emphasizes communication, fiscal discipline, and a willingness to slow down when land use or spending choices could have long-term consequences. In December 2025 she voiced concern that a buyer of district land next to the middle school might simply hold it for a tax deduction rather than use it productively. In other votes, she supported laptop purchases for Hays High and said students should be at the center of the district's decisions. She is also a board voice who cares about the district's reputation as a community asset. In her election profile she said USD 489 can be \"the highlight of our community\" and that the district should balance smart growth with fiscal responsibility. Her comments on sponsorships and land sales show a board member who is comfortable asking what the public gets back for a given dollar.",
+    "whoTheyAre": "Ruth Ruder is a USD 489 school board member and vice president in Hays, Kansas. She grew up in Hays, graduated from Hays High in 1988, and spent 30 years at Golden Plains Credit Union, including more than 15 years as vice president. The public record places her inside the local finance and family network that runs through Hays. Her family connection is a major part of her public identity. She is married to Vernon Ruder Jr., the Ellis County Treasurer, and she is the mother of Mason Ruder, the mayor of Hays. That means the Ruder family occupies elected roles across county, city, and school government.",
+    "theirRecord": "Ruder’s board record is practical and generally pro-administration, but she is willing to slow down decisions that do not obviously help students. She has supported technology and bond-related spending while also asking whether land or sponsorship transactions actually serve a public purpose. Her comments about taxpayer responsibility, district employees, and the board’s duty to children show a steady, budget-minded approach.",
     "whatYouShouldKnow": [
-      "Ruder's finance background shows up in the way she frames board decisions",
-      "She is comfortable pushing back on transactions that do not obviously help students",
-      "She has already been serving on the board, so her public record reflects actual votes and not just campaign rhetoric",
-      "She grew up in Hays and graduated from Hays High in 1988",
-      "She has spent 30 years at Golden Plains Credit Union",
-      "She is already serving on the USD 489 board, so her positions matter now",
-      "The second pass reinforced her Hays High and Golden Plains background and the district board portal record. I also checked for additional public-record angles such as property, court, and archived social content, but nothing attributable enough surfaced to change the profile",
-      "No personal faith information found. The Ruder surname pattern suggests Catholic heritage but this is inference only. Direct inquiry would be required for verification"
+      "Ruder is a Hays High graduate who spent three decades at Golden Plains Credit Union",
+      "She is already on the USD 489 board, so her votes are part of the public record",
+      "She is part of a family that also includes the Hays mayor and the Ellis County treasurer",
+      "She has a tendency to ask whether a transaction or purchase really serves students",
+      "Her public faith trail is thin; no verified church home was found in this pass",
+      "I did not find a donor-by-donor campaign finance ledger"
     ],
-    "whereTheyWorship": "No public church affiliation was identified in the report materials reviewed for Ruth Ruder.",
+    "whereTheyWorship": "I did not find a reliable public source identifying Ruth Ruder’s church home or denomination. Because the public record is thin, I am not assigning a church without evidence.",
     "quotes": [
       {
         "text": "My first obligation, if elected, will be to the children in our district.",
-        "source": "Ruth Ruder research file",
+        "source": "Hays Post, 2023 candidate profile, https://hayspost.com/posts/b833cbe0-37a8-4535-be13-b7d1c2ca645a",
         "date": "2026-03-31",
         "url": "https://hayspost.com/posts/b833cbe0-37a8-4535-be13-b7d1c2ca645a",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "topic": "Quotes"
       },
       {
         "text": "All employees of USD 489 are equally important.",
-        "source": "Ruth Ruder research file",
+        "source": "Hays Post, 2023 candidate profile, https://hayspost.com/posts/03620484-d421-4ae2-b3be-d87652788a17",
         "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/b833cbe0-37a8-4535-be13-b7d1c2ca645a",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://hayspost.com/posts/03620484-d421-4ae2-b3be-d87652788a17",
+        "topic": "Quotes"
       },
       {
         "text": "I will do my best at representing the taxpayer in being fiscally responsible.",
-        "source": "Ruth Ruder research file",
+        "source": "Hays Post, 2023 candidate profile, https://hayspost.com/posts/b8de0496-38a0-459d-813c-fbb70028b4c8",
         "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/b833cbe0-37a8-4535-be13-b7d1c2ca645a",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "Board member Ruth Ruder expressed concern that someone might purchase the land for a tax deduction, only to leave it vacant.",
-        "source": "Ruth Ruder research file",
-        "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/b833cbe0-37a8-4535-be13-b7d1c2ca645a",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "the highlight of our community",
-        "source": "Ruth Ruder research file",
-        "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/b833cbe0-37a8-4535-be13-b7d1c2ca645a",
-        "topic": "CODEX DEEP RESEARCH 2026-04-01"
-      },
-      {
-        "text": "in a school board discussion but in context of",
-        "source": "Ruth Ruder research file",
-        "date": "2026-03-31",
-        "topic": "Evidence:"
+        "url": "https://hayspost.com/posts/b8de0496-38a0-459d-813c-fbb70028b4c8",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "No clean total verified in reviewed public sources",
-      "narrative": "I did not find a clean itemized donor table for Ruder. The public record reviewed for this pass supports her local profile and board positions, but it does not provide donor-level transparency. I did not find a clean public itemized donor table for Ruder in the sources reviewed for this pass. The public record I found was enough to confirm her local profile and board actions, but not enough to reconstruct a reliable donor ledger.",
+      "narrative": "I did not find a clean public itemized donor table for Ruder in the sources reviewed for this pass. The public record was enough to confirm her board role and local profile, but not enough to reconstruct a reliable donor ledger.",
       "donors": [
         {
           "name": "Campaign finance data",
@@ -11443,39 +9872,27 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "sources": [
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/b833cbe0-37a8-4535-be13-b7d1c2ca645a",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/b833cbe0-37a8-4535-be13-b7d1c2ca645a"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/03620484-d421-4ae2-b3be-d87652788a17",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/03620484-d421-4ae2-b3be-d87652788a17"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/b8de0496-38a0-459d-813c-fbb70028b4c8",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/b8de0496-38a0-459d-813c-fbb70028b4c8"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/fc95a5ee-b8b3-4d06-b876-7cba2008d1cb",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/de2764c1-3767-4d5a-8353-888aa39a31cf"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/de2764c1-3767-4d5a-8353-888aa39a31cf",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/fc95a5ee-b8b3-4d06-b876-7cba2008d1cb"
       },
       {
         "title": "Usd489.Community.Highbond.Com",
-        "url": "https://usd489.community.highbond.com/portal/members.aspx?id=18",
-        "publication": "Usd489.Community.Highbond.Com",
-        "date": "2026-03-31"
+        "url": "https://usd489.community.highbond.com/portal/members.aspx?id=18"
       },
       {
         "title": "HaysPost: USD 489 BOE candidate Ruth Ruder",
@@ -11506,64 +9923,43 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "incumbent": true,
     "occupation": "School Board Member",
     "campaignWebsite": "https://www.haysmed.com/provider/derek-m-yarmer-md/",
-    "whoTheyAre": "The public record keeps Yarmer in the lane of medically trained school-board oversight: he is the doctor on the board who keeps returning to core academics, student safety, and operational discipline. The second pass did not uncover identity confusion, and it reinforced that his public persona is unusually credentialed and locally rooted. Yarmer is a practicing emergency physician and USD 489 board member whose biography is anchored in Albert, Otis-Bison, FHSU, KU, and UMKC. That full education-and-medical path is public enough to keep him distinct from any same-name physician. Derek Yarmer is a Hays USD 489 board member and an emergency medicine doctor. His public profile says he was raised in Albert, graduated from FHSU in chemistry, completed KU School of Medicine and UMKC residency training, and moved back to Hays in 2015 with his wife Emily.",
-    "theirRecord": "Yarmer's board posture continues to read as skeptical but constructive. He supports school goals, but he repeatedly asks for more explanation when spending or process seems rushed, and he has voted no when he thought a purchase or commitment moved too quickly. His public comments about emergencies, core subjects, and extracurricular balance make him one of the more consistently \"process first\" voices on the board. The second-pass review continued to emphasize Hays Post profiles, the board portal, and the KSDE directory. I did not find court, property, or business records that added meaningful candidate-specific facts, and I did not find a verified faith source. Yarmer has been one of the more skeptical voices on spending and process. He has said board decisions should be broadcast, agendas should come out earlier, and bond money should be spent responsibly. In 2025 he asked for bids on flooring and asbestos work to come to the board before a vote, saying that if everything is an emergency then nothing is an emergency. He has also voted against some expenditures that other members supported, including furniture and other purchases where he wanted the board to be more deliberate. His public posture is not anti-school, but it is strongly pro-oversight. He reads like a board member who wants more explanation, more bidding, and more patience before large commitments.",
+    "whoTheyAre": "Derek Yarmer is a Hays USD 489 board member and an emergency medicine physician at HaysMed. He grew up in Albert, attended Otis-Bison schools, earned a chemistry degree from Fort Hays State, completed medical school at the University of Kansas, and finished an emergency-medicine residency at UMKC. He and his wife Emily moved back to Hays in 2015. Yarmer’s public identity is medical and local. He is the only physician on this part of the board, and he speaks from the perspective of a parent with children in USD 489 schools. His biography is easy to verify because it runs through Albert, Otis-Bison, FHSU, KU, UMKC, and HaysMed.",
+    "theirRecord": "Yarmer has asked for bids and board review before major purchases, pushed for earlier agendas, and argued that if everything is treated like an emergency then nothing is. He has also been the board member most willing to draw a hard line on parental rights. During emergency policy revisions, he said he did not think parents give up their rights between 8 and 3, and he has generally framed classroom decisions through the lens of core academics and fiscal restraint.",
     "whatYouShouldKnow": [
-      "Yarmer is the rare board member whose day job is directly tied to emergency decision-making",
-      "He has a deep local-school-to-medical-school path that keeps him grounded in the region",
-      "He is not reflexively anti-spending, but he is unusually impatient with unclear process",
-      "He is the only board member in this group who is also a practicing emergency physician",
-      "His education path runs from Otis-Bison to FHSU to KU Med to UMKC",
-      "He explicitly ties his school-board run to the pandemic and bond spending",
-      "The second-pass review continued to emphasize Hays Post profiles, the board portal, and the KSDE directory. I did not find court, property, or business records that added meaningful candidate-specific facts, and I did not find a verified faith source",
-      "Nothing found. Medical professionals sometimes keep personal beliefs separate from their professional identity. Direct inquiry would be required for verification"
+      "Yarmer is a practicing emergency physician, not a full-time politician",
+      "He moved through a local-to-state medical path that is unusual for a school-board member",
+      "He has three children in USD 489 schools, so his comments are tied to family life",
+      "He is one of the board’s strongest voices for spending scrutiny and earlier public review",
+      "He has made parental rights and core academics central to his board comments",
+      "No church or donor ledger was verified in the public material reviewed for this pass"
     ],
-    "whereTheyWorship": "No public church affiliation was identified in the report materials reviewed for Derek Yarmer.",
+    "whereTheyWorship": "I did not find a reliable public source identifying Derek Yarmer’s church home or denomination. I am not assigning a church without evidence.",
     "quotes": [
       {
-        "text": "I am originally from Albert, Kan.",
-        "source": "Derek Yarmer research file",
-        "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/ae86883e-49b6-4bb5-af6c-acddd174da30",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
         "text": "I want to be an advocate for the students' interests, as well as be fiscally responsible.",
-        "source": "Derek Yarmer research file",
+        "source": "Hays Post candidate profile, 2023, https://hayspost.com/posts/ae86883e-49b6-4bb5-af6c-acddd174da30",
         "date": "2026-03-31",
         "url": "https://hayspost.com/posts/ae86883e-49b6-4bb5-af6c-acddd174da30",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "topic": "Quotes"
       },
       {
         "text": "I believe extra-curricular activities are important ... but the main responsibility of the school is to teach the core subjects.",
-        "source": "Derek Yarmer research file",
+        "source": "Hays Post candidate profile, 2023, https://hayspost.com/posts/0ef676f6-e0ff-4a1c-b697-d9f74d3d7649",
         "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/ae86883e-49b6-4bb5-af6c-acddd174da30",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://hayspost.com/posts/0ef676f6-e0ff-4a1c-b697-d9f74d3d7649",
+        "topic": "Quotes"
       },
       {
         "text": "If everything is an emergency, then nothing is an emergency.",
-        "source": "Derek Yarmer research file",
+        "source": "Hays Post board coverage, 2025, https://hayspost.com/posts/19aa6807-369c-4e64-9c1c-8af9d88c84df",
         "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/ae86883e-49b6-4bb5-af6c-acddd174da30",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "to blame for reckless spending by failing to provide proper oversight of the school administration",
-        "source": "Derek Yarmer research file",
-        "date": "2026-03-31",
-        "topic": "Bond Budget Critic (Major):"
-      },
-      {
-        "text": "I don't think you give up your parental rights between 8 and 3.",
-        "source": "Derek Yarmer research file",
-        "date": "2026-03-31",
-        "topic": "Parental Rights Advocate:"
+        "url": "https://hayspost.com/posts/19aa6807-369c-4e64-9c1c-8af9d88c84df",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "No public total verified; campaign appears self-funded or lightly funded",
-      "narrative": "The public materials reviewed for this pass still point toward a self-funded or very lightly funded campaign profile, and I did not find a donor-by-donor table. There was no public PAC ledger that I could responsibly attribute. I did not surface a reliable itemized donor table for Yarmer in the sources reviewed for this pass. The public record I found supports his biography and board positions, but not a clean contribution ledger.",
+      "narrative": "I did not surface a reliable itemized donor table for Yarmer in the sources reviewed for this pass. The public material supports a lightly documented local profile, but not a contribution ledger.",
       "donors": [
         {
           "name": "Public donor table",
@@ -11581,45 +9977,31 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "sources": [
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/ae86883e-49b6-4bb5-af6c-acddd174da30",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/ae86883e-49b6-4bb5-af6c-acddd174da30"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/95dab7ab-70ba-44ee-91ee-2760e55665bf",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/95dab7ab-70ba-44ee-91ee-2760e55665bf"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/0ef676f6-e0ff-4a1c-b697-d9f74d3d7649",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/0ef676f6-e0ff-4a1c-b697-d9f74d3d7649"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/19aa6807-369c-4e64-9c1c-8af9d88c84df",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/19aa6807-369c-4e64-9c1c-8af9d88c84df"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/de2764c1-3767-4d5a-8353-888aa39a31cf",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/de2764c1-3767-4d5a-8353-888aa39a31cf"
       },
       {
         "title": "Usd489.Community.Highbond.Com",
-        "url": "https://usd489.community.highbond.com/portal/members.aspx?id=18",
-        "publication": "Usd489.Community.Highbond.Com",
-        "date": "2026-03-31"
+        "url": "https://usd489.community.highbond.com/portal/members.aspx?id=18"
       },
       {
         "title": "Ksde.Gov",
-        "url": "https://www.ksde.gov/Portals/0/Directories/2025-26%20Kansas%20Educational%20Directory.pdf?ver=2025-11-07-175254-390",
-        "publication": "Ksde.Gov",
-        "date": "2026-03-31"
+        "url": "https://www.ksde.gov/Portals/0/Directories/2025-26%20Kansas%20Educational%20Directory.pdf?ver=2025-11-07-175254-390"
       },
       {
         "title": "HaysMed Provider: Derek Yarmer, MD",
@@ -11662,64 +10044,43 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "incumbent": true,
     "occupation": "School Board Member",
     "campaignWebsite": "https://usd489.community.highbond.com/portal/members.aspx?id=18",
-    "whoTheyAre": "The round-2 sweep continued to show Park as a district lifer who moved from classroom and administrative work into board service. He has the kind of institutional memory that comes from having watched the district through multiple staffing, facilities, and enrollment cycles. The additional review did not surface any identity ambiguity. Park is a retired educator and former Washington Elementary principal who has spent more than three decades inside USD 489. His family-of-educators background and long service history make him easy to verify in the public record. Allen Park is a retired USD 489 elementary principal, a licensed insurance agent, and a current USD 489 board member. Public profiles say he has worked in USD 489 for 31 years and is now also doing part-time UPS work. Allen Park served USD 489 for 31 years in multiple roles:.",
-    "theirRecord": "Park's record still leans toward bond completion, careful process, and a steady interest in teacher retention and student outcomes. He has supported major facilities work but has also shown he is willing to vote no when he thinks purchases need more scrutiny. He appears to view his role as protecting public money while preserving educational quality. The second-pass search kept reinforcing his school-district biography and the public board portal. I did not uncover any court, property, or business records that materially changed the public profile. Park is one of the more consistent supporters of the bond-buildout phase and the district's effort to lower student fees. He told Hays Post that the bond is replacing and repairing facilities, more teachers have been hired, and reduced fees help families in tight times. He also repeatedly says communication and transparency are what build trust with stakeholders. His more recent board coverage shows him willing to question spending that he thinks is too fast or too expensive. In 2025 he voted against some furniture purchases, and he has been willing to pause or delay decisions when he wants more review. He is not a reflexive \"yes\" vote; he is a long-term district steward who likes structured process.",
+    "whoTheyAre": "Allen Park is a longtime USD 489 school board member and retired educator in Hays, Kansas. The public record shows a 31-year career in the district that included work as a paraprofessional, teacher, coach, migrant director, Washington Elementary principal, and transition coordinator. Park’s biography is rooted in school operations rather than politics. He and his wife Patti have spent decades in education, and all four of their children came through USD 489 from pre-K through Hays High. He also works part-time at UPS.",
+    "theirRecord": "Park’s record is defined by stewardship, transparency, and caution around spending. He has been a consistent voice asking whether bond money, staffing decisions, and district purchases are being handled with enough scrutiny. He supported the facilities work tied to the bond but keeps returning to the question of whether spending is being reviewed carefully enough. He has 100 percent board-meeting attendance across four years, and his public finance answer was that his support came from family, friends, and community members who care about kids and education.",
     "whatYouShouldKnow": [
-      "Park's record is built on district leadership experience, not outsider critique",
-      "He started in USD 489 as a bus driver, which gives him a wider operational lens than many board members",
-      "He keeps coming back to retention, recruitment, and communication",
-      "He served 25 years as Washington Elementary principal",
-      "He says he has 100 percent board-meeting attendance across four years of service",
-      "He has four children who all graduated from Hays High",
-      "The second-pass search kept reinforcing his school-district biography and the public board portal. I did not uncover any court, property, or business records that materially changed the public profile",
-      "Nothing found. Direct inquiry would be required for verification"
+      "Park spent 31 years in USD 489 in roles ranging from classroom teacher to principal to migrant director",
+      "He ran the transition when Washington Elementary closed, so he knows what district reorganization looks like in real life",
+      "He has four children, and all four attended USD 489 schools",
+      "He has asked questions about bond money, staffing decisions, and district purchases",
+      "He says he has not taken money from outside the school district",
+      "I did not verify a current church affiliation, so I am not assigning one here"
     ],
-    "whereTheyWorship": "No public church affiliation was identified in the report materials reviewed for Allen Park.",
+    "whereTheyWorship": "I did not find a reliable public source identifying Allen Park’s church home or denomination. I am not assigning a church without evidence.",
     "quotes": [
       {
-        "text": "I have worked in education for over 35 years.",
-        "source": "Allen Park research file",
+        "text": "Communication is a key component of trying to regain and establish trust. This means communication between the entire school community, including the opinions of the minority. All views need to be heard and discussed. Board meetings should establish a culture to be inclusive and transparent.",
+        "source": "Hays USD 489 school board candidate: Allen Park, October 25, 2023, https://hayspost.com/posts/7acb9e0e-4c56-4e6f-a618-4312a49cd922",
         "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/ba82fc30-cb69-4a6d-8f09-c3ec5d9d51a7",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://hayspost.com/posts/7acb9e0e-4c56-4e6f-a618-4312a49cd922",
+        "topic": "Quotes"
       },
       {
-        "text": "With the recently passed bond, the facilities are being replaced and repaired.",
-        "source": "Allen Park research file",
+        "text": "The school board has an awesome responsibility in the following months and years to ensure the bond process is executed correctly, timely, and fiscally responsibly. We need to be willing to invest the time and energy for meetings, conversations, visits to schools, and professional workshops. We need to do whatever it takes to accomplish these bond projects. Our decisions today have implications decades from now. I am the only board member that has 100 percent attendance at board meetings over four years. I am serious about this position and am willing to use my experience from previous 489 building projects and work with the board, administration and community in this process.",
+        "source": "Hays USD 489 school board candidate: Allen Park, October 25, 2023, https://hayspost.com/posts/7acb9e0e-4c56-4e6f-a618-4312a49cd922",
         "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/ba82fc30-cb69-4a6d-8f09-c3ec5d9d51a7",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "Communication is so important and can always be improved.",
-        "source": "Allen Park research file",
-        "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/ba82fc30-cb69-4a6d-8f09-c3ec5d9d51a7",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://hayspost.com/posts/7acb9e0e-4c56-4e6f-a618-4312a49cd922",
+        "topic": "Quotes"
       },
       {
         "text": "I have not received any money outside of the school district.",
-        "source": "Allen Park research file",
+        "source": "Hays Post, 2023 candidate profile, https://hayspost.com/posts/19aa6807-369c-4e64-9c1c-8af9d88c84df",
         "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/ba82fc30-cb69-4a6d-8f09-c3ec5d9d51a7",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "unsure if the district was following the policy.",
-        "source": "Allen Park research file",
-        "date": "2026-03-31",
-        "topic": "Nepotism Opponent:"
-      },
-      {
-        "text": "gossip session and micromanagement.",
-        "source": "Allen Park research file",
-        "date": "2026-03-31",
-        "topic": "Executive Session Advocate:"
+        "url": "https://hayspost.com/posts/19aa6807-369c-4e64-9c1c-8af9d88c84df",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "Allen Park reported a local, no-outside-money school-board finance profile",
-      "narrative": "Park gave the most explicit finance answer of the group: he said he had not received money outside the school district, and that family, friends, and community members provided support. I did not find a donor-by-donor table or PAC contribution ledger to supplement that statement. Park gave one of the most explicit public answers in the field: he said he had not received money outside the school district, that his donations came from family, friends, and community members who care about kids and education, and that any additional expenses were paid personally. That means I did not find a PAC-driven donor table here, just a statement that his support was local and modest.",
+      "narrative": "Park told Hays Post that he had not received money outside of the school district and that his support came from family, friends, and community members. I did not find a donor-by-donor public ledger to add beyond that statement.",
       "donors": [
         {
           "name": "Outside PAC/out-of-district money",
@@ -11737,44 +10098,32 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "sources": [
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/ba82fc30-cb69-4a6d-8f09-c3ec5d9d51a7",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/ba82fc30-cb69-4a6d-8f09-c3ec5d9d51a7"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/7acb9e0e-4c56-4e6f-a618-4312a49cd922",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/7acb9e0e-4c56-4e6f-a618-4312a49cd922"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/ff929dc5-f4f5-433c-876e-59fc19df6a2d",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/ff929dc5-f4f5-433c-876e-59fc19df6a2d"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/19aa6807-369c-4e64-9c1c-8af9d88c84df",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/19aa6807-369c-4e64-9c1c-8af9d88c84df"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/95dab7ab-70ba-44ee-91ee-2760e55665bf",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/95dab7ab-70ba-44ee-91ee-2760e55665bf"
+      },
+      {
+        "title": "Usd489.Community.Highbond.Com",
+        "url": "https://usd489.community.highbond.com/portal/members.aspx?id=18"
       },
       {
         "title": "Fhsu.Edu",
         "url": "https://www.fhsu.edu/news/2020/05/pizza-kits-and-book-giveaways-set-for-monday-in-downtown-hays",
         "publication": "Fhsu.Edu",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Usd489.Community.Highbond.Com",
-        "url": "https://usd489.community.highbond.com/portal/members.aspx?id=18",
-        "publication": "Usd489.Community.Highbond.Com",
         "date": "2026-03-31"
       },
       {
@@ -11818,64 +10167,43 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "incumbent": true,
     "occupation": "School Board Member",
     "campaignWebsite": "https://usd489.community.highbond.com/portal/members.aspx?id=18",
-    "whoTheyAre": "The second-pass review continues to show Goetz as an educator first and a board member second. Her public comments and background keep emphasizing family life, classroom experience, and a very local sense of responsibility to students. I did not find conflicting identity data. Goetz is a lifelong Hays resident, FHSU math instructor, and USD 489 board member. Her public trail also places her in the district as a former Hays High teacher, which makes the identity match straightforward. Jayme Goetz is a lifelong Hays resident, Fort Hays State mathematics instructor, and current USD 489 board member. Her public profile says she grew up in Hays, earned three degrees from Fort Hays State, and returned to teach here after one year in Ellsworth.",
-    "theirRecord": "Goetz remains one of the board's more transparency-focused voices. She has raised questions about handbook rules, compensation, laptop spending, and policy clarity, and she has framed those questions in terms of how decisions land on real families. The record suggests active oversight rather than passive consensus. The second pass kept pointing back to Hays Post, the USD 489 board portal, and the educational background already in the file. I did not find court, property, or archived social sources that changed the profile in a verifiable way. Goetz has repeatedly pushed the board toward better communication, clearer discipline policy, and more transparent budget decisions. In 2025 she asked how the 2.5 percent raise figure was calculated, and she pushed the district to clarify handbook discipline rules so families know the consequences. She also supported laptops for Hays High students after hearing from teachers who preferred them. She has a visible habit of asking the board to slow down and explain itself. That showed up in the handbook fight, in questions about capital purchases, and in her insistence that the district's decisions should be understandable to the families who pay for them. She is not a passive member; she is an asking-questions member.",
+    "whoTheyAre": "Jayme Goetz is a Fort Hays State University mathematics instructor and USD 489 board member from Hays, Kansas. She grew up in Hays, attended USD 489 schools, taught at Ellsworth for one year and at Hays High for seven years, and then returned to FHSU, where she now teaches algebra. She is a mathematics instructor at Fort Hays State University and a USD 489 board member. She is the parent of two young daughters in USD 489, which gives her a direct household stake in the district she helps oversee.",
+    "theirRecord": "Goetz has been one of the board’s more transparency-focused members. She asked questions about how the district calculated raises, pushed for clearer discipline rules, and pressed the board to explain spending decisions in ways regular families could understand. That makes her record concrete even when the issue itself is procedural. She also backed some administration decisions, including laptops for Hays High students, while still challenging the board to be clearer and more accountable. Her record is therefore not a simple yes-or-no pattern; it is more like a teacher trying to make board decisions legible to parents and students.",
     "whatYouShouldKnow": [
-      "Goetz pushed back on the Hays High handbook, arguing it needed specific consequences for violations to maintain consistency. Had \"at least six complaints\" about discipline inconsistency at the high school. This led to a \"squabble\" with the principal and other board members about the board's role in discipline policy",
-      "Goetz's public identity is closely tied to Hays education, not just politics",
-      "She tends to ask whether policies are understandable to the families who must live under them",
-      "She is willing to question spending and rule-setting even when the items are ordinary school business",
-      "She has lived in Hays her whole life and has deep USD 489 roots",
+      "Goetz is a lifelong Hays resident and a USD 489 graduate",
       "She taught at Hays High for seven years before moving to FHSU",
-      "She has two young daughters in the district",
-      "The second pass kept pointing back to Hays Post, the USD 489 board portal, and the educational background already in the file. I did not find court, property, or archived social sources that changed the profile in a verifiable way"
+      "She has two daughters in the district, so school policy hits close to home",
+      "Her board style is practical: she asks how decisions will work for families",
+      "She is not a public faith figure, and no church home was verified in the sources reviewed",
+      "The public record does not show a detailed donor ledger"
     ],
-    "whereTheyWorship": "No public church affiliation was identified in the report materials reviewed for Jayme Goetz.",
+    "whereTheyWorship": "I did not find a reliable public source identifying Jayme Goetz’s church home or denomination. I am not assigning a church without evidence.",
     "quotes": [
       {
-        "text": "Being a lifelong Hays resident",
-        "source": "Jayme Goetz research file",
-        "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/8c99812c-9463-4172-9aef-4df43a05b5d9",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
         "text": "I have greatly enjoyed getting involved in all different levels of education.",
-        "source": "Jayme Goetz research file",
+        "source": "Hays Post candidate profile, 2023, https://hayspost.com/posts/8c99812c-9463-4172-9aef-4df43a05b5d9",
         "date": "2026-03-31",
         "url": "https://hayspost.com/posts/8c99812c-9463-4172-9aef-4df43a05b5d9",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "topic": "Quotes"
       },
       {
         "text": "I believe in the importance of transparency and clear communication.",
-        "source": "Jayme Goetz research file",
+        "source": "Hays Post candidate profile, 2023, https://hayspost.com/posts/b8de0496-38a0-459d-813c-fbb70028b4c8",
         "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/8c99812c-9463-4172-9aef-4df43a05b5d9",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://hayspost.com/posts/b8de0496-38a0-459d-813c-fbb70028b4c8",
+        "topic": "Quotes"
       },
       {
         "text": "Each decision that comes through the board impacts someone in our community.",
-        "source": "Jayme Goetz research file",
+        "source": "Hays Post candidate profile, 2023, https://hayspost.com/posts/de2764c1-3767-4d5a-8353-888aa39a31cf",
         "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/8c99812c-9463-4172-9aef-4df43a05b5d9",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "seen the strides the current board has been taking to have transparency with the community but would like to see more of it.",
-        "source": "Jayme Goetz research file",
-        "date": "2026-03-31",
-        "topic": "Transparency:"
-      },
-      {
-        "text": "disgusted and had to stop reading after about 300 because of the level of not only ignorance, but immaturity in these responses",
-        "source": "Jayme Goetz research file",
-        "date": "2026-03-31",
-        "topic": "Mascot -- Led the Charge to Change HMS to Indians:"
+        "url": "https://hayspost.com/posts/de2764c1-3767-4d5a-8353-888aa39a31cf",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "No clean total verified in reviewed public sources",
-      "narrative": "I did not surface a reliable itemized donor table for Goetz. The public record reviewed here supports her biography and board actions, but not a clean contribution ledger. I did not surface a reliable itemized donor table for Goetz in the sources reviewed for this pass. The public record I found supports her biography and board actions, but not a clean contribution ledger.",
+      "narrative": "I did not surface a reliable itemized donor table for Goetz in the sources reviewed for this pass. The public record I found supports her biography and board actions, but not a clean contribution ledger.",
       "donors": [
         {
           "name": "Campaign finance data",
@@ -11888,51 +10216,35 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "sources": [
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/8c99812c-9463-4172-9aef-4df43a05b5d9",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/8c99812c-9463-4172-9aef-4df43a05b5d9"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/74087102-4ca2-4d13-89e0-5ddd64e94d6f",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/74087102-4ca2-4d13-89e0-5ddd64e94d6f"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/b8de0496-38a0-459d-813c-fbb70028b4c8",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/b8de0496-38a0-459d-813c-fbb70028b4c8"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/de2764c1-3767-4d5a-8353-888aa39a31cf",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/de2764c1-3767-4d5a-8353-888aa39a31cf"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/03620484-d421-4ae2-b3be-d87652788a17",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/03620484-d421-4ae2-b3be-d87652788a17"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/fc95a5ee-b8b3-4d06-b876-7cba2008d1cb",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/fc95a5ee-b8b3-4d06-b876-7cba2008d1cb"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/b833cbe0-37a8-4535-be13-b7d1c2ca645a",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/b833cbe0-37a8-4535-be13-b7d1c2ca645a"
       },
       {
         "title": "Usd489.Community.Highbond.Com",
-        "url": "https://usd489.community.highbond.com/portal/members.aspx?id=18",
-        "publication": "Usd489.Community.Highbond.Com",
-        "date": "2026-03-31"
+        "url": "https://usd489.community.highbond.com/portal/members.aspx?id=18"
       },
       {
         "title": "Jayme Goetz -- Ballotpedia",
@@ -11976,110 +10288,80 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "occupation": "School Board Member",
     "education": "Repeatedly emphasizes that special education should be fully funded as \"originally promised,\" which would free up resources for general education or tax relief",
     "campaignWebsite": "https://usd489.community.highbond.com/portal/members.aspx?id=18",
-    "whoTheyAre": "The round-2 sweep reinforces Pallister as a district lifer whose identity is bound up with schools, students, and administration rather than partisan politics. He has the perspective of someone who has seen the district from transportation, building leadership, and board-service angles. No contradictory biographical evidence surfaced. Pallister is a retired USD 489 principal and former assistant principal who has also described starting in the district as a bus driver. His long district tenure makes him easy to verify in the public record. Craig Pallister is the current USD 489 board member who returned to the board in 2025 after previously serving as vice president and president. The public record identifies him as a retired teacher and principal. Teacher and assistant principal in USD 443 (early career).",
-    "theirRecord": "Pallister continues to frame his board role around retention, recruitment, and practical stewardship. He supports keeping facilities and staffing strong, and his remarks suggest a preference for informed, measured governance rather than fast symbolic moves. The record is consistent with a former administrator who knows the operational consequences of board decisions. The second pass kept pointing to Hays Post profiles, the board portal, and the FHSU-related local community article already in the file. I did not uncover court, property, or business records that changed the public profile. Pallister's record is about retention, recruitment, and keeping the system functional as the district completes the bond buildout. In his 2023 profile he said the board needs to keep teacher, administrator, and staff retention a priority. In later coverage he came back to the board with the same eye toward continuity and student experience. He also tends to favor steady, operational problem-solving. He supports bond completion, district technology, and budget questions that ask whether spending actually helps student achievement. As a former principal, he sounds like someone who has spent decades living with the consequences of board decisions rather than just reacting to them.",
+    "whoTheyAre": "Craig Pallister is a retired USD 489 principal and current school-board member in Hays, Kansas. The public record says he spent 21 years as a middle-school principal and three years as an assistant principal before that, and he also started in the district as a bus driver while he was still in college. His family history is tied tightly to the schools. His wife Sue is a retired teacher and librarian, all of their children attended USD 489, and he returned to the board in 2025 after previously serving as vice president and president.",
+    "theirRecord": "Pallister’s public record centers on staffing, retention, and district resources. He has said the board needs to keep teacher, administrator, and staff retention high, and his comments about facilities and staffing come from years inside USD 489. He also has the kind of district memory that comes from having been a bus driver, an assistant principal, and a principal before becoming a board member.",
     "whatYouShouldKnow": [
-      "Pallister's board perspective is shaped by decades inside the same district",
-      "He started in a transportation role, so he understands the district outside of administration",
-      "He keeps coming back to staffing quality and retention",
-      "He has 24 years of district leadership experience if you count his principal and assistant principal years",
-      "He started in USD 489 as a bus driver, so his history with the district is unusually broad",
-      "He says board decisions should protect teacher retention and recruitment",
-      "The second pass kept pointing to Hays Post profiles, the board portal, and the FHSU-related local community article already in the file. I did not uncover court, property, or business records that changed the public profile",
-      "40+ years in Hays with no public faith references. Direct inquiry would be required for verification"
+      "Pallister spent 21 years as a middle-school principal and three years as an assistant principal in USD 489",
+      "He started in the district as a bus driver, so he knows the system from the ground up",
+      "His wife is a retired district teacher and librarian, and all of their children attended USD 489",
+      "He returned to the board after losing by three votes in 2023",
+      "His public comments keep returning to retention, recruitment, fees, and steady district operations",
+      "No verified church home or donor ledger surfaced in the public material reviewed here"
     ],
-    "whereTheyWorship": "No public church affiliation was identified in the report materials reviewed for Craig Pallister.",
+    "whereTheyWorship": "I did not find a public record that reliably identifies Craig Pallister’s current church home. I am not assigning a church without a direct source.",
     "quotes": [
       {
         "text": "I worked for the school district as a middle school principal for 21 years, an assistant principal for three years prior to that.",
-        "source": "Craig Pallister research file",
+        "source": "Hays Post candidate Q&A, 2025, https://hayspost.com/posts/66f0b3ef-9525-40e2-a3f2-f74e9deebb43",
         "date": "2026-03-31",
         "url": "https://hayspost.com/posts/66f0b3ef-9525-40e2-a3f2-f74e9deebb43",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "topic": "Quotes"
       },
       {
         "text": "I have just been involved with education all my life.",
-        "source": "Craig Pallister research file",
+        "source": "Hays Post candidate Q&A, 2025, https://hayspost.com/posts/d484e173-9cdf-49f3-b7fa-5effce503aab",
         "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/66f0b3ef-9525-40e2-a3f2-f74e9deebb43",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "Everybody in the school district could be on the school board.",
-        "source": "Craig Pallister research file",
-        "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/66f0b3ef-9525-40e2-a3f2-f74e9deebb43",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "url": "https://hayspost.com/posts/d484e173-9cdf-49f3-b7fa-5effce503aab",
+        "topic": "Quotes"
       },
       {
         "text": "The USD 489 Board of Education needs to continue to make teacher, administrator and staff retention and recruitment a priority.",
-        "source": "Craig Pallister research file",
+        "source": "Hays Post candidate profile, 2023, https://hayspost.com/posts/7b0b83c9-2b64-4462-959d-ff904e2d896e",
         "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/66f0b3ef-9525-40e2-a3f2-f74e9deebb43",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "a leader in Kansas K-12 education.",
-        "source": "Craig Pallister research file",
-        "date": "2026-03-31",
-        "topic": "Bond Supporter:"
+        "url": "https://hayspost.com/posts/7b0b83c9-2b64-4462-959d-ff904e2d896e",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "No clean total verified in reviewed public sources",
-      "narrative": "I did not surface a reliable itemized donor table for Pallister. The public material reviewed here supports his biography and board positions, but not a donor ledger. I did not surface a reliable itemized donor table for Pallister in the public records reviewed for this pass. The sources I checked support his biography and board record, but not a clean contribution ledger.",
+      "narrative": "I did not surface a reliable itemized donor table for Pallister. The public material reviewed here supports his biography and board positions, but not a donor ledger.",
       "donors": [
         {
           "name": "Campaign finance data",
           "amount": "No campaign finance data available online"
         }
       ],
-      "undisclosed": "The reviewed sources flagged gaps in line-item donor detail, so readers should rely on the linked filing trail for deeper verification.",
       "reportingPeriod": "2026 cycle",
       "source": "Candidate questionnaires, local reporting, and reviewed public records"
     },
     "sources": [
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/66f0b3ef-9525-40e2-a3f2-f74e9deebb43",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/66f0b3ef-9525-40e2-a3f2-f74e9deebb43"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/d484e173-9cdf-49f3-b7fa-5effce503aab",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/d484e173-9cdf-49f3-b7fa-5effce503aab"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/ff929dc5-f4f5-433c-876e-59fc19df6a2d",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/ff929dc5-f4f5-433c-876e-59fc19df6a2d"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/7b0b83c9-2b64-4462-959d-ff904e2d896e",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/7b0b83c9-2b64-4462-959d-ff904e2d896e"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/95dab7ab-70ba-44ee-91ee-2760e55665bf",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/95dab7ab-70ba-44ee-91ee-2760e55665bf"
       },
       {
         "title": "Usd489.Community.Highbond.Com",
-        "url": "https://usd489.community.highbond.com/portal/members.aspx?id=18",
-        "publication": "Usd489.Community.Highbond.Com",
-        "date": "2026-03-31"
+        "url": "https://usd489.community.highbond.com/portal/members.aspx?id=18"
       },
       {
         "title": "Fhsu.Edu",
-        "url": "https://www.fhsu.edu/news/2020/05/pizza-kits-and-book-giveaways-set-for-monday-in-downtown-hays",
-        "publication": "Fhsu.Edu",
-        "date": "2026-03-31"
+        "url": "https://www.fhsu.edu/news/2020/05/pizza-kits-and-book-giveaways-set-for-monday-in-downtown-hays"
       },
       {
         "title": "SPONSORED: Craig Pallister running for USD 489 school board",
@@ -12099,66 +10381,43 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     "occupation": "Superintendent",
     "education": "Wilson has publicly advocated for:",
     "campaignWebsite": "https://sentinelksmo.org/choosing-which-crimes-to-prosecute-comes-to-kansas-on-election-bribery/",
-    "whoTheyAre": "The second-pass review confirms Wilson as the public-facing executive behind the district's facilities and operations push. He is not a candidate, but his biography matters because every board member's record is filtered through his implementation work. I did not find contradictory biographical material. Wilson is the USD 489 superintendent and the district's top administrator. The board portal and Kansas Educational Directory both support the identity match. Ron Wilson is the superintendent of Hays USD 489. The district's official board portal lists him as superintendent, and the Kansas Educational Directory confirms the same. Wilson served as superintendent in Herington before being hired by USD 489. The Hays school board voted unanimously to offer him a two-year contract in February 2019. While in Herington, his district was one of nine Kansas districts invited to pilot the Mental Health Intervention Team (MHIT) program in 2018 -- a program he has continued to advocate for in Hays.",
-    "theirRecord": "Wilson's public record is about execution: bond rollout, facility planning, staffing, and communicating the district's case for better schools. He regularly frames the district's facilities as something that must be improved rather than merely maintained, and his comments help explain the board's broader capital posture. The second pass kept returning to the board portal, KSDE directory listing, Hays Post coverage, and the handbook material already in the file. I did not find any church, property, or court source that changed the public profile. Wilson's record is the bond era itself. He has been the public face of Roosevelt and Hays High construction, the district's capital outlay plan, and the ongoing maintenance work that still has to happen after the ribbon cuttings. He has also spoken out when state or federal decisions threaten district funding, including title grant delays and other budget pressures. Because he is the superintendent, the board mostly evaluates him through implementation: facility delivery, staffing, budget management, and communications. The public record shows him as a steady advocate for the district's large capital projects and as the person who keeps those projects moving once the board votes.",
+    "whoTheyAre": "Ron Wilson is the superintendent of Hays USD 489. He is not an elected candidate in the material I reviewed, but he is the district's top administrator and the public face of the implementation side of school-board decisions. The public record places him at the center of the district's bond rollout, the Roosevelt addition, the new Hays High School project, staffing issues, and the capital-outlay debate. That is why he appears in this project at all: his decisions shape the environment every school-board candidate talks about. His public biography is more administrative than personal. I found the office, the district, and the facilities work much more clearly than I found any private background.",
+    "theirRecord": "Wilson's record is the bond era itself. He has been the superintendent while the district built a new Hays High School, renovated Roosevelt Elementary, and continued managing the long-term consequences of those projects. He has also been public about the district's facilities needs. In one Hays Post opinion piece he said the district needed to stop settling for outdated schools, and in another story he said the baseball stadium would go from the district's best facility to its worst if the system did not keep investing. The more controversial part of his record came during the 2022 bond election, when he emailed district staff about vote turnout and later drew a public scrutiny report over that message. Even so, the public record still treats him mainly as the person who executes board decisions and keeps the district moving.",
     "whatYouShouldKnow": [
-      "On April 22, 2022, Wilson emailed district staff regarding the May 10 bond issue election: \"If 100% of the eligible voters in your building vote before May 10th we will bring lunch for you one day before the end of school...The first building in our district to get 100% also gets dessert with their lunch!",
-      "This was reported as potential election bribery under Kansas law. Ellis County Attorney Robert Anderson declined to prosecute, saying he could not \"justify prosecuting\" because it would divert resources from \"sexual assaults, homicides, child abuse and neglect\" and other serious cases. The county attorney did NOT say it wasn't a violation -- he said prosecution wasn't worth the resources. The bond passed (~$143.5M)",
-      "Source: County attorney declines action on Hays superintendent email to staff (KWCH) Source: Superintendent's email sparks controversy (Hays Daily News) Source: Kansas Sentinel analysis",
-      "The new $115M Hays High School features private bathroom stalls usable by both genders -- floor-to-ceiling locking stalls with common-use sinks. Principal Shawn Henderson said the design would reduce bullying and protect students from being recorded on mobile devices. Parents complained about the potential for opposite-sex students being \"intimate\" in stalls, and about vaping. Wilson as superintendent oversees the facility design decisions",
-      "Source: Hays High School construction project, restrooms stirs controversy (Kansas Sentinel) Source: Hays USD 489 board hears concerns about private bathrooms at new high school",
-      "Wilson is the administrative engine behind the district's major capital projects",
-      "His public role is to explain and implement rather than vote",
-      "He consistently pushes the district toward better facilities and long-term planning"
+      "He is the superintendent of Hays USD 489",
+      "He is not an elected candidate in the sources I reviewed",
+      "He was the public face of the district bond and construction work",
+      "He was involved in the 2022 bond-election staff email controversy",
+      "His public comments focus on facilities, staffing, and district operations",
+      "I did not find a verified public church home or denomination"
     ],
-    "whereTheyWorship": "No public church affiliation was identified in the report materials reviewed for Ron Wilson.",
+    "whereTheyWorship": "I did not find a reliable public source that identifies Ron Wilson's church home or denomination. Because the public record is thin here, I am not assigning a church without evidence.",
     "quotes": [
       {
+        "text": "If 100% of the eligible voters in your building vote before May 10th we will bring lunch for you one day before the end of school...The first building in our district to get 100% also gets dessert with their lunch!",
+        "source": "district email reported by Hays Daily News, 2022-05-02, https://www.hdnews.net/2022/05/02/superintendents-email-sparks-controversy-as-election-day-approaches-for-school-bond/",
+        "date": "2026-03-31",
+        "url": "https://www.hdnews.net/2022/05/02/superintendents-email-sparks-controversy-as-election-day-approaches-for-school-bond/",
+        "topic": "Quotes"
+      },
+      {
         "text": "We have to stop settling for the schools and facilities that we have, and we need to start building for schools that we deserve.",
-        "source": "Ron Wilson research file",
+        "source": "Hays Post, 2024, https://hayspost.com/posts/0b83b105-6458-48ce-a689-c56394359c9d",
         "date": "2026-03-31",
         "url": "https://hayspost.com/posts/0b83b105-6458-48ce-a689-c56394359c9d",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
+        "topic": "Quotes"
       },
       {
         "text": "Our baseball stadium is probably the best facility we have now. However, in three years, it will go from being our best facility to our worst facility.",
-        "source": "Ron Wilson research file",
+        "source": "Hays Post, 2023, https://hayspost.com/posts/18d3a237-b1c0-45a5-886e-980bb0c81483",
         "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/0b83b105-6458-48ce-a689-c56394359c9d",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "Hays USD 489 Superintendent Ron Wilson",
-        "source": "Ron Wilson research file",
-        "date": "2026-03-31",
-        "url": "https://hayspost.com/posts/0b83b105-6458-48ce-a689-c56394359c9d",
-        "topic": "CODEX DEEP RESEARCH ROUND 2 2026-04-01"
-      },
-      {
-        "text": "If 100% of the eligible voters in your building vote before May 10th we will bring lunch for you one day before the end of school...The first building in our district to get 100% also gets dessert with their lunch!",
-        "source": "Ron Wilson research file",
-        "date": "2026-03-31",
-        "url": "https://www.linkedin.com/in/ron-wilson-96762118a/",
-        "topic": "RON WILSON -- Superintendent"
-      },
-      {
-        "text": "because it would divert resources from",
-        "source": "Ron Wilson research file",
-        "date": "2026-03-31",
-        "url": "https://www.linkedin.com/in/ron-wilson-96762118a/",
-        "topic": "RON WILSON -- Superintendent"
-      },
-      {
-        "text": "difficult and conflict-heavy",
-        "source": "Ron Wilson research file",
-        "date": "2026-03-31",
-        "url": "https://www.linkedin.com/in/ron-wilson-96762118a/",
-        "topic": "RON WILSON -- Superintendent"
+        "url": "https://hayspost.com/posts/18d3a237-b1c0-45a5-886e-980bb0c81483",
+        "topic": "Quotes"
       }
     ],
     "campaignFinance": {
       "totalRaised": "Not applicable",
-      "narrative": "Not applicable. Wilson is not a candidate in the public materials reviewed here, so there is no campaign-finance ledger to reconstruct. Not applicable. Wilson is an appointed superintendent, not a candidate running for office in the sources I reviewed.",
+      "narrative": "Not applicable. Wilson is an appointed superintendent, not a candidate running for office in the sources I reviewed.",
       "donors": [
         {
           "name": "Campaign finance",
@@ -12170,16 +10429,16 @@ export const FULL_CANDIDATES: CandidateFull[] = [
     },
     "sources": [
       {
-        "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/0b83b105-6458-48ce-a689-c56394359c9d",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "title": "Hdnews.Net",
+        "url": "https://www.hdnews.net/2022/05/02/superintendents-email-sparks-controversy-as-election-day-approaches-for-school-bond/"
       },
       {
         "title": "Hayspost.Com",
-        "url": "https://hayspost.com/posts/18d3a237-b1c0-45a5-886e-980bb0c81483",
-        "publication": "Hayspost.Com",
-        "date": "2026-03-31"
+        "url": "https://hayspost.com/posts/0b83b105-6458-48ce-a689-c56394359c9d"
+      },
+      {
+        "title": "Hayspost.Com",
+        "url": "https://hayspost.com/posts/18d3a237-b1c0-45a5-886e-980bb0c81483"
       },
       {
         "title": "Usd489.Community.Highbond.Com",
@@ -12239,12 +10498,6 @@ export const FULL_CANDIDATES: CandidateFull[] = [
         "title": "County attorney declines action on Hays superintendent email to staff (KWCH)",
         "url": "https://www.kwch.com/2022/05/26/county-attorney-declines-action-hays-superintendent-email-staff/",
         "publication": "Kwch.Com",
-        "date": "2026-03-31"
-      },
-      {
-        "title": "Superintendent's email sparks controversy (Hays Daily News)",
-        "url": "https://www.hdnews.net/2022/05/02/superintendents-email-sparks-controversy-as-election-day-approaches-for-school-bond/",
-        "publication": "Hdnews.Net",
         "date": "2026-03-31"
       },
       {
