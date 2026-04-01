@@ -1,296 +1,425 @@
-# Elect Righteous - Local Election Intelligence System
+# Elect Righteous — Complete Project Manual
 
-## What This Is
-
-A multi-agent intelligence system that helps citizens make informed voting decisions for local, state, and federal elections. Given a location (e.g., "Hays, Kansas"), the system:
-
-1. **Discovers** every upcoming election relevant to that location
-2. **Identifies** every candidate running in those elections
-3. **Investigates** each candidate exhaustively across the entire internet
-4. **Produces** comprehensive, source-cited intelligence reports
-5. **Deploys** reports via a beautiful faith-themed web UI for public access
-
-The system is designed for transparency, truth, and accountability — helping voters see past campaign facades to understand who candidates really are based on their full public record.
+> **Last updated**: 2026-04-01
+> **Location**: `/Users/tylerpreisser/Desktop/elect-righteous/`
+> **Live site**: https://tpreisser.github.io/elect-righteous/
+> **Repo**: https://github.com/tpreisser/elect-righteous
+> **Owner**: Tyler Preisser, Hays, Kansas
 
 ---
 
-## Architecture Overview
+## WHAT THIS IS
 
-### 6-Agent Pipeline
+A multi-agent election intelligence system + editorial website for Hays, Kansas voters. Given a location, the system discovers every upcoming election, identifies ALL candidates, scrubs the entire internet for every piece of public information about each one, and presents it as beautiful editorial articles on a GitHub Pages website themed after celebratejesus.org (Celebration Community Church, Hays, KS).
 
-The system runs 6 specialized agents sequentially (with parallelism within stages):
+**Theological perspective**: Conservative Protestant, non-denominational, Baptist-leaning, 2-3 point Calvinist. Not the "flippen method." Think Celebration Community Church in Hays — that's the home church and the design inspiration.
 
-```
-Phase 1: DISCOVER  → Election Finder Agent
-Phase 2: IDENTIFY  → Candidate Profiler Agent (parallel per election)
-Phase 3: SCRUB     → Deep Scraper Agent (parallel per candidate)
-Phase 4: EXTRACT   → Media Extractor Agent (parallel per candidate)
-Phase 5: ANALYZE   → Integrity Analyzer Agent (parallel per candidate)
-Phase 6: REPORT    → Report Generator Agent (one comprehensive output)
-```
-
-### Agent Descriptions
-
-#### Agent 1: Election Finder (`agents/election-finder/`)
-- **Purpose**: Given a location, find EVERY upcoming election (city, county, school board, state, federal)
-- **Sources**: State Secretary of State websites, county clerk databases, vote.org, ballotpedia.org, local government sites, state election commission APIs
-- **Output**: `memory/elections/YYYY-MM-DD-{election-name}.md` — structured election data with dates, positions, filing deadlines, districts
-
-#### Agent 2: Candidate Profiler (`agents/candidate-profiler/`)
-- **Purpose**: For each election, identify every candidate (declared, filed, rumored, write-in)
-- **Sources**: Official filings, ballotpedia, local newspaper announcements, campaign websites, FEC filings, state campaign finance databases
-- **Output**: `memory/candidates/{candidate-slug}/profile.md` — name, party, position sought, campaign website, social media handles, initial bio
-
-#### Agent 3: Deep Scraper (`agents/deep-scraper/`)
-- **Purpose**: The workhorse. For each candidate, scrub the ENTIRE internet systematically
-- **Search Strategy** (minimum 15 parallel search passes per candidate):
-  1. Full legal name + variations + maiden names + aliases
-  2. Campaign finance records (FEC, state databases, OpenSecrets)
-  3. Property records, business filings, corporate registrations
-  4. Court records (civil, criminal, bankruptcy, divorce if public)
-  5. Social media deep dive (Facebook, Twitter/X, Instagram, LinkedIn, TikTok, YouTube, Reddit, Nextdoor)
-  6. Archived/deleted social media posts (Wayback Machine, cached pages)
-  7. News articles (local papers, state papers, national, TV stations)
-  8. Blog posts, op-eds, letters to the editor they've written
-  9. Church/religious organization affiliations and statements
-  10. Professional associations, board memberships, lobbying connections
-  11. Voting record (if incumbent — every vote, every bill)
-  12. Public meeting minutes (city council, school board, county commission)
-  13. Endorsements given AND received
-  14. Campaign donor analysis (who funds them, patterns, dark money)
-  15. Community involvement, charitable work, volunteering
-- **Output**: `memory/candidates/{candidate-slug}/raw-intel.md` — everything found, with source URLs and timestamps
-
-#### Agent 4: Media Extractor (`agents/media-extractor/`)
-- **Purpose**: Find and transcribe every video, audio, and interview involving the candidate
-- **Capabilities**:
-  - Find YouTube videos, podcast appearances, news interviews, public meeting recordings
-  - Extract transcripts from video/audio (use available transcription services)
-  - Capture verbatim quotes with timestamps and source links
-  - Find written interviews and extract Q&A content
-  - Locate debate footage and extract candidate-specific statements
-- **Output**: `data/transcripts/{candidate-slug}/` and `data/quotes/{candidate-slug}/`
-
-#### Agent 5: Integrity Analyzer (`agents/integrity-analyzer/`)
-- **Purpose**: Analyze ALL gathered intelligence to identify patterns, contradictions, and character signals
-- **Analysis Framework**:
-  - **Consistency Check**: Do their words match their actions? Do old statements contradict new ones?
-  - **Follow the Money**: Who funds them? What do donors expect in return?
-  - **Public Record vs. Campaign Promises**: What have they actually done vs. what they say they'll do?
-  - **Character Signals**: How do they treat people when cameras aren't rolling? Community reputation.
-  - **Values Alignment**: Compare stated positions and actual record against Judeo-Christian moral framework:
-    - Sanctity of life
-    - Protection of family
-    - Religious liberty
-    - Honesty and integrity
-    - Care for the vulnerable
-    - Justice and rule of law
-    - Stewardship of resources
-    - Community and neighborly love
-  - **Red Flags**: Identify lies, facade, flip-flops, conflicts of interest, hypocrisy
-  - **Green Flags**: Identify consistency, sacrifice, integrity, community service, faith in action
-- **Output**: `memory/candidates/{candidate-slug}/analysis.md` — structured integrity assessment with evidence citations
-
-#### Agent 6: Report Generator (`agents/report-generator/`)
-- **Purpose**: Compile everything into beautiful, readable, source-cited reports
-- **Output Formats**:
-  - Full candidate dossier (comprehensive, every detail)
-  - Election comparison guide (side-by-side candidates per race)
-  - Executive summary (1-page per candidate)
-  - Web-ready content (for the UI deployment)
-- **Output**: `reports/YYYY-MM-DD/` — all report formats
+**Core philosophy**: Present ALL the raw information. Let voters read and decide. For busy people, provide church-based recommendations as a SEPARATE section, not the main content. No grading system, no badges, no Strong/Moderate/Weak ratings. Just facts, beautifully presented.
 
 ---
 
-## Execution Protocol
+## CURRENT STATE (2026-04-01)
 
-### Running the System
+### What's Done
+- [x] 6-agent pipeline framework (PROMPT.md + soul.md for each agent)
+- [x] 54 candidate folders with raw intelligence dumps (127,074 total lines)
+- [x] 28 formatted investigation reports (14,000+ lines)
+- [x] 24 election files covering every 2026 race relevant to Hays
+- [x] Complete dossiers for 15 major candidates
+- [x] Faith/church investigation for 32 officials (15 confirmed church affiliations)
+- [x] Plain English voter guide for all races + ballot measures
+- [x] Next.js 16 + Tailwind v4 website deployed to GitHub Pages
+- [x] 29 static pages (home, about, elections, candidates with detail pages)
+- [x] Editorial article design (Beehiiv-inspired, no grading system)
+- [x] Tracey Mann full editorial article with donor table, church link, sources
 
-```bash
-# Full pipeline for a location
-claude -p "Investigate all upcoming elections for Hays, Kansas"
+### What's Pending (IN ORDER OF PRIORITY)
 
-# Single candidate deep dive
-claude -p "Deep investigation on [Candidate Name] running for [Position]"
+#### P0: DATA WIRING (biggest lift)
+1. Build `scripts/transform-dossiers.mjs` — parse all 28 report markdown files into structured JSON matching the `CandidateFull` TypeScript interface
+2. Populate `candidates.ts` with real data for ALL 54 candidates (currently only Tracey Mann has real data)
+3. Every candidate page needs: whoTheyAre, theirRecord, whatYouShouldKnow, whereTheyWorship, church (with website URL), campaignFinance (with donor table), quotes, and ALL sources (every URL the agents found)
+4. Run consolidation script again after wiring: `bash scripts/consolidate-intel.sh`
 
-# Update existing research
-claude -p "Update research for upcoming [Election Name]"
+#### P1: ELECTIONS PAGE RESTRUCTURE
+5. Reorganize elections page into categories: **Federal Elections**, **State Elections**, **Local Elections**, **Ballot Measures** — each as an expandable folder/section
+6. Ballot measures should NOT be the first thing shown — put people's elections first
+7. Each election must list ALL candidates (currently KS-01 only shows Mann, AG only shows 1, SoS shows nobody)
+8. Supreme Court Amendment needs plain-English breakdown from conservative Protestant perspective
+9. All amendments need simple "what this means for you" language
+
+#### P2: CHURCH RECOMMENDATIONS SECTION
+10. Create a separate section/page: "Church Recommendations" or "Faith-Based Guide"
+11. Based on conservative Protestant / Baptist-leaning / 2-3 point Calvinist worldview
+12. Cross-reference each candidate's record against this theological framework
+13. Make clear this is an OPINION section separate from the raw data articles
+14. Encourage readers to read the full profiles and make their own decisions
+
+#### P3: REMAINING CANDIDATE DOSSIERS
+15. Re-run investigation agents for candidates with incomplete data (several hit rate limits)
+16. Candidates needing more data: Pat Proctor, Ken Rahjes, Jennifer Day, Sam Lane, Daniel Hawkins, Dinah Sykes, Colin McRoberts, Lauren Reinhold, Craig Musser, all 8 Senate Democrats, Chase LaPorte
+17. All local Hays/Ellis officials need expanded profiles
+
+#### P4: SOURCE COMPLETENESS
+18. Every candidate page must include EVERY URL the agents found — not just 8-10
+19. Parse all URLs from raw-dump.md files and include in sources array
+20. Goal: Tracey Mann has 40+ sources, every other major candidate should too
+
+#### P5: WEBSITE POLISH
+21. Delete unused grading components: `values-badge.tsx`, `consistency-badge.tsx`, `flag-alert.tsx`, `values-alignment-chart.tsx`, `comparison-table.tsx`
+22. Mobile optimization pass
+23. About page update (remove values framework grading language)
+24. Print-friendly CSS
+25. SEO meta tags per candidate page
+26. OG image generation for social sharing
+
+#### P6: DEPLOYMENT & CI/CD
+27. GitHub Pages auto-deploys on push to main (already working)
+28. No custom domain — using tpreisser.github.io/elect-righteous/
+
+---
+
+## TECH STACK
+
+| Layer | Technology | Notes |
+|-------|-----------|-------|
+| Framework | Next.js 16.2.1 | App Router, static export |
+| React | 19.2.4 | |
+| Styling | Tailwind CSS v4 | Custom theme in globals.css |
+| Animation | Framer Motion 12.38.0 | Collapsible sections |
+| Icons | Lucide React | |
+| Search | Fuse.js 7.1.0 | Client-side (not yet implemented) |
+| Markdown | gray-matter 4.0.3 | For build script |
+| Deploy | GitHub Pages | Via GitHub Actions workflow |
+| Fonts | Google Fonts | Montserrat (headings), Lato (body), Source Serif 4 (quotes) |
+
+---
+
+## DESIGN SYSTEM
+
+**Derived from celebratejesus.org + Beehiiv newsletter aesthetics**
+
+### Colors
+```
+--color-navy: #10405D        (primary - headers, backgrounds)
+--color-navy-light: #1a5a82
+--color-navy-dark: #0a2d42
+--color-teal: #1cc3af        (accent - CTAs, links, borders)
+--color-teal-dark: #17a594
+--color-gold: #C4922A        (warm accent, highlights)
+--color-charcoal: #1b1c1c    (body text)
+--color-dark: #2a2929        (footer)
+--color-slate: #4a4a4a       (secondary text)
+--color-light: #f6f6f6       (backgrounds)
 ```
 
-### Pipeline Sequence
+### Typography
+- **Headings**: Montserrat 700/800
+- **Body**: Lato 400/700, 18px (text-lg), line-height 1.75
+- **Quotes**: Source Serif 4 italic
+- **Reading column**: max-w-2xl (672px) centered
 
-1. **Phase 1 - DISCOVER**: Election Finder runs first. Cannot proceed without knowing what elections exist.
-2. **Phase 2 - IDENTIFY**: Candidate Profiler runs for each discovered election. Parallel per election.
-3. **Phase 3 - SCRUB**: Deep Scraper launches parallel sub-agents per candidate (this is the longest phase). ALL 15 search passes run in parallel per candidate, and multiple candidates run in parallel.
-4. **Phase 4 - EXTRACT**: Media Extractor runs parallel per candidate. Can overlap with Phase 3 as early results come in.
-5. **Phase 5 - ANALYZE**: Integrity Analyzer runs per candidate after Phases 3+4 complete for that candidate.
-6. **Phase 6 - REPORT**: Report Generator compiles after all candidates in an election are analyzed.
-
-### Parallelism Strategy
-
-- Elections discovered → fan out to parallel candidate identification
-- Candidates identified → fan out to parallel deep scraping (15 passes each, all parallel)
-- Media extraction can start as soon as candidate profiles exist
-- Analysis waits for both scraping + extraction to complete per candidate
-- Report generation is the final convergence point
+### Article Layout (Beehiiv-inspired)
+- Narrow reading column for comfort
+- Pull quotes with decorative quotation marks + teal left border
+- Key Facts box (subtle gray background, two-column grid)
+- Section dividers: thin lines with generous spacing
+- Sources as numbered footnotes at article end
+- NO badges, NO color-coded ratings, NO grading system
 
 ---
 
-## Data Sources Registry
-
-### Election Discovery Sources
-- Kansas Secretary of State: https://sos.ks.gov/elections/
-- Ellis County Clerk: county election office
-- Ballotpedia: https://ballotpedia.org/
-- Vote.org: https://www.vote.org/
-- Vote Smart: https://justfacts.votesmart.org/
-- Local government websites for Hays, KS
-
-### Candidate Research Sources
-- FEC.gov (federal campaign finance)
-- Kansas Governmental Ethics Commission (state campaign finance)
-- OpenSecrets.org
-- FollowTheMoney.org
-- Court records (PACER for federal, Kansas courts portal)
-- Kansas Corporation Commission (business filings)
-- County property records (Ellis County)
-- Social media platforms (all major)
-- Wayback Machine / Internet Archive
-- Local newspapers: Hays Daily News, Salina Journal, Wichita Eagle, Topeka Capital-Journal, Kansas City Star
-- Kansas Legislature website (voting records)
-- City of Hays meeting minutes
-- USD 489 (Hays school district) board minutes
-
----
-
-## File Structure
+## FILE STRUCTURE
 
 ```
 elect-righteous/
-├── CLAUDE.md                          # This file — master orchestrator
-├── PLAN.md                            # Implementation plan with phases
+├── CLAUDE.md                          # THIS FILE — master reference
+├── .github/workflows/deploy.yml       # GitHub Pages auto-deploy
 │
-├── agents/
-│   ├── election-finder/
-│   │   ├── PROMPT.md                  # Agent protocol
-│   │   └── soul.md                    # Agent learnings (evolves)
-│   ├── candidate-profiler/
-│   │   ├── PROMPT.md
-│   │   └── soul.md
-│   ├── deep-scraper/
-│   │   ├── PROMPT.md
-│   │   └── soul.md
-│   ├── media-extractor/
-│   │   ├── PROMPT.md
-│   │   └── soul.md
-│   ├── integrity-analyzer/
-│   │   ├── PROMPT.md
-│   │   └── soul.md
-│   └── report-generator/
-│       ├── PROMPT.md
-│       └── soul.md
+├── agents/                            # 6-agent pipeline definitions
+│   ├── election-finder/PROMPT.md + soul.md
+│   ├── candidate-profiler/PROMPT.md + soul.md
+│   ├── deep-scraper/PROMPT.md + soul.md
+│   ├── media-extractor/PROMPT.md + soul.md
+│   ├── integrity-analyzer/PROMPT.md + soul.md
+│   └── report-generator/PROMPT.md + soul.md
 │
 ├── memory/
-│   ├── elections/                      # Discovered elections
-│   ├── candidates/                    # Per-candidate intelligence folders
-│   │   └── {candidate-slug}/
-│   │       ├── profile.md             # Basic info + social handles
-│   │       ├── raw-intel.md           # Everything scraped
-│   │       ├── analysis.md            # Integrity analysis
-│   │       └── sources.md             # All source URLs with timestamps
-│   ├── knowledge/
-│   │   ├── kansas-election-law.md     # Kansas-specific election rules
-│   │   ├── judeo-christian-framework.md  # Values assessment framework
-│   │   └── source-reliability.md      # Source trust ratings
-│   └── internal-log/                  # System learning logs
+│   ├── elections/                      # 24 election files
+│   │   ├── SUMMARY-2026-hays-kansas.md
+│   │   └── 2026-*.md (one per election/amendment)
+│   ├── candidates/                    # 54 candidate folders
+│   │   └── {slug}/
+│   │       ├── raw-dump.md            # MASTER file — ALL intel consolidated
+│   │       ├── profile.md             # Initial profile (some candidates)
+│   │       └── raw-intel.md           # Deep scraper output (some candidates)
+│   └── knowledge/
+│       ├── judeo-christian-framework.md
+│       ├── kansas-election-law.md
+│       ├── source-reliability.md
+│       └── ruder-family-network.md
 │
-├── data/
-│   ├── sources/                       # Raw source data cache
-│   ├── transcripts/                   # Video/audio transcripts per candidate
-│   └── quotes/                        # Extracted verbatim quotes per candidate
-│
-├── reports/
-│   ├── templates/
-│   │   ├── candidate-dossier.md       # Full report template
-│   │   ├── election-guide.md          # Side-by-side comparison template
-│   │   └── executive-summary.md       # Quick summary template
-│   └── YYYY-MM-DD/                    # Generated reports by date
+├── reports/                           # 28 formatted investigation reports
+│   ├── *-complete-dossier.md          # Per-candidate deep dossiers
+│   ├── *-investigation.md            # Multi-candidate investigations
+│   ├── plain-english-voter-guide.md   # All races explained simply
+│   ├── faith-church-investigation-2026-03-31.md
+│   └── templates/                     # Report templates (legacy)
 │
 ├── plans/
 │   ├── PLAN.md                        # Master implementation plan
-│   ├── ui-plan.md                     # Web UI design & deployment plan
-│   └── agent-development.md           # Agent creation sequence
+│   ├── ui-plan.md                     # Original UI design plan
+│   ├── agent-development.md           # Agent dev sequence
+│   └── website-build-plan.md          # Detailed website architecture
 │
-├── ui/                                # Web UI (CelebrateJesus-themed)
-│   ├── public/
+├── scripts/
+│   ├── launch.command                 # One-click pipeline runner
+│   └── consolidate-intel.sh           # Merge reports into raw-dump.md files
+│
+├── ui/                                # Next.js website
+│   ├── package.json
+│   ├── next.config.ts                 # Static export + GitHub Pages basePath
+│   ├── tsconfig.json
+│   ├── postcss.config.mjs
+│   ├── .gitignore
+│   ├── design-extraction/
+│   │   ├── celebratejesus-analysis.md # Full design extraction
+│   │   └── beehiiv-article-patterns.md # Editorial design patterns
 │   ├── src/
+│   │   ├── app/
+│   │   │   ├── layout.tsx             # Root layout (fonts, header, footer)
+│   │   │   ├── globals.css            # Tailwind + design tokens
+│   │   │   ├── page.tsx               # Homepage
+│   │   │   ├── about/page.tsx
+│   │   │   ├── elections/page.tsx      # Elections listing
+│   │   │   ├── elections/[slug]/page.tsx # Election detail
+│   │   │   ├── candidates/page.tsx     # Candidates listing
+│   │   │   └── candidates/[slug]/
+│   │   │       ├── page.tsx           # Server wrapper (generateStaticParams)
+│   │   │       └── client.tsx         # Client article component
 │   │   ├── components/
-│   │   ├── pages/
-│   │   └── styles/
-│   └── package.json
+│   │   │   ├── layout/ (site-header, site-footer, container)
+│   │   │   └── ui/ (badge, candidate-card, election-card, quote-block, etc.)
+│   │   └── data/
+│   │       ├── candidates.ts          # ALL candidate data (TypeScript)
+│   │       └── elections.ts           # ALL election data (TypeScript)
+│   └── out/                           # Built static site (gitignored)
 │
-└── scripts/
-    ├── launch.command                 # One-click full pipeline runner
-    └── deploy-ui.sh                   # UI build & deploy script
+├── data/                              # Raw data directories
+│   ├── sources/
+│   ├── transcripts/
+│   └── quotes/
+│
+└── Kansas-2026-*.md                   # Top-level investigation reports
 ```
 
 ---
 
-## Design System (CelebrateJesus-Inspired)
+## DATA MODEL (TypeScript)
 
-The web UI follows the design language of celebratejesus.org:
+```typescript
+interface CandidateFull {
+  slug: string;
+  name: string;
+  party: "R" | "D" | "I" | "NP";
+  position: string;
+  electionSlug: string;
+  incumbent: boolean;
+  occupation: string;
 
-### Colors
-- **Primary**: `#10405D` (deep navy blue — authority, trust)
-- **Secondary**: `#2a2929` (dark charcoal)
-- **Accent**: Warm gold/amber for highlights and CTAs
-- **Background**: Clean white with dark navy sections
-- **Text**: White on dark, dark charcoal on light
-- **Overlays**: Black at 0.92 opacity for hero sections
+  // At A Glance
+  born?: string;
+  hometown?: string;
+  religion?: string;
+  education?: string;
+  family?: string;
+  district?: string;
+  margin2024?: string;
+  campaignWebsite?: string;
 
-### Typography
-- **Headings**: Bold, responsive scaling `clamp(2rem, 4.5vw, 5rem)`
-- **Body**: Clean sans-serif, 0.875rem-1rem
-- **Buttons**: UPPERCASE, font-weight 600
+  // Editorial article sections
+  whoTheyAre: string;           // Narrative bio
+  theirRecord: string;          // Political record narrative
+  whatYouShouldKnow: string[];  // Key facts as numbered items
+  whereTheyWorship: string;     // Church/faith narrative
+  church?: ChurchInfo;          // Structured church data with website URL
 
-### Components
-- Full-width hero sections with background images + dark overlay
-- Card-based layouts (25% flex-basis grid)
-- Smooth 200ms cubic-bezier transitions
-- Rounded corners consistent throughout
-- Subtle shadows for depth
-- Mobile-first responsive (breakpoint at 769px)
+  // Quotes
+  quotes: Quote[];              // Verbatim quotes with source/date/url/topic
 
-### Faith-Forward Aesthetic
-- Professional and authoritative, not "churchy"
-- Clean, modern, trustworthy
-- Scripture references where appropriate (not preachy)
-- Cross/dove/light iconography used sparingly and tastefully
+  // Campaign Finance
+  campaignFinance?: {
+    totalRaised: string;
+    narrative: string;          // Prose summary
+    donors: Donor[];            // Name + Amount table
+    undisclosed?: string;       // Note about unknown donors
+    reportingPeriod: string;
+    source: string;
+  };
+
+  // Sources — EVERY URL the agents found
+  sources: Source[];            // title, url, publication, date
+}
+```
 
 ---
 
-## Critical Principles
+## COMPLETE CANDIDATE ROSTER (54 candidates)
 
-1. **TRUTH ABOVE ALL**: Never fabricate, assume, or speculate. Every claim must have a source URL. If something can't be verified, say so explicitly.
+### Federal Elections
+| Candidate | Race | Party | Dossier Status |
+|-----------|------|-------|---------------|
+| Tracey Mann | KS-01 House | R | COMPLETE (template candidate) |
+| Roger Marshall | US Senate | R | COMPLETE (811 lines) |
+| Colin McRoberts | KS-01 House | D | Partial |
+| Lauren Reinhold | KS-01 House | D | Partial |
+| Craig Musser | KS-01 House | I | Partial |
+| Jason Hart | US Senate | D | Partial |
+| Patrick Schmidt | US Senate | D | Partial |
+| Christy Cauble Davis | US Senate | D | Partial |
+| Sandy Spidel Neumann | US Senate | D | Partial |
+| Erik Murray | US Senate | D | Partial |
+| Anne Parelkar | US Senate | D | Partial |
+| Michael Soetaert | US Senate | D | Partial |
+| Chase LaPorte | US Senate | R | Partial |
 
-2. **EXHAUSTIVE SEARCH**: The value of this system is completeness. A 10-minute Google search is worthless. The system must systematically search EVERY source category for EVERY candidate. No shortcuts.
+### State Elections — Governor (Open Seat)
+| Candidate | Party | Dossier Status |
+|-----------|-------|---------------|
+| Scott Schwab | R | COMPLETE (887 lines) |
+| Vicki Schmidt | R | COMPLETE (751 lines) |
+| Ty Masterson | R | COMPLETE (730 lines) |
+| Jeff Colyer | R | COMPLETE (940 lines) — grew up in Hays |
+| Philip Sarnecki | R | Partial (in governor report) |
+| Charlotte O'Hara | R | Partial |
+| Stacy Rogers | R | Partial |
+| Joy Eakins | R | Partial |
+| Ethan Corson | D | Partial (in governor report) |
+| Cindy Holscher | D | Partial |
+| Marty Tuley | D | Partial |
 
-3. **VERBATIM QUOTES**: When quoting someone, use their EXACT words with source citation. Never paraphrase and present as a quote.
+### State Elections — Other
+| Candidate | Race | Party | Dossier Status |
+|-----------|------|-------|---------------|
+| Kris Kobach | Attorney General | R | COMPLETE (705 lines) |
+| Chris Mann | Attorney General | D | COMPLETE (573 lines) |
+| Barb Wasinger | KS House 111 | R | COMPLETE (276 lines) |
+| Pat Proctor | Secretary of State | R | Partial |
+| Ken Rahjes | Secretary of State | R | Partial |
+| Jennifer Day | Secretary of State | D | Partial |
+| Sam Lane | Secretary of State | D | Partial |
+| Daniel Hawkins | Insurance Commissioner | R | Partial |
+| Dinah Sykes | Insurance Commissioner | D | Partial |
 
-4. **SOURCE EVERYTHING**: Every single fact, claim, quote, and data point must include:
-   - Source URL
-   - Date accessed
-   - Original publication date (if known)
-   - Source reliability rating
+### Local — Hays City Commission
+| Official | Position | Dossier Status |
+|----------|----------|---------------|
+| Mason Ruder | Mayor | COMPLETE (245 lines) |
+| Alaina Cunningham | Vice Mayor | Partial |
+| Shaun Musil | Commissioner | Partial |
+| Sandy Jacobs | Commissioner | Partial |
+| David Vilaysing | Commissioner | Partial |
+| Toby Dougherty | City Manager | Partial |
 
-5. **PARALLEL EXECUTION**: Time is the enemy. Run as many agents in parallel as possible. A candidate with 15 search categories should have 15 parallel searches, not sequential.
+### Local — Ellis County
+| Official | Position | Dossier Status |
+|----------|----------|---------------|
+| Scott Braun | Sheriff | Partial |
+| Aaron Cunningham | County Attorney | Partial |
+| Bobbi Dreiling | Clerk/Election Officer | Partial |
+| Neal Younger | Commissioner D2 | Partial |
+| Nathan Leiker | Commissioner D3 | Partial |
+| Michael Berges | Commissioner D1 | Partial |
+| Vernon Ruder Jr | Treasurer | Partial |
+| Rebecca Herzog | Register of Deeds | Minimal |
 
-6. **NO POLITICAL BIAS**: Present facts. The Judeo-Christian values framework is for the ANALYZER agent only, and it compares record against stated values — it does not endorse candidates. Let voters decide.
+### Local — USD 489 School Board
+| Official | Position | Dossier Status |
+|----------|----------|---------------|
+| Ken Brooks | President | COMPLETE (216 lines) — Celebration Community Church |
+| Curt Vajnar | Vice President | Partial |
+| Ruth Ruder | Member | Partial |
+| Derek Yarmer | Member | Partial |
+| Allen Park | Member | Partial |
+| Jayme Goetz | Member | Partial |
+| Craig Pallister | Member | Partial |
+| Ron Wilson | Superintendent | Partial |
 
-7. **EVOLVING INTELLIGENCE**: Each agent has a `soul.md` that captures what it learns about effective searching, reliable sources, and Kansas-specific patterns. These evolve after every run.
+---
 
-8. **PRIVACY RESPECT**: Only use publicly available information. Do not attempt to access private records, hack accounts, or obtain information through deception. Public record only.
+## KEY DISCOVERIES
 
-9. **FRESHNESS MATTERS**: Always check when information was published. Campaign positions from 10 years ago matter but should be labeled as historical. Recent positions get priority.
+1. **Ruder Family Dynasty**: Mason Ruder (Mayor) + Ruth Ruder (School Board VP) + Vernon Ruder Jr (County Treasurer) — one family, three government positions
+2. **Ken Brooks**: USD 489 Board President, 14-19 year Children's Ministry leader at Celebration Community Church (celebratejesus.org) — the project's home church
+3. **Jeff Colyer**: Governor candidate who GREW UP IN HAYS (father was a Hays dentist, TMP-Marian grad)
+4. **Kris Kobach**: Held in contempt of court, $26K sanctions, ordered to take remedial law classes, $4M+ taxpayer cost from lost lawsuits
+5. **Pat Proctor**: SoS candidate caught on video saying he wants to end early voting, called reporter "partisan hack"
+6. **Tracey Mann**: Jan 6 objector (AZ + PA), sole Kansas holdout on ROTOR Act, 56% PAC funded, $1.2M from Crop Production + AIPAC
+7. **Roger Marshall**: $1.2M Sarasota house vs. Kansas cabin, walked out of own Oakley town hall, called constituents "paid operatives"
+8. **Daniel Hawkins**: Blocked prescription drug bill, overruled 104-17 by own party, 30 years in insurance → wants to regulate insurance
+9. **Supreme Court Amendment**: Plan B after 2022 abortion amendment failed 59-41, dark money group spent $802K without disclosing donors
+10. **Aaron Cunningham**: Resumed marijuana prosecution his predecessor had paused
 
-10. **FULL TRANSPARENCY**: The reports must show their work. Every conclusion must trace back to specific evidence. Readers should be able to verify everything themselves.
+---
+
+## CRITICAL RULES
+
+1. **NO GRADING SYSTEM** — No Strong/Moderate/Weak badges. No red/green flags with color coding. No consistency ratings. Just present the facts beautifully.
+2. **EVERY CANDIDATE GETS EQUAL TREATMENT** — The long-shot Democrat in KS-01 gets the same level of research as the incumbent. Nobody is skipped.
+3. **EVERY SOURCE CITED** — Every claim must trace to a URL. Every URL the agents found goes in the sources section.
+4. **VERBATIM QUOTES** — Exact words only. Never paraphrase and present as a quote.
+5. **CHURCH WEBSITES LINKED** — If we know where someone worships, link to the church's website.
+6. **DONOR TABLE** — Campaign finance shows narrative intro + clean table (Name | Amount) + undisclosed notes.
+7. **PLAIN ENGLISH** — Write for an 8th-grade reading level. No jargon. No political insider language.
+8. **THEOLOGICAL LENS** — Conservative Protestant, non-denominational, Baptist-leaning, 2-3 point Calvinist. Not preachy. Separate recommendations section from raw data.
+9. **GITHUB PAGES** — No custom domain. Deploy to tpreisser.github.io/elect-righteous/ via GitHub Actions.
+10. **STATIC EXPORT** — Next.js output: "export". No server runtime. All data baked in at build time.
+
+---
+
+## HOW TO BUILD & DEPLOY
+
+```bash
+cd /Users/tylerpreisser/Desktop/elect-righteous/ui
+npm install          # First time only
+npm run build        # Builds static site to out/
+npm run dev          # Local dev server
+git add -A && git commit -m "message" && git push   # Auto-deploys via Actions
+```
+
+### GitHub Actions Workflow
+Push to `main` → `.github/workflows/deploy.yml` → npm ci → next build → deploy to Pages
+
+### basePath
+`next.config.ts` sets `basePath: "/elect-righteous"` in production for GitHub Pages subdirectory.
+
+---
+
+## HOW TO RUN THE INVESTIGATION PIPELINE
+
+```bash
+cd /Users/tylerpreisser/Desktop/elect-righteous
+./scripts/launch.command "Hays, Kansas"
+```
+
+Or manually: `claude -p "Investigate all upcoming elections for Hays, Kansas"`
+
+### Re-consolidate after new reports
+```bash
+bash scripts/consolidate-intel.sh
+```
+
+---
+
+## AGENT ARCHITECTURE
+
+Each agent has `PROMPT.md` (protocol) and `soul.md` (learnings that evolve after each run) in `agents/{name}/`.
+
+| Agent | Purpose | Status |
+|-------|---------|--------|
+| Election Finder | Discover all elections for a location | Complete — soul.md updated |
+| Candidate Profiler | Identify all candidates per election | Complete |
+| Deep Scraper | 15-pass parallel internet scrub per candidate | Complete |
+| Media Extractor | Find/transcribe video, audio, interviews | Not yet run |
+| Integrity Analyzer | Analyze record against values framework | Not yet run |
+| Report Generator | Compile editorial reports | Not yet run (manual reports used) |
