@@ -2,8 +2,6 @@
 
 import { useState, useMemo } from "react";
 import { Search, X } from "lucide-react";
-import SiteHeader from "@/components/layout/site-header";
-import SiteFooter from "@/components/layout/site-footer";
 import Container from "@/components/layout/container";
 import CandidateCard from "@/components/ui/candidate-card";
 import { CANDIDATE_CARDS, PartyKey } from "@/data/candidates";
@@ -65,7 +63,6 @@ export default function CandidatesPage() {
 
   return (
     <>
-      <SiteHeader />
 
       <main id="main-content">
         {/* ── Page Header ──────────────────────────────────────────── */}
@@ -270,7 +267,6 @@ export default function CandidatesPage() {
         </section>
       </main>
 
-      <SiteFooter />
     </>
   );
 }

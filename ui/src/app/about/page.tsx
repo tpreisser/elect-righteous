@@ -24,7 +24,6 @@ import {
   Globe,
   Hash,
 } from "lucide-react";
-import SiteHeader from "@/components/layout/site-header";
 
 export const metadata: Metadata = {
   title: "About | Elect Righteous",
@@ -227,7 +226,6 @@ const SOURCE_TIERS: SourceTier[] = [
 export default function AboutPage() {
   return (
     <>
-      <SiteHeader />
 
       <main>
         {/* ── HERO ───────────────────────────────────────────────────── */}

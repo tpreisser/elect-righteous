@@ -6,7 +6,6 @@ import {
   CalendarDays,
   ChevronRight,
 } from "lucide-react";
-import SiteHeader from "@/components/layout/site-header";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Data
@@ -171,7 +170,6 @@ function ElectionCard({ election }: { election: Election }) {
 export default function HomePage() {
   return (
     <>
-      <SiteHeader />
 
       <main>
         {/* ── HERO ───────────────────────────────────────────────────── */}

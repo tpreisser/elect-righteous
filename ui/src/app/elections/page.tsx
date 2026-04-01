@@ -1,5 +1,3 @@
-import SiteHeader from "@/components/layout/site-header";
-import SiteFooter from "@/components/layout/site-footer";
 import Container from "@/components/layout/container";
 import ElectionCard from "@/components/ui/election-card";
 import { ELECTIONS, type ElectionLevel } from "@/data/elections";
@@ -38,7 +36,6 @@ const LEVEL_SECTIONS: Array<{
 export default function ElectionsPage() {
   return (
     <>
-      <SiteHeader />
 
       <main id="main-content">
         <section
@@ -150,7 +147,6 @@ export default function ElectionsPage() {
         </section>
       </main>
 
-      <SiteFooter />
     </>
   );
 }

@@ -1,8 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Calendar, MapPin, ChevronRight, ExternalLink, ArrowRight } from "lucide-react";
-import SiteHeader from "@/components/layout/site-header";
-import SiteFooter from "@/components/layout/site-footer";
 import Container from "@/components/layout/container";
 import Badge from "@/components/ui/badge";
 import { ELECTIONS, getAllElectionSlugs, getElectionBySlug } from "@/data/elections";
@@ -58,7 +56,6 @@ export default async function ElectionDetailPage({ params }: PageProps) {
 
   return (
     <>
-      <SiteHeader />
 
       <main id="main-content">
         {/* ── Breadcrumb ──────────────────────────────────────────── */}
@@ -533,7 +530,6 @@ export default async function ElectionDetailPage({ params }: PageProps) {
         </div>
       </main>
 
-      <SiteFooter />
     </>
   );
 }
