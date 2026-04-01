@@ -78,21 +78,21 @@ interface HowItWorksItem {
 const HOW_IT_WORKS: HowItWorksItem[] = [
   {
     icon: <Globe size={32} strokeWidth={1.5} />,
-    title: "We Search Everything",
+    title: "Multi-Layer Source Collection",
     description:
-      "15+ parallel internet searches per candidate. Every public record, social media post, news article, court filing, and campaign finance report — systematically searched and documented.",
+      "The working archive already spans 54 candidate research files, 25 long-form reports, more than 154,000 lines of consolidated candidate research, and 15,700+ captured source URLs. We pull from campaign sites, government filings, court records, local reporting, social media, meeting records, archived web pages, and finance databases.",
   },
   {
     icon: <ShieldCheck size={32} strokeWidth={1.5} />,
-    title: "We Verify Every Claim",
+    title: "Primary-Source Verification",
     description:
-      "Every fact is traced to its source URL. Campaign promises are checked against voting records. Words are compared to actions. We follow a strict two-source rule for significant claims.",
+      "Whenever possible, claims are checked against the underlying document, not just a campaign summary or a quoted article. That means cross-checking legislative records, FEC and Kansas ethics filings, city and county minutes, church websites, court dockets, licensing records, archived snapshots, and direct quotes in context.",
   },
   {
     icon: <FileText size={32} strokeWidth={1.5} />,
-    title: "We Present the Facts",
+    title: "Research Pipeline, Not Spin",
     description:
-      "Comprehensive, source-cited reports written in plain English. We never endorse — you decide. Every conclusion traces back to specific, verifiable evidence you can check yourself.",
+      "Each candidate page is built from multiple research layers: biography, public record, campaign finance, faith/church documentation, verbatim quotes, and verified adverse-public-record findings. We write in plain English, surface uncertainty when the record is thin, and keep the source trail visible so readers can inspect the evidence for themselves.",
   },
 ];
 
@@ -271,6 +271,15 @@ export default function HomePage() {
               >
                 How We Research Every Candidate
               </h2>
+              <p
+                className="text-lg max-w-4xl mx-auto leading-relaxed"
+                style={{ color: "var(--color-slate)" }}
+              >
+                This is not a single Google search and a campaign-bio rewrite.
+                It is a layered research workflow built to gather, compare,
+                verify, and preserve large volumes of public-record material
+                before anything gets turned into a published candidate page.
+              </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
@@ -300,114 +309,6 @@ export default function HomePage() {
                   </p>
                 </div>
               ))}
-            </div>
-          </div>
-        </section>
-
-        {/* ── BALLOT MEASURES ────────────────────────────────────────── */}
-        <section className="section-navy" aria-labelledby="ballot-heading">
-          <div className="container-main">
-            <div className="text-center mb-10">
-              <h2
-                id="ballot-heading"
-                className="text-3xl md:text-4xl font-heading font-bold text-white mb-3"
-              >
-                Ballot Measures on Your Ballot
-              </h2>
-              <p
-                className="text-base max-w-xl mx-auto"
-                style={{ color: "rgba(255,255,255,0.65)" }}
-              >
-                These aren&rsquo;t candidate races &mdash; they&rsquo;re direct
-                votes on changes to Kansas law and the state constitution.
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-              {/* Measure 1 — Supreme Court Amendment */}
-              <article
-                className="rounded-lg p-7 flex flex-col gap-4"
-                style={{
-                  backgroundColor: "rgba(255,255,255,0.06)",
-                  border: "1px solid rgba(255,255,255,0.10)",
-                }}
-              >
-                <div>
-                  <p
-                    className="text-xs font-heading font-semibold uppercase tracking-wider mb-2"
-                    style={{ color: "var(--color-teal)" }}
-                  >
-                    August 4, 2026 &mdash; Primary Ballot
-                  </p>
-                  <h3 className="text-xl font-heading font-bold text-white leading-snug">
-                    Supreme Court Selection Amendment
-                  </h3>
-                </div>
-
-                <p
-                  className="text-sm leading-relaxed flex-1"
-                  style={{
-                    color: "rgba(246,246,246,0.78)",
-                    fontFamily: "var(--font-serif)",
-                  }}
-                >
-                  Right now, Kansas Supreme Court justices are selected by a
-                  nonpartisan commission. This amendment would change who
-                  controls that process &mdash; shifting more power to the
-                  governor and legislature. The court has final say on abortion,
-                  school funding, and constitutional rights.
-                </p>
-
-                <Link
-                  href="/elections/supreme-court-amendment"
-                  className="inline-flex items-center gap-1.5 text-sm font-heading font-semibold uppercase tracking-wide transition-colors duration-200 hover:text-white self-start"
-                  style={{ color: "var(--color-teal)" }}
-                >
-                  Read full analysis <ChevronRight size={14} strokeWidth={2.5} />
-                </Link>
-              </article>
-
-              {/* Measure 2 — Citizenship Amendment */}
-              <article
-                className="rounded-lg p-7 flex flex-col gap-4"
-                style={{
-                  backgroundColor: "rgba(255,255,255,0.06)",
-                  border: "1px solid rgba(255,255,255,0.10)",
-                }}
-              >
-                <div>
-                  <p
-                    className="text-xs font-heading font-semibold uppercase tracking-wider mb-2"
-                    style={{ color: "var(--color-teal)" }}
-                  >
-                    November 3, 2026 &mdash; General Ballot
-                  </p>
-                  <h3 className="text-xl font-heading font-bold text-white leading-snug">
-                    Citizenship Voting Requirement
-                  </h3>
-                </div>
-
-                <p
-                  className="text-sm leading-relaxed flex-1"
-                  style={{
-                    color: "rgba(246,246,246,0.78)",
-                    fontFamily: "var(--font-serif)",
-                  }}
-                >
-                  This would add explicit citizenship language to the Kansas
-                  Constitution. Non-citizen voting is already illegal under
-                  current state and federal law. The question is whether that
-                  prohibition belongs in the constitution itself.
-                </p>
-
-                <Link
-                  href="/elections/citizenship-amendment"
-                  className="inline-flex items-center gap-1.5 text-sm font-heading font-semibold uppercase tracking-wide transition-colors duration-200 hover:text-white self-start"
-                  style={{ color: "var(--color-teal)" }}
-                >
-                  Read full analysis <ChevronRight size={14} strokeWidth={2.5} />
-                </Link>
-              </article>
             </div>
           </div>
         </section>
@@ -476,26 +377,6 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* ── CTA ────────────────────────────────────────────────────── */}
-        <section className="section-navy text-center" aria-labelledby="cta-heading">
-          <div className="container-main">
-            <h2
-              id="cta-heading"
-              className="text-3xl md:text-4xl font-heading font-bold text-white mb-4"
-            >
-              Ready to know who&rsquo;s on your ballot?
-            </h2>
-            <p
-              className="text-lg mb-8"
-              style={{ color: "rgba(255,255,255,0.75)" }}
-            >
-              Explore all 2026 elections for Hays, Kansas
-            </p>
-            <Link href="/elections" className="btn-primary">
-              Explore Elections
-            </Link>
-          </div>
-        </section>
       </main>
 
     </>
