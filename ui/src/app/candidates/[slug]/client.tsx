@@ -133,8 +133,6 @@ export default function CandidateDetailClient({
       ? "Republican"
       : candidate.party === "D"
       ? "Democrat"
-      : candidate.party === "NP"
-      ? "Nonpartisan"
       : "Independent";
 
   // At-a-glance facts for the key facts box
@@ -203,7 +201,7 @@ export default function CandidateDetailClient({
             >
               {partyLabel}
               {" · "}
-              {candidate.incumbent ? "Incumbent" : "Candidate"}
+              {candidate.incumbent ? "Currently in Office" : "Candidate"}
             </p>
 
             {/* Candidate name */}

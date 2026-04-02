@@ -24,8 +24,6 @@ export default async function SourcesPage({ params }: PageProps) {
       ? "Republican"
       : candidate.party === "D"
       ? "Democrat"
-      : candidate.party === "NP"
-      ? "Nonpartisan"
       : "Independent";
 
   return (

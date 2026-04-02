@@ -28,9 +28,7 @@ export default function CandidateCard({
       ? "Republican"
       : party === "D"
       ? "Democrat"
-      : party === "NP"
-      ? "Nonpartisan"
-      : party;
+      : "Independent";
 
   return (
     <article className={`card group ${className}`}>
@@ -47,7 +45,7 @@ export default function CandidateCard({
                 className="ml-2 font-normal"
                 style={{ color: "var(--color-teal-dark)" }}
               >
-                &middot; Incumbent
+                &middot; Currently in Office
               </span>
             )}
           </span>

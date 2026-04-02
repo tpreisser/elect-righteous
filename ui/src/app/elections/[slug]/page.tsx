@@ -204,9 +204,7 @@ export default async function ElectionDetailPage({ params }: PageProps) {
                               ? "Republican"
                               : candidate.party === "D"
                               ? "Democrat"
-                              : candidate.party === "NP"
-                              ? "Nonpartisan"
-                              : candidate.party;
+                              : "Independent";
 
                           return (
                             <li key={candidate.slug}>
@@ -230,7 +228,7 @@ export default async function ElectionDetailPage({ params }: PageProps) {
                                             className="ml-2"
                                             style={{ color: "var(--color-teal-dark)" }}
                                           >
-                                            &middot; Incumbent
+                                            &middot; Currently in Office
                                           </span>
                                         )}
                                       </p>

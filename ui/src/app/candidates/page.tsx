@@ -14,12 +14,11 @@ const PARTY_OPTIONS: { value: PartyFilter; label: string }[] = [
   { value: "R", label: "Republican" },
   { value: "D", label: "Democrat" },
   { value: "I", label: "Independent" },
-  { value: "NP", label: "Nonpartisan" },
 ];
 
 const STATUS_OPTIONS: { value: StatusFilter; label: string }[] = [
   { value: "All", label: "Any Status" },
-  { value: "Incumbent", label: "Incumbent" },
+  { value: "Incumbent", label: "Currently in Office" },
   { value: "Challenger", label: "Challenger" },
 ];
 
