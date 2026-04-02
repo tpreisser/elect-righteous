@@ -6,14 +6,8 @@ import {
   FileText,
   GitBranch,
   Layers,
-  CheckCircle2,
   ChevronRight,
-  Star,
-  Database,
-  Newspaper,
-  MessageSquare,
   Globe,
-  Hash,
 } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -78,73 +72,6 @@ const AGENT_PIPELINE: AgentStep[] = [
   },
 ];
 
-// Values Assessment Framework REMOVED per Tyler's direction — no grading system
-
-interface SourceTier {
-  tier: string;
-  icon: React.ReactNode;
-  label: string;
-  examples: string;
-  treatment: string;
-  trustColor: string;
-  barWidth: string;
-}
-
-const SOURCE_TIERS: SourceTier[] = [
-  {
-    tier: "Tier 1",
-    icon: <Star size={16} strokeWidth={1.5} />,
-    label: "Primary / Official Sources",
-    examples:
-      "Government websites (.gov), court records, FEC filings, official meeting minutes, legislative voting records, property and business filings",
-    treatment: "Facts from these sources can be stated directly.",
-    trustColor: "var(--color-green-flag)",
-    barWidth: "100%",
-  },
-  {
-    tier: "Tier 2",
-    icon: <Newspaper size={16} strokeWidth={1.5} />,
-    label: "Established Journalism",
-    examples:
-      "Wichita Eagle, Topeka Capital-Journal, Hays Daily News, AP/Reuters, KWCH/KSNW, Ballotpedia (well-sourced entries)",
-    treatment: "Generally trustworthy; corroborated when possible.",
-    trustColor: "var(--color-teal)",
-    barWidth: "80%",
-  },
-  {
-    tier: "Tier 3",
-    icon: <MessageSquare size={16} strokeWidth={1.5} />,
-    label: "Candidate's Own Statements",
-    examples:
-      "Campaign websites, verified social media accounts, interview transcripts, press releases",
-    treatment:
-      "Trustworthy as evidence of what the candidate says — claims within must be independently verified.",
-    trustColor: "var(--color-gold)",
-    barWidth: "60%",
-  },
-  {
-    tier: "Tier 4",
-    icon: <Database size={16} strokeWidth={1.5} />,
-    label: "Community & Analysis Sources",
-    examples:
-      "OpenSecrets, FollowTheMoney, Vote Smart, local blogs, community forums, business review sites",
-    treatment:
-      "Useful for context and leads; claims verified against Tier 1–2 sources.",
-    trustColor: "var(--color-gold-light)",
-    barWidth: "40%",
-  },
-  {
-    tier: "Tier 5",
-    icon: <Hash size={16} strokeWidth={1.5} />,
-    label: "Social Media & Informal",
-    examples:
-      "Reddit, Facebook groups, Twitter/X threads, anonymous comments, political advocacy sites",
-    treatment:
-      "Never cited as sole source. Useful for identifying leads and understanding public sentiment.",
-    trustColor: "var(--color-slate)",
-    barWidth: "20%",
-  },
-];
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Page
@@ -175,7 +102,7 @@ export default function AboutPage() {
               Transparency &amp; Methodology
             </p>
             <h1 className="text-4xl md:text-6xl font-heading font-extrabold text-white leading-tight">
-              About Elect Righteous
+              About
             </h1>
             <p
               className="mt-5 max-w-xl mx-auto text-lg leading-relaxed"
@@ -318,169 +245,9 @@ export default function AboutPage() {
               </ol>
             </div>
 
-            {/* Parallelism note */}
-            <div
-              className="mt-10 max-w-3xl mx-auto rounded-lg px-6 py-5 flex gap-4 items-start"
-              style={{
-                backgroundColor: "rgba(28,195,175,0.08)",
-                border: "1px solid rgba(28,195,175,0.25)",
-              }}
-            >
-              <CheckCircle2
-                size={20}
-                strokeWidth={1.5}
-                className="flex-shrink-0 mt-0.5"
-                style={{ color: "var(--color-teal)" }}
-                aria-hidden="true"
-              />
-              <p className="text-sm leading-relaxed" style={{ color: "var(--color-slate)" }}>
-                <strong style={{ color: "var(--color-navy)" }}>
-                  All 15+ search passes run in parallel per candidate,
-                </strong>{" "}
-                and multiple candidates are researched simultaneously. This
-                ensures complete, timely coverage even when there are dozens of
-                candidates across many races.
-              </p>
-            </div>
           </div>
         </section>
 
-        {/* Values Assessment Framework section REMOVED per Tyler's direction — no grading system */}
-
-        {/* ── SOURCE RELIABILITY ─────────────────────────────────────── */}
-        <section
-          id="source-reliability"
-          className="section-light"
-          aria-labelledby="sources-heading"
-        >
-          <div className="container-main">
-            <div className="text-center mb-12">
-              <h2
-                id="sources-heading"
-                className="text-3xl md:text-4xl font-heading font-bold mb-3"
-                style={{ color: "var(--color-navy)" }}
-              >
-                Source Reliability Standards
-              </h2>
-              <p
-                className="text-lg max-w-2xl mx-auto"
-                style={{ color: "var(--color-slate)" }}
-              >
-                Not all sources are equal. We apply a 5-tier reliability system
-                to every piece of information we publish.
-              </p>
-            </div>
-
-            <div className="max-w-4xl mx-auto space-y-4">
-              {SOURCE_TIERS.map((tier) => (
-                <div
-                  key={tier.tier}
-                  className="bg-white rounded-lg p-6 shadow-sm border"
-                  style={{ borderColor: "rgba(16,64,93,0.08)" }}
-                >
-                  <div className="flex flex-col sm:flex-row sm:items-start gap-4">
-                    {/* Tier label */}
-                    <div className="flex-shrink-0 flex items-center gap-2">
-                      <div
-                        className="flex items-center justify-center w-8 h-8 rounded-full"
-                        style={{
-                          backgroundColor: `${tier.trustColor}15`,
-                          color: tier.trustColor,
-                        }}
-                        aria-hidden="true"
-                      >
-                        {tier.icon}
-                      </div>
-                      <span
-                        className="text-xs font-heading font-bold uppercase tracking-wider"
-                        style={{ color: tier.trustColor }}
-                      >
-                        {tier.tier}
-                      </span>
-                    </div>
-
-                    {/* Content */}
-                    <div className="flex-1">
-                      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-2">
-                        <h3
-                          className="text-base font-heading font-bold"
-                          style={{ color: "var(--color-navy)" }}
-                        >
-                          {tier.label}
-                        </h3>
-                        {/* Trust bar */}
-                        <div
-                          className="hidden sm:flex items-center gap-2"
-                          aria-hidden="true"
-                        >
-                          <span
-                            className="text-xs font-body"
-                            style={{ color: "var(--color-slate)" }}
-                          >
-                            Trust
-                          </span>
-                          <div
-                            className="w-24 h-1.5 rounded-full overflow-hidden"
-                            style={{ backgroundColor: "rgba(0,0,0,0.08)" }}
-                          >
-                            <div
-                              className="h-full rounded-full"
-                              style={{
-                                width: tier.barWidth,
-                                backgroundColor: tier.trustColor,
-                              }}
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <p
-                        className="text-sm mb-1.5"
-                        style={{ color: "var(--color-slate)" }}
-                      >
-                        <strong style={{ color: "var(--color-charcoal)" }}>
-                          Examples:{" "}
-                        </strong>
-                        {tier.examples}
-                      </p>
-                      <p
-                        className="text-sm italic"
-                        style={{ color: "var(--color-teal-dark)" }}
-                      >
-                        {tier.treatment}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            {/* Two-source rule callout */}
-            <div
-              className="mt-8 max-w-3xl mx-auto rounded-lg px-6 py-5 flex gap-4 items-start"
-              style={{
-                backgroundColor: "rgba(28,195,175,0.08)",
-                border: "1px solid rgba(28,195,175,0.25)",
-              }}
-            >
-              <CheckCircle2
-                size={20}
-                strokeWidth={1.5}
-                className="flex-shrink-0 mt-0.5"
-                style={{ color: "var(--color-teal)" }}
-                aria-hidden="true"
-              />
-              <p className="text-sm leading-relaxed" style={{ color: "var(--color-slate)" }}>
-                <strong style={{ color: "var(--color-navy)" }}>
-                  Two-source rule:
-                </strong>{" "}
-                Any significant claim in our reports must be verified by at
-                least two independent sources. Official records always take
-                priority over news reports, which take priority over social
-                media.
-              </p>
-            </div>
-          </div>
-        </section>
 
         {/* ── DISCLAIMER ─────────────────────────────────────────────── */}
         <section

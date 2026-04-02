@@ -3,18 +3,42 @@ import "./globals.css";
 import SiteHeader from "@/components/layout/site-header";
 import SiteFooter from "@/components/layout/site-footer";
 
+const basePath = process.env.NODE_ENV === "production" ? "/elect-righteous" : "";
+
 export const metadata: Metadata = {
-  title: "Elect Righteous | Know Your Candidates. Vote Your Values.",
+  title: {
+    default: "Elect Righteous | Know Your Candidates. Vote Your Values.",
+    template: "%s | Elect Righteous",
+  },
   description:
-    "A faith-based election intelligence platform that provides comprehensive, source-cited research on every candidate in your local elections. Helping voters in Hays, Kansas make informed decisions.",
+    "Comprehensive, source-cited research on every candidate running in 2026 elections relevant to Hays, Kansas. 54 candidates, 12 races, 11,000+ public sources.",
+  keywords: [
+    "Hays Kansas elections",
+    "2026 Kansas candidates",
+    "Kansas voter guide",
+    "Ellis County elections",
+    "Kansas governor race 2026",
+    "KS-01 candidates",
+    "Kansas attorney general",
+    "Kansas secretary of state",
+    "USD 489 school board",
+    "Hays city commission",
+    "Ellis County officials",
+    "Kansas ballot measures 2026",
+  ],
   icons: {
-    icon: "/favicon.svg",
+    icon: `${basePath}/favicon.svg`,
   },
   openGraph: {
     title: "Elect Righteous | Know Your Candidates. Vote Your Values.",
     description:
-      "Comprehensive, source-cited candidate research for local elections in Hays, Kansas.",
+      "Comprehensive, source-cited research on every candidate running in 2026 elections relevant to Hays, Kansas. 54 candidates, 12 races, 11,000+ public sources.",
     type: "website",
+    siteName: "Elect Righteous",
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
