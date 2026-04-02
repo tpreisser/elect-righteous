@@ -92,7 +92,7 @@ export default function ElectionCard({
           className="inline-flex items-center gap-1.5 text-sm font-semibold font-heading text-teal hover:text-teal-dark transition-colors duration-200 mt-auto"
           aria-label={`Read about ${name}`}
         >
-          {candidateCount > 0 ? "View Candidates" : "Read More"}
+          Read More
           <ArrowRight size={15} className="transition-transform duration-200 group-hover:translate-x-1" aria-hidden="true" />
         </Link>
       </div>
