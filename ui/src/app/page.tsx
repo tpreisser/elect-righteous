@@ -135,7 +135,7 @@ export default function HomePage() {
           {/* Scroll indicator */}
           <a
             href="#elections"
-            className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10"
+            className="absolute bottom-32 left-1/2 -translate-x-1/2 z-10"
             aria-label="Scroll down"
           >
             <svg
