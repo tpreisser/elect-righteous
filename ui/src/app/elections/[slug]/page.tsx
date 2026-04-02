@@ -179,6 +179,25 @@ export default async function ElectionDetailPage({ params }: PageProps) {
               {/* Left: Candidates OR Ballot Measure */}
               <div className="lg:col-span-2 flex flex-col gap-10">
 
+                {/* What does this job actually do? */}
+                {election.jobDescription && (
+                  <section aria-labelledby="job-heading">
+                    <h2
+                      id="job-heading"
+                      className="font-heading font-bold text-2xl mb-4"
+                      style={{ color: "var(--color-navy)" }}
+                    >
+                      {isBallotMeasure ? "What Am I Actually Voting On?" : "What Does This Job Actually Do?"}
+                    </h2>
+                    <p
+                      className="text-base leading-relaxed"
+                      style={{ color: "var(--color-charcoal)" }}
+                    >
+                      {election.jobDescription}
+                    </p>
+                  </section>
+                )}
+
                 {/* Candidates section */}
                 {!isBallotMeasure && (
                   <section aria-labelledby="candidates-heading">
@@ -193,7 +212,7 @@ export default async function ElectionDetailPage({ params }: PageProps) {
                       className="text-sm mb-7"
                       style={{ color: "var(--color-slate)" }}
                     >
-                      Click any name to read the full research dossier.
+                      Click any name to read their full profile.
                     </p>
 
                     {candidates.length > 0 ? (
@@ -256,7 +275,7 @@ export default async function ElectionDetailPage({ params }: PageProps) {
                                       style={{ color: "var(--color-teal-dark)" }}
                                       aria-hidden="true"
                                     >
-                                      Read Dossier
+                                      Read More
                                       <ArrowRight
                                         size={15}
                                         className="transition-transform duration-200 group-hover:translate-x-1"

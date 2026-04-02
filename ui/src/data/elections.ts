@@ -13,6 +13,7 @@ export interface Election {
   description: string;
   plainEnglish: string;
   whyItMatters: string;
+  jobDescription: string;
 }
 
 export const ELECTIONS: Election[] = [
@@ -42,6 +43,8 @@ export const ELECTIONS: Election[] = [
       "Kansas gets only two U.S. senators, and this seat is on the ballot in November 2026. Incumbent Roger Marshall is running again, while Democrats have built an unusually large field of challengers and Chase LaPorte has filed on the Republican side.",
     whyItMatters:
       "U.S. senators vote on judges, war powers, federal spending, farm policy, healthcare, and the national laws that affect Kansas every day. This race shapes who speaks for the entire state in Washington.",
+    jobDescription:
+      "A U.S. Senator is one of two people who represent your entire state in Washington, D.C. They serve six-year terms and vote on every federal law, confirm or reject Supreme Court justices and cabinet members, approve treaties, and control the federal budget. If you have a problem with Social Security, Medicare, veterans' benefits, farm subsidies, or any federal program, your senator's office is who you call.",
   },
   {
     slug: "ks-01-house-2026",
@@ -64,6 +67,8 @@ export const ELECTIONS: Election[] = [
       "If you live in Hays, this is your U.S. House race. Tracey Mann is the incumbent, and Colin McRoberts, Lauren Reinhold, and Craig Musser have all entered the contest to represent western and central Kansas.",
     whyItMatters:
       "The KS-01 member of Congress becomes the main federal voice for agriculture, water, roads, trade, and rural infrastructure across a huge stretch of Kansas.",
+    jobDescription:
+      "Your U.S. Representative is the one person in Congress who represents your specific district — not the whole state, just your area. They serve two-year terms, vote on federal laws and spending bills, and are supposed to be your direct voice in Washington on everything from farm policy to highway funding to military spending. If Hays has a federal issue, this is the person whose phone should ring.",
   },
   {
     slug: "kansas-governor-2026",
@@ -93,6 +98,8 @@ export const ELECTIONS: Election[] = [
       "Kansas will elect a new governor in 2026 because Laura Kelly cannot run again. Republicans already have a crowded primary, Democrats have multiple contenders, and the winner will control the executive branch in Topeka.",
     whyItMatters:
       "The governor signs or vetoes bills, writes budgets, appoints agency leaders, and shapes policy on education, taxes, roads, public health, and much more.",
+    jobDescription:
+      "The governor is the boss of Kansas state government. They sign or veto every law the legislature passes, write the state budget, appoint the heads of state agencies, and set the direction on taxes, schools, roads, and healthcare. When there's a disaster, a crisis, or a big policy fight, the governor is the person making the call. Think of it as the CEO of the state.",
   },
   {
     slug: "kansas-ag-2026",
@@ -110,6 +117,8 @@ export const ELECTIONS: Election[] = [
       "The attorney general is Kansas's top lawyer and one of its most visible statewide offices. Kris Kobach is the incumbent, and Chris Mann is the main challenger on the board right now.",
     whyItMatters:
       "This office decides which lawsuits Kansas joins, which criminal or civil fights get statewide attention, and how aggressively state law is enforced in court.",
+    jobDescription:
+      "The attorney general is Kansas's top lawyer. They decide which lawsuits the state files or joins, prosecute major crimes that cross county lines, protect consumers from scams, and defend or challenge state laws in court. If a company rips off Kansans, if there's a statewide criminal case, or if Kansas sues the federal government, this is the person running that fight.",
   },
   {
     slug: "kansas-sos-2026",
@@ -127,6 +136,8 @@ export const ELECTIONS: Election[] = [
       "The secretary of state runs Kansas elections, handles candidate filings, and oversees major state records. With Scott Schwab stepping aside, Pat Proctor, Ken Rahjes, Jennifer Day, and Sam Lane are all in the race.",
     whyItMatters:
       "This office decides how easy or difficult it is to vote, how election disputes are handled, and how confidently Kansans can trust the statewide process.",
+    jobDescription:
+      "The secretary of state runs elections in Kansas. They decide the rules for voter registration, manage candidate filings, oversee how ballots are counted, and handle business registrations for every company in the state. When there's a question about whether your vote counted or whether an election was fair, this is the office in charge.",
   },
   {
     slug: "kansas-insurance-2026",
@@ -144,6 +155,8 @@ export const ELECTIONS: Election[] = [
       "Kansas elects its insurance commissioner, and this office touches rates, claims, consumer complaints, and company oversight. Daniel Hawkins and Dinah Sykes are the two main candidates on the site right now.",
     whyItMatters:
       "Insurance decisions affect what Kansans pay for health, auto, crop, and home coverage, and whether regulators push back when companies fail consumers.",
+    jobDescription:
+      "The insurance commissioner regulates every insurance company doing business in Kansas. They approve or reject the rates you pay for health, auto, home, and crop insurance, investigate complaints when companies deny claims, and decide whether insurers are treating customers fairly. If your insurance premiums go up or a claim gets denied, this office is the one with the power to do something about it.",
   },
   {
     slug: "ks-house-111",
@@ -161,6 +174,8 @@ export const ELECTIONS: Election[] = [
       "House District 111 is one of the most directly local state races for Hays-area voters. Barb Wasinger is the incumbent, and this race affects the laws and budget choices that hit closest to home.",
     whyItMatters:
       "Your state representative votes on school funding, tax policy, roads, public safety, and the state laws that shape daily life in Ellis County.",
+    jobDescription:
+      "Your state representative is one of 125 members of the Kansas House. They vote on every state law — property taxes, school funding, criminal penalties, road projects, gun laws, abortion policy, and the state budget. District 111 covers the Hays area, so this person is your direct voice in Topeka. They serve two-year terms and are supposed to bring your concerns to the statehouse floor.",
   },
   {
     slug: "sboe-district-5",
@@ -178,6 +193,8 @@ export const ELECTIONS: Election[] = [
       "The State Board of Education helps decide statewide standards, curriculum fights, accreditation, and major school policy. District 5 includes Hays and much of western Kansas, so this race matters even if the candidate field is still thin on the site.",
     whyItMatters:
       "Board members influence what schools teach, how districts are judged, and what statewide education debates look like for years to come.",
+    jobDescription:
+      "The State Board of Education sets the standards for what Kansas kids learn in school. They approve curriculum frameworks, oversee school accreditation, hire the state education commissioner, and weigh in on statewide fights over textbooks, testing, and teaching standards. District 5 covers western Kansas including Hays. These board members serve four-year terms and their decisions affect every public school student in the region.",
   },
   {
     slug: "hays-city-current",
@@ -202,6 +219,8 @@ export const ELECTIONS: Election[] = [
       "Hays city elections are not the main focus of the 2026 ballot, but the people already in office still make decisions about water, housing, growth, budgeting, and city services. This page groups the current city leadership in one place.",
     whyItMatters:
       "Local city decisions shape day-to-day life faster than almost anything else: utility projects, zoning, housing growth, city spending, and how Hays responds to long-running issues like water.",
+    jobDescription:
+      "The Hays city commission is the group that runs the city. Five commissioners and a mayor set water rates, approve new housing developments, hire the city manager, decide where tax money goes, and vote on everything from road repairs to whether a new business gets built. The city manager handles day-to-day operations. These are the people who decide what Hays looks like, how much city services cost, and how the city grows.",
   },
   {
     slug: "ellis-county-current",
@@ -227,6 +246,8 @@ export const ELECTIONS: Election[] = [
       "County government handles elections, law enforcement, prosecutions, taxes, property records, and commission decisions that affect Hays and the surrounding rural areas. This guide groups the current Ellis County officeholders together for context.",
     whyItMatters:
       "County officials touch public safety, election administration, land records, tax collection, and the county budget that underpins a lot of everyday local government.",
+    jobDescription:
+      "Ellis County officials run the government layer between the city and the state. The sheriff runs law enforcement for the whole county. The county attorney prosecutes crimes. The clerk runs elections and keeps records. The commissioners set the county budget, approve road projects, and make decisions about mental health funding, jail operations, and economic development. The treasurer collects your property taxes. The register of deeds records every land sale. If you live outside Hays city limits, the county is your primary local government.",
   },
   {
     slug: "usd-489-current",
@@ -253,6 +274,8 @@ export const ELECTIONS: Election[] = [
       "USD 489 is not a 2026 ballot fight, but the board and superintendent still matter right now. They control district policy, bond oversight, curriculum fights, and the tone of public-school leadership in Hays.",
     whyItMatters:
       "School leaders influence what kids are taught, how tax-backed bond projects are managed, and how parents experience the district long before the next board election arrives.",
+    jobDescription:
+      "The USD 489 school board is the group of elected citizens who run the Hays public school district. They hire and fire the superintendent, approve the budget, set policies on curriculum, discipline, and facilities, and vote on bond issues that build or renovate schools. The superintendent manages day-to-day operations. If you have kids in Hays public schools, these are the people making the decisions that affect your child's education, your property taxes, and the quality of the district.",
   },
   {
     slug: "supreme-court-amendment",
@@ -270,6 +293,8 @@ export const ELECTIONS: Election[] = [
       "This August 4, 2026 measure would reshape how Kansas Supreme Court justices are selected. It is one of the most important statewide ballot questions because it changes the rules, not just the people involved.",
     whyItMatters:
       "Judicial selection changes can outlast any single election cycle and affect abortion law, school funding, constitutional rights, and the court's independence from direct political pressure.",
+    jobDescription:
+      "This is not a person you are voting for — it is a change to the Kansas Constitution itself. Right now, Kansas Supreme Court justices are picked by a nonpartisan commission and then confirmed by the governor. This amendment would change that so the governor picks them directly and the Senate confirms them, more like how federal judges work. Once a constitutional amendment passes, it cannot be undone by the legislature — only another vote of the people can reverse it.",
   },
   {
     slug: "citizenship-amendment",
@@ -287,6 +312,8 @@ export const ELECTIONS: Election[] = [
       "This measure would add explicit citizen-only voting language to the Kansas Constitution. Supporters call it a safeguard, while opponents say it solves a problem already covered by existing law.",
     whyItMatters:
       "Even when a measure changes little on day one, it can shape future voting laws and court fights by changing the language written into the state constitution itself.",
+    jobDescription:
+      "This is a vote on whether to add the words \"only a citizen of the United States\" to the Kansas Constitution's voting requirements. Kansas law already requires citizenship to vote, so supporters say this just makes it explicit in the constitution. Opponents say it solves a problem that doesn't exist and could be used to justify stricter ID requirements down the road. Like all constitutional amendments, once it passes it stays until the people vote again to change it.",
   },
 ];
 
