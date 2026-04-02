@@ -83,7 +83,7 @@ export default function HomePage() {
       <main>
         {/* ── HERO ───────────────────────────────────────────────────── */}
         <section
-          className="relative min-h-svh flex items-center justify-center text-center"
+          className="relative min-h-[105svh] md:min-h-svh flex items-center justify-center text-center"
           aria-label="Hero"
         >
           <div
@@ -135,18 +135,12 @@ export default function HomePage() {
           {/* Scroll indicator */}
           <a
             href="#elections"
-            className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2 group"
+            className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10"
             aria-label="Scroll down"
           >
-            <span
-              className="text-xs font-heading font-semibold uppercase tracking-widest"
-              style={{ color: "rgba(255,255,255,0.45)" }}
-            >
-              Scroll
-            </span>
             <svg
-              width="24"
-              height="24"
+              width="28"
+              height="28"
               viewBox="0 0 24 24"
               fill="none"
               stroke="rgba(255,255,255,0.45)"
