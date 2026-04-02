@@ -10,6 +10,20 @@ Vajnar has made transparency and contract review recurring themes of his board s
 
 He has also been central in several of the district's internal fights. He opposed hiring Superintendent Ron Wilson's wife through the consent agenda, pressed for a closer look at nepotism rules, and pulled the proposed Golden Belt Bank naming-rights agreement from the agenda because he believed the district should seek better value and let other businesses compete. Even as board president, he has not been a reflexive vote for the administration.
 
+## What They Stand For
+
+As a local school board president, Vajnar's public positions focus on district governance rather than state or federal policy.
+
+**Fiscal Oversight**: His signature issue. Voted against the Hays High and Roosevelt construction contract because he said board members did not have enough time to review it. Has consistently pushed for tighter spending controls on the $143.5 million bond program.
+
+**Transparency**: Has advocated for evening meetings so the public can attend, video recording of all board proceedings, and more time for board members to review agendas and contracts before voting.
+
+**Nepotism / Ethics**: Opposed hiring Superintendent Ron Wilson's wife through the consent agenda and pressed for closer scrutiny of nepotism policies.
+
+**Naming Rights / District Revenue**: Pulled the Golden Belt Bank naming-rights deal from the agenda, arguing the district should seek better value and let other businesses compete rather than rushing into a weak contract.
+
+**Teacher Retention**: While his governance focus is on oversight, he has supported the broader goal of keeping good teachers and staff in the district.
+
 ## What You Should Know
 - Vajnar spent 31 years teaching in USD 489 and was named Kansas Teacher of the Year.
 - He is board president, which gives him influence over agendas and meeting procedure as well as votes.

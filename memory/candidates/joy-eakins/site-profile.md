@@ -10,6 +10,22 @@ Eakins' clearest public record comes from the Wichita school board. She has used
 
 Her gubernatorial message also puts her on the populist side of the Republican primary. In debate coverage and campaign interviews, she has embraced Donald Trump, talked about a coming "golden age," and argued that families should have more control over medical and educational decisions. Her record is thinner on statewide office or legislation, but her school-board years and business history give voters a clear sense of the issues she wants to own.
 
+## What They Stand For
+
+**Education / Parental Rights**: Her signature issue. She fought for school reopening during COVID using data from her analytics firm and champions "parents' rights" in education decisions. Wants to root out what she calls "left-leaning cultural influences from Kansas institutions."
+
+**Medical Freedom**: Believes families should have the right to make their own medical decisions, "even if those decisions are different from what government bureaucrats recommend." This is a direct reference to COVID-era vaccine and health mandates.
+
+**Taxes**: Wants to cut taxes and reduce regulations. Supports limiting the size of government and cutting state budgets.
+
+**Trump Alignment**: Explicitly aligns with Donald Trump and claims Kansas is on the cusp of a "golden age" under his leadership.
+
+**Abortion**: Has not taken a specific public position on abortion in the available record, though her self-described identity as a "strong conservative and America First patriot" and alignment with Trump suggest a pro-life stance.
+
+**Guns / Second Amendment**: Has not taken a clear public position on gun policy, though her overall conservative positioning suggests support for gun rights.
+
+**Immigration**: Has not taken a clear public position on immigration.
+
 ## What You Should Know
 - Eakins built her campaign around her time on the Wichita school board and her argument that Kansas could have reopened classrooms sooner during COVID.
 - She founded Cornerstone Data in 2008 and has made her business background a central credential in the governor's race.

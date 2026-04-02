@@ -341,6 +341,43 @@ export default function CandidateDetailClient({
             </>
           )}
 
+          {/* ── What They Stand For ──────────────────────────────────── */}
+          {candidate.whatTheyStandFor && candidate.whatTheyStandFor.length > 0 && (
+            <>
+              <SectionDivider />
+              <SectionHeading>What They Stand For</SectionHeading>
+              <p
+                className="font-body text-sm mb-6 leading-relaxed"
+                style={{ color: "var(--color-slate)", fontStyle: "italic" }}
+              >
+                Based on public statements, voting record, and campaign materials.
+                When a candidate has not taken a clear public position, we say so.
+              </p>
+              <dl className="flex flex-col gap-5 mb-5">
+                {candidate.whatTheyStandFor.map((item, i) => (
+                  <div
+                    key={i}
+                    className="rounded-lg p-4"
+                    style={{ backgroundColor: "#f8f9fa" }}
+                  >
+                    <dt
+                      className="font-heading font-bold text-sm uppercase tracking-widest mb-1.5"
+                      style={{ color: "var(--color-navy)" }}
+                    >
+                      {item.issue}
+                    </dt>
+                    <dd
+                      className="font-body leading-relaxed"
+                      style={{ fontSize: "1.0625rem", color: "var(--color-charcoal)" }}
+                    >
+                      {item.stance}
+                    </dd>
+                  </div>
+                ))}
+              </dl>
+            </>
+          )}
+
           {/* ── In Their Own Words ──────────────────────────────────────── */}
           {candidate.quotes.length > 0 && (
             <>

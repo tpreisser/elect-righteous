@@ -10,6 +10,22 @@ Because she has not held office, Spidel Neumann's public record is mostly profes
 
 Her early financial filing is also part of the public record. It showed a serious launch by Democratic-primary standards, including a six-figure candidate loan. That does not substitute for governing experience, but it does tell voters that she entered the race with the means to build a campaign rather than test the waters quietly.
 
+## What They Stand For
+
+**Abortion / Reproductive Rights**: Supports protecting reproductive freedom. Her campaign website lists it as a core issue, and she has said she wants to keep "government out of women's healthcare."
+
+**Guns / Second Amendment**: Has not taken a clear public position on gun policy.
+
+**Immigration**: Has not taken a specific public position on immigration in available sources.
+
+**Healthcare / Medicaid**: This is one of her strongest issues. She called Medicaid cuts "the big abomination of a bill" and said reversing them "would be a good first step because health care is a significant concern in rural Kansas." She supports extending ACA subsidies and fighting pharmaceutical companies on drug prices.
+
+**Social Security and Medicare**: Supports defending Social Security, Medicare, and the VA. These are central to her campaign message.
+
+**Tariffs / Agriculture**: Opposes tariffs she says are harmful to Kansas farmers. This is one of the reasons she says she entered the race.
+
+**School Safety**: Her campaign mentions "working to make kids safer at school" as a priority.
+
 ## What You Should Know
 - Spidel Neumann spent 22 years as an Ameriprise executive and brings one of the strongest private-sector resumes in the Democratic Senate field.
 - She has no prior elected-office record, so voters are judging her mostly on business experience and campaign message.

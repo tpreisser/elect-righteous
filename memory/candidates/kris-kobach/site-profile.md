@@ -12,6 +12,22 @@ His earlier tenure as secretary of state remains central to his public record. K
 
 Kobach also still carries the political baggage of the 2022 Federal Election Commission penalty tied to his 2020 U.S. Senate campaign. The FEC fined him $30,000 after concluding his campaign had received an illegal in-kind corporate contribution through below-market access to We Build the Wall's fundraising list. That episode kept alive another longstanding theme in Kobach's career: national profile, sharp elbows, and ethical fights that do not fully fade.
 
+## What They Stand For
+
+**Immigration**: Kobach has made immigration enforcement a defining issue of his entire career. As attorney general, he has pursued federal immigration-related litigation, and his governor's campaign promises to "keep criminal illegal aliens out of Kansas" and support deportation. He has been one of the loudest conservative voices on border enforcement in Kansas for over a decade.
+
+**Abortion**: Kobach has described abortion as "one of the civil rights issues of our time." He has said Kansas should shed its status as a "Midwest magnet for abortion" and cited the record 19,811 abortions performed in Kansas in 2024. He supports restricting abortion access.
+
+**Election Law / Voter Registration**: As secretary of state, Kobach championed a proof-of-citizenship voter registration law that was struck down in federal court after it blocked over 31,000 eligible citizens while finding only 39 noncitizens on the rolls. He remains a leading voice for stricter voter registration rules.
+
+**Judicial Selection**: Kobach is one of the most prominent backers of the 2026 amendment to elect Kansas Supreme Court justices. He has argued that "people, not only lawyers in smoke-filled back rooms, should have a voice in selecting Kansas Supreme Court justices."
+
+**Taxes / Economy**: He supports cutting property taxes, imposing a hard constitutional cap on property tax growth, adding exemptions for seniors and disabled veterans, and cutting residential property taxes broadly.
+
+**Education**: He wants to remove what he calls DEI directives and political indoctrination from Kansas schools and focus classrooms on math, reading, STEM, coding, and AI.
+
+**Guns / Second Amendment**: Has not taken a prominent public position on gun policy in his governor's campaign materials, though he has a long record as a conservative and no history of supporting gun restrictions.
+
 ## What You Should Know
 - Kobach is the sitting attorney general and a former secretary of state, so his record spans both law enforcement and election administration.
 - His proof-of-citizenship law as secretary of state was struck down in federal court after Kansas blocked more than 31,000 eligible voters while proving very few noncitizen registrations.

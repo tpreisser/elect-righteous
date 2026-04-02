@@ -14,6 +14,20 @@ His candidacy has been shaped as much by rhetoric as by résumé. Kansas Reflect
 
 That argument has also created controversy inside the Democratic field. Hart publicly described himself as a "white, male, Christian, hetero, 2A-friendly, LEO-friendly" candidate, presenting those traits as part of his electability case in Kansas. Supporters can read that as blunt realism; critics can read it as a narrow theory of representation.
 
+## What They Stand For
+
+**Guns / Second Amendment**: Describes himself as "2A-friendly" and has made his support for gun rights a central part of his electability pitch as a Democrat in Kansas.
+
+**Law Enforcement**: Strongly pro-law enforcement. He spent 16 years as a federal prosecutor and describes himself as "LEO-friendly." Protecting children from predators and cybercrime was his career focus.
+
+**Reaching Across Party Lines**: His main campaign theme is courting Republicans who feel "lost in the wilderness." He explicitly positions himself as a crossover candidate rather than a standard Democrat.
+
+**Abortion**: Has not taken a specific public position on abortion in the available record.
+
+**Immigration**: Has not taken a clear public position on immigration.
+
+**Tariffs / Economy**: Has not laid out detailed economic policy positions, though his campaign is framed around listening to communities rather than pushing a specific platform.
+
 ## What You Should Know
 - Hart spent 16 years as an assistant U.S. attorney in Kansas after earlier work in local and state prosecution offices.
 - He entered the Senate race in March 2026 after leaving his federal job.

@@ -14,6 +14,22 @@ Before that federal appointment, Davis built a reputation in preservation and ci
 
 She also has prior campaign history. Davis ran in the 2020 Democratic primary for Kansas's 1st Congressional District and lost to Kali Barnett, so her Senate campaign is not her first appearance on a statewide or federal ballot.
 
+## What They Stand For
+
+**Abortion**: Has not taken a detailed public position, but her campaign lists "protecting reproductive freedom" as a priority.
+
+**Guns / Second Amendment**: Has not taken a clear public position on gun policy.
+
+**Immigration**: Supports immigration reform that "provides a pathway to citizenship and ends inhumane policies that terrorize families and unconstitutionally deprive Kansans of due process."
+
+**Tariffs / Trade**: Opposes Trump tariffs and says they cause instability for Kansas farmers and rural communities.
+
+**Healthcare / Medicaid**: Wants to restore funding for Medicaid and opposes cuts she says threaten rural hospitals. Called the Medicaid cuts "the big abomination of a bill."
+
+**Education**: Supports restoring federal funding for special education and affordable housing programs.
+
+**Rural Investment**: Her signature issue. Her entire campaign is built around delivering federal resources to rural Kansas, pointing to the $1.3 billion she oversaw at USDA Rural Development.
+
 ## What You Should Know
 - Davis lives in Cottonwood Falls and presents herself as a fifth-generation Kansan with a career rooted in rural communities rather than party office.
 - She worked in historic preservation and community development before entering federal service, including jobs with the City of Newton, the Kansas Historical Society, and Symphony in the Flint Hills.

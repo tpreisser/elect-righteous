@@ -14,6 +14,20 @@ Those negotiations became part of Murray's political profile in 2026. KSHB repor
 
 Murray has also drawn attention for how he talks about politics and capital. Kansas Reflector reported that he became attuned to the disconnect between what capital wants and what communities want, and later national conservative coverage highlighted his comments about the influence of former Black Panther leader Elaine Brown. That made him one of the more unusual biographies in the Democratic field: part developer, part civic-reinvestment candidate, and part culture-war target.
 
+## What They Stand For
+
+**Small Business / Economy**: His central issue. He wants to lower the costs of starting and running small businesses and supports Opportunity Zone tax incentives for economically distressed areas.
+
+**Tariffs**: Opposes Trump-era tariff policies, calling them "politician-created problems" that "are tearing apart the fabric of our communities."
+
+**Community Investment**: Argues there is a disconnect between what capital wants and what communities need, and says federal policy should bridge that gap rather than widen it.
+
+**Abortion**: Has not taken a clear public position on abortion.
+
+**Guns / Second Amendment**: Has not taken a clear public position on gun policy.
+
+**Immigration**: Has not taken a clear public position on immigration.
+
 ## What You Should Know
 - Murray's largest public project is the proposed redevelopment of the former Indian Springs Mall site in Wyandotte County.
 - He has never held elected office, so his public record is made up of development projects, interviews, and campaign statements rather than votes.

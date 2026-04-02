@@ -10,6 +10,16 @@ Cunningham's record on the commission has been tied to the unglamorous issues th
 
 Her rise to vice mayor in the 2026 commission reorganization marked a step up in visibility, but her public record still reads more administrative than ideological. The source material shows a commissioner who talks about service delivery, sustainable growth, and local livability, not a figure known for public feuds or a long list of polarizing votes.
 
+## What They Stand For
+
+**Water**: Cunningham has consistently treated water supply as a long-term survival issue for Hays. She has spoken publicly about the value of water to the region and has supported the city's efforts to secure a durable supply.
+
+**Housing and Growth**: She has linked housing availability and quality of life to whether Hays can keep families and retirees in town. Her public comments focus on sustainable growth rather than rapid expansion.
+
+**City Services and Budget**: Her record on the commission is more administrative than ideological. She has focused on service delivery, livability, and the unglamorous tradeoffs that dominate city government in western Kansas.
+
+Cunningham has not taken clear public positions on issues like abortion, guns, or immigration. As a city commissioner, her public focus has been on local infrastructure and quality-of-life issues rather than state or federal policy debates.
+
 ## What You Should Know
 - Cunningham came into office by appointment before winning election to a full term in 2023.
 - Her day job is in health and wellness at HaysMed, where she works as a registered nurse and group fitness instructor.

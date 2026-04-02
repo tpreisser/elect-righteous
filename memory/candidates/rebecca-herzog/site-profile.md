@@ -10,6 +10,10 @@ Herzog's public record is the office itself. The register of deeds records prope
 
 There is very little else in the public record to attach to her personally. That does not make the office unimportant; it means the role is administrative rather than personality-driven. Voters can learn a lot about what the office does, but much less about Herzog's biography, community life, or public-facing political style.
 
+## What They Stand For
+
+The register of deeds is an administrative office that records property documents and maintains land indexes. It does not involve policy positions on issues like abortion, guns, or immigration. Herzog has not taken public positions on political issues, which is typical for this kind of county record-keeping office. The main question for voters is whether the office is run accurately and efficiently.
+
 ## What You Should Know
 - Herzog won the Ellis County Register of Deeds office in 2024 and took office in January 2025.
 - Her public footprint is unusually small compared with other county officeholders.

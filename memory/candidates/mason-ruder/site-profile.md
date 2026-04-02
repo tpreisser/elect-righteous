@@ -14,6 +14,16 @@ One of the clearest public markers of his record is the R9 Ranch water project. 
 
 Ruder has also tried to build a more visible civic role for younger residents. He helped create a youth advisory board for Hays High and TMP-Marian students so they could speak directly to city leaders. During the COVID period, he was also publicly identified with a split on city pandemic policy: the raw record ties him to the lone dissenting vote against a local mask mandate.
 
+## What They Stand For
+
+**Water Supply**: The R9 Ranch water project is Ruder's signature issue. He has testified before the Kansas Legislature defending the Hays water transfer plan and has called it a generational infrastructure project. He has said "Every day is now an R9 Ranch Day."
+
+**Growth and Development**: Ruder has consistently pushed for housing growth, downtown development, and quality-of-life improvements in Hays, including a permanent stage proposal in Municipal Park. He ran on a platform of "Let's keep growing Hays."
+
+**Youth Civic Engagement**: He created a youth advisory board for Hays High and TMP-Marian students so they could speak directly to city commissioners.
+
+**COVID-Era Policy**: Ruder was the lone dissenting vote against a local mask mandate during the pandemic, placing him on the more skeptical side of government COVID restrictions.
+
 ## What You Should Know
 - Ruder became mayor of Hays in January 2026 after serving as a city commissioner and vice mayor.
 - He was identified in public coverage as the youngest city commissioner in Hays history.

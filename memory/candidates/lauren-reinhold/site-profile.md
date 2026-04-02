@@ -10,6 +10,22 @@ Reinhold has no legislative record, so her public record is mainly professional.
 
 Her campaign was triggered by the DOGE push for federal employees to leave their jobs. Reinhold has said she initially resisted the pressure, then decided to run when it became clear she could either leave government quietly or fight publicly. That has made her campaign a direct rebuke to the federal-cutback politics now championed by some Kansas Republicans.
 
+## What They Stand For
+
+**Federal Government Services / DOGE**: Reinhold's entire candidacy is a response to the DOGE-driven federal workforce cuts. She opposes the mass layoffs of federal employees and argues the government should deliver the services people need. This is the centerpiece of her campaign.
+
+**Healthcare**: "Healthcare you can count on" is a central pillar of her campaign. She has criticized what she describes as broken promises on healthcare but has not laid out a detailed healthcare plan in available public materials.
+
+**Social Security**: As a former Social Security Administration attorney-adviser, she has positioned herself as a defender of Social Security and federal benefit programs.
+
+**Labor / Workers' Rights**: She served as a federal union officer, giving her a pro-labor, worker-advocacy angle that is unusual for a Kansas congressional candidate.
+
+**Abortion**: Has not taken a clear public position on abortion in available materials.
+
+**Guns / Second Amendment**: Has not taken a clear public position on gun policy.
+
+**Immigration**: Has not taken a clear public position on immigration.
+
 ## What You Should Know
 - Reinhold is a lawyer with 28 years of legal experience and former federal service at the Social Security Administration.
 - Her candidacy is rooted in the DOGE-driven federal workforce cuts, which she has made the central story of her campaign.

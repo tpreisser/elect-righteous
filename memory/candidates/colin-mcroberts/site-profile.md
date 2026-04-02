@@ -10,6 +10,24 @@ McRoberts does not come to the race from elected office. His public record is in
 
 His immediate trigger for running was political. McRoberts says he drove from Lawrence to Oakley for Roger Marshall's March 2025 town hall, recorded one of the videos that spread after the event turned hostile, and came away convinced that the district needed a more serious challenge to the Republican establishment. He filed for Congress in September 2025 and began campaigning as a first-time candidate against Rep. Tracey Mann.
 
+## What They Stand For
+
+**Abortion**: Has not taken a detailed public position in the available source material.
+
+**Guns / Second Amendment**: Has not taken a clear public position on gun policy.
+
+**Immigration**: Has criticized what he describes as "ICE arrests of U.S. citizens" as part of executive overreach, but has not laid out a detailed immigration platform.
+
+**Tariffs / Trade**: Wants to return tariff power to Congress and away from the executive branch. Supports a small business exemption so family farms can import items with no reasonable domestic substitute at reasonable cost.
+
+**Healthcare**: Lists "healthcare you can count on" as a central campaign issue but has not spelled out a detailed plan in the available record.
+
+**Social Security / Medicare**: Pledges to protect Social Security and Medicare from cuts.
+
+**Executive Overreach**: His most clearly defined issue. Opposes what he calls illegal executive actions including unilateral tariffs, federalized troop deployments, and firing federal employees during a shutdown.
+
+**USAID / Agriculture**: Wants to restore USAID and its mission of buying American crops to prevent famine overseas, which he frames as both a humanitarian and farm-economy issue.
+
 ## What You Should Know
 - McRoberts is a Harvard Law graduate and KU law professor running in a district where academic credentials can be either an asset or a political burden.
 - He lives in Lawrence, which is inside the district after redistricting but remains culturally and politically distinct from much of western Kansas.

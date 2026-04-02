@@ -10,6 +10,18 @@ Park has been one of the board's most persistent voices for process, transparenc
 
 He was one of two dissenting votes when the board approved hiring Superintendent Ron Wilson's wife as a teacher, and he has pushed for more direct review of administrator contracts instead of broad approval through the consent agenda. His record is not anti-district, but it is skeptical of autopilot decision-making, especially when public money and board authority are involved.
 
+## What They Stand For
+
+**Board Transparency and Oversight**: Park has been one of the most persistent voices on the USD 489 board for closer review of spending, contracts, and personnel decisions. He has voted no or asked for delays when he believed items were moving too fast through the consent agenda.
+
+**Bond Spending Accountability**: He has backed the district's bond work and facilities plan but aligned with the oversight faction that asks harder questions about timing, pricing, and administrative detail on bond-related contracts.
+
+**Nepotism and Hiring Practices**: Park was one of two board members who voted against hiring Superintendent Ron Wilson's wife as a teacher, and he has pushed for more direct review of administrator contracts rather than rubber-stamping them.
+
+**Campaign Independence**: He has said his campaign support came from family, friends, and local community members rather than outside money, and he has positioned himself as an insider who asks hard questions rather than an outsider railing at the schools.
+
+Park has not taken clear public positions on state or federal issues like abortion, guns, or immigration. His public record is focused entirely on local school governance.
+
 ## What You Should Know
 - Park spent 31 years working inside USD 489 before serving on the board.
 - He was Washington Elementary principal for 25 years and managed the transition when the school closed.

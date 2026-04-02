@@ -10,6 +10,24 @@ Her biggest recent legislative achievement is House Bill 2433, the 2026 measure 
 
 Wasinger also carried Senate Bill 334 on nursing faculty requirements, arguing that Kansas needed a wider pool of instructors as hospitals and community colleges struggled with workforce shortages. She played a central role in the state's 2024 cybersecurity push after the judicial branch hack, and in 2026 she used a parliamentary motion to cut off debate and force an immediate House vote to override Gov. Laura Kelly's veto of Senate Bill 244, the biological-sex bill affecting state documents and access to sex-separated spaces. That move made her a focal point in one of the Legislature's most divisive fights.
 
+## What They Stand For
+
+**Abortion**: Strongly pro-life. She has stated that "human life begins at conception and deserves legal protection at every stage until natural death." She voted yes on the Value Them Both Amendment and supports the Born Alive Abortion Survivors Protection Act. Her only stated exception is the life of the mother.
+
+**Guns / Second Amendment**: Endorsed by the Kansas State Rifle Association in 2024. No anti-gun votes identified. Kansas has been a constitutional carry state since 2015.
+
+**Transgender / Biological Sex**: Voted to override Gov. Kelly's veto on Senate Bill 244, the biological-sex bill that requires birth-sex markers on state documents and restricts access to sex-separated facilities. She made the procedural motion to cut off debate and force the vote, making her a central figure in that fight. Notably, on an iVoterGuide survey she reportedly indicated support for adding sexual orientation and gender identity as protected classes in non-discrimination laws, which is an unusual position for a conservative Republican and may warrant further verification.
+
+**Property Taxes**: This is her stated top priority. She has said Kansas needs "a more equitable way to impose property taxes" and wants to keep older residents from being taxed out of their homes.
+
+**Water**: She authored and passed House Bill 2433, the 2026 water-transfer law that cleared the way for the R9 Ranch pipeline to bring water to Hays. She favors private ownership of water rights over government control.
+
+**Food Sales Tax**: She has said eliminating sales tax on food is "great" but wants to make sure no state departments are crippled by lost revenue.
+
+**Executive Authority / COVID**: Supports limiting executive branch emergency powers. She has advocated for a constitutional amendment giving the Legislature veto power over executive regulations.
+
+**Judeo-Christian Values**: She has stated publicly that "Judeo-Christian values established a framework of morality which is necessary for our system of limited government."
+
 ## What You Should Know
 - Wasinger has held elected office continuously since 2005, moving from city hall to county government to the Kansas House.
 - She was the lead House sponsor on the 2026 water-transfer bill tied to the R9 Ranch project, a major issue for Hays.

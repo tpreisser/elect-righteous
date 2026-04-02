@@ -10,6 +10,18 @@ Dougherty's record is defined above all by water policy. He has been one of the 
 
 He has also become the public face of Hays' conservation strategy. In interviews over several years, he has pointed to western cities such as Las Vegas, Tucson, and Phoenix as examples of how dry communities survive by treating water use as a long-term management problem. More recently, he has been the official explaining the Build Kansas grant for water planning, budget caution, maintenance schedules, and infrastructure projects ranging from meters to airport upgrades.
 
+## What They Stand For
+
+**Water Supply**: The R9 Ranch water pipeline is the defining project of Dougherty's tenure. He has repeatedly argued that Hays must think in generational terms about water, comparing the city's challenge to Las Vegas, Tucson, and Phoenix.
+
+**Water Conservation**: Has publicly defended aggressive conservation measures and looked to western cities for management ideas.
+
+**Budgeting**: Advocates a "maintenance-first" approach to city spending. He described the 2025 budget as based on "a slightly cautionary approach" and has focused on keeping infrastructure funded before expanding services.
+
+**Infrastructure**: Has been the main city official explaining grant strategy and large projects, including securing a $1.5 million Build Kansas grant for water planning and overseeing airport and utility upgrades.
+
+As an appointed city manager rather than an elected candidate, Dougherty does not take positions on partisan or social policy issues. His public record is entirely focused on city administration, infrastructure, and long-range planning.
+
 ## What You Should Know
 - Dougherty has been the top appointed administrator in Hays since 2007, giving him far more continuity than any elected city official.
 - The R9 Ranch Water Pipeline is the defining project of his tenure, and he has repeatedly argued that Hays must think in generational terms about water supply.

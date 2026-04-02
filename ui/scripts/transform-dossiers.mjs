@@ -3394,6 +3394,68 @@ function parseAuthoredFactList(text) {
   return sectionToParagraphs(text, 8).map((paragraph) => paragraph.replace(/\.$/, ""));
 }
 
+function parseAuthoredIssuePositions(text) {
+  const lines = text.split("\n");
+  const positions = [];
+  let currentIssue = null;
+  let currentStance = [];
+
+  function flush() {
+    if (currentIssue && currentStance.length > 0) {
+      positions.push({
+        issue: stripInlineMarkdown(currentIssue).replace(/[:\.]$/, "").trim(),
+        stance: stripInlineMarkdown(currentStance.join(" ")).trim(),
+      });
+    }
+    currentIssue = null;
+    currentStance = [];
+  }
+
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (!trimmed) continue;
+
+    // Bold issue header pattern: **Abortion**: stance text
+    const boldMatch = trimmed.match(/^\*\*(.+?)\*\*[:\s]*(.*)$/);
+    if (boldMatch) {
+      flush();
+      currentIssue = boldMatch[1];
+      if (boldMatch[2]?.trim()) {
+        currentStance.push(boldMatch[2].trim());
+      }
+      continue;
+    }
+
+    // "- **Issue**: stance" pattern
+    const bulletBoldMatch = trimmed.match(/^[-*]\s+\*\*(.+?)\*\*[:\s]*(.*)$/);
+    if (bulletBoldMatch) {
+      flush();
+      currentIssue = bulletBoldMatch[1];
+      if (bulletBoldMatch[2]?.trim()) {
+        currentStance.push(bulletBoldMatch[2].trim());
+      }
+      continue;
+    }
+
+    // "### Issue" pattern
+    const h3Match = trimmed.match(/^###\s+(.+)$/);
+    if (h3Match) {
+      flush();
+      currentIssue = h3Match[1];
+      continue;
+    }
+
+    // Continuation line for current issue
+    if (currentIssue) {
+      const cleaned = trimmed.replace(/^[-*]\s+/, "");
+      if (cleaned) currentStance.push(cleaned);
+    }
+  }
+
+  flush();
+  return positions.length > 0 ? positions : undefined;
+}
+
 function isMeaningfulQuote(text) {
   const cleaned = stripInlineMarkdown(text).replace(/^"+|"+$/g, "").trim();
   if (!cleaned || cleaned.includes("\\")) {
@@ -3527,6 +3589,7 @@ function extractAuthoredProfile(candidate, reports) {
   const theirRecordBody = getHeadingBody(report, ["Their Record"]);
   const whatYouShouldKnowBody = getHeadingBody(report, ["What You Should Know"]);
   const whereTheyWorshipBody = getHeadingBody(report, ["Where They Worship"]);
+  const whatTheyStandForBody = getHeadingBody(report, ["What They Stand For"]);
   const quotesBody = getHeadingBody(report, ["Quotes"]);
   const campaignFinanceBody = getHeadingBody(report, ["Campaign Finance"]);
   const sourcesBody = getHeadingBody(report, ["Sources"]);
@@ -3536,6 +3599,8 @@ function extractAuthoredProfile(candidate, reports) {
       whoTheyAreBody.length > 0 ? sectionToParagraphs(whoTheyAreBody, 6).join("\n\n") : undefined,
     theirRecord:
       theirRecordBody.length > 0 ? sectionToParagraphs(theirRecordBody, 6).join("\n\n") : undefined,
+    whatTheyStandFor:
+      whatTheyStandForBody.length > 0 ? parseAuthoredIssuePositions(whatTheyStandForBody) : undefined,
     whatYouShouldKnow:
       whatYouShouldKnowBody.length > 0 ? parseAuthoredFactList(whatYouShouldKnowBody) : undefined,
     whereTheyWorship:
@@ -3657,6 +3722,7 @@ function buildCandidate(candidate, reports) {
     campaignWebsite: firstCampaignWebsite(candidate, fieldMaps, sources),
     whoTheyAre,
     theirRecord,
+    whatTheyStandFor: authoredProfile.whatTheyStandFor ?? [],
     whatYouShouldKnow,
     whereTheyWorship: authoredTextOrDefault(
       authoredProfile.whereTheyWorship,
@@ -3835,6 +3901,11 @@ export interface CandidateCard {
   occupation: string;
 }
 
+export interface IssuePosition {
+  issue: string;
+  stance: string;
+}
+
 export interface CandidateFull extends CandidateCard {
   born?: string;
   hometown?: string;
@@ -3846,6 +3917,7 @@ export interface CandidateFull extends CandidateCard {
   campaignWebsite?: string;
   whoTheyAre: string;
   theirRecord: string;
+  whatTheyStandFor: IssuePosition[];
   whatYouShouldKnow: string[];
   whereTheyWorship: string;
   church?: ChurchInfo;

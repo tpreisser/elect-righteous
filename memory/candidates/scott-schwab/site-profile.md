@@ -12,6 +12,22 @@ His record is not without controversy. Kansas courts ruled that his office viola
 
 In the governor's race, Schwab has centered property taxes, state control over elections, and opposition to federal interference. He also entered 2026 while dealing publicly with a lung-cancer diagnosis, which added another personal challenge to a campaign already shaped by grief, faith, and years in the spotlight.
 
+## What They Stand For
+
+**Abortion**: Opposes abortion. Believes personhood begins at implantation. At a GOP debate he said: "I feel horrible that a young woman can be manipulated to have an abortion, and there's no recourse."
+
+**Guns / Second Amendment**: Has said "We will protect our Second Amendment rights" on his campaign website.
+
+**Immigration**: Supports working with the Trump administration to enforce immigration laws and fund public safety.
+
+**Property Taxes**: This is the centerpiece of his campaign. He has criticized both the Legislature and Governor Kelly for delivering only a "$25.88 property tax break for the owner of a $150,000 home" and wants to overhaul the county appraisal process.
+
+**Election Integrity**: Championed Kansas voter ID law and multiple election security bills. Made Kansas one of the first states to use the federal SAVE database to verify citizenship of registered voters. Also publicly rejected 2020 stolen-election claims, saying he saw no evidence of organized fraud.
+
+**China / National Security**: Wants to ban China from buying land near Kansas military bases.
+
+**Rural Economy**: Wants to bring manufacturing and jobs back to rural Kansas, saying "rural Kansas is no longer left behind."
+
 ## What You Should Know
 - Schwab is the sitting secretary of state and a former House leader, giving him one of the deepest public records in the 2026 governor's field.
 - After the 2020 election, he publicly rejected stolen-election claims, a position that separated him from election-denial politics inside the GOP.

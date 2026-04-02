@@ -14,6 +14,24 @@ His candidacy has also been shaped by establishment support and by fundraising. 
 
 Corson's public record also stands out because his Jewish identity is part of the public file. Coverage by the Kansas City Jewish Chronicle and other sources makes that religious background clear, even though the available sources did not identify a current synagogue membership.
 
+## What They Stand For
+
+**Education**: Strengthening investment in public schools is one of his top campaign themes. His slogan includes "Better Schools."
+
+**Taxes / Cost of Living**: Wants to lower the cost of living for working families. Helped eliminate the Kansas grocery sales tax. His slogan includes "Lower Taxes."
+
+**Healthcare**: Supports expanding healthcare access, especially in rural Kansas. Said "Kansans should be able to get the care that they need without going broke and without driving for hours to see a doctor."
+
+**Agriculture / Tariffs**: Opposes Trump-era tariffs on Kansas farmers. Called them "a completely self-inflicted wound that the federal government has put on Kansas farmers."
+
+**Small Business**: Says small business is "how we rebuild rural Kansas" and wants to make Kansas more affordable for entrepreneurs.
+
+**Abortion**: Has not taken a clear, specific public position in the governor's race, though his Democratic platform and party alignment suggest support for abortion access.
+
+**Guns / Second Amendment**: Has not taken a clear public position on gun policy.
+
+**Immigration**: Has not taken a clear public position on immigration.
+
 ## What You Should Know
 - Corson is a sitting Kansas senator and a former executive director of the Kansas Democratic Party.
 - His background also includes work at the U.S. Department of Commerce, giving him a federal policy résumé before entering the governor's race.

@@ -10,6 +10,20 @@ Yarmer has been one of the board's most visible fiscal skeptics. In public comme
 
 His record includes a broader argument about governance. Yarmer has asked for bids and board review before major purchases, pressed for more time to study agendas, and argued during emergency policy discussions that parents do not surrender their rights during the school day. He has often aligned with Allen Park as part of the board's tighter-scrutiny bloc.
 
+## What They Stand For
+
+As a local school board member, Yarmer's public positions focus on district-level education governance rather than state or federal policy.
+
+**Bond and Capital Spending**: His most prominent issue. He is the board's most vocal fiscal hawk, criticizing what he called "reckless spending" on items like a $753,700 concession stand, a $777,680 digital scoreboard, $687,937 for tennis courts, and a $66,364 marquee sign while roofing and classroom projects were deferred. He has said the board is "to blame for reckless spending by failing to provide proper oversight of the school administration."
+
+**Board Oversight**: Has pushed for multiple project prices to be presented together before the board approves individual phases, rather than voting on projects piecemeal. Wants earlier access to agendas and more complete pricing information before votes.
+
+**Parental Rights**: Made one of the board's clearest parental-rights statements during an emergency policy discussion, saying: "I don't think you give up your parental rights between 8 and 3."
+
+**Emergency Policy**: Has argued the board overuses emergency procedures, stating "If everything is an emergency, then nothing is an emergency."
+
+**Student Advocacy**: Describes his core motivation as wanting "to be an advocate for the students' interests, as well as be fiscally responsible."
+
 ## What You Should Know
 - Yarmer is a practicing emergency physician, not a full-time political figure.
 - He grew up in central Kansas, trained through FHSU, KU, and UMKC, and returned to Hays in 2015.

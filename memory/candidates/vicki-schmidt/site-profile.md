@@ -10,6 +10,20 @@ Schmidt's record stretches across both the Legislature and statewide regulation.
 
 That administrative record is central to her gubernatorial case. Her campaign argues that she has already managed a statewide department, returned money to consumers, and lowered the cost of doing business in Kansas. In a Republican field that includes more overtly ideological rivals, Schmidt is running as the candidate of executive competence and health-policy experience.
 
+## What They Stand For
+
+**Healthcare / Insurance**: This is her signature issue. As insurance commissioner, she says her office returned over $206 million to Kansas families and lowered the cost of doing business by over $96 million. As a state senator, she championed autism coverage and cancer-care access.
+
+**Government Efficiency**: Her campaign centers on executive competence. She cites finding errors in the Kansas Medical Assistance Program that were costing the state millions and implementing a plan that recouped more than $391 million.
+
+**Abortion**: Has not made abortion a prominent part of her campaign messaging. At the January 2026 GOP debate (which she did not attend), other Republican candidates found unity on opposing abortion and marijuana legalization. Schmidt's public record does not include clear statements on this issue in the current race.
+
+**Guns / Second Amendment**: Has not taken a clear public position on gun policy in her current campaign.
+
+**Immigration**: Has not made immigration a visible part of her campaign platform.
+
+Schmidt's campaign is built around health-care credentials and consumer protection rather than the culture-war issues that dominate other Republican campaigns. Among the GOP gubernatorial candidates, she has the least ideological public profile.
+
 ## What You Should Know
 - Schmidt enters the governor's race as a sitting statewide executive, which gives her more governing experience than most candidates in the field.
 - She is the first pharmacist to hold statewide elected office in Kansas, and her pharmacy background is one of the defining facts of her public biography.

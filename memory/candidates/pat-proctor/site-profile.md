@@ -14,6 +14,20 @@ That matters because the secretary of state's office is where those ideas would 
 
 His public record also includes a more conventional conservative frame around business services. He argues that the secretary of state's office should help Kansas businesses form and operate efficiently, and he uses Baan Thai and his military command background to support the case that he can run a rules-driven office.
 
+## What They Stand For
+
+**Election Law / Voter Access**: This is Proctor's defining issue. As chair of the House Elections Committee, he has pushed for proof-of-citizenship voter registration requirements, repealing the three-day grace period for mailed ballots to arrive after Election Day, banning ranked-choice voting in Kansas, and expanding paper-based audit measures. He frames these as election security measures; critics argue they could make it harder for eligible Kansans to vote.
+
+**Campaign Finance**: He has championed banning foreign nationals from contributing to Kansas constitutional amendment campaigns and has also pushed to limit the Kansas Governmental Ethics Commission's power to investigate campaign finance violations.
+
+**Business Services**: He argues the secretary of state's office should help Kansas businesses form and operate efficiently, pointing to his experience co-owning Baan Thai Restaurant.
+
+**Abortion**: Has not taken a clear public position on abortion in the context of this race.
+
+**Guns / Second Amendment**: Has not taken a clear public position on gun policy in the context of this race.
+
+**Immigration**: Has not taken a clear public position on immigration in the context of this race.
+
 ## What You Should Know
 - Proctor is the chair of the Kansas House Elections Committee, which makes him one of the architects of the election rules he now wants to administer as secretary of state.
 - He has pushed for proof-of-citizenship requirements, stricter ballot deadlines, and paper-audit measures as part of his election agenda.

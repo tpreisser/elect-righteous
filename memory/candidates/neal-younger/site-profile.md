@@ -14,6 +14,16 @@ He has also taken visible positions on development and infrastructure. Public co
 
 Younger has also talked about government in a hands-on way. In campaign coverage, he said he wanted to spend time in every county department to understand staffing and needs directly rather than govern from a distance. That fits with the broader picture of a commissioner who approaches county government like a working manager rather than a public personality.
 
+## What They Stand For
+
+**County Spending / Taxes**: Younger ran on the argument that Ellis County was spending too much money. Once in office, he supported the 2026 budget increase but only after detailed department-by-department review. He believes the county sales tax should be left alone rather than raised.
+
+**Mental Health Funding**: He supported increased mental-health spending, saying the increase "is less expensive than building a new jail." This reflects a practical, cost-prevention approach to county budgeting.
+
+**Water and Economic Development**: He has said the county should work with the city of Hays to bring in more water and higher-paying jobs. During housing discussions, he raised practical questions about whether new developments would have enough water service if wells failed.
+
+**Government Efficiency**: He pledged to spend one to two hours in every county department to understand staffing and needs directly, rather than governing from a distance.
+
 ## What You Should Know
 - Younger is an electrician and plumber by trade, and his public profile is built around that working-class background.
 - He won his seat in a 2020 three-way Republican primary with 639 votes, or 40.16 percent.

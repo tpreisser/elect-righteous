@@ -10,6 +10,18 @@ Dreiling's most visible public controversy was the fight over closing the pollin
 
 Her office has also pushed a series of practical election changes, including security cameras at the ballot drop box and ballot-counting rooms, Saturday early voting, and voter-notification efforts. The source material also points back to a 2020 episode, before she became elected clerk, when 3,800 misprinted ballots were sent out while she was deputy clerk. Even in that record, the through line is administrative: a clerk's office under pressure to get details right in public.
 
+## What They Stand For
+
+**Election Security**: Dreiling has pushed election-security improvements including security cameras at the ballot drop box and in ballot-counting rooms, and she enrolled in the federal Election Infrastructure Information Sharing network through the Department of Homeland Security.
+
+**Campus Voting Access**: She closed the polling location nearest to Fort Hays State University, citing low turnout (69 registered on-campus voters) and ADA compliance issues. She defended the move on cost and usage grounds, saying "the numbers don't show for me to allow to spend taxpayer dollars." The decision drew opposition from the ACLU and voting-rights advocates who saw it as reducing student access.
+
+**Early Voting**: Her office expanded Saturday early voting as part of its election logistics improvements.
+
+**Property Tax Transparency**: She was the first Ellis County clerk to implement the revenue-neutral-rate mailings required by 2021 state law, notifying taxpayers how proposed tax rates compare to the revenue-neutral rate for each taxing district.
+
+Dreiling has not taken clear public positions on issues like abortion, guns, or immigration. Her public record is focused entirely on county administration and election management.
+
 ## What You Should Know
 - Dreiling spent eight years inside the county clerk's office before winning the top job in 2020.
 - She was re-elected in 2024 with 77 percent of the vote.

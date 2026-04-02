@@ -10,6 +10,18 @@ Jacobs has been one of the commission's most consistent public advocates for the
 
 She has also taken visible positions on development and budget questions. Jacobs has argued for retail growth, defended sustainable budgeting, and supported city investment when she believed it would strengthen Hays over the long term. During the pandemic-era mask debate, she voted with the majority to extend the ordinance. In January 2026, she stepped aside from the mayor's role when the commission reorganized and chose Mason Ruder as mayor.
 
+## What They Stand For
+
+As a city commissioner, Jacobs deals with local infrastructure and governance rather than federal-level policy. She has not taken public positions on abortion, guns, or immigration.
+
+**Water**: The R9 Ranch water pipeline project is her top priority. She has repeatedly called it the city's number one focus and has defended it as essential for Hays' long-term survival, even as costs rose to nearly $145 million and litigation dragged on. She has said "We've asked for less water than is allowed by the state."
+
+**Taxes / Budgeting**: She has defended revenue-neutral budgeting and taken a conservative approach to city spending. She has said the city should avoid overspending and maintain a sustainable budget, telling Hays Post "we're rock stars compared to other communities."
+
+**Retail and Economic Development**: She has pushed for retail growth in Hays and supported development incentives when she believed they would strengthen the city long-term.
+
+**COVID Mask Mandate**: She voted with the commission majority to extend the mask ordinance in 2020 (3-1 vote).
+
 ## What You Should Know
 - Jacobs is one of the most experienced elected officials in Hays and has served multiple times as mayor.
 - Her banking and foundation background give her one of the strongest finance-and-development resumes on the city commission.

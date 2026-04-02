@@ -10,6 +10,18 @@ Brooks has been part of the board majority supporting USD 489's major facilities
 
 He has also made student costs a recurring issue. Brooks has repeatedly said the district lowered school fees during his time on the board, and he has pointed to that as a concrete measure of whether the board is helping families. His public style is not combative. He tends to talk about oversight, trust in administrators, and keeping the district stable while large projects are completed.
 
+## What They Stand For
+
+**School Fees**: Has repeatedly pointed to lower school fees as one of his top priorities and accomplishments on the board. He pushed for reducing the textbook fee from $90 to $70 after identifying a surplus in the textbook fund.
+
+**Bond / Facilities Support**: Supports the district's $143.5 million bond program and the new Hays High School construction. He has voted with the majority on major construction and facilities decisions.
+
+**Transparency**: Called a special board meeting specifically because "the board was striving for transparency." Supports open communication with the community about district decisions.
+
+**School Mascot**: Voted against changing the Hays Middle School mascot to Indians in the 5-2 board vote, putting him in the minority on that cultural question.
+
+**District Stability**: His general approach is to trust administrators, maintain stable district operations, and keep large building projects on track rather than push for dramatic changes.
+
 ## What You Should Know
 - Brooks was re-elected to the USD 489 board in November 2025 and remains one of the district's longest-serving members.
 - He has publicly backed the district's bond work and the larger facilities buildout that produced the new Hays High School.

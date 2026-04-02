@@ -10,6 +10,22 @@ Mann's record is professional rather than legislative. His campaign points to hi
 
 His electoral record is already unusual for a Kansas Democrat. In 2022 he lost to Kobach by 17,363 votes, 50.8% to 49.1%, the closest statewide race in Kansas that year. He announced a second run on July 30, 2025, framing the race as a choice between a law-enforcement-focused attorney general and Kobach's highly ideological approach to the office.
 
+## What They Stand For
+
+**Public Safety and Law Enforcement**: Mann's entire campaign is built around his background as a police officer and prosecutor. He frames the attorney general's job as protecting Kansas families and defending the rule of law rather than waging partisan culture wars. His campaign slogan is "common sense, common ground."
+
+**DUI / Drunk Driving**: Mann was struck by a drunk driver during a traffic stop in 2002, which ended his police career. He went on to become national chairman of Mothers Against Drunk Driving and is closely tied to Kansas's ignition-interlock law for DUI offenders.
+
+**Contrast with Kobach**: His campaign is explicitly positioned as a practical alternative to Kris Kobach. He argues the attorney general's office should focus on basic law enforcement and consumer protection rather than headline-grabbing ideological fights.
+
+**Abortion**: Has not taken a clear public position on abortion in the source material reviewed. His campaign focuses on law enforcement and constitutional themes rather than social issues.
+
+**Guns / Second Amendment**: Has not taken a clear public position on gun policy in the source material reviewed.
+
+**Immigration**: Has not taken a clear public position on immigration in the source material reviewed.
+
+Mann's public record is professional rather than legislative. He is asking voters to judge him on his career as a police officer and prosecutor rather than on a list of issue positions.
+
 ## What You Should Know
 - Mann worked as a police officer before he went to law school, and his campaign still treats that early law-enforcement experience as the core of his résumé.
 - In 2002 he was hit by a drunk driver during a traffic stop, an event that ended his police career and became part of the story behind his later legal and anti-DUI work.

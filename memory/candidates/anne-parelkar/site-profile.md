@@ -10,6 +10,20 @@ Because she is a first-time candidate, Parelkar's record is rooted less in prior
 
 Her campaign grew partly out of frustration with constituent access. Public interviews say attending Marshall town halls helped convince her to run, and she has used transparency and responsiveness as a contrast point. The one clear controversy in the source file is procedural: she was named in an NRSC complaint over a late personal financial disclosure filing.
 
+## What They Stand For
+
+**Immigration**: Parelkar says the immigration system is broken in practical ways, not just ideological ones. As a working immigration attorney, she has made fixing the system a centerpiece of her campaign, arguing that it fails both families and employers.
+
+**Healthcare for Children**: She has proposed replacing the patchwork of Medicaid, CHIP, and other programs for minors with a single consolidated health-care program for everyone under 18.
+
+**Consumer Protection**: She has called for stronger antitrust and consumer-protection laws, though specific policy details beyond that broad call have not been made public.
+
+**Abortion**: Has not taken a clear public position on abortion in the source material reviewed.
+
+**Guns / Second Amendment**: Has not taken a clear public position on gun policy.
+
+**Transparency and Constituent Access**: She has said frustration with Roger Marshall's town halls and lack of constituent communication helped push her into the race, and she frames responsiveness as a core difference between herself and the incumbent.
+
 ## What You Should Know
 - Parelkar is the only immigration attorney in the Democratic Senate field.
 - She is a first-time candidate with no prior elected office.

@@ -10,6 +10,20 @@ Rogers does not have a legislative voting record or a long history in statewide 
 
 Her campaign messaging is openly anti-bureaucratic. She says Kansas government should be audited department by department for waste, mishandling, and fraud, and she casts herself as someone who would run state government more like a business than a political institution. The tradeoff is that the public record is still relatively thin. Compared with the front-runners, there is less evidence of how she has handled a major public office, a legislative fight, or a statewide crisis.
 
+## What They Stand For
+
+**Abortion**: Describes herself as pro-life. Her campaign lists "Supporting families and protecting life" with expanded resources for parents and affordable healthcare.
+
+**Property Taxes**: This is her lead issue. She says she "cannot stand silent and watch small businesses and homeowners be destroyed through high property taxes" and wants to sunset STAR bonds that she says "funnel millions into investor pockets."
+
+**Medical Freedom**: Believes families should have the right to make their own medical decisions, "even if those decisions are different from what government bureaucrats recommend." This extends to her experience raising children with learning challenges.
+
+**Government Efficiency**: Wants a "Day One Executive Order" to audit every state department for "inefficiencies, mishandling and fraud."
+
+**Education**: Emphasizes parental rights and school support, informed by her experience homeschooling children with learning challenges.
+
+Rogers has not released detailed policy papers on guns, immigration, or most other statewide issues. Her campaign is built more around themes of government waste and family-centered values than specific legislative proposals.
+
 ## What You Should Know
 - Rogers is one of the least established candidates in the governor's race, with far less public record than the statewide officeholders and legislative leaders in the field.
 - She has made raising children with learning challenges a central part of her political identity and uses that experience when talking about school policy and parental rights.

@@ -10,6 +10,16 @@ Cunningham's clearest early break with the recent past was his decision to resum
 
 The office he runs is broader than a single drug-policy debate. Ellis County assigns the attorney's office to prosecute misdemeanors and felonies, handle juvenile and child-in-need-of-care cases, and work through alcohol, drug, and mental-illness proceedings. Cunningham has also spoken about a practical problem familiar in rural Kansas: too few lawyers, too many defendants waiting in jail, and a need to prioritize cases without letting victims lose contact with the system.
 
+## What They Stand For
+
+**Marijuana / Drug Enforcement**: Cunningham reversed his predecessor's decision to pause marijuana prosecutions, saying the Legislature decides what is criminal and he will enforce the law as written. He has also taken a hard line on hemp-derived Delta-8 and Delta-10 products, warning that the office will prosecute those cases under existing Kansas law.
+
+**Role of the County Attorney**: He has said plainly that a county attorney does not get to pick which laws matter and which do not. He frames his job as enforcement, not policy-making, and leaves the question of what should be legal to the state Legislature.
+
+**Case Prioritization**: Despite his strict enforcement posture, he has acknowledged the office cannot prosecute everything. His stated priority order is: deaths first, then crimes against children, sex crimes, violent crimes, property crimes, and drug distribution. A traveler passing through with a marijuana pipe may not be prosecuted if they are not a local threat.
+
+**Faith and Public Identity**: Cunningham describes himself publicly in explicitly Christian terms, referencing God's sovereignty and Christ's salvation. He has not stated specific policy positions rooted in that faith, but it clearly shapes how he presents himself.
+
 ## What You Should Know
 - Cunningham is a Hays native who returned after law school and built his legal career inside the Ellis County attorney's office.
 - He worked first under Tom Drees and then Robert Anderson before winning the office himself in 2024.

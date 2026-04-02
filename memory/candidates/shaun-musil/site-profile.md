@@ -12,6 +12,18 @@ He also had a prominent role during the COVID period. Musil voted to extend Hays
 
 Musil has also backed housing and retail-development efforts and has argued that city growth depends on expanding the tax base while keeping long-term utility planning on track. His ownership of the Paisley Pear gave him a visible downtown stake during some of those debates, though the public record reviewed here showed no formal ethics complaint.
 
+## What They Stand For
+
+**Water Supply**: Musil has consistently treated the R9 Ranch water pipeline as the city's top long-term responsibility, calling it "unfinished business" and saying "I believe it's going to happen."
+
+**Retail and Economic Development**: Has pushed for retail growth and a stronger sales-tax base, supporting incentives like IRBs for new businesses and calling retail development a "priority."
+
+**Housing**: Strong advocate for Reinvestment Housing Incentive Districts (RHIDs), calling them one of the "most impactful pieces of legislation" and pointing to more houses being built as proof.
+
+**COVID Response**: Voted to extend the Hays mask ordinance while serving as mayor, a decision that led to vandalism and threats against his family.
+
+As a city commissioner, Musil's public record centers on local infrastructure and development rather than state or federal policy issues. He has not taken clear public positions on abortion, guns, immigration, or other statewide debates.
+
 ## What You Should Know
 - Musil has served on the Hays commission since 2013 and remains one of its most experienced members.
 - He has consistently treated the R9 Ranch water project as the city's top long-term responsibility.

@@ -10,6 +10,20 @@ Vilaysing was elected to the Hays City Commission in 2025, so his formal governi
 
 That detail-first style matches his law-enforcement background. The source material does not show a long list of headline-making votes or a major ideological crusade. It shows a new commissioner trying to work from the mechanics of city government outward.
 
+## What They Stand For
+
+As a city commissioner, Vilaysing's public positions focus on local Hays issues rather than state or federal policy.
+
+**Water**: Considers securing the city's water supply a top priority. Hays sits over the depleting Ogallala Aquifer and the city's long-term water future depends on the R9 Ranch water project.
+
+**Housing**: Supports efforts to increase affordable housing in Hays. Lists housing as one of his top three issues alongside water and retail.
+
+**City Spending / Transparency**: Has asked pointed operational questions about the cost and purpose of city programs. His first notable initiative was questioning pet licensing requirements, noting the city collects about $14,000 per year in pet license fees while most owners already buy their own tags.
+
+**Law Enforcement**: Comes from 19 years in the Hays Police Department plus military police service. His background in de-escalation training shapes his approach to community safety.
+
+**Core Values in Governance**: Has spoken broadly about "core values" being "missing in how the current city commission handles matters," though he has not spelled out specific policy details beyond his operational focus on water, housing, and fiscal accountability.
+
 ## What You Should Know
 - Vilaysing came into office after a long career in the Hays Police Department and military police service.
 - He owns DXI Training Solutions, a business focused on de-escalation and tactical communication training.

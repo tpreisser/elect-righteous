@@ -14,6 +14,16 @@ He has also taken concrete positions on growth and development. He supported Big
 
 Outside county government, Leiker's record is tied to agricultural and rural institutions. Public sources connect him to L5 Farms, the Kansas Hereford Association, and county and regional boards, reinforcing that his political base is the farm economy and the surrounding Ellis County civic network.
 
+## What They Stand For
+
+**County Spending / Taxes**: Leiker is fiscally conservative but not reflexively anti-spending. He supported the 2026 budget increase after what he described as nearly 13 hours of line-by-line department review. He believes the county sales tax is "a viable alternative to raising property taxes" and wants to leave the sales tax rate alone.
+
+**Mental Health Funding**: He supported additional mental-health spending with the argument that it is "less expensive than building a new jail." This is a practical, cost-based position rather than an ideological one.
+
+**Water and Economic Development**: He has said the county should work with the city of Hays to get more water and higher-paying jobs into the area. He backed the Big Creek Estates housing development.
+
+**Commission Size**: He does not believe the Ellis County Commission would benefit from expanding from three members to five.
+
 ## What You Should Know
 - Leiker came to county office from large-scale farming, not from a traditional political or legal career.
 - He won a four-way Republican primary in 2022 with 764 votes, defeating the incumbent commissioner in the process.

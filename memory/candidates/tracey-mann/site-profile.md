@@ -10,6 +10,24 @@ Mann's congressional record emphasizes agriculture, small business, and conserva
 
 His public record is more about the kind of conservative representative he is than about a single headline issue. The district is structurally safe for Republicans, and his campaign has operated with the resources expected of a long-serving incumbent.
 
+## What They Stand For
+
+**Abortion**: Supports restrictions on abortion. Co-sponsored the Born-Alive Abortion Survivors Protection Act and voted for the Pain-Capable Unborn Child Protection Act.
+
+**Guns / Second Amendment**: Strong Second Amendment supporter. Endorsed by the NRA and opposes new federal gun restrictions.
+
+**Immigration**: Supports the Secure the Border Act. Favors stricter border enforcement and opposes amnesty for undocumented immigrants.
+
+**Agriculture**: Sits on the House Agriculture Committee and champions farm bill funding and crop insurance programs for western Kansas. This is the bread-and-butter issue of KS-01.
+
+**Government Spending**: Consistently votes against large omnibus spending packages. Supported the REIN IN Inflation Act to cut federal spending.
+
+**January 6 Certification**: Voted against certifying Arizona and Pennsylvania's electoral votes on January 6, 2021, after the Capitol breach.
+
+**Energy**: Supports the Energy Independence and Security Act and opposes regulations that restrict oil and gas production.
+
+**Religious Freedom**: Promoted the FAITH in Small Business Act to protect faith-based small business owners.
+
 ## What You Should Know
 - Mann is the Republican incumbent in KS-01 and has already won three strong reelection campaigns.
 - He served as Kansas lieutenant governor before taking the House seat.

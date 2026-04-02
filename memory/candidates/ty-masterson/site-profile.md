@@ -10,6 +10,22 @@ Masterson's record is mostly a record of power inside the Legislature. As Senate
 
 He has also used that leadership role to advance an openly ideological campaign for governor. His public message ties tax cuts, anti-"woke" rhetoric, conservative social policy, and structural reforms such as changes to judicial selection into one package. That makes him one of the clearest cases in the race where legislative record and campaign platform are tightly aligned.
 
+## What They Stand For
+
+**Abortion**: Opposes abortion. At the January 2026 GOP debate, all six Republican candidates found unity on abortion opposition. Masterson has led the Kansas Senate through fights over abortion policy, and his campaign language ties the sanctity of life to his faith: "every life is precious -- it doesn't matter your background, your ethnicity, or your color... we're all one people, created by God."
+
+**Taxes**: Championed what his campaign calls a "$2 billion tax cut for Kansas families" as Senate president. His campaign accuses Governor Kelly of hiking taxes and promises to continue cutting them.
+
+**Education**: His campaign attacks what he calls the "woke agenda" in schools and government. He frames education reform as part of a broader conservative governing vision.
+
+**Judicial Selection**: Pushed a constitutional amendment to change how Kansas Supreme Court justices are selected, requiring Senate consent for appointments. Critics say this is a step toward overturning the court's 2019 abortion rights ruling.
+
+**Immigration**: Has not released detailed immigration policy, but his campaign rhetoric aligns with Republican enforcement-first positioning. His general message is about "safe communities."
+
+**Marijuana**: Opposes legalization, based on his debate position.
+
+**Israel**: Led a Kansas Senate delegation visit to Israel and has spoken publicly about the importance of the U.S.-Israel relationship.
+
 ## What You Should Know
 - Masterson is already one of the most powerful elected officials in Kansas because he serves as president of the state Senate.
 - He has represented Senate District 16 since 2009, giving him one of the longest public records in the governor's field.

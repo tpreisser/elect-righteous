@@ -10,6 +10,18 @@ Because Pallister only returned to the board in 2025, his fresh voting record is
 
 He comes back to the board with a deep administrator's perspective rather than an insurgent one. Public comments frame him as someone interested in steady operations, strong staffing, and protecting the district's ability to recruit and keep people over time.
 
+## What They Stand For
+
+As a local school board member, Pallister's public positions focus on district-level education issues rather than state or federal policy.
+
+**Teacher and Staff Retention**: His top stated priority. Has said the board "needs to continue to make teacher, administrator and staff retention and recruitment a priority."
+
+**Facilities and Fees**: Has linked staffing concerns to everyday questions about building upkeep, school fees, and classroom stability.
+
+**School Governance**: Comes from an administrator's perspective after 21 years as a middle-school principal. His approach emphasizes steady operations and institutional continuity rather than ideological overhaul.
+
+**Bond / Spending Oversight**: The public record does not show him taking a strong position on either side of the board's fiscal-oversight debates. As the newest returning member (seated January 2026), his alignment on spending questions is still developing.
+
 ## What You Should Know
 - Pallister spent 21 years as a middle-school principal and three years as an assistant principal in USD 489.
 - He began his district career as a bus driver while still in college.

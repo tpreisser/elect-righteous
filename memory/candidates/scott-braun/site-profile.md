@@ -10,6 +10,18 @@ Braun has made jail capacity one of the defining issues of his term. In public m
 
 He has also taken a public role in explaining Ellis County's cooperation with federal immigration enforcement. After signing an ICE memorandum in 2025, Braun said the county could honor detainers only within the legal 48-hour window and made clear that local deputies are not roaming the county doing federal immigration work. That combination of hard-line enforcement language and legal caution has become one of the clearest features of his public record.
 
+## What They Stand For
+
+**Jail Capacity / Public Safety**: Braun has made building a new county jail his top priority, calling it "a need, not a want" and tying it to mental-health placement problems and inmate transport burdens.
+
+**Immigration / ICE Cooperation**: Signed an ICE memorandum in 2025 to honor federal detainers, but publicly emphasized the 48-hour legal limit and said local deputies are not doing federal immigration work. He also testified before a Kansas House committee supporting a bill to cover agencies enforcing federal immigration law.
+
+**Drug Forfeiture**: As Kansas Sheriffs' Association president, he advocated against reforms that would limit law enforcement access to seized drug funds, saying loss of forfeiture revenue would affect taxpayers.
+
+**Property Taxes**: Has not taken a direct position on property tax policy, but frames the jail and office budgets as taxpayer concerns.
+
+Braun's public record is focused on law enforcement operations rather than the broader social or cultural issues that state and federal candidates typically address. He has not taken clear public positions on abortion, guns, or most statewide policy debates.
+
 ## What You Should Know
 - Braun rose through the Ellis County law-enforcement ranks before winning the sheriff's office in 2020 and re-election in 2024.
 - He is president of the Kansas Sheriffs' Association, giving him a higher statewide profile than most county sheriffs.

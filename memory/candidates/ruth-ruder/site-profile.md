@@ -10,6 +10,18 @@ Ruder's record on the school board is pragmatic and budget-conscious. She has su
 
 That approach shows up most clearly in how she talks about fiscal responsibility, district employees, and board trust. Her public comments consistently frame the job as stewardship: making sure purchases, land decisions, and district priorities can be justified to taxpayers as well as to families.
 
+## What They Stand For
+
+As a school board member, Ruder deals with education and local budget issues rather than federal-level policy. She has not taken public positions on abortion, guns, immigration, or other national issues.
+
+**Fiscal Responsibility**: This is her defining issue. She consistently frames her board role as stewardship of taxpayer money. She has said "I will do my best at representing the taxpayer in being fiscally responsible" and has questioned land deals, sponsorships, and purchases that do not clearly benefit students.
+
+**District Land Use**: She has been willing to slow down land transactions when the public benefit is unclear. In 2025, she raised concerns that a buyer of district land near the middle school might purchase it only for a tax deduction rather than put it to productive use.
+
+**Students First**: She has said her "first obligation, if elected, will be to the children in our district" and that all district employees are equally important, pushing back against any hierarchy that elevates administrators over support staff.
+
+**Board Transparency**: She has emphasized communication and trust-building between the school board and the community, saying "communication is a key component of trying to regain and establish trust."
+
 ## What You Should Know
 - Ruder is a Hays High graduate who spent three decades at Golden Plains Credit Union before or alongside her school-board service.
 - She is already on the USD 489 board, so voters can judge her by an existing public record rather than campaign promises alone.

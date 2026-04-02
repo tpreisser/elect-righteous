@@ -14,6 +14,18 @@ She has also been willing to take positions in local disputes rather than simply
 
 Her voting pattern in the raw material generally places her with the board majority, but not as a passive member. The record points instead to a member who supports district operations while pressing for clearer communication, more predictable rules, and more understandable justifications.
 
+## What They Stand For
+
+**Transparency**: Identified transparency as the number one thing she would change about USD 489. She wants clearer communication between the district and families about decisions and spending.
+
+**Student Discipline**: Has pushed for more specific, written-out consequences in the student handbook so that discipline is consistent. She brought at least six complaints about inconsistency at Hays High to the board.
+
+**School Mascot**: Supported the board vote to change the Hays Middle School mascot to Indians after reviewing community survey responses and calling many of them ignorant and immature.
+
+**Technology in Schools**: Backed providing laptops to Hays High students after hearing from teachers who preferred them over other options.
+
+**Bond Spending**: Generally supports the district's approach to bond project management, though she has asked questions about how salary and spending figures are calculated.
+
 ## What You Should Know
 - Goetz is a lifelong Hays resident and a graduate of the local school system she now helps govern.
 - She taught at Hays High before moving to Fort Hays State University, where she teaches mathematics.

@@ -10,6 +10,16 @@ Ruder's most visible office action has been the decision to add a $2.50 walk-in 
 
 He has also pointed to budget reductions and customer-flow improvements as evidence that the treasury office became more efficient under his watch. In local coverage, he said the fee generated more than $50,000 a year and helped reduce the office budget substantially. That is not flashy politics, but it is the kind of concrete administrative record county treasurers are usually judged on.
 
+## What They Stand For
+
+**Property Taxes**: Ruder frames his office decisions around reducing the burden on property taxpayers. His $2.50 motor-vehicle walk-in fee was specifically designed so the motor-vehicle side of the office pays its own costs instead of shifting expenses onto property tax revenue.
+
+**Government Efficiency**: Has pointed to cutting the treasury budget from roughly $452,000 to about $367,000 as evidence that county offices can do more with less. The motor-vehicle fee alone generated more than $50,000 a year.
+
+**Sales Tax**: Supports the two quarter-cent sales taxes as "a viable alternative to raising property taxes."
+
+As a county treasurer, Ruder's public record is administrative rather than ideological. He has not taken clear public positions on abortion, guns, immigration, or other statewide policy debates. His work centers on tax collection, motor-vehicle services, and office management.
+
 ## What You Should Know
 - Ruder is a county treasurer, so his public record is administrative rather than legislative or ideological.
 - His most visible policy change was a $2.50 walk-in fee for motor-vehicle transactions, which he defended as a way to fund the office without leaning more heavily on property taxpayers.

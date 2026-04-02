@@ -14,6 +14,20 @@ In the insurance race, Sykes has made the clearest public case that Kansas house
 
 She has also tried to draw a sharper ethical distinction in the field by pledging to reject insurance-industry money. That stance, together with endorsements from Praeger and Sebelius, has helped define her as the candidate arguing for a more independent regulator.
 
+## What They Stand For
+
+**Health Insurance Costs**: This is her signature issue. She has called the cost of health insurance in Kansas "simply out of control" and says the insurance commissioner should hold big insurance companies accountable rather than protect the industry.
+
+**Healthcare / Medicaid**: Supports Medicaid expansion in Kansas. Her legislative record includes advocacy for expanding healthcare access and lowering costs for families.
+
+**Abortion**: Supports access to abortion. Her legislative platform includes abortion access as part of her broader healthcare and consumer-protection agenda.
+
+**Public Education**: Has been an advocate for public school funding and early childhood education throughout her Senate career.
+
+**Domestic Violence / Human Trafficking**: Has championed protections for survivors of domestic violence, sexual assault, human trafficking, and stalking in the Legislature.
+
+**Campaign Ethics**: Has pledged to reject all insurance-industry campaign contributions, making her the only candidate in the insurance commissioner race to draw that line.
+
 ## What You Should Know
 - Sykes is the current Kansas Senate minority leader, giving her a statewide political platform that most down-ballot candidates do not have.
 - She first entered the Senate as a Republican and then switched to the Democratic Party in December 2018, a change that became a lasting part of her public identity.

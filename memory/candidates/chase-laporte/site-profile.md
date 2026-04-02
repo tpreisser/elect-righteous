@@ -10,6 +10,24 @@ LaPorte has no identified record in elected office. His public positions, as cap
 
 He has also run for other offices, including the U.S. House and governor, which gives him the profile of a repeat candidate rather than a first-time local official rising through Kansas politics. In the 2026 Senate race, his campaign infrastructure appears limited, and the source set did not surface a dedicated Senate website or a substantial body of speeches, interviews, or issue papers.
 
+## What They Stand For
+
+**Government Size and Spending**: LaPorte has said he supports smaller government and lower spending. He frames inflation and government spending as core concerns.
+
+**Term Limits**: He supports term limits for elected officials.
+
+**Government Transparency**: He has stated that "transparency in government keep officials accountable."
+
+**National Guard**: He has said he believes in "maintaining a strong National Guard presence."
+
+**Abortion**: Has not taken a clear public position on abortion in the source material reviewed.
+
+**Guns / Second Amendment**: Has not taken a clear public position on gun policy in the source material reviewed.
+
+**Immigration**: Has not taken a clear public position on immigration in the source material reviewed.
+
+LaPorte's public platform is thin compared with most statewide candidates. The source material shows a short list of general principles rather than detailed policy proposals.
+
 ## What You Should Know
 - Public biographies describe LaPorte as an Army veteran who served from 2005 to 2013.
 - He earned an associate degree from Cowley County Community College in 2017 and is identified as a business administrator.

@@ -10,6 +10,16 @@ Wilson's tenure is closely associated with the district's major facilities push.
 
 The most notable controversy in his public record came during the 2022 bond election, when an email he sent to district staff about turnout incentives drew scrutiny and public criticism. Even with that episode, the larger public record still presents him mainly as an operational superintendent: the person responsible for moving bond projects, staffing, and district logistics forward once the board has voted.
 
+## What They Stand For
+
+As an appointed superintendent (not an elected candidate), Wilson does not take public positions on political issues like abortion, guns, or immigration. His public positions are about running the school district.
+
+**School Facilities / Bond Spending**: Wilson is the strongest public advocate for upgrading USD 489 facilities. He has repeatedly said Hays should "stop settling for the schools and facilities that we have" and pushed the $143.5 million bond that built the new Hays High School and funded other construction.
+
+**School Funding**: He has spoken out against state legislation that threatens district funding, including flagging Kansas HB 2468 (private school tax credits) as a threat to divert public dollars from public schools. He also warned the board about state budget bills that could cut mental health funding.
+
+**Turnout Controversy**: During the 2022 bond election, Wilson emailed district staff offering to buy lunch for buildings where 100% of eligible voters cast ballots. This was reported as potential election bribery under Kansas law. The county attorney declined to prosecute, citing limited resources, but did not say it wasn't a violation.
+
 ## What You Should Know
 - Wilson is the superintendent of Hays USD 489, not an elected candidate.
 - He has been the public face of the district's bond-era construction and facilities program.

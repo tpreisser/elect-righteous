@@ -10,6 +10,24 @@ Schmidt's legislative record is still short, but it is already more concrete tha
 
 His military background is not just biographical decoration in this race. Schmidt has said witnessing the aftermath of January 6 while stationed in Washington helped push him toward politics, and he presents himself as someone trying to connect national-security experience with Kansas governance. That gives him a public record built on service, an identifiable issue portfolio, and a clearer governing profile than candidates whose Senate runs are their first real test in office.
 
+## What They Stand For
+
+**Abortion**: Has not taken a clear public position on abortion. His campaign focuses on other issues, and the available public record does not include a direct statement on reproductive rights.
+
+**Guns / Second Amendment**: Has not taken a clear public position on gun policy.
+
+**Immigration**: Has not taken a specific public position on immigration, though his campaign platform includes a general reference to immigration reform.
+
+**Property Taxes**: This is his signature issue. He broke with his own party to support a constitutional amendment that would cap annual property-value increases for tax purposes. He has called property tax relief his top legislative priority.
+
+**Corporate Taxes**: Wants corporations to "pay their fair share" and close tax loopholes.
+
+**Healthcare**: Supports rural healthcare access and opposes Medicaid cuts that affect rural hospitals.
+
+**January 6 / Democracy**: Sponsored a Kansas Senate resolution condemning the pardons and commutations of January 6 participants. His witnessing of the Capitol attack while stationed at the Office of Naval Intelligence was a motivating factor in his entry into politics.
+
+**Public Education**: Supports public education funding.
+
 ## What You Should Know
 - Schmidt is the only current elected official in the Democratic U.S. Senate primary.
 - He served in Navy intelligence on the USS Ronald Reagan, at Joint Special Operations Task Force-Arabian Peninsula, and at the Office of Naval Intelligence.
