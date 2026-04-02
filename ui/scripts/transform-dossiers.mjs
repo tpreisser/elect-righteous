@@ -2521,9 +2521,23 @@ function buildEducation(segments) {
   return paragraphs[0]?.replace(/\.$/, "");
 }
 
+function isJunkFamily(val) {
+  if (!val) return true;
+  if (/^not (detailed|identified|publicly|yet)|^position$|^n\/a$/i.test(val.trim())) return true;
+  if (/runs as a|republican|democrat|party platform|marriage equality|transgender|LGBTQ|one man and one woman/i.test(val)) return true;
+  if (/denomination|catholic|baptist|methodist|lutheran|church|worship|county attorney|hays high|k-state|washburn/i.test(val)) return true;
+  if (/opposes|supports|stance|policy|campaign|mayor.*office/i.test(val)) return true;
+  if (val.length > 150) return true;
+  return false;
+}
+
 function buildFamily(fieldMaps, segments) {
-  const spouse = pickField(fieldMaps, ["wife", "spouse"]);
+  let spouse = pickField(fieldMaps, ["wife", "spouse"]);
   let children = pickField(fieldMaps, ["children", "family"]);
+
+  // Clean junk from spouse and children fields
+  if (isJunkFamily(spouse)) spouse = undefined;
+  if (isJunkFamily(children)) children = undefined;
 
   // Filter out denomination/religion data that leaks into the family field
   if (children && /denomination|catholic|baptist|methodist|lutheran|church|faith|christian|worship/i.test(children)) {
@@ -2556,9 +2570,13 @@ function buildFamily(fieldMaps, segments) {
     ?.replace(/\.$/, "");
 
   // Filter junk that leaks into the family field
-  if (raw && (raw.length > 200 || /denomination|catholic|baptist|methodist|lutheran|church|worship|county attorney|hays high|k-state|washburn/i.test(raw))) {
-    return undefined;
-  }
+  if (!raw) return undefined;
+  if (raw.length > 150) return undefined;
+  if (/denomination|catholic|baptist|methodist|lutheran|church|worship|county attorney|hays high|k-state|washburn/i.test(raw)) return undefined;
+  if (/runs as a|republican|democrat|party platform|marriage equality|transgender|LGBTQ|one man and one woman/i.test(raw)) return undefined;
+  if (/^position$|opposes|supports|stance|policy|campaign|mayor.*office/i.test(raw)) return undefined;
+  // Filter "not detailed" / "not identified" / "not publicly" — just omit the field
+  if (/^not (detailed|identified|publicly)/i.test(raw)) return undefined;
   return raw;
 }
 
@@ -3728,13 +3746,13 @@ function buildCandidate(candidate, reports) {
     incumbent: candidate.incumbent,
     occupation:
       sanitizeOccupation(pickField(fieldMaps, ["occupation", "current office"]), candidate.occupation),
-    born: pickField(fieldMaps, FIELD_LABELS.born),
-    hometown: pickField(fieldMaps, FIELD_LABELS.hometown),
+    born: sanitizeBorn(pickField(fieldMaps, FIELD_LABELS.born)),
+    hometown: sanitizeHometown(pickField(fieldMaps, FIELD_LABELS.hometown)),
     religion:
       pickField(fieldMaps, FIELD_LABELS.religion) ??
       faith.church?.denomination ??
       undefined,
-    education: buildEducation(segments),
+    education: sanitizeEducation(buildEducation(segments)),
     family: buildFamily(fieldMaps, segments),
     district: pickField(fieldMaps, FIELD_LABELS.district),
     campaignWebsite: firstCampaignWebsite(candidate, fieldMaps, sources),
@@ -3761,6 +3779,50 @@ function buildCandidate(candidate, reports) {
   });
 
   return built;
+}
+
+// ── At-a-glance field sanitizers ──────────────────────────────────────────────
+
+function sanitizeBorn(val) {
+  if (!val) return undefined;
+  // Reject if it's a dollar amount, address, or policy text
+  if (/^\$/.test(val)) return undefined;
+  if (val.length > 100) return undefined;
+  // Strip "Attended Sumner Academy" etc from born field
+  val = val.replace(/\.\s*Attended\b.*$/i, "").trim();
+  // Strip "Grew up in" appended text
+  val = val.replace(/\.\s*Grew up\b.*$/i, "").trim();
+  return val.replace(/\.\s*$/, "").trim() || undefined;
+}
+
+function sanitizeHometown(val) {
+  if (!val) return undefined;
+  // Reject full addresses (street numbers, PO boxes, per campaign filing)
+  if (/^\d+\s|P\.?O\.?\s*Box|per campaign filing/i.test(val)) return undefined;
+  // Reject if it's really a "represents" description
+  if (/^represents\s/i.test(val)) return undefined;
+  // Reject overly long entries (paragraph-length)
+  if (val.length > 80) return undefined;
+  // Reject if it contains policy language or biographical narrative
+  if (/attended|graduated|father|mother|police|followed/i.test(val)) return undefined;
+  // Clean up editorializing in parentheses like "(just outside Fort Leavenworth gates)"
+  val = val.replace(/\s*\(just outside[^)]+\)/i, "");
+  // Clean "deep rural Kansas, population ~900" type asides
+  val = val.replace(/\s*--\s*deep rural[^)]+/i, "");
+  return val.replace(/\.\s*$/, "").trim() || undefined;
+}
+
+function sanitizeEducation(val) {
+  if (!val) return undefined;
+  // Reject if it's really a policy position, born field, or narrative
+  if (/^born:|^born in|^emphasiz|^has been|^her signature|^he wants|^lists|^one of her|^runs as a|^repeatedly|^she homeschooled|^strengthen|^supports |^wants to|^wilson has/i.test(val)) return undefined;
+  // Reject party platform defaults that leaked in
+  if (/republican|democrat|party platform|public school funding|school choice and parental|woke|DEI|parental rights|slogan|campaign/i.test(val)) return undefined;
+  // Must look like an actual education credential — school name, degree, or credential
+  if (!/university|college|school|degree|B\.[AS]|M\.[AS]|J\.D|M\.D|Ph\.D|MBA|RN|graduate|attended/i.test(val)) return undefined;
+  // Reject paragraph-length entries
+  if (val.length > 250) return undefined;
+  return val.replace(/\.\s*$/, "").trim() || undefined;
 }
 
 function firstCampaignWebsite(candidate, fieldMaps, sources) {
