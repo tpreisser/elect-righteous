@@ -142,14 +142,8 @@ export default function HomePage() {
                 className="text-3xl md:text-4xl font-heading font-bold mb-3"
                 style={{ color: "var(--color-navy)" }}
               >
-                2026 Elections
+                Elections Relevant to Hays, Kansas
               </h2>
-              <p
-                className="text-lg"
-                style={{ color: "var(--color-slate)" }}
-              >
-                Every race on your ballot, organized by level
-              </p>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
