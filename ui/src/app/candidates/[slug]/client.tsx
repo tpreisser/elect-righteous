@@ -8,96 +8,13 @@ import {
   CalendarDays,
   ChevronLeft,
   ChevronRight,
-  ClipboardList,
   ExternalLink,
   FileText,
-  MapPin,
   MessageSquare,
   Radio,
   Users,
 } from "lucide-react";
 import type { CandidateFull, OwnWordsSection as OwnWordsData } from "@/data/candidates";
-
-// ─── Pull Quote ───────────────────────────────────────────────────────────────
-
-function PullQuote({
-  text,
-  source,
-  date,
-  url,
-  topic,
-}: {
-  text: string;
-  source: string;
-  date?: string;
-  url?: string;
-  topic?: string;
-}) {
-  const formattedDate =
-    date
-      ? new Intl.DateTimeFormat("en-US", { month: "long", year: "numeric" }).format(
-          new Date(date + "T12:00:00")
-        )
-      : null;
-
-  return (
-    <figure
-      className="my-10"
-      style={{ borderLeft: "4px solid var(--color-teal)" }}
-    >
-      <blockquote className="pl-6 pr-2">
-        {/* Large decorative quotation mark */}
-        <span
-          className="block font-serif leading-none select-none"
-          style={{
-            fontSize: "4rem",
-            lineHeight: 1,
-            color: "var(--color-teal)",
-            marginBottom: "-0.5rem",
-            opacity: 0.4,
-          }}
-          aria-hidden="true"
-        >
-          &ldquo;
-        </span>
-        <p
-          className="font-serif text-xl leading-relaxed"
-          style={{ color: "var(--color-charcoal)", fontStyle: "italic" }}
-        >
-          {text}
-        </p>
-      </blockquote>
-      <figcaption className="pl-6 mt-4 text-sm" style={{ color: "var(--color-slate)" }}>
-        {topic && (
-          <span
-            className="block font-heading font-bold text-xs uppercase tracking-widest mb-1"
-            style={{ color: "var(--color-teal-dark)" }}
-          >
-            {topic}
-          </span>
-        )}
-        {url ? (
-          <a
-            href={url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:underline"
-            style={{ color: "var(--color-slate)" }}
-          >
-            {source}
-          </a>
-        ) : (
-          <span>{source}</span>
-        )}
-        {formattedDate && (
-          <time dateTime={date} className="ml-2" style={{ color: "var(--color-slate)", opacity: 0.7 }}>
-            &mdash; {formattedDate}
-          </time>
-        )}
-      </figcaption>
-    </figure>
-  );
-}
 
 // ─── Section Divider ─────────────────────────────────────────────────────────
 
@@ -135,26 +52,24 @@ function BodyText({ children }: { children: React.ReactNode }) {
   );
 }
 
-// ─── In Their Own Words Reader ──────────────────────────────────────────────
+// ─── Social Scrub + Own Words ───────────────────────────────────────────────
 
-type OwnWordsTopic =
-  | "main"
-  | "alignment"
+type ScrubTopic =
+  | "statements"
+  | "interactions"
   | "response"
-  | "national"
-  | "local"
-  | "absence"
-  | "platform"
-  | "record";
+  | "accounts"
+  | "limits"
+  | "method";
 
 interface NarrativeCard {
   title: string;
-  topic: OwnWordsTopic;
+  topic: ScrubTopic;
   text: string;
 }
 
-const TOPIC_STYLES: Record<
-  OwnWordsTopic,
+const SCRUB_TOPIC_STYLES: Record<
+  ScrubTopic,
   {
     label: string;
     icon: React.ComponentType<{ size?: number; "aria-hidden"?: boolean }>;
@@ -162,50 +77,38 @@ const TOPIC_STYLES: Record<
     bg: string;
   }
 > = {
-  main: {
-    label: "Main Pattern",
-    icon: BarChart3,
+  statements: {
+    label: "Posts, comments, and public statements",
+    icon: MessageSquare,
     accent: "var(--color-navy)",
     bg: "rgba(16, 64, 93, 0.06)",
   },
-  alignment: {
-    label: "Signals & Alignments",
+  interactions: {
+    label: "Interaction signals",
     icon: Users,
     accent: "var(--color-gold)",
     bg: "rgba(196, 146, 42, 0.10)",
   },
   response: {
-    label: "Audience Response",
-    icon: MessageSquare,
+    label: "Reach and response",
+    icon: BarChart3,
     accent: "var(--color-teal-dark)",
     bg: "rgba(28, 195, 175, 0.10)",
   },
-  national: {
-    label: "National Issues",
-    icon: ClipboardList,
-    accent: "#6d5bd0",
-    bg: "rgba(109, 91, 208, 0.10)",
-  },
-  local: {
-    label: "Kansas & District",
-    icon: MapPin,
-    accent: "var(--color-green-flag)",
-    bg: "rgba(45, 106, 79, 0.10)",
-  },
-  absence: {
-    label: "Not Found in Public Record",
-    icon: AlertTriangle,
-    accent: "var(--color-red-flag)",
-    bg: "rgba(155, 34, 38, 0.08)",
-  },
-  platform: {
-    label: "Platform Footprint",
+  accounts: {
+    label: "Accounts and platform footprint",
     icon: Radio,
     accent: "var(--color-slate)",
     bg: "rgba(74, 74, 74, 0.08)",
   },
-  record: {
-    label: "Public Record",
+  limits: {
+    label: "Not found or not accessible",
+    icon: AlertTriangle,
+    accent: "var(--color-red-flag)",
+    bg: "rgba(155, 34, 38, 0.08)",
+  },
+  method: {
+    label: "Harvest notes",
     icon: FileText,
     accent: "var(--color-navy-light)",
     bg: "rgba(16, 64, 93, 0.05)",
@@ -229,24 +132,29 @@ function cleanParagraph(text: string) {
     .trim();
 }
 
-function getTopicForParagraph(paragraph: string, index: number): OwnWordsTopic {
+function getTopicForParagraph(paragraph: string): ScrubTopic {
   const text = paragraph.toLowerCase();
 
-  if (index === 0) {
-    return "main";
-  }
-
   if (
+    text.startsWith("methodology:") ||
+    text.includes("date range covered:") ||
+    text.includes("sources checked included")
+  ) {
+    return "method";
+  }
+  if (
+    text.includes("not accessible") ||
     text.includes("contains no") ||
     text.includes("no posts about") ||
     text.includes("no reviewed item") ||
     text.includes("not visible") ||
     text.includes("visible absences")
   ) {
-    return "absence";
+    return "limits";
   }
   if (
     text.includes("platform footprint") ||
+    text.includes("presence") ||
     text.includes("facebook") ||
     text.includes("instagram") ||
     text.includes("bluesky") ||
@@ -254,7 +162,7 @@ function getTopicForParagraph(paragraph: string, index: number): OwnWordsTopic {
     text.includes("truth social") ||
     text.includes("linkedin")
   ) {
-    return "platform";
+    return "accounts";
   }
   if (
     text.includes("audience") ||
@@ -267,6 +175,12 @@ function getTopicForParagraph(paragraph: string, index: number): OwnWordsTopic {
     return "response";
   }
   if (
+    text.includes("commented") ||
+    text.includes("comment") ||
+    text.includes("reply") ||
+    text.includes("replies") ||
+    text.includes("follows") ||
+    text.includes("followers") ||
     text.includes("alignment") ||
     text.includes("amplification") ||
     text.includes("reposted") ||
@@ -274,30 +188,9 @@ function getTopicForParagraph(paragraph: string, index: number): OwnWordsTopic {
     text.includes("endorsed") ||
     text.includes("tagged")
   ) {
-    return "alignment";
+    return "interactions";
   }
-  if (
-    text.includes("ks-") ||
-    text.includes("district") ||
-    text.includes("kansas-specific") ||
-    text.includes("local") ||
-    text.includes("rural") ||
-    text.includes("hays") ||
-    text.includes("county")
-  ) {
-    return "local";
-  }
-  if (
-    text.includes("national") ||
-    text.includes("foreign") ||
-    text.includes("federal") ||
-    text.includes("congress") ||
-    text.includes("president") ||
-    text.includes("trump")
-  ) {
-    return "national";
-  }
-  return "record";
+  return "statements";
 }
 
 function getNarrativeCards(narrative: string): {
@@ -327,11 +220,11 @@ function getNarrativeCards(narrative: string): {
   return {
     summary,
     methodNotes,
-    cards: body.map((text, index) => {
-      const topic = getTopicForParagraph(text, index);
+    cards: body.map((text) => {
+      const topic = getTopicForParagraph(text);
       return {
         topic,
-        title: TOPIC_STYLES[topic].label,
+        title: SCRUB_TOPIC_STYLES[topic].label,
         text,
       };
     }),
@@ -349,9 +242,17 @@ function hostLabel(href: string) {
 }
 
 function renderPlainText(text: string, keyPrefix: string) {
-  const parts = text.split(/(\b\d+(?:,\d{3})*(?:\.\d+)?(?:\s+of\s+\d+(?:,\d{3})*)?(?:\s*(?:percent|%|likes|reposts|replies|views|posts|followers|items|pages))?)/g);
+  const parts = text.split(/("[^"]+"|\b\d+(?:,\d{3})*(?:\.\d+)?(?:\s+of\s+\d+(?:,\d{3})*)?(?:\s*(?:percent|%|likes|reposts|replies|views|posts|followers|items|pages))?)/g);
 
   return parts.map((part, index) => {
+    if (/^".+"$/.test(part)) {
+      return (
+        <strong key={`${keyPrefix}-quote-${index}`} className="font-heading font-bold text-navy">
+          {part}
+        </strong>
+      );
+    }
+
     if (/^\d/.test(part)) {
       return (
         <strong key={`${keyPrefix}-num-${index}`} className="font-heading font-bold text-navy">
@@ -424,26 +325,40 @@ function formatOwnWordsDate(date: string, style: "short" | "long" = "short") {
   }).format(new Date(date + "T12:00:00"));
 }
 
-function OwnWordsReader({
+function SocialPresenceScrub({
   candidateName,
   data,
 }: {
   candidateName: string;
   data: OwnWordsData;
 }) {
-  const [view, setView] = useState<"brief" | "deep" | "methods">("brief");
   const { summary, cards, methodNotes } = getNarrativeCards(data.narrative);
-  const visibleCards = view === "brief" ? cards.slice(0, 4) : cards;
-  const hiddenCount = Math.max(cards.length - visibleCards.length, 0);
+  const groupedCards = cards.reduce<Record<ScrubTopic, NarrativeCard[]>>(
+    (groups, card) => {
+      groups[card.topic].push(card);
+      return groups;
+    },
+    {
+      statements: [],
+      interactions: [],
+      response: [],
+      accounts: [],
+      limits: [],
+      method: [],
+    }
+  );
+  const sections = (Object.keys(groupedCards) as ScrubTopic[]).filter(
+    (topic) => groupedCards[topic].length > 0
+  );
 
   return (
-    <section aria-labelledby="own-words-heading" className="my-12">
+    <section aria-labelledby="presence-scrub-heading" className="my-12">
       <div
-        className="overflow-hidden rounded-xl border"
+        className="overflow-hidden rounded-lg border"
         style={{ borderColor: "rgba(16, 64, 93, 0.14)", backgroundColor: "#ffffff" }}
       >
-        <div className="p-5 sm:p-6" style={{ backgroundColor: "var(--color-navy)" }}>
-          <div className="flex flex-col gap-5 sm:flex-row sm:items-start sm:justify-between">
+        <div className="p-5 sm:p-6 lg:p-8" style={{ backgroundColor: "var(--color-navy)" }}>
+          <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_18rem] lg:items-start">
             <div>
               <p
                 className="font-heading text-xs font-bold uppercase tracking-widest"
@@ -452,18 +367,18 @@ function OwnWordsReader({
                 Public-posting readout
               </p>
               <h2
-                id="own-words-heading"
+                id="presence-scrub-heading"
                 className="mt-2 font-heading text-2xl font-bold text-white"
               >
-                In Their Own Words
+                Social Media & Online Presence Scrub
               </h2>
-              <p className="mt-3 max-w-2xl font-body text-sm leading-relaxed text-white/75">
+              <p className="mt-3 max-w-4xl font-body text-sm leading-relaxed text-white/75">
                 {summary ||
-                  `A structured summary of what ${candidateName} has publicly said, posted, and amplified.`}
+                  `Public posts, comments, account footprint, response signals, and source limits found for ${candidateName}.`}
               </p>
             </div>
 
-            <div className="grid min-w-fit grid-cols-2 gap-2 text-white sm:grid-cols-1">
+            <div className="grid grid-cols-2 gap-2 text-white lg:grid-cols-1">
               <div className="rounded-md bg-white/10 px-3 py-2">
                 <span className="block font-heading text-[0.65rem] font-bold uppercase tracking-wider text-white/55">
                   Sources
@@ -480,127 +395,178 @@ function OwnWordsReader({
               </div>
             </div>
           </div>
-
-          <div className="mt-6 flex flex-wrap gap-2" role="tablist" aria-label="In Their Own Words view">
-            {[
-              ["brief", "Brief"],
-              ["deep", "Deep Read"],
-              ["methods", "Methods"],
-            ].map(([id, label]) => (
-              <button
-                key={id}
-                type="button"
-                role="tab"
-                aria-selected={view === id}
-                onClick={() => setView(id as "brief" | "deep" | "methods")}
-                className="rounded-md px-4 py-2 font-heading text-xs font-bold uppercase tracking-wider transition-colors"
-                style={{
-                  backgroundColor: view === id ? "var(--color-teal)" : "rgba(255, 255, 255, 0.10)",
-                  color: "#fff",
-                }}
-              >
-                {label}
-              </button>
-            ))}
-          </div>
         </div>
 
-        {view !== "methods" ? (
-          <div className="p-4 sm:p-6">
-            <div className="grid gap-4">
-              {visibleCards.map((card, index) => {
-                const topic = TOPIC_STYLES[card.topic];
-                const Icon = topic.icon;
+        <div className="grid gap-4 p-4 sm:p-6 lg:grid-cols-2 lg:p-8">
+          {sections.map((topic, index) => {
+            const topicStyle = SCRUB_TOPIC_STYLES[topic];
+            const Icon = topicStyle.icon;
+            const topicCards = groupedCards[topic];
 
-                return (
-                  <article
-                    key={`${card.title}-${index}`}
-                    className="rounded-lg border bg-white p-4 sm:p-5"
-                    style={{ borderColor: "rgba(16, 64, 93, 0.12)" }}
-                  >
-                    <div className="mb-3 flex items-center gap-3">
-                      <span
-                        className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md"
-                        style={{ backgroundColor: topic.bg, color: topic.accent }}
-                        aria-hidden="true"
-                      >
-                        <Icon size={18} />
-                      </span>
-                      <h3
-                        className="font-heading text-sm font-bold uppercase tracking-widest"
-                        style={{ color: topic.accent }}
-                      >
-                        {card.title}
-                      </h3>
-                    </div>
-                    <p
-                      className="font-body text-base leading-relaxed sm:text-[1.05rem]"
-                      style={{ color: "var(--color-charcoal)" }}
-                    >
-                      <LinkedNarrativeText text={card.text} />
-                    </p>
-                  </article>
-                );
-              })}
-            </div>
-
-            {hiddenCount > 0 && (
-              <button
-                type="button"
-                onClick={() => setView("deep")}
-                className="mt-5 inline-flex items-center gap-2 rounded-md px-4 py-2 font-heading text-xs font-bold uppercase tracking-wider text-white transition-colors hover:bg-navy-light"
-                style={{ backgroundColor: "var(--color-navy)" }}
+            return (
+              <details
+                key={topic}
+                open={index < 2}
+                className="group rounded-lg border bg-white"
+                style={{ borderColor: "rgba(16, 64, 93, 0.12)" }}
               >
-                Show {hiddenCount} more sections
-                <ChevronRight size={14} aria-hidden="true" />
-              </button>
-            )}
-          </div>
-        ) : (
-          <div className="grid gap-4 p-4 sm:grid-cols-3 sm:p-6">
-            <div className="rounded-lg border p-4" style={{ borderColor: "#e2e8f0" }}>
-              <CalendarDays size={20} className="mb-3 text-teal" aria-hidden="true" />
-              <h3 className="font-heading text-xs font-bold uppercase tracking-widest text-navy">
-                Date Range
-              </h3>
-              <p className="mt-2 font-body text-sm leading-relaxed text-charcoal">
-                {formatOwnWordsDate(data.dateRangeStart)} to {formatOwnWordsDate(data.dateRangeEnd)}
-              </p>
-            </div>
-            <div className="rounded-lg border p-4 sm:col-span-2" style={{ borderColor: "#e2e8f0" }}>
-              <Radio size={20} className="mb-3 text-teal" aria-hidden="true" />
-              <h3 className="font-heading text-xs font-bold uppercase tracking-widest text-navy">
-                Platforms Covered
-              </h3>
-              <div className="mt-3 flex flex-wrap gap-2">
-                {data.platformsCovered.map((platform) => (
+                <summary className="flex cursor-pointer list-none items-center gap-3 p-4 sm:p-5">
                   <span
-                    key={platform}
-                    className="rounded-full px-2.5 py-1 font-heading text-[0.7rem] font-bold uppercase tracking-wider"
-                    style={{ backgroundColor: "rgba(28, 195, 175, 0.10)", color: "var(--color-teal-dark)" }}
+                    className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md"
+                    style={{ backgroundColor: topicStyle.bg, color: topicStyle.accent }}
+                    aria-hidden="true"
                   >
-                    {platform}
+                    <Icon size={18} />
                   </span>
+                  <span className="min-w-0 flex-1">
+                    <span
+                      className="block font-heading text-sm font-bold uppercase tracking-widest"
+                      style={{ color: topicStyle.accent }}
+                    >
+                      {topicStyle.label}
+                    </span>
+                    <span className="mt-1 block font-body text-xs text-slate">
+                      {topicCards.length} item{topicCards.length === 1 ? "" : "s"}
+                    </span>
+                  </span>
+                  <ChevronRight
+                    size={18}
+                    className="shrink-0 transition-transform group-open:rotate-90"
+                    aria-hidden="true"
+                  />
+                </summary>
+                <div className="border-t px-4 pb-4 sm:px-5 sm:pb-5" style={{ borderColor: "#e2e8f0" }}>
+                  <div className="divide-y" style={{ borderColor: "#e2e8f0" }}>
+                    {topicCards.map((card, cardIndex) => (
+                      <p
+                        key={`${card.title}-${cardIndex}`}
+                        className="py-4 font-body text-base leading-relaxed"
+                        style={{ color: "var(--color-charcoal)" }}
+                      >
+                        <LinkedNarrativeText text={card.text} />
+                      </p>
+                    ))}
+                  </div>
+                </div>
+              </details>
+            );
+          })}
+
+          <details
+            className="group rounded-lg border bg-white lg:col-span-2"
+            style={{ borderColor: "rgba(16, 64, 93, 0.12)" }}
+          >
+            <summary className="flex cursor-pointer list-none items-center gap-3 p-4 sm:p-5">
+              <CalendarDays size={20} className="shrink-0 text-teal" aria-hidden="true" />
+              <span className="min-w-0 flex-1 font-heading text-sm font-bold uppercase tracking-widest text-navy">
+                Sources, date range, and limits
+              </span>
+              <ChevronRight
+                size={18}
+                className="shrink-0 transition-transform group-open:rotate-90"
+                aria-hidden="true"
+              />
+            </summary>
+            <div className="grid gap-4 border-t p-4 sm:p-5 lg:grid-cols-[18rem_minmax(0,1fr)]" style={{ borderColor: "#e2e8f0" }}>
+              <div>
+                <h3 className="font-heading text-xs font-bold uppercase tracking-widest text-navy">
+                  Date Range
+                </h3>
+                <p className="mt-2 font-body text-sm leading-relaxed text-charcoal">
+                  {formatOwnWordsDate(data.dateRangeStart)} to {formatOwnWordsDate(data.dateRangeEnd)}
+                </p>
+                <h3 className="mt-5 font-heading text-xs font-bold uppercase tracking-widest text-navy">
+                  Platforms Covered
+                </h3>
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {data.platformsCovered.map((platform) => (
+                    <span
+                      key={platform}
+                      className="rounded-full px-2.5 py-1 font-heading text-[0.7rem] font-bold uppercase tracking-wider"
+                      style={{ backgroundColor: "rgba(28, 195, 175, 0.10)", color: "var(--color-teal-dark)" }}
+                    >
+                      {platform}
+                    </span>
+                  ))}
+                </div>
+              </div>
+              <div>
+                {[...methodNotes, data.disclaimer].map((note, index) => (
+                  <p
+                    key={index}
+                    className="mb-3 font-body text-sm leading-relaxed last:mb-0"
+                    style={{ color: "var(--color-slate)" }}
+                  >
+                    <LinkedNarrativeText text={note} />
+                  </p>
                 ))}
               </div>
             </div>
-            <div className="rounded-lg border p-4 sm:col-span-3" style={{ borderColor: "#e2e8f0" }}>
-              <FileText size={20} className="mb-3 text-teal" aria-hidden="true" />
-              <h3 className="font-heading text-xs font-bold uppercase tracking-widest text-navy">
-                Method Notes
-              </h3>
-              {[...methodNotes, data.disclaimer].map((note, index) => (
-                <p
-                  key={index}
-                  className="mt-2 font-body text-sm leading-relaxed"
-                  style={{ color: "var(--color-slate)" }}
-                >
-                  <LinkedNarrativeText text={note} />
+          </details>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function OwnWordsQuotes({
+  quotes,
+}: {
+  quotes: CandidateFull["quotes"];
+}) {
+  if (quotes.length === 0) {
+    return null;
+  }
+
+  return (
+    <section aria-labelledby="own-words-heading" className="my-12">
+      <div
+        className="rounded-lg border bg-white p-4 sm:p-6 lg:p-8"
+        style={{ borderColor: "rgba(16, 64, 93, 0.14)" }}
+      >
+        <h2 id="own-words-heading" className="font-heading text-2xl font-bold text-navy">
+          In Their Own Words
+        </h2>
+        <div className="mt-5 grid gap-4 lg:grid-cols-2">
+          {quotes.map((quote, index) => (
+            <figure
+              key={`${quote.text}-${index}`}
+              className="rounded-lg border p-4 sm:p-5"
+              style={{ borderColor: "#e2e8f0", backgroundColor: "#f8f9fa" }}
+            >
+              {quote.topic && (
+                <p className="mb-3 font-heading text-[0.7rem] font-bold uppercase tracking-widest text-teal-dark">
+                  {quote.topic}
                 </p>
-              ))}
-            </div>
-          </div>
-        )}
+              )}
+              <blockquote className="font-heading text-lg font-bold leading-snug text-navy">
+                &ldquo;{quote.text}&rdquo;
+              </blockquote>
+              <figcaption className="mt-4 flex flex-wrap items-center gap-2 font-body text-sm text-slate">
+                {quote.url ? (
+                  <a
+                    href={quote.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 rounded-full border px-2.5 py-1 font-heading text-[0.7rem] font-bold uppercase tracking-wider hover:bg-teal hover:text-white"
+                    style={{ borderColor: "rgba(28, 195, 175, 0.35)", color: "var(--color-teal-dark)" }}
+                    title={quote.source}
+                  >
+                    {hostLabel(quote.url)}
+                    <ExternalLink size={10} aria-hidden="true" />
+                  </a>
+                ) : (
+                  <span>{quote.source}</span>
+                )}
+                {quote.date && (
+                  <time dateTime={quote.date}>
+                    {formatOwnWordsDate(quote.date)}
+                  </time>
+                )}
+              </figcaption>
+            </figure>
+          ))}
+        </div>
       </div>
     </section>
   );
@@ -916,7 +882,8 @@ export default function CandidateDetailClient({
 
       {/* ── Article Body ─────────────────────────────────────────────────── */}
       <div className="bg-white">
-        <div className="max-w-2xl mx-auto px-4 sm:px-6 py-12">
+        <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-5xl">
 
           {/* ── Key Facts Box ───────────────────────────────────────────── */}
           {glanceFacts.length > 0 && (
@@ -1014,21 +981,29 @@ export default function CandidateDetailClient({
           {candidate.theirRecord && (
             <>
               <SectionDivider />
-              <SectionHeading>Their Record</SectionHeading>
+              <SectionHeading>Their Record Summary</SectionHeading>
               {candidate.theirRecord.split("\n\n").map((paragraph, i) => (
                 <BodyText key={i}>{paragraph}</BodyText>
               ))}
             </>
           )}
 
-          {/* ── In Their Own Words (social media narrative) ─────────── */}
+          {/* ── Social Media & Online Presence Scrub ─────────────────── */}
           {candidate.inTheirOwnWords && (
             <>
               <SectionDivider />
-              <OwnWordsReader
+              <SocialPresenceScrub
                 candidateName={candidate.name}
                 data={candidate.inTheirOwnWords}
               />
+            </>
+          )}
+
+          {/* ── In Their Own Words ───────────────────────────────────── */}
+          {candidate.quotes.length > 0 && (
+            <>
+              <SectionDivider />
+              <OwnWordsQuotes quotes={candidate.quotes} />
             </>
           )}
 
@@ -1066,26 +1041,6 @@ export default function CandidateDetailClient({
                   </div>
                 ))}
               </dl>
-            </>
-          )}
-
-          {/* ── Direct Quotes ───────────────────────────────────────────── */}
-          {candidate.quotes.length > 0 && (
-            <>
-              <SectionDivider />
-              <SectionHeading>Direct Quotes</SectionHeading>
-              <div>
-                {candidate.quotes.map((q, i) => (
-                  <PullQuote
-                    key={i}
-                    text={q.text}
-                    source={q.source}
-                    date={q.date}
-                    url={q.url}
-                    topic={q.topic}
-                  />
-                ))}
-              </div>
             </>
           )}
 
@@ -1266,6 +1221,7 @@ export default function CandidateDetailClient({
                 <ChevronRight size={15} aria-hidden="true" />
               </Link>
             )}
+          </div>
           </div>
         </div>
       </div>
