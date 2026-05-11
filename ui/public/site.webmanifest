@@ -1,0 +1,22 @@
+{
+  "name": "Elect Righteous",
+  "short_name": "Elect Righteous",
+  "description": "Source-cited candidate research for Kansas voters.",
+  "start_url": "/elect-righteous/",
+  "scope": "/elect-righteous/",
+  "display": "standalone",
+  "background_color": "#10405D",
+  "theme_color": "#10405D",
+  "icons": [
+    {
+      "src": "/elect-righteous/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/elect-righteous/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

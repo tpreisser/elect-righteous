@@ -65,9 +65,9 @@ export default function BuiltByBadge() {
           className="rounded-md flex-shrink-0 w-5 h-5 sm:w-[30px] sm:h-[30px]"
           aria-hidden="true"
         />
-        <div className="flex flex-col leading-tight min-w-0">
+        <div className="flex min-w-0 max-w-[72vw] flex-col leading-tight sm:max-w-none">
           <span
-            className={`text-[11px] sm:text-[13px] font-heading font-bold text-white tracking-wide group-hover:text-teal transition-all duration-300 whitespace-nowrap ${
+            className={`text-[11px] sm:text-[13px] font-heading font-bold text-white tracking-wide group-hover:text-teal transition-all duration-300 whitespace-normal leading-tight sm:whitespace-nowrap ${
               animating ? "opacity-0 -translate-y-1" : "opacity-100 translate-y-0"
             }`}
           >

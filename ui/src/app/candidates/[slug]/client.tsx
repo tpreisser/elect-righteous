@@ -1190,8 +1190,8 @@ export default function CandidateDetailClient({
 
               {/* Donor Table */}
               {candidate.campaignFinance.donors && candidate.campaignFinance.donors.length > 0 && (
-                <div className="my-8 overflow-hidden rounded-lg border" style={{ borderColor: "#e2e8f0" }}>
-                  <table className="w-full text-sm">
+                <div className="my-8 overflow-x-auto rounded-lg border" style={{ borderColor: "#e2e8f0" }}>
+                  <table className="w-full min-w-[28rem] text-sm">
                     <thead>
                       <tr style={{ backgroundColor: "#f8f9fa" }}>
                         <th className="text-left px-5 py-3 font-heading font-bold text-xs uppercase tracking-widest" style={{ color: "var(--color-navy)" }}>Donor</th>
