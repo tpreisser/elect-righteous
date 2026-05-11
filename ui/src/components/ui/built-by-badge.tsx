@@ -3,12 +3,12 @@
 import { useState, useEffect, useRef } from "react";
 
 const HOOKS = [
-  "Custom Websites, Marketing & AI",
-  "Premium Custom Software, Built in Kansas",
-  "Websites, Apps, Automation & Dashboards",
-  "Need Busywork Turned Into Software?",
-  "No Templates. No Offshore Handoffs.",
-  "Built From Scratch by Preisser Tech",
+  "Custom Business Automation",
+  "AI Workflow Systems",
+  "Back-Office Tasks, Automated",
+  "Hands-Free Marketing Engines",
+  "Outreach & Inventory Tools",
+  "Built Around Your Business",
 ];
 
 // First loop: 2.5s, second loop: 5s, then 7s forever
@@ -47,7 +47,7 @@ export default function BuiltByBadge() {
   return (
     <div className="fixed bottom-3 left-3 sm:bottom-5 sm:left-5 z-50 no-print max-w-[calc(100vw-1.5rem)] sm:max-w-none">
       <a
-        href="https://preissertech.com"
+        href="https://www.preissersolutions.com/"
         target="_blank"
         rel="noopener noreferrer"
         className="group flex items-center gap-2 sm:gap-3 pl-2.5 sm:pl-3 pr-3 sm:pr-4 py-2 sm:py-2.5 rounded-lg sm:rounded-xl shadow-lg sm:shadow-xl backdrop-blur-md transition-all duration-300 hover:shadow-2xl hover:scale-[1.04]"
@@ -55,7 +55,7 @@ export default function BuiltByBadge() {
           backgroundColor: "rgba(16, 64, 93, 0.95)",
           border: "1px solid rgba(28, 195, 175, 0.25)",
         }}
-        aria-label="Visit Preisser Tech — custom websites, marketing systems, and AI built in Kansas"
+        aria-label="Visit Preisser Tech — custom business automation and AI workflow systems"
       >
         <img
           src={`${basePath}/preisser-tech-logo.webp`}

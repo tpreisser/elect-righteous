@@ -158,11 +158,11 @@ export default function SiteFooter() {
       >
         <Container>
           <a
-            href="https://preissertech.com"
+            href="https://www.preissersolutions.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex flex-col sm:flex-row items-center justify-between gap-5 py-8 sm:py-6"
-            aria-label="Visit Preisser Tech — custom websites, marketing systems, and AI built in Kansas"
+            aria-label="Visit Preisser Tech — custom business automation and AI workflow systems"
           >
             {/* Left: Logo + messaging */}
             <div className="flex items-center gap-4">
@@ -183,7 +183,7 @@ export default function SiteFooter() {
                   className="text-sm font-body leading-snug"
                   style={{ color: "rgba(246, 246, 246, 0.65)" }}
                 >
-                  Built by Preisser Tech, a Hays-based custom software and AI firm. We build websites, apps, automation systems, AI agents, and dashboards from scratch for Kansas businesses.
+                  Built by Preisser Tech, a Hays-based automation partner. We build custom AI systems, back-office workflows, automated outreach, inventory tools, and hands-free marketing engines around how your business actually works.
                 </span>
               </div>
             </div>
