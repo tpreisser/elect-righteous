@@ -34,28 +34,44 @@ function ProfileSection({
   kicker,
   children,
   className = "",
+  defaultOpen = false,
 }: {
   title: string;
   kicker?: string;
   children: React.ReactNode;
   className?: string;
+  defaultOpen?: boolean;
 }) {
   return (
-    <section className={`my-12 overflow-hidden rounded-lg border bg-white ${className}`} style={{ borderColor: "rgba(16, 64, 93, 0.14)" }}>
-      <div className="border-b p-5 sm:p-6 lg:p-7" style={{ borderColor: "#e2e8f0", backgroundColor: "#f8f9fa" }}>
-        {kicker && (
-          <p className="font-heading text-xs font-bold uppercase tracking-widest text-teal-dark">
-            {kicker}
-          </p>
-        )}
-        <h2 className="mt-1 font-heading text-2xl font-bold text-navy">
-          {title}
-        </h2>
-      </div>
+    <details
+      className={`group my-12 overflow-hidden rounded-lg border bg-white ${className}`}
+      style={{ borderColor: "rgba(16, 64, 93, 0.14)" }}
+      open={defaultOpen}
+    >
+      <summary
+        className="flex cursor-pointer list-none items-center gap-4 border-b p-5 sm:p-6 lg:p-7"
+        style={{ borderColor: "#e2e8f0", backgroundColor: "#f8f9fa" }}
+      >
+        <span className="min-w-0 flex-1">
+          {kicker && (
+            <span className="block font-heading text-xs font-bold uppercase tracking-widest text-teal-dark">
+              {kicker}
+            </span>
+          )}
+          <span className="mt-1 block font-heading text-2xl font-bold text-navy">
+            {title}
+          </span>
+        </span>
+        <ChevronRight
+          size={20}
+          className="shrink-0 text-navy transition-transform group-open:rotate-90"
+          aria-hidden="true"
+        />
+      </summary>
       <div className="p-5 sm:p-6 lg:p-7">
         {children}
       </div>
-    </section>
+    </details>
   );
 }
 
@@ -286,6 +302,24 @@ function extractSourceLinks(text: string) {
   }));
 }
 
+function shortenContext(text: string, maxLength = 185) {
+  const cleaned = text.replace(/\s+/g, " ").trim();
+  if (cleaned.length <= maxLength) return cleaned;
+
+  const sentenceEnd = cleaned.slice(0, maxLength).search(/[.!?](?=\s|$)(?!.*[.!?](?=\s|$))/);
+  if (sentenceEnd > 60) {
+    return cleaned.slice(0, sentenceEnd + 1);
+  }
+
+  const lastBreak = Math.max(
+    cleaned.lastIndexOf("; ", maxLength),
+    cleaned.lastIndexOf(", ", maxLength),
+    cleaned.lastIndexOf(" ", maxLength)
+  );
+  const end = lastBreak > 60 ? lastBreak : maxLength;
+  return `${cleaned.slice(0, end).replace(/[,\s]+$/g, "")}...`;
+}
+
 function getQuoteContext(paragraph: string, quoteWithMarks: string) {
   const [before, after = ""] = paragraph.split(quoteWithMarks);
   const sourceFreeBefore = stripMarkdown(before)
@@ -297,11 +331,11 @@ function getQuoteContext(paragraph: string, quoteWithMarks: string) {
     .trim();
 
   if (sourceFreeBefore.length > 18) {
-    return sourceFreeBefore.slice(-180);
+    return shortenContext(sourceFreeBefore);
   }
 
   if (sourceFreeAfter.length > 18) {
-    return sourceFreeAfter.slice(0, 180);
+    return shortenContext(sourceFreeAfter);
   }
 
   return "Publicly attributed statement from the harvested source set.";
@@ -463,7 +497,7 @@ function SocialPresenceScrub({
     }
   );
   const sections = (Object.keys(groupedCards) as ScrubTopic[]).filter(
-    (topic) => topic !== "statements" && groupedCards[topic].length > 0
+    (topic) => topic !== "statements" && topic !== "context" && groupedCards[topic].length > 0
   );
 
   return (
@@ -515,7 +549,6 @@ function SocialPresenceScrub({
         <div className="grid gap-4 p-4 sm:p-6 lg:grid-cols-2 lg:p-8">
           {verbatimItems.length > 0 && (
             <details
-              open
               className="group rounded-lg border bg-white lg:col-span-2"
               style={{ borderColor: "rgba(16, 64, 93, 0.12)" }}
             >
@@ -593,7 +626,6 @@ function SocialPresenceScrub({
             return (
               <details
                 key={topic}
-                open={verbatimItems.length === 0 && index < 2}
                 className="group rounded-lg border bg-white"
                 style={{ borderColor: "rgba(16, 64, 93, 0.12)" }}
               >
