@@ -3,12 +3,12 @@
 import { useState, useEffect, useRef } from "react";
 
 const HOOKS = [
-  "Websites, Apps & AI — Built in Kansas",
-  "Does Your Business Need a Better Website?",
-  "Wish Your Systems Talked to Each Other?",
-  "What If the Busywork Did Itself?",
-  "We Make Your Systems Work Together",
-  "Stop Copy-Pasting Between Programs",
+  "Custom Websites, Marketing & AI",
+  "Premium Custom Software, Built in Kansas",
+  "Websites, Apps, Automation & Dashboards",
+  "Need Busywork Turned Into Software?",
+  "No Templates. No Offshore Handoffs.",
+  "Built From Scratch by Preisser Tech",
 ];
 
 // First loop: 2.5s, second loop: 5s, then 7s forever
@@ -55,7 +55,7 @@ export default function BuiltByBadge() {
           backgroundColor: "rgba(16, 64, 93, 0.95)",
           border: "1px solid rgba(28, 195, 175, 0.25)",
         }}
-        aria-label="Visit Preisser Tech — custom websites, apps, and AI for Kansas businesses"
+        aria-label="Visit Preisser Tech — custom websites, marketing systems, and AI built in Kansas"
       >
         <img
           src={`${basePath}/preisser-tech-logo.webp`}

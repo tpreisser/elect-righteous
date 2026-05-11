@@ -162,7 +162,7 @@ export default function SiteFooter() {
             target="_blank"
             rel="noopener noreferrer"
             className="group flex flex-col sm:flex-row items-center justify-between gap-5 py-8 sm:py-6"
-            aria-label="Visit Preisser Tech — custom websites, apps, and AI for Kansas businesses"
+            aria-label="Visit Preisser Tech — custom websites, marketing systems, and AI built in Kansas"
           >
             {/* Left: Logo + messaging */}
             <div className="flex items-center gap-4">
@@ -183,7 +183,7 @@ export default function SiteFooter() {
                   className="text-sm font-body leading-snug"
                   style={{ color: "rgba(246, 246, 246, 0.65)" }}
                 >
-                  We designed &amp; built this site. Need a website, an app, or help getting your business online? We&apos;re right here in Kansas.
+                  Built by Preisser Tech, a Hays-based custom software and AI firm. We build websites, apps, automation systems, AI agents, and dashboards from scratch for Kansas businesses.
                 </span>
               </div>
             </div>
@@ -195,7 +195,7 @@ export default function SiteFooter() {
                 backgroundColor: "var(--color-teal)",
               }}
             >
-              Get in Touch
+              Talk to Tyler
               <svg
                 className="w-4 h-4 group-hover:translate-x-0.5 transition-transform duration-300"
                 fill="none"
