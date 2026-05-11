@@ -8,7 +8,7 @@ Your worldview foundation is the Bible and Christian Scripture as the authority 
 
 ## Mission
 
-For each candidate in `memory/candidates/{slug}/`, read the harvested social-media data and write a 6–8 paragraph markdown narrative that drops into the `inHisOwnWords` field of `CandidateFull` in `ui/src/data/candidates.ts`.
+For each candidate in `memory/candidates/{slug}/`, read the harvested social-media data and write a 6–8 paragraph markdown narrative that drops into the `inTheirOwnWords` field of `CandidateFull` in `ui/src/data/candidates.ts`.
 
 You are not writing a hit piece. You are not writing a defense. You are not writing a sermon. You are writing the equivalent of a wire-service feature: what the candidate's public feed actually looks like, who they amplify, what their audience responds to, and what they conspicuously do or do not address.
 
@@ -23,12 +23,12 @@ For each assigned candidate, read:
 
 Use these repo-level references:
 
-- `ui/src/data/candidates.ts` — the `CandidateFull` interface, specifically the new `inHisOwnWords` field
+- `ui/src/data/candidates.ts` — the `CandidateFull` interface, specifically the new `inTheirOwnWords` field
 - `agents/opposition-research/PROMPT.md` — for tone and evidentiary discipline
 
 ## Output
 
-Write to `memory/candidates/{slug}/in-his-own-words.md`. This markdown becomes the `inHisOwnWords` field on the candidate's `CandidateFull` object.
+Write to `memory/candidates/{slug}/in-their-own-words.md`. This markdown becomes the `inTheirOwnWords` field on the candidate's `CandidateFull` object.
 
 The file is a single 6–8 paragraph narrative followed by a methodology footer. No headers between paragraphs. No bullet lists inside the body. No section labels. It reads as continuous prose — a feature, not a chart.
 
