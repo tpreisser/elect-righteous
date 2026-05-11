@@ -130,28 +130,28 @@ export default function HomePage() {
                 View All Candidates
               </Link>
             </div>
-          </div>
 
-          {/* Scroll indicator */}
-          <a
-            href="#elections"
-            className="absolute bottom-60 left-1/2 -translate-x-1/2 z-10"
-            aria-label="Scroll down"
-          >
-            <svg
-              width="28"
-              height="28"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="rgba(255,255,255,0.45)"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="animate-bounce"
+            {/* Scroll indicator */}
+            <a
+              href="#elections"
+              className="mt-8 inline-flex h-10 w-10 items-center justify-center text-white/45 transition-colors duration-200 hover:text-white/70 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal"
+              aria-label="Scroll down"
             >
-              <path d="M12 5v14M5 12l7 7 7-7" />
-            </svg>
-          </a>
+              <svg
+                width="28"
+                height="28"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="animate-bounce"
+              >
+                <path d="M12 5v14M5 12l7 7 7-7" />
+              </svg>
+            </a>
+          </div>
         </section>
 
         {/* ── ELECTION CATEGORIES ───────────────────────────────────── */}
