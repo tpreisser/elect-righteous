@@ -148,7 +148,7 @@ export default function SiteFooter() {
         </div>
       </Container>
 
-      {/* Preisser Solutions CTA Banner */}
+      {/* Preisser Tech CTA Banner */}
       <div
         className="border-t border-b"
         style={{
@@ -158,17 +158,17 @@ export default function SiteFooter() {
       >
         <Container>
           <a
-            href="https://preissersolutions.com"
+            href="https://preissertech.com"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex flex-col sm:flex-row items-center justify-between gap-5 py-8 sm:py-6"
-            aria-label="Visit Preisser Solutions — custom websites, apps, and AI for Kansas businesses"
+            aria-label="Visit Preisser Tech — custom websites, apps, and AI for Kansas businesses"
           >
             {/* Left: Logo + messaging */}
             <div className="flex items-center gap-4">
               <img
-                src={`${process.env.NODE_ENV === "production" ? "/elect-righteous" : ""}/preisser-solutions-logo.webp`}
-                alt="Preisser Solutions"
+                src={`${process.env.NODE_ENV === "production" ? "/elect-righteous" : ""}/preisser-tech-logo.webp`}
+                alt="Preisser Tech"
                 width={44}
                 height={44}
                 className="rounded-md flex-shrink-0 group-hover:scale-105 transition-transform duration-300"
@@ -177,7 +177,7 @@ export default function SiteFooter() {
                 <span
                   className="font-heading font-bold text-base sm:text-lg tracking-wide text-white group-hover:text-teal transition-colors duration-300"
                 >
-                  Preisser Solutions
+                  Preisser Tech
                 </span>
                 <span
                   className="text-sm font-body leading-snug"

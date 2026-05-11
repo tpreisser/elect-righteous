@@ -36,6 +36,21 @@ export interface Quote {
   topic?: string;
 }
 
+export interface OwnWordsSection {
+  /** Markdown-formatted narrative, 6–8 paragraphs synthesizing public social posts */
+  narrative: string;
+  /** ISO date of the last agent harvest that produced this section — YYYY-MM-DD */
+  lastUpdated: string;
+  /** Social / media platforms scraped for this harvest */
+  platformsCovered: string[];
+  /** ISO date — start of the harvest window */
+  dateRangeStart: string;
+  /** ISO date — end of the harvest window */
+  dateRangeEnd: string;
+  /** Standard reader disclaimer shown below the narrative */
+  disclaimer: string;
+}
+
 export interface CandidateCard {
   slug: string;
   name: string;
@@ -67,6 +82,8 @@ export interface CandidateFull extends CandidateCard {
   whereTheyWorship: string;
   church?: ChurchInfo;
   quotes: Quote[];
+  /** Social-media narrative section — rendered only when present */
+  inTheirOwnWords?: OwnWordsSection;
   campaignFinance?: CampaignFinance;
   sources: Source[];
 }
@@ -155,6 +172,17 @@ Key legislation Mann has supported includes the Secure the Border Act, the REIN 
     denomination: "Evangelical Covenant Church",
     url: "https://fccsalina.com/",
     details: "Salina, Kansas. Mann was active in faith-oriented leadership before Congress, serving as Senior Program Director for the National Student Leadership Forum on Faith and Values. He co-chaired the National Prayer Breakfast in 2023 and 2024.",
+  },
+
+  // In Their Own Words
+  inTheirOwnWords: {
+    narrative: `Narrative pending harvest. This section will be populated after the social-media harvest agent completes a full pass of Tracey Mann's public posts on X, Facebook, YouTube, and Instagram.`,
+    lastUpdated: "2026-05-11",
+    platformsCovered: ["X", "Facebook", "YouTube", "Instagram"],
+    dateRangeStart: "2021-01-01",
+    dateRangeEnd: "2026-05-11",
+    disclaimer:
+      "This section summarizes patterns observed in publicly available social media posts and public statements. We report what was said; we do not interpret intent. All quoted material is verbatim from public sources. This is not a complete record of every post.",
   },
 
   // Finance

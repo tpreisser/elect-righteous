@@ -537,6 +537,105 @@ export default function CandidateDetailClient({
             </>
           )}
 
+          {/* ── In Their Own Words (social media narrative) ─────────── */}
+          {candidate.inTheirOwnWords && (
+            <>
+              <SectionDivider />
+              <section aria-labelledby="own-words-heading">
+                <SectionHeading>
+                  <span id="own-words-heading">In Their Own Words</span>
+                </SectionHeading>
+                <p
+                  className="font-body text-sm mb-6 leading-relaxed"
+                  style={{ color: "var(--color-slate)", fontStyle: "italic" }}
+                >
+                  A summary of what {candidate.name.split(" ")[0]} has publicly said, posted, and
+                  amplified across social media. Drawn from public posts. We report patterns; we do
+                  not interpret intent.
+                </p>
+
+                {/* Narrative paragraphs */}
+                <div className="mb-8">
+                  {candidate.inTheirOwnWords.narrative.split("\n\n").map((paragraph, i) => (
+                    <BodyText key={i}>{paragraph}</BodyText>
+                  ))}
+                </div>
+
+                {/* Section footer — metadata + disclaimer */}
+                <div
+                  className="rounded-xl p-5 sm:p-6"
+                  style={{ backgroundColor: "#f8f9fa", border: "1px solid #e2e8f0" }}
+                >
+                  {/* Platforms + date range row */}
+                  <dl className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-4">
+                    <div>
+                      <dt
+                        className="font-heading font-bold text-xs uppercase tracking-widest mb-1"
+                        style={{ color: "var(--color-teal-dark)" }}
+                      >
+                        Platforms Covered
+                      </dt>
+                      <dd
+                        className="font-body text-sm"
+                        style={{ color: "var(--color-charcoal)" }}
+                      >
+                        {candidate.inTheirOwnWords.platformsCovered.join(", ")}
+                      </dd>
+                    </div>
+                    <div>
+                      <dt
+                        className="font-heading font-bold text-xs uppercase tracking-widest mb-1"
+                        style={{ color: "var(--color-teal-dark)" }}
+                      >
+                        Date Range
+                      </dt>
+                      <dd
+                        className="font-body text-sm"
+                        style={{ color: "var(--color-charcoal)" }}
+                      >
+                        {new Intl.DateTimeFormat("en-US", { month: "short", year: "numeric" }).format(
+                          new Date(candidate.inTheirOwnWords.dateRangeStart + "T12:00:00")
+                        )}
+                        {" — "}
+                        {new Intl.DateTimeFormat("en-US", { month: "short", year: "numeric" }).format(
+                          new Date(candidate.inTheirOwnWords.dateRangeEnd + "T12:00:00")
+                        )}
+                      </dd>
+                    </div>
+                    <div>
+                      <dt
+                        className="font-heading font-bold text-xs uppercase tracking-widest mb-1"
+                        style={{ color: "var(--color-teal-dark)" }}
+                      >
+                        Last Updated
+                      </dt>
+                      <dd
+                        className="font-body text-sm"
+                        style={{ color: "var(--color-charcoal)" }}
+                      >
+                        {new Intl.DateTimeFormat("en-US", {
+                          month: "long",
+                          day: "numeric",
+                          year: "numeric",
+                        }).format(
+                          new Date(candidate.inTheirOwnWords.lastUpdated + "T12:00:00")
+                        )}
+                      </dd>
+                    </div>
+                  </dl>
+
+                  {/* Disclaimer */}
+                  <p
+                    className="font-body text-xs leading-relaxed"
+                    style={{ color: "var(--color-slate)", borderTop: "1px solid #e2e8f0", paddingTop: "1rem" }}
+                  >
+                    {candidate.inTheirOwnWords.disclaimer}
+                  </p>
+                </div>
+              </section>
+            </>
+          )}
+
           {/* ── What They Stand For ──────────────────────────────────── */}
           {candidate.whatTheyStandFor && candidate.whatTheyStandFor.length > 0 && (
             <>
@@ -574,11 +673,11 @@ export default function CandidateDetailClient({
             </>
           )}
 
-          {/* ── In Their Own Words ──────────────────────────────────────── */}
+          {/* ── Direct Quotes ───────────────────────────────────────────── */}
           {candidate.quotes.length > 0 && (
             <>
               <SectionDivider />
-              <SectionHeading>In Their Own Words</SectionHeading>
+              <SectionHeading>Direct Quotes</SectionHeading>
               <div>
                 {candidate.quotes.map((q, i) => (
                   <PullQuote
