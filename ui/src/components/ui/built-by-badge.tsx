@@ -47,7 +47,7 @@ export default function BuiltByBadge() {
   return (
     <div className="fixed bottom-3 left-3 sm:bottom-5 sm:left-5 z-50 no-print max-w-[calc(100vw-1.5rem)] sm:max-w-none">
       <a
-        href="https://www.preissersolutions.com/"
+        href="https://www.preissertech.com/"
         target="_blank"
         rel="noopener noreferrer"
         className="group flex items-center gap-2 sm:gap-3 pl-2.5 sm:pl-3 pr-3 sm:pr-4 py-2 sm:py-2.5 rounded-lg sm:rounded-xl shadow-lg sm:shadow-xl backdrop-blur-md transition-all duration-300 hover:shadow-2xl hover:scale-[1.04]"
@@ -55,7 +55,7 @@ export default function BuiltByBadge() {
           backgroundColor: "rgba(16, 64, 93, 0.95)",
           border: "1px solid rgba(28, 195, 175, 0.25)",
         }}
-        aria-label="Visit Preisser Tech - AI-powered marketing, websites, and automation for Kansas businesses"
+        aria-label="Visit PreisserTech - AI-powered marketing, websites, and automation for Kansas businesses"
       >
         <img
           src={`${basePath}/preisser-tech-logo.webp`}
@@ -74,7 +74,7 @@ export default function BuiltByBadge() {
             {HOOKS[index]}
           </span>
           <span className="text-[9px] sm:text-[11px] font-body text-white/55">
-            <span className="font-semibold text-white/70">Preisser Tech</span> <span className="hidden sm:inline">- Hays, KS</span>
+            <span className="font-semibold text-white/70">PreisserTech</span> <span className="hidden sm:inline">- Hays, KS</span>
           </span>
         </div>
 
