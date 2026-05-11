@@ -16,39 +16,56 @@ import {
 } from "lucide-react";
 import type { CandidateFull, OwnWordsSection as OwnWordsData } from "@/data/candidates";
 
-// ─── Section Divider ─────────────────────────────────────────────────────────
-
-function SectionDivider() {
-  return <div className="border-t my-12" style={{ borderColor: "#e2e8f0" }} />;
-}
-
-// ─── Article Section Heading ─────────────────────────────────────────────────
-
-function SectionHeading({ children }: { children: React.ReactNode }) {
-  return (
-    <h2
-      className="font-heading font-bold mt-12 mb-4"
-      style={{
-        fontSize: "1.375rem",
-        color: "var(--color-navy)",
-        letterSpacing: "-0.01em",
-      }}
-    >
-      {children}
-    </h2>
-  );
-}
-
 // ─── Body Paragraph ──────────────────────────────────────────────────────────
 
 function BodyText({ children }: { children: React.ReactNode }) {
   return (
     <p
-      className="font-body leading-relaxed mb-5"
+      className="font-body leading-relaxed"
       style={{ fontSize: "1.125rem", color: "var(--color-charcoal)" }}
     >
       {children}
     </p>
+  );
+}
+
+function ProfileSection({
+  title,
+  kicker,
+  children,
+  className = "",
+}: {
+  title: string;
+  kicker?: string;
+  children: React.ReactNode;
+  className?: string;
+}) {
+  return (
+    <section className={`my-12 overflow-hidden rounded-lg border bg-white ${className}`} style={{ borderColor: "rgba(16, 64, 93, 0.14)" }}>
+      <div className="border-b p-5 sm:p-6 lg:p-7" style={{ borderColor: "#e2e8f0", backgroundColor: "#f8f9fa" }}>
+        {kicker && (
+          <p className="font-heading text-xs font-bold uppercase tracking-widest text-teal-dark">
+            {kicker}
+          </p>
+        )}
+        <h2 className="mt-1 font-heading text-2xl font-bold text-navy">
+          {title}
+        </h2>
+      </div>
+      <div className="p-5 sm:p-6 lg:p-7">
+        {children}
+      </div>
+    </section>
+  );
+}
+
+function ParagraphStack({ text }: { text: string }) {
+  return (
+    <div className="grid gap-5">
+      {text.split("\n\n").map((paragraph, index) => (
+        <BodyText key={index}>{paragraph}</BodyText>
+      ))}
+    </div>
   );
 }
 
@@ -509,69 +526,6 @@ function SocialPresenceScrub({
   );
 }
 
-function OwnWordsQuotes({
-  quotes,
-}: {
-  quotes: CandidateFull["quotes"];
-}) {
-  if (quotes.length === 0) {
-    return null;
-  }
-
-  return (
-    <section aria-labelledby="own-words-heading" className="my-12">
-      <div
-        className="rounded-lg border bg-white p-4 sm:p-6 lg:p-8"
-        style={{ borderColor: "rgba(16, 64, 93, 0.14)" }}
-      >
-        <h2 id="own-words-heading" className="font-heading text-2xl font-bold text-navy">
-          In Their Own Words
-        </h2>
-        <div className="mt-5 grid gap-4 lg:grid-cols-2">
-          {quotes.map((quote, index) => (
-            <figure
-              key={`${quote.text}-${index}`}
-              className="rounded-lg border p-4 sm:p-5"
-              style={{ borderColor: "#e2e8f0", backgroundColor: "#f8f9fa" }}
-            >
-              {quote.topic && (
-                <p className="mb-3 font-heading text-[0.7rem] font-bold uppercase tracking-widest text-teal-dark">
-                  {quote.topic}
-                </p>
-              )}
-              <blockquote className="font-heading text-lg font-bold leading-snug text-navy">
-                &ldquo;{quote.text}&rdquo;
-              </blockquote>
-              <figcaption className="mt-4 flex flex-wrap items-center gap-2 font-body text-sm text-slate">
-                {quote.url ? (
-                  <a
-                    href={quote.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1 rounded-full border px-2.5 py-1 font-heading text-[0.7rem] font-bold uppercase tracking-wider hover:bg-teal hover:text-white"
-                    style={{ borderColor: "rgba(28, 195, 175, 0.35)", color: "var(--color-teal-dark)" }}
-                    title={quote.source}
-                  >
-                    {hostLabel(quote.url)}
-                    <ExternalLink size={10} aria-hidden="true" />
-                  </a>
-                ) : (
-                  <span>{quote.source}</span>
-                )}
-                {quote.date && (
-                  <time dateTime={quote.date}>
-                    {formatOwnWordsDate(quote.date)}
-                  </time>
-                )}
-              </figcaption>
-            </figure>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
 // ─── Correction Form ────────────────────────────────────────────────────────
 
 function CorrectionForm({
@@ -969,62 +923,42 @@ export default function CandidateDetailClient({
 
           {/* ── Who They Are ────────────────────────────────────────────── */}
           {candidate.whoTheyAre && (
-            <>
-              <SectionHeading>Who They Are</SectionHeading>
-              {candidate.whoTheyAre.split("\n\n").map((paragraph, i) => (
-                <BodyText key={i}>{paragraph}</BodyText>
-              ))}
-            </>
+            <ProfileSection title="Who They Are" kicker="Background">
+              <ParagraphStack text={candidate.whoTheyAre} />
+            </ProfileSection>
           )}
 
           {/* ── Their Record ────────────────────────────────────────────── */}
           {candidate.theirRecord && (
-            <>
-              <SectionDivider />
-              <SectionHeading>Their Record Summary</SectionHeading>
-              {candidate.theirRecord.split("\n\n").map((paragraph, i) => (
-                <BodyText key={i}>{paragraph}</BodyText>
-              ))}
-            </>
+            <ProfileSection title="Their Record Summary" kicker="Public record">
+              <ParagraphStack text={candidate.theirRecord} />
+            </ProfileSection>
           )}
 
           {/* ── Social Media & Online Presence Scrub ─────────────────── */}
           {candidate.inTheirOwnWords && (
-            <>
-              <SectionDivider />
-              <SocialPresenceScrub
-                candidateName={candidate.name}
-                data={candidate.inTheirOwnWords}
-              />
-            </>
-          )}
-
-          {/* ── In Their Own Words ───────────────────────────────────── */}
-          {candidate.quotes.length > 0 && (
-            <>
-              <SectionDivider />
-              <OwnWordsQuotes quotes={candidate.quotes} />
-            </>
+            <SocialPresenceScrub
+              candidateName={candidate.name}
+              data={candidate.inTheirOwnWords}
+            />
           )}
 
           {/* ── What They Stand For ──────────────────────────────────── */}
           {candidate.whatTheyStandFor && candidate.whatTheyStandFor.length > 0 && (
-            <>
-              <SectionDivider />
-              <SectionHeading>What They Stand For</SectionHeading>
+            <ProfileSection title="What They Stand For" kicker="Issue positions">
               <p
-                className="font-body text-sm mb-6 leading-relaxed"
+                className="font-body text-sm leading-relaxed"
                 style={{ color: "var(--color-slate)", fontStyle: "italic" }}
               >
                 Based on public statements, voting record, and campaign materials.
                 When a candidate has not taken a clear public position, we say so.
               </p>
-              <dl className="flex flex-col gap-5 mb-5">
+              <dl className="mt-6 grid gap-4 lg:grid-cols-2">
                 {candidate.whatTheyStandFor.map((item, i) => (
                   <div
                     key={i}
-                    className="rounded-lg p-4"
-                    style={{ backgroundColor: "#f8f9fa" }}
+                    className="rounded-lg border p-4 sm:p-5"
+                    style={{ backgroundColor: "#f8f9fa", borderColor: "#e2e8f0" }}
                   >
                     <dt
                       className="font-heading font-bold text-sm uppercase tracking-widest mb-1.5"
@@ -1041,21 +975,19 @@ export default function CandidateDetailClient({
                   </div>
                 ))}
               </dl>
-            </>
+            </ProfileSection>
           )}
 
           {/* ── Follow the Money ────────────────────────────────────────── */}
           {candidate.campaignFinance && (
-            <>
-              <SectionDivider />
-              <SectionHeading>Follow the Money</SectionHeading>
+            <ProfileSection title="Follow the Money" kicker="Campaign finance">
               {candidate.campaignFinance.narrative && (
                 <BodyText>{candidate.campaignFinance.narrative}</BodyText>
               )}
 
               {/* Donor Table */}
               {candidate.campaignFinance.donors && candidate.campaignFinance.donors.length > 0 && (
-                <div className="my-8 rounded-lg border overflow-hidden" style={{ borderColor: "#e2e8f0" }}>
+                <div className="my-8 overflow-hidden rounded-lg border" style={{ borderColor: "#e2e8f0" }}>
                   <table className="w-full text-sm">
                     <thead>
                       <tr style={{ backgroundColor: "#f8f9fa" }}>
@@ -1085,20 +1017,18 @@ export default function CandidateDetailClient({
               <p className="text-xs mt-4" style={{ color: "var(--color-slate)" }}>
                 Source: {candidate.campaignFinance.source} — {candidate.campaignFinance.reportingPeriod}
               </p>
-            </>
+            </ProfileSection>
           )}
 
           {/* ── What You Should Know ────────────────────────────────────── */}
           {candidate.whatYouShouldKnow.length > 0 && (
-            <>
-              <SectionDivider />
-              <SectionHeading>What You Should Know</SectionHeading>
-              <ul className="flex flex-col gap-5 mb-5" role="list">
+            <ProfileSection title="What You Should Know" kicker="Key takeaways">
+              <ul className="grid gap-4 lg:grid-cols-2" role="list">
                 {candidate.whatYouShouldKnow.map((item, i) => (
                   <li
                     key={i}
-                    className="flex gap-4"
-                    style={{ color: "var(--color-charcoal)" }}
+                    className="flex gap-4 rounded-lg border p-4 sm:p-5"
+                    style={{ color: "var(--color-charcoal)", borderColor: "#e2e8f0", backgroundColor: "#f8f9fa" }}
                   >
                     {/* Numbered bullet */}
                     <span
@@ -1121,19 +1051,17 @@ export default function CandidateDetailClient({
                   </li>
                 ))}
               </ul>
-            </>
+            </ProfileSection>
           )}
 
           {/* ── Where They Worship ──────────────────────────────────────── */}
           {(candidate.whereTheyWorship || candidate.church) && (
-            <>
-              <SectionDivider />
-              <SectionHeading>Where They Worship</SectionHeading>
+            <ProfileSection title="Where They Worship" kicker="Faith affiliation">
               {candidate.whereTheyWorship && (
                 <BodyText>{candidate.whereTheyWorship}</BodyText>
               )}
               {candidate.church && (
-                <div className="my-6 rounded-lg p-5" style={{ backgroundColor: "#f8f9fa" }}>
+                <div className="mt-6 rounded-lg border p-5" style={{ backgroundColor: "#f8f9fa", borderColor: "#e2e8f0" }}>
                   <p className="font-heading font-bold text-sm mb-1" style={{ color: "var(--color-navy)" }}>
                     {candidate.church.name}
                   </p>
@@ -1160,21 +1088,12 @@ export default function CandidateDetailClient({
                   )}
                 </div>
               )}
-            </>
+            </ProfileSection>
           )}
 
           {/* ── Sources Link ──────────────────────────────────────────────── */}
           {candidate.sources.length > 0 && (
-            <>
-              <SectionDivider />
-              <section aria-labelledby="sources-heading">
-                <h2
-                  id="sources-heading"
-                  className="font-heading font-bold mb-2"
-                  style={{ fontSize: "1rem", color: "var(--color-navy)", textTransform: "uppercase", letterSpacing: "0.07em" }}
-                >
-                  Sources
-                </h2>
+            <ProfileSection title="Sources" kicker="Research trail">
                 <p
                   className="font-body text-sm mb-5"
                   style={{ color: "var(--color-slate)" }}
@@ -1189,12 +1108,10 @@ export default function CandidateDetailClient({
                   View All {candidate.sources.length} Sources
                   <ExternalLink size={14} aria-hidden="true" />
                 </Link>
-              </section>
-            </>
+            </ProfileSection>
           )}
 
           {/* ── Candidate Correction Form ─────────────────────────────── */}
-          <SectionDivider />
           <CorrectionForm candidateName={candidate.name} candidateSlug={candidate.slug} />
 
           {/* ── Navigation ──────────────────────────────────────────────── */}
