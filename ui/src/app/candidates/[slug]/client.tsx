@@ -2,8 +2,21 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { ExternalLink, ChevronRight, ChevronLeft } from "lucide-react";
-import type { CandidateFull } from "@/data/candidates";
+import {
+  AlertTriangle,
+  BarChart3,
+  CalendarDays,
+  ChevronLeft,
+  ChevronRight,
+  ClipboardList,
+  ExternalLink,
+  FileText,
+  MapPin,
+  MessageSquare,
+  Radio,
+  Users,
+} from "lucide-react";
+import type { CandidateFull, OwnWordsSection as OwnWordsData } from "@/data/candidates";
 
 // ─── Pull Quote ───────────────────────────────────────────────────────────────
 
@@ -119,6 +132,477 @@ function BodyText({ children }: { children: React.ReactNode }) {
     >
       {children}
     </p>
+  );
+}
+
+// ─── In Their Own Words Reader ──────────────────────────────────────────────
+
+type OwnWordsTopic =
+  | "main"
+  | "alignment"
+  | "response"
+  | "national"
+  | "local"
+  | "absence"
+  | "platform"
+  | "record";
+
+interface NarrativeCard {
+  title: string;
+  topic: OwnWordsTopic;
+  text: string;
+}
+
+const TOPIC_STYLES: Record<
+  OwnWordsTopic,
+  {
+    label: string;
+    icon: React.ComponentType<{ size?: number; "aria-hidden"?: boolean }>;
+    accent: string;
+    bg: string;
+  }
+> = {
+  main: {
+    label: "Main Pattern",
+    icon: BarChart3,
+    accent: "var(--color-navy)",
+    bg: "rgba(16, 64, 93, 0.06)",
+  },
+  alignment: {
+    label: "Signals & Alignments",
+    icon: Users,
+    accent: "var(--color-gold)",
+    bg: "rgba(196, 146, 42, 0.10)",
+  },
+  response: {
+    label: "Audience Response",
+    icon: MessageSquare,
+    accent: "var(--color-teal-dark)",
+    bg: "rgba(28, 195, 175, 0.10)",
+  },
+  national: {
+    label: "National Issues",
+    icon: ClipboardList,
+    accent: "#6d5bd0",
+    bg: "rgba(109, 91, 208, 0.10)",
+  },
+  local: {
+    label: "Kansas & District",
+    icon: MapPin,
+    accent: "var(--color-green-flag)",
+    bg: "rgba(45, 106, 79, 0.10)",
+  },
+  absence: {
+    label: "Not Found in Public Record",
+    icon: AlertTriangle,
+    accent: "var(--color-red-flag)",
+    bg: "rgba(155, 34, 38, 0.08)",
+  },
+  platform: {
+    label: "Platform Footprint",
+    icon: Radio,
+    accent: "var(--color-slate)",
+    bg: "rgba(74, 74, 74, 0.08)",
+  },
+  record: {
+    label: "Public Record",
+    icon: FileText,
+    accent: "var(--color-navy-light)",
+    bg: "rgba(16, 64, 93, 0.05)",
+  },
+};
+
+function cleanNarrativeText(text: string) {
+  return text
+    .replace(/^#+\s.*\n+/, "")
+    .replace(/^\s*[-]{3,}\s*$/gm, "")
+    .trim();
+}
+
+function cleanParagraph(text: string) {
+  return text
+    .replace(/^\*\*(Methodology:)\*\*\s*/i, "$1 ")
+    .replace(/^\*([\s\S]+)\*$/, "$1")
+    .replace(/^_([\s\S]+)_$/, "$1")
+    .replace(/\*\*(.*?)\*\*/g, "$1")
+    .replace(/\\\$/g, "$")
+    .trim();
+}
+
+function getTopicForParagraph(paragraph: string, index: number): OwnWordsTopic {
+  const text = paragraph.toLowerCase();
+
+  if (index === 0) {
+    return "main";
+  }
+
+  if (
+    text.includes("contains no") ||
+    text.includes("no posts about") ||
+    text.includes("no reviewed item") ||
+    text.includes("not visible") ||
+    text.includes("visible absences")
+  ) {
+    return "absence";
+  }
+  if (
+    text.includes("platform footprint") ||
+    text.includes("facebook") ||
+    text.includes("instagram") ||
+    text.includes("bluesky") ||
+    text.includes("x presence") ||
+    text.includes("truth social") ||
+    text.includes("linkedin")
+  ) {
+    return "platform";
+  }
+  if (
+    text.includes("audience") ||
+    text.includes("engagement") ||
+    text.includes("likes") ||
+    text.includes("views") ||
+    text.includes("highest-response") ||
+    text.includes("highest-viewed")
+  ) {
+    return "response";
+  }
+  if (
+    text.includes("alignment") ||
+    text.includes("amplification") ||
+    text.includes("reposted") ||
+    text.includes("reposts") ||
+    text.includes("endorsed") ||
+    text.includes("tagged")
+  ) {
+    return "alignment";
+  }
+  if (
+    text.includes("ks-") ||
+    text.includes("district") ||
+    text.includes("kansas-specific") ||
+    text.includes("local") ||
+    text.includes("rural") ||
+    text.includes("hays") ||
+    text.includes("county")
+  ) {
+    return "local";
+  }
+  if (
+    text.includes("national") ||
+    text.includes("foreign") ||
+    text.includes("federal") ||
+    text.includes("congress") ||
+    text.includes("president") ||
+    text.includes("trump")
+  ) {
+    return "national";
+  }
+  return "record";
+}
+
+function getNarrativeCards(narrative: string): {
+  summary: string | null;
+  cards: NarrativeCard[];
+  methodNotes: string[];
+} {
+  const paragraphs = cleanNarrativeText(narrative)
+    .split(/\n{2,}/)
+    .map(cleanParagraph)
+    .filter(Boolean);
+
+  let summary: string | null = null;
+  const methodNotes: string[] = [];
+  const body: string[] = [];
+
+  for (const paragraph of paragraphs) {
+    if (/^methodology:/i.test(paragraph) || /^date range covered:/i.test(paragraph)) {
+      methodNotes.push(paragraph);
+    } else if (!summary && /summary of what/i.test(paragraph)) {
+      summary = paragraph;
+    } else if (!/^we report patterns/i.test(paragraph)) {
+      body.push(paragraph);
+    }
+  }
+
+  return {
+    summary,
+    methodNotes,
+    cards: body.map((text, index) => {
+      const topic = getTopicForParagraph(text, index);
+      return {
+        topic,
+        title: TOPIC_STYLES[topic].label,
+        text,
+      };
+    }),
+  };
+}
+
+function hostLabel(href: string) {
+  if (!href.startsWith("http")) return "Harvest";
+
+  try {
+    return new URL(href).hostname.replace(/^www\./, "");
+  } catch {
+    return "Source";
+  }
+}
+
+function renderPlainText(text: string, keyPrefix: string) {
+  const parts = text.split(/(\b\d+(?:,\d{3})*(?:\.\d+)?(?:\s+of\s+\d+(?:,\d{3})*)?(?:\s*(?:percent|%|likes|reposts|replies|views|posts|followers|items|pages))?)/g);
+
+  return parts.map((part, index) => {
+    if (/^\d/.test(part)) {
+      return (
+        <strong key={`${keyPrefix}-num-${index}`} className="font-heading font-bold text-navy">
+          {part}
+        </strong>
+      );
+    }
+
+    return <span key={`${keyPrefix}-text-${index}`}>{part}</span>;
+  });
+}
+
+function LinkedNarrativeText({ text }: { text: string }) {
+  const nodes: React.ReactNode[] = [];
+  const linkPattern = /\[([^\]]+)\]\(([^)]+)\)/g;
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+  let sourceIndex = 1;
+
+  while ((match = linkPattern.exec(text)) !== null) {
+    const [fullMatch, label, href] = match;
+    const before = text.slice(lastIndex, match.index);
+    if (before) nodes.push(...renderPlainText(before, `plain-${lastIndex}`));
+
+    const isExternal = href.startsWith("http");
+    const chipText = label.toLowerCase() === "source" ? `Source ${sourceIndex++}` : label;
+
+    if (isExternal) {
+      nodes.push(
+        <a
+          key={`link-${match.index}`}
+          href={href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mx-1 inline-flex items-center gap-1 rounded-full border px-2 py-0.5 align-middle font-heading text-[0.7rem] font-bold uppercase tracking-wider transition-colors hover:bg-teal hover:text-white"
+          style={{ borderColor: "rgba(28, 195, 175, 0.35)", color: "var(--color-teal-dark)" }}
+          aria-label={`${chipText}: ${hostLabel(href)}`}
+          title={hostLabel(href)}
+        >
+          {chipText}
+          <ExternalLink size={10} aria-hidden="true" />
+        </a>
+      );
+    } else {
+      nodes.push(
+        <span
+          key={`note-${match.index}`}
+          className="mx-1 inline-flex rounded-full px-2 py-0.5 align-middle font-heading text-[0.7rem] font-bold uppercase tracking-wider"
+          style={{ backgroundColor: "rgba(16, 64, 93, 0.08)", color: "var(--color-navy)" }}
+        >
+          {label}
+        </span>
+      );
+    }
+
+    lastIndex = match.index + fullMatch.length;
+  }
+
+  const after = text.slice(lastIndex);
+  if (after) nodes.push(...renderPlainText(after, `plain-${lastIndex}`));
+
+  return <>{nodes}</>;
+}
+
+function formatOwnWordsDate(date: string, style: "short" | "long" = "short") {
+  return new Intl.DateTimeFormat("en-US", {
+    month: style === "short" ? "short" : "long",
+    day: style === "long" ? "numeric" : undefined,
+    year: "numeric",
+  }).format(new Date(date + "T12:00:00"));
+}
+
+function OwnWordsReader({
+  candidateName,
+  data,
+}: {
+  candidateName: string;
+  data: OwnWordsData;
+}) {
+  const [view, setView] = useState<"brief" | "deep" | "methods">("brief");
+  const { summary, cards, methodNotes } = getNarrativeCards(data.narrative);
+  const visibleCards = view === "brief" ? cards.slice(0, 4) : cards;
+  const hiddenCount = Math.max(cards.length - visibleCards.length, 0);
+
+  return (
+    <section aria-labelledby="own-words-heading" className="my-12">
+      <div
+        className="overflow-hidden rounded-xl border"
+        style={{ borderColor: "rgba(16, 64, 93, 0.14)", backgroundColor: "#ffffff" }}
+      >
+        <div className="p-5 sm:p-6" style={{ backgroundColor: "var(--color-navy)" }}>
+          <div className="flex flex-col gap-5 sm:flex-row sm:items-start sm:justify-between">
+            <div>
+              <p
+                className="font-heading text-xs font-bold uppercase tracking-widest"
+                style={{ color: "var(--color-teal-light)" }}
+              >
+                Public-posting readout
+              </p>
+              <h2
+                id="own-words-heading"
+                className="mt-2 font-heading text-2xl font-bold text-white"
+              >
+                In Their Own Words
+              </h2>
+              <p className="mt-3 max-w-2xl font-body text-sm leading-relaxed text-white/75">
+                {summary ||
+                  `A structured summary of what ${candidateName} has publicly said, posted, and amplified.`}
+              </p>
+            </div>
+
+            <div className="grid min-w-fit grid-cols-2 gap-2 text-white sm:grid-cols-1">
+              <div className="rounded-md bg-white/10 px-3 py-2">
+                <span className="block font-heading text-[0.65rem] font-bold uppercase tracking-wider text-white/55">
+                  Sources
+                </span>
+                <span className="font-heading text-sm font-bold">{data.platformsCovered.length} platforms</span>
+              </div>
+              <div className="rounded-md bg-white/10 px-3 py-2">
+                <span className="block font-heading text-[0.65rem] font-bold uppercase tracking-wider text-white/55">
+                  Updated
+                </span>
+                <span className="font-heading text-sm font-bold">
+                  {formatOwnWordsDate(data.lastUpdated, "long")}
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-6 flex flex-wrap gap-2" role="tablist" aria-label="In Their Own Words view">
+            {[
+              ["brief", "Brief"],
+              ["deep", "Deep Read"],
+              ["methods", "Methods"],
+            ].map(([id, label]) => (
+              <button
+                key={id}
+                type="button"
+                role="tab"
+                aria-selected={view === id}
+                onClick={() => setView(id as "brief" | "deep" | "methods")}
+                className="rounded-md px-4 py-2 font-heading text-xs font-bold uppercase tracking-wider transition-colors"
+                style={{
+                  backgroundColor: view === id ? "var(--color-teal)" : "rgba(255, 255, 255, 0.10)",
+                  color: "#fff",
+                }}
+              >
+                {label}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {view !== "methods" ? (
+          <div className="p-4 sm:p-6">
+            <div className="grid gap-4">
+              {visibleCards.map((card, index) => {
+                const topic = TOPIC_STYLES[card.topic];
+                const Icon = topic.icon;
+
+                return (
+                  <article
+                    key={`${card.title}-${index}`}
+                    className="rounded-lg border bg-white p-4 sm:p-5"
+                    style={{ borderColor: "rgba(16, 64, 93, 0.12)" }}
+                  >
+                    <div className="mb-3 flex items-center gap-3">
+                      <span
+                        className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md"
+                        style={{ backgroundColor: topic.bg, color: topic.accent }}
+                        aria-hidden="true"
+                      >
+                        <Icon size={18} />
+                      </span>
+                      <h3
+                        className="font-heading text-sm font-bold uppercase tracking-widest"
+                        style={{ color: topic.accent }}
+                      >
+                        {card.title}
+                      </h3>
+                    </div>
+                    <p
+                      className="font-body text-base leading-relaxed sm:text-[1.05rem]"
+                      style={{ color: "var(--color-charcoal)" }}
+                    >
+                      <LinkedNarrativeText text={card.text} />
+                    </p>
+                  </article>
+                );
+              })}
+            </div>
+
+            {hiddenCount > 0 && (
+              <button
+                type="button"
+                onClick={() => setView("deep")}
+                className="mt-5 inline-flex items-center gap-2 rounded-md px-4 py-2 font-heading text-xs font-bold uppercase tracking-wider text-white transition-colors hover:bg-navy-light"
+                style={{ backgroundColor: "var(--color-navy)" }}
+              >
+                Show {hiddenCount} more sections
+                <ChevronRight size={14} aria-hidden="true" />
+              </button>
+            )}
+          </div>
+        ) : (
+          <div className="grid gap-4 p-4 sm:grid-cols-3 sm:p-6">
+            <div className="rounded-lg border p-4" style={{ borderColor: "#e2e8f0" }}>
+              <CalendarDays size={20} className="mb-3 text-teal" aria-hidden="true" />
+              <h3 className="font-heading text-xs font-bold uppercase tracking-widest text-navy">
+                Date Range
+              </h3>
+              <p className="mt-2 font-body text-sm leading-relaxed text-charcoal">
+                {formatOwnWordsDate(data.dateRangeStart)} to {formatOwnWordsDate(data.dateRangeEnd)}
+              </p>
+            </div>
+            <div className="rounded-lg border p-4 sm:col-span-2" style={{ borderColor: "#e2e8f0" }}>
+              <Radio size={20} className="mb-3 text-teal" aria-hidden="true" />
+              <h3 className="font-heading text-xs font-bold uppercase tracking-widest text-navy">
+                Platforms Covered
+              </h3>
+              <div className="mt-3 flex flex-wrap gap-2">
+                {data.platformsCovered.map((platform) => (
+                  <span
+                    key={platform}
+                    className="rounded-full px-2.5 py-1 font-heading text-[0.7rem] font-bold uppercase tracking-wider"
+                    style={{ backgroundColor: "rgba(28, 195, 175, 0.10)", color: "var(--color-teal-dark)" }}
+                  >
+                    {platform}
+                  </span>
+                ))}
+              </div>
+            </div>
+            <div className="rounded-lg border p-4 sm:col-span-3" style={{ borderColor: "#e2e8f0" }}>
+              <FileText size={20} className="mb-3 text-teal" aria-hidden="true" />
+              <h3 className="font-heading text-xs font-bold uppercase tracking-widest text-navy">
+                Method Notes
+              </h3>
+              {[...methodNotes, data.disclaimer].map((note, index) => (
+                <p
+                  key={index}
+                  className="mt-2 font-body text-sm leading-relaxed"
+                  style={{ color: "var(--color-slate)" }}
+                >
+                  <LinkedNarrativeText text={note} />
+                </p>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+    </section>
   );
 }
 
@@ -541,98 +1025,10 @@ export default function CandidateDetailClient({
           {candidate.inTheirOwnWords && (
             <>
               <SectionDivider />
-              <section aria-labelledby="own-words-heading">
-                <SectionHeading>
-                  <span id="own-words-heading">In Their Own Words</span>
-                </SectionHeading>
-                <p
-                  className="font-body text-sm mb-6 leading-relaxed"
-                  style={{ color: "var(--color-slate)", fontStyle: "italic" }}
-                >
-                  A summary of what {candidate.name.split(" ")[0]} has publicly said, posted, and
-                  amplified across social media. Drawn from public posts. We report patterns; we do
-                  not interpret intent.
-                </p>
-
-                {/* Narrative paragraphs */}
-                <div className="mb-8">
-                  {candidate.inTheirOwnWords.narrative.split("\n\n").map((paragraph, i) => (
-                    <BodyText key={i}>{paragraph}</BodyText>
-                  ))}
-                </div>
-
-                {/* Section footer — metadata + disclaimer */}
-                <div
-                  className="rounded-xl p-5 sm:p-6"
-                  style={{ backgroundColor: "#f8f9fa", border: "1px solid #e2e8f0" }}
-                >
-                  {/* Platforms + date range row */}
-                  <dl className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-4">
-                    <div>
-                      <dt
-                        className="font-heading font-bold text-xs uppercase tracking-widest mb-1"
-                        style={{ color: "var(--color-teal-dark)" }}
-                      >
-                        Platforms Covered
-                      </dt>
-                      <dd
-                        className="font-body text-sm"
-                        style={{ color: "var(--color-charcoal)" }}
-                      >
-                        {candidate.inTheirOwnWords.platformsCovered.join(", ")}
-                      </dd>
-                    </div>
-                    <div>
-                      <dt
-                        className="font-heading font-bold text-xs uppercase tracking-widest mb-1"
-                        style={{ color: "var(--color-teal-dark)" }}
-                      >
-                        Date Range
-                      </dt>
-                      <dd
-                        className="font-body text-sm"
-                        style={{ color: "var(--color-charcoal)" }}
-                      >
-                        {new Intl.DateTimeFormat("en-US", { month: "short", year: "numeric" }).format(
-                          new Date(candidate.inTheirOwnWords.dateRangeStart + "T12:00:00")
-                        )}
-                        {" — "}
-                        {new Intl.DateTimeFormat("en-US", { month: "short", year: "numeric" }).format(
-                          new Date(candidate.inTheirOwnWords.dateRangeEnd + "T12:00:00")
-                        )}
-                      </dd>
-                    </div>
-                    <div>
-                      <dt
-                        className="font-heading font-bold text-xs uppercase tracking-widest mb-1"
-                        style={{ color: "var(--color-teal-dark)" }}
-                      >
-                        Last Updated
-                      </dt>
-                      <dd
-                        className="font-body text-sm"
-                        style={{ color: "var(--color-charcoal)" }}
-                      >
-                        {new Intl.DateTimeFormat("en-US", {
-                          month: "long",
-                          day: "numeric",
-                          year: "numeric",
-                        }).format(
-                          new Date(candidate.inTheirOwnWords.lastUpdated + "T12:00:00")
-                        )}
-                      </dd>
-                    </div>
-                  </dl>
-
-                  {/* Disclaimer */}
-                  <p
-                    className="font-body text-xs leading-relaxed"
-                    style={{ color: "var(--color-slate)", borderTop: "1px solid #e2e8f0", paddingTop: "1rem" }}
-                  >
-                    {candidate.inTheirOwnWords.disclaimer}
-                  </p>
-                </div>
-              </section>
+              <OwnWordsReader
+                candidateName={candidate.name}
+                data={candidate.inTheirOwnWords}
+              />
             </>
           )}
 
