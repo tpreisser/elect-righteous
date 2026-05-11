@@ -73,6 +73,7 @@ function ParagraphStack({ text }: { text: string }) {
 
 type ScrubTopic =
   | "statements"
+  | "context"
   | "interactions"
   | "response"
   | "accounts"
@@ -83,6 +84,13 @@ interface NarrativeCard {
   title: string;
   topic: ScrubTopic;
   text: string;
+}
+
+interface VerbatimItem {
+  quote: string;
+  context: string;
+  url?: string;
+  sourceLabel?: string;
 }
 
 const SCRUB_TOPIC_STYLES: Record<
@@ -99,6 +107,12 @@ const SCRUB_TOPIC_STYLES: Record<
     icon: MessageSquare,
     accent: "var(--color-navy)",
     bg: "rgba(16, 64, 93, 0.06)",
+  },
+  context: {
+    label: "Scrub context",
+    icon: FileText,
+    accent: "var(--color-navy-light)",
+    bg: "rgba(16, 64, 93, 0.05)",
   },
   interactions: {
     label: "Interaction signals",
@@ -207,7 +221,7 @@ function getTopicForParagraph(paragraph: string): ScrubTopic {
   ) {
     return "interactions";
   }
-  return "statements";
+  return "context";
 }
 
 function getNarrativeCards(narrative: string): {
@@ -256,6 +270,86 @@ function hostLabel(href: string) {
   } catch {
     return "Source";
   }
+}
+
+function stripMarkdown(text: string) {
+  return text
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, "$1")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function extractSourceLinks(text: string) {
+  return Array.from(text.matchAll(/\[([^\]]+)\]\(([^)]+)\)/g)).map((match) => ({
+    label: match[1],
+    href: match[2],
+  }));
+}
+
+function getQuoteContext(paragraph: string, quoteWithMarks: string) {
+  const [before, after = ""] = paragraph.split(quoteWithMarks);
+  const sourceFreeBefore = stripMarkdown(before)
+    .replace(/[,;:\s]*$/g, "")
+    .trim();
+  const sourceFreeAfter = stripMarkdown(after)
+    .replace(/^\s*(?:,|and|or|with|that|saying|said|wrote)\s*/i, "")
+    .replace(/\s*\(?source\)?\s*$/i, "")
+    .trim();
+
+  if (sourceFreeBefore.length > 18) {
+    return sourceFreeBefore.slice(-180);
+  }
+
+  if (sourceFreeAfter.length > 18) {
+    return sourceFreeAfter.slice(0, 180);
+  }
+
+  return "Publicly attributed statement from the harvested source set.";
+}
+
+function getVerbatimItems(narrative: string, quotes: CandidateFull["quotes"]): VerbatimItem[] {
+  const items: VerbatimItem[] = [];
+  const seen = new Set<string>();
+  const paragraphs = cleanNarrativeText(narrative)
+    .split(/\n{2,}/)
+    .map(cleanParagraph)
+    .filter(Boolean);
+
+  for (const paragraph of paragraphs) {
+    const links = extractSourceLinks(paragraph);
+    const quoteMatches = Array.from(paragraph.matchAll(/"([^"]{12,700})"/g));
+
+    for (const match of quoteMatches) {
+      const quote = match[1].trim();
+      const normalized = quote.toLowerCase().replace(/\W+/g, " ");
+      if (seen.has(normalized)) continue;
+      seen.add(normalized);
+
+      items.push({
+        quote,
+        context: getQuoteContext(paragraph, match[0]),
+        url: links[0]?.href,
+        sourceLabel: links[0]?.label,
+      });
+    }
+  }
+
+  for (const quote of quotes) {
+    const normalized = quote.text.toLowerCase().replace(/\W+/g, " ");
+    if (seen.has(normalized)) continue;
+    seen.add(normalized);
+
+    items.push({
+      quote: quote.text,
+      context: [quote.topic, quote.source, quote.date ? formatOwnWordsDate(quote.date) : ""]
+        .filter(Boolean)
+        .join(" · "),
+      url: quote.url,
+      sourceLabel: quote.source,
+    });
+  }
+
+  return items;
 }
 
 function renderPlainText(text: string, keyPrefix: string) {
@@ -345,11 +439,14 @@ function formatOwnWordsDate(date: string, style: "short" | "long" = "short") {
 function SocialPresenceScrub({
   candidateName,
   data,
+  quotes,
 }: {
   candidateName: string;
   data: OwnWordsData;
+  quotes: CandidateFull["quotes"];
 }) {
   const { summary, cards, methodNotes } = getNarrativeCards(data.narrative);
+  const verbatimItems = getVerbatimItems(data.narrative, quotes);
   const groupedCards = cards.reduce<Record<ScrubTopic, NarrativeCard[]>>(
     (groups, card) => {
       groups[card.topic].push(card);
@@ -357,6 +454,7 @@ function SocialPresenceScrub({
     },
     {
       statements: [],
+      context: [],
       interactions: [],
       response: [],
       accounts: [],
@@ -365,7 +463,7 @@ function SocialPresenceScrub({
     }
   );
   const sections = (Object.keys(groupedCards) as ScrubTopic[]).filter(
-    (topic) => groupedCards[topic].length > 0
+    (topic) => topic !== "statements" && groupedCards[topic].length > 0
   );
 
   return (
@@ -415,6 +513,74 @@ function SocialPresenceScrub({
         </div>
 
         <div className="grid gap-4 p-4 sm:p-6 lg:grid-cols-2 lg:p-8">
+          {verbatimItems.length > 0 && (
+            <details
+              open
+              className="group rounded-lg border bg-white lg:col-span-2"
+              style={{ borderColor: "rgba(16, 64, 93, 0.12)" }}
+            >
+              <summary className="flex cursor-pointer list-none items-center gap-3 p-4 sm:p-5">
+                <span
+                  className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md"
+                  style={{
+                    backgroundColor: SCRUB_TOPIC_STYLES.statements.bg,
+                    color: SCRUB_TOPIC_STYLES.statements.accent,
+                  }}
+                  aria-hidden="true"
+                >
+                  <MessageSquare size={18} />
+                </span>
+                <span className="min-w-0 flex-1">
+                  <span
+                    className="block font-heading text-sm font-bold uppercase tracking-widest"
+                    style={{ color: SCRUB_TOPIC_STYLES.statements.accent }}
+                  >
+                    {SCRUB_TOPIC_STYLES.statements.label}
+                  </span>
+                  <span className="mt-1 block font-body text-xs text-slate">
+                    Verbatim posts, comments, and attributed public statements only
+                  </span>
+                </span>
+                <ChevronRight
+                  size={18}
+                  className="shrink-0 transition-transform group-open:rotate-90"
+                  aria-hidden="true"
+                />
+              </summary>
+              <div className="border-t p-4 sm:p-5" style={{ borderColor: "#e2e8f0" }}>
+                <div className="grid gap-4 lg:grid-cols-2">
+                  {verbatimItems.map((item, itemIndex) => (
+                    <figure
+                      key={`${item.quote}-${itemIndex}`}
+                      className="rounded-lg border p-4 sm:p-5"
+                      style={{ borderColor: "#e2e8f0", backgroundColor: "#f8f9fa" }}
+                    >
+                      <figcaption className="mb-3 font-body text-sm leading-relaxed text-slate">
+                        {item.context}
+                      </figcaption>
+                      <blockquote className="font-heading text-xl font-bold leading-snug text-navy sm:text-2xl">
+                        &ldquo;{item.quote}&rdquo;
+                      </blockquote>
+                      {item.url && (
+                        <a
+                          href={item.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="mt-4 inline-flex items-center gap-1 rounded-full border px-2.5 py-1 font-heading text-[0.7rem] font-bold uppercase tracking-wider hover:bg-teal hover:text-white"
+                          style={{ borderColor: "rgba(28, 195, 175, 0.35)", color: "var(--color-teal-dark)" }}
+                          title={item.sourceLabel || hostLabel(item.url)}
+                        >
+                          {hostLabel(item.url)}
+                          <ExternalLink size={10} aria-hidden="true" />
+                        </a>
+                      )}
+                    </figure>
+                  ))}
+                </div>
+              </div>
+            </details>
+          )}
+
           {sections.map((topic, index) => {
             const topicStyle = SCRUB_TOPIC_STYLES[topic];
             const Icon = topicStyle.icon;
@@ -423,7 +589,7 @@ function SocialPresenceScrub({
             return (
               <details
                 key={topic}
-                open={index < 2}
+                open={verbatimItems.length === 0 && index < 2}
                 className="group rounded-lg border bg-white"
                 style={{ borderColor: "rgba(16, 64, 93, 0.12)" }}
               >
@@ -940,6 +1106,7 @@ export default function CandidateDetailClient({
             <SocialPresenceScrub
               candidateName={candidate.name}
               data={candidate.inTheirOwnWords}
+              quotes={candidate.quotes}
             />
           )}
 
