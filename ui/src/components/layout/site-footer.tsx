@@ -148,7 +148,7 @@ export default function SiteFooter() {
         </div>
       </Container>
 
-      {/* PreisserTech CTA Banner */}
+      {/* Preisser Solutions CTA Banner */}
       <div
         className="border-t border-b"
         style={{
@@ -158,17 +158,17 @@ export default function SiteFooter() {
       >
         <Container>
           <a
-            href="https://www.preissertech.com/"
+            href="https://www.preissersolutions.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex flex-col sm:flex-row items-center justify-between gap-5 py-8 sm:py-6"
-            aria-label="Visit PreisserTech - AI-powered marketing, websites, and automation for Kansas businesses"
+            aria-label="Visit Preisser Solutions"
           >
             {/* Left: Logo + messaging */}
             <div className="flex items-center gap-4">
               <img
-                src={`${process.env.NODE_ENV === "production" ? "/elect-righteous" : ""}/preisser-tech-logo.webp`}
-                alt="PreisserTech"
+                src={`${process.env.NODE_ENV === "production" ? "/elect-righteous" : ""}/preisser-solutions-logo.webp`}
+                alt="Preisser Solutions"
                 width={44}
                 height={44}
                 className="rounded-md flex-shrink-0 group-hover:scale-105 transition-transform duration-300"
@@ -177,13 +177,13 @@ export default function SiteFooter() {
                 <span
                   className="font-heading font-bold text-base sm:text-lg tracking-wide text-white group-hover:text-teal transition-colors duration-300"
                 >
-                  PreisserTech
+                  Preisser Solutions
                 </span>
                 <span
                   className="text-sm font-body leading-snug"
                   style={{ color: "rgba(246, 246, 246, 0.65)" }}
                 >
-                  We produce world-class AI-powered marketing for Kansas businesses: sharper websites, stronger online presence, practical automation, and systems that make your brand look as professional as the work you do.
+                  Preisser Solutions builds world-class systems behind modern businesses: high-converting websites, local SEO, AI search visibility, CRM workflows, dashboards, and automations that reduce manual work and increase qualified leads.
                 </span>
               </div>
             </div>

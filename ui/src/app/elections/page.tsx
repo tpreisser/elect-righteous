@@ -41,11 +41,18 @@ const ELECTION_CATEGORIES: ElectionCategory[] = [
     slugs: ["supreme-court-amendment", "citizenship-amendment"],
   },
   {
-    id: "local",
-    heading: "Local Officials",
+    id: "local-2026",
+    heading: "2026 Local Ballot",
     description:
-      "These pages group the current city, county, and school leaders whose decisions shape daily life in Hays — even when their seats are not all on this year's ballot.",
-    slugs: ["hays-city-current", "ellis-county-2026-ballot", "ellis-county-incumbents-off-cycle", "usd-489-current"],
+      "Local races confirmed for the 2026 Hays-area ballot. Current known structural gap: Michael Berges is listed for Ellis County Commission District 1 but still needs a candidate profile.",
+    slugs: ["ellis-county-2026-ballot"],
+  },
+  {
+    id: "local-current",
+    heading: "Current Local Officials — Not on the 2026 Ballot",
+    description:
+      "Reference pages for city, county, and school officials who are in office now but whose seats are currently marked as 2027 or 2028 cycles, not 2026 races.",
+    slugs: ["hays-city-current", "usd-489-current", "ellis-county-incumbents-off-cycle"],
   },
 ];
 
@@ -86,7 +93,7 @@ export default function ElectionsPage() {
             >
               Every election relevant to Hays voters, organized the way most
               people think about them: federal first, then state, then ballot
-              measures, then local officials.
+              measures, then local races and current off-cycle officials.
             </p>
           </div>
         </Container>

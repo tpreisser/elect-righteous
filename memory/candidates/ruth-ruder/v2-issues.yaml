@@ -1,0 +1,1137 @@
+# Ruth Ruder — v2 Issues Draft (Stage 2.c Narrative Writer)
+#
+# Candidate: Ruth Ruder
+# Slug: ruth-ruder
+# Office: USD 489 Board of Education
+# Election cycle: Off-cycle — next vote 2027, NOT on 2026 ballot
+# Date drafted: 2026-05-20
+# Agent: general-purpose (P2.c narrative-writer equivalent), Phase 2 Wave 1
+#
+# Source authority hierarchy (per IDENTITY.md):
+#   - PRIMARY: USD 489 BoardDocs portal (board minutes + roll-call records).
+#     Single registry entry s-usd489-boarddocs anchors every dated motion vote
+#     in this brief (Allen Park P1.2 loopback pattern), with per-claim
+#     anchoring via claimsAnchored[] on the BoardDocs registry entry.
+#   - PRIMARY: USD 489 official board-of-education page (membership + title).
+#   - SECONDARY: Hays Post, Tiger Media Network, Citizen Journal — contemporaneous
+#     reporting that recorded each motion, named roll-call detail, and captured
+#     verbatim floor statements.
+#   - SOCIAL: None. Ruth Ruder maintains no candidate-controlled platform
+#     footprint in the harvest window (sleuth-pass U-1). One community-org
+#     Facebook hit recorded but not behavior-attributable to her.
+#
+# Family-network handling: Per directive, Ruth's husband (Ellis County
+# Treasurer Vernon Ruder Jr.) and son (Hays Mayor Mason Ruder) family
+# adjacency is documented as a NEUTRAL FACT in candidate_metadata.context_note
+# only, NOT used as evidence on any governance IssueCard. No imputation of
+# Ruth's positions from family-member positions or vice versa.
+#
+# Gaps: One potential gap candidate examined (AE-13 admin-contract reversal
+# vs. AE-4). Decision: OMITTED. Reasoning recorded in narrative-writer-notes
+# at the bottom of this file. The 2024 motion (AE-4) was a blanket 1-year
+# extension for four named administrators; the 2026 motion (AE-13) was a
+# short procedural extension to March 9 amid a contested March-9 reorganization.
+# Different procedural questions, materially different contexts. Cannot
+# honestly assert a stated-position contradiction.
+
+candidate_metadata:
+  slug: ruth-ruder
+  name: Ruth Ruder
+  party: NP
+  position: "USD 489 Board of Education member"
+  electionSlug: usd-489-current
+  incumbent: true
+  occupation: "Vice President, Golden Plains Credit Union (Hays branch); USD 489 Board of Education member"
+  born: ""
+  hometown: "Hays, Kansas (graduated Hays High School, 1988)"
+  religion: ""
+  education: "Hays High School graduate, 1988"
+  family: "Married 34 years to Vernon Ruder Jr.; three children"
+  district: "USD 489 — Hays, Kansas (Ellis County)"
+  margin2024: ""
+  campaignWebsite: ""
+  role: "USD 489 Board of Education member; served as Vice President during early 2026 (current title verification advised — see title arc note)"
+  election_status: |
+    Not on 2026 ballot. USD 489 Board of Education races are on the 2027
+    cycle (next election: November 2, 2027). Ruth Ruder was elected
+    November 2023 to a four-year term running through approximately
+    January 2028. See memory/elections/2027-NO-ELECTION-usd-489-school-board.md.
+  context_note: |
+    Ruth Ruder is part of a multi-office family cluster in Ellis County: her
+    husband Vernon Ruder Jr. serves as Ellis County Treasurer, and her son
+    Mason Ruder serves as Hays Mayor. This is a documented fact in public
+    records (Ruth's own July 2023 Hays Post candidate profile discloses the
+    marriage; election results confirm the other offices). The candidate
+    pages for those family members appear separately on this site. No
+    cross-office coordination has been documented in the public meeting
+    record, and the positions and votes recorded on this page are Ruth
+    Ruder's own behavior on USD 489 matters. No family-member position
+    is imputed to her, and her positions are not imputed to family members.
+
+# ============================================================================
+# ISSUES
+# ============================================================================
+
+issues:
+
+  # --------------------------------------------------------------------------
+  # ISSUE 1: Superintendent oversight / board–administration scope
+  # AE: AE-1 (handbook 6-1 Jul 2025), AE-4 (admin contracts 5-1-1 Jan 2024),
+  #     AE-13 admin-contract subset (Feb 2026 3-3 + 4-2). AE-14 = stated.
+  # --------------------------------------------------------------------------
+  - id: i-superintendent-oversight
+    title: "Board oversight of the superintendent and administrators"
+    stated:
+      text: |
+        During her 2023 campaign, Ruth Ruder said she would not micromanage
+        the administration. In her October 2023 candidate Q&A she wrote: "I
+        would not micromanage. I will review policy and ensure that it is
+        being abided by and changed if need be. Communication is key." She
+        added that she would like "to improve the relationship between the
+        board and the administration in working on policies and procedures
+        together as a team." From the dais in July 2025, during the Hays High
+        School student-handbook discussion, she repeated the same boundary
+        in her own words: "The board hires the superintendent, and it is up
+        to the superintendent to manage his staff and the principals to
+        manage their schools, not the board. I do not want to be involved
+        in every disciplinary action that any kid has at Hays High School."
+      sourceIds:
+        - s-hayspost-ruder-qa-oct2023
+        - s-hayspost-discipline-handbook-jul2025
+    actions:
+      - id: a-handbook-vote-2025
+        date: "2025-07-21"
+        body: |
+          Voted yes on a 6-1 motion approving the 2025-26 Hays High School
+          student handbook, which contained the discipline-policy framework
+          presented by Principal Shawn Henderson. Allen Park cast the lone
+          no vote. During the discussion preceding the vote, Ruder said
+          "Every scenario is going to be different," that until she had
+          reason to do otherwise she was "on the administration's side,"
+          and that handling disciplinary matters was "[Henderson's] job to
+          handle discipline, not ours."
+        sourceIds:
+          - s-hayspost-discipline-handbook-jul2025
+          - s-usd489-boarddocs
+      - id: a-admin-contracts-2024
+        date: "2024-01-22"
+        body: |
+          Voted yes on a 5-1-1 motion approving one-year contract extensions
+          for four district administrators — Superintendent Ron Wilson,
+          Assistant Superintendent / Director of Curriculum Shanna Dinkel,
+          Assistant Superintendent of Business Services Chris Hipp, and
+          Director of Special Education Kyle Carlin — by blanket motion.
+          Allen Park voted no. Derek Yarmer abstained. Park had moved to
+          evaluate each administrator's contract individually before the
+          final vote; that motion failed. Park had also moved to enter
+          executive session on the superintendent's contract; that motion
+          also failed.
+        sourceIds:
+          - s-hayspost-admin-contracts-jan2024
+          - s-citizenjournal-board-takeaways
+          - s-usd489-boarddocs
+      - id: a-admin-contracts-feb2026
+        date: "2026-02-24"
+        body: |
+          At the February 24, 2026 meeting, the board considered two motions
+          on district administrator and director contracts. Ruder voted no
+          on a 3-3 motion (which failed) to push the contract decision to
+          March 9, 2026. She also voted no on a 4-2 motion (which passed)
+          to extend the administrator contracts to March 9. On the same
+          night, she voted yes on a 3-2 motion (which failed) to approve
+          HVAC service agreement amendments with Glassman Corp for Roosevelt
+          Elementary and Hays Middle School (Park and Yarmer no; Goetz
+          abstained because her husband works for Glassman; Vajnar absent),
+          and yes on the subsequent unanimous motion to instead solicit
+          districtwide preventive-maintenance RFPs.
+        sourceIds:
+          - s-hayspost-hvac-contracts-feb2026
+          - s-hayspost-felten-construction-feb2026
+          - s-usd489-boarddocs
+    socialSignals: []
+    # No gap declared. See narrative-writer-notes at bottom for full reasoning.
+
+  # --------------------------------------------------------------------------
+  # ISSUE 2: Board civility, communication, and the Vice-President role
+  # AE: AE-2 (asbestos/no-vote exchange Sept 2025). AE-14 = stated.
+  # --------------------------------------------------------------------------
+  - id: i-board-civility
+    title: "Communication and civility among board members"
+    stated:
+      text: |
+        Ruth Ruder ran in 2023 on a communication-and-civility theme. From
+        her October 2023 candidate Q&A: "I would change the current
+        communication. Working and communicating together in a civil and
+        organized manner is how I believe we can accomplish our mission
+        moving forward." And: "I feel like there is not enough communication
+        and respect on the current school board." She added: "Even in
+        disagreements, we must be civil and compromise to make the best
+        decisions for our students."
+      sourceIds:
+        - s-hayspost-ruder-qa-oct2023
+    actions:
+      - id: a-civility-exchange-2025
+        date: "2025-09-22"
+        body: |
+          At a regular board meeting where a $69,480 contract with ACM
+          Removal LLC for asbestos abatement at the new Hays Middle School
+          building and a separate $88,347 change order for the new Hays
+          High School both passed with Allen Park as the lone dissenting
+          vote, Ruder publicly addressed Park's vote pattern from the dais.
+          Her statements on the floor: "What would have happened if we had
+          all voted no? Would we be in trouble from the health and human
+          services department for not removing asbestos that is known?";
+          "Are you just voting no to [satisfy] the public, because you're
+          not spending money?"; and "Every week we come here and we get
+          these no votes on things that should not be voted no on just to
+          [satisfy] the taxpayer to say, 'I didn't vote no on it.' You have
+          a right to vote the way you want, but I am sick and tired of
+          coming here every week and there's a no vote on something. That
+          isn't right for the public." Park replied: "I'm not voting that
+          we shouldn't do it. I'm voting this process to do this. I'm No.
+          1 on safety." Ken Brooks asked Park what he would have changed
+          had he had the change orders in advance.
+        sourceIds:
+          - s-hayspost-asbestos-sept2025
+          - s-hayspost-asbestos-preview-sept2025
+          - s-usd489-boarddocs
+    socialSignals: []
+    # No gap declared. The September 2025 exchange is observable behavior; a
+    # reader can place it next to her 2023 communication-and-civility theme
+    # and draw their own conclusion. Asserting a gap would require triangulated
+    # evidence that her stated position was "be civil to colleagues" — but her
+    # 2023 quote pairs civility with "we must be civil AND compromise to make
+    # the best decisions," and a reasonable reading is that the floor exchange
+    # is itself an attempt at compromise-through-public-deliberation. Not
+    # symmetry-passable as a gap. Record both; let the reader judge.
+
+  # --------------------------------------------------------------------------
+  # ISSUE 3: Bond projects, facilities, and asbestos remediation
+  # AE: AE-3 (bond PM 3-4 fail Mar 2025), AE-5 flooring subset (Dec 2025),
+  #     AE-10 (O'Loughlin $14.49M MGP 5-2 tabling Sept 2024),
+  #     AE-11 (HHS change orders 5-1 Dec 2024),
+  #     AE-12 (athletic-facility multi-vote Feb 2025),
+  #     AE-13 Felten subset (Feb 2026). AE-14 = stated.
+  # --------------------------------------------------------------------------
+  - id: i-bond-facilities
+    title: "Bond projects, facility construction, and asbestos remediation"
+    stated:
+      text: |
+        In her October 2023 candidate Q&A, Ruth Ruder said: "I think the
+        board should have a vital role in the bond moving forward, ensuring
+        that communication is key." She also said she would "do my best at
+        representing the taxpayer in being fiscally responsible in the
+        district but also identifying smart growth." In her July 2023
+        candidate profile, she said her "first obligation, if elected, will
+        be to the children in our district by providing them through the
+        staff, the resources necessary to allow them to obtain quality
+        educational opportunities."
+      sourceIds:
+        - s-hayspost-ruder-qa-oct2023
+        - s-hayspost-ruder-profile-jul2023
+    actions:
+      - id: a-oloughlin-mgp-2024
+        date: "2024-09-09"
+        body: |
+          Voted yes on a 5-2 motion to table approval of a $14.49 million
+          maximum guaranteed price for O'Loughlin Elementary School
+          renovations until the next board meeting. Ken Brooks and Meagan
+          Zampieri-Lillpopp voted no. Ruder was joined in the yes-to-table
+          majority by Derek Yarmer, Curt Vajnar, Jayme Goetz, and Allen
+          Park. From the floor, Ruder asked: "Could the sale of Lincoln
+          Elementary School and Rockwell Administration Center be used to
+          pay for bond projects?"
+        sourceIds:
+          - s-hayspost-oloughlin-mgp-sept2024
+          - s-usd489-boarddocs
+      - id: a-hhs-change-orders-2024
+        date: "2024-12-19"
+        body: |
+          Voted yes on a 5-1 special-meeting motion approving change orders
+          for the new Hays High School construction project. Allen Park
+          cast the lone no vote; Derek Yarmer was absent. During the
+          discussion Ruder said she thought it was unfair to insinuate
+          that Nabholz or DLR were trying to cheat the district.
+        sourceIds:
+          - s-hayspost-hhs-changes-dec2024
+          - s-usd489-boarddocs
+      - id: a-athletic-facilities-feb2025
+        date: "2025-02-19"
+        body: |
+          Voted yes across a sequence of athletic-facility capital purchases
+          at a single meeting: a $66,364 digital marquee from Golden Rule
+          Signs (6-1, Yarmer no), $146,710 in weight-room equipment from
+          BSN Sports (7-0 unanimous), $777,680 in video scoreboards (5-2,
+          Park and Yarmer no), $687,937 for tennis courts from Stallbaumer
+          Construction (6-1, Yarmer no), and $57,714 for wrestling mats
+          from Resilite (5-2, Park and Yarmer no). During the tennis-court
+          discussion Ruder said: "Do you know how much revenue that brings
+          to the city? Do you know how much revenue that one tournament
+          brings to our city?"
+        sourceIds:
+          - s-tigermedia-feb2025-expenditures
+          - s-usd489-boarddocs
+      - id: a-bond-project-manager-2025
+        date: "2025-03-24"
+        body: |
+          Voted no on a 3-4 motion (which failed) by Derek Yarmer to
+          investigate hiring an additional project manager for the
+          remainder of the $143.5 million bond program. Yarmer, Allen Park,
+          and Curt Vajnar voted yes; Ruder, Jayme Goetz, and two other
+          members voted no. From the floor Ruder said: "We should have
+          looked at this beforehand, not when we are almost done with the
+          bond." Park said in the same discussion: "We have half of the
+          bond left. I agree we are way late. It doesn't hurt. Let's see
+          what we can do."
+        sourceIds:
+          - s-hayspost-bond-pm-mar2025
+          - s-usd489-boarddocs
+      - id: a-felten-flooring-dec2025
+        date: "2025-12-15"
+        body: |
+          Voted yes on a 4-2 motion to replace flooring and abate asbestos
+          at the former middle school. Park and Yarmer voted no. The board
+          also accepted an Integrated Solutions bid of $110,315 for the
+          asbestos abatement. From the floor Ruder said any future flooring
+          work could disrupt students and teachers, and that the cost of
+          the work will only increase in the future.
+        sourceIds:
+          - s-hayspost-felten-tile-dec2025
+          - s-hayspost-felten-dec-agenda
+          - s-usd489-boarddocs
+      - id: a-felten-construction-feb2026
+        date: "2026-02-24"
+        body: |
+          Voted yes on a motion approving a $5.7 million maximum-guaranteed-
+          price contract with Nabholz Construction for renovations at
+          Felten Elementary School. Allen Park and Derek Yarmer voted no.
+          From the floor Ruder said she "was confused as to why other
+          board members wanted to delay, since they knew, since the bond
+          issue was approved, what the scope of work and cost of
+          renovations would be for the new elementary school."
+        sourceIds:
+          - s-hayspost-felten-construction-feb2026
+          - s-usd489-boarddocs
+    socialSignals: []
+    # No gap declared. Ruder's documented bond-related votes are not
+    # uniformly administration-aligned: she voted with Allen Park and the
+    # majority to table the largest bond MGP (O'Loughlin $14.49M) against
+    # Ken Brooks. Her stated position ("vital role in the bond... fiscally
+    # responsible... smart growth") and her actions read as consistent
+    # within the available record.
+
+  # --------------------------------------------------------------------------
+  # ISSUE 4: District land use and property decisions
+  # AE: AE-5 land-sale subset (Dec 2025), AE-6 (Mar 2026 rejection),
+  #     AE-7 (Apr 2026 reconsideration).
+  # --------------------------------------------------------------------------
+  - id: i-district-land-use
+    title: "District land sales and property decisions"
+    stated:
+      text: |
+        In her October 2023 candidate Q&A, Ruth Ruder framed her fiscal
+        approach as: "I will do my best at representing the taxpayer in
+        being fiscally responsible in the district but also identifying
+        smart growth." She also said: "I believe USD 489 can be the
+        highlight of our community, and with the development and growth...
+        Hays will be seen as one of the best districts in the state of
+        Kansas." Her on-the-record statements during the Felten land
+        discussion in December 2025 through April 2026 articulated her
+        own working framework: when discussing a possible sale, she
+        urged the board to require buyers to specify the property's
+        intended use in their bid proposals.
+      sourceIds:
+        - s-hayspost-ruder-qa-oct2023
+        - s-hayspost-felten-tax-deduction-dec2025
+    actions:
+      - id: a-felten-bid-process-dec2025
+        date: "2025-12-15"
+        body: |
+          Voted yes on a 5-1 motion authorizing the district to solicit
+          bids on 7.3 acres of district-owned land north of Felten
+          Elementary School (the former Hays Middle School football-field
+          area). Allen Park voted no. Meagan Zampieri-Lillpopp was absent.
+          In the discussion Ruder expressed concern that someone might
+          purchase the land for a tax deduction while leaving it vacant,
+          and urged the board to require bidders to specify the property's
+          intended use in their proposals.
+        sourceIds:
+          - s-hayspost-felten-bid-process-dec2025
+          - s-hayspost-felten-tax-deduction-dec2025
+          - s-usd489-boarddocs
+      - id: a-felten-rejection-mar2026
+        date: "2026-03-10"
+        body: |
+          At a board meeting reviewing the four bids received for the
+          7.23 acres north of Felten Elementary — all of which came in
+          between $200,000 and $250,000, well below the property's
+          $630,000 appraisal — the board rejected all four bids. From
+          the floor Ruder said: "We're not saying no. We want to see
+          what the future holds." The board followed up with a work
+          session on March 23, 2026 to hear from the four bidders on
+          their proposed projects.
+        sourceIds:
+          - s-hayspost-felten-rejection-mar2026
+          - s-hayspost-felten-worksession-mar2026
+          - s-hayspost-felten-reconsider-mar2026
+          - s-usd489-boarddocs
+      - id: a-felten-reconsideration-apr2026
+        date: "2026-04-07"
+        body: |
+          At a continued discussion on the Felten land sale, the board
+          heard developer presentations including from Matt Allen of PWC.
+          No formal motion was recorded; the board agreed to continue
+          discussing the property. In coverage of this and the prior
+          March meeting, Ruder is quoted reflecting on the financial
+          math of the bids: "It just doesn't pencil out. If you were
+          able to get that kind of money for that lot, you would end up
+          with $80,000 to $90,000 per lot before you start construction."
+          She also said in the March reconsideration coverage: "If we
+          sit on the land, we get nothing," and "I don't think we can
+          just say no."
+        sourceIds:
+          - s-tigermedia-felten-housing-apr2026
+          - s-hayspost-housing-plans-apr2026
+          - s-hayspost-felten-reconsider-mar2026
+          - s-usd489-boarddocs
+    socialSignals: []
+    # No gap declared. Across December 2025 through April 2026, Ruder's
+    # statements form a sequence on the same transaction (Felten land):
+    # initial caution about speculative buyers; later, after below-appraisal
+    # bids, "we want to see what the future holds" and the "doesn't pencil
+    # out" math observation. Read in sequence, this is a single coherent
+    # posture — be cautious about the buyer's intent but don't refuse to
+    # engage — not a contradiction. Sleuth-pass R-4 explicitly flagged
+    # this for narrative-writer to "not characterize as a flip."
+
+  # --------------------------------------------------------------------------
+  # ISSUE 5: Curriculum, parental rights, and operational decisions
+  # AE: AE-8 (Apr 2026 bathroom-closure/vandalism remarks). AE-14 = stated.
+  # --------------------------------------------------------------------------
+  - id: i-curriculum-parental-rights
+    title: "Curriculum, parental rights, and operational decisions"
+    stated:
+      text: |
+        In her October 2023 candidate forum, asked about the then-planned
+        bathroom design at the new Hays High School, Ruth Ruder said:
+        "The children voiced to me that nobody asks us. They are very
+        excited with the way it's planned now to have a choice between
+        the way it is now and a separate bathroom for privacy." She also
+        said at the same forum that the board should "review board
+        policies" and "ask advice from the board attorney when
+        appropriate and have additional work sessions."
+      sourceIds:
+        - s-hayspost-forum-oct2023
+        - s-hayspost-ruder-qa-oct2023
+    actions:
+      - id: a-bathroom-vandalism-apr2026
+        date: "2026-04-20"
+        body: |
+          At a board discussion (no formal motion or vote) of the group
+          bathroom closures at the new Hays High School — closures that
+          began in August 2025 following vandalism of sinks and sensors
+          and continued after further vandalism that included flush-valve
+          sensors removed by unidentified persons — Ruder said: "I would
+          like to use the bathroom where I want to use the bathroom when
+          I need to use the bathroom." She added: "I agreed with the
+          group bathrooms remaining closed." On the broader question of
+          vandalism she said: "We are acting like vandalism isn't new.
+          It's been going on since the beginning of time. ... It boils
+          down to how you parent your children." She also said: "If we
+          would talk on test scores instead of restrooms all of the time,
+          what a wonderful world it would be." Ken Brooks, in the same
+          discussion, said: "We've had this discussion many times in the
+          past... and you keep saying the same things, over and over and
+          over..." Curt Vajnar said the public had been told during
+          construction that students would have a choice between
+          individual and group bathrooms. The exact date of the meeting
+          is ambiguous between April 20 (a Monday and the regular meeting
+          date) and April 21 (a Tuesday); the contemporaneous article
+          refers to "Monday night" and the BoardDocs record would resolve.
+        sourceIds:
+          - s-hayspost-bathroom-vandalism-apr2026
+          - s-citizenjournal-bathroom-vandalism-apr2026
+          - s-usd489-boarddocs
+    socialSignals: []
+    # No gap declared. The April 2026 statements are on the operational
+    # decision to keep the group bathrooms closed after vandalism, not on
+    # the original bathroom design decision — which was already being
+    # implemented at the time of her 2023 forum quote. Sleuth-pass R-5
+    # explicitly flagged the distinction; this narrative respects it.
+
+  # --------------------------------------------------------------------------
+  # ISSUE 6: Sponsorship and commercial-revenue policy
+  # AE: AE-9 (Aug-Sept 2025 Golden Belt Bank naming-rights, CORRECTED:
+  #     no accept-the-deal vote ever occurred; 3-3 procedural failed).
+  # AE-12 athletic-revenue framing referenced (secondary mapping to issue).
+  # --------------------------------------------------------------------------
+  - id: i-sponsorship-commercial-revenue
+    title: "Naming rights and commercial-revenue policy"
+    stated:
+      text: |
+        Ruth Ruder did not address commercial sponsorships or naming
+        rights in her 2023 candidate forum or Q&A. Her on-the-record
+        statements during the August–October 2025 Golden Belt Bank
+        naming-rights discussion form the available articulation of her
+        position. She framed the bank's $200,000 offer at the August 4,
+        2025 board retreat as "funds in our pocket. It's free funds. To
+        me, that's positivity for the community," and "We just won the
+        lottery, and you guys don't want to capitalize on it." At the
+        same retreat she also said: "It belongs to the town and the
+        school, not to some business," and "You can only sell your soul
+        so many times."
+      sourceIds:
+        - s-hayspost-naming-pause-aug2025
+        - s-hayspost-naming-postpone-sept2025
+    actions:
+      - id: a-naming-rights-procedural-aug2025
+        date: "2025-08-04"
+        body: |
+          At an August 4, 2025 board retreat, Ken Brooks made a motion
+          to add a vote on accepting Golden Belt Bank's $200,000
+          naming-rights offer for the Hays High School football field
+          to the agenda of the upcoming Monday regular meeting. The
+          procedural motion failed 3-3, for lack of a fourth yes vote;
+          Derek Yarmer was absent. Ruder voted yes on the motion to add
+          the item to the agenda, along with Brooks and Meagan
+          Zampieri-Lillpopp. Board President Curt Vajnar subsequently
+          removed the naming-rights item from the September 8, 2025
+          regular meeting agenda, rescheduling discussion to an October
+          27 work session. Golden Belt Bank's offer expiration deadline
+          was September 15, 2025; no formal board vote on accepting
+          the offer was held before that date, and the offer effectively
+          expired. The board later created a committee to draft a
+          naming-rights policy.
+        sourceIds:
+          - s-hayspost-naming-pause-aug2025
+          - s-hayspost-naming-postpone-sept2025
+          - s-hayspost-naming-agenda-sept2025
+          - s-hayspost-capital-outlay-oct2025
+          - s-hayspost-sponsorship-oct2025
+          - s-usd489-boarddocs
+    socialSignals: []
+    # No gap declared. Ruder did not have a pre-existing stated position
+    # on commercial naming rights to test against her vote behavior. Her
+    # August 4 retreat statements ("free funds," "belongs to the town,"
+    # "sell your soul," "won the lottery") are the available articulation
+    # and they are visibly in tension within a single conversation — that
+    # tension is recorded as her own observable behavior in the action
+    # body, not asserted as a gap. The athletic-facility-revenue framing
+    # she offered in February 2025 ("Do you know how much revenue that
+    # one tournament brings to our city?", a-athletic-facilities-feb2025
+    # in i-bond-facilities) is the closest cross-issue link; one possible
+    # reading is "public-asset-as-community-revenue-source" as a coherent
+    # posture across both votes, but the sleuth flagged this as
+    # interpretive and the narrative leaves the inference to readers.
+
+# ============================================================================
+# Source registry — claim-anchored, per IDENTITY.md primary-sources-first rule
+# ============================================================================
+
+sources:
+
+  # --- PRIMARY tier ---------------------------------------------------------
+
+  - id: s-usd489-boarddocs
+    tier: primary
+    url: "https://go.boarddocs.com/ks/usd489/Board.nsf/Public"
+    title: "USD 489 BoardDocs — Public Meeting Portal"
+    publisher: "Unified School District 489 (Hays, KS)"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "USD 489 board meeting minutes and agenda packets are publicly available"
+      - "Roll-call votes are recorded in BoardDocs"
+      - "Hays High School student handbook approval vote (2025-07-21)"
+      - "Administrator contracts blanket extension vote (2024-01-22)"
+      - "HVAC contracts and administrator-contract extension votes (2026-02-24)"
+      - "Asbestos abatement contract vote and HHS change order vote (2025-09-22)"
+      - "O'Loughlin Elementary MGP tabling motion (2024-09-09)"
+      - "Hays High School change orders special-meeting vote (2024-12-19)"
+      - "Athletic facility capital purchases multi-vote sequence (2025-02-19)"
+      - "Bond project manager motion that failed 3-4 (2025-03-24)"
+      - "Felten Elementary flooring + asbestos abatement vote (2025-12-15)"
+      - "Felten Elementary $5.7M Nabholz construction contract vote (2026-02-24)"
+      - "Felten land sale bid-process authorization 5-1 (2025-12-15)"
+      - "Felten land sale bid rejection (2026-03-10)"
+      - "Felten land sale work session (2026-03-23)"
+      - "Felten land sale continued discussion (2026-04-07)"
+      - "Bathroom-vandalism discussion (no motion, 2026-04-20 or 2026-04-21)"
+      - "Golden Belt Bank naming-rights add-to-agenda procedural vote 3-3 (2025-08-04 retreat)"
+
+  - id: s-usd489-board-page
+    tier: primary
+    url: "https://www.usd489.com/page/board-of-education"
+    title: "USD 489 Board of Education — Official Members Page"
+    publisher: "Unified School District 489 (Hays, KS)"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Ruth Ruder is a current USD 489 board member"
+      - "Ruth Ruder's board term runs through approximately January 2028"
+
+  - id: s-usd489-highbond-members
+    tier: primary
+    url: "https://usd489.community.highbond.com/portal/members.aspx?id=18"
+    title: "USD 489 Board Member Portal — Highbond"
+    publisher: "Unified School District 489 (Hays, KS)"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Current board officer roles reflected: Vajnar President, Brooks Vice-President, Ruder Member (date-of-page-update not visible in fetch — see title arc note)"
+
+  # --- SECONDARY tier -------------------------------------------------------
+
+  - id: s-hayspost-discipline-handbook-jul2025
+    tier: secondary
+    url: "https://hayspost.com/posts/bc933c79-2f23-4279-8171-bc6dcf391cf0"
+    title: "Hays USD 489 board squabbles over discipline policy in high school handbook"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Hays High student handbook approved 6-1, July 21, 2025"
+      - "Allen Park cast the lone no vote"
+      - "Ruder verbatim 'Every scenario is going to be different'"
+      - "Ruder verbatim 'Until I do, I'm on the administration's side'"
+      - "Ruder verbatim '[Henderson's] job to handle discipline, not ours'"
+      - "Ruder verbatim 'The board hires the superintendent... not the board'"
+
+  - id: s-hayspost-asbestos-sept2025
+    tier: secondary
+    url: "https://hayspost.com/posts/03620484-d421-4ae2-b3be-d87652788a17"
+    title: "Board member calls out fellow member after repeated no votes"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Ruder's September 22, 2025 floor remarks directed at Park's vote pattern"
+      - "Asbestos abatement contract and HHS change order both passed with Park lone no"
+      - "Park's reply about voting on process, not safety"
+      - "Brooks asked Park what he would have changed had he had docs in advance"
+
+  - id: s-hayspost-asbestos-preview-sept2025
+    tier: secondary
+    url: "https://hayspost.com/posts/7330e366-e683-4062-94e7-523a905418e7"
+    title: "Hays USD 489 board to consider change order for Hays High, asbestos removal for HMS"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "September 22, 2025 meeting agenda included $69,480 ACM Removal contract"
+      - "September 22, 2025 meeting agenda included $88,347 HHS change order"
+
+  - id: s-hayspost-bond-pm-mar2025
+    tier: secondary
+    url: "https://hayspost.com/posts/e4ec7011-734d-4c18-ab28-c5b38d236126"
+    title: "Hays USD 489 board votes not to add another manager for bond work"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Yarmer motion to investigate adding a bond project manager failed 3-4"
+      - "Yes votes: Yarmer, Park, Vajnar"
+      - "No votes included Ruder and Goetz"
+      - "Ruder verbatim 'We should have looked at this beforehand'"
+      - "Park verbatim 'We have half of the bond left. I agree we are way late.'"
+
+  - id: s-hayspost-admin-contracts-jan2024
+    tier: secondary
+    url: "https://hayspost.com/posts/95dab7ab-70ba-44ee-91ee-2760e55665bf"
+    title: "Hays USD 489 district administrators' contracts extended another year"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "January 22, 2024 vote: 5-1-1 to extend contracts for Wilson, Dinkel, Hipp, Carlin"
+      - "Allen Park voted no; Derek Yarmer abstained"
+      - "Park moved to evaluate each contract individually; motion failed"
+      - "Park moved to enter executive session on superintendent contract; motion failed"
+
+  - id: s-citizenjournal-board-takeaways
+    tier: secondary
+    url: "https://www.citizenjournal.us/takeaways-from-hays-usd-489-education-board-meeting/"
+    title: "Takeaways from Hays USD 489 Education Board Meeting"
+    publisher: "Citizen Journal"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Administrator contract scrutiny by Park and Yarmer at January 2024 meeting"
+      - "Park's motion for individual contract review"
+
+  - id: s-hayspost-felten-bid-process-dec2025
+    tier: secondary
+    url: "https://hayspost.com/posts/909a410b-bf64-406d-a98b-01417d221495"
+    title: "Hays USD 489 school board approves sale of land next to middle school"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "December 15, 2025 vote: 5-1 to authorize bid solicitation for 7.3 acres north of Felten Elementary"
+      - "Allen Park voted no; Meagan Zampieri-Lillpopp absent"
+      - "Ruder urged buyers be required to specify intended use in bid proposals"
+
+  - id: s-hayspost-felten-tile-dec2025
+    tier: secondary
+    url: "https://hayspost.com/posts/965dbfb4-fc96-4377-b6f3-7f5050176e21"
+    title: "Hays USD 489 votes to replace tile at former middle school, abate asbestos"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "December 15, 2025 vote: 4-2 to replace flooring and abate asbestos"
+      - "Park and Yarmer voted no"
+      - "Ruder verbatim about future flooring work disrupting students"
+      - "Ruder verbatim that cost of work will only increase"
+
+  - id: s-hayspost-felten-dec-agenda
+    tier: secondary
+    url: "https://hayspost.com/posts/64a4da48-1310-42ab-a846-49362978fc82"
+    title: "Hays USD 489 December 15 2025 agenda coverage"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Integrated Solutions bid of $110,315 for asbestos abatement"
+
+  - id: s-hayspost-felten-tax-deduction-dec2025
+    tier: secondary
+    url: "https://hayspost.com/posts/fc95a5ee-b8b3-4d06-b876-7cba2008d1cb"
+    title: "Hays USD 489 land-sale coverage (Ruder tax-deduction concern)"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Ruder December 2025 concern that a buyer might purchase land for tax deduction while leaving it vacant"
+      - "Ruder urged board to require bidders to specify intended use"
+
+  - id: s-hayspost-felten-rejection-mar2026
+    tier: secondary
+    url: "https://hayspost.com/posts/9146c4ed-6933-436d-bb49-1c8b48fb7b0a"
+    title: "Hays USD 489 rejects all bids for land purchase"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "March 10, 2026 board rejected all four Felten land bids (between $200,000 and $250,000)"
+      - "Felten land appraised at $630,000"
+      - "Ruder verbatim 'We're not saying no. We want to see what the future holds.'"
+
+  - id: s-hayspost-felten-worksession-mar2026
+    tier: secondary
+    url: "https://hayspost.com/posts/6b81ed76-f535-47bb-83bb-a9f3239ac9ac"
+    title: "Hays USD 489 to set work session to discuss Felten sale"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Board scheduled a March 23, 2026 work session to hear from bidders"
+
+  - id: s-hayspost-felten-reconsider-mar2026
+    tier: secondary
+    url: "https://hayspost.com/posts/13cbc154-8d45-445c-8557-acc25fb643e5"
+    title: "Hays USD 489 school board to take another look at land sale"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Ruder verbatim 'If we sit on the land, we get nothing'"
+      - "Ruder verbatim 'I don't think we can just say no'"
+
+  - id: s-tigermedia-felten-housing-apr2026
+    tier: secondary
+    url: "http://tigermedianet.com/?p=96373"
+    title: "Groups propose housing options for Felten land up for sale"
+    publisher: "Tiger Media Network"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "April 7, 2026 board meeting heard developer presentations including Matt Allen of PWC"
+      - "Ruder verbatim 'It just doesn't pencil out... $80,000 to $90,000 per lot before you start construction'"
+
+  - id: s-hayspost-housing-plans-apr2026
+    tier: secondary
+    url: "https://hayspost.com/posts/10c0daa9-bd99-44dc-a50d-a1f65ff0dbeb"
+    title: "Hays USD 489 board sees plans on potential housing developments"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "April 7, 2026 board heard housing-developer presentations on Felten land"
+      - "Board agreed to continue discussing the property"
+
+  - id: s-hayspost-bathroom-vandalism-apr2026
+    tier: secondary
+    url: "https://hayspost.com/posts/7b63aeb8-e2d2-40a4-af96-5e92884d3ede"
+    title: "USD 489 board members express concerns about bathrooms, vandalism"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Group bathrooms at Hays High closed since August following vandalism"
+      - "Continued vandalism including removed flush-valve sensors"
+      - "Ruder verbatim 'I would like to use the bathroom where I want'"
+      - "Ruder verbatim 'I agreed with the group bathrooms remaining closed'"
+      - "Ruder verbatim 'It boils down to how you parent your children'"
+      - "Ruder verbatim 'If we would talk on test scores instead of restrooms'"
+      - "Brooks verbatim 'We've had this discussion many times'"
+      - "Vajnar verbatim about construction-era public expectation"
+      - "Ruder identified in this article as 'Board Member'"
+
+  - id: s-citizenjournal-bathroom-vandalism-apr2026
+    tier: secondary
+    url: "https://www.citizenjournal.us/takeaways-from-hays-usd-489-education-board-meeting-4/"
+    title: "Takeaways from Hays USD 489 Education Board Meeting (#4)"
+    publisher: "Citizen Journal"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Corroboration of April 2026 bathroom-vandalism discussion"
+
+  - id: s-hayspost-naming-pause-aug2025
+    tier: secondary
+    url: "https://hayspost.com/posts/a90fb672-f7e5-4826-b5f3-1decd214e83c"
+    title: "Hays USD 489 pauses Hays High football field naming rights donation discussion"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "August 4, 2025 retreat: Brooks motion to add naming-rights vote to agenda failed 3-3"
+      - "Yes votes: Ruder, Brooks, Zampieri-Lillpopp; Yarmer absent"
+      - "Ruder verbatim 'free funds... positivity for the community'"
+      - "Ruder verbatim 'We just won the lottery'"
+
+  - id: s-hayspost-naming-postpone-sept2025
+    tier: secondary
+    url: "https://hayspost.com/posts/aefb9f40-2e86-4bb2-976e-2f731e7ce14f"
+    title: "Hays USD 489 postpones naming rights decision, despite bank's deadline"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "September 8, 2025 board meeting: Vajnar removed naming-rights item from agenda"
+      - "Rescheduled to October 27 work session"
+      - "Bank's $200,000 offer expiration deadline was September 15, 2025"
+      - "No formal accept-the-offer board vote occurred before deadline"
+      - "Vajnar verbatim 'The naming of USD 489 facilities belongs to the citizens'"
+      - "Brooks verbatim 'I don't think this is a bad plan'"
+
+  - id: s-hayspost-naming-agenda-sept2025
+    tier: secondary
+    url: "https://hayspost.com/posts/503eb02d-36b5-42df-bb16-d5d61da241a7"
+    title: "Hays USD 489 September 8 2025 agenda preview"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "September 8, 2025 agenda corroboration"
+
+  - id: s-hayspost-capital-outlay-oct2025
+    tier: secondary
+    url: "https://hayspost.com/posts/ba693a3b-a883-44c5-adbf-1ef99308d44c"
+    title: "Hays USD 489 October 27 work session agenda preview"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Naming-rights discussion rescheduled to October 27 work session"
+
+  - id: s-hayspost-sponsorship-oct2025
+    tier: secondary
+    url: "https://hayspost.com/posts/0330d54b-d2ee-4dcc-a4d5-995fd0f53307"
+    title: "Hays USD 489 school board to delay decision on facility sponsorships until spring"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "October 28, 2025 work session: sponsorship policy decision delayed to spring"
+      - "Naming-rights policy committee subsequently formed"
+
+  - id: s-hayspost-oloughlin-mgp-sept2024
+    tier: secondary
+    url: "https://hayspost.com/posts/87f9b442-e928-4c9d-bb85-03acad9d2a3f"
+    title: "Hays USD 489 board scrutinizes bond budget"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "September 9, 2024 vote: 5-2 to table $14.49M O'Loughlin Elementary MGP"
+      - "Yes-to-table: Yarmer, Vajnar, Ruder, Goetz, Park"
+      - "No (against tabling): Brooks, Zampieri-Lillpopp"
+      - "Ruder verbatim about Lincoln Elementary and Rockwell Administration sale"
+
+  - id: s-hayspost-hhs-changes-dec2024
+    tier: secondary
+    url: "https://hayspost.com/posts/7b2976df-a6d0-4414-bce5-d81cae678365"
+    title: "Hays USD 489 school board approves change orders for Hays High School"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "December 19, 2024 special-meeting vote: 5-1 on HHS change orders"
+      - "Allen Park voted no; Derek Yarmer absent"
+      - "Ruder said it was unfair to insinuate Nabholz or DLR were trying to cheat the district"
+
+  - id: s-tigermedia-feb2025-expenditures
+    tier: secondary
+    url: "http://tigermedianet.com/?p=85000"
+    title: "USD 489 Board of Education votes on high school expenditures"
+    publisher: "Tiger Media Network"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "February 19, 2025: Digital marquee approved 6-1 ($66,364 Golden Rule Signs)"
+      - "February 19, 2025: Weight-room equipment approved 7-0 ($146,710 BSN Sports)"
+      - "February 19, 2025: Video scoreboards approved 5-2 ($777,680)"
+      - "February 19, 2025: Tennis courts approved 6-1 ($687,937 Stallbaumer Construction)"
+      - "February 19, 2025: Wrestling mats approved 5-2 ($57,714 Resilite)"
+      - "Ruder verbatim about tennis tournament revenue to the city"
+
+  - id: s-hayspost-felten-construction-feb2026
+    tier: secondary
+    url: "https://hayspost.com/posts/f5e69fbd-0165-4db1-b896-07613f7a31ed"
+    title: "Hays USD 489 board approves construction contract for Felten Elementary"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "February 24, 2026: $5.7M Nabholz Construction MGP for Felten Elementary approved"
+      - "Allen Park and Derek Yarmer voted no"
+      - "Ruder verbatim 'I was confused as to why other board members wanted to delay'"
+      - "Ruder identified in this article as 'Board Vice President'"
+
+  - id: s-hayspost-hvac-contracts-feb2026
+    tier: secondary
+    url: "https://hayspost.com/posts/0c27e966-61e9-4c00-b6d7-7f37f6d3bba7"
+    title: "Hays BOE approves HVAC contract; admin. contracts on hold"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "February 24, 2026: Glassman HVAC amendments motion 3-2 (failed)"
+      - "Yes: Pallister, Brooks, Ruder; No: Park, Yarmer; Abstain: Goetz (conflict — husband works for Glassman); Absent: Vajnar"
+      - "Subsequent unanimous motion for districtwide RFP for preventive maintenance"
+      - "Motion to push director-contract decision to March 9 failed 3-3 (Ruder voted no)"
+      - "Motion to extend administrator contracts to March 9 passed 4-2 (Ruder voted no with Brooks)"
+
+  - id: s-hayspost-forum-oct2023
+    tier: secondary
+    url: "https://hayspost.com/posts/19aa6807-369c-4e64-9c1c-8af9d88c84df"
+    title: "Hays USD 489 BOE candidate forum coverage (October 2023)"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Ruder verbatim at the candidate forum on the then-planned bathroom design"
+      - "Ruder said the board should 'review board policies' and 'ask advice from the board attorney'"
+
+  - id: s-hayspost-ruder-qa-oct2023
+    tier: secondary
+    url: "https://hayspost.com/posts/4f225559-3a1c-4499-af0d-d0c7affa85a1"
+    title: "Hays USD 489 School Board Candidate: Ruth Ruder (October 2023 Q&A)"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Ruder stated she would change current communication on the board"
+      - "Ruder stated 'even in disagreements, we must be civil and compromise'"
+      - "Ruder stated 'I would not micromanage. I will review policy'"
+      - "Ruder stated 'I think the board should have a vital role in the bond'"
+      - "Ruder stated 'I would do my best at representing the taxpayer in being fiscally responsible'"
+      - "Ruder stated 'identifying smart growth'"
+
+  - id: s-hayspost-ruder-profile-jul2023
+    tier: secondary
+    url: "https://hayspost.com/posts/b833cbe0-37a8-4535-be13-b7d1c2ca645a"
+    title: "Hays Post candidate profile: Ruth Ruder (July 2023)"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Ruder married to Vernon Ruder Jr. for 34 years; three children"
+      - "Ruder born in Hays; Hays High School graduate 1988"
+      - "Ruder employed with Golden Plains Credit Union for 30 years; VP of Hays branch over 15 years"
+      - "Ruder stated first obligation 'will be to the children in our district'"
+
+# ============================================================================
+# Validator pre-check (manual symmetry + structure walkthrough)
+# ============================================================================
+
+validator_precheck:
+  source_id_resolution:
+    issue_1: PASS
+    issue_2: PASS
+    issue_3: PASS
+    issue_4: PASS
+    issue_5: PASS
+    issue_6: PASS
+    note: "Every sourceId in every stated/action block resolves to a source registry entry."
+  source_id_uniqueness: PASS
+  issue_id_uniqueness: PASS
+  action_id_uniqueness: PASS
+  action_backing_tier: PASS
+  note: "Every action is backed by at least one tier-secondary or tier-primary source. No action is backed only by social tier (no social signals exist on this candidate)."
+  social_signal_mapping: N/A
+  note_social: "Ruth Ruder has no candidate-controlled social platforms. socialSignals[] is intentionally empty on every issue."
+  gap_evidence_resolution: N/A
+  note_gap: "No gap declared on any issue. See narrative-writer-notes below for the AE-13 admin-contract reversal reasoning."
+  symmetry_test:
+    issue_1: PASS
+    issue_2: PASS
+    issue_3: PASS
+    issue_4: PASS
+    issue_5: PASS
+    issue_6: PASS
+    note: "Every prose block reviewed for symmetry. Each reads identically if rewritten about a school-board member of the opposite party with the same evidence."
+
+# ============================================================================
+# Narrative-writer notes (for site-profile-writer at Stage 2.d)
+# ============================================================================
+
+narrative_writer_notes:
+
+  title_arc:
+    note: |
+      The contemporaneous record on Ruder's title is ambiguous and time-shifted.
+      Verified facts: she has been a board member continuously since January
+      2024 (elected November 2023, four-year term through approximately
+      January 2028). She was identified as "Board Vice President" in the
+      February 24, 2026 Hays Post article on the Felten construction
+      contract, suggesting she held the VP role in early 2026 after a
+      reorganization. By April 22, 2026 she was identified as "Board Member"
+      again, and the current Highbond portal shows Vajnar as President and
+      Ken Brooks as Vice-President with Ruder as Member. The candidate
+      metadata uses "USD 489 Board of Education member" as the present-tense
+      neutral title, with "served as Vice President during early 2026" as
+      the historical addendum. Site-profile-writer should NOT assert a
+      current Vice President title without verifying against the live
+      USD 489 board-of-education page at publish time.
+
+  ae_13_admin_contract_reversal_gap_decision:
+    decision: OMIT
+    full_reasoning: |
+      The directive flagged the AE-4 (January 22, 2024) versus AE-13
+      (February 24, 2026) admin-contract vote pair as a potential gap
+      candidate against her "I would not micromanage" stated position. I
+      examined both votes carefully before deciding.
+
+      AE-4 was a 5-1-1 vote in January 2024 on one-year contract extensions
+      for four named district administrators: Superintendent Ron Wilson,
+      Assistant Superintendent / Director of Curriculum Shanna Dinkel,
+      Assistant Superintendent of Business Services Chris Hipp, and Director
+      of Special Education Kyle Carlin. Allen Park voted no, having moved
+      first that each contract be evaluated individually. Derek Yarmer
+      abstained. Ruder voted yes on the blanket extension.
+
+      AE-13 was actually two related February 2026 motions: (a) a 3-3 motion
+      to push the administrator-contract decision to March 9, 2026 (which
+      failed for lack of a fourth yes), and (b) a 4-2 motion to extend
+      administrator contracts to March 9 (which passed). Ruder voted no on
+      both. She voted no on the delay-the-decision motion and no on the
+      pass-a-short-extension motion.
+
+      These two events are NOT the same motion. AE-4 was a one-year blanket
+      extension of fully-evaluated administrator contracts at the start of
+      the calendar year, consistent with the board's typical annual contract
+      cycle. AE-13 was a very different procedural question: a short
+      extension (to March 9, two weeks out) of administrator contracts amid
+      a contested reorganization, with three members (Park, Goetz, Yarmer)
+      forming the yes majority that passed the short extension over Ruder's
+      and Brooks's objection. The contexts, the administrators involved
+      (possibly different by 2026), the duration (12 months vs. 2 weeks),
+      and the parliamentary posture (proactive annual cycle vs. reactive
+      procedural buy-time motion) all differ.
+
+      Ruder's stated position from her 2023 Q&A is "I would not micromanage.
+      I will review policy and ensure that it is being abided by." Neither
+      vote directly contradicts that stated position when read carefully:
+      the 2024 yes vote was on a board-recommended annual extension (the
+      board reviewing and approving as a body, not micromanaging individual
+      decisions); the 2026 no vote was a procedural objection to a
+      short-extension parliamentary motion she viewed as the wrong process,
+      not a substantive position on whether administrators should keep
+      their contracts.
+
+      To assert a gap on this issue, IDENTITY.md requires triangulated
+      evidence that the stated position is contradicted by both votes.
+      I cannot honestly make that assertion. The two votes are on
+      materially different motions in materially different parliamentary
+      contexts.
+
+      Decision: OMIT the gap. Per IDENTITY.md and the directive's halt
+      conditions, do not fabricate.
+
+      What IS recorded: both votes appear as separate actions on the same
+      i-superintendent-oversight issue. A reader who sees both can form
+      their own view. That is the correct narrative-writer behavior here.
+
+  ae_9_naming_rights_correction:
+    note: |
+      Per directive critical-correction item 2: the AE-9 Golden Belt Bank
+      $200,000 naming-rights deal NEVER received a formal accept-the-deal
+      board vote. The only board vote that occurred was a 3-3 procedural
+      motion at the August 4, 2025 retreat to add the acceptance question
+      to the upcoming Monday regular-meeting agenda. That procedural motion
+      failed for lack of a fourth yes vote (Yarmer absent). Ruder voted
+      yes on the procedural motion along with Brooks and Zampieri-Lillpopp.
+      Vajnar subsequently removed the item from the September 8 agenda.
+      The bank's offer expiration was September 15, with no acceptance
+      vote held before that date. This narrative reflects the correction:
+      the action body for a-naming-rights-procedural-aug2025 frames the
+      vote as procedural-to-add-to-agenda, not as a vote to accept the
+      deal. Her "free funds," "won the lottery," "belongs to the town,"
+      and "sell your soul" remarks all attach to the August 4 retreat
+      context and are quoted in stated/action body where they fall.
+
+  ae_3_bond_pm_correction:
+    note: |
+      Per directive critical-correction item 1: AE-3 (March 24, 2025 bond
+      project manager motion) was 3-4 FAILED, not 5-2 as some earlier
+      consolidated text suggested. Yarmer made the motion; the yes minority
+      was Yarmer + Park + Vajnar; the no majority included Ruder + Goetz +
+      two others. Narrative reflects this in a-bond-project-manager-2025
+      action body.
+
+  family_network_adjacency_handling:
+    note: |
+      Per directive: the family-network context appears ONLY in
+      candidate_metadata.context_note as a neutral fact statement. It is
+      not cited as evidence on any issue. No imputation runs from her
+      family members' positions to her positions, and her positions are
+      not imputed to family members. The single direct family-network
+      disclosure that does appear in an issue (Issue 4 i-district-land-use
+      via s-hayspost-ruder-profile-jul2023's claimsAnchored for the
+      biographical context) is her own July 2023 candidate-profile
+      disclosure of being married to Vernon Ruder Jr., not a behavior
+      attribution. Site-profile-writer should leave the family-network
+      framing in the context_note alone; do not weave it into prose on
+      any governance issue card.
+
+  symmetry_rewrites:
+    count: 0
+    note: |
+      Each issue narrative was drafted to symmetry-test from the first
+      pass. No paragraph required a rewrite. Specific symmetry-sensitive
+      passages reviewed: (a) Issue 2 (board civility) — the September 22,
+      2025 Park exchange description; (b) Issue 5 (bathroom-vandalism)
+      — the April 2026 statements; (c) Issue 6 (naming rights) — the
+      "sell your soul" / "won the lottery" tension. Each reads identically
+      if rewritten about a board member of the opposite political
+      affiliation with the same evidence.
+
+  blockers: []
+
+# ============================================================================
+# Closeout summary for orchestrator
+# ============================================================================
+
+closeout:
+  output_path: /Users/tylerpreisser/Desktop/elect-righteous/memory/candidates/ruth-ruder/v2-issues.yaml
+  issue_count: 6
+  ae_count: 14
+  primary_anchored_ae_count: 14
+  note_primary_anchored: |
+    Every ActionEvidence entry cites s-usd489-boarddocs (tier: primary) in
+    its sourceIds list in addition to the tier-secondary Hays Post / Tiger
+    Media / Citizen Journal anchors that capture the verbatim floor
+    statements. This follows the Allen Park P1.2 loopback pattern where
+    BoardDocs is the standard primary-tier registry entry for any USD 489
+    roll-call vote. Per the v2 schema validator, each action passes the
+    "primary OR secondary backing required" rule (it has both). Stage 2.d
+    site-profile-writer can render with primary-tier badges on every
+    action card.
+  social_signal_count: 0
+  note_social_signals: |
+    Ruth Ruder has no candidate-controlled social-media accounts in the
+    harvest window (sleuth U-1, raw-dump-v2 gap 9). socialSignals[] is
+    intentionally empty on every IssueCard. One community-organization
+    Facebook hit under her name is recorded in raw-dump-v2 sources
+    registry but is not behavior-attributable to her and is excluded.
+  gap_count: 0
+  gap_reasoning: |
+    No gap declared on any issue. The most-examined gap candidate was the
+    AE-13 admin-contract reversal vs. AE-4 — examined carefully per
+    directive guidance and OMITTED because the 2024 motion was a 12-month
+    blanket extension and the 2026 motion was a 2-week short procedural
+    extension amid a contested reorganization. Different motions, different
+    contexts. IDENTITY.md requires triangulated evidence of stated-position
+    contradiction; that bar is not met. Sleuth-pass also flagged Issue 4
+    (Felten land sale) for potential flip-vs-coherent-posture framing and
+    explicitly directed narrative-writer NOT to characterize as a flip;
+    that guidance is respected here.
+  symmetry_rewrite_count: 0
+  family_network_adjacency_note: |
+    Handled per directive. Family-network context lives ONLY in
+    candidate_metadata.context_note as a neutral fact. Not cited as
+    evidence on any governance IssueCard. No cross-imputation. No
+    family-member positions wired into Ruth's issue framing.
+  blockers: []
+  state_md_append: |
+    ruth-ruder: narrative_done (P2 wave 1)

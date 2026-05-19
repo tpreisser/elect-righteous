@@ -5,7 +5,7 @@
  *   1. Heading (issue title)
  *   2. "What they say" (stated.text + source chips)
  *   3. "What they did" (ActionList of actions)
- *   4. "Online behavior" (SocialSignalChips — only if signals exist)
+ *   4. "Relevant social activity" (SocialSignalChips — only if signals exist)
  *   5. "Where they diverge" (gap.summary + evidence references — only if gap present)
  *
  * No badge, no score, no consistency label, no flag-alert UI.
@@ -183,10 +183,10 @@ export default function IssueCardComponent({
             <ActionList actions={issue.actions} sources={sources} />
           </section>
 
-          {/* Section 3: Online behavior (only if signals exist) */}
+          {/* Section 3: Relevant social activity (only if signals exist) */}
           {hasSocialSignals && (
-            <section aria-label="Online behavior">
-              <SectionLabel>Online behavior</SectionLabel>
+            <section aria-label="Relevant social activity">
+              <SectionLabel>Relevant social activity</SectionLabel>
               <div className="grid gap-3">
                 {issue.socialSignals.map((signal) => (
                   <SocialSignalChip

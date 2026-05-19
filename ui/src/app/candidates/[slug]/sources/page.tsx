@@ -2,10 +2,12 @@ import Link from "next/link";
 import { ChevronLeft, ExternalLink } from "lucide-react";
 import { notFound } from "next/navigation";
 import { getAllCandidateSlugs, getFullCandidateBySlug } from "@/data/candidates";
+import { getAllCandidateV2Slugs, getFullCandidateV2BySlug } from "@/data/v2";
 import { getCandidateResearchSources } from "@/lib/candidate-sources";
 
 export function generateStaticParams() {
-  return getAllCandidateSlugs().map((slug) => ({ slug }));
+  return Array.from(new Set([...getAllCandidateSlugs(), ...getAllCandidateV2Slugs()]))
+    .map((slug) => ({ slug }));
 }
 
 interface PageProps {
@@ -14,19 +16,32 @@ interface PageProps {
 
 export default async function SourcesPage({ params }: PageProps) {
   const { slug } = await params;
-  const candidate = getFullCandidateBySlug(slug);
+  const candidateV2 = getFullCandidateV2BySlug(slug);
+  const candidateV1 = getFullCandidateBySlug(slug);
+  const candidate = candidateV2 ?? candidateV1;
 
   if (!candidate) {
     notFound();
   }
 
-  const researchSources = getCandidateResearchSources(candidate);
+  const researchSources = candidateV2
+    ? candidateV2.sources.map((source) => ({
+        title: source.title,
+        url: source.url,
+        publication: source.publisher ?? source.tier,
+        date: source.accessed,
+      }))
+    : candidateV1
+    ? getCandidateResearchSources(candidateV1)
+    : [];
 
   const partyLabel =
     candidate.party === "R"
       ? "Republican"
       : candidate.party === "D"
       ? "Democrat"
+      : candidate.party === "NP"
+      ? "Nonpartisan"
       : "Independent";
 
   return (

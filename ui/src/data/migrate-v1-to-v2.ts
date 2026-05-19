@@ -15,22 +15,22 @@
  *
  * Mapping summary:
  *   - Stable metadata fields → copied straight across.
- *   - v1 `whatYouShouldKnow: string[]`     → stub IssueCard per bullet,
- *                                            no actions / signals yet.
+ *   - v1 `whatYouShouldKnow: string[]`     → intentionally not carried as
+ *                                            its own section. Important items
+ *                                            should be merged into issues,
+ *                                            record, worship, funding, or
+ *                                            social relevance.
  *   - v1 `whatTheyStandFor: IssuePosition[]` → stub IssueCard per stance,
  *                                              text used as stated.text.
  *   - v1 `whoTheyAre` + `theirRecord` + `whereTheyWorship` →
- *                                          captured into warnings as
- *                                          prose that needs to be
- *                                          decomposed into issues by
- *                                          narrative-writer; NOT
- *                                          re-rendered as a silo.
+ *                                          captured into warnings for
+ *                                          collapsible dossier sections and
+ *                                          claim-anchored issue/action work.
  *   - v1 `inTheirOwnWords`               → captured into warnings; the
- *                                          v2 model does not have a
- *                                          social-media silo, so the
- *                                          narrative-writer must rewire
- *                                          the social observations
- *                                          inside their relevant issues.
+ *                                          narrative-writer keeps a compact
+ *                                          social relevance section while
+ *                                          mapping concrete observations to
+ *                                          their relevant issues.
  *   - v1 `sources: Source[]`             → mapped to v2 Source registry,
  *                                          tier=`secondary` by default
  *                                          (with a warning per source
@@ -99,10 +99,10 @@ export function migrateV1ToV2(v1: CandidateFull): MigrationResult {
     };
   });
 
-  // ---- Issue cards from `whatTheyStandFor` and `whatYouShouldKnow` ----
-  // Each becomes a stub IssueCard. We don't try to deduplicate or merge
-  // overlap (e.g. "Abortion" stance and an abortion-related WYSK bullet);
-  // narrative-writer does that work explicitly.
+  // ---- Issue cards from `whatTheyStandFor` ----
+  // `whatYouShouldKnow` is deliberately not migrated as its own v2 section.
+  // Important bullets should be merged into claim-anchored issues, actions,
+  // funding, worship, social relevance, or record sections by Phase 2.c.
   const issues: IssueCard[] = [];
 
   if (Array.isArray(v1.whatTheyStandFor)) {
@@ -128,28 +128,15 @@ export function migrateV1ToV2(v1: CandidateFull): MigrationResult {
     }
   }
 
-  if (Array.isArray(v1.whatYouShouldKnow)) {
-    for (const [i, bullet] of v1.whatYouShouldKnow.entries()) {
-      const issueId = `i-wysk-${i + 1}`;
-      issues.push({
-        id: issueId,
-        title: deriveTitleFromBullet(bullet),
-        stated: {
-          text: bullet,
-          sourceIds: [],
-        },
-        actions: [],
-        socialSignals: [],
-      });
-      warnings.push(
-        `IssueCard "${issueId}" stub (from v1 whatYouShouldKnow bullet) — narrative-writer should either merge with a stance-derived IssueCard or anchor as standalone with sources.`,
-      );
-    }
+  if (Array.isArray(v1.whatYouShouldKnow) && v1.whatYouShouldKnow.length > 0) {
+    warnings.push(
+      `v1 "whatYouShouldKnow" has ${v1.whatYouShouldKnow.length} bullets — v2 must drop that standalone section and merge genuinely important facts into issues, record, worship, funding, or social relevance.`,
+    );
   }
 
   if (issues.length === 0) {
     warnings.push(
-      `Candidate "${v1.slug}" produced zero IssueCards (no whatTheyStandFor, no whatYouShouldKnow) — Phase 2.c must create issues from scratch.`,
+      `Candidate "${v1.slug}" produced zero IssueCards (no whatTheyStandFor) — Phase 2.c must create issues from scratch.`,
     );
   }
 
@@ -165,10 +152,10 @@ export function migrateV1ToV2(v1: CandidateFull): MigrationResult {
     );
   }
 
-  // ---- Social silo: explicitly NOT carried over ----
+  // ---- Social relevance: preserve proportion, not a standalone verdict ----
   if (v1.inTheirOwnWords) {
     warnings.push(
-      `v1 "inTheirOwnWords" social narrative present — v2 has no top-level social silo. narrative-writer (Phase 2.c) must convert each observed social behavior into a SocialSignal mapped to the relevant IssueCard. Do NOT re-render this as prose.`,
+      `v1 "inTheirOwnWords" social narrative present — v2 should keep a compact social relevance section and convert concrete observed follows/likes/comments/posts into SocialSignal entries mapped to relevant IssueCards. Do not let social behavior become the whole relevance filter.`,
     );
   }
 
@@ -193,6 +180,9 @@ export function migrateV1ToV2(v1: CandidateFull): MigrationResult {
 
     issues,
 
+    whoTheyAre: v1.whoTheyAre,
+    recordSummary: v1.theirRecord,
+    ownWordsNarrative: v1.inTheirOwnWords?.narrative,
     whereTheyWorship: v1.whereTheyWorship,
     church: v1.church
       ? {
@@ -237,17 +227,4 @@ function slugifyForId(s: string): string {
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "")
     .slice(0, 40);
-}
-
-/**
- * Derive a short title from a "what you should know" bullet so the
- * stub IssueCard has a usable card title. This is purely cosmetic —
- * narrative-writer will rewrite titles in Phase 2.c.
- */
-function deriveTitleFromBullet(bullet: string): string {
-  const firstClause = bullet.split(/[.,—]/)[0] ?? bullet;
-  const trimmed = firstClause.trim();
-  if (trimmed.length === 0) return "Key fact";
-  if (trimmed.length <= 80) return trimmed;
-  return trimmed.slice(0, 77) + "...";
 }

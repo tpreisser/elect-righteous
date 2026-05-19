@@ -1,86 +1,40 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
-
-const HOOKS = [
-  "AI-Powered Marketing for Kansas",
-  "Curious About Automation?",
-  "Need an Online Presence Revamp?",
-  "Need a More Professional Website?",
-  "World-Class Marketing Systems",
-  "Built for Kansas Businesses",
-];
-
-// First loop: 2.5s, second loop: 5s, then 7s forever
-const SPEEDS = [2500, 5000, 7000];
-
 export default function BuiltByBadge() {
   const basePath = process.env.NODE_ENV === "production" ? "/elect-righteous" : "";
-  const [index, setIndex] = useState(0);
-  const [animating, setAnimating] = useState(false);
-  const loopRef = useRef(0);
-
-  useEffect(() => {
-    const getDelay = () => SPEEDS[Math.min(loopRef.current, SPEEDS.length - 1)];
-
-    let timeout: ReturnType<typeof setTimeout>;
-
-    const cycle = () => {
-      setAnimating(true);
-      setTimeout(() => {
-        setIndex((prev) => {
-          const next = (prev + 1) % HOOKS.length;
-          if (next === 0) {
-            loopRef.current += 1;
-          }
-          return next;
-        });
-        setAnimating(false);
-        timeout = setTimeout(cycle, getDelay());
-      }, 300);
-    };
-
-    timeout = setTimeout(cycle, getDelay());
-    return () => clearTimeout(timeout);
-  }, []);
 
   return (
-    <div className="fixed bottom-3 left-3 sm:bottom-5 sm:left-5 z-50 no-print max-w-[calc(100vw-1.5rem)] sm:max-w-none">
+    <div className="fixed bottom-3 right-3 sm:bottom-5 sm:right-5 z-50 no-print">
       <a
-        href="https://www.preissertech.com/"
+        href="https://www.preissersolutions.com/"
         target="_blank"
         rel="noopener noreferrer"
-        className="group flex items-center gap-2 sm:gap-3 pl-2.5 sm:pl-3 pr-3 sm:pr-4 py-2 sm:py-2.5 rounded-lg sm:rounded-xl shadow-lg sm:shadow-xl backdrop-blur-md transition-all duration-300 hover:shadow-2xl hover:scale-[1.04]"
+        className="group flex h-12 max-w-12 items-center gap-3 overflow-hidden rounded-lg pl-2.5 pr-2.5 shadow-lg backdrop-blur-md transition-all duration-300 hover:max-w-[18rem] hover:shadow-xl focus:max-w-[18rem] focus:outline-none focus-visible:ring-2 focus-visible:ring-teal sm:h-[3.25rem] sm:max-w-[3.25rem] sm:rounded-xl sm:pl-3 sm:pr-3"
         style={{
           backgroundColor: "rgba(16, 64, 93, 0.95)",
           border: "1px solid rgba(28, 195, 175, 0.25)",
         }}
-        aria-label="Visit PreisserTech - AI-powered marketing, websites, and automation for Kansas businesses"
+        aria-label="Visit Preisser Solutions"
       >
         <img
-          src={`${basePath}/preisser-tech-logo.webp`}
+          src={`${basePath}/preisser-solutions-logo.webp`}
           alt=""
           width={30}
           height={30}
-          className="rounded-md flex-shrink-0 w-5 h-5 sm:w-[30px] sm:h-[30px]"
+          className="h-7 w-7 flex-shrink-0 rounded-md sm:h-[30px] sm:w-[30px]"
           aria-hidden="true"
         />
-        <div className="flex min-w-0 max-w-[72vw] flex-col leading-tight sm:max-w-none">
-          <span
-            className={`text-[11px] sm:text-[13px] font-heading font-bold text-white tracking-wide group-hover:text-teal transition-all duration-300 whitespace-normal leading-tight sm:whitespace-nowrap ${
-              animating ? "opacity-0 -translate-y-1" : "opacity-100 translate-y-0"
-            }`}
-          >
-            {HOOKS[index]}
+        <div className="hidden min-w-[13rem] flex-col leading-tight opacity-0 transition-opacity duration-200 group-hover:flex group-hover:opacity-100 group-focus:flex group-focus:opacity-100 sm:flex">
+          <span className="text-[11px] sm:text-[13px] font-heading font-bold tracking-wide text-white transition-colors duration-300 group-hover:text-teal">
+            Built by Preisser Solutions
           </span>
           <span className="text-[9px] sm:text-[11px] font-body text-white/55">
-            <span className="font-semibold text-white/70">PreisserTech</span> <span className="hidden sm:inline">- Hays, KS</span>
+            <span className="font-semibold text-white/70">Hays, KS</span>
           </span>
         </div>
 
-        {/* Arrow — desktop only */}
         <svg
-          className="w-4 h-4 text-teal opacity-60 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all duration-300 flex-shrink-0 ml-1 hidden sm:block"
+          className="ml-1 hidden h-4 w-4 flex-shrink-0 text-teal opacity-0 transition-all duration-300 group-hover:translate-x-0.5 group-hover:opacity-100 group-focus:opacity-100 sm:block"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -88,7 +42,6 @@ export default function BuiltByBadge() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
         </svg>
 
-        {/* Glow on hover */}
         <span
           className="absolute inset-0 rounded-lg sm:rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"
           style={{

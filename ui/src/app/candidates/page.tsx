@@ -4,9 +4,9 @@ import { useState, useMemo } from "react";
 import { Search, X } from "lucide-react";
 import Container from "@/components/layout/container";
 import CandidateCard from "@/components/ui/candidate-card";
-import { CANDIDATE_CARDS, PartyKey } from "@/data/candidates";
+import { V2_CANDIDATES } from "@/data/v2";
 
-type PartyFilter = "All" | PartyKey;
+type PartyFilter = "All" | "R" | "D" | "I" | "NP";
 type StatusFilter = "All" | "Incumbent" | "Challenger";
 
 const PARTY_OPTIONS: { value: PartyFilter; label: string }[] = [
@@ -14,6 +14,7 @@ const PARTY_OPTIONS: { value: PartyFilter; label: string }[] = [
   { value: "R", label: "Republican" },
   { value: "D", label: "Democrat" },
   { value: "I", label: "Independent" },
+  { value: "NP", label: "Nonpartisan" },
 ];
 
 const STATUS_OPTIONS: { value: StatusFilter; label: string }[] = [
@@ -28,7 +29,7 @@ export default function CandidatesPage() {
   const [statusFilter, setStatusFilter] = useState<StatusFilter>("All");
 
   const filtered = useMemo(() => {
-    return CANDIDATE_CARDS.filter((c) => {
+    return V2_CANDIDATES.filter((c) => {
       // Text search: name or position
       if (query.trim()) {
         const q = query.toLowerCase();
@@ -205,7 +206,7 @@ export default function CandidatesPage() {
                 >
                   {filtered.length}
                 </span>{" "}
-                of {CANDIDATE_CARDS.length} candidates
+                of {V2_CANDIDATES.length} candidates
               </p>
 
               {hasActiveFilters && (

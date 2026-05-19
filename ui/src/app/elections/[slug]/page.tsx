@@ -4,7 +4,7 @@ import { Calendar, MapPin, ChevronRight, ExternalLink, ArrowRight } from "lucide
 import Container from "@/components/layout/container";
 import Badge from "@/components/ui/badge";
 import { ELECTIONS, getAllElectionSlugs, getElectionBySlug } from "@/data/elections";
-import { CANDIDATE_CARDS } from "@/data/candidates";
+import { V2_CANDIDATES } from "@/data/v2";
 
 // ── Static export: pre-render all election slugs ──────────────────────────────
 export function generateStaticParams() {
@@ -48,7 +48,7 @@ export default async function ElectionDetailPage({ params }: PageProps) {
     notFound();
   }
 
-  const candidates = CANDIDATE_CARDS.filter((c) =>
+  const candidates = V2_CANDIDATES.filter((c) =>
     election.candidateSlugs.includes(c.slug)
   );
 
@@ -223,6 +223,8 @@ export default async function ElectionDetailPage({ params }: PageProps) {
                               ? "Republican"
                               : candidate.party === "D"
                               ? "Democrat"
+                              : candidate.party === "NP"
+                              ? "Nonpartisan"
                               : "Independent";
 
                           return (

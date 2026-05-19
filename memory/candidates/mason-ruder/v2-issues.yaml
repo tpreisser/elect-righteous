@@ -1,0 +1,662 @@
+slug: mason-ruder
+generated: 2026-05-19T17:25:00Z
+agent: codex (narrative-writer equivalent)
+
+# Mason Ruder - Phase 2.c v2 issue cards.
+#
+# Editorial frame:
+# - Hays City Commission is a 2027 odd-year local race, not a 2026 ballot race.
+# - The all-candidate v2 rebuild directive still applies to this page.
+# - The sleuth-pass county/city mill-levy conflation is corrected here:
+#   the 1.96-mill increase was an Ellis County action, not a Hays city vote
+#   by Mason Ruder.
+# - Public social-platform content is thin and partly login-gated; social
+#   observations are not used as issue evidence unless sourceable.
+
+sources:
+  - id: s-ksleg-hb2433
+    tier: primary
+    url: "https://www.kslegislature.gov/li/b2025_26/measures/HB2433/"
+    title: "HB 2433 Bill Record"
+    publisher: "Kansas Legislature"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "HB 2433 was the Kansas bill carrying the water-transfer authority dispute involving Hays and Russell"
+      - "The bill record is the official legislative anchor for Ruder's 2026 testimony"
+
+  - id: s-ksleg-hb2433-testimony
+    tier: primary
+    url: "https://kslegislature.gov/li/b2025_26/measures/HB2433/testimony"
+    title: "HB 2433 Testimony Register"
+    publisher: "Kansas Legislature"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Mason Ruder appeared on the HB 2433 testimony register as a proponent on January 28, 2026"
+      - "Mason Ruder appeared on the HB 2433 testimony register as a proponent on February 26, 2026"
+
+  - id: s-ksleg-house-ruder-testimony
+    tier: primary
+    url: "https://www.kslegislature.gov/li/b2025_26/committees/ctte_h_loc_govt_1/documents/testimony/20260128_05.pdf"
+    title: "Mason Ruder HB 2433 House Committee Testimony"
+    publisher: "Kansas Legislature"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Ruder submitted written testimony to the House Local Government Committee on January 28, 2026"
+      - "The testimony argued that Edwards County zoning restrictions created a second regulatory process for the R9 Ranch transfer"
+
+  - id: s-ksleg-senate-ruder-testimony-1
+    tier: primary
+    url: "https://www.kslegislature.gov/li/b2025_26/committees/ctte_s_local_government_transparency_and_ethics_1/documents/testimony/20260226_16.pdf"
+    title: "Mason Ruder HB 2433 Senate Committee Testimony 1"
+    publisher: "Kansas Legislature"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Ruder submitted Senate committee testimony on HB 2433 on February 26, 2026"
+
+  - id: s-ksleg-senate-ruder-testimony-2
+    tier: primary
+    url: "https://www.kslegislature.gov/li/b2025_26/committees/ctte_s_local_government_transparency_and_ethics_1/documents/testimony/20260226_24.pdf"
+    title: "Mason Ruder HB 2433 Senate Committee Testimony 2"
+    publisher: "Kansas Legislature"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "A second Ruder Senate testimony file is registered for the February 26, 2026 HB 2433 hearing"
+
+  - id: s-haysusa-r9-ranch
+    tier: primary
+    url: "https://www.haysusa.com/1007/R9-Ranch"
+    title: "R9 Ranch Project"
+    publisher: "City of Hays"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "The City of Hays publishes R9 Ranch as an official city water-supply project"
+      - "The official project page anchors the institutional context for Ruder's R9 statements"
+
+  - id: s-haysusa-r9-property
+    tier: primary
+    url: "https://www.haysusa.com/879/R9-Property"
+    title: "R9 Property"
+    publisher: "City of Hays"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "The City of Hays maintains official R9 property information"
+
+  - id: s-hayspost-r9-2023
+    tier: secondary
+    url: "https://hayspost.com/posts/a356c3c3-47d3-49eb-98d5-fe030ffd2b8e"
+    title: "Hays Mayor: Every day is now an R9 Ranch Day"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Ruder was quoted in 2023 saying every day is now an R9 Ranch Day"
+
+  - id: s-hayspost-r9-2025
+    tier: secondary
+    url: "https://hayspost.com/posts/72cef8d3-79bf-4085-b070-bccbdc589f9d"
+    title: "Hays officials frame R9 as multi-generational water project"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Ruder called the R9 dispute a multi-generational battle in 2025 coverage"
+      - "The project cost was reported at $144.9 million in the same coverage"
+
+  - id: s-kansas-reflector-hb2433
+    tier: secondary
+    url: "https://kansasreflector.com/2026/02/04/kansas-lawmakers-weigh-where-authority-lies-in-11-year-water-dispute/"
+    title: "Kansas lawmakers weigh where authority lies in 11-year water dispute"
+    publisher: "Kansas Reflector"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Kansas Reflector carried Ruder's wording about a second regulatory process controlled by Edwards County"
+
+  - id: s-haysusa-agenda-04232026
+    tier: primary
+    url: "https://haysusa.com/AgendaCenter/ViewFile/Agenda/_04232026-1609"
+    title: "Hays City Commission Agenda Packet - April 23, 2026"
+    publisher: "City of Hays"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "The April 23, 2026 agenda packet included the Pioneer Run affordable-housing IRB item"
+
+  - id: s-tigermedia-pioneer-run
+    tier: secondary
+    url: "https://tigermedianet.com/?p=97002"
+    title: "Hays commission approves Pioneer Run affordable-housing IRB"
+    publisher: "Tiger Media Network"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "The Pioneer Run IRB passed 5-0"
+      - "The IRB's construction sales-tax exemption was reported at $147,962.50"
+      - "Ruder said the properties look great, are run well, and provide an affordable place to live"
+
+  - id: s-haysusa-agenda-02192026
+    tier: primary
+    url: "https://haysusa.com/AgendaCenter/ViewFile/Agenda/_02192026-1596"
+    title: "Hays City Commission Work Session Agenda - February 19, 2026"
+    publisher: "City of Hays"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "The February 19, 2026 work session agenda included the I-70 24/7 Travel Plaza TIF and CID discussion"
+
+  - id: s-haysusa-minutes-02192026
+    tier: primary
+    url: "https://www.haysusa.com/AgendaCenter/ViewFile/Minutes/_02192026-1596"
+    title: "Hays City Commission Work Session Minutes - February 19, 2026"
+    publisher: "City of Hays"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "The February 19, 2026 work session minutes anchor the travel-plaza incentive discussion"
+
+  - id: s-haysusa-agenda-02262026
+    tier: primary
+    url: "https://haysusa.com/AgendaCenter/ViewFile/Agenda/_02262026-1597"
+    title: "Hays City Commission Agenda - February 26, 2026"
+    publisher: "City of Hays"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "The February 26, 2026 agenda carried follow-on action for the travel-plaza incentive package"
+
+  - id: s-hayspost-travel-plaza
+    tier: secondary
+    url: "https://hayspost.com/posts/6988fcbc-170e-42d1-9dbd-cb28e017baba"
+    title: "Hays commission discusses I-70 24/7 Travel Plaza incentives"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Ruder said the rate of return for Hays was almost 2,200 percent"
+      - "Ruder framed the TIF and CID package as a good investment"
+      - "The travel-plaza package involved a pay-as-you-go TIF and a CID sales-tax overlay"
+
+  - id: s-haysusa-agenda-03262026
+    tier: primary
+    url: "https://haysusa.com/AgendaCenter/ViewFile/Agenda/_03262026-1603"
+    title: "Hays City Commission Agenda - March 26, 2026"
+    publisher: "City of Hays"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "The March 26, 2026 agenda packet included the Chick-fil-A IRB resolution of intent"
+
+  - id: s-haysusa-minutes-03262026
+    tier: primary
+    url: "https://www.haysusa.com/AgendaCenter/ViewFile/Minutes/_03262026-1603"
+    title: "Hays City Commission Minutes - March 26, 2026"
+    publisher: "City of Hays"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "The March 26, 2026 minutes anchor the Chick-fil-A IRB action"
+
+  - id: s-hayspost-chickfila
+    tier: secondary
+    url: "https://hayspost.com/posts/433c0ff0-f645-4a6a-a4be-6f8549de14f9"
+    title: "Hays commission approves Chick-fil-A IRB resolution of intent"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "The Chick-fil-A IRB was tied to a $6.2 million project at 3404 Vine"
+      - "The sales-tax exemption was estimated at $66,875"
+      - "The commission vote was unanimous"
+
+  - id: s-hayspost-housing-incentives
+    tier: secondary
+    url: "https://hayspost.com/posts/016d6ea0-0b96-4188-81d9-42efa7a327a0"
+    title: "Hays workforce housing incentive discussion"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Ruder said Hays had opened every possible incentive for homebuilding, but project timelines remained slow"
+
+  - id: s-haysusa-agenda-01082026
+    tier: primary
+    url: "https://haysusa.com/AgendaCenter/ViewFile/Agenda/_01082026-1589"
+    title: "Hays City Commission Reorganization Agenda - January 8, 2026"
+    publisher: "City of Hays"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "The January 8, 2026 agenda anchored the city commission reorganization"
+
+  - id: s-haysusa-minutes-01082026
+    tier: primary
+    url: "https://www.haysusa.com/AgendaCenter/ViewFile/Minutes/_01082026-1589"
+    title: "Hays City Commission Reorganization Minutes - January 8, 2026"
+    publisher: "City of Hays"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "The commission selected Mason Ruder as mayor and Alaina Cunningham as vice-mayor"
+
+  - id: s-tigermedia-mayor-2026
+    tier: secondary
+    url: "https://tigermedianet.com/?p=93385"
+    title: "Hays commission reelects Mason Ruder mayor"
+    publisher: "Tiger Media Network"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Ruder was selected by the commission to a second one-year mayoral term"
+      - "Ruder thanked Sandy Jacobs for collaborative leadership"
+
+  - id: s-haysusa-agenda-09252025
+    tier: primary
+    url: "https://haysusa.com/AgendaCenter/ViewFile/Agenda/_09252025-1571"
+    title: "Hays City Commission Agenda - September 25, 2025"
+    publisher: "City of Hays"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "The September 25, 2025 meeting materials reference approval of September 11, 2025 minutes"
+
+  - id: s-haysusa-minutes-09252025
+    tier: primary
+    url: "https://www.haysusa.com/AgendaCenter/ViewFile/Minutes/_09252025-1571"
+    title: "Hays City Commission Minutes - September 25, 2025"
+    publisher: "City of Hays"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "The September 25, 2025 minutes are a transitive primary record for the September 11, 2025 meeting"
+
+  - id: s-kpa-911
+    tier: secondary
+    url: "https://kspress.com/news/2025/09/20/forgetting-the-lesson-of-911-is-the-danger-we-face-now-says-ruder"
+    title: "Forgetting the lesson of 9/11 is the danger we face now, says Ruder"
+    publisher: "Kansas Press Association"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "KPA coverage reported Ruder's September 11, 2025 personal-comments address"
+
+  - id: s-haysusa-civic-alert-mask
+    tier: primary
+    url: "https://www.haysusa.com/CivicAlerts.aspx?AID=444&ARC=624"
+    title: "City of Hays Ordinance 3988 Announcement"
+    publisher: "City of Hays"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "The City of Hays announced Ordinance 3988 after the July 23, 2020 commission vote"
+      - "The ordinance required masks in public places and set an initial expiration date of August 31, 2020"
+
+  - id: s-hayspost-mask-original
+    tier: secondary
+    url: "https://hayspost.com/posts/78a708f5-4f1e-401f-9bd3-85c618edb4de"
+    title: "Hays approves mask ordinance after 4-1 vote"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Ruder cast the lone no vote on the original Hays mask ordinance"
+      - "Ruder said the decision should not be a mandate"
+      - "Ruder said risk mitigation should be up to organizations"
+
+  - id: s-hayspost-mask-aug
+    tier: secondary
+    url: "https://hayspost.com/posts/71b2e036-1db2-45b6-86a9-c9d86520f000"
+    title: "Hays extends mask ordinance in August 2020"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "The August 27, 2020 mask-ordinance extension passed 3-2"
+      - "Ruder and Michael Berges voted no"
+
+  - id: s-hayspost-mask-oct
+    tier: secondary
+    url: "https://hayspost.com/posts/1a241ad5-d176-4494-9e9a-aa4a286f3bf4"
+    title: "Hays extends mask ordinance after October 2020 special meeting"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "The October 2, 2020 special-meeting extension passed 3-1"
+      - "Ruder was the sole no vote; Mellick was absent"
+
+  - id: s-hayspost-budget-2026
+    tier: secondary
+    url: "https://hayspost.com/posts/7d615ae1-9b48-4ebd-9200-7c593c85db69"
+    title: "Hays approves 2026 city budget"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "The Hays city 2026 budget was $54.3 million"
+      - "The city mill levy was 24.382 mills, below the prior 25 mills"
+      - "Deputy City Manager Collin Bielser certified the city budget as revenue-neutral"
+      - "The city was in its 17th consecutive year at or below 25 mills"
+
+  - id: s-hayspost-eas
+    tier: secondary
+    url: "https://hayspost.com/posts/2730c5cd-1026-4098-9e5f-ebf15c8fd949"
+    title: "Hays discusses Essential Air Service subsidy tradeoff"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Ruder warned that locally replacing an Essential Air Service subsidy cut could require a major city mill-levy increase"
+
+  - id: s-hayspost-north-vine
+    tier: secondary
+    url: "https://hayspost.com/posts/b4422e87-ed3f-4d70-937d-b25e3a396187"
+    title: "North Vine roundabout corridor coverage"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Ruder called the North Vine roundabout an elegant solution to a complex problem"
+
+  - id: s-ellis-election-results
+    tier: primary
+    url: "https://www.ellisco.net/435/Election-Results"
+    title: "Ellis County Election Results"
+    publisher: "Ellis County, Kansas"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Ellis County publishes official city and school election results"
+
+  - id: s-ellis-2023-results
+    tier: primary
+    url: "https://www.ellisco.net/DocumentCenter/View/5815/OFFICIAL-RESULTS-2023-CITY-SCHOOL-GENERAL-ELECTION"
+    title: "Official Results - 2023 City/School General Election"
+    publisher: "Ellis County, Kansas"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Ruder was re-elected to the Hays City Commission in the 2023 city/school general election"
+
+  - id: s-hayspost-2023-results
+    tier: secondary
+    url: "https://hayspost.com/posts/5c04aec5-5ab3-413c-8844-d90e91aa0d31"
+    title: "Hays city commission 2023 election results"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Ruder was the top vote-getter in the 2023 Hays City Commission race"
+      - "Ruder received 2,199 votes, or 31.32 percent"
+      - "Ruder said city decisions affect residents almost immediately"
+
+issues:
+  - id: i-water-r9
+    title: "Water security and the R9 Ranch project"
+    stated:
+      text: |
+        Ruder's most consistent public issue is Hays' long-term water supply.
+        He has described the R9 Ranch project as an everyday governing priority
+        and later as a multi-generational battle. The City of Hays also
+        publishes R9 Ranch and R9 Property materials as official project pages,
+        so the issue is not merely campaign rhetoric; it is a city policy lane
+        where Ruder has spoken and acted in office.
+      sourceIds:
+        - s-haysusa-r9-ranch
+        - s-haysusa-r9-property
+        - s-hayspost-r9-2023
+        - s-hayspost-r9-2025
+    actions:
+      - id: a-hb2433-house-testimony-2026-01-28
+        date: "2026-01-28"
+        body: |
+          Appeared as a proponent witness on HB 2433 before the Kansas House
+          Local Government Committee. His testimony argued that Edwards County
+          zoning restrictions on water transfers above 500 acre-feet created a
+          second regulatory process for Hays and Russell in the R9 dispute.
+        sourceIds:
+          - s-ksleg-hb2433
+          - s-ksleg-hb2433-testimony
+          - s-ksleg-house-ruder-testimony
+          - s-kansas-reflector-hb2433
+      - id: a-hb2433-senate-testimony-2026-02-26
+        date: "2026-02-26"
+        body: |
+          Returned as a proponent witness for HB 2433 before the Senate Local
+          Government, Transparency and Ethics Committee. Two separate Ruder
+          testimony files are registered on the official Senate committee page
+          for that hearing date.
+        sourceIds:
+          - s-ksleg-hb2433-testimony
+          - s-ksleg-senate-ruder-testimony-1
+          - s-ksleg-senate-ruder-testimony-2
+      - id: a-r9-public-framing-2023-2025
+        date: "2025-08-29"
+        body: |
+          Repeatedly framed R9 as a long-run city responsibility, including
+          the 2023 statement that every day had become an R9 Ranch day and the
+          2025 statement that Hays was in a multi-generational battle that
+          began decades ago.
+        sourceIds:
+          - s-haysusa-r9-ranch
+          - s-hayspost-r9-2023
+          - s-hayspost-r9-2025
+    socialSignals: []
+
+  - id: i-housing-development-incentives
+    title: "Housing, workforce growth, and development incentives"
+    stated:
+      text: |
+        Ruder's growth language is practical rather than ideological. Public
+        coverage ties him to workforce housing, developer incentives, and
+        city-return calculations. He has said Hays has opened every possible
+        incentive for homebuilding while still facing slow project timelines,
+        and he has publicly framed city incentive packages in terms of housing,
+        workforce, and measurable local return.
+      sourceIds:
+        - s-hayspost-housing-incentives
+        - s-hayspost-travel-plaza
+        - s-tigermedia-pioneer-run
+    actions:
+      - id: a-pioneer-run-irb-2026-04-23
+        date: "2026-04-23"
+        body: |
+          As mayor, presided over and joined a unanimous 5-0 approval of an
+          Industrial Revenue Bond resolution for Overland Property Group's
+          48-unit Pioneer Run affordable-housing project. The IRB provides a
+          construction sales-tax exemption reported at $147,962.50 and bonus
+          points for the developer's state tax-credit application. Ruder said
+          the properties look great, are run well, and provide an affordable
+          place to live.
+        sourceIds:
+          - s-haysusa-agenda-04232026
+          - s-tigermedia-pioneer-run
+      - id: a-travel-plaza-incentives-2026-02-19
+        date: "2026-02-19"
+        body: |
+          Publicly supported moving the I-70 24/7 Travel Plaza TIF and CID
+          package toward hearing and action. He cited an estimated city rate
+          of return of almost 2,200 percent and described the incentive package
+          as a good investment. The package included a pay-as-you-go TIF and a
+          CID sales-tax overlay for a 9,000-square-foot travel plaza.
+        sourceIds:
+          - s-haysusa-agenda-02192026
+          - s-haysusa-minutes-02192026
+          - s-haysusa-agenda-02262026
+          - s-hayspost-travel-plaza
+      - id: a-chickfila-irb-2026-03-26
+        date: "2026-03-26"
+        body: |
+          Participated as mayor in the unanimous approval of a resolution of
+          intent to issue Industrial Revenue Bonds for a new $6.2 million
+          Chick-fil-A project at 3404 Vine. The reported construction
+          sales-tax exemption was estimated at $66,875.
+        sourceIds:
+          - s-haysusa-agenda-03262026
+          - s-haysusa-minutes-03262026
+          - s-hayspost-chickfila
+      - id: a-workforce-housing-incentives-2025
+        date: "2025-05-01"
+        body: |
+          In workforce-housing coverage, said Hays had opened every possible
+          incentive for homebuilding but project timelines still remained
+          slow. This action is a public governing statement rather than a vote,
+          and it is included to show how he frames the incentive pipeline.
+        sourceIds:
+          - s-hayspost-housing-incentives
+    socialSignals: []
+
+  - id: i-budget-taxes-infrastructure
+    title: "City budget, taxes, and infrastructure tradeoffs"
+    stated:
+      text: |
+        Ruder's visible budget record is tied to city services, infrastructure,
+        and growth tradeoffs. The corrected record matters here: the 1.96-mill
+        2026 increase was an Ellis County budget action, not a Hays city vote
+        by Mason Ruder. The Hays city 2026 budget was reported as
+        revenue-neutral at 24.382 mills, below the prior 25 mills and part of
+        a long city pattern at or below 25 mills.
+      sourceIds:
+        - s-hayspost-budget-2026
+    actions:
+      - id: a-city-budget-2026
+        date: "2025-09-12"
+        body: |
+          Served on the Hays City Commission body that approved the 2026 city
+          budget at $54.3 million and 24.382 mills. Available coverage does
+          not quote Ruder individually or report a dissent from him; Deputy
+          City Manager Collin Bielser certified the budget as revenue-neutral.
+        sourceIds:
+          - s-hayspost-budget-2026
+      - id: a-essential-air-service-warning-2025
+        date: "2025-05-24"
+        body: |
+          Warned that replacing a proposed federal Essential Air Service
+          subsidy cut for Hays Regional Airport with local funding could
+          require a major increase in the city mill levy. This is included as
+          a public tradeoff statement, not as a completed tax vote.
+        sourceIds:
+          - s-hayspost-eas
+      - id: a-north-vine-roundabout-2022
+        date: "2022-08-10"
+        body: |
+          Publicly supported the North Vine roundabout corridor project,
+          calling it an elegant solution to a complex problem and tying it to
+          safety, traffic flow, pedestrian access, and redevelopment potential.
+        sourceIds:
+          - s-hayspost-north-vine
+    socialSignals: []
+    gap:
+      summary: |
+        Earlier project notes and the sleuth pass misattributed an Ellis County
+        1.96-mill levy increase to Ruder's city record. The corrected evidence
+        shows a different picture: the Hays city budget action tied to Ruder's
+        commission role was revenue-neutral and below the prior 25-mill rate.
+      evidenceIds:
+        - a-city-budget-2026
+
+  - id: i-public-health-mandates
+    title: "COVID-era public health mandates"
+    stated:
+      text: |
+        In the 2020 Hays mask-ordinance debate, Ruder's stated position was
+        not that masks were useless; he said he would wear a mask as his doctor
+        recommended. His objection was to the city mandate itself, saying the
+        decision should not be a mandate and that risk mitigation should be up
+        to organizations.
+      sourceIds:
+        - s-hayspost-mask-original
+    actions:
+      - id: a-mask-original-no-2020-07-23
+        date: "2020-07-23"
+        body: |
+          Cast the lone no vote when the Hays City Commission approved
+          Ordinance 3988, the city's original mask ordinance. The city press
+          release anchors the ordinance and date; Hays Post reports the 4-1
+          roll-call split and Ruder's quoted mandate objection.
+        sourceIds:
+          - s-haysusa-civic-alert-mask
+          - s-hayspost-mask-original
+      - id: a-mask-extension-no-2020-08-27
+        date: "2020-08-27"
+        body: |
+          Voted no when the commission extended the mask ordinance through
+          October 5, 2020. The reported vote was 3-2, with Ruder and Michael
+          Berges voting no.
+        sourceIds:
+          - s-hayspost-mask-aug
+      - id: a-mask-extension-no-2020-10-02
+        date: "2020-10-02"
+        body: |
+          Was the sole no vote at the October 2, 2020 special meeting where the
+          commission extended the ordinance until specified COVID metrics or a
+          statewide emergency change were met. Mellick was absent; Berges,
+          Musil, and Jacobs voted yes.
+        sourceIds:
+          - s-hayspost-mask-oct
+    socialSignals: []
+
+  - id: i-civic-role-public-presence
+    title: "Civic role, mayoral selection, and public presence"
+    stated:
+      text: |
+        Ruder's office is not directly elected as mayor by city voters; Hays
+        commissioners select the mayor from among themselves. His public role
+        therefore combines electoral support for the commission seat with
+        commission selection for the mayoral chair. The visible record also
+        includes public-comment use and civic messaging, while no verified
+        candidate-controlled campaign social page surfaced in the latest pass.
+      sourceIds:
+        - s-haysusa-minutes-01082026
+        - s-tigermedia-mayor-2026
+        - s-ellis-2023-results
+        - s-hayspost-2023-results
+    actions:
+      - id: a-reelected-commission-2023
+        date: "2023-11-07"
+        body: |
+          Was re-elected to the Hays City Commission as the top vote-getter in
+          the 2023 city race. Hays Post reported 2,199 votes, or 31.32 percent,
+          and described the result as a four-year commission term.
+        sourceIds:
+          - s-ellis-election-results
+          - s-ellis-2023-results
+          - s-hayspost-2023-results
+      - id: a-selected-mayor-2026-01-08
+        date: "2026-01-08"
+        body: |
+          Was selected by fellow commissioners for a second one-year mayoral
+          term at the January 8, 2026 reorganization meeting. Alaina
+          Cunningham was selected as vice-mayor.
+        sourceIds:
+          - s-haysusa-agenda-01082026
+          - s-haysusa-minutes-01082026
+          - s-tigermedia-mayor-2026
+      - id: a-911-personal-comments-2025-09-11
+        date: "2025-09-11"
+        body: |
+          Used the commission personal-comments portion of a September 11, 2025
+          city meeting for an anniversary address. The September 25 minutes
+          provide a transitive official meeting anchor; the speech content was
+          reported by Kansas Press Association but remained paywalled in this
+          pass.
+        sourceIds:
+          - s-haysusa-agenda-09252025
+          - s-haysusa-minutes-09252025
+          - s-kpa-911
+    socialSignals: []
+
+candidate_metadata:
+  office: "Hays Mayor; Hays City Commissioner"
+  party: "Nonpartisan"
+  electionSlug: "hays-city-current"
+  incumbent: true
+  current_role: "Mayor of Hays, selected by the city commission on January 8, 2026"
+  occupation: "Certified Public Manager; Hays civic and Catholic-school advancement work"
+  hometown: "Hays, Kansas"
+  religion: "Catholic"
+  whereTheyWorship: |
+    Ruder's Catholic affiliation is publicly documented in the existing record.
+    Hays Catholic Schools identified him with Immaculate Heart of Mary Parish,
+    and his biography is tied to TMP-Marian and Hays Catholic Schools. This is
+    descriptive background only, not a grading category.
+  social_presence_note: |
+    The public-facing social record is limited. Prior harvests found a LinkedIn
+    public preview and local institutional coverage, but no reliable
+    candidate-controlled campaign website, campaign Facebook page, public X,
+    Instagram, TikTok, YouTube, Substack, or comparable campaign account.
+    Login-gated or ambiguous social material was not used as issue evidence.
+  campaign_finance_note: |
+    No clean online campaign-finance total was verified for Ruder's city races.
+    Do not imply hidden donors from this absence; a local records request would
+    be needed for a full city-campaign filing record.
+  family_network_note: |
+    Ruder is part of a visible Hays family network: mother Ruth Ruder serves on
+    the USD 489 board and father Vernon Ruder Jr. serves as Ellis County
+    Treasurer. This file records Mason's observable behavior only. No public
+    crossover endorsement, recusal, or comment by Mason on those school/county
+    actions surfaced in the reviewed record.
+
+narrative_writer_notes:
+  symmetry_test_paragraphs_rewritten: 4
+  rewrite_log:
+    - "Removed the sleuth-pass claim that Mason voted for an Ellis County mill-levy increase; that was a jurisdiction error."
+    - "Changed incentive language from 'pro-developer' to 'growth and incentive packages' so the same wording would fit any commissioner with the same record."
+    - "Kept COVID mandate language on the vote and quote rather than implying broader public-health beliefs."
+    - "Recorded family-network adjacency as observable absence, not inference."
+  validator_precheck:
+    source_id_resolution: PASS
+    action_backing_tier: PASS
+    social_signal_mapping: N/A
+    gap_evidence_resolution: PASS
+    note: "Every action references primary or secondary sources; no social signals are present."

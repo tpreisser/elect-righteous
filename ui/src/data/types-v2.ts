@@ -22,10 +22,10 @@
  *      {@link SocialSignal} has an `observation` string and no `belief`
  *      or `position` field. The type system makes it impossible to write
  *      "candidate believes X" as a social signal.
- *   4. Social signals are issue-scoped, never silo'd. Every
- *      {@link SocialSignal} carries a required `mappedToIssueId`. There
- *      is no top-level `socialMedia` array on the candidate. If a signal
- *      cannot be mapped to an issue, it does not render.
+ *   4. Social research is proportional. Relevant follows, likes, comments,
+ *      posts, and platform absences may render in a compact social section,
+ *      but every concrete {@link SocialSignal} still carries a required
+ *      `mappedToIssueId` so it stays tied to a real issue or record.
  *   5. Claim anchoring. Every {@link Source} carries a `claimsAnchored`
  *      list — the specific claims this source backs. Narrative writers
  *      must cite specifically rather than dumping URLs.
@@ -123,8 +123,10 @@ export interface ActionEvidence {
  * Signals describe what was seen (a like, a repost, a follow, an
  * attendance photo), not what it means.
  *
- * Renderer is expected to surface these under the {@link IssueCard} they
- * map to, not as a top-level "social media" silo.
+ * Renderer may surface these both under the {@link IssueCard} they map to
+ * and in a compact "In their own words / relevant social activity" summary.
+ * The point is proportion, not deletion: social research is useful when it
+ * illuminates the record, but it is not the whole relevance filter.
  *
  * Validator rule: `mappedToIssueId` must resolve to a real
  * `IssueCard.id` on the same candidate. Unmapped signals do not render.
@@ -258,10 +260,11 @@ export interface CampaignFinanceV2 {
 /**
  * A v2 candidate.
  *
- * v1's narrative blobs (`whoTheyAre`, `theirRecord`, `whatYouShouldKnow`,
- * `whatTheyStandFor`, `inTheirOwnWords`) are replaced by `issues:
- * IssueCard[]`. The renderer composes the candidate page from issue
- * cards rather than from prose silos.
+ * v1's narrative blobs (`whoTheyAre`, `theirRecord`, `whatTheyStandFor`,
+ * `inTheirOwnWords`) are normalized into collapsible dossier sections and
+ * `issues: IssueCard[]`. The old `whatYouShouldKnow` silo is intentionally
+ * not part of v2; important items belong in the record, issue cards, social
+ * relevance, worship, funding, or source sections.
  *
  * v1's deprecated grading/badge fields (NONE of which exist in the v1
  * `CandidateFull` interface today but which past iterations referenced)
@@ -297,10 +300,18 @@ export interface CandidateFullV2 {
   issues: IssueCard[];
 
   // -------- Descriptive metadata (kept from v1) --------
+  /** Background narrative for the "Who They Are" dossier section. */
+  whoTheyAre?: string;
+  /** Public-record narrative for the "Their Record" dossier section. */
+  recordSummary?: string;
+  /** Candidate-controlled or attributed public statements/social narrative. */
+  ownWordsNarrative?: string;
   /** Short faith/worship narrative. Descriptive only, NOT a grade. */
   whereTheyWorship?: string;
   church?: ChurchInfoV2;
   campaignFinance?: CampaignFinanceV2;
+  /** Compact note about public social footprint, absences, or harvest limits. */
+  socialResearchNote?: string;
 
   // -------- Source registry --------
   /**

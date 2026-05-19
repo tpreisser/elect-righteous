@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     template: "%s | Elect Righteous",
   },
   description:
-    "Comprehensive, source-cited research on every candidate running in 2026 elections relevant to Hays, Kansas. 54 candidates, 12 races, 11,000+ public sources.",
+    "Comprehensive, source-cited research on every candidate and officeholder relevant to Hays, Kansas. 55 profiles, 14 races, and public-source trails.",
   keywords: [
     "Hays Kansas elections",
     "2026 Kansas candidates",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Elect Righteous | Know Your Candidates. Vote Your Values.",
     description:
-      "Comprehensive, source-cited research on every candidate running in 2026 elections relevant to Hays, Kansas. 54 candidates, 12 races, 11,000+ public sources.",
+      "Comprehensive, source-cited research on every candidate and officeholder relevant to Hays, Kansas. 55 profiles, 14 races, and public-source trails.",
     url: `${basePath}/`,
     type: "website",
     siteName: "Elect Righteous",

@@ -121,7 +121,7 @@ const SCRUB_TOPIC_STYLES: Record<
   }
 > = {
   statements: {
-    label: "Posts, comments, and public statements",
+    label: "Candidate-attributed activity",
     icon: MessageSquare,
     accent: "var(--color-navy)",
     bg: "rgba(16, 64, 93, 0.06)",
@@ -503,60 +503,31 @@ function SocialPresenceScrub({
   );
 
   return (
-    <section aria-labelledby="presence-scrub-heading" className="my-12">
-      <div
-        className="overflow-hidden rounded-lg border"
-        style={{ borderColor: "rgba(16, 64, 93, 0.14)", backgroundColor: "#ffffff" }}
-      >
-        <div className="p-5 sm:p-6 lg:p-8" style={{ backgroundColor: "var(--color-navy)" }}>
-          <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_18rem] lg:items-start">
-            <div>
-              <p
-                className="font-heading text-xs font-bold uppercase tracking-widest"
-                style={{ color: "var(--color-teal-light)" }}
-              >
-                Public-posting readout
-              </p>
-              <h2
-                id="presence-scrub-heading"
-                className="mt-2 font-heading text-2xl font-bold text-white"
-              >
-                Social Media & Online Presence Scrub
-              </h2>
-              <p className="mt-3 max-w-4xl font-body text-sm leading-relaxed text-white/75">
-                {summary ||
-                  `Public posts, comments, account footprint, response signals, and source limits found for ${candidateName}.`}
-              </p>
-            </div>
-
-            <div className="grid grid-cols-2 gap-2 text-white lg:grid-cols-1">
-              <div className="rounded-md bg-white/10 px-3 py-2">
-                <span className="block font-heading text-[0.65rem] font-bold uppercase tracking-wider text-white/55">
-                  Sources
-                </span>
-                <span className="font-heading text-sm font-bold">{data.platformsCovered.length} platforms</span>
-              </div>
-              <div className="rounded-md bg-white/10 px-3 py-2">
-                <span className="block font-heading text-[0.65rem] font-bold uppercase tracking-wider text-white/55">
-                  Updated
-                </span>
-                <span className="font-heading text-sm font-bold">
-                  {formatOwnWordsDate(data.lastUpdated, "long")}
-                </span>
-              </div>
-            </div>
-          </div>
+    <ProfileSection title="In Their Own Words" kicker="Relevant social activity">
+      <div>
+        <div className="grid gap-3 border-b pb-5" style={{ borderColor: "#e2e8f0" }}>
+          <p
+            id="presence-scrub-heading"
+            className="max-w-4xl font-body text-base leading-relaxed"
+            style={{ color: "var(--color-charcoal)" }}
+          >
+            {summary ||
+              `Relevant public posts, comments, visible likes or follows, account footprint, response signals, and source limits found for ${candidateName}.`}
+          </p>
+          <p className="font-body text-sm" style={{ color: "var(--color-slate)" }}>
+            {data.platformsCovered.length} platforms checked · updated {formatOwnWordsDate(data.lastUpdated, "long")}
+          </p>
         </div>
 
-        <div className="grid gap-4 p-4 sm:p-6 lg:grid-cols-2 lg:p-8">
+        <div className="grid gap-2 pt-3">
           {verbatimItems.length > 0 && (
             <details
-              className="group rounded-lg border bg-white lg:col-span-2"
-              style={{ borderColor: "rgba(16, 64, 93, 0.12)" }}
+              className="group border-b"
+              style={{ borderColor: "#e2e8f0" }}
             >
-              <summary className="flex cursor-pointer list-none items-center gap-3 p-4 sm:p-5">
+              <summary className="flex cursor-pointer list-none items-center gap-3 py-4">
                 <span
-                  className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md"
+                  className="flex h-8 w-8 shrink-0 items-center justify-center rounded"
                   style={{
                     backgroundColor: SCRUB_TOPIC_STYLES.statements.bg,
                     color: SCRUB_TOPIC_STYLES.statements.accent,
@@ -567,13 +538,13 @@ function SocialPresenceScrub({
                 </span>
                 <span className="min-w-0 flex-1">
                   <span
-                    className="block font-heading text-sm font-bold uppercase tracking-widest"
+                    className="block font-heading text-sm font-bold uppercase"
                     style={{ color: SCRUB_TOPIC_STYLES.statements.accent }}
                   >
                     {SCRUB_TOPIC_STYLES.statements.label}
                   </span>
                   <span className="mt-1 block font-body text-xs text-slate">
-                    Verbatim posts, comments, and attributed public statements only
+                    Verbatim posts, comments, and attributed public statements only · {verbatimItems.length} item{verbatimItems.length === 1 ? "" : "s"}
                   </span>
                 </span>
                 <ChevronRight
@@ -582,22 +553,20 @@ function SocialPresenceScrub({
                   aria-hidden="true"
                 />
               </summary>
-              <div className="border-t p-4 sm:p-5" style={{ borderColor: "#e2e8f0" }}>
-                <div className="grid gap-4 lg:grid-cols-2">
+              <div>
+                <div className="divide-y" style={{ borderColor: "#e2e8f0" }}>
                   {verbatimItems.map((item, itemIndex) => (
                     <figure
                       key={`${item.quote}-${itemIndex}`}
-                      className="min-w-0 rounded-lg border-l-4 p-4 sm:p-5"
-                      style={{
-                        borderColor: "#e2e8f0",
-                        borderLeftColor: "var(--color-teal)",
-                        backgroundColor: "#f8f9fa",
-                      }}
+                      className="grid gap-2 py-4"
                     >
-                      <figcaption className="mb-3 font-body text-[0.68rem] font-semibold uppercase leading-snug tracking-wide text-slate sm:text-xs sm:tracking-wider">
+                      <figcaption className="font-body text-xs font-semibold uppercase leading-snug text-slate">
                         {item.context}
                       </figcaption>
-                      <blockquote className="break-words font-heading text-xl font-bold leading-snug text-navy sm:text-2xl lg:text-3xl">
+                      <blockquote
+                        className="break-words border-l-2 pl-3 font-body text-base leading-relaxed"
+                        style={{ borderColor: "var(--color-teal)", color: "var(--color-charcoal)" }}
+                      >
                         &ldquo;{item.quote}&rdquo;
                       </blockquote>
                       {item.url && (
@@ -605,7 +574,7 @@ function SocialPresenceScrub({
                           href={item.url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="mt-4 inline-flex max-w-full items-center gap-1 rounded-full border px-2.5 py-1 font-heading text-[0.68rem] font-bold uppercase tracking-wide hover:bg-teal hover:text-white sm:text-[0.7rem] sm:tracking-wider"
+                          className="inline-flex w-fit max-w-full items-center gap-1 rounded border px-2 py-1 font-body text-xs font-semibold hover:bg-teal hover:text-white"
                           style={{ borderColor: "rgba(28, 195, 175, 0.35)", color: "var(--color-teal-dark)" }}
                           title={item.sourceLabel || hostLabel(item.url)}
                         >
@@ -628,12 +597,12 @@ function SocialPresenceScrub({
             return (
               <details
                 key={topic}
-                className="group rounded-lg border bg-white"
-                style={{ borderColor: "rgba(16, 64, 93, 0.12)" }}
+                className="group border-b"
+                style={{ borderColor: "#e2e8f0" }}
               >
-                <summary className="flex cursor-pointer list-none items-center gap-3 p-4 sm:p-5">
+                <summary className="flex cursor-pointer list-none items-center gap-3 py-4">
                   <span
-                    className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md"
+                    className="flex h-8 w-8 shrink-0 items-center justify-center rounded"
                     style={{ backgroundColor: topicStyle.bg, color: topicStyle.accent }}
                     aria-hidden="true"
                   >
@@ -641,7 +610,7 @@ function SocialPresenceScrub({
                   </span>
                   <span className="min-w-0 flex-1">
                     <span
-                      className="block font-heading text-sm font-bold uppercase tracking-widest"
+                      className="block font-heading text-sm font-bold uppercase"
                       style={{ color: topicStyle.accent }}
                     >
                       {topicStyle.label}
@@ -656,12 +625,12 @@ function SocialPresenceScrub({
                     aria-hidden="true"
                   />
                 </summary>
-                <div className="border-t px-4 pb-4 sm:px-5 sm:pb-5" style={{ borderColor: "#e2e8f0" }}>
+                <div>
                   <div className="divide-y" style={{ borderColor: "#e2e8f0" }}>
                     {topicCards.map((card, cardIndex) => (
                       <p
                         key={`${card.title}-${cardIndex}`}
-                        className="py-4 font-body text-[0.98rem] leading-8 sm:text-base sm:leading-relaxed"
+                        className="py-4 font-body text-sm leading-relaxed sm:text-base"
                         style={{ color: "var(--color-charcoal)" }}
                       >
                         <LinkedNarrativeText text={card.text} />
@@ -674,12 +643,12 @@ function SocialPresenceScrub({
           })}
 
           <details
-            className="group rounded-lg border bg-white lg:col-span-2"
-            style={{ borderColor: "rgba(16, 64, 93, 0.12)" }}
+            className="group border-b"
+            style={{ borderColor: "#e2e8f0" }}
           >
-            <summary className="flex cursor-pointer list-none items-center gap-3 p-4 sm:p-5">
+            <summary className="flex cursor-pointer list-none items-center gap-3 py-4">
               <CalendarDays size={20} className="shrink-0 text-teal" aria-hidden="true" />
-              <span className="min-w-0 flex-1 font-heading text-sm font-bold uppercase tracking-widest text-navy">
+              <span className="min-w-0 flex-1 font-heading text-sm font-bold uppercase text-navy">
                 Sources, date range, and limits
               </span>
               <ChevronRight
@@ -688,7 +657,7 @@ function SocialPresenceScrub({
                 aria-hidden="true"
               />
             </summary>
-            <div className="grid gap-4 border-t p-4 sm:p-5 lg:grid-cols-[18rem_minmax(0,1fr)]" style={{ borderColor: "#e2e8f0" }}>
+            <div className="grid gap-4 py-4 lg:grid-cols-[18rem_minmax(0,1fr)]">
               <div>
                 <h3 className="font-heading text-xs font-bold uppercase tracking-widest text-navy">
                   Date Range
@@ -726,7 +695,7 @@ function SocialPresenceScrub({
           </details>
         </div>
       </div>
-    </section>
+    </ProfileSection>
   );
 }
 
@@ -741,6 +710,8 @@ function CorrectionForm({
   const [submitted, setSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState(false);
+  const emailSubject = `Elect Righteous - Correction for ${candidateName}`;
+  const mailtoHref = `mailto:${FEEDBACK_EMAIL}?subject=${encodeURIComponent(emailSubject)}`;
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -748,10 +719,10 @@ function CorrectionForm({
     setError(false);
 
     const formData = new FormData(e.currentTarget);
-    formData.append("_subject", `Elect Righteous — Correction for ${candidateName}`);
-    formData.append("_captcha", "false");
-    formData.append("_template", "table");
-    formData.append("candidate", candidateName);
+    formData.set("_subject", emailSubject);
+    formData.set("_captcha", "false");
+    formData.set("_template", "table");
+    formData.set("candidate", candidateName);
 
     try {
       const res = await fetch(`https://formsubmit.co/ajax/${FEEDBACK_EMAIL}`, {
@@ -759,7 +730,7 @@ function CorrectionForm({
         body: formData,
       });
       const data = await res.json();
-      if (data.success === "true") {
+      if (res.ok && (data.success === true || data.success === "true")) {
         setSubmitted(true);
       } else {
         setError(true);
@@ -806,7 +777,18 @@ function CorrectionForm({
         additional information, let us know. We want to get this right.
       </p>
 
-      <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+      <form
+        action={`https://formsubmit.co/${FEEDBACK_EMAIL}`}
+        method="POST"
+        acceptCharset="UTF-8"
+        onSubmit={handleSubmit}
+        className="flex flex-col gap-4"
+      >
+        <input type="hidden" name="_subject" value={emailSubject} />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_template" value="table" />
+        <input type="hidden" name="candidate" value={candidateName} />
+
         {/* Name */}
         <div>
           <label
@@ -919,7 +901,11 @@ function CorrectionForm({
 
         {error && (
           <p className="text-sm font-body" style={{ color: "var(--color-red-flag)" }}>
-            Something went wrong. Please try again or email us directly at {FEEDBACK_EMAIL}
+            Something went wrong. Please try again or{" "}
+            <a className="font-semibold underline" href={mailtoHref}>
+              email us directly at {FEEDBACK_EMAIL}
+            </a>
+            .
           </p>
         )}
       </form>
@@ -1135,12 +1121,12 @@ export default function CandidateDetailClient({
 
           {/* ── Their Record ────────────────────────────────────────────── */}
           {candidate.theirRecord && (
-            <ProfileSection title="Their Record Summary" kicker="Public record">
+            <ProfileSection title="Their Record" kicker="Public record">
               <ParagraphStack text={candidate.theirRecord} />
             </ProfileSection>
           )}
 
-          {/* ── Social Media & Online Presence Scrub ─────────────────── */}
+          {/* ── In Their Own Words / Relevant Social Activity ─────────── */}
           {candidate.inTheirOwnWords && (
             <SocialPresenceScrub
               candidateName={candidate.name}
@@ -1149,9 +1135,9 @@ export default function CandidateDetailClient({
             />
           )}
 
-          {/* ── What They Stand For ──────────────────────────────────── */}
+          {/* ── Where They Stand on Big Issues ───────────────────────── */}
           {candidate.whatTheyStandFor && candidate.whatTheyStandFor.length > 0 && (
-            <ProfileSection title="What They Stand For" kicker="Issue positions">
+            <ProfileSection title="Where They Stand on Big Issues" kicker="Issue positions">
               <p
                 className="font-body text-sm leading-relaxed"
                 style={{ color: "var(--color-slate)", fontStyle: "italic" }}
@@ -1184,9 +1170,9 @@ export default function CandidateDetailClient({
             </ProfileSection>
           )}
 
-          {/* ── Follow the Money ────────────────────────────────────────── */}
+          {/* ── Donor/Funding Information ───────────────────────────────── */}
           {candidate.campaignFinance && (
-            <ProfileSection title="Follow the Money" kicker="Campaign finance">
+            <ProfileSection title="Donor/Funding Information" kicker="Campaign finance">
               {candidate.campaignFinance.narrative && (
                 <BodyText>{candidate.campaignFinance.narrative}</BodyText>
               )}
@@ -1223,40 +1209,6 @@ export default function CandidateDetailClient({
               <p className="text-xs mt-4" style={{ color: "var(--color-slate)" }}>
                 Source: {candidate.campaignFinance.source} — {candidate.campaignFinance.reportingPeriod}
               </p>
-            </ProfileSection>
-          )}
-
-          {/* ── What You Should Know ────────────────────────────────────── */}
-          {candidate.whatYouShouldKnow.length > 0 && (
-            <ProfileSection title="What You Should Know" kicker="Key takeaways">
-              <ul className="grid gap-4 lg:grid-cols-2" role="list">
-                {candidate.whatYouShouldKnow.map((item, i) => (
-                  <li
-                    key={i}
-                    className="flex gap-4 rounded-lg border p-4 sm:p-5"
-                    style={{ color: "var(--color-charcoal)", borderColor: "#e2e8f0", backgroundColor: "#f8f9fa" }}
-                  >
-                    {/* Numbered bullet */}
-                    <span
-                      className="flex-shrink-0 flex items-center justify-center w-7 h-7 rounded-full font-heading font-bold text-xs mt-0.5"
-                      style={{
-                        backgroundColor: "var(--color-navy)",
-                        color: "white",
-                        minWidth: "1.75rem",
-                      }}
-                      aria-hidden="true"
-                    >
-                      {i + 1}
-                    </span>
-                    <p
-                      className="font-body leading-relaxed"
-                      style={{ fontSize: "1.0625rem", paddingTop: "0.125rem" }}
-                    >
-                      {item}
-                    </p>
-                  </li>
-                ))}
-              </ul>
             </ProfileSection>
           )}
 

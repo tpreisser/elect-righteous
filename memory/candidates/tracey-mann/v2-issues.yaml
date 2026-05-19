@@ -1,0 +1,609 @@
+slug: tracey-mann
+generated: 2026-05-19T17:45:00Z
+agent: codex (narrative-writer equivalent)
+
+# Tracey Mann - Phase 2.c v2 issue cards.
+#
+# Editorial frame:
+# - This file converts the v2 deep scrape into issue cards. It is additive to
+#   the large v1 dossier, but no v1 prose silo is carried forward unchanged.
+# - Direct .house.gov and clerk.house.gov fetches were environment-blocked in
+#   the deep scrape, but canonical URLs and multi-source corroboration were
+#   captured. Those source-tier notes are preserved below.
+# - Candidate-controlled social is issue-scoped: Mann's own X town-hall count
+#   is rendered as a social signal under constituent access, not as a top-level
+#   social-media silo.
+
+sources:
+  - id: s-clerk-hr1-2025-145
+    tier: primary
+    url: "https://clerk.house.gov/Votes/2025145"
+    title: "Roll Call 145 - H.R. 1, 119th Congress"
+    publisher: "Clerk of the U.S. House of Representatives"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "The House voted on passage of H.R. 1 on May 22, 2025"
+      - "The final tally was 215 yeas, 214 nays, 1 present, and 2 not voting"
+      - "Mann's yea vote was confirmed through multiple mirrors when clerk XML was blocked"
+
+  - id: s-congress-hr1-2025-145
+    tier: primary
+    url: "https://www.congress.gov/votes/house/119-1/145"
+    title: "House Vote 145 - H.R. 1"
+    publisher: "Congress.gov"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Congress.gov carries the House vote page for H.R. 1 passage"
+
+  - id: s-mann-obbba-2025
+    tier: primary
+    url: "https://mann.house.gov/media/press-releases/rep-mann-applauds-one-big-beautiful-bill-acts-wins-america"
+    title: "Rep. Mann Applauds the One Big Beautiful Bill Act's Wins for America"
+    publisher: "Office of Rep. Tracey Mann"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Mann publicly supported H.R. 1 after the May 22, 2025 House vote"
+      - "Mann described Medicaid and SNAP as exploited and expanded beyond their initial intent"
+      - "Mann framed work requirements as stewardship of taxpayer generosity"
+
+  - id: s-kwch-medicaid-2025
+    tier: secondary
+    url: "https://www.kwch.com/2025/05/15/its-false-narrative-rep-mann-says-proposed-medicaid-changes-arent-cuts/"
+    title: "It's a false narrative: Rep. Mann says proposed Medicaid changes aren't cuts"
+    publisher: "KWCH"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Mann said it was a false narrative to say Republicans were going to cut Medicaid"
+      - "Mann said Medicaid would be preserved for the people it was intended for"
+      - "Mann repeated waste, fraud, and abuse framing"
+
+  - id: s-clerk-rotor-2026-72
+    tier: primary
+    url: "https://clerk.house.gov/Votes/202672"
+    title: "Roll Call 72 - S. 2503, ROTOR Act"
+    publisher: "Clerk of the U.S. House of Representatives"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "The House voted on S. 2503, the ROTOR Act, on February 24, 2026"
+      - "The bill failed 264-133, one vote short of the two-thirds suspension threshold"
+      - "Mann's nay vote was confirmed by multiple Kansas and national reports"
+
+  - id: s-congress-rotor-2026
+    tier: primary
+    url: "https://www.congress.gov/bill/119th-congress/senate-bill/2503"
+    title: "S. 2503 - ROTOR Act"
+    publisher: "Congress.gov"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "S. 2503 was the Rotorcraft Operations Transparency and Oversight Reform Act"
+
+  - id: s-kwch-rotor-2026
+    tier: secondary
+    url: "https://www.kwch.com/2026/02/24/rotor-act-requiring-aircraft-locator-systems-that-ntsb-recommends-prevent-midair-collisions-fails-house/"
+    title: "ROTOR Act requiring aircraft locator systems fails in House"
+    publisher: "KWCH"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "KWCH reported Mann as the only Kansas House member to vote no"
+      - "Mann's office said aviation safety is a top priority"
+      - "Mann's office said the bill was drafted before the NTSB final report and did not go through normal T&I committee process"
+
+  - id: s-rollcall-rotor-2026
+    tier: secondary
+    url: "https://rollcall.com/2026/02/24/senate-aviation-safety-bill-rejected-by-house/"
+    title: "Senate aviation safety bill rejected by House"
+    publisher: "Roll Call"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Roll Call reported the 264-133 ROTOR Act tally"
+      - "Roll Call reported 132 Republican no votes and one Democratic no vote"
+      - "House Transportation and Infrastructure Chair Sam Graves and Armed Services Chair Mike Rogers urged opposition"
+
+  - id: s-kansas-reflector-rotor-2026
+    tier: secondary
+    url: "https://kansasreflector.com/2026/02/25/u-s-rep-tracey-mann-lone-kansas-vote-against-federal-aviation-safety-bill-tied-to-d-c-crash/"
+    title: "Tracey Mann lone Kansas vote against federal aviation safety bill tied to D.C. crash"
+    publisher: "Kansas Reflector"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Mann was the lone Kansas delegation no vote on the ROTOR Act"
+      - "The bill responded to the 2025 Washington, D.C. midair collision involving a flight from Wichita"
+
+  - id: s-congressional-record-jan6
+    tier: primary
+    url: "https://www.congress.gov/congressional-record/volume-167/issue-4/house-section/article/H76-4"
+    title: "Congressional Record, January 6, 2021 House Proceedings"
+    publisher: "Congress.gov"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "The Congressional Record anchors the January 6, 2021 electoral-objection proceedings"
+
+  - id: s-govinfo-jan6
+    tier: primary
+    url: "https://www.govinfo.gov/content/pkg/CREC-2021-01-06/html/CREC-2021-01-06-pt1-PgH76-4.htm"
+    title: "Congressional Record - January 6, 2021"
+    publisher: "GovInfo"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "GovInfo hosts the official Congressional Record text for January 6, 2021"
+
+  - id: s-govtrack-az-objection
+    tier: primary
+    url: "https://www.govtrack.us/congress/votes/117-2021/h10"
+    title: "Arizona Electoral Objection Vote"
+    publisher: "GovTrack"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Mann voted yea on the Arizona electoral objection"
+
+  - id: s-govtrack-pa-objection
+    tier: primary
+    url: "https://www.govtrack.us/congress/votes/117-2021/h11"
+    title: "Pennsylvania Electoral Objection Vote"
+    publisher: "GovTrack"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Mann voted yea on the Pennsylvania electoral objection"
+
+  - id: s-mann-committees-caucuses
+    tier: primary
+    url: "https://mann.house.gov/about/committees-and-caucuses"
+    title: "Committees and Caucuses"
+    publisher: "Office of Rep. Tracey Mann"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Mann's official office page identifies committee and caucus roles"
+      - "Search-accessible text identifies Mann as co-founder and co-chair of the House Congressional FFA Caucus"
+
+  - id: s-mann-kaptur-farmer-first
+    tier: primary
+    url: "https://mann.house.gov/media/press-releases/reps-mann-kaptur-and-sens-marshall-brown-introduce-bicameral-legislation-put"
+    title: "Mann, Kaptur, Marshall, Brown introduce Farmer First Fuel Incentives Act"
+    publisher: "Office of Rep. Tracey Mann"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Mann and Kaptur co-led a bipartisan, bicameral biofuels effort with Senators Marshall and Brown"
+      - "The effort concerned Clean Fuel Production Credit eligibility for domestically produced feedstocks"
+
+  - id: s-congress-hr1207
+    tier: primary
+    url: "https://www.congress.gov/bill/119th-congress/house-bill/1207/all-info"
+    title: "H.R. 1207 - Food for Peace transfer to USDA"
+    publisher: "Congress.gov"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Mann introduced H.R. 1207 on February 11, 2025"
+      - "H.R. 1207 would transfer USAID Food for Peace functions to USDA"
+
+  - id: s-congress-hr1207-pdf
+    tier: primary
+    url: "https://www.congress.gov/119/bills/hr1207/BILLS-119hr1207ih.pdf"
+    title: "H.R. 1207 Introduced Text"
+    publisher: "Congress.gov"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "The introduced bill text names the Food for Peace transfer framework"
+
+  - id: s-ffa-caucus-members
+    tier: primary
+    url: "https://ffacaucus-mann.house.gov/about/members"
+    title: "FFA Caucus Members"
+    publisher: "House Congressional FFA Caucus"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Tracey Mann and Jimmy Panetta are listed as chairs of the FFA Caucus"
+
+  - id: s-ksffa-ffa-reestablish
+    tier: secondary
+    url: "https://www.ksffa.org/news/reps-mann-panetta-reestablish-congressional-ffa-caucus-in-118th-congress/"
+    title: "Reps. Mann, Panetta Reestablish Congressional FFA Caucus"
+    publisher: "Kansas FFA"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Mann and Panetta co-founded the caucus on December 2, 2021"
+      - "Mann described the caucus as bipartisan and focused on the next generation of agricultural leaders"
+
+  - id: s-mcgovern-hunger-caucus
+    tier: primary
+    url: "https://mcgovern.house.gov/news/documentsingle.aspx?DocumentID=398957"
+    title: "McGovern and Mann Announce Relaunch of Bipartisan House Hunger Caucus"
+    publisher: "Office of Rep. Jim McGovern"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "McGovern and Mann relaunched the bipartisan House Hunger Caucus on February 9, 2023"
+      - "Mann served as the Republican co-chair in the relaunched caucus"
+
+  - id: s-hayspost-townhall-2024
+    tier: secondary
+    url: "https://hayspost.com/posts/1e4f8e0c-4dcd-446f-a66b-a191d2a56966"
+    title: "U.S. Rep. Mann addresses immigration, national debt in Hays"
+    publisher: "Hays Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Mann held a Hays town hall at Hays Public Library on July 2, 2024"
+      - "Mann gave direct quotes on stepped-up basis, national debt, immigration, and border security"
+
+  - id: s-indivisible-colby-townhall-2026
+    tier: secondary
+    url: "https://indivisiblemhk.substack.com/p/transcript-of-rep-tracey-manns-town"
+    title: "Transcript of Rep. Tracey Mann's Town Hall in Colby"
+    publisher: "Indivisible MHK"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "The transcript carries Mann quotes on Medicare, Social Security, DOGE, immigration, water, and Food for Peace"
+      - "The source is oppositional; verbatim quotes are usable but editorial framing is not"
+
+  - id: s-x-mann-townhalls-2024
+    tier: social
+    url: "https://x.com/RepMann/status/1826719239861919945"
+    title: "Mann X post on 246 town halls"
+    publisher: "X / Rep. Tracey Mann"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Mann stated he had hosted 246 town halls across Kansas since 2021"
+      - "Mann stated he completed a 60-county listening tour in 2024"
+
+  - id: s-fec-candidate
+    tier: primary
+    url: "https://www.fec.gov/data/candidate/H0KS01123/"
+    title: "Tracey Robert Mann Candidate Page"
+    publisher: "Federal Election Commission"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "FEC candidate ID H0KS01123 belongs to Tracey Robert Mann"
+      - "2025-2026 cycle totals were directly fetched from FEC"
+
+  - id: s-fec-committee
+    tier: primary
+    url: "https://www.fec.gov/data/committee/C00460659/"
+    title: "Mann for Congress Committee Page"
+    publisher: "Federal Election Commission"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Mann for Congress is the principal campaign committee C00460659"
+
+  - id: s-little-apple-nawg-2026
+    tier: secondary
+    url: "https://littleapplepost.com/posts/bdad41f3-c25e-4dfe-ad71-4743c631cb18"
+    title: "Mann named Wheat Leader of the Year"
+    publisher: "Little Apple Post"
+    accessed: "2026-05-20"
+    claimsAnchored:
+      - "Mann was announced as NAWG 2025 Wheat Leader of the Year"
+      - "Mann gave an acceptance quote about Kansas and American farmers"
+
+issues:
+  - id: i-agriculture-food-coalitions
+    title: "Agriculture, food aid, and bipartisan farm coalitions"
+    stated:
+      text: |
+        Mann's strongest public lane is agriculture. He presents himself as a
+        Big First farm-district member, chairs the House Agriculture livestock
+        subcommittee, and has formal bipartisan food-and-agriculture caucus
+        roles. The v2 scrape materially widens the picture from a simple
+        conservative-caucus profile: on agriculture and hunger, he has worked
+        in named bipartisan structures with Democrats including Jimmy Panetta,
+        Jim McGovern, Marcy Kaptur, and Sherrod Brown.
+      sourceIds:
+        - s-mann-committees-caucuses
+        - s-ffa-caucus-members
+        - s-ksffa-ffa-reestablish
+        - s-mcgovern-hunger-caucus
+        - s-mann-kaptur-farmer-first
+    actions:
+      - id: a-kaptur-biofuels-2024-09-24
+        date: "2024-09-24"
+        body: |
+          Co-led a bipartisan, bicameral biofuels effort with Rep. Marcy Kaptur
+          and Senators Roger Marshall and Sherrod Brown, focused on Clean Fuel
+          Production Credit eligibility for domestically produced feedstocks.
+        sourceIds:
+          - s-mann-kaptur-farmer-first
+      - id: a-food-for-peace-hr1207-2025-02-11
+        date: "2025-02-11"
+        body: |
+          Introduced H.R. 1207, a bill to transfer Food for Peace Act functions
+          from USAID to USDA. At a Colby town hall, he framed the idea as
+          sending Kansas-grown commodities and said he wanted to see it
+          codified into law.
+        sourceIds:
+          - s-congress-hr1207
+          - s-congress-hr1207-pdf
+          - s-indivisible-colby-townhall-2026
+      - id: a-ffa-caucus-cochair
+        date: "2023-01-27"
+        body: |
+          Reestablished the Congressional FFA Caucus with Rep. Jimmy Panetta.
+          Kansas FFA reported that Mann and Panetta co-founded the caucus on
+          December 2, 2021, and the current caucus member page lists Mann and
+          Panetta as chairs.
+        sourceIds:
+          - s-ffa-caucus-members
+          - s-ksffa-ffa-reestablish
+      - id: a-hunger-caucus-relaunch
+        date: "2023-02-09"
+        body: |
+          Relaunched the bipartisan House Hunger Caucus with Rep. Jim McGovern,
+          serving as the Republican co-chair in a caucus focused on domestic
+          and international hunger and food insecurity.
+        sourceIds:
+          - s-mcgovern-hunger-caucus
+      - id: a-nawg-wheat-leader-2026
+        date: "2026-01-30"
+        body: |
+          Accepted NAWG 2025 Wheat Leader of the Year recognition at the Kansas
+          Commodity Classic in Salina, with coverage tying the award to his
+          Food for Peace work and wheat advocacy.
+        sourceIds:
+          - s-little-apple-nawg-2026
+    socialSignals: []
+
+  - id: i-healthcare-medicaid
+    title: "Healthcare, Medicaid, and safety-net programs"
+    stated:
+      text: |
+        Before the H.R. 1 vote, Mann told KWCH it was a false narrative to say
+        Republicans were going to cut Medicaid and said Medicaid would be
+        preserved for the people it was intended for. At a Colby town hall, he
+        also said Medicare and Social Security cuts were not being discussed in
+        meetings he was part of and that those programs were off the table.
+      sourceIds:
+        - s-kwch-medicaid-2025
+        - s-indivisible-colby-townhall-2026
+    actions:
+      - id: a-hr1-yea-2025-05-22
+        date: "2025-05-22"
+        body: |
+          Voted yes on House passage of H.R. 1, the One Big Beautiful Bill Act,
+          in a 215-214 vote. The deep scrape uses the Clerk and Congress.gov
+          vote pages as canonical primary anchors, with Mann's yea vote
+          confirmed through multiple independent mirrors because clerk XML was
+          fetch-blocked in this environment.
+        sourceIds:
+          - s-clerk-hr1-2025-145
+          - s-congress-hr1-2025-145
+      - id: a-obbba-medicaid-statement-2025-06-09
+        date: "2025-06-09"
+        body: |
+          In his own post-vote statement, Mann said Medicaid and SNAP had been
+          exploited and expanded beyond their initial intent and defended work
+          or volunteer requirements for able-bodied adults without young
+          children.
+        sourceIds:
+          - s-mann-obbba-2025
+    socialSignals: []
+    gap:
+      summary: |
+        Readers can compare Mann's pre-vote assurance that proposed Medicaid
+        changes were not cuts with his later yea vote on H.R. 1 and his own
+        post-vote statement saying Medicaid and SNAP had been expanded beyond
+        their initial intent. The page should present both statements without
+        deciding whether the change is a contradiction, a narrower definition
+        of cuts, or consistent eligibility-policy framing.
+      evidenceIds:
+        - a-hr1-yea-2025-05-22
+        - a-obbba-medicaid-statement-2025-06-09
+
+  - id: i-aviation-rotor-act
+    title: "Aviation safety and the ROTOR Act"
+    stated:
+      text: |
+        Mann's office said aviation safety is a top priority and argued that
+        the ROTOR Act moved too quickly: it was drafted before the NTSB final
+        report and did not move through the normal Transportation and
+        Infrastructure Committee process. That rationale closes the earlier v1
+        gap that Mann had not publicly explained his vote.
+      sourceIds:
+        - s-kwch-rotor-2026
+        - s-rollcall-rotor-2026
+    actions:
+      - id: a-rotor-act-nay-2026-02-24
+        date: "2026-02-24"
+        body: |
+          Voted no on S. 2503, the ROTOR Act. The bill failed 264-133, one vote
+          short of the two-thirds threshold under suspension of the rules. Mann
+          was the only Kansas House member to vote no, while his vote also fit
+          a broader Republican opposition pattern that included 132 Republican
+          no votes.
+        sourceIds:
+          - s-clerk-rotor-2026-72
+          - s-congress-rotor-2026
+          - s-kwch-rotor-2026
+          - s-rollcall-rotor-2026
+          - s-kansas-reflector-rotor-2026
+    socialSignals: []
+
+  - id: i-immigration-border-labor
+    title: "Immigration, border security, and agricultural labor"
+    stated:
+      text: |
+        Mann's town-hall language combines border-security emphasis with an
+        acknowledgement that agriculture depends on workers in the country to
+        do farm jobs. In Hays and Colby, he framed the border as a common-sense
+        security issue while also saying agriculture has to have people in the
+        country to do the work.
+      sourceIds:
+        - s-hayspost-townhall-2024
+        - s-indivisible-colby-townhall-2026
+    actions:
+      - id: a-hays-townhall-border-2024-07-02
+        date: "2024-07-02"
+        body: |
+          At a Hays town hall, answered constituent questions on immigration
+          and border security as part of his 60-county listening-tour cadence.
+          Hays Post carried direct quotes from the exchange.
+        sourceIds:
+          - s-hayspost-townhall-2024
+      - id: a-colby-townhall-immigration-2026-02-19
+        date: "2026-02-19"
+        body: |
+          At a Colby town hall, said the country needed common sense and a
+          border, said enforcement priority would focus on convicted criminals,
+          and said agriculture needs workers in the country to do jobs.
+        sourceIds:
+          - s-indivisible-colby-townhall-2026
+    socialSignals: []
+
+  - id: i-election-certification-jan6
+    title: "2020 election certification and January 6 objections"
+    stated:
+      text: |
+        Mann's January 6 record is historical rather than a fresh 2026
+        campaign message in the v2 scrape. The reason it remains in the v2
+        profile is that the official Congressional Record and vote mirrors give
+        primary anchors for a major early congressional action already covered
+        in the v1 dossier.
+      sourceIds:
+        - s-congressional-record-jan6
+        - s-govinfo-jan6
+    actions:
+      - id: a-az-objection-yea-2021-01-06
+        date: "2021-01-06"
+        body: |
+          Voted yea on the Arizona electoral objection, meaning he voted to
+          sustain the objection to Arizona's electoral votes. The objection was
+          rejected by the House.
+        sourceIds:
+          - s-congressional-record-jan6
+          - s-govinfo-jan6
+          - s-govtrack-az-objection
+      - id: a-pa-objection-yea-2021-01-07
+        date: "2021-01-07"
+        body: |
+          Voted yea on the Pennsylvania electoral objection, meaning he voted
+          to sustain the objection to Pennsylvania's electoral votes. The
+          objection was rejected by the House.
+        sourceIds:
+          - s-congressional-record-jan6
+          - s-govinfo-jan6
+          - s-govtrack-pa-objection
+    socialSignals: []
+
+  - id: i-constituent-access-townhalls
+    title: "Constituent access and town halls"
+    stated:
+      text: |
+        Mann has made town halls and listening tours a visible part of his
+        congressional identity. The v2 scrape anchors both the quantitative
+        claim from his own X account and specific town-hall exchanges in Hays
+        and Colby, while treating the oppositional framing around the Colby
+        transcript as non-admissible.
+      sourceIds:
+        - s-hayspost-townhall-2024
+        - s-indivisible-colby-townhall-2026
+    actions:
+      - id: a-hays-townhall-2024-07-02
+        date: "2024-07-02"
+        body: |
+          Held a Hays town hall at Hays Public Library as part of the 60-county
+          Mann Listening Tour. Hays Post captured direct exchanges on stepped-up
+          basis, national debt, immigration, and the Biden administration.
+        sourceIds:
+          - s-hayspost-townhall-2024
+      - id: a-colby-townhall-2026-02-19
+        date: "2026-02-19"
+        body: |
+          Took questions at a Colby town hall covering Medicare, Social
+          Security, DOGE, immigration, water, and Food for Peace. The source is
+          an oppositional transcript, so only verbatim Mann quotes are used.
+        sourceIds:
+          - s-indivisible-colby-townhall-2026
+    socialSignals:
+      - id: ss-townhall-count-x-2024
+        platform: "X"
+        observation: |
+          Mann's verified congressional account stated on August 22, 2024 that
+          he had hosted 246 town halls across Kansas since 2021 and completed
+          that year's 60-county listening tour.
+        observedAt: "2024-08-22"
+        sourceIds:
+          - s-x-mann-townhalls-2024
+        mappedToIssueId: i-constituent-access-townhalls
+
+  - id: i-federal-spending-government-reform
+    title: "Federal spending and government reform"
+    stated:
+      text: |
+        Mann's public spending language emphasizes debt, waste, fraud, abuse,
+        and agency accountability. At a Colby town hall he defended DOGE-style
+        scrutiny by saying it was finding things Congress had been requesting,
+        and in Hays he spoke about the national debt in the same constituent
+        access setting.
+      sourceIds:
+        - s-hayspost-townhall-2024
+        - s-indivisible-colby-townhall-2026
+        - s-mann-obbba-2025
+    actions:
+      - id: a-hays-debt-townhall-2024-07-02
+        date: "2024-07-02"
+        body: |
+          Addressed federal spending and the national debt at the Hays town
+          hall, where Hays Post captured direct quotes on a $34 trillion debt
+          frame and related budget concerns.
+        sourceIds:
+          - s-hayspost-townhall-2024
+      - id: a-colby-doge-townhall-2026-02-19
+        date: "2026-02-19"
+        body: |
+          At the Colby town hall, defended DOGE-related federal scrutiny by
+          saying it was finding things Congress had been requesting and calling
+          some federal spending indefensible.
+        sourceIds:
+          - s-indivisible-colby-townhall-2026
+      - id: a-obbba-tax-spending-frame-2025-06-09
+        date: "2025-06-09"
+        body: |
+          In his own H.R. 1 statement, framed the bill as tax cuts, border
+          security, farm-safety-net investment, FAA modernization, and social
+          safety-net stewardship.
+        sourceIds:
+          - s-mann-obbba-2025
+    socialSignals: []
+
+campaignFinance:
+  totalRaised: "$1,220,354.74"
+  narrative: |
+    FEC data for the 2025-2026 cycle showed $1,220,354.74 raised,
+    $415,221.50 spent, $2,558,830.08 cash on hand, and no debt as of the
+    fetched reporting period. The deep scrape calculated that PAC committees
+    plus transfers from authorized committees made up roughly 71 percent of
+    total receipts in the partial cycle, compared with the v1 2023-2024 figure
+    of 56.71 percent PAC share.
+  donors: []
+  undisclosed: "Itemized donor tables were not extracted in this pass; use the FEC committee page for donor-by-donor review."
+  reportingPeriod: "2025-2026 cycle; reported through 2026-03-31 in the v2 scrape"
+  source: "Federal Election Commission candidate page H0KS01123 and committee page C00460659"
+
+candidate_metadata:
+  office: "U.S. Representative, Kansas's 1st Congressional District"
+  party: "Republican"
+  electionSlug: "ks-01-house-2026"
+  incumbent: true
+  occupation: "Farmer / real estate broker; U.S. Representative"
+  district: "KS-01"
+  social_presence_note: |
+    Candidate-controlled social is handled issue-by-issue. The v2 scrape uses
+    Mann's own X post on 246 town halls as a social signal mapped to
+    constituent access. It does not use Reddit or oppositional commentary as
+    evidence of Mann's beliefs; only verbatim candidate statements and public
+    records are carried into issue cards.
+  campaign_finance_note: |
+    FEC candidate and committee pages are the primary finance anchors. The
+    itemized donor table was not extracted in this pass.
+
+narrative_writer_notes:
+  symmetry_test_paragraphs_rewritten: 7
+  rewrite_log:
+    - "Caucus language rewritten from conservative-caucus-only framing to a fuller bipartisan agriculture/hunger coalition record."
+    - "Medicaid gap wording avoids deciding whether the evidence proves contradiction; it asks readers to compare statements and actions."
+    - "ROTOR language includes both Kansas-isolation and Republican-caucus-context facts."
+    - "Indivisible transcript framing is excluded; only Mann's verbatim quotes are used."
+    - "X town-hall count is a social signal mapped to constituent access, not a standalone social-media silo."
+    - "January 6 record is stated as historical congressional action, not fresh 2026 campaign messaging."
+    - "FEC finance narrative is descriptive and does not infer motive from donor composition."
+  validator_precheck:
+    source_id_resolution: PASS
+    action_backing_tier: PASS
+    social_signal_mapping: PASS
+    gap_evidence_resolution: PASS
+    note: "Every action references primary or secondary sources; the only social signal maps to the constituent-access issue."

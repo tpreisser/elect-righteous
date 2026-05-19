@@ -28,6 +28,8 @@ export default function CandidateCard({
       ? "Republican"
       : party === "D"
       ? "Democrat"
+      : party === "NP"
+      ? "Nonpartisan"
       : "Independent";
 
   return (
