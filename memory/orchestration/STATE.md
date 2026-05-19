@@ -9,12 +9,24 @@ wave: 0
 last_updated: 2026-05-19T00:00:00Z
 
 ## In flight
-- agent: web-code-executor
-  task: P0.3 Ellis County race split
-  started: 2026-05-19T18:30:00Z
-  candidate: null
 
 ## Done
+- agent: web-code-executor
+  task: P0.3 Ellis County race split
+  completed: 2026-05-19T18:45:00Z
+  output: commit 722586f on v2-p0
+  summary: |
+    Split ellis-county-current into two entries:
+    - ellis-county-2026-ballot (seats: 2, candidateSlugs: [nathan-leiker, michael-berges])
+      D3 Leiker + D1 Berges, both first elected 2022, 4-yr terms up Nov 2026.
+    - ellis-county-incumbents-off-cycle (seats: 6, candidateSlugs: [scott-braun,
+      aaron-cunningham, bobbi-dreiling, neal-younger, rebecca-herzog, vernon-ruder-jr])
+      All elected/re-elected 2024, terms through early 2029, NOT on 2026 ballot.
+    Updated electionSlug on all 7 affected candidates.ts entries. Updated
+    elections/page.tsx local category slug list. 128 pages built, 0 TS errors.
+    NOTE: michael-berges has no candidate entry in candidates.ts yet — his slug is
+    correctly in candidateSlugs but the detail page will show only leiker until berges
+    is populated. Flag for Phase 2 candidate repopulation wave.
 - agent: web-code-executor
   task: P0.1 form repair
   completed: 2026-05-19T18:20:00Z
