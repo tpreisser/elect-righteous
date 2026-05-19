@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -33,7 +33,38 @@ export const SCOTT_BRAUN_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "In his 2019 candidacy announcement, Braun framed his sheriff campaign around \"Dedication, Experience and Integrity\" after describing his long law-enforcement career, Rotary service, St. Nicholas of Myra Church Council role, Knights of Columbus membership, and professional boards. Source: Hays Post archive, Oct. 31, 2019.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-13"
+          ],
+          "mappedToIssueId": "i-jail-capacity-public-safety-1"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "On mental health, he said every Kansas sheriff is struggling with mental-health issues and questioned whether people with serious mental illness should be in county facilities. Source: Hays Post, Jan. 11, 2024.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-jail-capacity-public-safety-1"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "On jail capacity, he said the proposed jail is not something he wants personally: \"We need a jail. I don't want it. We need it...\" Source: Hays Post, July 11, 2024.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-14"
+          ],
+          "mappedToIssueId": "i-jail-capacity-public-safety-1"
+        }
+      ]
     },
     {
       "id": "i-immigration-ice-cooperation-2",
@@ -50,7 +81,38 @@ export const SCOTT_BRAUN_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "marshall.senate.gov",
+          "observation": "After visiting the Arizona-Mexico border, Braun said a secure border is critical to stopping trafficking of narcotics and human beings and tied fentanyl and trafficking threats back to Kansas communities. Source: Sen. Roger Marshall release, May 31, 2025.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-immigration-ice-cooperation-2"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "On the ICE memorandum, Braun emphasized that Ellis County cannot hold someone beyond the legal detainer window and that deputies are not stopping people on the street for immigration investigations. Source: Hays Post, Nov. 20, 2025.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-15"
+          ],
+          "mappedToIssueId": "i-immigration-ice-cooperation-2"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "In HB 2771 testimony coverage, Braun framed the bill as liability clarity, fiscal responsibility, and taxpayer protection, while also saying community safety remained the main reason for staying in the ICE program. Source: Hays Post, Mar. 6, 2026.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-16"
+          ],
+          "mappedToIssueId": "i-immigration-ice-cooperation-2"
+        }
+      ]
     }
   ],
   "whoTheyAre": "Scott Braun is the elected Ellis County sheriff and a career law-enforcement officer whose public record runs almost entirely through local service. He is a Victoria High School graduate who attended Barton County Community College and Fort Hays State University, then moved up through reserve work, deputy service, narcotics investigation, undersheriff duties, and finally the sheriff's office itself. The current official record also identifies him as president of the Kansas Sheriffs' Association.\n\nBraun's public identity in Ellis County rests on two pillars: law enforcement and Catholic parish life. He is tied to St. Nicholas of Myra Catholic Church in Hays through church council leadership and the Knights of Columbus, which gives him a visible place inside one of the county's most durable civic networks.",
@@ -217,7 +279,8 @@ export const SCOTT_BRAUN_V2: CandidateFullV2 = {
       "publisher": "archive.hayspost.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Scott Braun's generated v2 profile."
+        "Source carried forward for Scott Braun's generated v2 profile.",
+        "Observed public online activity mapped to Jail Capacity / Public Safety."
       ]
     },
     {
@@ -228,7 +291,8 @@ export const SCOTT_BRAUN_V2: CandidateFullV2 = {
       "publisher": "hayspost.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Scott Braun's generated v2 profile."
+        "Source carried forward for Scott Braun's generated v2 profile.",
+        "Observed public online activity mapped to Jail Capacity / Public Safety."
       ]
     },
     {
@@ -239,7 +303,8 @@ export const SCOTT_BRAUN_V2: CandidateFullV2 = {
       "publisher": "hayspost.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Scott Braun's generated v2 profile."
+        "Source carried forward for Scott Braun's generated v2 profile.",
+        "Observed public online activity mapped to Immigration / ICE Cooperation."
       ]
     },
     {
@@ -250,7 +315,8 @@ export const SCOTT_BRAUN_V2: CandidateFullV2 = {
       "publisher": "hayspost.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Scott Braun's generated v2 profile."
+        "Source carried forward for Scott Braun's generated v2 profile.",
+        "Observed public online activity mapped to Immigration / ICE Cooperation."
       ]
     },
     {
@@ -294,7 +360,8 @@ export const SCOTT_BRAUN_V2: CandidateFullV2 = {
       "publisher": "kansassheriffs.org",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Scott Braun's generated v2 profile."
+        "Source carried forward for Scott Braun's generated v2 profile.",
+        "Observed public online activity mapped to Immigration / ICE Cooperation."
       ]
     },
     {
@@ -2693,6 +2760,30 @@ export const SCOTT_BRAUN_V2: CandidateFullV2 = {
       "accessed": "2026-05-19",
       "claimsAnchored": [
         "Source carried forward for Scott Braun's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://hayspost.com/posts/5e9ec24b-53c4-40ff-9c9d-36bfbdf8808a",
+      "title": "Hays Post / Hayspost",
+      "publisher": "Hayspost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Jail Capacity / Public Safety.",
+        "On mental health, he said every Kansas sheriff is struggling with mental-health issues and questioned whether people with serious mental illness should be in county facilities. Sou"
+      ]
+    },
+    {
+      "id": "s-social-crossref-2",
+      "tier": "primary",
+      "url": "https://www.marshall.senate.gov/newsroom/press-releases/senator-marshall-visits-southern-border-alongside-kansas-law-enforcement-officials/",
+      "title": "marshall.senate.gov / Marshall.Senate",
+      "publisher": "Marshall.Senate",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Immigration / ICE Cooperation.",
+        "After visiting the Arizona-Mexico border, Braun said a secure border is critical to stopping trafficking of narcotics and human beings and tied fentanyl and trafficking threats bac"
       ]
     }
   ]

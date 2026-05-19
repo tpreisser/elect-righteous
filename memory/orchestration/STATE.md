@@ -4,14 +4,47 @@
 > self to `agents_done` on release. Main thread reconciles.
 
 phase: 2
-phase_status: wave_1_p2e_six_rendered_election_truth_not_fully_closed
-wave: 1
-last_updated: 2026-05-19T18:25:00Z
+phase_status: all_candidates_v2_rendered_local_qa_green_pending_public_deploy
+wave: all-candidate-hydration
+last_updated: 2026-05-19T20:12:00Z
 
 ## In flight
 # none
 
 ## Done
+- agent: codex
+  task: all-candidate v2 hydration, source-page split, UI polish, missing-candidate closeout
+  completed: 2026-05-19T20:12:00Z
+  output: ui/src/data/v2/*.ts; ui/src/data/v2/cathy-hopkins.ts; scripts/hydrate-v2-social-signals.mjs; ui/src/components/v2/*; ui/src/components/ui/*; ui/src/app/candidates/*; ui/src/data/elections.ts
+  validator: npx tsc --noEmit --incremental false; npm run build; node scripts/phase2-inventory.mjs; custom validateCandidateV2 all-candidate pass; local browser static QA
+  summary: |
+    All 56 candidate-like slugs now render as v2 candidate pages; inventory
+    reports zero missing UI candidate entries and zero candidates not rendered
+    as v2 pages. Added Cathy Hopkins to close the State Board of Education
+    District 5 missing-candidate gap.
+
+    Rehydrated issue-mapped social/online observations across the v2 profiles
+    from existing memory research. Social follows, likes, comments, public
+    posts, platform absences, and online-public-record observations remain in
+    the product, but render as issue-scoped observations rather than inferred
+    beliefs.
+
+    UI corrections landed:
+    - top metric boxes removed from candidate profiles
+    - "Where They Stand on Big Issues" restored as the major issue section
+    - source trails moved to /candidates/[slug]/sources/
+    - "What You Should Know," "What They Stand For," "Issue Areas," and
+      "Record Items" absent from built candidate output
+    - social evidence rows flattened so they no longer render as oversized
+      solid boxes
+    - candidate grid cards standardized
+    - floating bottom-left Preisser Solutions badge restored
+    - footer CTA uses the supplied Preisser Solutions snippet
+
+    Local browser QA on the static export confirmed Roger Marshall renders
+    the new issue heading, separate Source Trail link, and Preisser Solutions
+    badge. Mobile viewport check showed no body-level horizontal overflow.
+
 - agent: codex
   task: Phase 2 throughput correction — all candidates remain in v2 rebuild scope
   completed: 2026-05-20T04:55:00Z

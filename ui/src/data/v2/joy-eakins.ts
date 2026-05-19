@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -31,7 +31,38 @@ export const JOY_EAKINS_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Kansas Reflector",
+          "observation": "19, 2026 campaign-finance article: Eakins' $1 million self-loan and \"golden age\" frame under President Donald Trump. (source) 12. Kansas Reflector Jan. 30, 2026 debate article: GOP debate coverage; Eakins says established politicians \"have been stewarding our decline\"; candidates aligned on abortion, marijuana opposition, Supreme Court elections, and Trump praise. (source) 13.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-25"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Public web",
+          "observation": "Across the accessible reviewed set, no candidate-controlled item centered water policy, the Ogallala Aquifer, Medicaid expansion, rural hospitals, child care, foster care, broadband, roads/bridges, public safety beyond ICE/law-enforcement remarks, gun policy, or LGBTQ+ policy. Abortion, marijuana, judicial selection, immigration/ICE, and energy were visible mainly through debate coverage/transcripts rather than...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-6"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "LinkedIn",
+          "observation": "Eakins' biography and faith language are part of the public pitch but less frequent than education and taxes. Her About page says she has been married to Eric for 31 years, has a son serving in the U.S. Air Force, has a bonus son in Chicago, is a devout Christian, and is a faithful member of River Community Church. (source) LinkedIn preview shows a shared post beginning, \"I overcame a difficult upbringing through...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-217"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        }
+      ]
     },
     {
       "id": "i-marriage-family-lgbtq-policy-2",
@@ -48,7 +79,18 @@ export const JOY_EAKINS_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Public web",
+          "observation": "The visible absences are important. Across the accessible reviewed set, no candidate-controlled item centered water policy, the Ogallala Aquifer, Medicaid expansion, rural hospitals, child care, foster care, broadband, roads and bridges, gun policy, or LGBTQ+ policy. Abortion, marijuana, judicial selection, immigration/ICE, and energy appeared in debate coverage and transcripts rather than as standalone campaign...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-6"
+          ],
+          "mappedToIssueId": "i-marriage-family-lgbtq-policy-2"
+        }
+      ]
     },
     {
       "id": "i-religious-liberty-3",
@@ -65,7 +107,28 @@ export const JOY_EAKINS_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "kansascomeback.com",
+          "observation": "The campaign website frames Eakins as a \"strong conservative and America First patriot\" who founded Cornerstone Data, served on the Wichita Board of Education, fought for parents' rights and fiscal responsibility, and belongs to River Community Church. It says she has been married to Eric for 31 years, has a biological son serving in the U.S. Air Force, and has a bonus son in Chicago. (source)",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-217"
+          ],
+          "mappedToIssueId": "i-religious-liberty-3"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "X",
+          "observation": "1. Campaign homepage/current metadata: official campaign site; title and description position Eakins as a conservative Kansas Comeback candidate focused on education reform, economic growth, and family values. The page's OpenGraph/Twitter metadata includes \"Joy Eakins for Kansas Governor\" and \"Conservative Leadership for a Kansas Comeback.\" (source) 2. Campaign About page: biography, professional background,...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-1"
+          ],
+          "mappedToIssueId": "i-religious-liberty-3"
+        }
+      ]
     },
     {
       "id": "i-guns-second-amendment-4",
@@ -116,7 +179,38 @@ export const JOY_EAKINS_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "kansascomeback.com",
+          "observation": "The campaign site's Education page is the largest candidate-controlled issue page in the capture. It says Kansas needs a comeback in education, lists NAEP proficiency/ranking figures, and argues parents \"know best\" and should have choices. The platform includes robust school choice, civics education, reading and math outcomes, repealing the law requiring districts to negotiate with teachers' unions, a new...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-218"
+          ],
+          "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "LinkedIn",
+          "observation": "LinkedIn public preview listed Joy Eakins as Wichita-based, with 1K followers and 500+ connections, and websites for joyeakins.com and the campaign site. Visible activity previews included: \"Kansas deserves a leader who never caves. I fought for Wichita kids and families on the School Board. I fought for small business owners on the...\" and \"In America, no one gets to decide your future except YOU. I overcame a...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-29"
+          ],
+          "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "KAKE",
+          "observation": "Campaign News page: three media items dated June 17, June 18, and June 19, 2025. (source) 6. Campaign repost of KAKE interview: opportunity, brain drain, school outcomes, school choice, financial cliff, affordable/appropriate housing, outsider pitch, and \"government to get out of their way\" line. (source) 7. Campaign repost of Pete Mundo appearance: launch and Kansas Comeback radio interview reference. (source) 8.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
+        }
+      ]
     },
     {
       "id": "i-marijuana-drug-policy-7",
@@ -133,7 +227,38 @@ export const JOY_EAKINS_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Facebook",
+          "observation": "Facebook campaign page metadata: 780 likes, 130 talking about this, Joy Eakins for Governor page identity and description. (source) 9. X campaign profile metadata: @JoyforKS, created 2025-06-09, 82 followers, 18 following, 160 statuses/posts, 97 media, Wichita, KS, campaign bio. (source) 10. LinkedIn public profile preview: 1K followers, 500+ connections, campaign website listed, public activity previews on never...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-27"
+          ],
+          "mappedToIssueId": "i-marijuana-drug-policy-7"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "KAKE",
+          "observation": "The campaign site amplifies three June 2025 media items: the announcement, a Pete Mundo/KCMO Talk Radio appearance, and KAKE's interview. LinkedIn previews show Eakins sharing campaign-oriented posts about never caving, her upbringing, God's grace, and The Policy Circle; the same preview shows likes on posts about business leadership, Newsmax, women investing, and technology events. X and Facebook did not expose...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-6"
+          ],
+          "mappedToIssueId": "i-marijuana-drug-policy-7"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Kansas Reflector",
+          "observation": "On Republican primary alignment, she places herself on the Trump/America First side and against career politicians. Kansas Reflector reported in January 2026 that she argued the United States was on the cusp of a \"golden age\" under President Donald Trump, but Kansas could miss out without a conservative governor. (source) Kansas Reflector's debate coverage said all six participating Republican candidates found...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-25"
+          ],
+          "mappedToIssueId": "i-marijuana-drug-policy-7"
+        }
+      ]
     }
   ],
   "whoTheyAre": "Joy Eakins is a Wichita business executive and Republican candidate for governor in 2026. Her public biography runs through the technology and data world before turning to local education politics. Campaign material and business profiles tie her to Cornerstone Data, the Wichita school board, and a long professional resume that includes Bell Labs, Lucent, and Avaya before she founded her own analytics firm in 2008.\n\nEakins served on the Wichita Board of Education after winning a close race in 2013. Her statewide campaign leans heavily on that chapter, especially her arguments during the COVID era that schools could reopen safely. She presents herself as an outsider to the party hierarchy, but not as a newcomer to public arguments over education, public health, and local government.",
@@ -187,7 +312,9 @@ export const JOY_EAKINS_V2: CandidateFullV2 = {
       "publisher": "kansascomeback.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Joy Eakins's generated v2 profile."
+        "Source carried forward for Joy Eakins's generated v2 profile.",
+        "Observed public online activity mapped to Religious Liberty.",
+        "Observed public online activity mapped to School Choice / Parental Rights in Education."
       ]
     },
     {
@@ -451,7 +578,9 @@ export const JOY_EAKINS_V2: CandidateFullV2 = {
       "publisher": "kansasreflector.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Joy Eakins's generated v2 profile."
+        "Source carried forward for Joy Eakins's generated v2 profile.",
+        "Observed public online activity mapped to Abortion / Sanctity of Life.",
+        "Observed public online activity mapped to Marijuana / Drug Policy."
       ]
     },
     {
@@ -473,7 +602,8 @@ export const JOY_EAKINS_V2: CandidateFullV2 = {
       "publisher": "facebook.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Joy Eakins's generated v2 profile."
+        "Source carried forward for Joy Eakins's generated v2 profile.",
+        "Observed public online activity mapped to Marijuana / Drug Policy."
       ]
     },
     {
@@ -484,7 +614,8 @@ export const JOY_EAKINS_V2: CandidateFullV2 = {
       "publisher": "x.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Joy Eakins's generated v2 profile."
+        "Source carried forward for Joy Eakins's generated v2 profile.",
+        "Observed public online activity mapped to Religious Liberty."
       ]
     },
     {
@@ -495,7 +626,8 @@ export const JOY_EAKINS_V2: CandidateFullV2 = {
       "publisher": "linkedin.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Joy Eakins's generated v2 profile."
+        "Source carried forward for Joy Eakins's generated v2 profile.",
+        "Observed public online activity mapped to School Choice / Parental Rights in Education."
       ]
     },
     {
@@ -2563,7 +2695,9 @@ export const JOY_EAKINS_V2: CandidateFullV2 = {
       "publisher": "kansascomeback.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Joy Eakins's generated v2 profile."
+        "Source carried forward for Joy Eakins's generated v2 profile.",
+        "Observed public online activity mapped to Religious Liberty.",
+        "Observed public online activity mapped to Abortion / Sanctity of Life."
       ]
     },
     {
@@ -2574,7 +2708,8 @@ export const JOY_EAKINS_V2: CandidateFullV2 = {
       "publisher": "kansascomeback.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Joy Eakins's generated v2 profile."
+        "Source carried forward for Joy Eakins's generated v2 profile.",
+        "Observed public online activity mapped to School Choice / Parental Rights in Education."
       ]
     },
     {
@@ -2619,6 +2754,18 @@ export const JOY_EAKINS_V2: CandidateFullV2 = {
       "accessed": "2026-05-19",
       "claimsAnchored": [
         "Source carried forward for Joy Eakins's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://www.kansascomeback.com/news",
+      "title": "KAKE / Kansascomeback",
+      "publisher": "Kansascomeback",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to School Choice / Parental Rights in Education.",
+        "Campaign News page: three media items dated June 17, June 18, and June 19, 2025. (source) 6. Campaign repost of KAKE interview: opportunity, brain drain, school outcomes, school ch"
       ]
     }
   ]

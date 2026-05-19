@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -31,7 +31,38 @@ export const PHILIP_SARNECKI_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "X",
+          "observation": "Visible mirror metrics for the reposted item: 1, 8, 7, 347 views, 0. (source) 25. X sample: SNAP cover-up / Trump. Sarnecki alleged an active cover-up, demanded release of SNAP data, and said Kansas needed a governor supporting President Trump. Visible mirror metrics: 61, about 1K, about 4K, about 143K views, 108. (source) 26. X sample: pro-life Christmas message. Sarnecki said he is pro-life because life is...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "X",
+          "observation": "Faith and family are part of Sarnecki's public identity. The campaign biography says he is guided by faith in God and committed to conservative values including faith, family, hard work, and accountability. (source) Real Media KC's interview page says he is guided by Christian faith and conservative values and presents his business story alongside family, 513 Films, Athletes in Action, and blue-collar roots....",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Public web",
+          "observation": "Several issue areas were not visible in the accessible material reviewed. The public set did not include captured items centered on Medicaid expansion, rural hospital closures, hospital finance, child care, foster care, veterans services, broadband deployment, water policy, the Ogallala aquifer, affordable rental housing details, state employee pay, disability services, transportation infrastructure, or...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-6"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        }
+      ]
     },
     {
       "id": "i-marriage-family-lgbtq-policy-2",
@@ -65,7 +96,38 @@ export const PHILIP_SARNECKI_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "philipsarnecki.org",
+          "observation": "The official campaign site is Sarnecki's central candidate-controlled channel. It frames him as a \"Kansas Dad,\" husband, businessman, job creator, Christian, and political outsider. The site says Kansas is suffering from high taxes, out-of-control property taxes, \"radical hiring policies instead of merit,\" education elites replacing parents, young Kansans leaving for opportunity, and Republican losses under a...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-1"
+          ],
+          "mappedToIssueId": "i-religious-liberty-3"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Kansas Reflector",
+          "observation": "Credible public coverage and interviews reinforce the same candidate-controlled message. Kansas Reflector/Kansas Press Association described Sarnecki as weary of Republicans losing governor races and joining a field dominated by career politicians. (source) WIBW/KWCH reported the campaign priorities from his announcement release. (source) Real Media KC published a long candidate interview and transcript centered...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-3"
+          ],
+          "mappedToIssueId": "i-religious-liberty-3"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "X",
+          "observation": "1. Campaign homepage, captured 2026-05-11. The homepage says \"Let's turn Kansas around together,\" \"It's our time to win,\" and \"Kansas Dad - Husband - Businessman,\" then contrasts a \"radical Democrat governor\" with \"Philip's Plan.\" (source) 2. Campaign homepage issue list, captured 2026-05-11. The site lists highest regional taxes, second-highest corporate tax rate among border states, property taxes, DEI-style...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-1"
+          ],
+          "mappedToIssueId": "i-religious-liberty-3"
+        }
+      ]
     },
     {
       "id": "i-guns-second-amendment-4",
@@ -99,7 +161,38 @@ export const PHILIP_SARNECKI_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "X",
+          "observation": "The visible X sample is sharply message-disciplined. The dominant posts attack \"career politicians,\" high taxes, property taxes, government spending, Kansas's economy, red tape, Republican leadership, Democratic Gov. Laura Kelly, SNAP data, immigration enforcement, education \"indoctrination,\" Charlie Kirk / Trump role-model controversy, and congressional redistricting. (source)",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "X",
+          "observation": "Visible mirror metrics: 20, 7, 66, about 2K views, 0. (source) 22. X sample: ICE assault / deportation. Sarnecki cited an illegal immigrant's 20-year sentence for attacking an ICE officer in Wichita and said Kansas needed a governor who would work with the administration to deport violent illegal immigrants.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "X",
+          "observation": "Visible mirror metrics: 4, 8, 24, 866 views, 0. (source) 28. Indexed X sample: property taxes, 2026-03-11. WLT Report / 100PercentFedUp embedded Sarnecki's X post saying property taxes are out of control in Kansas, seniors are being forced out of homes, and working families are squeezed. (source) 29. Indexed X sample: Virginia redistricting / Kansas opportunity, 2026-03-13. WLT Report embedded Sarnecki's post...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        }
+      ]
     },
     {
       "id": "i-school-choice-parental-rights-in-education-6",
@@ -116,7 +209,38 @@ export const PHILIP_SARNECKI_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "X",
+          "observation": "The public X mirror identifies @Philip_Sarnecki as \"CEO; Business Owner; Board Member; Movie Producer; 2026 Republican Candidate for Governor of Kansas,\" linked to the campaign site, located in Kansas, and joined in June 2025. It displayed about 85 tweets and 3K followers. (source)",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "X",
+          "observation": "Visible mirror metrics: 5, 24, 86, about 3K views, 0. (source) 12. X sample: Charlie Kirk / Trump school role-model controversy. Sarnecki wrote that students being barred from naming Charlie Kirk or President Trump as role models was \"indoctrination.\" Visible mirror metrics: 293, about 4K, about 10K, about 302K views, 626. (source) 13. X sample: Kingman County event. Sarnecki thanked Kingman County GOP and said...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "X",
+          "observation": "Date range covered: June 2025 to May 11, 2026 for public social presence, with the active governor-campaign message captured from the September 2, 2025 launch through May 11, 2026. Older career and board-service claims are noted only when used by current campaign materials. Platforms surveyed: campaign website, campaign news/about/contact/volunteer pages, X, Facebook, Instagram, YouTube, LinkedIn, IMDb, TikTok,...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-6"
+          ],
+          "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
+        }
+      ]
     },
     {
       "id": "i-marijuana-drug-policy-7",
@@ -181,7 +305,8 @@ export const PHILIP_SARNECKI_V2: CandidateFullV2 = {
       "publisher": "philipsarnecki.org",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Philip Sarnecki's generated v2 profile."
+        "Source carried forward for Philip Sarnecki's generated v2 profile.",
+        "Observed public online activity mapped to Religious Liberty."
       ]
     },
     {
@@ -2602,6 +2727,44 @@ export const PHILIP_SARNECKI_V2: CandidateFullV2 = {
       "accessed": "2026-05-19",
       "claimsAnchored": [
         "Source carried forward for Philip Sarnecki's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://ngntipkolamrenang.twstalker.com/Philip_Sarnecki",
+      "title": "X / Ngntipkolamrenang.Twstalker",
+      "publisher": "Ngntipkolamrenang.Twstalker",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Abortion / Sanctity of Life.",
+        "Visible mirror metrics for the reposted item: 1, 8, 7, 347 views, 0. (source) 25. X sample: SNAP cover-up / Trump. Sarnecki alleged an active cover-up, demanded release of SNAP dat",
+        "Observed public online activity mapped to Immigration / Border.",
+        "Observed public online activity mapped to School Choice / Parental Rights in Education."
+      ]
+    },
+    {
+      "id": "s-social-crossref-2",
+      "tier": "secondary",
+      "url": "https://philipsarnecki.org/about/",
+      "title": "X / Philipsarnecki",
+      "publisher": "Philipsarnecki",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Abortion / Sanctity of Life.",
+        "Faith and family are part of Sarnecki's public identity. The campaign biography says he is guided by faith in God and committed to conservative values including faith, family, hard"
+      ]
+    },
+    {
+      "id": "s-social-crossref-3",
+      "tier": "secondary",
+      "url": "https://kspress.com/news/2025/09/02/johnson-county-businessman-launches-campaign-to-win-gop-nomination-for-governor",
+      "title": "Kansas Reflector / Kspress",
+      "publisher": "Kspress",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Religious Liberty.",
+        "Credible public coverage and interviews reinforce the same candidate-controlled message. Kansas Reflector/Kansas Press Association described Sarnecki as weary of Republicans losing"
       ]
     }
   ]

@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -31,7 +31,28 @@ export const ETHAN_CORSON_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Public web",
+          "observation": "The captured candidate-controlled social material did not show sustained original posts on abortion, LGBTQ+ policy, gun policy, immigration, marijuana, water rights, energy policy, or religious-liberty policy.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-76"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Public web",
+          "observation": "Across the captured period, the candidate-controlled public footprint does not show sustained social posting on abortion, LGBTQ+ policy, gun policy, immigration, marijuana, water rights, energy policy, or religious-liberty policy. Those may exist in questionnaires, legislative votes, interviews, private/platform-limited content, or future campaign material, but they were not prominent in the visible...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-76"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        }
+      ]
     },
     {
       "id": "i-marriage-family-lgbtq-policy-2",
@@ -65,7 +86,18 @@ export const ETHAN_CORSON_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Public web",
+          "observation": "Faith/religion appeared in external biographical coverage identifying Corson as Jewish, but not as a campaign-message theme in the captured 2025-2026 campaign social material.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-76"
+          ],
+          "mappedToIssueId": "i-religious-liberty-3"
+        }
+      ]
     },
     {
       "id": "i-guns-second-amendment-4",

@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -103,7 +103,38 @@ export const ROGER_MARSHALL_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Public web",
+          "observation": "2026-04-02 — Fox News video, \"Sen Roger Marshall: We can’t even get the bipartisan Farm Bill passed, much less immigration reform.\"",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-9"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Public web",
+          "observation": "Topic distribution in the captured sample: healthcare and mental health — 7 of 28 (25%); agriculture, food, and rural producers — 6 of 28 (21%); budget, tax, and economic messages naming Trump — 6 of 28 (21%); border, immigration, and DHS — 4 of 28 (14%); foreign policy and national security — 3 of 28 (11%); public safety and technology-platform oversight — 2 of 28 (7%).",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-9"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "kshb.com",
+          "observation": "On national and foreign-policy questions, Marshall’s captured posts name Trump or administration officials on Ukraine, Iran, border enforcement, federal spending, and Senate procedure. After the February 2025 Oval Office meeting with Ukrainian President Volodymyr Zelenskyy, he posted, \"Thank you, @POTUS and @VP, for standing up for America\" (source).",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        }
+      ]
     }
   ],
   "whoTheyAre": "Roger Marshall is Kansas's Republican U.S. senator, a physician from Great Bend, and one of the best-known statewide political figures in Kansas. He was born in El Dorado in 1960, grew up in a fifth-generation Kansas farm family, and moved to Great Bend in 1991 after medical training. Over the course of his OB-GYN career, he delivered more than 5,000 babies before entering politics.\n\nMarshall's public biography combines medicine, agriculture, and church life. He and his wife Laina have been married more than 40 years, and their family life has long been tied to Great Bend. Before the Senate, he represented Kansas's 1st Congressional District in the U.S. House, and he remains one of the few Kansas politicians whose public profile is simultaneously local, statewide, and national.",
@@ -5835,6 +5866,18 @@ export const ROGER_MARSHALL_V2: CandidateFullV2 = {
       "accessed": "2026-05-19",
       "claimsAnchored": [
         "Source carried forward for Roger Marshall's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://www.kshb.com/news/local-news/kansas-missouri-political-leaders-offer-reaction-to-trump-zelenskyy-oval-office-meeting",
+      "title": "kshb.com / Kshb",
+      "publisher": "Kshb",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Immigration / Border.",
+        "On national and foreign-policy questions, Marshall’s captured posts name Trump or administration officials on Ukraine, Iran, border enforcement, federal spending, and Senate proced"
       ]
     }
   ]

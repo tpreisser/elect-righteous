@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -101,7 +101,18 @@ export const SANDY_SPIDEL_NEUMANN_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Bluesky",
+          "observation": "On national and foreign-policy issues, her feed includes ICE, Ukraine, the Equal Rights Amendment, vaccines, cabinet nominations, and healthcare subsidies. On Jan. 24, 2026, she posted, \"Another senseless killing by ICE in Mpls this morning. The Senate must vote against funding for ICE until the Admin removes ICE from MN and implements operating procedures that adhere to the Constitution, federal and state laws,...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        }
+      ]
     },
     {
       "id": "i-school-choice-parental-rights-in-education-6",
@@ -118,7 +129,18 @@ export const SANDY_SPIDEL_NEUMANN_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Bluesky",
+          "observation": "Audience response on Bluesky was in single digits on the campaign-period posts captured. The highest-engagement visible campaign-period original post was her Oct. 16, 2025 launch post, with 5 likes, 3 reposts, 4 replies, and 1 quote as of May 11, 2026: \"I’m Sandy Spidel Neumann. I was born and raised in Kansas by working-class parents who taught me grit, fairness, and hard work. When Senator Marshall walked out...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-9"
+          ],
+          "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
+        }
+      ]
     },
     {
       "id": "i-marijuana-drug-policy-7",
@@ -135,7 +157,18 @@ export const SANDY_SPIDEL_NEUMANN_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Bluesky",
+          "observation": "Her Kansas-specific campaign posts use statewide household and healthcare language more than county-by-county policy detail. On Dec. 18, 2025, she posted, \"Quick reality check, per AAA, the average gas price Kansans are paying is $2.526/gal. Finney County has the lowest average price at $2.174 and Lincoln County has the highest averaging almost $3.10/gal. Kansans deserve better.\" (source). On Oct. 18, 2025, she...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-marijuana-drug-policy-7"
+        }
+      ]
     },
     {
       "id": "i-healthcare-medicaid-8",
@@ -151,7 +184,38 @@ export const SANDY_SPIDEL_NEUMANN_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Public web",
+          "observation": "Manual campaign-period topic coding for those 14 original or quote posts: Kansas costs, healthcare, farms/hospitals/families, campaign biography, or Roger Marshall contrast appeared in 10; campaign events or Democratic organizing appeared in 3; personal Army/Navy content appeared in 1.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-9"
+          ],
+          "mappedToIssueId": "i-healthcare-medicaid-8"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Bluesky",
+          "observation": "Across the 14 campaign-period original or quote Bluesky posts captured after her Oct. 16, 2025 launch, Sandy Spidel Neumann's repeated campaign subjects are Kansas costs, healthcare, farms, hospitals, families, and contrast with Sen. Roger Marshall. On launch day she posted, \"Every Kansan deserves a fair shot: to afford groceries, gas, housing, and a future for their kids. That’s what I’m fighting for: lower...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-9"
+          ],
+          "mappedToIssueId": "i-healthcare-medicaid-8"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Bluesky",
+          "observation": "Become a founding member of my campaign today! 🌻 #KansasStrong #SandyForKansas #FairShotForAll\" (source). In another launch-day post she wrote, \"Kansas deserves a Senator who shows up, answers tough questions, and works for us, not the other way around. Let’s fight for our farms, hospitals, and families together. 🌻\" (source).",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-3"
+          ],
+          "mappedToIssueId": "i-healthcare-medicaid-8"
+        }
+      ]
     },
     {
       "id": "i-social-security-and-medicare-9",
@@ -166,7 +230,38 @@ export const SANDY_SPIDEL_NEUMANN_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Bluesky",
+          "observation": "Public Bluesky feed harvested through the AT Protocol public API for speumann.bsky.social.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-9"
+          ],
+          "mappedToIssueId": "i-social-security-and-medicare-9"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Bluesky",
+          "observation": "Bluesky API data was public and produced the only complete post-level social harvest.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-9"
+          ],
+          "mappedToIssueId": "i-social-security-and-medicare-9"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Bluesky",
+          "observation": "*A summary of what Sandy Spidel Neumann has publicly said, posted, and amplified across social media. Drawn from public Bluesky posts, public profile metadata on Facebook, Instagram, YouTube, X, Threads, LinkedIn, and campaign-controlled pages between November 2024 and January 2026, with platform checks captured May 11, 2026. We report patterns; we do not interpret intent.*",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-9"
+          ],
+          "mappedToIssueId": "i-social-security-and-medicare-9"
+        }
+      ]
     },
     {
       "id": "i-tariffs-agriculture-10",
@@ -183,7 +278,18 @@ export const SANDY_SPIDEL_NEUMANN_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Public web",
+          "observation": "Across the captured period the feed contains no posts about the Ogallala Aquifer, water rights, the Farm Bill by name, Fort Riley, Fort Hays State University, county-by-county agriculture, adoption or foster care, capital punishment, or religious-liberty litigation. The feed includes posts about hospitals and healthcare affordability, but the harvested posts do not name a rural hospital facility or a specific...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-9"
+          ],
+          "mappedToIssueId": "i-tariffs-agriculture-10"
+        }
+      ]
     },
     {
       "id": "i-school-safety-11",
@@ -396,7 +502,8 @@ export const SANDY_SPIDEL_NEUMANN_V2: CandidateFullV2 = {
       "publisher": "sandyforkansas.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Sandy Spidel Neumann's generated v2 profile."
+        "Source carried forward for Sandy Spidel Neumann's generated v2 profile.",
+        "Observed public online activity mapped to Social Security and Medicare."
       ]
     },
     {
@@ -814,7 +921,8 @@ export const SANDY_SPIDEL_NEUMANN_V2: CandidateFullV2 = {
       "publisher": "x.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Sandy Spidel Neumann's generated v2 profile."
+        "Source carried forward for Sandy Spidel Neumann's generated v2 profile.",
+        "Observed public online activity mapped to Social Security and Medicare."
       ]
     },
     {
@@ -825,7 +933,8 @@ export const SANDY_SPIDEL_NEUMANN_V2: CandidateFullV2 = {
       "publisher": "instagram.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Sandy Spidel Neumann's generated v2 profile."
+        "Source carried forward for Sandy Spidel Neumann's generated v2 profile.",
+        "Observed public online activity mapped to School Choice / Parental Rights in Education."
       ]
     },
     {
@@ -2201,6 +2310,42 @@ export const SANDY_SPIDEL_NEUMANN_V2: CandidateFullV2 = {
       "accessed": "2026-05-19",
       "claimsAnchored": [
         "Source carried forward for Sandy Spidel Neumann's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "social",
+      "url": "https://bsky.app/profile/speumann.bsky.social/post/3md77khbaks2q",
+      "title": "Bluesky / Bsky",
+      "publisher": "Bsky",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Immigration / Border.",
+        "On national and foreign-policy issues, her feed includes ICE, Ukraine, the Equal Rights Amendment, vaccines, cabinet nominations, and healthcare subsidies. On Jan. 24, 2026, she po"
+      ]
+    },
+    {
+      "id": "s-social-crossref-2",
+      "tier": "social",
+      "url": "https://bsky.app/profile/speumann.bsky.social/post/3mabdqda6fc2e",
+      "title": "Bluesky / Bsky",
+      "publisher": "Bsky",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Marijuana / Drug Policy.",
+        "Her Kansas-specific campaign posts use statewide household and healthcare language more than county-by-county policy detail. On Dec. 18, 2025, she posted, \"Quick reality check, per"
+      ]
+    },
+    {
+      "id": "s-social-crossref-3",
+      "tier": "social",
+      "url": "https://bsky.app/profile/speumann.bsky.social/post/3m3dxmfk3z22f",
+      "title": "Bluesky / Bsky",
+      "publisher": "Bsky",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Healthcare / Medicaid.",
+        "Become a founding member of my campaign today! 🌻 #KansasStrong #SandyForKansas #FairShotForAll\" (source). In another launch-day post she wrote, \"Kansas deserves a Senator who show"
       ]
     }
   ]

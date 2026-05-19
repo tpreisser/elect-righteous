@@ -1,6 +1,6 @@
-/* Auto-generated from memory/candidates/ken-brooks/v2-issues.yaml.
- * Edit the YAML source, then run:
- *   node scripts/compile-v2-yaml.mjs ken-brooks
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -69,7 +69,38 @@ export const KEN_BROOKS_V2: CandidateFullV2 = {
           ]
         }
       ],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "Role records changed during the capture period and should not be inferred from stale candidate data. Hays Post's November 5, 2025 election story called Brooks the current vice president and said he would serve a second four-year term. Tiger Media Network reported on July 16, 2025 that Curt Vajnar was re-elected board president and Brooks was elected board vice president. After the January 2026 reorganization,...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-fb-brooks-numeric"
+          ],
+          "mappedToIssueId": "i-supt-nepotism"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "The Hays Chamber member page likewise lists Brooks as \"Board Member,\" Ruder as \"Board Vice President,\" and Vajnar as \"Board President.\" The USD 489 Diligent public portal still listed Brooks as \"Vice-President\" in the accessible capture, so it appears stale relative to January 2026 coverage and the Chamber page. This harvest therefore treats Brooks as a USD 489 board member, with prior vice-president status, not...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-supt-nepotism"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "Brooks' accessible public message is not organized around campaign social media. It is concentrated in Hays Post candidate Q&As, local school-board coverage, official board/election records, and limited public profile previews.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-fb-brooks-numeric"
+          ],
+          "mappedToIssueId": "i-supt-nepotism"
+        }
+      ]
     },
     {
       "id": "i-budget-facilities",
@@ -159,6 +190,26 @@ export const KEN_BROOKS_V2: CandidateFullV2 = {
             "s-fb-brooks-vanity"
           ],
           "mappedToIssueId": "i-budget-facilities"
+        },
+        {
+          "id": "ss-crossref-2",
+          "platform": "Hays Post",
+          "observation": "The 2025 Hays Post Q&A is the strongest first-person source. Brooks said he ran because of love for the community and kids, described himself as a listener, and said he studies board materials before votes. He tied his first term to the bond, the new high school, lower enrollment fees, and replacing inconvenient early-release days with teacher planning time. (Hays Post, Oct. 16, 2025)",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-hayspost-brooks-qa-2025"
+          ],
+          "mappedToIssueId": "i-budget-facilities"
+        },
+        {
+          "id": "ss-crossref-4",
+          "platform": "Hays Post",
+          "observation": "His 2025 policy posture is pro-facilities and pro-administration. He supported the five-year capital outlay plan and remaining bond projects, said the bond work was keeping pace, and said the board should provide oversight while administrators and teachers handle day-to-day operations. (Hays Post, Oct. 16, 2025)",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-hayspost-brooks-qa-2025"
+          ],
+          "mappedToIssueId": "i-budget-facilities"
         }
       ]
     },
@@ -203,7 +254,38 @@ export const KEN_BROOKS_V2: CandidateFullV2 = {
           ]
         }
       ],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "His budget message defends the district. In the 2025 Q&A, he said the district manages its budget adequately, described the administration as trustworthy, and said the board needed proven leadership to remain fiscally responsible while helping Hays grow. He also flagged uncertainty in national and state funding and said special education had never been fully funded by the state. (Hays Post, Oct. 16, 2025)",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-hayspost-brooks-qa-2025"
+          ],
+          "mappedToIssueId": "i-board-process"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "The 2021 Hays Post profile adds older but still relevant self-description. Brooks listed Kiwanis, nearly 14 years helping lead children's ministry at Celebration Community Church, and coordination of the Thanksgiving Community Food Drive with ECMA and First Call For Help since 2008. He supported the 2017 bond after opposing the 2016 version, wanted needed facility improvements, emphasized community information,...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-hayspost-brooks-qa-2021"
+          ],
+          "mappedToIssueId": "i-board-process"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "Post-election messaging was short and bond-focused. After the November 2025 election, Hays Post reported Brooks and Craig Pallister tied with 1,948 unofficial votes; the official Ellis County result later listed Brooks at 1,962. Brooks told Hays Post he hoped to keep the district on track while finishing the bond project and thanked Curt Vajnar, Craig Pallister, and Meagan Zampieri-Lillpopp. (Hays Post, Nov. 5,...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-board-process"
+        }
+      ]
     }
   ],
   "whereTheyWorship": "Celebration Community Church (Hays campus, 5790 230th Ave)",
@@ -281,7 +363,9 @@ export const KEN_BROOKS_V2: CandidateFullV2 = {
         "Brooks stated he could not think of any issue on which he disagreed with the district administration",
         "Brooks stated he wants to continue lowering enrollment fees",
         "Brooks identified as a loss-control safety specialist at Insurance Planning for 18 years",
-        "Brooks identified as a single father whose three daughters all graduated from Hays High"
+        "Brooks identified as a single father whose three daughters all graduated from Hays High",
+        "Observed public online activity mapped to USD 489 budget, bond projects, and facilities.",
+        "Observed public online activity mapped to Public comment process and board–administration relations."
       ]
     },
     {
@@ -296,7 +380,8 @@ export const KEN_BROOKS_V2: CandidateFullV2 = {
         "Brooks self-identified as 14-year leader of Celebration Community Church Hays children's ministry as of 2021",
         "Brooks coordinated the Thanksgiving Community Food Drive since 2008 with Ellis County Ministerial Alliance and First Call For Help",
         "Brooks identified as a Kiwanis International member",
-        "Brooks said he did not have 'an agenda so much' but wanted the bond passed"
+        "Brooks said he did not have 'an agenda so much' but wanted the bond passed",
+        "Observed public online activity mapped to Public comment process and board–administration relations."
       ]
     },
     {
@@ -538,6 +623,19 @@ export const KEN_BROOKS_V2: CandidateFullV2 = {
       "claimsAnchored": [
         "A campaign Facebook page bearing the title 'Ken Brooks for Hays USD 489 School Board' exists at this vanity URL as of 2026-05-20",
         "Page content is gated to logged-out users; no post content is observable from this fetch"
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://hayspost.com/posts/ff929dc5-f4f5-433c-876e-59fc19df6a2d",
+      "title": "Hays Post / Hayspost",
+      "publisher": "Hayspost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Superintendent hiring and the nepotism policy.",
+        "The Hays Chamber member page likewise lists Brooks as \"Board Member,\" Ruder as \"Board Vice President,\" and Vajnar as \"Board President.\" The USD 489 Diligent public portal still lis",
+        "Observed public online activity mapped to Public comment process and board–administration relations."
       ]
     }
   ]

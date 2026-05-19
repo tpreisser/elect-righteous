@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -31,7 +31,28 @@ export const SAM_LANE_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Public web",
+          "observation": "No candidate-controlled post taking a detailed position on abortion policy was found in the captured set; related content appears mainly through broader civil-liberties/authoritarianism frames and a DASS-style democracy frame.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-1"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Public web",
+          "observation": "No sustained platform plank was found on taxes, Medicaid, school finance, agriculture, guns, or abortion, beyond scattered social commentary.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-1"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        }
+      ]
     },
     {
       "id": "i-marriage-family-lgbtq-policy-2",
@@ -99,7 +120,38 @@ export const SAM_LANE_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Bluesky",
+          "observation": "Bluesky Posts - Civil Liberties, Immigration, and Anti-Authoritarian Signals",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-1"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Public web",
+          "observation": "2026-01-27 - Encouraged observers to keep recording after deaths of ICE observers and said documentation remains dangerous but necessary.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-1"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Bluesky",
+          "observation": "Highest engagement item in the feed overall was a reposted official congressional account post from @ocasio-cortez.house.gov about immigration rights, with 51,900 likes and 28,631 reposts at capture.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        }
+      ]
     }
   ],
   "whoTheyAre": "Sam Lane is a Democratic candidate for Kansas secretary of state who presents himself as a lifelong Kansan, a former independent, and a working-class outsider. The public biography available online is spare. He describes himself as a University of Kansas psychology graduate with work experience in construction testing, retail, shipping, and food service, and he says he entered the race because he did not want to stand by while trust in elections kept deteriorating.\n\nLane's operation is plainly small. He is not running as a party insider, a former officeholder, or a candidate with a large donor network. His appeal is built on simplicity: protect elections, take the office seriously, and stop turning it into a political weapon.",
@@ -746,6 +798,18 @@ export const SAM_LANE_V2: CandidateFullV2 = {
       "accessed": "2026-03-31",
       "claimsAnchored": [
         "Source carried forward for Sam Lane's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "primary",
+      "url": "https://bsky.app/profile/ocasio-cortez.house.gov/post/3lgcck2yf7c2r",
+      "title": "Bluesky / Bsky",
+      "publisher": "Bsky",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Immigration / Border.",
+        "Highest engagement item in the feed overall was a reposted official congressional account post from @ocasio-cortez.house.gov about immigration rights, with 51,900 likes and 28,631 "
       ]
     }
   ]

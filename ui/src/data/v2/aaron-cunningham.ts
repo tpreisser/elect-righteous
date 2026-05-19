@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -33,7 +33,38 @@ export const AARON_CUNNINGHAM_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "His clearest policy interview is the February 17, 2025 Hays Post profile after he took office. He said he returned to Hays to serve his hometown, described hundreds of likely backlogged cases, said the office usually had four attorneys handling about 1,500 law-enforcement reports per year, and announced a return to marijuana and hemp-derived THC enforcement under Kansas law. (Hays Post)",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-28"
+          ],
+          "mappedToIssueId": "i-marijuana-drug-enforcement-1"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "That same interview gives the main public tension in his message: strict law enforcement, but limited resources and some space for treatment. He said the Legislature decides what is criminal and that he must enforce the law as written; he also said a person stopped with only a marijuana pipe on the interstate might not be prosecuted if not an imminent local threat. He said Recovery Court, treatment, and...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-28"
+          ],
+          "mappedToIssueId": "i-marijuana-drug-enforcement-1"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "IKE Lab 2024 general-election results: 11,379 votes for Cunningham, 146 write-ins. (source) 10. Hays Post July 2024 jail story: sheriff's public expectation that Cunningham would be \"a little bit harder\" as incoming county attorney. (source) 11. Hays Post February 2025 profile: marijuana prosecution, case priorities, attorney shortage, victim/witness coordination, treatment/mental-health comments. (source) 12.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-marijuana-drug-enforcement-1"
+        }
+      ]
     },
     {
       "id": "i-role-of-the-county-attorney-2",
@@ -50,7 +81,38 @@ export const AARON_CUNNINGHAM_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "Hays Post's June 4, 2024 candidate filing coverage listed \"Aaron J Cunningham\" as the Republican candidate for Ellis County Attorney. (Hays Post) IKE Lab's 2024 general-election results show Aaron J. Cunningham (R) receiving 11,379 votes, with 146 write-ins. (IKE Lab)",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-role-of-the-county-attorney-2"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "X",
+          "observation": "The about.me page is the most personal candidate-controlled profile found. It presents him in explicitly Christian and Calvinist terms, lists Hays and Manhattan, Kansas, Hays High and Kansas State University, and links X/Twitter handle Sinfonian24601. The profile's text is not a campaign platform and appears older than his county-attorney term, but it is still publicly visible and self-presented. (about.me)",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-22"
+          ],
+          "mappedToIssueId": "i-role-of-the-county-attorney-2"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "hayshighguidon.com",
+          "observation": "Earlier public biography from the Hays High Guidon in 2019 matches the later local-service theme. Cunningham told students he was drawn to law by advocacy and a strong sense of justice, described servant-hearted practice as a useful skill, and said the goal of his job was to correct poor behavior and help victims. (The Guidon)",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-32"
+          ],
+          "mappedToIssueId": "i-role-of-the-county-attorney-2"
+        }
+      ]
     }
   ],
   "whoTheyAre": "Aaron J. Cunningham is the Ellis County attorney, a Hays native who followed a straight local path into public office. He graduated from Hays High School in 2012, earned his undergraduate degree at Kansas State University, and received his law degree from Washburn University School of Law in 2019. Public biographies say a Dane G. Hansen Foundation scholarship helped shape his decision to return to western Kansas after law school.\n\nCunningham interned for former Ellis County Attorney Tom Drees, then joined the office after passing the bar. He handled drug and DUI work as an assistant county attorney, stayed on under Drees' successor Robert Anderson, and ran unopposed for the top job in 2024 after Anderson left to return to private practice. In public, he presents himself as a homegrown prosecutor who came back to Hays to build a career in the same county where he grew up.",
@@ -310,7 +372,8 @@ export const AARON_CUNNINGHAM_V2: CandidateFullV2 = {
       "publisher": "about.me",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Aaron Cunningham's generated v2 profile."
+        "Source carried forward for Aaron Cunningham's generated v2 profile.",
+        "Observed public online activity mapped to Role of the County Attorney."
       ]
     },
     {
@@ -376,7 +439,8 @@ export const AARON_CUNNINGHAM_V2: CandidateFullV2 = {
       "publisher": "hayspost.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Aaron Cunningham's generated v2 profile."
+        "Source carried forward for Aaron Cunningham's generated v2 profile.",
+        "Observed public online activity mapped to Marijuana / Drug Enforcement."
       ]
     },
     {
@@ -420,7 +484,8 @@ export const AARON_CUNNINGHAM_V2: CandidateFullV2 = {
       "publisher": "hayshighguidon.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Aaron Cunningham's generated v2 profile."
+        "Source carried forward for Aaron Cunningham's generated v2 profile.",
+        "Observed public online activity mapped to Role of the County Attorney."
       ]
     },
     {
@@ -431,7 +496,9 @@ export const AARON_CUNNINGHAM_V2: CandidateFullV2 = {
       "publisher": "ellisco.net",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Aaron Cunningham's generated v2 profile."
+        "Source carried forward for Aaron Cunningham's generated v2 profile.",
+        "Observed public online activity mapped to Marijuana / Drug Enforcement.",
+        "Observed public online activity mapped to Role of the County Attorney."
       ]
     },
     {
@@ -2676,6 +2743,30 @@ export const AARON_CUNNINGHAM_V2: CandidateFullV2 = {
       "accessed": "2026-05-19",
       "claimsAnchored": [
         "Source carried forward for Aaron Cunningham's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://www.ike-lab.com/complete_elex_2024_gen_cotwp_Ellis.html",
+      "title": "Hays Post / Ike-Lab",
+      "publisher": "Ike-Lab",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Marijuana / Drug Enforcement.",
+        "IKE Lab 2024 general-election results: 11,379 votes for Cunningham, 146 write-ins. (source) 10. Hays Post July 2024 jail story: sheriff's public expectation that Cunningham would b"
+      ]
+    },
+    {
+      "id": "s-social-crossref-2",
+      "tier": "secondary",
+      "url": "https://hayspost.com/posts/71fc45b0-c8c1-41af-87da-6b86c8a8170b",
+      "title": "Hays Post / Hayspost",
+      "publisher": "Hayspost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Role of the County Attorney.",
+        "Hays Post's June 4, 2024 candidate filing coverage listed \"Aaron J Cunningham\" as the Republican candidate for Ellis County Attorney. (Hays Post) IKE Lab's 2024 general-election re"
       ]
     }
   ]

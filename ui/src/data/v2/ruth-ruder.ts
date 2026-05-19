@@ -1,6 +1,6 @@
-/* Auto-generated from memory/candidates/ruth-ruder/v2-issues.yaml.
- * Edit the YAML source, then run:
- *   node scripts/compile-v2-yaml.mjs ruth-ruder
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -60,7 +60,38 @@ export const RUTH_RUDER_V2: CandidateFullV2 = {
           ]
         }
       ],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Public web",
+          "observation": "*A summary of what Ruth Ruder has publicly said and where her statements have appeared. Drawn from her 2023 candidate questionnaires and local news coverage of USD 489 Board of Education meetings between July 2023 and April 2026. We report patterns; we do not interpret intent.*",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-usd489-boarddocs"
+          ],
+          "mappedToIssueId": "i-superintendent-oversight"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "The harvested record consists of two 2023 candidate questionnaires published by Hays Post and a recurring set of board-meeting quotes captured by Hays Post over the 2024 to 2026 period. Voters who want to read her own direct statements will find them almost exclusively in board-meeting coverage, not on a candidate-controlled feed.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-usd489-boarddocs"
+          ],
+          "mappedToIssueId": "i-superintendent-oversight"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "hayspost.com",
+          "observation": "In her 2023 candidate questionnaire (source), Ruder described her motivation in district-and-children terms: \"My first obligation, if elected, will be to the children in our district by providing them through the staff, the resources necessary to allow them to obtain quality educational opportunities.\" She framed her fiscal posture as taxpayer-facing: \"I will do my best at representing the taxpayer in being...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-hayspost-ruder-profile-jul2023"
+          ],
+          "mappedToIssueId": "i-superintendent-oversight"
+        }
+      ]
     },
     {
       "id": "i-board-civility",
@@ -83,7 +114,38 @@ export const RUTH_RUDER_V2: CandidateFullV2 = {
           ]
         }
       ],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "hayspost.com",
+          "observation": "They are the experts,\" adding that she would \"review policy and ensure that it is being abided by.\" In a second 2023 profile (source) she described the incumbent board dynamic as: \"I feel like there is not enough communication and respect on the current school board\" and stated that board members \"must be civil and compromise to make the best decisions for our students.\" She reported receiving no money or in-kind...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-hayspost-ruder-qa-oct2023"
+          ],
+          "mappedToIssueId": "i-board-civility"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "hayspost.com",
+          "observation": "In office, Ruder's quoted positions on operational questions cluster around two themes: a non-micromanagement posture toward administration and a priority-setting frame that flags time spent on non-academic issues. On school discipline she said, \"The board hires the superintendent, and it is up to the superintendent to manage his staff and the principals to manage their schools, not the board. I do not want to be...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-hayspost-discipline-handbook-jul2025"
+          ],
+          "mappedToIssueId": "i-board-civility"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "hayspost.com",
+          "observation": "On the April 22, 2026 bathroom-closure and vandalism discussion she said, \"I agreed with the group bathrooms remaining closed,\" and, \"We are acting like vandalism isn't new. It's been going on since the beginning of time. … It boils down to how you parent your children\" (source). On board priorities in the same meeting she said, \"If we would talk on test scores instead of restrooms all of the time, what a...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-hayspost-bathroom-vandalism-apr2026"
+          ],
+          "mappedToIssueId": "i-board-civility"
+        }
+      ]
     },
     {
       "id": "i-bond-facilities",
@@ -152,7 +214,38 @@ export const RUTH_RUDER_V2: CandidateFullV2 = {
           ]
         }
       ],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "hayspost.com",
+          "observation": "On the March 2026 reconsideration of the proposed sale of 7.3 acres north of Felten Elementary, Ruder said, \"If we sit on the land, we get nothing,\" and \"I don't think we can just say no,\" urging the board to invite bidders to a meeting to discuss their projects further and referencing community-housing demand and potential residential-tax revenue (source).",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-hayspost-felten-reconsider-mar2026"
+          ],
+          "mappedToIssueId": "i-bond-facilities"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "Across the captured Hays Post coverage, board-coverage articles consistently describe her vote alignment with the administration majority, alongside Ken Brooks and Jayme Goetz, contrasted with the fiscal-oversight bloc of Allen Park and Derek Yarmer. The harvested coverage contains no direct quotes from her on the Kansas constitutional amendments on the 2026 ballot, on state-level education-funding litigation, on...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-usd489-boarddocs"
+          ],
+          "mappedToIssueId": "i-bond-facilities"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "hayspost.com",
+          "observation": "Two contextual notes are visible in the harvested record. First, Ruder is identified in multiple local pieces as a member of what local coverage refers to as the Ruder family network in Hays government — her husband Vernon Ruder Jr. serves as Ellis County Treasurer, and her son Mason Ruder serves as Mayor of Hays (source). Second, the candidate-profiler raw intelligence from this project records that no reliable...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-hayspost-ruder-profile-jul2023"
+          ],
+          "mappedToIssueId": "i-bond-facilities"
+        }
+      ]
     },
     {
       "id": "i-district-land-use",
@@ -198,7 +291,38 @@ export const RUTH_RUDER_V2: CandidateFullV2 = {
           ]
         }
       ],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "Ruder's platform footprint at the time of this harvest is effectively zero personal accounts and several institutional surfaces where she appears as a representative of Golden Plains Credit Union, where she serves as Vice-President of the Hays branch, or as a USD 489 board member. Voters seeking direct statements from Ruth Ruder will find them in Hays Post candidate questionnaires, in Hays Post and KAYS Radio...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-usd489-boarddocs"
+          ],
+          "mappedToIssueId": "i-district-land-use"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "SECONDARY (anchors date + final vote tally + Park's process motions): Hays Post, \"Hays USD 489 district administrators' contracts extended another year,\" https://hayspost.com/posts/95dab7ab-70ba-44ee-91ee-2760e55665bf",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-hayspost-admin-contracts-jan2024"
+          ],
+          "mappedToIssueId": "i-district-land-use"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Public web",
+          "observation": "1. Superintendent oversight / board-administration scope (AE-1, AE-4, AE-13 admin-contract subset, AE-14 stated) 2. Board civility / VP-role behavior / public-comment posture (AE-2, AE-14 stated on communication) 3. Bond projects / facilities / asbestos remediation (AE-3, AE-5 flooring subset, AE-10, AE-11, AE-12, AE-13 Felten subset, AE-14 stated on bond) 4. District land use / property decisions (AE-5 land-sale...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-usd489-boarddocs"
+          ],
+          "mappedToIssueId": "i-district-land-use"
+        }
+      ]
     },
     {
       "id": "i-curriculum-parental-rights",
@@ -318,7 +442,8 @@ export const RUTH_RUDER_V2: CandidateFullV2 = {
         "Ruder verbatim 'Every scenario is going to be different'",
         "Ruder verbatim 'Until I do, I'm on the administration's side'",
         "Ruder verbatim '[Henderson's] job to handle discipline, not ours'",
-        "Ruder verbatim 'The board hires the superintendent... not the board'"
+        "Ruder verbatim 'The board hires the superintendent... not the board'",
+        "Observed public online activity mapped to Communication and civility among board members."
       ]
     },
     {
@@ -373,7 +498,8 @@ export const RUTH_RUDER_V2: CandidateFullV2 = {
         "January 22, 2024 vote: 5-1-1 to extend contracts for Wilson, Dinkel, Hipp, Carlin",
         "Allen Park voted no; Derek Yarmer abstained",
         "Park moved to evaluate each contract individually; motion failed",
-        "Park moved to enter executive session on superintendent contract; motion failed"
+        "Park moved to enter executive session on superintendent contract; motion failed",
+        "Observed public online activity mapped to District land sales and property decisions."
       ]
     },
     {
@@ -471,7 +597,8 @@ export const RUTH_RUDER_V2: CandidateFullV2 = {
       "accessed": "2026-05-20",
       "claimsAnchored": [
         "Ruder verbatim 'If we sit on the land, we get nothing'",
-        "Ruder verbatim 'I don't think we can just say no'"
+        "Ruder verbatim 'I don't think we can just say no'",
+        "Observed public online activity mapped to Bond projects, facility construction, and asbestos remediation."
       ]
     },
     {
@@ -514,7 +641,8 @@ export const RUTH_RUDER_V2: CandidateFullV2 = {
         "Ruder verbatim 'If we would talk on test scores instead of restrooms'",
         "Brooks verbatim 'We've had this discussion many times'",
         "Vajnar verbatim about construction-era public expectation",
-        "Ruder identified in this article as 'Board Member'"
+        "Ruder identified in this article as 'Board Member'",
+        "Observed public online activity mapped to Communication and civility among board members."
       ]
     },
     {
@@ -689,7 +817,8 @@ export const RUTH_RUDER_V2: CandidateFullV2 = {
         "Ruder stated 'I would not micromanage. I will review policy'",
         "Ruder stated 'I think the board should have a vital role in the bond'",
         "Ruder stated 'I would do my best at representing the taxpayer in being fiscally responsible'",
-        "Ruder stated 'identifying smart growth'"
+        "Ruder stated 'identifying smart growth'",
+        "Observed public online activity mapped to Communication and civility among board members."
       ]
     },
     {
@@ -703,7 +832,9 @@ export const RUTH_RUDER_V2: CandidateFullV2 = {
         "Ruder married to Vernon Ruder Jr. for 34 years; three children",
         "Ruder born in Hays; Hays High School graduate 1988",
         "Ruder employed with Golden Plains Credit Union for 30 years; VP of Hays branch over 15 years",
-        "Ruder stated first obligation 'will be to the children in our district'"
+        "Ruder stated first obligation 'will be to the children in our district'",
+        "Observed public online activity mapped to Board oversight of the superintendent and administrators.",
+        "Observed public online activity mapped to Bond projects, facility construction, and asbestos remediation."
       ]
     }
   ]

@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -33,7 +33,18 @@ export const PAT_PROCTOR_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "x",
+          "observation": "Loudlight, Appleseed, and their allies hide behind their supposed nonpartisan, nonprofit status to rake in millions from George Soros and foreign billionaires that they use to sue every common sense measure we pass to restore…\" (source). On May 27, 2025, he posted on X: \"Why are the @aclukansas, Planned Parenthood, and the other members of the pro-abortion 'Kansans for Constitutional Freedom' suing to protect...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        }
+      ]
     },
     {
       "id": "i-marriage-family-lgbtq-policy-2",
@@ -118,7 +129,18 @@ export const PAT_PROCTOR_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Public web",
+          "observation": "Several policy areas affecting Kansas households do not appear at meaningful frequency in Proctor's harvested public feeds during the captured period. Healthcare access, Medicaid, hospital closures, K–12 education funding, agricultural commodity policy, the Ogallala Aquifer, child care, opioids, and veterans' services other than his own veteran identification are either absent or appear only as single passing...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
+        }
+      ]
     },
     {
       "id": "i-marijuana-drug-policy-7",
@@ -135,7 +157,28 @@ export const PAT_PROCTOR_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Facebook",
+          "observation": "Proctor's public alignment network on his own feed centers on Kansas Republican officeholders, election-policy organizations, and his own legislative work product. His Facebook page features a campaign video titled \"Kris Kobach Wanted This 20-Year-Old To Go To Jail For…\" framing his own enforcement stance against Attorney General Kris Kobach's.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-marijuana-drug-policy-7"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "X",
+          "observation": "On national and federal-policy questions, Proctor's feed engages selectively and through a state-elections lens. He frames opposition to federal mail-in-ballot deadlines, election-related litigation, and nonprofit-funded ballot measures as state sovereignty questions. On April 11, 2025 his House-carried HB 2106 foreign-funding ban was enacted, and he posted on the bill's significance from his X account.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-3"
+          ],
+          "mappedToIssueId": "i-marijuana-drug-policy-7"
+        }
+      ]
     }
   ],
   "whoTheyAre": "Pat Proctor is a Leavenworth Republican, retired Army colonel, Kansas House member, and 2026 candidate for secretary of state. His public biography says he served 25 years in the U.S. Army, including deployments to Iraq and Afghanistan, before moving into state politics.\n\nHe has represented Leavenworth in the Kansas House since 2020. Outside politics, he and his wife Aree co-own Baan Thai Restaurant, which gives him a small-business identity alongside his military and legislative background. That combination of soldier, lawmaker, and business owner is central to how he presents himself statewide.\n\nProctor is not running as an outsider to election law. He chairs the House Elections Committee and has already spent years working inside the legislative machinery that writes, revises, and tightens Kansas election rules.",
@@ -854,6 +897,42 @@ export const PAT_PROCTOR_V2: CandidateFullV2 = {
       "accessed": "2026-03-31",
       "claimsAnchored": [
         "Source carried forward for Pat Proctor's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "social",
+      "url": "https://x.com/RealPatProctor",
+      "title": "x / X",
+      "publisher": "X",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Abortion / Sanctity of Life.",
+        "Loudlight, Appleseed, and their allies hide behind their supposed nonpartisan, nonprofit status to rake in millions from George Soros and foreign billionaires that they use to sue "
+      ]
+    },
+    {
+      "id": "s-social-crossref-2",
+      "tier": "social",
+      "url": "https://www.facebook.com/PatProctorKS/videos/enforcing-our-election-laws/1920239725529443/",
+      "title": "Facebook / Facebook",
+      "publisher": "Facebook",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Marijuana / Drug Policy.",
+        "Proctor's public alignment network on his own feed centers on Kansas Republican officeholders, election-policy organizations, and his own legislative work product. His Facebook pag"
+      ]
+    },
+    {
+      "id": "s-social-crossref-3",
+      "tier": "secondary",
+      "url": "https://news.ballotpedia.org/2025/04/11/indiana-joins-kansas-kentucky-and-wyoming-in-enacting-laws-to-restrict-foreign-contributions-to-ballot-measure-campaigns-the-highest-number-passed-in-a-single-year/",
+      "title": "X / News.Ballotpedia",
+      "publisher": "News.Ballotpedia",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Marijuana / Drug Policy.",
+        "On national and federal-policy questions, Proctor's feed engages selectively and through a state-elections lens. He frames opposition to federal mail-in-ballot deadlines, election-"
       ]
     }
   ]

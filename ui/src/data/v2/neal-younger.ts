@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -31,7 +31,38 @@ export const NEAL_YOUNGER_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Public web",
+          "observation": "Economic development: said the county should be more proactive, work with Hays, improve water supply, and pursue \"higher-paying jobs.\"",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-5"
+          ],
+          "mappedToIssueId": "i-county-spending-taxes-1"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Public web",
+          "observation": "Budget stabilization: said Ellis County should maintain what it has until more normal conditions returned.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-5"
+          ],
+          "mappedToIssueId": "i-county-spending-taxes-1"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Public web",
+          "observation": "Voter concern: identified \"Ellis County spending too much money\" as a top concern and said people should be kept involved.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-5"
+          ],
+          "mappedToIssueId": "i-county-spending-taxes-1"
+        }
+      ]
     },
     {
       "id": "i-mental-health-funding-2",
@@ -47,7 +78,38 @@ export const NEAL_YOUNGER_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Public web",
+          "observation": "Public health decision-making: said commissioners should consult the head of EMS and communicate with the medical center before making community health decisions.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-5"
+          ],
+          "mappedToIssueId": "i-mental-health-funding-2"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "Hays Post, Sept. 9, 2025: during 2026 budget approval coverage, Younger defended high county spending as tied to services including ambulance, roads, noxious weeds, and mental health.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-229"
+          ],
+          "mappedToIssueId": "i-mental-health-funding-2"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "Hays Post, July 16, 2025: in budget discussion, Younger said the High Plains Mental Health increase was less expensive than building a new jail.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-mental-health-funding-2"
+        }
+      ]
     },
     {
       "id": "i-water-and-economic-development-3",
@@ -64,7 +126,38 @@ export const NEAL_YOUNGER_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "Hays Post, Oct. 13, 2025: reported Younger asked for clarification on how long AMP Rentals would have access to a county-owned water well while awaiting a rural water meter.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-water-and-economic-development-3"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "Hays Post, Jan. 6, 2026: reported Younger suggested Big Creek Estates residents explore forming a rural water district or seeking Hays water.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-3"
+          ],
+          "mappedToIssueId": "i-water-and-economic-development-3"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "Hays Post, Feb. 11, 2026: reported Younger asked what would happen if a Big Creek housing well had to be moved because water was not found at the planned location.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-4"
+          ],
+          "mappedToIssueId": "i-water-and-economic-development-3"
+        }
+      ]
     },
     {
       "id": "i-government-efficiency-4",
@@ -81,7 +174,18 @@ export const NEAL_YOUNGER_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "Neal Younger's public messaging footprint is unusually small for an incumbent elected official. No verified campaign website or candidate-controlled social account was found, and the strongest first-person source remains his July 30, 2020 Hays Post candidate questionnaire. In that questionnaire, he presented himself as a tradesman and practical county-government candidate: an electrician and plumber with...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-1"
+          ],
+          "mappedToIssueId": "i-government-efficiency-4"
+        }
+      ]
     }
   ],
   "whoTheyAre": "Neal Younger is the Ellis County Commissioner for District 2 and the commission chairman in 2026. He came into office from the trades, not from a political résumé, and public sources consistently describe him as an electrician and plumber with a blue-collar background.\n\nYounger first won the seat in 2020, defeating incumbent Dustin Roths and Kerry McCue in a three-way Republican primary with 639 votes, or 40.16 percent. He then ran unopposed in the general election. His public style has stayed close to that origin story: low-profile, direct, and focused on county budgets, roads, water, and departmental operations rather than personality or branding.\n\nHe has almost no social-media presence and very little public biographical material beyond office-related coverage. What the public record does show is a commissioner who talks in practical terms about staffing, infrastructure, communication, and whether county spending is actually worth it.",
@@ -111,7 +215,8 @@ export const NEAL_YOUNGER_V2: CandidateFullV2 = {
       "publisher": "hayspost.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Neal Younger's generated v2 profile."
+        "Source carried forward for Neal Younger's generated v2 profile.",
+        "Observed public online activity mapped to Government Efficiency."
       ]
     },
     {
@@ -2619,7 +2724,8 @@ export const NEAL_YOUNGER_V2: CandidateFullV2 = {
       "publisher": "hayspost.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Neal Younger's generated v2 profile."
+        "Source carried forward for Neal Younger's generated v2 profile.",
+        "Observed public online activity mapped to Mental Health Funding."
       ]
     },
     {
@@ -2664,6 +2770,54 @@ export const NEAL_YOUNGER_V2: CandidateFullV2 = {
       "accessed": "2026-05-19",
       "claimsAnchored": [
         "Source carried forward for Neal Younger's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://hayspost.com/posts/fbac2993-56a7-4ebb-b494-5a194944d2c2",
+      "title": "Hays Post / Hayspost",
+      "publisher": "Hayspost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Mental Health Funding.",
+        "Hays Post, July 16, 2025: in budget discussion, Younger said the High Plains Mental Health increase was less expensive than building a new jail."
+      ]
+    },
+    {
+      "id": "s-social-crossref-2",
+      "tier": "secondary",
+      "url": "https://hayspost.com/posts/769b9cc3-43f2-4772-9389-e5a962d9a36a",
+      "title": "Hays Post / Hayspost",
+      "publisher": "Hayspost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Water and Economic Development.",
+        "Hays Post, Oct. 13, 2025: reported Younger asked for clarification on how long AMP Rentals would have access to a county-owned water well while awaiting a rural water meter."
+      ]
+    },
+    {
+      "id": "s-social-crossref-3",
+      "tier": "secondary",
+      "url": "https://hayspost.com/posts/ee851b27-fd93-4943-b1ba-e924696a0982",
+      "title": "Hays Post / Hayspost",
+      "publisher": "Hayspost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Water and Economic Development.",
+        "Hays Post, Jan. 6, 2026: reported Younger suggested Big Creek Estates residents explore forming a rural water district or seeking Hays water."
+      ]
+    },
+    {
+      "id": "s-social-crossref-4",
+      "tier": "secondary",
+      "url": "https://hayspost.com/posts/6ba197c2-04b6-4e73-8650-431120cea10f",
+      "title": "Hays Post / Hayspost",
+      "publisher": "Hayspost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Water and Economic Development.",
+        "Hays Post, Feb. 11, 2026: reported Younger asked what would happen if a Big Creek housing well had to be moved because water was not found at the planned location."
       ]
     }
   ]

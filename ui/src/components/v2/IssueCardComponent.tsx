@@ -18,7 +18,7 @@ import { useState } from "react";
 import type { IssueCard, Source } from "@/data/types-v2";
 import ActionList from "./ActionList";
 import SocialSignalChip from "./SocialSignalChip";
-import { ExternalLink } from "lucide-react";
+import { ChevronDown, ExternalLink } from "lucide-react";
 
 interface IssueCardComponentProps {
   issue: IssueCard;
@@ -58,8 +58,8 @@ function SourceChipInline({
 function SectionLabel({ children }: { children: React.ReactNode }) {
   return (
     <h4
-      className="font-heading font-bold uppercase tracking-wider mb-2"
-      style={{ fontSize: "0.7rem", color: "var(--color-slate)", letterSpacing: "0.1em" }}
+      className="mb-3 border-l-4 pl-3 font-heading font-bold uppercase tracking-wider"
+      style={{ borderColor: "var(--color-teal)", fontSize: "0.95rem", color: "var(--color-navy)" }}
     >
       {children}
     </h4>
@@ -92,16 +92,16 @@ export default function IssueCardComponent({
 
   return (
     <article
-      className="rounded-lg border bg-white overflow-hidden"
+      className="overflow-hidden rounded-lg border bg-white"
       style={{ borderColor: "rgba(16, 64, 93, 0.14)" }}
       aria-labelledby={`issue-${issue.id}-heading`}
     >
       {/* Card header / toggle */}
       <button
         type="button"
-        className="w-full flex items-start justify-between gap-4 p-5 sm:p-6 text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-teal group"
+        className="group flex w-full items-start justify-between gap-4 p-5 text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-teal sm:p-6"
         style={{
-          backgroundColor: "#f8f9fa",
+          backgroundColor: expanded ? "white" : "#f8f9fa",
           /* iOS Safari: eliminate 300ms tap delay + remove gray flash */
           WebkitTapHighlightColor: "transparent",
           touchAction: "manipulation",
@@ -114,7 +114,7 @@ export default function IssueCardComponent({
           <h3
             id={`issue-${issue.id}-heading`}
             className="font-heading font-bold"
-            style={{ fontSize: "1.2rem", color: "var(--color-navy)" }}
+            style={{ fontSize: "clamp(1.15rem, 3.5vw, 1.55rem)", color: "var(--color-navy)", lineHeight: 1.15 }}
           >
             {issue.title}
           </h3>
@@ -132,13 +132,12 @@ export default function IssueCardComponent({
         </div>
 
         {/* Expand/collapse indicator */}
-        <span
-          className="mt-1 shrink-0 font-body text-sm font-semibold transition-colors duration-150 group-hover:underline"
+        <ChevronDown
+          size={22}
+          className={`mt-1 shrink-0 transition-transform duration-200 ${expanded ? "rotate-180" : ""}`}
           style={{ color: "var(--color-teal-dark)" }}
           aria-hidden="true"
-        >
-          {expanded ? "Collapse" : "Expand"}
-        </span>
+        />
       </button>
 
       {/* Card body */}
@@ -148,9 +147,8 @@ export default function IssueCardComponent({
       >
         <div className="p-5 sm:p-6 grid gap-7">
 
-          {/* Section 1: What they say */}
-          <section aria-label="What they say">
-            <SectionLabel>What they say</SectionLabel>
+          <section aria-label="Where they stand">
+            <SectionLabel>Where they stand</SectionLabel>
             {issue.stated.text ? (
               <div className="grid gap-3">
                 <p
@@ -177,9 +175,8 @@ export default function IssueCardComponent({
             )}
           </section>
 
-          {/* Section 2: What they did */}
-          <section aria-label="What they did">
-            <SectionLabel>What they did</SectionLabel>
+          <section aria-label="Their record">
+            <SectionLabel>Their record</SectionLabel>
             <ActionList actions={issue.actions} sources={sources} />
           </section>
 

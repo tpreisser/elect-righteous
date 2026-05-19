@@ -5,6 +5,7 @@ import { ALLEN_PARK_V2 } from "./allen-park";
 import { ANNE_PARELKAR_V2 } from "./anne-parelkar";
 import { BARB_WASINGER_V2 } from "./barb-wasinger";
 import { BOBBI_DREILING_V2 } from "./bobbi-dreiling";
+import { CATHY_HOPKINS_V2 } from "./cathy-hopkins";
 import { CHARLOTTE_OHARA_V2 } from "./charlotte-ohara";
 import { CHASE_LAPORTE_V2 } from "./chase-laporte";
 import { CHRIS_MANN_V2 } from "./chris-mann";
@@ -62,6 +63,7 @@ export const V2_CANDIDATES: CandidateFullV2[] = [
   ANNE_PARELKAR_V2,
   BARB_WASINGER_V2,
   BOBBI_DREILING_V2,
+  CATHY_HOPKINS_V2,
   CHARLOTTE_OHARA_V2,
   CHASE_LAPORTE_V2,
   CHRIS_MANN_V2,

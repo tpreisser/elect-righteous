@@ -1,6 +1,6 @@
-/* Auto-generated from memory/candidates/nathan-leiker/v2-issues.yaml.
- * Edit the YAML source, then run:
- *   node scripts/compile-v2-yaml.mjs nathan-leiker
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -71,7 +71,38 @@ export const NATHAN_LEIKER_V2: CandidateFullV2 = {
           ]
         }
       ],
-      "socialSignals": [],
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Public web",
+          "observation": "Harvest focus: candidate/profile-controlled or attributed messaging, official county commission pages and minutes, public meeting/video references, public social/account signals, agriculture/professional profiles, local news quoting Leiker, and visible absences.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-ellis-commission-page"
+          ],
+          "mappedToIssueId": "i-subdivision-rural-land-use"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "On why he ran, Leiker cited zoning board, Cottonwood Extension, oil-industry, rural-fire, and family-farm experience, saying he was proud to be from Ellis County and looked forward to serving it. Source: Hays Post, Apr. 12, 2022.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-hayspost-leiker-announcement-2022"
+          ],
+          "mappedToIssueId": "i-subdivision-rural-land-use"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "myaniml.com",
+          "observation": "On cattle technology, he said MyAnIML could spread cattle-health expertise across the farm and that low-stress, less-invasive management drew him to the tool. Source: MyAnIML case study, Jul. 19, 2023.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-myaniml-leiker-2023"
+          ],
+          "mappedToIssueId": "i-subdivision-rural-land-use"
+        }
+      ],
       "gap": {
         "summary": "Leiker's 2022 private-property language was more limited-government\nthan his 2025-2026 commission record on subdivisions. In office, he\nused comprehensive-plan, infrastructure, RHID, and sewer-condition\ntools to oppose, condition, or structure development rather than\ntreating private-property use as outside county authority.\n",
         "evidenceIds": [
@@ -127,7 +158,38 @@ export const NATHAN_LEIKER_V2: CandidateFullV2 = {
           ]
         }
       ],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "On sales tax, he said the county should leave the sales tax alone and make it permanent before sunset, while using the funds for capital improvements and residents' quality of life. Source: Hays Post candidate Q&A, Jul. 19, 2022.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-hayspost-leiker-qa-2022"
+          ],
+          "mappedToIssueId": "i-budget-taxes-services"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "On economic development, he said the county should be proactive and that stable taxes, available capital, and infrastructure investment would help business follow. Source: Hays Post candidate Q&A.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-hayspost-leiker-qa-2022"
+          ],
+          "mappedToIssueId": "i-budget-taxes-services"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "On the 2025 budget, he said the commission tries to limit tax-dollar impact, but also warned against deferring bridge and road needs until failures or accidents happen. Source: Hays Post, Oct. 1, 2024.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-budget-taxes-services"
+        }
+      ]
     },
     {
       "id": "i-mental-health-jail-costs",
@@ -167,7 +229,38 @@ export const NATHAN_LEIKER_V2: CandidateFullV2 = {
           ]
         }
       ],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "On the 2026 budget draft, he said a mill increase gave the county flexibility for a soft landing if state or federal grants were pulled. Source: Hays Post, Aug. 14, 2025.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-hayspost-budget-soft-landing"
+          ],
+          "mappedToIssueId": "i-mental-health-jail-costs"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "On property tax relief, he said counties keep losing tools and then get told they are not doing it right. Source: Hays Post, Dec. 22, 2025.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-mental-health-jail-costs"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Public web",
+          "observation": "Public messaging is concentrated in county operations, agriculture, infrastructure, zoning, public works, taxes, and development rather than social-media campaigning.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-ellis-commission-page"
+          ],
+          "mappedToIssueId": "i-mental-health-jail-costs"
+        }
+      ]
     },
     {
       "id": "i-process-expertise-procurement",
@@ -224,7 +317,38 @@ export const NATHAN_LEIKER_V2: CandidateFullV2 = {
           ]
         }
       ],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "Plat approval process, Hays Post, Mar. 3, 2026",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-hayspost-plat-process-mar2026"
+          ],
+          "mappedToIssueId": "i-process-expertise-procurement"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "Hays Post — plat approval process update (Mar 3, 2026) — secondary",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-hayspost-plat-process-mar2026"
+          ],
+          "mappedToIssueId": "i-process-expertise-procurement"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Public web",
+          "observation": "What was observed: During the 2026 budget process Leiker publicly tied county mental-health spending to jail-cost avoidance. In the same January 2026 reorganization, he accepted the commission's appointment to the High Plains Mental Health board for 2026. (Younger used very similar phrasing in the same coverage; the framing appears to have been a shared commission position rather than a Leiker original, but he is...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-ellis-commission-page"
+          ],
+          "mappedToIssueId": "i-process-expertise-procurement"
+        }
+      ]
     }
   ],
   "whereTheyWorship": "No confirmed current church affiliation surfaced in public sources. Prior\nresearch points strongly to Catholic background through TMP-Marian and\nfamily ties, but current parish membership is not verified and should not\nbe stated as fact.\n",
@@ -459,7 +583,8 @@ export const NATHAN_LEIKER_V2: CandidateFullV2 = {
         "Leiker said the county should be proactive in recruiting new business",
         "Leiker opposed expanding the county commission from three members to five",
         "Leiker said government should have very little authority over what people do on private property apart from illegal actions",
-        "Leiker said transparency could become less transparent and be abused"
+        "Leiker said transparency could become less transparent and be abused",
+        "Observed public online activity mapped to County budget, taxes, employee retention, and capital projects."
       ]
     },
     {
@@ -472,7 +597,8 @@ export const NATHAN_LEIKER_V2: CandidateFullV2 = {
       "claimsAnchored": [
         "Leiker presented himself as a local farm and ranch operator",
         "Leiker cited zoning, Extension, oil-field, and rural-fire experience",
-        "Leiker said he was proud to be from Ellis County"
+        "Leiker said he was proud to be from Ellis County",
+        "Observed public online activity mapped to Subdivision growth, rural land use, and infrastructure capacity."
       ]
     },
     {
@@ -543,7 +669,8 @@ export const NATHAN_LEIKER_V2: CandidateFullV2 = {
       "publisher": "Hays Post",
       "accessed": "2026-05-20",
       "claimsAnchored": [
-        "Leiker said the proposed mill increase could provide a soft landing if state or federal grants were pulled"
+        "Leiker said the proposed mill increase could provide a soft landing if state or federal grants were pulled",
+        "Observed public online activity mapped to Mental health funding and jail-cost avoidance."
       ]
     },
     {
@@ -579,7 +706,8 @@ export const NATHAN_LEIKER_V2: CandidateFullV2 = {
       "publisher": "Hays Post",
       "accessed": "2026-05-20",
       "claimsAnchored": [
-        "Leiker suggested pausing further zoning certificate approvals to reevaluate the regulatory framework"
+        "Leiker suggested pausing further zoning certificate approvals to reevaluate the regulatory framework",
+        "Observed public online activity mapped to Process discipline, outside expertise, and procurement."
       ]
     },
     {
@@ -591,7 +719,8 @@ export const NATHAN_LEIKER_V2: CandidateFullV2 = {
       "accessed": "2026-05-20",
       "claimsAnchored": [
         "Leiker described L5 Farms as part of a fifth-generation Ellis County farm",
-        "Leiker discussed direct producer-consumer relationships after COVID supply-chain disruption"
+        "Leiker discussed direct producer-consumer relationships after COVID supply-chain disruption",
+        "Observed public online activity mapped to Subdivision growth, rural land use, and infrastructure capacity."
       ]
     },
     {
@@ -602,7 +731,9 @@ export const NATHAN_LEIKER_V2: CandidateFullV2 = {
       "publisher": "MyAnIML",
       "accessed": "2026-05-20",
       "claimsAnchored": [
-        "Leiker discussed cattle-health technology in terms of labor limits, earlier treatment, and low-stress handling"
+        "Leiker discussed cattle-health technology in terms of labor limits, earlier treatment, and low-stress handling",
+        "Observed public online activity mapped to Mental health funding and jail-cost avoidance.",
+        "Observed public online activity mapped to Subdivision growth, rural land use, and infrastructure capacity."
       ]
     },
     {
@@ -615,6 +746,30 @@ export const NATHAN_LEIKER_V2: CandidateFullV2 = {
       "claimsAnchored": [
         "County-level candidate filings are held by the Ellis County Clerk",
         "The public website does not expose itemized local candidate donor ledgers"
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://hayspost.com/posts/d81583db-0414-44c6-8dac-7d4ad565ed13",
+      "title": "Hays Post / Hayspost",
+      "publisher": "Hayspost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to County budget, taxes, employee retention, and capital projects.",
+        "On the 2025 budget, he said the commission tries to limit tax-dollar impact, but also warned against deferring bridge and road needs until failures or accidents happen. Source: Hay"
+      ]
+    },
+    {
+      "id": "s-social-crossref-2",
+      "tier": "secondary",
+      "url": "https://hayspost.com/posts/0dc3bf76-bd9f-4190-a0c7-231ca8172d18",
+      "title": "Hays Post / Hayspost",
+      "publisher": "Hayspost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Mental health funding and jail-cost avoidance.",
+        "On property tax relief, he said counties keep losing tools and then get told they are not doing it right. Source: Hays Post, Dec. 22, 2025."
       ]
     }
   ]

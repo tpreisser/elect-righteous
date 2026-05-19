@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -33,7 +33,38 @@ export const COLIN_MCROBERTS_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Bluesky",
+          "observation": "Reposted ACOG, 2025-09-22: \"ACOG reaffirms that acetaminophen is safe for managing pain and fever during pregnancy...\" Engagement: Likes 2,011, Reposts 1,137, Replies 22, Quotes 64.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Bluesky",
+          "observation": "Across the captured Bluesky period, the feed contains no original posts about abortion policy, marriage policy, religious-liberty policy, water rights, the Ogallala Aquifer, Fort Riley, rural hospital closures, or Medicaid expansion.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-32"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Bluesky",
+          "observation": "Across the captured period the feed contains no original Bluesky posts about abortion policy, marriage policy, religious-liberty policy, water rights, the Ogallala Aquifer, Fort Riley, rural hospital closures, or Medicaid expansion (harvest). Healthcare appears mainly through immigration enforcement, scientific research, and agency-accountability posts rather than a sustained district-healthcare thread. The...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-31"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        }
+      ]
     },
     {
       "id": "i-marriage-family-lgbtq-policy-2",
@@ -99,7 +130,38 @@ export const COLIN_MCROBERTS_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Facebook",
+          "observation": "Facebook: campaign-linked Facebook profile/page -- linked from colinforkansas.com -- present, but logged-out harvest returned a browser/login wall on 2026-05-11. Earlier project notes also list facebook.com/colinforkansas.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "LinkedIn",
+          "observation": "LinkedIn post preview, indexed 2 months before capture: \"I borrowed my son Ox's favorite LEGO creation, Mr. Technopants, to help illustrate why exactly so many Kansans are concerned about ICE hitting their community. The short answer is, it's not about law enforcement. In fact, ICE is breaking the law left and right. We have to care about that, or who are we as Americans?\"",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-32"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Public web",
+          "observation": "Healthcare appears mostly through ICE, research funding, disease / science reposts, and the campaign issue page; detailed healthcare delivery policy was not a frequent social-feed topic in the captured posts.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-32"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        }
+      ]
     }
   ],
   "whoTheyAre": "Colin McRoberts is a Democratic candidate for Kansas's 1st Congressional District, a seat that covers most of western and central Kansas and has been safely Republican for decades. Public records identify him as Kenneth Colin McRoberts, a Lawrence resident, an associate teaching professor of law at the University of Kansas School of Business, and a lawyer with degrees from Trinity University and Harvard Law School.\n\nBefore entering politics, McRoberts worked as a commercial litigator at Steptoe & Johnson and later founded Vasher McRoberts LLC, a consulting firm focused on negotiation and communication analysis. His university and writing work also gave him a more academic public profile than most congressional candidates in Kansas. He teaches business law and related courses at KU and has published writing on conspiracy theories, persuasion, and public culture.",
@@ -467,7 +529,8 @@ export const COLIN_MCROBERTS_V2: CandidateFullV2 = {
       "publisher": "colinforkansas.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Colin McRoberts's generated v2 profile."
+        "Source carried forward for Colin McRoberts's generated v2 profile.",
+        "Observed public online activity mapped to Abortion / Sanctity of Life."
       ]
     },
     {
@@ -1447,6 +1510,30 @@ export const COLIN_MCROBERTS_V2: CandidateFullV2 = {
       "accessed": "2026-03-31",
       "claimsAnchored": [
         "Source carried forward for Colin McRoberts's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "social",
+      "url": "https://bsky.app/profile/acog.org/post/3lzhdskbh432y",
+      "title": "Bluesky / Bsky",
+      "publisher": "Bsky",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Abortion / Sanctity of Life.",
+        "Reposted ACOG, 2025-09-22: \"ACOG reaffirms that acetaminophen is safe for managing pain and fever during pregnancy...\" Engagement: Likes 2,011, Reposts 1,137, Replies 22, Quotes 64"
+      ]
+    },
+    {
+      "id": "s-social-crossref-2",
+      "tier": "social",
+      "url": "https://www.facebook.com/profile.php?id=61579491833979",
+      "title": "Facebook / Facebook",
+      "publisher": "Facebook",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Immigration / Border.",
+        "Facebook: campaign-linked Facebook profile/page -- linked from colinforkansas.com -- present, but logged-out harvest returned a browser/login wall on 2026-05-11. Earlier project no"
       ]
     }
   ]

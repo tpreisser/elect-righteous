@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -32,7 +32,28 @@ export const JENNIFER_DAY_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Public web",
+          "observation": "Across the accessible public set reviewed, Day's current campaign channels did not show sustained issue coverage on abortion, LGBTQ policy, religious liberty, immigration, school choice, marijuana policy, Medicaid expansion, rural hospital closures, water policy, the Ogallala Aquifer, K-12 school finance, higher education affordability, child care, housing costs, opioids, broadband, road funding, or veterans...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-1"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Bluesky",
+          "observation": "Several issue areas were not prominent in the accessible campaign-controlled material. The reviewed set did not show sustained discussion of abortion, LGBTQ policy, religious liberty, immigration, school choice, marijuana policy, Medicaid expansion, rural hospitals, water, the Ogallala Aquifer, K-12 school finance, higher education affordability, child care, housing, opioids, broadband, or road funding. The...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        }
+      ]
     },
     {
       "id": "i-marriage-family-lgbtq-policy-2",
@@ -83,7 +104,18 @@ export const JENNIFER_DAY_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Bluesky",
+          "observation": "Bluesky post, 2026-04-06, saying her current LLC report and fee were easier than finding lighting for a residential rehab project. (source) 21. Bluesky post, 2026-04-22, announcing a 2026 Gun Sense Candidate distinction from Moms Demand Action. (source) 22. Bluesky post, 2026-05-05, announcing Gov.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-guns-second-amendment-4"
+        }
+      ]
     },
     {
       "id": "i-immigration-border-5",
@@ -797,6 +829,30 @@ export const JENNIFER_DAY_V2: CandidateFullV2 = {
       "accessed": "2026-03-31",
       "claimsAnchored": [
         "Source carried forward for Jennifer Day's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "social",
+      "url": "https://bsky.app/profile/electjenday.bsky.social/post/3mk3pnx2lz224",
+      "title": "Bluesky / Bsky",
+      "publisher": "Bsky",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Abortion / Sanctity of Life.",
+        "Several issue areas were not prominent in the accessible campaign-controlled material. The reviewed set did not show sustained discussion of abortion, LGBTQ policy, religious liber"
+      ]
+    },
+    {
+      "id": "s-social-crossref-2",
+      "tier": "social",
+      "url": "https://bsky.app/profile/electjenday.bsky.social/post/3mithgio4yc2p",
+      "title": "Bluesky / Bsky",
+      "publisher": "Bsky",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Guns / Second Amendment.",
+        "Bluesky post, 2026-04-06, saying her current LLC report and fee were easier than finding lighting for a residential rehab project. (source) 21. Bluesky post, 2026-04-22, announcing"
       ]
     }
   ]

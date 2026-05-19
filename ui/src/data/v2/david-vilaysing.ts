@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -31,7 +31,38 @@ export const DAVID_VILAYSING_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "Candidate Q&A, Oct. 25, 2025: He described water and housing as the most pressing city issues and said Hays needs a secure water source, transparency on R9 progress, and housing options for low- to medium-income residents. Source: Hays Post.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-9"
+          ],
+          "mappedToIssueId": "i-water-1"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "Election-night quote, Nov. 6, 2025: He said he was \"a little surprised\" and \"very eager to get to work,\" and called water supply and affordable housing top issues. Source: Hays Post.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-109"
+          ],
+          "mappedToIssueId": "i-water-1"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Tiger Media Network",
+          "observation": "The most consistent city-policy themes are water, housing, and cost discipline. Vilaysing calls the R9 water project important but not enough by itself, saying Hays needs both a secure near-term source and a permanent long-term answer. On housing, he talks about low- and middle-income residents, city land, developer partnerships, and practical ways to make qualifying homes possible. On taxes and budgets, he...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-water-1"
+        }
+      ]
     },
     {
       "id": "i-housing-2",
@@ -47,7 +78,18 @@ export const DAVID_VILAYSING_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Facebook",
+          "observation": "His visible engagement footprint is modest and unevenly public. The DXI Facebook page exposed public metadata showing 125 likes and 5 people talking about it, but major social platforms did not expose reliable post timelines or per-post engagement without scripts or login. Search results did not verify a dedicated campaign website, a campaign X account, a public campaign LinkedIn profile, or an explicit...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-71"
+          ],
+          "mappedToIssueId": "i-housing-2"
+        }
+      ]
     },
     {
       "id": "i-city-spending-transparency-3",
@@ -64,7 +106,38 @@ export const DAVID_VILAYSING_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "Candidate Q&A, Oct. 25, 2025: On taxes, he said he did not think a mill levy increase was needed and wanted creative budgeting to remain revenue neutral. Source: Hays Post.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-9"
+          ],
+          "mappedToIssueId": "i-city-spending-transparency-3"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Tiger Media Network",
+          "observation": "Public comment, Sept. 12, 2025: At a revenue-neutral budget hearing, he said residents were \"heavily taxed\" and \"burdened\" and asked the city to provide relief if possible. Source: Tiger Media Network.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-city-spending-transparency-3"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "2027 budget work session, Apr. 6, 2026: He challenged department heads to ask frontline staff for budget input because they can identify what the city does not need to do. Source: Hays Post.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-city-spending-transparency-3"
+        }
+      ]
     },
     {
       "id": "i-law-enforcement-4",
@@ -80,7 +153,38 @@ export const DAVID_VILAYSING_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "Candidate Q&A, Oct. 25, 2025: He said he had 22 years of combined Hays Police Department and military police experience and missed \"giving back to my community.\" Source: Hays Post.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-9"
+          ],
+          "mappedToIssueId": "i-law-enforcement-4"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "Pet licensing, Feb. 14, 2026: He asked city staff to research changes to pet licensing because many pets already have owner tags or microchips, and said it could save city staff, police, and dispatch time. Source: Hays Post.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-3"
+          ],
+          "mappedToIssueId": "i-law-enforcement-4"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Public web",
+          "observation": "No substantial partisan national messaging found; the visible record is almost entirely local governance, law enforcement training, library-board controversy, and city operations.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-71"
+          ],
+          "mappedToIssueId": "i-law-enforcement-4"
+        }
+      ]
     },
     {
       "id": "i-core-values-in-governance-5",
@@ -214,7 +318,10 @@ export const DAVID_VILAYSING_V2: CandidateFullV2 = {
       "publisher": "hayspost.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for David Vilaysing's generated v2 profile."
+        "Source carried forward for David Vilaysing's generated v2 profile.",
+        "Observed public online activity mapped to Water.",
+        "Observed public online activity mapped to City Spending / Transparency.",
+        "Observed public online activity mapped to Law Enforcement."
       ]
     },
     {
@@ -1314,7 +1421,8 @@ export const DAVID_VILAYSING_V2: CandidateFullV2 = {
       "publisher": "hayspost.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for David Vilaysing's generated v2 profile."
+        "Source carried forward for David Vilaysing's generated v2 profile.",
+        "Observed public online activity mapped to Water."
       ]
     },
     {
@@ -2756,6 +2864,43 @@ export const DAVID_VILAYSING_V2: CandidateFullV2 = {
       "accessed": "2026-05-19",
       "claimsAnchored": [
         "Source carried forward for David Vilaysing's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://tigermedianet.com/?p=89367",
+      "title": "Tiger Media Network / Tigermedianet",
+      "publisher": "Tigermedianet",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Water.",
+        "The most consistent city-policy themes are water, housing, and cost discipline. Vilaysing calls the R9 water project important but not enough by itself, saying Hays needs both a se",
+        "Observed public online activity mapped to City Spending / Transparency."
+      ]
+    },
+    {
+      "id": "s-social-crossref-2",
+      "tier": "secondary",
+      "url": "https://hayspost.com/posts/87cea43b-4017-4065-a707-e19a1389beeb",
+      "title": "Hays Post / Hayspost",
+      "publisher": "Hayspost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to City Spending / Transparency.",
+        "2027 budget work session, Apr. 6, 2026: He challenged department heads to ask frontline staff for budget input because they can identify what the city does not need to do. Source: "
+      ]
+    },
+    {
+      "id": "s-social-crossref-3",
+      "tier": "secondary",
+      "url": "https://hayspost.com/posts/603fb2e8-f14d-4075-a541-c9522b43ef76",
+      "title": "Hays Post / Hayspost",
+      "publisher": "Hayspost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Law Enforcement.",
+        "Pet licensing, Feb. 14, 2026: He asked city staff to research changes to pet licensing because many pets already have owner tags or microchips, and said it could save city staff, p"
       ]
     }
   ]

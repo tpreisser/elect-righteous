@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -100,7 +100,28 @@ export const CHASE_LAPORTE_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Public web",
+          "observation": "Across the captured period the feed contains no harvestable public posts about agriculture, the Farm Bill, tariffs, rural hospitals, Medicare, Medicaid, Social Security, veterans' benefits, immigration, border enforcement, water policy, the Ogallala Aquifer, Fort Riley, Fort Hays State University, Ukraine, Israel, China, Iran, or federal spending votes.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-9"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Public web",
+          "observation": "Across the captured period the feed contains no posts about agriculture, the Farm Bill, wheat prices, rural hospitals, Medicaid, Medicare, Social Security, veterans' benefits, immigration, border enforcement, water policy, the Ogallala Aquifer, Fort Riley, Fort Hays State University, or county-level Kansas issues. The accessible public record also contains no visible corrections, replies, retractions, long-form...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-9"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        }
+      ]
     },
     {
       "id": "i-school-choice-parental-rights-in-education-6",
@@ -134,7 +155,18 @@ export const CHASE_LAPORTE_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "ontheissues.org",
+          "observation": "On national-policy subjects, the public record contains short issue lines rather than a current campaign feed. The term-limits pledge is the dated federal-policy item in the 2025-2026 record. OnTheIssues' archived 2022 campaign-site excerpts also record LaPorte writing, \"I believe in maintaining a strong National Guard presence.\" (source) The same archive records his health-care line as \"Freedom of choice for...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-marijuana-drug-policy-7"
+        }
+      ]
     }
   ],
   "whoTheyAre": "Chase LaPorte is a Republican candidate for the U.S. Senate in Kansas and a primary challenger to Roger Marshall. Public candidate biographies say he was born in Carthage, Missouri, served in the U.S. Army from 2005 to 2013, earned an associate degree from Cowley County Community College in 2017, and works as a business administrator.\n\nThe rest of his public record is thin. Ballotpedia and campaign listings tie him to Kansas, and source material also links him to the Shriners, American Legion, and Veterans of Foreign Wars. But compared with the better-known statewide candidates, LaPorte has left behind only a limited paper trail.",
@@ -2420,6 +2452,18 @@ export const CHASE_LAPORTE_V2: CandidateFullV2 = {
       "accessed": "2026-05-19",
       "claimsAnchored": [
         "Source carried forward for Chase LaPorte's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://www.ontheissues.org/Chase_LaPorte.htm",
+      "title": "ontheissues.org / Ontheissues",
+      "publisher": "Ontheissues",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Marijuana / Drug Policy.",
+        "On national-policy subjects, the public record contains short issue lines rather than a current campaign feed. The term-limits pledge is the dated federal-policy item in the 2025-2"
       ]
     }
   ]

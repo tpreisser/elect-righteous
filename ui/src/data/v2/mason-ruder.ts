@@ -1,6 +1,6 @@
-/* Auto-generated from memory/candidates/mason-ruder/v2-issues.yaml.
- * Edit the YAML source, then run:
- *   node scripts/compile-v2-yaml.mjs mason-ruder
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -64,7 +64,38 @@ export const MASON_RUDER_V2: CandidateFullV2 = {
           ]
         }
       ],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "2023 R9 update: Ruder said, \"Every day is now an R9 Ranch Day.\" Source: Hays Post, Jan. 16, 2023.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-hayspost-r9-2023"
+          ],
+          "mappedToIssueId": "i-water-r9"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "2023 candidate forum: Ruder prioritized the R9 water transfer and said Hays should focus on partnerships with business leaders, Grow Hays, and others to grow the workforce and develop housing. Source: Hays Post, Oct. 18, 2023.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-water-r9"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Facebook",
+          "observation": "I searched the candidate name with Hays, mayor, city commission, campaign, Facebook, Instagram, Twitter/X, LinkedIn, Hays Post, Hays USA, Kansas Legislature, R9 Ranch, TMP-Marian, and Hays Catholic Schools. I prioritized candidate-controlled or candidate-attributed public sources: the City of Hays commission page, Kansas Legislature testimony listings, public Hays Post reporting with direct quotes,...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-ksleg-hb2433"
+          ],
+          "mappedToIssueId": "i-water-r9"
+        }
+      ]
     },
     {
       "id": "i-housing-development-incentives",
@@ -117,7 +148,38 @@ export const MASON_RUDER_V2: CandidateFullV2 = {
           ]
         }
       ],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "2025 workforce/housing: Ruder said Hays had opened up \"every possible incentive\" for homebuilding but that the incentive process and funding timeline still made projects slow. Source: Hays Post, workforce committee coverage.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-hayspost-housing-incentives"
+          ],
+          "mappedToIssueId": "i-housing-development-incentives"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Tiger Media Network",
+          "observation": "2026 mayor transition: Ruder thanked outgoing mayor Sandy Jacobs for bringing people together \"not just to talk, but to actually move work forward through collaboration,\" and described her economic-development voice as practical and community-minded. Source: Tiger Media Network, Jan. 12, 2026.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-tigermedia-mayor-2026"
+          ],
+          "mappedToIssueId": "i-housing-development-incentives"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "2026 travel plaza: Ruder called proposed incentives for the I-70 travel plaza a good investment and cited an estimated city rate of return of almost 2,200%. Source: Hays Post, Feb. 21, 2026.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-hayspost-travel-plaza"
+          ],
+          "mappedToIssueId": "i-housing-development-incentives"
+        }
+      ]
     },
     {
       "id": "i-budget-taxes-infrastructure",
@@ -154,7 +216,38 @@ export const MASON_RUDER_V2: CandidateFullV2 = {
           ]
         }
       ],
-      "socialSignals": [],
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "2024 Catholic education fundraising: Ruder said TMP-Marian was blessed by alumni and community generosity, including donors who did not attend the school, and described carrying forward earlier generations' work as a privilege. Source: Hays Post, May 5, 2024.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-budget-taxes-infrastructure"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "2025 airport funding: Ruder said replacing a federal Essential Air Service subsidy cut would require a mill levy increase from 25 to 44 mills. Source: Hays Post, May 24, 2025.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-hayspost-eas"
+          ],
+          "mappedToIssueId": "i-budget-taxes-infrastructure"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "2025 property tax discussion: Ruder said Kansas' vacant-land valuation structure incentivizes holding land rather than building, and suggested marijuana tax revenue could offset property taxes and help sales-tax-reliant communities. Source: Hays Post, Dec. 20, 2025.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-3"
+          ],
+          "mappedToIssueId": "i-budget-taxes-infrastructure"
+        }
+      ],
       "gap": {
         "summary": "Earlier project notes and the sleuth pass misattributed an Ellis County\n1.96-mill levy increase to Ruder's city record. The corrected evidence\nshows a different picture: the Hays city budget action tied to Ruder's\ncommission role was revenue-neutral and below the prior 25-mill rate.\n",
         "evidenceIds": [
@@ -198,7 +291,38 @@ export const MASON_RUDER_V2: CandidateFullV2 = {
           ]
         }
       ],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "LinkedIn",
+          "observation": "The visible social footprint is thin. A public LinkedIn preview for Mason Ruder, CPM, shows 151 followers and 131 connections and visible liked/amplified items around R9, Northwest Kansas economic development, Kansas SBDC, childcare, housing, and mental health/community support. Full LinkedIn activity is login-gated, and no reliable public campaign website, campaign Facebook page, X/Twitter, Instagram, or...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-ksleg-hb2433"
+          ],
+          "mappedToIssueId": "i-public-health-mandates"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "Body: Ruder cast the only \"no\" vote on the city's October 2020 mask ordinance extension and voted against the original ordinance and other extensions. Hays Post quoted him saying he would wear a mask as recommended by his doctor but believed \"the decision should not be a mandate.\" Pattern: 3-2 then 3-1 then sole dissenter, consistent across the ordinance's duration.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-ksleg-hb2433"
+          ],
+          "mappedToIssueId": "i-public-health-mandates"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "UM-1 — Youth Leadership Advisory Board creation. Ruder conceived the YLAB as his FHSU capstone project; the city formalized it. Board has 7 student members from Hays High and TMP-Marian, has presented to the commission, hosted mock elections, and run mental-health and fire-explorer projects. Sources: Hays Post (https://hayspost.com/posts/e141bbcd-d4c5-4a9d-83bc-996979742cb2), City of Hays YLAB page...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-4"
+          ],
+          "mappedToIssueId": "i-public-health-mandates"
+        }
+      ]
     },
     {
       "id": "i-civic-role-public-presence",
@@ -279,7 +403,8 @@ export const MASON_RUDER_V2: CandidateFullV2 = {
       "accessed": "2026-05-20",
       "claimsAnchored": [
         "Mason Ruder appeared on the HB 2433 testimony register as a proponent on January 28, 2026",
-        "Mason Ruder appeared on the HB 2433 testimony register as a proponent on February 26, 2026"
+        "Mason Ruder appeared on the HB 2433 testimony register as a proponent on February 26, 2026",
+        "Observed public online activity mapped to Water security and the R9 Ranch project."
       ]
     },
     {
@@ -347,7 +472,8 @@ export const MASON_RUDER_V2: CandidateFullV2 = {
       "publisher": "Hays Post",
       "accessed": "2026-05-20",
       "claimsAnchored": [
-        "Ruder was quoted in 2023 saying every day is now an R9 Ranch Day"
+        "Ruder was quoted in 2023 saying every day is now an R9 Ranch Day",
+        "Observed public online activity mapped to Water security and the R9 Ranch project."
       ]
     },
     {
@@ -440,7 +566,8 @@ export const MASON_RUDER_V2: CandidateFullV2 = {
       "claimsAnchored": [
         "Ruder said the rate of return for Hays was almost 2,200 percent",
         "Ruder framed the TIF and CID package as a good investment",
-        "The travel-plaza package involved a pay-as-you-go TIF and a CID sales-tax overlay"
+        "The travel-plaza package involved a pay-as-you-go TIF and a CID sales-tax overlay",
+        "Observed public online activity mapped to Housing, workforce growth, and development incentives."
       ]
     },
     {
@@ -486,7 +613,8 @@ export const MASON_RUDER_V2: CandidateFullV2 = {
       "publisher": "Hays Post",
       "accessed": "2026-05-20",
       "claimsAnchored": [
-        "Ruder said Hays had opened every possible incentive for homebuilding, but project timelines remained slow"
+        "Ruder said Hays had opened every possible incentive for homebuilding, but project timelines remained slow",
+        "Observed public online activity mapped to Housing, workforce growth, and development incentives."
       ]
     },
     {
@@ -520,7 +648,8 @@ export const MASON_RUDER_V2: CandidateFullV2 = {
       "accessed": "2026-05-20",
       "claimsAnchored": [
         "Ruder was selected by the commission to a second one-year mayoral term",
-        "Ruder thanked Sandy Jacobs for collaborative leadership"
+        "Ruder thanked Sandy Jacobs for collaborative leadership",
+        "Observed public online activity mapped to Housing, workforce growth, and development incentives."
       ]
     },
     {
@@ -627,7 +756,8 @@ export const MASON_RUDER_V2: CandidateFullV2 = {
       "publisher": "Hays Post",
       "accessed": "2026-05-20",
       "claimsAnchored": [
-        "Ruder warned that locally replacing an Essential Air Service subsidy cut could require a major city mill-levy increase"
+        "Ruder warned that locally replacing an Essential Air Service subsidy cut could require a major city mill-levy increase",
+        "Observed public online activity mapped to City budget, taxes, and infrastructure tradeoffs."
       ]
     },
     {
@@ -674,6 +804,54 @@ export const MASON_RUDER_V2: CandidateFullV2 = {
         "Ruder was the top vote-getter in the 2023 Hays City Commission race",
         "Ruder received 2,199 votes, or 31.32 percent",
         "Ruder said city decisions affect residents almost immediately"
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://hayspost.com/posts/686c41a0-31e3-415a-8fdf-3df810e7f5be",
+      "title": "Hays Post / Hayspost",
+      "publisher": "Hayspost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Water security and the R9 Ranch project.",
+        "2023 candidate forum: Ruder prioritized the R9 water transfer and said Hays should focus on partnerships with business leaders, Grow Hays, and others to grow the workforce and deve"
+      ]
+    },
+    {
+      "id": "s-social-crossref-2",
+      "tier": "secondary",
+      "url": "https://hayspost.com/posts/46c0cb3c-bd1a-435f-9d5a-598963fe942a",
+      "title": "Hays Post / Hayspost",
+      "publisher": "Hayspost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to City budget, taxes, and infrastructure tradeoffs.",
+        "2024 Catholic education fundraising: Ruder said TMP-Marian was blessed by alumni and community generosity, including donors who did not attend the school, and described carrying fo"
+      ]
+    },
+    {
+      "id": "s-social-crossref-3",
+      "tier": "secondary",
+      "url": "https://hayspost.com/posts/31a9d9f8-0883-480f-aada-22ac084f09b9",
+      "title": "Hays Post / Hayspost",
+      "publisher": "Hayspost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to City budget, taxes, and infrastructure tradeoffs.",
+        "2025 property tax discussion: Ruder said Kansas' vacant-land valuation structure incentivizes holding land rather than building, and suggested marijuana tax revenue could offset pr"
+      ]
+    },
+    {
+      "id": "s-social-crossref-4",
+      "tier": "secondary",
+      "url": "https://hayspost.com/posts/e141bbcd-d4c5-4a9d-83bc-996979742cb2",
+      "title": "Hays Post / Hayspost",
+      "publisher": "Hayspost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to COVID-era public health mandates.",
+        "UM-1 — Youth Leadership Advisory Board creation. Ruder conceived the YLAB as his FHSU capstone project; the city formalized it. Board has 7 student members from Hays High and TMP-M"
       ]
     }
   ]

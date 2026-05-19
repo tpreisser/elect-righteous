@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -31,7 +31,38 @@ export const DEREK_YARMER_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Public web",
+          "observation": "Derek Yarmer's accessible public messaging is not centered on a campaign website or active campaign social accounts. The usable record is primarily attributed local-news questionnaires and quotes, a published written statement, USD 489 board coverage and meeting materials, and professional medical profiles. The current candidate data's campaignWebsite value was not used because I did not verify a current official...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-122"
+          ],
+          "mappedToIssueId": "i-bond-and-capital-spending-1"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "In a 2021 application letter published by Hays Post, Yarmer wrote that educating children is \"one of the most important responsibilities we have as parents\" and said he wanted to be active in the education of his daughters and other students in the district. He also presented his medical background as directly relevant to pandemic-era school decisions, saying his \"front-line healthcare\" experience and access to...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-122"
+          ],
+          "mappedToIssueId": "i-bond-and-capital-spending-1"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Public web",
+          "observation": "The same letter cited his post-secondary and medical training as a different perspective for the board and said his construction-industry experience could help with infrastructure decisions.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-122"
+          ],
+          "mappedToIssueId": "i-bond-and-capital-spending-1"
+        }
+      ]
     }
   ],
   "whoTheyAre": "Derek Yarmer is a USD 489 school board member and an emergency medicine physician at HaysMed. Public biographical material says he grew up in Albert, attended Otis-Bison schools, earned a chemistry degree from Fort Hays State University, graduated from the University of Kansas School of Medicine, and completed an emergency medicine residency through UMKC. He and his wife Emily moved back to Hays in 2015 and have three children in district schools.\n\nThat medical background makes Yarmer unusual on a local school board. He arrived with a professional life built around evidence, crisis decision-making, and large institutional systems, and that perspective shows in the way he talks about district spending, board oversight, and the need to separate urgent problems from routine business.",
@@ -65,7 +96,8 @@ export const DEREK_YARMER_V2: CandidateFullV2 = {
       "publisher": "usd489.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Derek Yarmer's generated v2 profile."
+        "Source carried forward for Derek Yarmer's generated v2 profile.",
+        "Observed public online activity mapped to Bond and Capital Spending."
       ]
     },
     {

@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -34,7 +34,28 @@ export const ERIK_MURRAY_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "YouTube",
+          "observation": "Across the captured YouTube and campaign-update period, the feed contains no posts about abortion, immigration, guns, religious liberty, Fort Riley, Fort Hays State University, the Ogallala Aquifer, or water policy. The captured feed includes two items that mention farms or rural hospitals and does not include a farm-policy plan.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-9"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Public web",
+          "observation": "Across the captured period the feed contains no posts about abortion, immigration, guns, religious liberty, Fort Riley, Fort Hays State University, the Ogallala Aquifer, or water policy (harvest). The captured feed includes two items that mention farms or rural hospitals, but it does not include a farm-policy plan (harvest).",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-9"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        }
+      ]
     },
     {
       "id": "i-marriage-family-lgbtq-policy-2",
@@ -102,7 +123,18 @@ export const ERIK_MURRAY_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "erikforkansas.com",
+          "observation": "\"For decades, Wyandotte County has been treated as a corridor to drive through, not a community to invest in, with highways like 635 carving through neighborhoods such as Quindaro while Wall Street and Topeka looked the other way.\" (source)",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        }
+      ]
     }
   ],
   "whoTheyAre": "Erik Murray is a Kansas City, Kansas, developer and entrepreneur running for the Democratic nomination for U.S. Senate in 2026. He was born at KU Med, grew up in Kansas City, Kansas, and has described himself as a local candidate returning home after years in California business and investment work.\n\nMurray's public identity is tied most strongly to development. The centerpiece is the proposed redevelopment of the former Indian Springs Mall site in Wyandotte County, a large mixed-use plan that has been described in public reporting as a billion-dollar effort built around housing, retail, childcare, job training, transit access, and other community uses.\n\nHe has never held elected office. His case for office is that a developer who has worked with lenders, investors, and local governments can better connect federal policy to neighborhood outcomes, especially for small businesses and distressed communities.",
@@ -2121,6 +2153,18 @@ export const ERIK_MURRAY_V2: CandidateFullV2 = {
       "accessed": "2026-05-19",
       "claimsAnchored": [
         "Source carried forward for Erik Murray's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://erikforkansas.com/news/chiefs",
+      "title": "erikforkansas.com / Erikforkansas",
+      "publisher": "Erikforkansas",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Immigration / Border.",
+        "\"For decades, Wyandotte County has been treated as a corridor to drive through, not a community to invest in, with highways like 635 carving through neighborhoods such as Quindaro "
       ]
     }
   ]

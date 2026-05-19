@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -31,7 +31,38 @@ export const SANDY_JACOBS_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Public web",
+          "observation": "I coded 18 accessible candidate-controlled or candidate-attributed items. Categories are non-exclusive because one interview answer or meeting quote often covered water, budget, and development together.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-71"
+          ],
+          "mappedToIssueId": "i-water-1"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "\"We've asked for less water than is allowed by the state, and that is huge.\" Source: Hays Post Q&A, Oct. 22, 2025.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-98"
+          ],
+          "mappedToIssueId": "i-water-1"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "Hays Post: New city water rebates more inclusive",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-water-1"
+        }
+      ]
     },
     {
       "id": "i-taxes-budgeting-2",
@@ -46,7 +77,38 @@ export const SANDY_JACOBS_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "\"My first goal, other than maintaining taxes, would be retail development.\" Source: Hays Post Q&A, Oct. 22, 2025.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-98"
+          ],
+          "mappedToIssueId": "i-taxes-budgeting-2"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "Hays Post Archive: Foundation announces results of Twice as Nice fundraising program",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-taxes-budgeting-2"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "Hays Post: Planned travel plaza and 2027 draft budget",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-3"
+          ],
+          "mappedToIssueId": "i-taxes-budgeting-2"
+        }
+      ]
     },
     {
       "id": "i-retail-and-economic-development-3",
@@ -62,7 +124,38 @@ export const SANDY_JACOBS_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "\"Retail is really high on my list, and the workforce needs some attention.\" Source: Hays Post, Nov. 6, 2025.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-109"
+          ],
+          "mappedToIssueId": "i-retail-and-economic-development-3"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "The dominant theme is long-term stewardship of Hays. In her 2025 Hays Post Q&A, Jacobs framed the race around finishing city work already underway, especially the R9 water project. She said she had served eight years and that her \"passion continues to be for this city as a native,\" then described a commission that does not always agree but finds common solutions. In the coded harvest, economic development,...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-71"
+          ],
+          "mappedToIssueId": "i-retail-and-economic-development-3"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "Her economic-development message is practical and city-budget centered. Jacobs talks about retail not as culture-war identity or partisan branding, but as a sales-tax base and quality-of-life issue. In the 2025 Q&A, she said her first goal beyond maintaining taxes would be retail development and that Grow Hays was focused on it because the general fund depends on sales tax. After winning re-election, she told...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-109"
+          ],
+          "mappedToIssueId": "i-retail-and-economic-development-3"
+        }
+      ]
     },
     {
       "id": "i-covid-mask-mandate-4",
@@ -1175,7 +1268,9 @@ export const SANDY_JACOBS_V2: CandidateFullV2 = {
       "publisher": "hayspost.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Sandy Jacobs's generated v2 profile."
+        "Source carried forward for Sandy Jacobs's generated v2 profile.",
+        "Observed public online activity mapped to Taxes / Budgeting.",
+        "Observed public online activity mapped to Water."
       ]
     },
     {
@@ -1296,7 +1391,8 @@ export const SANDY_JACOBS_V2: CandidateFullV2 = {
       "publisher": "hayspost.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Sandy Jacobs's generated v2 profile."
+        "Source carried forward for Sandy Jacobs's generated v2 profile.",
+        "Observed public online activity mapped to Retail and Economic Development."
       ]
     },
     {
@@ -2782,6 +2878,42 @@ export const SANDY_JACOBS_V2: CandidateFullV2 = {
       "accessed": "2026-05-19",
       "claimsAnchored": [
         "Source carried forward for Sandy Jacobs's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://hayspost.com/posts/5e5871c7b0e3671763224d5c",
+      "title": "Hays Post / Hayspost",
+      "publisher": "Hayspost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Water.",
+        "Hays Post: New city water rebates more inclusive"
+      ]
+    },
+    {
+      "id": "s-social-crossref-2",
+      "tier": "secondary",
+      "url": "https://archive.hayspost.com/2017/03/21/foundation-announces-results-of-twice-as-nice-fundraising-program/",
+      "title": "Hays Post / Archive.Hayspost",
+      "publisher": "Archive.Hayspost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Taxes / Budgeting.",
+        "Hays Post Archive: Foundation announces results of Twice as Nice fundraising program"
+      ]
+    },
+    {
+      "id": "s-social-crossref-3",
+      "tier": "secondary",
+      "url": "https://hayspost.com/posts/87cea43b-4017-4065-a707-e19a1389beeb",
+      "title": "Hays Post / Hayspost",
+      "publisher": "Hayspost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Taxes / Budgeting.",
+        "Hays Post: Planned travel plaza and 2027 draft budget"
       ]
     }
   ]

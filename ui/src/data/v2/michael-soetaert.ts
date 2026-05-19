@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -32,7 +32,38 @@ export const MICHAEL_SOETAERT_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "mikeforkansas.my.canva.site",
+          "observation": "The campaign site metadata describes Soetaert this way: \"Michael Soetaert PROGRESSIVE DEMOCRAT for U.S. Senate respecting reproductive rights. He's also a GAY LGBTQIAP2S+ activist advocate & ally for the Equality Act.\"",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-33"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "YouTube",
+          "observation": "The campaign site issue tiles link to YouTube videos or clips labeled reproductive rights, affordability, voting rights, Department of Peace, LGBTQIAP2S+ equality, campaign finance reform, and impeachment/ICE/BP/DHS.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-9"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Bluesky",
+          "observation": "Bluesky profile metadata as captured on 2026-05-11 listed the display name \"Michael Soetaert for United States Senate 2026 KS\" and the handle michaelsoetaert.bsky.social. The public JSON-LD showed 22,749 followers, 2,380 following, and 235 writes/posts. The profile description listed tags for U.S. Senate, LGBTQIAP2S+, Equality Act, Kansas, peace, SOGI, DEIA, women's rights, ERA, reproductive freedom, vote.gov,...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        }
+      ]
     },
     {
       "id": "i-marriage-family-lgbtq-policy-2",
@@ -48,7 +79,38 @@ export const MICHAEL_SOETAERT_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Instagram",
+          "observation": "The same Instagram metadata included this profile text: \"#PROGRESSIVE #DEMOCRAT for United States Senate #KANSAS #GAY #LGBTQIAP2S+ #ReproductiveFreedom #WomensRights #ERA\"",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-marriage-family-lgbtq-policy-2"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Threads",
+          "observation": "Threads profile metadata as captured on 2026-05-11 said: \"3 Followers - 225 Threads - #PROGRESSIVE #DEMOCRAT for United States Senate #KANSAS #GAY #LGBTQIAP2S+ #ReproductiveFreedom. See the latest conversations with @michael.soetaert1.\"",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-3"
+          ],
+          "mappedToIssueId": "i-marriage-family-lgbtq-policy-2"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Instagram",
+          "observation": "Michael Soetaert's current public campaign record presents a small-dollar, platform-heavy Senate campaign whose clearest repeated themes are reproductive rights, LGBTQIAP2S+ equality, voting, affordability, campaign finance, and peace. His campaign site describes him as \"Michael Soetaert PROGRESSIVE DEMOCRAT for U.S. Senate respecting reproductive rights. He's also a GAY LGBTQIAP2S+ activist advocate & ally for...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-33"
+          ],
+          "mappedToIssueId": "i-marriage-family-lgbtq-policy-2"
+        }
+      ]
     },
     {
       "id": "i-religious-liberty-3",
@@ -99,7 +161,28 @@ export const MICHAEL_SOETAERT_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "YouTube",
+          "observation": "The issue labels repeated across the campaign site and YouTube were reproductive rights, affordability, voting rights, peace, LGBTQIAP2S+ equality, campaign finance reform, and impeachment/ICE/BP/DHS. The Kansas-local YouTube labels were Wellington, Johnson and Sumner, affordability/safety, World Wheat Capital, and America's Breadbasket.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-9"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "YouTube",
+          "observation": "The campaign site labels included reproductive rights, affordability, voting rights, Department of Peace, LGBTQIAP2S+ equality, campaign finance reform, and impeachment/ICE/BP/DHS, while YouTube titles included \"Michael Soetaert for United States Senate representing Kansas CITIZENS UNITED michael-soetaert\", \"Michael Soetaert for United States Senate representing Kansas AFFORDABILITY SAFETY michael-soetaert\", and...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-4"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        }
+      ]
     }
   ],
   "whoTheyAre": "Michael Soetaert is a Wellington-based Democratic candidate for the U.S. Senate. He grew up in Spring Hill, lives in south-central Kansas, and has built an unusual political biography that includes work in local government, repeated runs for office, and a very public ideological shift from Republican politics to the Democratic field.\n\nHis candidacy is historically notable because he is the first openly gay person to run for the Kansas Senate seat. At the same time, he is running a visibly lean campaign. His public web presence centers on a free Canva campaign site and an ActBlue page rather than a polished statewide operation.\n\nSoetaert's personal story is unusually public in some places and thin in others. Public sources say he was adopted into a Roman Catholic family and now identifies as Christian, but they do not identify a current church. His background matters because much of his campaign message is framed as a story of political and personal change rather than a long record of officeholding.",
@@ -481,7 +564,9 @@ export const MICHAEL_SOETAERT_V2: CandidateFullV2 = {
       "publisher": "mikeforkansas.my.canva.site",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Michael Soetaert's generated v2 profile."
+        "Source carried forward for Michael Soetaert's generated v2 profile.",
+        "Observed public online activity mapped to Marriage & Family / LGBTQ+ Policy.",
+        "Observed public online activity mapped to Abortion / Sanctity of Life."
       ]
     },
     {
@@ -2385,6 +2470,54 @@ export const MICHAEL_SOETAERT_V2: CandidateFullV2 = {
       "accessed": "2026-05-19",
       "claimsAnchored": [
         "Source carried forward for Michael Soetaert's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "social",
+      "url": "https://bsky.app/profile/michaelsoetaert.bsky.social",
+      "title": "Bluesky / Bsky",
+      "publisher": "Bsky",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Abortion / Sanctity of Life.",
+        "Bluesky profile metadata as captured on 2026-05-11 listed the display name \"Michael Soetaert for United States Senate 2026 KS\" and the handle michaelsoetaert.bsky.social. The publi"
+      ]
+    },
+    {
+      "id": "s-social-crossref-2",
+      "tier": "social",
+      "url": "https://www.instagram.com/michael.soetaert1/",
+      "title": "Instagram / Instagram",
+      "publisher": "Instagram",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Marriage & Family / LGBTQ+ Policy.",
+        "The same Instagram metadata included this profile text: \"#PROGRESSIVE #DEMOCRAT for United States Senate #KANSAS #GAY #LGBTQIAP2S+ #ReproductiveFreedom #WomensRights #ERA\""
+      ]
+    },
+    {
+      "id": "s-social-crossref-3",
+      "tier": "secondary",
+      "url": "https://www.threads.com/@michael.soetaert1",
+      "title": "Threads / Threads",
+      "publisher": "Threads",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Marriage & Family / LGBTQ+ Policy.",
+        "Threads profile metadata as captured on 2026-05-11 said: \"3 Followers - 225 Threads - #PROGRESSIVE #DEMOCRAT for United States Senate #KANSAS #GAY #LGBTQIAP2S+ #ReproductiveFreedom"
+      ]
+    },
+    {
+      "id": "s-social-crossref-4",
+      "tier": "social",
+      "url": "https://www.youtube.com/watch?v=FvgZQTEDBac",
+      "title": "YouTube / Youtube",
+      "publisher": "Youtube",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Immigration / Border.",
+        "The campaign site labels included reproductive rights, affordability, voting rights, Department of Peace, LGBTQIAP2S+ equality, campaign finance reform, and impeachment/ICE/BP/DHS,"
       ]
     }
   ]

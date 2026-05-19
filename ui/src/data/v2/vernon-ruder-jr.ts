@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -33,7 +33,38 @@ export const VERNON_RUDER_JR_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "2020 candidate profile: Ruder said he ran after noticing turnover and spending issues in the treasurer's office and said he could decrease spending and increase efficiencies. Source: Hays Post, July 31, 2020.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-53"
+          ],
+          "mappedToIssueId": "i-property-taxes-1"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "2020 landfill/management pitch: Ruder said he ran the landfill like his own money and said he knew he could decrease spending by thousands in the treasurer department. Source: Hays Post, July 31, 2020.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-53"
+          ],
+          "mappedToIssueId": "i-property-taxes-1"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "2020 efficiency ideas: Ruder proposed a kiosk for after-hours tag and tax payments and an app to tell visitors office wait times. Source: Hays Post, July 31, 2020.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-53"
+          ],
+          "mappedToIssueId": "i-property-taxes-1"
+        }
+      ]
     },
     {
       "id": "i-government-efficiency-2",
@@ -50,7 +81,38 @@ export const VERNON_RUDER_JR_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "2020 signed letter: Ruder said he was running to ensure sound investments of taxpayer money, decrease spending, restore trust and professionalism, increase efficiency, work full time, and improve accuracy/ease of transactions without increased taxpayer cost. Source: Hays Post, Oct. 13, 2020.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-government-efficiency-2"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "His central message is efficiency. In his 2020 candidate profile, Ruder said he entered the treasurer race after seeing turnover and spending issues in the office, and said he could decrease spending and increase efficiencies. He tied that pitch to his landfill-management experience, saying he ran that operation like his own money and knew he could reduce spending by thousands in the treasurer department. Source:...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-53"
+          ],
+          "mappedToIssueId": "i-government-efficiency-2"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "Ruder's own 2020 letter adds the biography behind that message. He described growing up in Hays, raising his family there, graduating from Thomas More Prep and NCK-Tech, working as a financial advisor, spending 25 years with Pepsi, and managing a multi-state E.A. Sween territory before joining Ellis County in 2017. He framed himself as a lifelong conservative bringing \"30+ years of Private Sector knowledge\" to...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-government-efficiency-2"
+        }
+      ]
     },
     {
       "id": "i-sales-tax-3",
@@ -65,7 +127,38 @@ export const VERNON_RUDER_JR_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "2023 tax-burden framing: Ruder said motor-vehicle operations should be funded with motor-vehicle money and estimated the added fee would generate more than $50,000 while helping reduce the treasury budget from $452,000 in 2022 to $367,000 in 2023. Source: Hays Post, Nov. 20, 2023.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-54"
+          ],
+          "mappedToIssueId": "i-sales-tax-3"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "I searched Vernon Ruder Jr., Vern Ruder, Vote Ruder for Treasurer, voteruderfortreasurer@gmail.com, Ellis County Treasurer, Ellis County Treasury, Ellis County election results, Hays Post, Facebook, LinkedIn, X/Twitter, Instagram, YouTube, campaign website, candidate filings, county budget book, county commission, motor vehicle fee, QLess, TMP-Marian, and Hays Middle School. I prioritized official county pages,...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-5"
+          ],
+          "mappedToIssueId": "i-sales-tax-3"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "Hays Post - Motor vehicle fees and treasurer budget, Nov. 20, 2023",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-54"
+          ],
+          "mappedToIssueId": "i-sales-tax-3"
+        }
+      ]
     }
   ],
   "whoTheyAre": "Vernon Ruder Jr. is the Ellis County treasurer, a county official whose public work centers on taxes, motor-vehicle transactions, and the day-to-day administrative functions that most voters notice only when something changes. Before serving as treasurer, public records tie him to finance, operations, and work connected to local government and business administration in Hays.\n\nHe is also part of a well-known Hays family network. He is married to school board member Ruth Ruder, and his family name is also tied to Hays Mayor Mason Ruder. Public records point strongly to a Catholic family and school background in Hays, but they do not clearly identify a current parish membership for Vernon Ruder Jr. himself.",
@@ -672,7 +765,10 @@ export const VERNON_RUDER_JR_V2: CandidateFullV2 = {
       "publisher": "hayspost.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Vernon Ruder Jr.'s generated v2 profile."
+        "Source carried forward for Vernon Ruder Jr.'s generated v2 profile.",
+        "Observed public online activity mapped to Government Efficiency.",
+        "Observed public online activity mapped to Sales Tax.",
+        "Observed public online activity mapped to Property Taxes."
       ]
     },
     {
@@ -683,7 +779,8 @@ export const VERNON_RUDER_JR_V2: CandidateFullV2 = {
       "publisher": "hayspost.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Vernon Ruder Jr.'s generated v2 profile."
+        "Source carried forward for Vernon Ruder Jr.'s generated v2 profile.",
+        "Observed public online activity mapped to Sales Tax."
       ]
     },
     {
@@ -716,7 +813,9 @@ export const VERNON_RUDER_JR_V2: CandidateFullV2 = {
       "publisher": "ellisco.net",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Vernon Ruder Jr.'s generated v2 profile."
+        "Source carried forward for Vernon Ruder Jr.'s generated v2 profile.",
+        "Observed public online activity mapped to Property Taxes.",
+        "Observed public online activity mapped to Sales Tax."
       ]
     },
     {
@@ -3203,6 +3302,18 @@ export const VERNON_RUDER_JR_V2: CandidateFullV2 = {
       "accessed": "2026-05-19",
       "claimsAnchored": [
         "Source carried forward for Vernon Ruder Jr.'s generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://hayspost.com/posts/3a069c69-9317-434a-8454-26da7a61d342",
+      "title": "Hays Post / Hayspost",
+      "publisher": "Hayspost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Government Efficiency.",
+        "2020 signed letter: Ruder said he was running to ensure sound investments of taxpayer money, decrease spending, restore trust and professionalism, increase efficiency, work full ti"
       ]
     }
   ]

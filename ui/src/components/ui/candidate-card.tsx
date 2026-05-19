@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { Briefcase, ArrowRight } from "lucide-react";
-import Badge from "./badge";
 
 interface CandidateCardProps {
   name: string;
@@ -33,62 +32,88 @@ export default function CandidateCard({
       : "Independent";
 
   return (
-    <article className={`card group ${className}`}>
-      <div className="p-6 flex flex-col h-full">
-        {/* Party + Incumbent */}
-        <div className="flex items-center gap-2 flex-wrap mb-3">
+    <article className={`card group h-full ${className}`}>
+      <div className="flex min-h-[17.5rem] h-full flex-col p-5 sm:p-6">
+        <div className="mb-3 flex min-h-6 items-center gap-2">
           <span
-            className="text-xs font-heading font-semibold tracking-wide"
-            style={{ color: "var(--color-slate)" }}
+            className="inline-flex max-w-full items-center rounded px-2 py-1 text-[0.68rem] font-heading font-bold uppercase tracking-wider"
+            style={{ backgroundColor: "rgba(16, 64, 93, 0.07)", color: "var(--color-navy)" }}
           >
             {partyLabel}
-            {incumbent && (
-              <span
-                className="ml-2 font-normal"
-                style={{ color: "var(--color-teal-dark)" }}
-              >
-                &middot; Currently in Office
-              </span>
-            )}
           </span>
+          {incumbent && (
+            <span
+              className="inline-flex items-center rounded px-2 py-1 text-[0.68rem] font-heading font-bold uppercase tracking-wider"
+              style={{ backgroundColor: "rgba(28, 195, 175, 0.10)", color: "var(--color-teal-dark)" }}
+            >
+              In office
+            </span>
+          )}
         </div>
 
-        {/* Name */}
-        <h3 className="font-heading font-bold text-navy text-xl leading-tight mb-1 group-hover:text-teal transition-colors duration-200">
+        <h3
+          className="mb-2 min-h-[3.25rem] font-heading font-bold text-navy text-xl leading-tight transition-colors duration-200 group-hover:text-teal"
+          style={{
+            display: "-webkit-box",
+            WebkitLineClamp: 2,
+            WebkitBoxOrient: "vertical",
+            overflow: "hidden",
+          }}
+        >
           {name}
         </h3>
 
-        {/* Position */}
         <p
-          className="text-sm font-semibold uppercase tracking-wide mb-3"
-          style={{ color: "var(--color-teal-dark)" }}
+          className="mb-3 min-h-[2.25rem] text-sm font-semibold uppercase tracking-wide leading-snug"
+          style={{
+            color: "var(--color-teal-dark)",
+            display: "-webkit-box",
+            WebkitLineClamp: 2,
+            WebkitBoxOrient: "vertical",
+            overflow: "hidden",
+          }}
         >
           {position}
         </p>
 
-        {/* Occupation */}
         <div
-          className="flex items-center gap-2 text-sm mb-4"
+          className="mb-5 flex min-h-[2.75rem] items-start gap-2 text-sm leading-snug"
           style={{ color: "var(--color-slate)" }}
         >
-          <Briefcase size={14} className="shrink-0 opacity-60" aria-hidden="true" />
-          <span>{occupation}</span>
+          <Briefcase size={14} className="mt-0.5 shrink-0 opacity-60" aria-hidden="true" />
+          <span
+            style={{
+              display: "-webkit-box",
+              WebkitLineClamp: 2,
+              WebkitBoxOrient: "vertical",
+              overflow: "hidden",
+            }}
+          >
+            {occupation || "Public office / campaign profile"}
+          </span>
         </div>
 
-        {/* One-sentence description */}
-        {oneSentence && (
+        {oneSentence ? (
           <p
-            className="text-sm leading-relaxed mb-5 flex-1"
-            style={{ color: "var(--color-charcoal)", fontFamily: "var(--font-serif)" }}
+            className="mb-5 flex-1 text-sm leading-relaxed"
+            style={{
+              color: "var(--color-charcoal)",
+              fontFamily: "var(--font-serif)",
+              display: "-webkit-box",
+              WebkitLineClamp: 4,
+              WebkitBoxOrient: "vertical",
+              overflow: "hidden",
+            }}
           >
             {oneSentence}
           </p>
+        ) : (
+          <div className="flex-1" />
         )}
 
-        {/* CTA */}
         <Link
           href={`/candidates/${slug}`}
-          className="btn-primary inline-flex items-center justify-center gap-2 text-sm mt-auto"
+          className="btn-primary mt-auto inline-flex min-h-11 items-center justify-center gap-2 px-4 text-sm"
           aria-label={`View full dossier for ${name}`}
         >
           Read More

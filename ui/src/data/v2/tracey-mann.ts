@@ -1,6 +1,6 @@
-/* Auto-generated from memory/candidates/tracey-mann/v2-issues.yaml.
- * Edit the YAML source, then run:
- *   node scripts/compile-v2-yaml.mjs tracey-mann
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -81,7 +81,38 @@ export const TRACEY_MANN_V2: CandidateFullV2 = {
           ]
         }
       ],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Public web",
+          "observation": "Mann was recognized as the National Association of Wheat Growers (NAWG) \"Wheat Leader of the Year\" at the Kansas Commodity Classic in Salina on 2026-01-30. He used the platform to recap 2025 accomplishments and Farm Bill progress.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-x-mann-townhalls-2024"
+          ],
+          "mappedToIssueId": "i-agriculture-food-coalitions"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Public web",
+          "observation": "Issue-mapping rationale: The stepped-up basis quote → Agriculture IssueCard. The $34T debt quote → Federal Spending / Appropriations IssueCard. The immigration framing → Immigration IssueCard.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-x-mann-townhalls-2024"
+          ],
+          "mappedToIssueId": "i-agriculture-food-coalitions"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Public web",
+          "observation": "Issue-mapping rationale: The DOGE quote → Federal Spending / Government Reform IssueCard. The Ogallala/water quote → an issue card the v1 entry currently lacks but should likely add (water policy in KS-01) — flag for narrative-writer in stage 2.c.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-x-mann-townhalls-2024"
+          ],
+          "mappedToIssueId": "i-agriculture-food-coalitions"
+        }
+      ]
     },
     {
       "id": "i-healthcare-medicaid",
@@ -112,7 +143,38 @@ export const TRACEY_MANN_V2: CandidateFullV2 = {
           ]
         }
       ],
-      "socialSignals": [],
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Public web",
+          "observation": "In May 2025, before the House vote, Mann told KSNT-TV (Topeka): \"I strongly believe we must strengthen Medicaid to protect benefits for the thousands of vulnerable Kansans who rely on it.\" On 2025-05-22 he voted YES on the One Big Beautiful Bill Act, which passed the House 215-214. The Alliance for a Healthy Kansas estimates Kansas hospitals would lose up to $2.65 billion over 10 years and Kansas would lose...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-x-mann-townhalls-2024"
+          ],
+          "mappedToIssueId": "i-healthcare-medicaid"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Public web",
+          "observation": "Observation 2.B — Colby town hall, 2026-02-19, exchange on Medicare/Social Security.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-x-mann-townhalls-2024"
+          ],
+          "mappedToIssueId": "i-healthcare-medicaid"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "substack",
+          "observation": "At the Feb 19, 2025 Colby, KS town hall (per Indivisible MHK substack transcript), a constituent raised concerns about potential Medicare/Social Security cuts. Mann's verbatim response: \"There are no cuts being discussed in any meeting I've been a part of. President Trump has made it very clear that those programs are off the table.\"",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-x-mann-townhalls-2024"
+          ],
+          "mappedToIssueId": "i-healthcare-medicaid"
+        }
+      ],
       "gap": {
         "summary": "Readers can compare Mann's pre-vote assurance that proposed Medicaid\nchanges were not cuts with his later yea vote on H.R. 1 and his own\npost-vote statement saying Medicaid and SNAP had been expanded beyond\ntheir initial intent. The page should present both statements without\ndeciding whether the change is a contradiction, a narrower definition\nof cuts, or consistent eligibility-policy framing.\n",
         "evidenceIds": [
@@ -145,7 +207,38 @@ export const TRACEY_MANN_V2: CandidateFullV2 = {
           ]
         }
       ],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Facebook",
+          "observation": "The v1 entry is the most complete of any candidate. My pass focuses on observable behaviors NOT captured there: caucus/affiliation memberships, bipartisan co-leadership, specific exchanges at the Colby and Hays town halls, his own stated rationale for the ROTOR Act vote (the existing entry says \"Mann has not offered detailed public comment on the vote\" — that gap can now be closed), recent press-release co-led...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-x-mann-townhalls-2024"
+          ],
+          "mappedToIssueId": "i-aviation-rotor-act"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Public web",
+          "observation": "Observation 3.A — Voted NO on ROTOR Act 2026-02-24; House vote 264-133, fell one vote short of needed threshold.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-x-mann-townhalls-2024"
+          ],
+          "mappedToIssueId": "i-aviation-rotor-act"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Kansas Reflector",
+          "observation": "Per the Kansas Reflector / Lawrence Journal-World coverage of the vote, Mann stated that while he appreciates the intent behind the ROTOR Act, \"it was drafted prior to the release of the National Transportation Safety Board's investigation and recommendations.\" He also noted \"the legislation did not move through the normal Transportation and Infrastructure Committee process, where complex aviation policy is...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-x-mann-townhalls-2024"
+          ],
+          "mappedToIssueId": "i-aviation-rotor-act"
+        }
+      ]
     },
     {
       "id": "i-immigration-border-labor",
@@ -175,7 +268,38 @@ export const TRACEY_MANN_V2: CandidateFullV2 = {
           ]
         }
       ],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "KAKE",
+          "observation": "Engagement metrics on individual posts (the 10/14/25 border-security FB post: 2,900 reactions / 343 comments / 79 shares; 6/20/25 KAKE Iran-strike repost: visible dissent)",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-x-mann-townhalls-2024"
+          ],
+          "mappedToIssueId": "i-immigration-border-labor"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Public web",
+          "observation": "Mann's documented topics at the Hays event: stepped-up basis tax provision for farms (\"I have taken the lead in Congress in fighting the fight to maintain the stepped-up basis\"), $34 trillion national debt (\"We cannot continue to spend money like we are federally and think that we're not going to reap the consequences\"), and immigration/border (\"makes no sense at all\").",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-x-mann-townhalls-2024"
+          ],
+          "mappedToIssueId": "i-immigration-border-labor"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "U.S. Rep. Mann's addresses immigration, national debt in Hays (Hays Post) — accessed 2026-05-20",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-hayspost-townhall-2024"
+          ],
+          "mappedToIssueId": "i-immigration-border-labor"
+        }
+      ]
     },
     {
       "id": "i-election-certification-jan6",
@@ -550,7 +674,8 @@ export const TRACEY_MANN_V2: CandidateFullV2 = {
       "accessed": "2026-05-20",
       "claimsAnchored": [
         "Mann held a Hays town hall at Hays Public Library on July 2, 2024",
-        "Mann gave direct quotes on stepped-up basis, national debt, immigration, and border security"
+        "Mann gave direct quotes on stepped-up basis, national debt, immigration, and border security",
+        "Observed public online activity mapped to Immigration, border security, and agricultural labor."
       ]
     },
     {

@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -49,7 +49,18 @@ export const ANNE_PARELKAR_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Bluesky",
+          "observation": "Approximate Bluesky topic distribution among the 51 cataloged originals: local outreach and public access — 22 posts (43%); government accountability, unity, campaign finance, and party independence — 10 posts (20%); health care, labor, child care, consumer costs, agriculture, and veterans — 8 posts (16%); immigration, LGBTQ policy, voting, and civil rights — 6 posts (12%); foreign policy, war, Russia, Iran, and...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-9"
+          ],
+          "mappedToIssueId": "i-marriage-family-lgbtq-policy-2"
+        }
+      ]
     },
     {
       "id": "i-religious-liberty-3",
@@ -66,7 +77,18 @@ export const ANNE_PARELKAR_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Public web",
+          "observation": "Thought I'd share this clip from one of our upcoming podcasts where I talk about my faith and a conversation I had recently about that very same message.\"",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-9"
+          ],
+          "mappedToIssueId": "i-religious-liberty-3"
+        }
+      ]
     },
     {
       "id": "i-guns-second-amendment-4",
@@ -83,7 +105,28 @@ export const ANNE_PARELKAR_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Bluesky",
+          "observation": "Across the captured period the Bluesky feed contains no standalone posts centered on gun policy.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-9"
+          ],
+          "mappedToIssueId": "i-guns-second-amendment-4"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Bluesky",
+          "observation": "Across the captured period the feed contains no standalone posts centered on gun policy, Fort Riley, or water policy including the Ogallala Aquifer. The captured Bluesky feed contains one agriculture post and a linked campaign agriculture plank, but no detailed Farm Bill post. Veterans appear in a Veterans Day post, \"Our Veterans served us selflessly. Now it's our turn to serve them\" (source), but the captured...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-guns-second-amendment-4"
+        }
+      ]
     },
     {
       "id": "i-immigration-border-5",
@@ -100,7 +143,38 @@ export const ANNE_PARELKAR_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "YouTube",
+          "observation": "2026-02-17 — \"Last weekend we took our roundtable tour to #Lawrence! I had a lovely time meeting everyone, and on Saturday morning I joined #WomenForKansas to give a presentation on #immigration law, which is now up on YouTube so please check it out! www.youtube.com/watch?v=6TLY...\"",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-9"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Kansas Reflector",
+          "observation": "Source: Kansas Reflector, \"Democratic immigration lawyer wants to fix broken system with run for U.S. Senate in Kansas\" — https://kansasreflector.com/2025/08/25/democratic-immigration-lawyer-wants-to-fix-broken-system-with-run-for-u-s-senate-in-kansas/",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-23"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Bluesky",
+          "observation": "She also posted appearances with the Riley County Democratic Party (source), Saline County Democratic Women, Kansas House candidate Cheri Koochel (source), the Kansas Democratic Party candidate forum (source), and Women for Kansas in Lawrence, where she said she gave a presentation on immigration law (source).",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        }
+      ]
     },
     {
       "id": "i-school-choice-parental-rights-in-education-6",
@@ -117,7 +191,18 @@ export const ANNE_PARELKAR_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Bluesky",
+          "observation": "For Kansas-specific policy, Parelkar's feed combines statewide stops with issue planks on agriculture, health care, public schools, local communities, and worker protections. On March 25, 2026, she posted, \"Happy #NationalAgDay, everyone. I hear politicians talk a lot about supporting farmers. I say, enough talk. We need action. It's time to break the corporate stranglehold on agriculture and put power back in...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-3"
+          ],
+          "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
+        }
+      ]
     },
     {
       "id": "i-marijuana-drug-policy-7",
@@ -134,7 +219,28 @@ export const ANNE_PARELKAR_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Bluesky",
+          "observation": "Across the captured period the Bluesky feed contains no posts about water policy or the Ogallala Aquifer.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-9"
+          ],
+          "mappedToIssueId": "i-marijuana-drug-policy-7"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Bluesky",
+          "observation": "On national and foreign-policy questions, Parelkar posts less often than she posts about campaign events and public access, but the captured feed includes immigration enforcement, voting, Russia, Iran, Gaza, federal labor policy, and the government shutdown. On March 1, 2026, she wrote, \"Politicians fight and we the people pay the price. #Trump #Iran\" (source). On November 29, 2025, she posted, \"Today is the...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-4"
+          ],
+          "mappedToIssueId": "i-marijuana-drug-policy-7"
+        }
+      ]
     },
     {
       "id": "i-healthcare-for-children-8",
@@ -149,7 +255,28 @@ export const ANNE_PARELKAR_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Bluesky",
+          "observation": "Most-reposted Parelkar-authored Bluesky post in the captured set: 2025-11-17 ACA subsidy post — Likes 2, Reposts 4, Replies 0, Quotes 0 as of 2026-05-11 capture.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-9"
+          ],
+          "mappedToIssueId": "i-healthcare-for-children-8"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Bluesky",
+          "observation": "Audience response on Parelkar's measurable Bluesky feed is small and concentrated around party independence, health care, and campaign-media clips. Her highest-engagement Parelkar-authored Bluesky post in the captured set was a June 24, 2025 post with 6 likes, 1 repost, 1 reply, and 0 quotes as of May 11, 2026: \"Pro Tip: You owe loyalty to no political party or political figure. Not now. Not ever. If your party...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-9"
+          ],
+          "mappedToIssueId": "i-healthcare-for-children-8"
+        }
+      ]
     },
     {
       "id": "i-consumer-protection-9",
@@ -462,7 +589,8 @@ export const ANNE_PARELKAR_V2: CandidateFullV2 = {
       "publisher": "kansasreflector.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Anne Parelkar's generated v2 profile."
+        "Source carried forward for Anne Parelkar's generated v2 profile.",
+        "Observed public online activity mapped to Immigration / Border."
       ]
     },
     {
@@ -2872,6 +3000,54 @@ export const ANNE_PARELKAR_V2: CandidateFullV2 = {
       "accessed": "2026-05-19",
       "claimsAnchored": [
         "Source carried forward for Anne Parelkar's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "social",
+      "url": "https://bsky.app/profile/anneforkansas.bsky.social/post/3m5efumlyih2b",
+      "title": "Bluesky / Bsky",
+      "publisher": "Bsky",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Guns / Second Amendment.",
+        "Across the captured period the feed contains no standalone posts centered on gun policy, Fort Riley, or water policy including the Ogallala Aquifer. The captured Bluesky feed conta"
+      ]
+    },
+    {
+      "id": "s-social-crossref-2",
+      "tier": "social",
+      "url": "https://bsky.app/profile/anneforkansas.bsky.social/post/3mg6vmtz4ek2h",
+      "title": "Bluesky / Bsky",
+      "publisher": "Bsky",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Immigration / Border.",
+        "She also posted appearances with the Riley County Democratic Party (source), Saline County Democratic Women, Kansas House candidate Cheri Koochel (source), the Kansas Democratic Pa"
+      ]
+    },
+    {
+      "id": "s-social-crossref-3",
+      "tier": "social",
+      "url": "https://bsky.app/profile/anneforkansas.bsky.social/post/3mhtzhs7hyk2c",
+      "title": "Bluesky / Bsky",
+      "publisher": "Bsky",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to School Choice / Parental Rights in Education.",
+        "For Kansas-specific policy, Parelkar's feed combines statewide stops with issue planks on agriculture, health care, public schools, local communities, and worker protections. On Ma"
+      ]
+    },
+    {
+      "id": "s-social-crossref-4",
+      "tier": "social",
+      "url": "https://bsky.app/profile/anneforkansas.bsky.social/post/3mfxk5laymk2i",
+      "title": "Bluesky / Bsky",
+      "publisher": "Bsky",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Marijuana / Drug Policy.",
+        "On national and foreign-policy questions, Parelkar posts less often than she posts about campaign events and public access, but the captured feed includes immigration enforcement, "
       ]
     }
   ]

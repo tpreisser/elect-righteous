@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -33,7 +33,38 @@ export const DINAH_SYKES_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "KCUR",
+          "observation": "29, 2024: Sykes spoke at a reproductive-rights rally and vowed to knock on doors to break the supermajority after abortion-related veto override activity. (source) 18. Johnson County Post, Feb. 13, 2023: Sykes's candidate-attributed Capitol Update criticized public-health limits, anti-trans bills, abortion restrictions, vouchers, Medicaid refusal, and flat-tax policy. (source) 19. KCUR, Jun.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Public web",
+          "observation": "Within the accessible material reviewed, no sustained campaign-controlled 2026 insurance messaging centered guns, immigration/border policy, marijuana policy, rural broadband, road and bridge funding, water policy, the Ogallala aquifer, energy policy, farm policy, or election administration. Sykes has public legislative material on LGBTQ+ policy, abortion/reproductive rights, public schools, taxes, health care,...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-5"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Kansas Reflector",
+          "observation": "On civil rights and social issues, the visible record is sharper and more confrontational. In 2024, Sykes told The Advocate that anti-trans legislation was \"filled with hate\" and said decisions about gender-affirming care involve children, families, mental-health counseling, and physicians. At an April 2024 reproductive-rights rally, Kansas Reflector quoted her vowing to knock on doors and break the Republican...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        }
+      ]
     },
     {
       "id": "i-marriage-family-lgbtq-policy-2",
@@ -50,7 +81,28 @@ export const DINAH_SYKES_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Kansas Reflector",
+          "observation": "3, 2022: archived @dinah_sykes thread on redistricting said the Ad Astra 2 map fell short and urged a fair, legal map. (source) 16. Advocate, Apr. 3, 2024: Sykes discussed anti-LGBTQ+ legislation and gender-affirming care, saying legislation targeting trans Kansans was \"filled with hate\" and warning about effects on children. (source) 17. Kansas Reflector, Apr.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-3"
+          ],
+          "mappedToIssueId": "i-marriage-family-lgbtq-policy-2"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "X",
+          "observation": "Her older candidate-attributed writing and indexed posts reinforce a theme of opposing what she calls extremism and overreach. In a February 2023 Capitol Update, she criticized public-health restrictions, anti-trans bills, abortion limits, school vouchers, Medicaid refusal, and flat-tax policy. In a 2022 archived X thread, she said redistricting was a once-in-a-decade constitutional responsibility and urged...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-4"
+          ],
+          "mappedToIssueId": "i-marriage-family-lgbtq-policy-2"
+        }
+      ]
     },
     {
       "id": "i-religious-liberty-3",
@@ -67,7 +119,28 @@ export const DINAH_SYKES_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "kcur",
+          "observation": "17, 2025: interview after the assassination of Minnesota Rep. Melissa Hortman. Sykes discussed safety concerns, divisiveness, and the need to go after policy rather than people. (source) 20. Yahoo/Kansas City Star opinion, May 21, 2023: Sykes wrote as a Christian, mother, and daughter who lost her mother to breast cancer, linking those experiences to public schools, health care, justice, and mercy. (source) 21....",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-5"
+          ],
+          "mappedToIssueId": "i-religious-liberty-3"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "yahoo.com",
+          "observation": "Sykes also uses personal and moral biography in public writing. In a 2023 opinion piece, she described herself as a mom, a daughter who lost her mother to breast cancer, and a Christian, linking those experiences to public schools, health care, justice, and mercy. That language does not dominate the current insurance campaign, but it explains why school funding, health access, and compassion recur in her public...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-6"
+          ],
+          "mappedToIssueId": "i-religious-liberty-3"
+        }
+      ]
     },
     {
       "id": "i-guns-second-amendment-4",
@@ -84,7 +157,18 @@ export const DINAH_SYKES_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "YouTube",
+          "observation": "The main visible absences are platform and issue absences. No verified candidate-controlled YouTube, TikTok, Bluesky, Threads, Truth Social, Gab, Gettr, Substack, or Reddit account surfaced in this pass. In the current insurance-campaign material reviewed, there was no sustained messaging on guns, immigration, marijuana, broadband, roads, water, energy, farm policy, or election administration. The accessible 2026...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-5"
+          ],
+          "mappedToIssueId": "i-guns-second-amendment-4"
+        }
+      ]
     },
     {
       "id": "i-immigration-border-5",
@@ -1291,6 +1375,78 @@ export const DINAH_SYKES_V2: CandidateFullV2 = {
       "accessed": "2026-03-31",
       "claimsAnchored": [
         "Source carried forward for Dinah Sykes's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://kansasreflector.com/2024/04/29/with-veto-override-attempt-underway-kansas-abortion-rights-supporters-sound-alarm/",
+      "title": "KCUR / Kansasreflector",
+      "publisher": "Kansasreflector",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Abortion / Sanctity of Life.",
+        "29, 2024: Sykes spoke at a reproductive-rights rally and vowed to knock on doors to break the supermajority after abortion-related veto override activity. (source) 18. Johnson Coun"
+      ]
+    },
+    {
+      "id": "s-social-crossref-2",
+      "tier": "secondary",
+      "url": "https://www.advocate.com/politics/kansas-lgbtq-laws",
+      "title": "Kansas Reflector / Advocate",
+      "publisher": "Advocate",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Abortion / Sanctity of Life.",
+        "On civil rights and social issues, the visible record is sharper and more confrontational. In 2024, Sykes told The Advocate that anti-trans legislation was \"filled with hate\" and s"
+      ]
+    },
+    {
+      "id": "s-social-crossref-3",
+      "tier": "secondary",
+      "url": "https://threadreaderapp.com/thread/1489374594314211338.html",
+      "title": "Kansas Reflector / Threadreaderapp",
+      "publisher": "Threadreaderapp",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Marriage & Family / LGBTQ+ Policy.",
+        "3, 2022: archived @dinah_sykes thread on redistricting said the Ad Astra 2 map fell short and urged a fair, legal map. (source) 16. Advocate, Apr. 3, 2024: Sykes discussed anti-LGB"
+      ]
+    },
+    {
+      "id": "s-social-crossref-4",
+      "tier": "secondary",
+      "url": "https://johnsoncountypost.com/2023/02/13/capitol-update-sen-dinah-sykes-gop-harmful-193705/",
+      "title": "X / Johnsoncountypost",
+      "publisher": "Johnsoncountypost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Marriage & Family / LGBTQ+ Policy.",
+        "Her older candidate-attributed writing and indexed posts reinforce a theme of opposing what she calls extremism and overreach. In a February 2023 Capitol Update, she criticized pub"
+      ]
+    },
+    {
+      "id": "s-social-crossref-5",
+      "tier": "secondary",
+      "url": "https://www.kcur.org/podcast/up-to-date/2025-06-17/dinah-sykes-kansas-senate-democrat-hartman-assassination",
+      "title": "kcur / Kcur",
+      "publisher": "Kcur",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Religious Liberty.",
+        "17, 2025: interview after the assassination of Minnesota Rep. Melissa Hortman. Sykes discussed safety concerns, divisiveness, and the need to go after policy rather than people. (s"
+      ]
+    },
+    {
+      "id": "s-social-crossref-6",
+      "tier": "secondary",
+      "url": "https://www.yahoo.com/news/kansas-republicans-religion-fuel-hate-101700931.html",
+      "title": "yahoo.com / Yahoo",
+      "publisher": "Yahoo",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Religious Liberty.",
+        "Sykes also uses personal and moral biography in public writing. In a 2023 opinion piece, she described herself as a mom, a daughter who lost her mother to breast cancer, and a Chri"
       ]
     }
   ]

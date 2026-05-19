@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -31,7 +31,38 @@ export const SHAUN_MUSIL_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "2024 R9 ruling: As mayor, Musil called the favorable R9 water-transfer ruling a huge win for Hays, Russell, and the region, said conservation would continue, and emphasized being good neighbors to Kinsley. Source: Hays Post, Feb. 8, 2024.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-water-supply-1"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "2025 candidate forum: Musil said he believed R9 would happen, that Hays had the state's lowest per-person water usage, that parks should be reprioritized, that more housing should open up affordability, and that funding nonprofits more would probably require a mill levy increase. Source: Hays Post, Oct. 8, 2025.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-242"
+          ],
+          "mappedToIssueId": "i-water-supply-1"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "2025 Q&A: Musil said he was running because of unfinished business, mainly the water project; called water, housing, and retail the hardest issues he had handled; said he had no thought of raising the mill levy in the next few years; and closed by saying he would listen and represent the whole community. Source: Hays Post, Oct. 24, 2025.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-6"
+          ],
+          "mappedToIssueId": "i-water-supply-1"
+        }
+      ]
     },
     {
       "id": "i-retail-and-economic-development-2",
@@ -47,7 +78,38 @@ export const SHAUN_MUSIL_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "2021 Grow Hays funding: Musil called Grow Hays the best economic development program since he had been on the commission and said Hays could not go backwards. Source: Hays Post, Jun. 11, 2021.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-retail-and-economic-development-2"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "2024 retail development: Musil said city-owned land north of I-70 showed Hays was serious about development and said retail was a priority. Source: Hays Post, Dec. 7, 2024.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-240"
+          ],
+          "mappedToIssueId": "i-retail-and-economic-development-2"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "2026 economic development: After a Grow Hays annual review, Musil was described as pleased with 2025 economic-development momentum. Source: Hays Post, Jan. 17, 2026.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-3"
+          ],
+          "mappedToIssueId": "i-retail-and-economic-development-2"
+        }
+      ]
     },
     {
       "id": "i-housing-3",
@@ -64,7 +126,38 @@ export const SHAUN_MUSIL_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "haysusa.com",
+          "observation": "2026 city minutes/agendas: April 2026 city materials show Musil present for meetings involving development incentives, housing fee waivers, and routine governance, but the minutes are mostly procedural rather than quote-rich. Source: City agenda packet, Apr. 16, 2026.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-4"
+          ],
+          "mappedToIssueId": "i-housing-3"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Facebook",
+          "observation": "I searched Shaun Musil with Hays, Hays City Commission, mayor, campaign, Facebook, musilcomish, LinkedIn, GoodParty, Hays Post, Hays USA, agenda/minutes, R9 Ranch, water, retail, housing, Grow Hays, Paisley Pear, FHSU, airport, masks, COVID, and 2026. I prioritized public, candidate-controlled or candidate-attributed material: the City of Hays profile and commission page, city agenda/minute packets, GoodParty's...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-71"
+          ],
+          "mappedToIssueId": "i-housing-3"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "Musil pairs that water message with a pro-growth, pro-retail view of Hays. He repeatedly says Hays needs more retail, more housing, and a stronger sales-tax base. In 2024, he said city-owned land north of I-70 showed Hays was serious about development and that retail was a priority. In 2026, after discussion of Chick-fil-A incentives, he credited Grow Hays and city staff and asked, \"Chick-fil-A now; what's next?\"...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-240"
+          ],
+          "mappedToIssueId": "i-housing-3"
+        }
+      ]
     },
     {
       "id": "i-covid-response-4",
@@ -81,7 +174,18 @@ export const SHAUN_MUSIL_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "His COVID-era comments are the sharpest example of his governing style under pressure. As mayor in 2020, Musil backed mask rules and enforcement while saying his goal was to keep schools and businesses open. After his mayoral year ended, he said the commission disagreed, worked it out, and acted for the community, adding that he had been scared by some decisions but felt the commission did the right thing. The...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-5"
+          ],
+          "mappedToIssueId": "i-covid-response-4"
+        }
+      ]
     }
   ],
   "whoTheyAre": "Shaun Musil is a longtime Hays city commissioner and former mayor whose public profile is built on local government, business, and infrastructure. He works as an account representative for Nex-Tech, has lived in Hays for about 30 years, and spent seven years as co-owner of the Paisley Pear Wine Bar, Bistro and Market with his wife, Heather, before the business was sold in 2024.\n\nMusil has been on the commission since 2013, which makes him one of the city's most experienced elected officials. His public style is understated. He is not a partisan brand-builder. He reads instead as a city hall veteran whose name is tied to the daily grind of water policy, development debates, and pandemic decisions.",
@@ -165,7 +269,9 @@ export const SHAUN_MUSIL_V2: CandidateFullV2 = {
       "publisher": "hayspost.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Shaun Musil's generated v2 profile."
+        "Source carried forward for Shaun Musil's generated v2 profile.",
+        "Observed public online activity mapped to Retail and Economic Development.",
+        "Observed public online activity mapped to Water Supply."
       ]
     },
     {
@@ -2739,7 +2845,9 @@ export const SHAUN_MUSIL_V2: CandidateFullV2 = {
       "publisher": "hayspost.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Shaun Musil's generated v2 profile."
+        "Source carried forward for Shaun Musil's generated v2 profile.",
+        "Observed public online activity mapped to Retail and Economic Development.",
+        "Observed public online activity mapped to Housing."
       ]
     },
     {
@@ -2761,7 +2869,8 @@ export const SHAUN_MUSIL_V2: CandidateFullV2 = {
       "publisher": "hayspost.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Shaun Musil's generated v2 profile."
+        "Source carried forward for Shaun Musil's generated v2 profile.",
+        "Observed public online activity mapped to Water Supply."
       ]
     },
     {
@@ -2773,6 +2882,66 @@ export const SHAUN_MUSIL_V2: CandidateFullV2 = {
       "accessed": "2026-05-19",
       "claimsAnchored": [
         "Source carried forward for Shaun Musil's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://hayspost.com/posts/8d8e87f6-e3c9-4950-bcea-9cac40e269bd",
+      "title": "Hays Post / Hayspost",
+      "publisher": "Hayspost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Water Supply.",
+        "2024 R9 ruling: As mayor, Musil called the favorable R9 water-transfer ruling a huge win for Hays, Russell, and the region, said conservation would continue, and emphasized being g"
+      ]
+    },
+    {
+      "id": "s-social-crossref-2",
+      "tier": "secondary",
+      "url": "https://hayspost.com/posts/ff990305-fdea-40c2-a1c9-1e07624baf77",
+      "title": "Hays Post / Hayspost",
+      "publisher": "Hayspost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Retail and Economic Development.",
+        "2021 Grow Hays funding: Musil called Grow Hays the best economic development program since he had been on the commission and said Hays could not go backwards. Source: Hays Post, Ju"
+      ]
+    },
+    {
+      "id": "s-social-crossref-3",
+      "tier": "secondary",
+      "url": "https://hayspost.com/posts/25729bbf-6cf9-4d9e-a74e-e7a60f5e43e9",
+      "title": "Hays Post / Hayspost",
+      "publisher": "Hayspost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Retail and Economic Development.",
+        "2026 economic development: After a Grow Hays annual review, Musil was described as pleased with 2025 economic-development momentum. Source: Hays Post, Jan. 17, 2026."
+      ]
+    },
+    {
+      "id": "s-social-crossref-4",
+      "tier": "primary",
+      "url": "https://www.haysusa.com/AgendaCenter/ViewFile/Agenda/_04162026-1606",
+      "title": "haysusa.com / Haysusa",
+      "publisher": "Haysusa",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Housing.",
+        "2026 city minutes/agendas: April 2026 city materials show Musil present for meetings involving development incentives, housing fee waivers, and routine governance, but the minutes "
+      ]
+    },
+    {
+      "id": "s-social-crossref-5",
+      "tier": "secondary",
+      "url": "https://hayspost.com/posts/71b2e036-1db2-45b6-86a9-c9d86520f000",
+      "title": "Hays Post / Hayspost",
+      "publisher": "Hayspost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to COVID Response.",
+        "His COVID-era comments are the sharpest example of his governing style under pressure. As mayor in 2020, Musil backed mask rules and enforcement while saying his goal was to keep s"
       ]
     }
   ]

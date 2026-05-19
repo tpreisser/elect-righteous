@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -115,7 +115,18 @@ export const SCOTT_SCHWAB_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Public web",
+          "observation": "Several issue areas were not visible in the accessible material reviewed. The public set did not include captured items centered on Medicaid expansion, rural hospital closures, child care, K-12 school finance, higher education affordability, foster care, housing costs, water policy, Ogallala aquifer policy, veterans services, road and bridge funding, or broadband buildout. The available record is therefore most...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-3"
+          ],
+          "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
+        }
+      ]
     },
     {
       "id": "i-marijuana-drug-policy-7",
@@ -132,7 +143,18 @@ export const SCOTT_SCHWAB_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "kctv5.com",
+          "observation": "The reviewed set contains one personal health update rather than a health-policy item. KCTV/WIBW reported Schwab’s March 21, 2025 social-media post on surgery for cancer, quoting him: \"My doctors have confirmed it was found very early, and no further treatment will be required post-surgery. I will make a full recovery.\" (source)",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-marijuana-drug-policy-7"
+        }
+      ]
     }
   ],
   "whoTheyAre": "Scott Schwab is the Kansas secretary of state and a Republican candidate for governor in 2026. He grew up in Great Bend, graduated from Fort Hays State University in 1994, worked in Farm Bureau insurance and medical-equipment sales, and spent years in the Kansas House before moving into statewide office. He represented House District 49 over seven terms, served as speaker pro tempore, and won the secretary of state's office in 2018 and 2022.\n\nSchwab is an established Kansas Republican, but not a fringe figure. His public image is that of an institutional conservative with a business background, a long legislative resume, and direct election-management experience. His personal story also carries a nationally known tragedy: the 2016 death of his son Caleb on the Verruckt waterslide, an event that has shaped the public way Schwab talks about faith, family, and leadership.",
@@ -3672,7 +3694,8 @@ export const SCOTT_SCHWAB_V2: CandidateFullV2 = {
       "publisher": "linkedin.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Scott Schwab's generated v2 profile."
+        "Source carried forward for Scott Schwab's generated v2 profile.",
+        "Observed public online activity mapped to Immigration / Border."
       ]
     },
     {
@@ -4586,6 +4609,18 @@ export const SCOTT_SCHWAB_V2: CandidateFullV2 = {
       "accessed": "2026-03-31",
       "claimsAnchored": [
         "Source carried forward for Scott Schwab's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://www.kctv5.com/2025/03/21/ks-secretary-state-announces-cancer-diagnosis/",
+      "title": "kctv5.com / Kctv5",
+      "publisher": "Kctv5",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Marijuana / Drug Policy.",
+        "The reviewed set contains one personal health update rather than a health-policy item. KCTV/WIBW reported Schwab’s March 21, 2025 social-media post on surgery for cancer, quoting h"
       ]
     }
   ]

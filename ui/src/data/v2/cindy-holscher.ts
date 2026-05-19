@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -31,7 +31,38 @@ export const CINDY_HOLSCHER_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Kansas Reflector",
+          "observation": "KMUW / Kansas Reflector coverage of an April 26, 2026 forum reported that Holscher cast herself as the anti-establishment Democrat, criticized Republican \"culture war\" bills, attacked CoreCivic-linked donations to her opponent, said she had never taken CoreCivic money and never would, supported making voting easier and reproductive health care access, and described a coalition of nurses, teachers, neighbors,...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Bluesky",
+          "observation": "The captured Bluesky feed strongly features education, affordability, healthcare, redistricting, tariffs/agriculture, and campaign outreach. It contains less sustained original discussion of gun policy, water policy/Ogallala depletion, abortion policy after launch, or detailed state-budget mechanics than the website priorities and news coverage do.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-2"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Bluesky",
+          "observation": "Abortion and reproductive-health access appear in indexed forum coverage -- KMUW reported both Democratic candidates supported access to reproductive healthcare -- but abortion was not a high-frequency original Bluesky topic in the captured period (source). Faith references appear occasionally, including Jewish holiday greetings and criticism of the Kansas Catholic Conference's immigration stance, but the social...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        }
+      ]
     },
     {
       "id": "i-marriage-family-lgbtq-policy-2",
@@ -48,7 +79,18 @@ export const CINDY_HOLSCHER_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Public web",
+          "observation": "Civil rights, LGBTQ policy, immigration/migrant care, religious-community references, political violence, and innocence/public-safety topics not already captured above: 6 posts (1%).",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-2"
+          ],
+          "mappedToIssueId": "i-marriage-family-lgbtq-policy-2"
+        }
+      ]
     },
     {
       "id": "i-religious-liberty-3",
@@ -65,7 +107,18 @@ export const CINDY_HOLSCHER_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Public web",
+          "observation": "Faith references are occasional and issue-linked rather than biographical; examples include Rosh Hashanah greetings and criticism of the Kansas Catholic Conference's position on Trump immigration policy. No current church affiliation was confirmed in this social pass.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-2"
+          ],
+          "mappedToIssueId": "i-religious-liberty-3"
+        }
+      ]
     },
     {
       "id": "i-guns-second-amendment-4",
@@ -82,7 +135,18 @@ export const CINDY_HOLSCHER_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Bluesky",
+          "observation": "The captured record has notable gaps. The Bluesky feed and campaign pages give much more attention to schools, affordability, healthcare, labor, redistricting, and federal cuts than to gun policy, water policy, the Ogallala Aquifer, or detailed state-budget mechanics (harvest).",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-2"
+          ],
+          "mappedToIssueId": "i-guns-second-amendment-4"
+        }
+      ]
     },
     {
       "id": "i-immigration-border-5",
@@ -99,7 +163,38 @@ export const CINDY_HOLSCHER_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "cindyforkansas.com",
+          "observation": "Campaign news page: cindyforkansas.com/news -- active; visible releases through April 29, 2026, including voting-rights, CoreCivic, legislative-session, cell-phone-ban, ICE detention, Chiefs stadium, lower-costs agenda, polling, health-care, and redistricting items.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "cindyforkansas.com",
+          "observation": "The news page shows campaign press activity through April 29, 2026. The latest visible items focused on voting rights, CoreCivic, the legislative session, cell-phone policy, ICE detention, the Chiefs stadium deal, lower costs, polling, working-family affordability, redistricting, and ACA costs.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Public web",
+          "observation": "Federal/national politics, Trump/Musk administration, immigration/ICE, war, and national Republican figures: 24 posts (6%).",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-2"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        }
+      ]
     }
   ],
   "whoTheyAre": "Cindy Holscher is a Democratic state senator from Overland Park running for governor. She was born April 26, 1969, in Slater, Missouri, and her campaign biography places her in a working-class family headed by a union construction worker and an elementary school custodian. She says she was raised on a farm, became the first college graduate in her family, and has lived in Kansas for more than 25 years with her husband, Greg, and their three children.\n\nBefore running for office, Holscher worked in communications and business operations, including jobs at R.H. Donnelley, The Add Sheet, and Sprint, where her campaign says she managed multimillion-dollar budgets and operations. She later entered politics through Johnson County, carrying a biography built around public schools, family economics, and practical statehouse work rather than celebrity or movement politics.",
@@ -2531,6 +2626,30 @@ export const CINDY_HOLSCHER_V2: CandidateFullV2 = {
       "accessed": "2026-05-19",
       "claimsAnchored": [
         "Source carried forward for Cindy Holscher's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://www.kmuw.org/politics/2026-04-29/kansas-democrats-running-for-governor-clash-on-corecivic-party-establishment-in-forum",
+      "title": "Kansas Reflector / Kmuw",
+      "publisher": "Kmuw",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Abortion / Sanctity of Life.",
+        "KMUW / Kansas Reflector coverage of an April 26, 2026 forum reported that Holscher cast herself as the anti-establishment Democrat, criticized Republican \"culture war\" bills, attac"
+      ]
+    },
+    {
+      "id": "s-social-crossref-2",
+      "tier": "secondary",
+      "url": "https://cindyforkansas.com/news/",
+      "title": "cindyforkansas.com / Cindyforkansas",
+      "publisher": "Cindyforkansas",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Immigration / Border.",
+        "Campaign news page: cindyforkansas.com/news -- active; visible releases through April 29, 2026, including voting-rights, CoreCivic, legislative-session, cell-phone-ban, ICE detenti"
       ]
     }
   ]

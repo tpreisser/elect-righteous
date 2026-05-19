@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -29,7 +29,38 @@ export const CHARLOTTE_OHARA_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "oharaforkansas.com",
+          "observation": "The campaign archive contained 71 public posts in the WordPress API on capture. The earliest listed post was \"A Sobering Look at Abortion Statistics in Kansas\" on 2025-01-14; the latest listed post was \"The Great Property Tax Shift\" on 2026-05-05. (archive source)",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "oharaforkansas.com",
+          "observation": "The Feb. 17, 2026 post \"When Did You Begin\" is a pro-life poem that asks when human dignity begins, reinforcing abortion as a recurring campaign theme. (source)",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Kansas Reflector",
+          "observation": "O'Hara attacked what she called a \"vast sea of RINOs\" in the Republican Party; the piece also reports broad GOP debate agreement on abortion opposition, marijuana opposition, and elected Supreme Court justices. (source) 17. Kansas Reflector, Feb.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-11"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        }
+      ]
     },
     {
       "id": "i-marriage-family-lgbtq-policy-2",
@@ -63,7 +94,18 @@ export const CHARLOTTE_OHARA_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "oharaforkansas.com",
+          "observation": "Key signals: former contractor/developer, small-business owner, COVID-shutdown experience, Kansas House, Johnson County Commission, mother/grandmother, faith and family language. (source) 3. Campaign-site archive/API, captured 2026-05-11: 71 posts from 2025-01-14 to 2026-05-05. (source) 4.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-1"
+          ],
+          "mappedToIssueId": "i-religious-liberty-3"
+        }
+      ]
     },
     {
       "id": "i-guns-second-amendment-4",
@@ -108,7 +150,38 @@ export const CHARLOTTE_OHARA_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "oharaforkansas.com",
+          "observation": "The campaign website is the dominant candidate-controlled platform. It combines a governor campaign landing page, a donation page, and an unusually large first-person opinion archive. The homepage says she is running to make Kansas a place \"to come home to,\" bring DOGE-style spending restraint to Kansas, stop tax incentives that she says increase property taxes, demand transparency, elect judges in direct...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-1"
+          ],
+          "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "oharaforkansas.com",
+          "observation": "The March 24, 2026 post \"Election Integrity: the Ghost of 2020\" tied election-integrity messaging to opposition to the sports authority/STAR bond package and asked readers to contact state senators. (source)",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-3"
+          ],
+          "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "oharaforkansas.com",
+          "observation": "The April 28, 2026 post \"Dismantling the Kansas Department of Education\" argues education should be local and criticizes what she describes as tax-incentive funded candidates and the state education bureaucracy. (source)",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-4"
+          ],
+          "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
+        }
+      ]
     }
   ],
   "whoTheyAre": "Charlotte O'Hara is a Republican candidate for governor and a longtime conservative figure in Johnson County politics. Her campaign biography says she was raised on a farm in Bourbon County, graduated from the University of Kansas, spent more than 20 years as a general contractor, homeschooled her two youngest children, and later co-owned a small manufacturing company in Olathe with two of her sons.\n\nO'Hara is not a new face in Kansas politics. She served in the Kansas House and later on the Johnson County Commission, where she built a public identity around taxes, spending, property rights, and confrontational local politics. By the time she entered the 2026 governor's race, she was already well known to Republican activists looking for a harder-edged candidate in a crowded field.",
@@ -157,7 +230,9 @@ export const CHARLOTTE_OHARA_V2: CandidateFullV2 = {
       "publisher": "oharaforkansas.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Charlotte O'Hara's generated v2 profile."
+        "Source carried forward for Charlotte O'Hara's generated v2 profile.",
+        "Observed public online activity mapped to Religious Liberty.",
+        "Observed public online activity mapped to School Choice / Parental Rights in Education."
       ]
     },
     {
@@ -267,7 +342,8 @@ export const CHARLOTTE_OHARA_V2: CandidateFullV2 = {
       "publisher": "Kansasreflector.Com",
       "accessed": "2026-03-31",
       "claimsAnchored": [
-        "Source carried forward for Charlotte O'Hara's generated v2 profile."
+        "Source carried forward for Charlotte O'Hara's generated v2 profile.",
+        "Observed public online activity mapped to Abortion / Sanctity of Life."
       ]
     },
     {
@@ -323,6 +399,54 @@ export const CHARLOTTE_OHARA_V2: CandidateFullV2 = {
       "accessed": "2026-03-31",
       "claimsAnchored": [
         "Source carried forward for Charlotte O'Hara's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://oharaforkansas.com/wp-json/wp/v2/posts?per_page=100&_fields=date,slug,link,title.rendered,categories",
+      "title": "oharaforkansas.com / Oharaforkansas",
+      "publisher": "Oharaforkansas",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Abortion / Sanctity of Life.",
+        "The campaign archive contained 71 public posts in the WordPress API on capture. The earliest listed post was \"A Sobering Look at Abortion Statistics in Kansas\" on 2025-01-14; the l"
+      ]
+    },
+    {
+      "id": "s-social-crossref-2",
+      "tier": "secondary",
+      "url": "https://oharaforkansas.com/when-did-you-begin/",
+      "title": "oharaforkansas.com / Oharaforkansas",
+      "publisher": "Oharaforkansas",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Abortion / Sanctity of Life.",
+        "The Feb. 17, 2026 post \"When Did You Begin\" is a pro-life poem that asks when human dignity begins, reinforcing abortion as a recurring campaign theme. (source)"
+      ]
+    },
+    {
+      "id": "s-social-crossref-3",
+      "tier": "secondary",
+      "url": "https://oharaforkansas.com/election-integrity-the-ghost-of-2020/",
+      "title": "oharaforkansas.com / Oharaforkansas",
+      "publisher": "Oharaforkansas",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to School Choice / Parental Rights in Education.",
+        "The March 24, 2026 post \"Election Integrity: the Ghost of 2020\" tied election-integrity messaging to opposition to the sports authority/STAR bond package and asked readers to conta"
+      ]
+    },
+    {
+      "id": "s-social-crossref-4",
+      "tier": "secondary",
+      "url": "https://oharaforkansas.com/dismantling-the-kansas-department-of-education/",
+      "title": "oharaforkansas.com / Oharaforkansas",
+      "publisher": "Oharaforkansas",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to School Choice / Parental Rights in Education.",
+        "The April 28, 2026 post \"Dismantling the Kansas Department of Education\" argues education should be local and criticizes what she describes as tax-incentive funded candidates and t"
       ]
     }
   ]

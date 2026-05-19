@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -31,7 +31,18 @@ export const STACY_ROGERS_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Public web",
+          "observation": "Several issue areas were not prominent in the accessible material reviewed. The capture set did not include detailed candidate-controlled positions on Medicaid expansion, marijuana legalization, LGBTQ+ policy, higher education, housing affordability, child care affordability, broadband, road funding, labor policy, state employee pay, or water/Ogallala policy. The campaign provides broad pro-life, pro-family,...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-6"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        }
+      ]
     },
     {
       "id": "i-marriage-family-lgbtq-policy-2",
@@ -116,7 +127,38 @@ export const STACY_ROGERS_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "TikTok",
+          "observation": "The richest long-form candidate voice came from podcast appearances rather than platform-native posts. On the Billy Dees Podcast, Rogers said she is on \"Snapchat,\" TikTok, Rumble, YouTube, Truth Social, Facebook, Instagram, LinkedIn, and her website, and said she personally answers text messages, Facebook messages, and email. The same transcript covered special interests, fentanyl and human trafficking,...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "stacyrogersforks.com",
+          "observation": "Campaign Stacy's Team page, captured 2026-05-11. Key signals: Rogers biography; Lt. Gov. running mate Michael Smith; campaign manager Amanda Pearce; treasurer Archie Macias and Kansans for Life board history. (source) 4. The Rogers Report page, captured 2026-05-11. Key signals: official campaign update/video/policy hub, \"straight talk\" frame, and a visible Business & Beards podcast heading. (source) 5. Campaign...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "iheart.com",
+          "observation": "Billy Dees Podcast episode, June 12/13, 2025. Key signals: candidate says she is accessible across many social platforms; themes include people lacking a voice, special interests, Kansas aerospace/agriculture, fentanyl and human trafficking, foster care, education, term limits, and judicial selection. (source) 14. Politics Not Included podcast listing, March 10, 2026.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
+        }
+      ]
     }
   ],
   "whoTheyAre": "Stacy Rogers is a Wichita business owner running in the 2026 Republican primary for governor. Public campaign materials present her as a political newcomer, a mother of three sons, and a candidate shaped by family experience rather than time in the Legislature. Two of her sons have learning challenges, and that has become part of how she talks about education, parental authority, and state policy.\n\nRogers built her campaign around a straight-talk, outsider image. She was one of the earliest Republicans to enter the race, and she has tried to frame that early start as proof that she is less cautious and less consultant-driven than better-known candidates in the field. Her public profile is much thinner than candidates such as Ty Masterson, Jeff Colyer, or Vicki Schmidt, but her campaign has worked to make family life, small business, and frustration with politics-as-usual the center of her biography.",
@@ -2549,6 +2591,30 @@ export const STACY_ROGERS_V2: CandidateFullV2 = {
       "accessed": "2026-05-19",
       "claimsAnchored": [
         "Source carried forward for Stacy Rogers's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://www.iheart.com/podcast/966-billy-dees-podcast-28826157/episode/stacy-rogers-candidate-for-governor-280748522/",
+      "title": "TikTok / Iheart",
+      "publisher": "Iheart",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to School Choice / Parental Rights in Education.",
+        "The richest long-form candidate voice came from podcast appearances rather than platform-native posts. On the Billy Dees Podcast, Rogers said she is on \"Snapchat,\" TikTok, Rumble, "
+      ]
+    },
+    {
+      "id": "s-social-crossref-2",
+      "tier": "secondary",
+      "url": "https://stacyrogersforks.com/stacys-team",
+      "title": "stacyrogersforks.com / Stacyrogersforks",
+      "publisher": "Stacyrogersforks",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to School Choice / Parental Rights in Education.",
+        "Campaign Stacy's Team page, captured 2026-05-11. Key signals: Rogers biography; Lt. Gov. running mate Michael Smith; campaign manager Amanda Pearce; treasurer Archie Macias and Kan"
       ]
     }
   ]

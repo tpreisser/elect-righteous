@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -32,7 +32,38 @@ export const ALAINA_CUNNINGHAM_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "Her 2023 candidate Q&A is the densest first-person source. She framed her run around public service, saying she wanted to make positive change and that she tries to apply the motto \"Do Good\" in all areas of life. Her stated priorities were sustainable water, economic growth, housing supply, youth retention, retirees and aging residents, budget discipline, infrastructure, and quality of life. (Hays Post, Oct. 25,...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-271"
+          ],
+          "mappedToIssueId": "i-water-1"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "On water, Cunningham's own statements put R9 and long-term water supply in survival terms. In her 2023 Q&A, she said securing a sustainable water source was one of the top issues facing Hays and praised conservation and the R9 framework. (Hays Post, Oct. 25, 2023) At a 2025 Hays-Russell R9 update, she said, \"This is about sustainability and survival,\" and \"without it, we don't survive.\" (Hays Post, Aug. 29, 2025)",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-271"
+          ],
+          "mappedToIssueId": "i-water-1"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "1. City of Hays commission page: current role/status, vice mayor listing, commission structure, agenda/minutes and video links. (source) 2. Hays Post appointment coverage: unanimous appointment, swearing-in, nursing/civic background, first public thank-you quote. (source) 3. Hays Post candidate Q&A: first-person platform on water, housing, economic growth, retirees, budget, infrastructure, and \"Do Good.\" (source) 4.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-174"
+          ],
+          "mappedToIssueId": "i-water-1"
+        }
+      ]
     },
     {
       "id": "i-housing-and-growth-2",
@@ -49,7 +80,38 @@ export const ALAINA_CUNNINGHAM_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "On development incentives, she repeatedly frames incentives as a practical tool for growth rather than an ideological talking point. In late 2023, after commissioners approved development-related agreements, she said, \"We've all agreed that growth is what we want,\" and argued that the first developer paying infrastructure costs should have a chance to recoup costs. (Hays Post) In November 2025, she said of...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-housing-and-growth-2"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "Tiger Media candidate profile: biography, Hays residency, family, RN/group fitness role, civic involvement, and run rationale. (source) 5. Hays Post candidate forum: housing and business development dominated the forum; Cunningham identified youth retention as a top priority. (source) 6. Hays Post election-night article: Cunningham elected to a four-year term with 27 percent of the vote and post-election quote....",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-61"
+          ],
+          "mappedToIssueId": "i-housing-and-growth-2"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "Hays Post community center podcast listing: Cunningham discussed The Grove/community center funding request with city staff. (source) 8. Hays Post development agreements story: quote supporting growth and developer cost-recoupment logic. (source) 9. Hays Post R9 water project story: quote framing water as sustainability and survival. (source) 10.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-housing-and-growth-2"
+        }
+      ]
     },
     {
       "id": "i-city-services-and-budget-3",
@@ -66,7 +128,38 @@ export const ALAINA_CUNNINGHAM_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "On budget and tax tradeoffs, she is visible as a constrained-budget voice. During 2026 budget approval, she told staff, \"You brought us a constrained budget which is what we asked for.\" (Hays Post, Sep. 12, 2025) When Rep. Barb Wasinger asked local officials for property-tax-relief ideas, Cunningham warned, \"When we eliminate sources of funding, we're just shifting the burden.\" (Hays Post, Dec. 20, 2025) In April...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-130"
+          ],
+          "mappedToIssueId": "i-city-services-and-budget-3"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "Hays Post fireworks survey story and Post Podcast listing: quote asking residents to provide feedback on fireworks. (story, podcast listing) 11. Hays Post 2026 budget story: constrained-budget quote and 2026 revenue-neutral budget context. (source) 12. City of Hays September 2025 minutes packet: budget hearing/vote, Cunningham vote, and public safety reminder. (source) 13.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-272"
+          ],
+          "mappedToIssueId": "i-city-services-and-budget-3"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "Hays Post November 2025 development story: quote supporting Agiliti incentive value. (source) 14. Hays Post incentives story: quote that conversations with developers indicate incentives are needed to bring projects to Hays. (source) 15. Hays Post December 2025 property-tax-relief discussion: quote about shifting burden when funding sources are eliminated. (source) 16.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-3"
+          ],
+          "mappedToIssueId": "i-city-services-and-budget-3"
+        }
+      ]
     }
   ],
   "whoTheyAre": "Alaina Cunningham is a Hays city commissioner and, since January 2026, the city's vice mayor. Public profiles describe her as a registered nurse and ACE-certified group fitness instructor at HaysMed's Center for Health Improvement. She moved to Hays from Dodge City in 2010 and built her local profile through healthcare work, parent involvement, and civic boards before stepping into city government.\n\nShe first joined the commission by appointment after Michael Berges left for the Ellis County Commission, then won a full term in 2023. Public records also place her on the HaysMed Foundation board and the Downtown Hays Development Corporation board. That background has made her one of the commission's more community-facing members rather than one of its louder political personalities.",
@@ -755,7 +848,8 @@ export const ALAINA_CUNNINGHAM_V2: CandidateFullV2 = {
       "publisher": "tigermedianet.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Alaina Cunningham's generated v2 profile."
+        "Source carried forward for Alaina Cunningham's generated v2 profile.",
+        "Observed public online activity mapped to Housing and Growth."
       ]
     },
     {
@@ -1514,7 +1608,8 @@ export const ALAINA_CUNNINGHAM_V2: CandidateFullV2 = {
       "publisher": "hayspost.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Alaina Cunningham's generated v2 profile."
+        "Source carried forward for Alaina Cunningham's generated v2 profile.",
+        "Observed public online activity mapped to City Services and Budget."
       ]
     },
     {
@@ -1998,7 +2093,8 @@ export const ALAINA_CUNNINGHAM_V2: CandidateFullV2 = {
       "publisher": "haysusa.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Alaina Cunningham's generated v2 profile."
+        "Source carried forward for Alaina Cunningham's generated v2 profile.",
+        "Observed public online activity mapped to Water."
       ]
     },
     {
@@ -3065,7 +3161,8 @@ export const ALAINA_CUNNINGHAM_V2: CandidateFullV2 = {
       "publisher": "hayspost.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Alaina Cunningham's generated v2 profile."
+        "Source carried forward for Alaina Cunningham's generated v2 profile.",
+        "Observed public online activity mapped to Water."
       ]
     },
     {
@@ -3076,7 +3173,8 @@ export const ALAINA_CUNNINGHAM_V2: CandidateFullV2 = {
       "publisher": "hayspost.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Alaina Cunningham's generated v2 profile."
+        "Source carried forward for Alaina Cunningham's generated v2 profile.",
+        "Observed public online activity mapped to City Services and Budget."
       ]
     },
     {
@@ -3132,6 +3230,42 @@ export const ALAINA_CUNNINGHAM_V2: CandidateFullV2 = {
       "accessed": "2026-05-19",
       "claimsAnchored": [
         "Source carried forward for Alaina Cunningham's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://hayspost.com/posts/eeb37c70-d05e-427e-bdb6-b673010bd8af",
+      "title": "Hays Post / Hayspost",
+      "publisher": "Hayspost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Housing and Growth.",
+        "On development incentives, she repeatedly frames incentives as a practical tool for growth rather than an ideological talking point. In late 2023, after commissioners approved deve"
+      ]
+    },
+    {
+      "id": "s-social-crossref-2",
+      "tier": "secondary",
+      "url": "https://hayspost.com/posts/5b605d19-50a6-448c-90b0-627df8c9bdec/",
+      "title": "Hays Post / Hayspost",
+      "publisher": "Hayspost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Housing and Growth.",
+        "Hays Post community center podcast listing: Cunningham discussed The Grove/community center funding request with city staff. (source) 8. Hays Post development agreements story: quo"
+      ]
+    },
+    {
+      "id": "s-social-crossref-3",
+      "tier": "secondary",
+      "url": "https://hayspost.com/posts/4d49c8ec-b445-4b28-a49c-d154c709104f",
+      "title": "Hays Post / Hayspost",
+      "publisher": "Hayspost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to City Services and Budget.",
+        "Hays Post November 2025 development story: quote supporting Agiliti incentive value. (source) 14. Hays Post incentives story: quote that conversations with developers indicate ince"
       ]
     }
   ]

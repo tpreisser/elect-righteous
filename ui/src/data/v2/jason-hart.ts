@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -33,7 +33,38 @@ export const JASON_HART_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "hartforsenate.com",
+          "observation": "Issues page: hartforsenate.com/issues lists ten issue areas: Assert Congressional Authority; Provide for Our Veterans; Provide for Kansans' Health; Promote Rational Immigration Solutions; Help Rural Kansas; Recognize Our Shared Dignity; Protect Public Education; Protecting Reproductive Rights; Hold Big Tech Accountable; Promote Democratic Values.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Bluesky",
+          "observation": "Across the captured Bluesky period the feed contains no post-length discussion of abortion; the official issues page lists \"Protecting Reproductive Rights\" and \"Support Kansans' 2022 Vote.\"",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-9"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Bluesky",
+          "observation": "Across 35 captured Bluesky posts, Hart's largest single category is policy and issue statements, with 14 posts, or 40 percent of the captured original feed. The March 16 opening post wrote, \"Jason Hart has filed to run for U.S. Senate\" (source), then listed family bills, health, veterans, immigration, and children online as the opening frame. On April 23, he wrote, \"Rural Kansas needs real access to healthcare...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        }
+      ]
     },
     {
       "id": "i-marriage-family-lgbtq-policy-2",
@@ -101,7 +132,28 @@ export const JASON_HART_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Public web",
+          "observation": "Most-used tags: #HartForKansas, #KansansHaveHart, #Democrats, #Senate. Issue tags appeared on immigration enforcement, Pride, Iran, and ICT SOS posts.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-9"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Kansas Reflector",
+          "observation": "On immigration enforcement, he wrote, \"Renée Good and Alex Pretti were killed, and five‑year‑old Liam Ramos was taken into ICE custody during a federal enforcement operation\" (source). In the KMUW/Kansas Reflector interview, he said, \"That service has been as an advocate for your interests\" (source).",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-3"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        }
+      ]
     }
   ],
   "whoTheyAre": "Jason Hart is a Wichita lawyer and former federal prosecutor running for the Democratic nomination for U.S. Senate in 2026. His public biography is built around more than two decades in prosecution, including work in Dodge City, the Shawnee County District Attorney's office, the Kansas Attorney General's office, and 16 years as an assistant U.S. attorney in Kansas.\n\nHart entered the race in March 2026 after leaving his federal post. That made him one of the latest entrants in the field, but also one of the most unusual. He launched with a law-and-order résumé, a deliberate pitch to disaffected Republicans, and a party-history story that drew immediate attention.\n\nThat party-history story is central to his profile. Hart had been registered as an independent, changed to Republican in February 2026 while considering a run against Rep. Ron Estes, and then changed to Democrat in March 2026 when he entered the Senate race. He has described the decision to run as the product of prayerful and tearful discussions with his wife and family.",
@@ -2552,6 +2604,42 @@ export const JASON_HART_V2: CandidateFullV2 = {
       "accessed": "2026-05-19",
       "claimsAnchored": [
         "Source carried forward for Jason Hart's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://hartforsenate.com/issues",
+      "title": "hartforsenate.com / Hartforsenate",
+      "publisher": "Hartforsenate",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Abortion / Sanctity of Life.",
+        "Issues page: hartforsenate.com/issues lists ten issue areas: Assert Congressional Authority; Provide for Our Veterans; Provide for Kansans' Health; Promote Rational Immigration Sol"
+      ]
+    },
+    {
+      "id": "s-social-crossref-2",
+      "tier": "social",
+      "url": "https://bsky.app/profile/kansanshavehart.bsky.social/post/3mh7eajrwos2f",
+      "title": "Bluesky / Bsky",
+      "publisher": "Bsky",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Abortion / Sanctity of Life.",
+        "Across 35 captured Bluesky posts, Hart's largest single category is policy and issue statements, with 14 posts, or 40 percent of the captured original feed. The March 16 opening po"
+      ]
+    },
+    {
+      "id": "s-social-crossref-3",
+      "tier": "social",
+      "url": "https://bsky.app/profile/kansanshavehart.bsky.social/post/3mj3eahdcyc2p",
+      "title": "Kansas Reflector / Bsky",
+      "publisher": "Bsky",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Immigration / Border.",
+        "On immigration enforcement, he wrote, \"Renée Good and Alex Pretti were killed, and five‑year‑old Liam Ramos was taken into ICE custody during a federal enforcement operation\" (sour"
       ]
     }
   ]

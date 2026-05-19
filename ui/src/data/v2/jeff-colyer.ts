@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -32,7 +32,38 @@ export const JEFF_COLYER_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "X",
+          "observation": "Colyer's active campaign footprint is split between an older campaign domain, jeffcolyer.com, and a 2026-specific domain, colyerforgovernor.com. The older site links his public X, Instagram, Facebook, and YouTube accounts and foregrounds action items on critical race theory, private property rights, abortion, KU stem-cell funding, and oil/gas policy. The homepage identifies him as a fifth-generation Kansan from...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-179"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "jeffcolyer.com",
+          "observation": "1. jeffcolyer.com homepage, captured 2026-05-11. Key visible signals: critical race theory pledge, private property rights letter, abortion announcement, KU stem-cell research criticism, oil/gas criticism, bio, and social links. 2. jeffcolyer.com/about, captured 2026-05-11. Key visible signals: Hays biography, family, surgeon identity, humanitarian war-zone work, pro-life record, KanCare, budget/stability claims,...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-179"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "X",
+          "observation": "Key visible signals: volunteer/job/fundraiser/intern/event request form and linked X, Instagram, and Facebook accounts. 4. jeffcolyer.com/announcements.html, captured 2026-05-11. The announcements page is largely a 2021 archive, but it remains live and visible from the campaign site; recurring themes include abortion, KU adult stem-cell research, oil/gas, COVID-era closures, conservative identity, and...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        }
+      ]
     },
     {
       "id": "i-marriage-family-lgbtq-policy-2",
@@ -66,7 +97,38 @@ export const JEFF_COLYER_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "colyerforgovernor.com",
+          "observation": "The 2026 campaign site is more polished and explicitly primary-oriented. It leads with Trump validation, \"Faith & Family First,\" Colyer's status as Kansas's 47th governor, his appointment by Trump to a rural-health advisory role, and his service as Trump's 2024 Kansas chair. It lists five campaign pillars: lower costs/higher pay, safer communities, freedom to thrive, healthy rural Kansas, and honest accountable...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-180"
+          ],
+          "mappedToIssueId": "i-religious-liberty-3"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "mobile.twstalker.com",
+          "observation": "Engagement: 24 replies, 2 reposts, 69 likes, 2K views, 0 quotes. Topic: military / patriotism. (source) 8. 2 weeks ago -- Short faith-coded reply, \"Big amen.\" Engagement: 4 replies, 2 reposts, 29 likes, 585 views, 0 quotes. Topic: faith / affirmation. (source) 9. 2 weeks ago -- \"God bless and protect our troops.\" Engagement: 4 replies, 4 reposts, 43 likes, 1K views, 1 quote. Topic: military / patriotism. (source)...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-religious-liberty-3"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "KCUR",
+          "observation": "Key visible signals: Trump quote, \"Faith & Family First,\" lower costs, public safety, school choice, abortion, Second Amendment, religious liberty, rural health, and accountable government. 6. KCUR/KMUW campaign launch coverage, published 2025-05-16. Key visible signals: Trump comparison, 47/49 governor framing, cancer recovery, taxes/property taxes, school litigation, border/deportation, gender-affirming care...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-197"
+          ],
+          "mappedToIssueId": "i-religious-liberty-3"
+        }
+      ]
     },
     {
       "id": "i-guns-second-amendment-4",
@@ -83,7 +145,18 @@ export const JEFF_COLYER_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "X",
+          "observation": "Education and culture-war issues are the second-largest visible cluster, with 7 of 29 items, or 24 percent (harvest). The older campaign homepage still invites supporters to sign a pledge to keep critical race theory out of Kansas schools (source). Recent indexed X posts emphasize phonics-based reading, math, writing, technology skills, and career preparation, while also using sharper language against \"political...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-179"
+          ],
+          "mappedToIssueId": "i-guns-second-amendment-4"
+        }
+      ]
     },
     {
       "id": "i-immigration-border-5",
@@ -100,7 +173,38 @@ export const JEFF_COLYER_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "TikTok",
+          "observation": "Topic: agriculture / property rights / regulation. (source) 13. 2 weeks ago -- Wyandotte County State of the Union watch party; SNAP and unemployment-insurance fraud, household affordability, and regulation. Engagement: 4 replies, 7 reposts, 25 likes, 2K views, 2 quotes. Topic: campaign event / fraud / affordability. (source) 14. 2 weeks ago -- Quote-post of Libs of TikTok item about Olathe students, anti-ICE...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "mobile.twstalker.com",
+          "observation": "Topic: schools / immigration protest / public safety / partisan conflict. (source) 15. 3 weeks ago -- Miracle on Ice anniversary / USA post. Engagement: 2 replies, 0 reposts, 24 likes, 778 views, 0 quotes. Topic: patriotism / sports. (source) 16. 3 weeks ago -- Retweet of USA Hockey Winter Olympics gold post. Topic: sports / patriotism. (source) 17. 3 weeks ago -- Sedgwick County property valuations, mill levies,...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "X",
+          "observation": "The accessible X mirror exposed a limited amplification sample. The most visible amplification was a quote-post of Libs of TikTok about an Olathe anti-ICE student walkout and students holding Trump flags; Colyer used it to call on Democratic governor candidates to condemn violence and extremism (source). The same capture showed USA Hockey retweets/quote-posts around Olympic hockey. The capture did not expose a...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        }
+      ]
     },
     {
       "id": "i-school-choice-parental-rights-in-education-6",
@@ -117,7 +221,28 @@ export const JEFF_COLYER_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "mobile.twstalker.com",
+          "observation": "1. 2 days ago -- Greensburg classroom visit. Message: Kansas's future starts in classrooms; emphasis on phonics-based reading, math, writing, tech skills, and career preparation. Engagement: 3 replies, 1 repost, 12 likes, 553 views, 0 quotes. Topic: education. (source) 2. 3 days ago -- Kansas City Chiefs / Kenneth Walker III post. Engagement: 0 replies, 0 reposts, 10 likes, 463 views, 0 quotes.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "mobile.twstalker.com",
+          "observation": "Topic: sports / Kansas identity. (source) 3. 5 days ago -- Anti-woke education post: \"EDUCATION NOT INDOCTRINATION,\" with reading, writing, math, technology skills, and \"real-world preparation.\" Engagement: 16 replies, 6 reposts, 38 likes, 1K views, 1 quote. Topic: education / anti-woke schools. (source) 4. 6 days ago -- Governor campaign post tying higher wages, lower taxes, small business, and President Trump....",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
+        }
+      ]
     },
     {
       "id": "i-marijuana-drug-policy-7",
@@ -2144,7 +2269,9 @@ export const JEFF_COLYER_V2: CandidateFullV2 = {
       "publisher": "jeffcolyer.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Jeff Colyer's generated v2 profile."
+        "Source carried forward for Jeff Colyer's generated v2 profile.",
+        "Observed public online activity mapped to Abortion / Sanctity of Life.",
+        "Observed public online activity mapped to Guns / Second Amendment."
       ]
     },
     {
@@ -2155,7 +2282,8 @@ export const JEFF_COLYER_V2: CandidateFullV2 = {
       "publisher": "colyerforgovernor.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Jeff Colyer's generated v2 profile."
+        "Source carried forward for Jeff Colyer's generated v2 profile.",
+        "Observed public online activity mapped to Religious Liberty."
       ]
     },
     {
@@ -2342,7 +2470,8 @@ export const JEFF_COLYER_V2: CandidateFullV2 = {
       "publisher": "kcur.org",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Jeff Colyer's generated v2 profile."
+        "Source carried forward for Jeff Colyer's generated v2 profile.",
+        "Observed public online activity mapped to Religious Liberty."
       ]
     },
     {
@@ -4730,6 +4859,32 @@ export const JEFF_COLYER_V2: CandidateFullV2 = {
       "accessed": "2026-05-19",
       "claimsAnchored": [
         "Source carried forward for Jeff Colyer's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://www.jeffcolyer.com/announcements.html",
+      "title": "X / Jeffcolyer",
+      "publisher": "Jeffcolyer",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Abortion / Sanctity of Life.",
+        "Key visible signals: volunteer/job/fundraiser/intern/event request form and linked X, Instagram, and Facebook accounts. 4. jeffcolyer.com/announcements.html, captured 2026-05-11. T"
+      ]
+    },
+    {
+      "id": "s-social-crossref-2",
+      "tier": "secondary",
+      "url": "https://mobile.twstalker.com/DrJeffColyer",
+      "title": "mobile.twstalker.com / Mobile.Twstalker",
+      "publisher": "Mobile.Twstalker",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Religious Liberty.",
+        "Engagement: 24 replies, 2 reposts, 69 likes, 2K views, 0 quotes. Topic: military / patriotism. (source) 8. 2 weeks ago -- Short faith-coded reply, \"Big amen.\" Engagement: 4 replies",
+        "Observed public online activity mapped to Immigration / Border.",
+        "Observed public online activity mapped to School Choice / Parental Rights in Education."
       ]
     }
   ]

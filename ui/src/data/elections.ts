@@ -185,12 +185,12 @@ export const ELECTIONS: Election[] = [
     jurisdiction: "Kansas State Board of Education District 5",
     seats: 1,
     status: "Incumbent Running",
-    candidateCount: 0,
-    candidateSlugs: [],
+    candidateCount: 1,
+    candidateSlugs: ["cathy-hopkins"],
     description:
-      "District 5 covers western Kansas, including Ellis County, and the seat is back on the ballot in 2026.",
+      "District 5 covers western Kansas, including Ellis County, and the seat is back on the ballot in 2026. Cathy Hopkins is the current District 5 member and State Board chair.",
     plainEnglish:
-      "The State Board of Education helps decide statewide standards, curriculum fights, accreditation, and major school policy. District 5 includes Hays and much of western Kansas, so this race matters even if the candidate field is still thin on the site.",
+      "The State Board of Education helps decide statewide standards, curriculum fights, accreditation, and major school policy. District 5 includes Hays and much of western Kansas, and Cathy Hopkins is the current officeholder on the site while the 2026 filing field continues to develop.",
     whyItMatters:
       "Board members influence what schools teach, how districts are judged, and what statewide education debates look like for years to come.",
     jobDescription:

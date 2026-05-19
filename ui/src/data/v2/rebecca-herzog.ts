@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -29,7 +29,38 @@ export const REBECCA_HERZOG_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Public web",
+          "observation": "Harvest focus: official register of deeds pages, public staff/professional listings, election coverage, local voter guides, public meeting/elected-official references, and obvious social/platform absences.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-5"
+          ],
+          "mappedToIssueId": "i-public-office-record-1"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Public web",
+          "observation": "No verified candidate-controlled social account exposed public follower counts, post counts, reactions, shares, or comments.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-5"
+          ],
+          "mappedToIssueId": "i-public-office-record-1"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Public web",
+          "observation": "No public church affiliation was verified from the reviewed source set.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-5"
+          ],
+          "mappedToIssueId": "i-public-office-record-1"
+        }
+      ]
     }
   ],
   "whoTheyAre": "Rebecca Her",
@@ -598,7 +629,8 @@ export const REBECCA_HERZOG_V2: CandidateFullV2 = {
       "publisher": "ellisco.net",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Rebecca Herzog's generated v2 profile."
+        "Source carried forward for Rebecca Herzog's generated v2 profile.",
+        "Observed public online activity mapped to Public Office Record."
       ]
     },
     {

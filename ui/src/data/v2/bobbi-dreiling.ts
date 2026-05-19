@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -32,7 +32,38 @@ export const BOBBI_DREILING_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "ellisco.net",
+          "observation": "Dreiling's strongest public presence is official and administrative, not campaign-style social media. The county clerk page says the clerk serves as secretary to the Board of Commissioners and conducts all Ellis County elections, while the election page directs voters to registration, advance voting, mail ballot, and VoterView resources. Both official pages list Dreiling as the current public contact. (clerk...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-48"
+          ],
+          "mappedToIssueId": "i-election-security-1"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "Her campaign and public remarks center on experience, office accuracy, election security, cost control, and service. In her 2020 Hays Post candidate profile, she said she was running because she knew the office, enjoyed serving the public, and believed the clerk role required experience. In 2024, she framed reelection around \"eight elections with perfect counts, audits and recounts,\" Saturday early voting,...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-231"
+          ],
+          "mappedToIssueId": "i-election-security-1"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Tiger Media Network",
+          "observation": "Her election-security message is specific and procedural. She has described paper ballots, post-election audits, poll-pad and USB/result matching, ballot counts matching before ballots leave the clerk's office, cameras at the drop box and ballot-counting/equipment rooms, worker training, and membership in federal election-security information sharing through the Department of Homeland Security. (2020 profile,...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-231"
+          ],
+          "mappedToIssueId": "i-election-security-1"
+        }
+      ]
     },
     {
       "id": "i-campus-voting-access-2",
@@ -49,7 +80,38 @@ export const BOBBI_DREILING_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "Key signal: professional listing, Ellis County county clerk, last updated 2026-01-05. (source) 5. Kansas County Clerks and Election Officials Association northwest district listing. Key signal: Bobbi Dreiling, Ellis County clerk, in office since 2021. (source) 6. Hays Post 2020 candidate profile. Key signal: experience, service, election security, voter outreach, audit/accuracy, and corrected-ballot-error...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-campus-voting-access-2"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Tiger Media Network",
+          "observation": "Key signal: eight elections, perfect counts/audits/recounts claim, township consolidation, budget savings, Saturday early voting, FHSU polling rationale, ballot drop-box security, cameras, and no-proven-fraud posture. (source) 8. Tiger Media Network October 2024 forum coverage. Key signal: public debate remarks on free/fair/secure elections, taxes/levies, paper ballots, and election fraud. (source) 9. Hays Post...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-40"
+          ],
+          "mappedToIssueId": "i-campus-voting-access-2"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "Key signal: Dreiling's contest-results cover sheet: 60 entries and three selected student designs. (source) 17. IKE Lab 2024 general county results. Key signal: independent public results page listing Dreiling's 2024 reelection vote total as 10,211; Hays Post reported unofficial night-of 9,971. (source)",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-campus-voting-access-2"
+        }
+      ]
     },
     {
       "id": "i-early-voting-3",
@@ -66,7 +128,38 @@ export const BOBBI_DREILING_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Facebook",
+          "observation": "This topic read is based on 17 accessible public items: official county pages, professional directories, public agenda packets, candidate/forum coverage, election-result pages, and public third-party coverage that quoted or referenced Dreiling. Login-walled Facebook content was not counted as a reviewed post inventory.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-5"
+          ],
+          "mappedToIssueId": "i-early-voting-3"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "Topic buckets overlap. For example, the 2024 Hays Post reelection profile counts under election security, voting-access logistics, budget/cost control, and office experience.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-5"
+          ],
+          "mappedToIssueId": "i-early-voting-3"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "\"It's a cost saving to the taxpayers in ballot preparations and just running a better township.\" - Hays Post 2024 profile, on township consolidation. (source)",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-40"
+          ],
+          "mappedToIssueId": "i-early-voting-3"
+        }
+      ]
     },
     {
       "id": "i-property-tax-transparency-4",
@@ -83,7 +176,38 @@ export const BOBBI_DREILING_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Kansas Reflector",
+          "observation": "The most contested public topic is FHSU polling access. Dreiling's stated rationale is turnout, cost, ADA logistics, and whole-precinct service rather than student-only service. She told Kansas Reflector she was not dealing only with students and had a whole community to consider. In Hays Post, she said the numbers did not support spending taxpayer dollars for an on-campus polling location and that she would...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-3"
+          ],
+          "mappedToIssueId": "i-property-tax-transparency-4"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "ellisco.net",
+          "observation": "Dreiling's public voice is administrative rather than ideological. The official Ellis County clerk and election pages present her as the county clerk and election official responsible for elections, voter registration, tax-roll work, commission minutes, licenses, passports, accounts payable, levies, and other county paperwork. That official footprint is the clearest current public presence; no verified campaign...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-48"
+          ],
+          "mappedToIssueId": "i-property-tax-transparency-4"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "The most repeated claim in her reelection messaging is that the office is accurate and secure. Dreiling told Hays Post she had run eight elections with \"perfect counts, audits and recounts.\" At an October 2024 forum covered by Tiger Media Network, she said Ellis County elections had been free, fair, and secure, and that her tax and value-setting work had been done with 100 percent accuracy. (Hays Post, Tiger...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-40"
+          ],
+          "mappedToIssueId": "i-property-tax-transparency-4"
+        }
+      ]
     }
   ],
   "whoTheyAre": "Bobbi L. Dreiling is the Ellis County clerk and election officer, the official who runs county elections and manages a large share of the county's daily paperwork. Public records say she earned an associate degree from Hutchinson Community College, spent eight years as deputy clerk under Donna Maskus, then won the clerk's office in 2020. She was re-elected in 2024 by a wide margin, beating Democrat Laura Allen 9,971 votes to 2,975.\n\nCounty clerk is one of those offices voters mostly notice only when something goes wrong. In Ellis County, that means Dreiling's biography is tightly bound to administration rather than ideology: election calendars, tax rolls, commission minutes, and the mechanics of getting ballots printed, counted, and secured. Her public profile is stronger on that work than on personal biography.",
@@ -552,7 +676,10 @@ export const BOBBI_DREILING_V2: CandidateFullV2 = {
       "publisher": "hayspost.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Bobbi Dreiling's generated v2 profile."
+        "Source carried forward for Bobbi Dreiling's generated v2 profile.",
+        "Observed public online activity mapped to Property Tax Transparency.",
+        "Observed public online activity mapped to Campus Voting Access.",
+        "Observed public online activity mapped to Early Voting."
       ]
     },
     {
@@ -640,7 +767,11 @@ export const BOBBI_DREILING_V2: CandidateFullV2 = {
       "publisher": "ellisco.net",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Bobbi Dreiling's generated v2 profile."
+        "Source carried forward for Bobbi Dreiling's generated v2 profile.",
+        "Observed public online activity mapped to Election Security.",
+        "Observed public online activity mapped to Campus Voting Access.",
+        "Observed public online activity mapped to Early Voting.",
+        "Observed public online activity mapped to Property Tax Transparency."
       ]
     },
     {
@@ -2653,7 +2784,10 @@ export const BOBBI_DREILING_V2: CandidateFullV2 = {
       "publisher": "hayspost.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Bobbi Dreiling's generated v2 profile."
+        "Source carried forward for Bobbi Dreiling's generated v2 profile.",
+        "Observed public online activity mapped to Campus Voting Access.",
+        "Observed public online activity mapped to Early Voting.",
+        "Observed public online activity mapped to Election Security."
       ]
     },
     {
@@ -2686,7 +2820,8 @@ export const BOBBI_DREILING_V2: CandidateFullV2 = {
       "publisher": "ellisco.net",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Bobbi Dreiling's generated v2 profile."
+        "Source carried forward for Bobbi Dreiling's generated v2 profile.",
+        "Observed public online activity mapped to Election Security."
       ]
     },
     {
@@ -2731,6 +2866,42 @@ export const BOBBI_DREILING_V2: CandidateFullV2 = {
       "accessed": "2026-05-19",
       "claimsAnchored": [
         "Source carried forward for Bobbi Dreiling's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://www.lkm.org/members/?id=72664620",
+      "title": "Hays Post / Lkm",
+      "publisher": "Lkm",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Campus Voting Access.",
+        "Key signal: professional listing, Ellis County county clerk, last updated 2026-01-05. (source) 5. Kansas County Clerks and Election Officials Association northwest district listing"
+      ]
+    },
+    {
+      "id": "s-social-crossref-2",
+      "tier": "primary",
+      "url": "https://www.ellisco.net/AgendaCenter/ViewFile/Agenda/_04072026-741",
+      "title": "Hays Post / Ellisco",
+      "publisher": "Ellisco",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Campus Voting Access.",
+        "Key signal: Dreiling's contest-results cover sheet: 60 entries and three selected student designs. (source) 17. IKE Lab 2024 general county results. Key signal: independent public "
+      ]
+    },
+    {
+      "id": "s-social-crossref-3",
+      "tier": "secondary",
+      "url": "https://kansasreflector.com/2023/11/06/students-county-clerk-embroiled-in-monthslong-clash-over-fort-hays-polling-location/",
+      "title": "Kansas Reflector / Kansasreflector",
+      "publisher": "Kansasreflector",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Property Tax Transparency.",
+        "The most contested public topic is FHSU polling access. Dreiling's stated rationale is turnout, cost, ADA logistics, and whole-precinct service rather than student-only service. Sh"
       ]
     }
   ]

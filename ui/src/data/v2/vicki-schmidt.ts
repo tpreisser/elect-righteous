@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -36,7 +36,38 @@ export const VICKI_SCHMIDT_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Kansas Reflector",
+          "observation": "Campaign-site July 21, 2025 repost of Kansas Reflector article on taxes and abortion. The page includes Schmidt's quote on the 2012 Brownback tax vote: \"It is a vote I regret.\" (source) 4. Campaign-site July 25, 2025 repost of Kansas Reflector governor-race commentary describing Schmidt as \"moderate and overwhelmingly popular among voters.\" (source) 5.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Kansas Reflector",
+          "observation": "Kansas Reflector July 21, 2025 candidate interview/article. Accessible quotes include her abortion position, the need for governors to tell the truth, and her plan to run on her record. (source) 6. Campaign Facebook profile metadata, captured 2026-05-11: 3,403 likes; 1,496 talking about this; campaign identity and disclaimer. (source) 7.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-298"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Kansas Reflector",
+          "observation": "The campaign site amplifies three Kansas Reflector pieces in its News section: a July 21 interview item, a July 21 article on her record/taxes/abortion, and a July 25 early race analysis. The office LinkedIn page amplifies NASAA content, NAIC participation, K-State financial-education work, Department news releases, and consumer-protection resources. Logged-out X and Facebook capture did not expose a reliable...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-4"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        }
+      ]
     }
   ],
   "whoTheyAre": "Vicki Schmidt is the Kansas insurance commissioner and a Republican candidate for governor. She was born and raised in Wichita, graduated from the University of Kansas School of Pharmacy, and spent decades working as a pharmacist before moving into electoral politics. Her campaign repeatedly describes her as the first pharmacist to hold statewide elected office in Kansas.\n\nSchmidt and her husband Mike have been married for more than 50 years and have two sons and four grandchildren. Her public image is built less around ideological confrontation than around health-care credentials, consumer protection, and the argument that she already knows how to run a statewide office.",
@@ -3365,7 +3396,8 @@ export const VICKI_SCHMIDT_V2: CandidateFullV2 = {
       "publisher": "kansasreflector.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Vicki Schmidt's generated v2 profile."
+        "Source carried forward for Vicki Schmidt's generated v2 profile.",
+        "Observed public online activity mapped to Abortion / Sanctity of Life."
       ]
     },
     {
@@ -3927,6 +3959,18 @@ export const VICKI_SCHMIDT_V2: CandidateFullV2 = {
       "accessed": "2026-03-31",
       "claimsAnchored": [
         "Source carried forward for Vicki Schmidt's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://vickiforgovernor.com/2025/07/21/kansas-republican-vicki-schmidt-anchors-2026-campaign-for-governor-on-record-of-service/",
+      "title": "Kansas Reflector / Vickiforgovernor",
+      "publisher": "Vickiforgovernor",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Abortion / Sanctity of Life.",
+        "Campaign-site July 21, 2025 repost of Kansas Reflector article on taxes and abortion. The page includes Schmidt's quote on the 2012 Brownback tax vote: \"It is a vote I regret.\" (so"
       ]
     }
   ]

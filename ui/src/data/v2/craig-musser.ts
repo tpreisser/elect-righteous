@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -31,7 +31,18 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Public web",
+          "observation": "Across the captured campaign website, the issues page contains statements about healthcare, privacy and bodily autonomy, women, children, Social Security, education, budget and taxes, and agriculture. It does not include issue pages or posts specifically addressing Fort Riley, Fort Hays State University, the Ogallala Aquifer, rural hospital closures, veterans' services, or immigration.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-2"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        }
+      ]
     },
     {
       "id": "i-marriage-family-lgbtq-policy-2",
@@ -80,7 +91,18 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Public web",
+          "observation": "Across the captured social-platform record the feed contains no accessible original posts about wheat prices, water rights or the Ogallala Aquifer, rural hospital closures by name, Fort Riley, Fort Hays State University, immigration, gun policy, foreign affairs, Ukraine, Israel, tariffs, specific federal bills, or named congressional leaders.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-2"
+          ],
+          "mappedToIssueId": "i-guns-second-amendment-4"
+        }
+      ]
     },
     {
       "id": "i-immigration-border-5",
@@ -97,7 +119,28 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "musserforuscongress.com",
+          "observation": "Across the captured period the feed contains no posts about wheat prices, water rights, the Ogallala Aquifer, rural hospital closures by name, Fort Riley, Fort Hays State University, veterans' services, county-level economic development, or immigration. The campaign website does include broad issue statements on healthcare, education, agriculture, Social Security, budget and taxes, privacy, women, and children....",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Facebook",
+          "observation": "Musser's platform footprint is concentrated on an official campaign website and a small Facebook page. No candidate-controlled X, Instagram, YouTube, Truth Social, Gab, Gettr, Substack, Reddit, or TikTok account was found in the public searches captured for this harvest. A LinkedIn profile URL appears in the local research file, but logged-out access returned LinkedIn's HTTP 999 wall on May 11, 2026, so no...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-51"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        }
+      ]
     },
     {
       "id": "i-school-choice-parental-rights-in-education-6",
@@ -112,7 +155,28 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Public web",
+          "observation": "Topic distribution among the 24 candidate-controlled website statements: healthcare — 5 statements (21%); representation / biography / campaign theme — 7 statements (29%); personal freedoms and child welfare — 4 statements (17%); education — 3 statements (13%); budget and taxes — 2 statements (8%); agriculture — 2 statements (8%); Social Security — 1 statement (4%).",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-2"
+          ],
+          "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "musserforuscongress.com",
+          "observation": "For KS-01 district issues, Musser's local material centers on agriculture, healthcare, education, and a manufacturing-and-safety biography. Agriculture accounts for 2 of 24 candidate-controlled website statements, or 8 percent. His issues page says, \"Stabilizing markets is paramount: Mother Nature provides farmers with plenty of variables.\" (source).",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
+        }
+      ]
     },
     {
       "id": "i-marijuana-drug-policy-7",
@@ -129,7 +193,18 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "musserforuscongress.com",
+          "observation": "On national policy, Musser's public website addresses domestic federal programs rather than foreign affairs. The issues page states, \"It’s mandatory that we maintain social security to ensure everyone who has paid in gets the income and benefits their money has provided others.\" (source). On taxes, the same page says, \"The tax code and the way funds are directed need to be simplified, and at the same time, the...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-marijuana-drug-policy-7"
+        }
+      ]
     },
     {
       "id": "i-healthcare-8",
@@ -144,7 +219,18 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "musserforuscongress.com",
+          "observation": "Across the accessible candidate-controlled record, Musser does not have a conventional social feed with regular public posts; the largest body of material is the campaign website. The harvest examined 24 candidate-controlled website statements, with representation, biography, and campaign-theme statements accounting for 7 of 24 statements, or 29 percent, and healthcare accounting for 5 of 24 statements, or 21...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-50"
+          ],
+          "mappedToIssueId": "i-healthcare-8"
+        }
+      ]
     },
     {
       "id": "i-taxes-9",
@@ -159,7 +245,38 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Facebook",
+          "observation": "Additional public metadata line from Facebook card: \"Applying Kitchen Table Economics for Pragmatic Budget Solutions\"",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-2"
+          ],
+          "mappedToIssueId": "i-taxes-9"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Public web",
+          "observation": "Undated; captured 2026-05-11 — \"It’s mandatory that we maintain social security to ensure everyone who has paid in gets the income and benefits their money has provided others. To do that, we must maintain a substantial and well-trained workforce, keep the federal budget in line so we can honor our treasury notes, and raise the cap on FICA to match what those who have paid in the most are taking out\"",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-2"
+          ],
+          "mappedToIssueId": "i-taxes-9"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Facebook",
+          "observation": "Audience response is mostly unavailable because the accessible social record contains one Facebook page/post metadata item and no public post body with visible reactions, comments, shares, or views. The campaign Facebook page metadata listed \"Craig Musser for Congress, Great Bend. 2 likes. Serving Kansans Not an Agenda\" as of the May 11, 2026 capture (source). The same public card listed \"Applying Kitchen Table...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-taxes-9"
+        }
+      ]
     },
     {
       "id": "i-housing-10",
@@ -174,7 +291,18 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Public web",
+          "observation": "Undated; captured 2026-05-11 — \"I have worked a full-time job since starting my chemical engineering degree. I have experience working in various industries like housing materials, mining, and manufacturing operations. I have worked as an engineer, human resources manager, maintenance manager, and safety director. I have worked for family businesses and large corporations. Across these jobs, I have been known as...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-2"
+          ],
+          "mappedToIssueId": "i-housing-10"
+        }
+      ]
     },
     {
       "id": "i-government-reform-11",
@@ -760,7 +888,8 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
       "publisher": "musserforuscongress.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
+        "Source carried forward for Craig Musser's generated v2 profile.",
+        "Observed public online activity mapped to Healthcare."
       ]
     },
     {
@@ -771,7 +900,8 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
       "publisher": "fec.gov",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
+        "Source carried forward for Craig Musser's generated v2 profile.",
+        "Observed public online activity mapped to Immigration / Border."
       ]
     },
     {
@@ -783,6 +913,32 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
       "accessed": "2026-05-19",
       "claimsAnchored": [
         "Source carried forward for Craig Musser's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://musserforuscongress.com/untitled",
+      "title": "musserforuscongress.com / Musserforuscongress",
+      "publisher": "Musserforuscongress",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Immigration / Border.",
+        "Across the captured period the feed contains no posts about wheat prices, water rights, the Ogallala Aquifer, rural hospital closures by name, Fort Riley, Fort Hays State Universit",
+        "Observed public online activity mapped to School Choice / Parental Rights in Education.",
+        "Observed public online activity mapped to Marijuana / Drug Policy."
+      ]
+    },
+    {
+      "id": "s-social-crossref-2",
+      "tier": "social",
+      "url": "https://www.facebook.com/people/Craig-Musser-for-Congress/61584981264795/",
+      "title": "Facebook / Facebook",
+      "publisher": "Facebook",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Taxes.",
+        "Audience response is mostly unavailable because the accessible social record contains one Facebook page/post metadata item and no public post body with visible reactions, comments,"
       ]
     }
   ]

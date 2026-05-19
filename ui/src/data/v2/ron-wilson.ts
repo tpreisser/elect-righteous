@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -31,7 +31,38 @@ export const RON_WILSON_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Public web",
+          "observation": "Ron Wilson is an appointed/admin superintendent, not a candidate for elected office in this capture set. This harvest therefore treats his public material as administrator-attributed district messaging, official testimony, board-meeting statements, and public professional/profile traces. It does not treat him as having campaign content or electoral platform content.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-100"
+          ],
+          "mappedToIssueId": "i-school-facilities-bond-spending-1"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "The earliest located superintendent-candidate profile, published by Hays Post archive on February 7, 2019, framed Wilson's pitch around what is best for students, consensus-building, teacher relationships, interest-based bargaining, and positive school culture. He described a bond role as bringing people toward a plan that fits school needs and community desires. Source: https://archive.hayspost.com/2019/02/page/67/",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-school-facilities-bond-spending-1"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "usd489.com",
+          "observation": "Official USD 489 news pages show his facilities case developing before the 2022 bond. In April 2021, Wilson said a facilities survey could not predict a bond outcome but could show whether people were ready to look at the issue. He argued that low interest rates, local rebound, and community first impressions made the timing favorable. Source: https://www.usd489.com/article/437110",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-school-facilities-bond-spending-1"
+        }
+      ]
     },
     {
       "id": "i-school-funding-2",
@@ -48,7 +79,38 @@ export const RON_WILSON_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "usd489.com",
+          "observation": "Wilson's official live-feed posts during March-April 2020 centered on COVID school closure, continuous learning, meal access, and public-health precautions. These are the only located profile-attributed official feed posts rather than media coverage, and they are district communications rather than personal social commentary. Source: https://www.usd489.com/live-feed?page_no=32",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-3"
+          ],
+          "mappedToIssueId": "i-school-funding-2"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "The 2022 bond-voting email controversy is part of the public record and is administrator-attributed. Hays Post reported that Wilson sent a staff-wide email offering lunch and possibly dessert to buildings with 100 percent staff turnout in the bond election, and that Wilson did not comment during the investigation. Ellis County Attorney Robert Anderson later declined to pursue charges. Sources:...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-4"
+          ],
+          "mappedToIssueId": "i-school-funding-2"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "hayspost.com",
+          "observation": "In 2024-2026 coverage, Wilson's message stays focused on getting the bond and capital projects finished. He defended using the existing construction manager and district administration team instead of adding another project manager, said the district already had oversight through Nabholz and third-party inspections, and said the high school change orders were well below contingency. Source:...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-75"
+          ],
+          "mappedToIssueId": "i-school-funding-2"
+        }
+      ]
     },
     {
       "id": "i-turnout-controversy-3",
@@ -65,7 +127,18 @@ export const RON_WILSON_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "The 2022 bond-voting email controversy is a notable part of the public record. Hays Post reported that Wilson sent a staff-wide email offering lunch, and possible dessert, to buildings where all eligible staff voted in the bond election. The article said the email did not require a vote for the bond and that Wilson declined to comment during the investigation. Ellis County Attorney Robert Anderson later announced...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-4"
+          ],
+          "mappedToIssueId": "i-turnout-controversy-3"
+        }
+      ]
     }
   ],
   "whoTheyAre": "Ron Wilson is the superintendent of Hays USD 489. He is not an elected candidate, but he is one of the most important figures in local education because he runs the district's day-to-day operations and carries out the decisions the school board makes.\n\nHis public profile is tied almost entirely to administration. In the public record, Wilson is the face of the district's bond-era building projects, staffing questions, facilities debates, and capital planning. That is why he appears in this project: school-board politics in Hays are inseparable from the superintendent who executes the board's agenda.",
@@ -908,7 +981,8 @@ export const RON_WILSON_V2: CandidateFullV2 = {
       "publisher": "hayspost.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Ron Wilson's generated v2 profile."
+        "Source carried forward for Ron Wilson's generated v2 profile.",
+        "Observed public online activity mapped to School Funding."
       ]
     },
     {
@@ -1414,7 +1488,8 @@ export const RON_WILSON_V2: CandidateFullV2 = {
       "publisher": "usd489.community.highbond.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Ron Wilson's generated v2 profile."
+        "Source carried forward for Ron Wilson's generated v2 profile.",
+        "Observed public online activity mapped to School Funding."
       ]
     },
     {
@@ -1481,6 +1556,55 @@ export const RON_WILSON_V2: CandidateFullV2 = {
       "accessed": "2026-05-19",
       "claimsAnchored": [
         "Source carried forward for Ron Wilson's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://archive.hayspost.com/2019/02/page/67/",
+      "title": "Hays Post / Archive.Hayspost",
+      "publisher": "Archive.Hayspost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to School Facilities / Bond Spending.",
+        "The earliest located superintendent-candidate profile, published by Hays Post archive on February 7, 2019, framed Wilson's pitch around what is best for students, consensus-buildin"
+      ]
+    },
+    {
+      "id": "s-social-crossref-2",
+      "tier": "primary",
+      "url": "https://www.usd489.com/article/437110",
+      "title": "usd489.com / Usd489",
+      "publisher": "Usd489",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to School Facilities / Bond Spending.",
+        "Official USD 489 news pages show his facilities case developing before the 2022 bond. In April 2021, Wilson said a facilities survey could not predict a bond outcome but could show"
+      ]
+    },
+    {
+      "id": "s-social-crossref-3",
+      "tier": "primary",
+      "url": "https://www.usd489.com/live-feed?page_no=32",
+      "title": "usd489.com / Usd489",
+      "publisher": "Usd489",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to School Funding.",
+        "Wilson's official live-feed posts during March-April 2020 centered on COVID school closure, continuous learning, meal access, and public-health precautions. These are the only loca"
+      ]
+    },
+    {
+      "id": "s-social-crossref-4",
+      "tier": "secondary",
+      "url": "https://hayspost.com/posts/806cd3a8-3850-49a6-9c3b-5931d344a290",
+      "title": "Hays Post / Hayspost",
+      "publisher": "Hayspost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to School Funding.",
+        "The 2022 bond-voting email controversy is part of the public record and is administrator-attributed. Hays Post reported that Wilson sent a staff-wide email offering lunch and possi",
+        "Observed public online activity mapped to Turnout Controversy."
       ]
     }
   ]

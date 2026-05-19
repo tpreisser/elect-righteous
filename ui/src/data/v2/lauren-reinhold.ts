@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -34,7 +34,28 @@ export const LAUREN_REINHOLD_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Bluesky",
+          "observation": "Across the captured Bluesky and campaign-news period, the feed contains no candidate-owned public posts about abortion, foster care, adoption, capital punishment, or religious liberty.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-32"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Public web",
+          "observation": "Across the captured period the feed contains no posts about the Ogallala Aquifer or water rights. Across the captured period the feed contains no posts about Fort Riley or Fort Hays State University. Across the captured period the feed contains no post specifically about wheat prices, though it contains broader agriculture and farm-bill references. Across the captured period the candidate-controlled posts...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-32"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        }
+      ]
     },
     {
       "id": "i-marriage-family-lgbtq-policy-2",
@@ -51,7 +72,28 @@ export const LAUREN_REINHOLD_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Kansas Reflector",
+          "observation": "2026-02-28 — reposted Kansas Reflector post: \"Opinion editor @claywires.bsky.social writes: Transgender Kansans belong here. Legislative fanatics have dishonored our state. #ksleg\"",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-32"
+          ],
+          "mappedToIssueId": "i-marriage-family-lgbtq-policy-2"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Kansas Reflector",
+          "observation": "The feed also reposted Kansas Reflector's account, which wrote, \"Opinion editor @claywires.bsky.social writes: Transgender Kansans belong here. Legislative fanatics have dishonored our state. #ksleg\" (source), and WatchYourRepsSC&TN's link to a Steady Substack post (source). Her campaign news page links to PBS NewsHour, KMAN's Within Reason, Government Executive, The New York Times, The Topeka Capital-Journal,...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-marriage-family-lgbtq-policy-2"
+        }
+      ]
     },
     {
       "id": "i-religious-liberty-3",
@@ -102,7 +144,38 @@ export const LAUREN_REINHOLD_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Facebook",
+          "observation": "Facebook: Lauren for Kansas — linked from official campaign site — logged-out page request redirected to Facebook login/browser wall at capture.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Public web",
+          "observation": "Quote captured: \"I think Congress is kicking this down the road, just like immigration, because they don't want solutions,\"",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-32"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Public web",
+          "observation": "Priorities page topics: Rebuilding Rural Healthcare; Supporting Agriculture and Rural Economies; Strengthening Worker's Rights; Government Integrity and Reform; Worker-First Immigration Reform; Strengthening Social Security.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-32"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        }
+      ]
     }
   ],
   "whoTheyAre": "Lauren Reinhold is a Democratic candidate in Kansas' 1st Congressional District. She is a lawyer with 28 years of legal experience and a former Social Security Administration employee whose campaign grew directly out of the federal workforce upheaval tied to DOGE. Her public biography is thinner than those of the statewide candidates, but the main outlines are clear: law, federal service, and a run for Congress launched in response to layoffs and buyout pressure inside government.\n\nReinhold's professional record includes legal work, disability-related cases, administrative law, and federal union service. Unlike many congressional candidates, she did not come up through local office or party leadership. She entered the race from the federal workforce and made that disruption the emotional core of her campaign.",
@@ -1479,6 +1552,30 @@ export const LAUREN_REINHOLD_V2: CandidateFullV2 = {
       "accessed": "2026-03-31",
       "claimsAnchored": [
         "Source carried forward for Lauren Reinhold's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "social",
+      "url": "https://bsky.app/profile/kansasreflector.com/post/3mfwvwu4gh223",
+      "title": "Kansas Reflector / Bsky",
+      "publisher": "Bsky",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Marriage & Family / LGBTQ+ Policy.",
+        "The feed also reposted Kansas Reflector's account, which wrote, \"Opinion editor @claywires.bsky.social writes: Transgender Kansans belong here. Legislative fanatics have dishonored"
+      ]
+    },
+    {
+      "id": "s-social-crossref-2",
+      "tier": "social",
+      "url": "https://www.facebook.com/laurenforkansas",
+      "title": "Facebook / Facebook",
+      "publisher": "Facebook",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Immigration / Border.",
+        "Facebook: Lauren for Kansas — linked from official campaign site — logged-out page request redirected to Facebook login/browser wall at capture."
       ]
     }
   ]

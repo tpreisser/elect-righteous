@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -31,7 +31,38 @@ export const CRAIG_PALLISTER_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "Pallister is a USD 489 Board of Education member after winning a seat in the November 4, 2025 general election. Hays Post described him as a retired educator and former school-board member who had served four years, narrowly lost reelection in 2023, and was returning to the board in January 2026. The official Ellis County results list Curt Vajnar with 2,549 votes and both Ken Brooks and Craig Pallister with 1,962...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-2"
+          ],
+          "mappedToIssueId": "i-teacher-and-staff-retention-1"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Public web",
+          "observation": "Pallister's accessible public message is school-district specific and comes mostly through candidate questionnaires, a sponsored candidate announcement, and board-meeting coverage rather than candidate-controlled social media.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-122"
+          ],
+          "mappedToIssueId": "i-teacher-and-staff-retention-1"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "His core identity is retired educator and former administrator. In 2025, he said he had been involved with education throughout his life, including service as a bus driver, teacher, principal, retired grandparent, and previous school-board member. His family tie is also part of the message: his wife is a retired USD 489 teacher, his children attended USD 489, and a grandchild was attending Hays Middle School in...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-59"
+          ],
+          "mappedToIssueId": "i-teacher-and-staff-retention-1"
+        }
+      ]
     },
     {
       "id": "i-facilities-and-fees-2",
@@ -48,7 +79,38 @@ export const CRAIG_PALLISTER_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "Facilities and the bond program dominate the visible record. In 2019, Pallister supported a bond issue for USD 489 facility needs, including elementary renovations or replacement where needed and middle/high school additions and renovations. In 2021 board coverage, he said the deferred capital outlay list had kept growing and that the district had met immediate needs but not moved forward enough on facility...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-facilities-and-fees-2"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "Ellis County election-results page: official county page linking 2025 official results. (source) 5. Ellis County 2025 official results PDF/text: official result lists Pallister with 1,962 votes for USD 489 Board of Education. (source) 6. Hays Post Archive 2019 candidate profile: education, granddaughter in USD 489, facilities bond support, K-12 funding, teacher relations, technology, KESA/student performance,...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-facilities-and-fees-2"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "Hays Post Archive 2019 candidate debate: comments on employee health insurance and district Suburbans/transportation. (source) 8. Hays Post 2023 biographic candidate profile: retired educator, prior board roles, family ties, reasons for running, bond/facilities, staff recruitment and retention. (source) 9. Hays Post 2023 candidate Q&A: class offerings, board collaboration, administration, board role, bond...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-3"
+          ],
+          "mappedToIssueId": "i-facilities-and-fees-2"
+        }
+      ]
     },
     {
       "id": "i-school-governance-3",
@@ -65,7 +127,38 @@ export const CRAIG_PALLISTER_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "His school-board philosophy emphasizes policy, oversight, and community voice instead of day-to-day management. In the 2023 Q&A, he said the board sets policy and provides oversight while the superintendent makes day-to-day operational decisions. In 2025, he repeated that administrators and teachers are hired for day-to-day work and that board members should set policy and bring in the community voice. (Hays...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-119"
+          ],
+          "mappedToIssueId": "i-school-governance-3"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "His staff message is pro-retention and pro-administration. The 2023 Q&A called retention of strong administrators key to continual improvement and consistency. The 2025 sponsored piece said Pallister wanted the district's next focus, after bond completion, to be hiring and retaining the best teachers and staff, with competitive pay and benefits for teachers, administrators, para-educators, secretaries, cooks,...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-119"
+          ],
+          "mappedToIssueId": "i-school-governance-3"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "Student-focused learning improvements are a recurring campaign theme. The sponsored 2025 article attributed to Pallister support for smaller class sizes, lower teacher-to-student ratios, more individual attention, new class offerings for both college and workforce paths, and additional counselors at all grade levels. In his 2023 Q&A, he similarly supported new class offerings for college-bound students and...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-121"
+          ],
+          "mappedToIssueId": "i-school-governance-3"
+        }
+      ]
     }
   ],
   "whoTheyAre": "Craig Pallister is a returning USD 489 school board member and a retired district administrator in Hays. Public profiles say he worked 21 years as a middle-school principal after three years as an assistant principal, and that he started with the district even earlier as a bus driver while still in college. He and his wife Sue, a retired teacher and librarian, raised their children in the school system.\n\nPallister's connection to USD 489 is long and personal. He has served on the board before, including as vice president and president, then returned to win a seat again in 2025 after losing a 2023 race by three votes. He is the kind of candidate whose public identity comes almost entirely from the schools.",
@@ -105,7 +198,9 @@ export const CRAIG_PALLISTER_V2: CandidateFullV2 = {
       "publisher": "hayspost.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Craig Pallister's generated v2 profile."
+        "Source carried forward for Craig Pallister's generated v2 profile.",
+        "Observed public online activity mapped to School Governance.",
+        "Observed public online activity mapped to Teacher and Staff Retention."
       ]
     },
     {
@@ -732,7 +827,8 @@ export const CRAIG_PALLISTER_V2: CandidateFullV2 = {
       "publisher": "hayspost.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Craig Pallister's generated v2 profile."
+        "Source carried forward for Craig Pallister's generated v2 profile.",
+        "Observed public online activity mapped to Teacher and Staff Retention."
       ]
     },
     {
@@ -1392,7 +1488,8 @@ export const CRAIG_PALLISTER_V2: CandidateFullV2 = {
       "publisher": "hayspost.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Craig Pallister's generated v2 profile."
+        "Source carried forward for Craig Pallister's generated v2 profile.",
+        "Observed public online activity mapped to School Governance."
       ]
     },
     {
@@ -1414,7 +1511,8 @@ export const CRAIG_PALLISTER_V2: CandidateFullV2 = {
       "publisher": "hayspost.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Craig Pallister's generated v2 profile."
+        "Source carried forward for Craig Pallister's generated v2 profile.",
+        "Observed public online activity mapped to School Governance."
       ]
     },
     {
@@ -1645,7 +1743,8 @@ export const CRAIG_PALLISTER_V2: CandidateFullV2 = {
       "publisher": "usd489.community.highbond.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Craig Pallister's generated v2 profile."
+        "Source carried forward for Craig Pallister's generated v2 profile.",
+        "Observed public online activity mapped to Teacher and Staff Retention."
       ]
     },
     {
@@ -1657,6 +1756,42 @@ export const CRAIG_PALLISTER_V2: CandidateFullV2 = {
       "accessed": "2026-05-19",
       "claimsAnchored": [
         "Source carried forward for Craig Pallister's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://archive.hayspost.com/2019/10/page/32/",
+      "title": "Hays Post / Archive.Hayspost",
+      "publisher": "Archive.Hayspost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Facilities and Fees.",
+        "Facilities and the bond program dominate the visible record. In 2019, Pallister supported a bond issue for USD 489 facility needs, including elementary renovations or replacement w"
+      ]
+    },
+    {
+      "id": "s-social-crossref-2",
+      "tier": "primary",
+      "url": "https://www.ellisco.net/435/Election-Results",
+      "title": "Hays Post / Ellisco",
+      "publisher": "Ellisco",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Facilities and Fees.",
+        "Ellis County election-results page: official county page linking 2025 official results. (source) 5. Ellis County 2025 official results PDF/text: official result lists Pallister wit"
+      ]
+    },
+    {
+      "id": "s-social-crossref-3",
+      "tier": "secondary",
+      "url": "https://archive.hayspost.com/2019/10/page/47/",
+      "title": "Hays Post / Archive.Hayspost",
+      "publisher": "Archive.Hayspost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Facilities and Fees.",
+        "Hays Post Archive 2019 candidate debate: comments on employee health insurance and district Suburbans/transportation. (source) 8. Hays Post 2023 biographic candidate profile: retir"
       ]
     }
   ]

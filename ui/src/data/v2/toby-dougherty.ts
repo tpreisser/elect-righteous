@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -31,7 +31,38 @@ export const TOBY_DOUGHERTY_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "The highest visible public-attention signal is issue-based rather than social: the R9 Ranch water dispute generated repeated local, regional, and state coverage, including Hays Post, KWCH, Kansas Reflector/Kansas News Service, HPPR/KLC Journal, and public meeting/video references.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-71"
+          ],
+          "mappedToIssueId": "i-water-supply-1"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "2020 water conservation: In Kansas News Service/Hays Post coverage, Dougherty said Hays borrowed conservation ideas from western cities and Utah, including landscaping regulations, cash-for-grass, demonstration gardens, wastewater reuse, and customer conservation tools. Source: Hays Post/Kansas News Service.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-125"
+          ],
+          "mappedToIssueId": "i-water-supply-1"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "2023 R9 delay/costs: Dougherty told commissioners the R9 process had been slowed by appeals, said Hays and Russell were moving forward, and explained that converted irrigation rights are reduced to protect neighboring water rights and the aquifer. Source: Hays Post, Jan. 16, 2023.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-121"
+          ],
+          "mappedToIssueId": "i-water-supply-1"
+        }
+      ]
     },
     {
       "id": "i-water-conservation-2",
@@ -48,7 +79,38 @@ export const TOBY_DOUGHERTY_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "KWCH",
+          "observation": "2025 Build Kansas grant: Dougherty told KWCH the R9 project mattered because Hays and Russell lacked adequate local water supplies and said grant money would buy down the total project cost and help pay it off faster. Source: KWCH, Apr. 3, 2025.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-123"
+          ],
+          "mappedToIssueId": "i-water-conservation-2"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "hppr.org",
+          "observation": "2026 R9 survival framing: HPPR/KLC Journal quoted Dougherty saying the project is hugely important, that Hays and Russell are frustrated by opposition, that the project is existential to the cities' survival, and that they are following rules and going beyond them. Source: HPPR/KLC Journal, May 4, 2026.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-water-conservation-2"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "I searched Toby Dougherty with Hays, Hays City Manager, City Manager's Office, haysusa, Hays Post, KAYS, Post Podcast, Forward Ever, Strong Towns, R9 Ranch, water transfer, WaterPACK, Edwards County, Build Kansas grant, budget, revenue neutral, housing, travel plaza, city commission, agenda packets, minutes, YouTube, Facebook, LinkedIn, X/Twitter, Instagram, and 2026. I prioritized official/city sources and...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-71"
+          ],
+          "mappedToIssueId": "i-water-conservation-2"
+        }
+      ]
     },
     {
       "id": "i-budgeting-3",
@@ -64,7 +126,18 @@ export const TOBY_DOUGHERTY_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "On budgeting, Dougherty's public style is cautious and maintenance-first. He defended exceeding the revenue-neutral rate in 2024 by saying city costs rise over time and that static tax collections are not sustainable. In 2025, he described the 2026 budget as a cautious maintenance budget shaped by inflation, federal grant programs drying up, vehicle costs, tariff uncertainty, and recession risk. His line is not...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-budgeting-3"
+        }
+      ]
     },
     {
       "id": "i-infrastructure-4",
@@ -80,7 +153,38 @@ export const TOBY_DOUGHERTY_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "That same operating philosophy shows up in infrastructure comments. In Strong Towns material, Hays is presented as a city using data to prioritize sewer maintenance, street improvements, transportation changes, civic boards, and downtown reinvestment. At a 2025 retreat, Dougherty tied future growth to concrete costs: an eastside fire station would mean more capital, equipment, and staffing, while refuse...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-3"
+          ],
+          "mappedToIssueId": "i-infrastructure-4"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "The visible attention around Dougherty is issue-driven, not social. No reliable social engagement metrics were found for a Dougherty-controlled account. The strongest public-attention signal is the repeated coverage of R9 Ranch and Hays' water future across local and regional outlets, including Hays Post, KWCH, Kansas Reflector/Kansas News Service, HPPR/KLC Journal, Strong Towns, and public meeting/video...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-123"
+          ],
+          "mappedToIssueId": "i-infrastructure-4"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "I reviewed public sources visible through May 11, 2026, including official City of Hays pages, the City Commission agenda/video infrastructure, Hays Post reporting and podcast listings, regional water reporting, KWCH coverage, Strong Towns materials, and targeted searches for major social platforms and campaign-style pages. Login-walled, 403-blocked, script-dependent, generic people-search, or otherwise...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-71"
+          ],
+          "mappedToIssueId": "i-infrastructure-4"
+        }
+      ]
     }
   ],
   "whoTheyAre": "Toby Dougherty is the city manager of Hays, an appointed administrator who has been the city's top staff official since 2007. He previously served as assistant city manager after arriving in Hays in 2005, which means he has been the constant figure in city government while mayors and commissioners changed around him. His public identity is administrative, not electoral, but his influence over long-range planning, budgeting, and infrastructure is substantial.\n\nDougherty grew up in Lucas, Kansas, graduated from the University of Kansas in political science, and spent time in the transportation industry before moving into municipal government. Before Hays, he served as city administrator in Gallatin, Missouri. In local coverage, he is the staff official most closely associated with Hays' long-term water strategy, capital planning, and the practical mechanics of city government.",
@@ -219,7 +323,8 @@ export const TOBY_DOUGHERTY_V2: CandidateFullV2 = {
       "publisher": "haysusa.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Toby Dougherty's generated v2 profile."
+        "Source carried forward for Toby Dougherty's generated v2 profile.",
+        "Observed public online activity mapped to Infrastructure."
       ]
     },
     {
@@ -1429,7 +1534,9 @@ export const TOBY_DOUGHERTY_V2: CandidateFullV2 = {
       "publisher": "hayspost.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Toby Dougherty's generated v2 profile."
+        "Source carried forward for Toby Dougherty's generated v2 profile.",
+        "Observed public online activity mapped to Water Conservation.",
+        "Observed public online activity mapped to Water Supply."
       ]
     },
     {
@@ -1451,7 +1558,9 @@ export const TOBY_DOUGHERTY_V2: CandidateFullV2 = {
       "publisher": "kwch.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Toby Dougherty's generated v2 profile."
+        "Source carried forward for Toby Dougherty's generated v2 profile.",
+        "Observed public online activity mapped to Water Conservation.",
+        "Observed public online activity mapped to Infrastructure."
       ]
     },
     {
@@ -1473,7 +1582,8 @@ export const TOBY_DOUGHERTY_V2: CandidateFullV2 = {
       "publisher": "hayspost.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Toby Dougherty's generated v2 profile."
+        "Source carried forward for Toby Dougherty's generated v2 profile.",
+        "Observed public online activity mapped to Water Supply."
       ]
     },
     {
@@ -2794,6 +2904,42 @@ export const TOBY_DOUGHERTY_V2: CandidateFullV2 = {
       "accessed": "2026-05-19",
       "claimsAnchored": [
         "Source carried forward for Toby Dougherty's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://www.hppr.org/hppr-news/2026-05-04/long-battle-over-west-kansas-water-nears-end-the-stakes-survival",
+      "title": "hppr.org / Hppr",
+      "publisher": "Hppr",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Water Conservation.",
+        "2026 R9 survival framing: HPPR/KLC Journal quoted Dougherty saying the project is hugely important, that Hays and Russell are frustrated by opposition, that the project is existent"
+      ]
+    },
+    {
+      "id": "s-social-crossref-2",
+      "tier": "secondary",
+      "url": "https://hayspost.com/posts/ab25d617-c481-467e-92ce-1a3ba104f7ac",
+      "title": "Hays Post / Hayspost",
+      "publisher": "Hayspost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Budgeting.",
+        "On budgeting, Dougherty's public style is cautious and maintenance-first. He defended exceeding the revenue-neutral rate in 2024 by saying city costs rise over time and that static"
+      ]
+    },
+    {
+      "id": "s-social-crossref-3",
+      "tier": "secondary",
+      "url": "https://archive.strongtowns.org/journal/2016/3/11/sandusky-hays",
+      "title": "Hays Post / Archive.Strongtowns",
+      "publisher": "Archive.Strongtowns",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Infrastructure.",
+        "That same operating philosophy shows up in infrastructure comments. In Strong Towns material, Hays is presented as a city using data to prioritize sewer maintenance, street improve"
       ]
     }
   ]

@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -32,7 +32,28 @@ export const CHRIS_MANN_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Public web",
+          "observation": "No sustained candidate-controlled social thread was found in this capture on abortion, LGBTQ policy, guns, immigration, school choice, marijuana, Medicaid expansion, taxes, or judicial selection. These may exist behind platform login walls, but they were not visible in public/logged-out capture.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-3"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Bluesky",
+          "observation": "Across the visible capture, there was no candidate-controlled Bluesky, TikTok, Truth Social, Gab, Gettr, Substack, or Reddit account found. The campaign site did not expose a detailed issues page, and the public/logged-out harvest did not find sustained candidate-controlled posting on abortion, LGBTQ policy, guns, immigration, school choice, marijuana, Medicaid expansion, taxes, or judicial selection (harvest)....",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-3"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        }
+      ]
     },
     {
       "id": "i-marriage-family-lgbtq-policy-2",

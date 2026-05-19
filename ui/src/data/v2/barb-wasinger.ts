@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -32,7 +32,18 @@ export const BARB_WASINGER_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Kansas Reflector",
+          "observation": "Her social-conservative messaging is present but not the only thing she foregrounds on campaign pages. The older site says she worked to \"protect human life\" (barbforkansas.com). Kansas Reflector reported that she led the House push on transgender sports restrictions and argued that \"Biological men should not be competing against women\" (Kansas Reflector, Feb. 23, 2023). She is also listed as vice-chair of the...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-33"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        }
+      ]
     },
     {
       "id": "i-marriage-family-lgbtq-policy-2",
@@ -49,7 +60,38 @@ export const BARB_WASINGER_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Kansas Reflector",
+          "observation": "Kansas Reflector coverage shows high-salience statewide attention around her role in transgender sports/facilities legislation and the 2026 debate-limiting procedural motion.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-104"
+          ],
+          "mappedToIssueId": "i-marriage-family-lgbtq-policy-2"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Kansas Reflector",
+          "observation": "2023 transgender sports bill: Kansas Reflector reported she led the House push and said \"Biological men should not be competing against women.\" Source: Kansas Reflector, Feb. 23, 2023.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-marriage-family-lgbtq-policy-2"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Kansas Reflector",
+          "observation": "Kansas Reflector transgender youth legislation, Feb. 23, 2023",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-marriage-family-lgbtq-policy-2"
+        }
+      ]
     },
     {
       "id": "i-religious-liberty-3",
@@ -117,7 +159,38 @@ export const BARB_WASINGER_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "barbwasinger.com",
+          "observation": "Newer campaign site result list: \"Lowered Property, Sales, and Income Taxes,\" eliminated state taxes on Social Security benefits and groceries, acted on fentanyl and online pornography, funded K-12/special education, championed FHSU, improved Medicaid/foster care, fought overregulation, and defended \"Common-Sense Kansas Values.\" Source: barbwasinger.com.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-81"
+          ],
+          "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "2024 Hays Post questionnaire: property tax reduction and school funding were top issues; she named cybersecurity and administrative rules/regulations as priorities; she opposed Medicaid expansion as likely to remove \"well bodied Kansans\" from the job market and lengthen IDD waiting lists. Source: Hays Post, Oct. 30, 2024.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-244"
+          ],
+          "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Hays Post",
+          "observation": "2024 Hays Post election-night story: she emphasized property tax relief, cybersecurity, water, private water ownership through LEMAs, seniors, and education funding. Source: Hays Post, Nov. 7, 2024.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-16"
+          ],
+          "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
+        }
+      ]
     },
     {
       "id": "i-marijuana-drug-policy-7",
@@ -134,7 +207,18 @@ export const BARB_WASINGER_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "Hays Post coverage of HB 2433 and the R9 water dispute marks her most district-specific policy win by 2026.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-104"
+          ],
+          "mappedToIssueId": "i-marijuana-drug-policy-7"
+        }
+      ]
     }
   ],
   "whoTheyAre": "Barbara K. Wasinger is the Republican state representative for Kansas House District 111, a Hays-based seat she has held since 2019. Her political career began locally and moved up step by step: Hays city commissioner in 2005, mayor in 2008 and again in 2010, Ellis County commissioner in 2012, then the Kansas House. Public biographical material describes her as a small-business owner in the title and abstract business, a St. Catherine University graduate with concentrations in journalism and theology, and a longtime Hays resident married to Tom Wasinger with four adult children.\n\nWasinger is one of those western Kansas politicians whose identity is inseparable from the local civic world. She has spent more than two decades in elected office, writes regular legislative updates, and keeps up a steady public presence at coffees, town halls, and local media appearances. Her political style is less firebrand than operator: a lawmaker who knows the committees, the local governments, and the bureaucracies she is trying to move.",
@@ -363,7 +447,8 @@ export const BARB_WASINGER_V2: CandidateFullV2 = {
       "publisher": "hayspost.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Barb Wasinger's generated v2 profile."
+        "Source carried forward for Barb Wasinger's generated v2 profile.",
+        "Observed public online activity mapped to School Choice / Parental Rights in Education."
       ]
     },
     {
@@ -550,7 +635,9 @@ export const BARB_WASINGER_V2: CandidateFullV2 = {
       "publisher": "barbforkansas.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Barb Wasinger's generated v2 profile."
+        "Source carried forward for Barb Wasinger's generated v2 profile.",
+        "Observed public online activity mapped to Abortion / Sanctity of Life.",
+        "Observed public online activity mapped to School Choice / Parental Rights in Education."
       ]
     },
     {
@@ -1078,7 +1165,8 @@ export const BARB_WASINGER_V2: CandidateFullV2 = {
       "publisher": "barbwasinger.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Barb Wasinger's generated v2 profile."
+        "Source carried forward for Barb Wasinger's generated v2 profile.",
+        "Observed public online activity mapped to School Choice / Parental Rights in Education."
       ]
     },
     {
@@ -2871,7 +2959,8 @@ export const BARB_WASINGER_V2: CandidateFullV2 = {
       "publisher": "Hayspost.Com",
       "accessed": "2026-03-31",
       "claimsAnchored": [
-        "Source carried forward for Barb Wasinger's generated v2 profile."
+        "Source carried forward for Barb Wasinger's generated v2 profile.",
+        "Observed public online activity mapped to School Choice / Parental Rights in Education."
       ]
     },
     {
@@ -2927,6 +3016,18 @@ export const BARB_WASINGER_V2: CandidateFullV2 = {
       "accessed": "2026-03-31",
       "claimsAnchored": [
         "Source carried forward for Barb Wasinger's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://kansasreflector.com/2023/02/23/kansas-house-and-senate-both-pass-legislation-targeting-transgender-youth/",
+      "title": "Kansas Reflector / Kansasreflector",
+      "publisher": "Kansasreflector",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Marriage & Family / LGBTQ+ Policy.",
+        "2023 transgender sports bill: Kansas Reflector reported she led the House push and said \"Biological men should not be competing against women.\" Source: Kansas Reflector, Feb. 23, 2"
       ]
     }
   ]

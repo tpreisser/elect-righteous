@@ -1,10 +1,10 @@
 "use client";
 
 /**
- * SocialSignalChip — renders one SocialSignal as a pill/chip.
+ * SocialSignalChip renders one issue-mapped SocialSignal.
  *
  * IDENTITY.md commitment encoded here: every chip carries the caption
- * "Observed behavior — not a statement of belief." This cannot be removed
+ * "Observed behavior, not a statement of belief." This cannot be removed
  * without editing the component intentionally.
  *
  * No grading, no position inference, no flag coloring.
@@ -32,7 +32,7 @@ function PlatformLabel({ platform }: { platform: string }) {
 
   return (
     <span
-      className="inline-flex items-center justify-center w-6 h-6 rounded-full text-xs font-heading font-bold shrink-0"
+      className="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-xs font-heading font-bold"
       style={{
         backgroundColor: "var(--color-navy)",
         color: "white",
@@ -72,11 +72,10 @@ export default function SocialSignalChip({
 
   return (
     <div
-      className="rounded-lg border p-3"
-      style={{ borderColor: "rgba(16, 64, 93, 0.10)", backgroundColor: "#fafafa" }}
+      className="border-l-2 py-1.5 pl-3"
+      style={{ borderColor: "rgba(28, 195, 175, 0.55)" }}
     >
-      {/* Chip row: platform icon + observation text */}
-      <div className="flex items-start gap-2">
+      <div className="flex items-start gap-3">
         <PlatformLabel platform={signal.platform} />
 
         <div className="min-w-0 flex-1">
@@ -92,9 +91,6 @@ export default function SocialSignalChip({
                 style={{
                   color: "var(--color-teal-dark)",
                   fontSize: "0.85rem",
-                  /* iOS Safari: ensure 44px minimum tap height via padding
-                     without affecting visual line height. Negative vertical
-                     margin compensates so surrounding text flow is unchanged. */
                   paddingTop: "0.75rem",
                   paddingBottom: "0.75rem",
                   marginTop: "-0.75rem",
@@ -145,12 +141,11 @@ export default function SocialSignalChip({
         </div>
       </div>
 
-      {/* IDENTITY.md commitment — always present, literal text */}
       <p
-        className="mt-2 font-body text-xs"
+        className="mt-2 pl-10 font-body text-xs"
         style={{ color: "var(--color-slate)" }}
       >
-        Observed behavior — not a statement of belief.
+        Observed behavior, not a statement of belief.
       </p>
     </div>
   );

@@ -79,13 +79,13 @@ export default function ActionList({ actions, sources }: ActionListProps) {
         return (
           <li
             key={action.id}
-            className="flex gap-3 rounded-md border p-4"
+            className="flex flex-col gap-2 rounded-md border p-4 sm:flex-row sm:gap-3"
             style={{ borderColor: "rgba(16, 64, 93, 0.10)" }}
           >
             {/* Date column */}
             <time
               dateTime={action.date}
-              className="shrink-0 w-28 font-body text-sm font-semibold"
+              className="shrink-0 font-body text-sm font-semibold sm:w-28"
               style={{ color: "var(--color-slate)" }}
             >
               {formatDate(action.date)}

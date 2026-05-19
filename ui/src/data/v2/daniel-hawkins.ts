@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -32,7 +32,28 @@ export const DANIEL_HAWKINS_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Facebook",
+          "observation": "Latest visible candidate-controlled material: the older campaign site's embedded Facebook feed showed relative timestamps within days of access on May 11, 2026, including posts on legislative wrap-up, United WE, Moody's, law enforcement valor awards, White House recognition, Butler County GOP, SNAP audit, property tax relief, senior crypto scams, and pro-life/religious-freedom wins.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-6"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Facebook",
+          "observation": "His older Hawkins for Kansas site supplies the ideological baseline: unchecked government expansion limits freedom and hurts business growth; he says he is dedicated to defending life, strengthening the family, and protecting rights. That site's public Facebook feed shows the day-to-day version of the same message: legislative wrap-ups with chambers of commerce and GOP groups, property-tax pressure on Kelly,...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-1"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        }
+      ]
     },
     {
       "id": "i-marriage-family-lgbtq-policy-2",
@@ -192,7 +213,8 @@ export const DANIEL_HAWKINS_V2: CandidateFullV2 = {
       "publisher": "danhawkinskansas.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
+        "Source carried forward for Daniel Hawkins's generated v2 profile.",
+        "Observed public online activity mapped to Abortion / Sanctity of Life."
       ]
     },
     {

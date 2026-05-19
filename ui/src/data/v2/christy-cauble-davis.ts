@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -33,7 +33,18 @@ export const CHRISTY_CAUBLE_DAVIS_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Bluesky",
+          "observation": "Across the captured Bluesky period, the feed contains no posts focused on Social Security, Medicare, detailed farm bill text, the Ogallala Aquifer, abortion policy details beyond convention coverage, foster care, adoption, capital punishment, housing policy specifics beyond campaign-site language, or district-level water policy.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-9"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        }
+      ]
     },
     {
       "id": "i-marriage-family-lgbtq-policy-2",
@@ -101,7 +112,38 @@ export const CHRISTY_CAUBLE_DAVIS_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "KCUR",
+          "observation": "2025-12-30 — Davis said in an email that she wants \"to restore funding for Medicaid, special education and affordable housing programs\"; KCUR also reported that her website says she will \"fight for immigration reform that provides a pathway to citizenship and ends inhumane policies that terrorize families and unconstitutionally deprive Kansans of due process.\"",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-9"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Bluesky",
+          "observation": "The candidate website issue page addresses healthcare, education, immigration, and agriculture in broad terms; the Bluesky feed contains fewer issue-specific policy posts than event, accountability, and campaign-presence posts.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-9"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Bluesky",
+          "observation": "Across the captured Bluesky period the feed contains no posts focused on Social Security, Medicare, detailed Farm Bill text, the Ogallala Aquifer, foster care, adoption, capital punishment, or district-level water policy. The campaign website does address health care, education, immigration, agriculture, Social Security, Medicare, Medicaid, public schools, affordable housing, broadband, clean water, hospitals,...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-3"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        }
+      ]
     }
   ],
   "whoTheyAre": "Christy Cauble Davis is a Democratic U.S. Senate candidate from Cottonwood Falls and one of the few contenders in the field with a long résumé in rural development work. She is a fifth-generation Kansan who graduated from Sedgwick High School, earned a bachelor's degree from Kansas State University in 1997, and completed a graduate degree at Wichita State University in 1999.\n\nDavis spent much of her career in historic preservation and small-town development. She worked as a preservation planner for the City of Newton, served as a preservation officer at the Kansas Historical Society, and later became executive director of Symphony in the Flint Hills after moving to Chase County in 2013. Public profiles also identify her as the owner of Davis Preservation, LLC. She and her husband, Luke Davis, renovated historic buildings in Cottonwood Falls, including a laundromat project and a former bank building converted into housing and a bookstore.\n\nHer highest-profile job came in federal government. Davis served as Kansas state director of USDA Rural Development from 2023 until January 2025, an office that she says oversaw more than $1.3 billion in investment across Kansas communities.",
@@ -157,7 +199,8 @@ export const CHRISTY_CAUBLE_DAVIS_V2: CandidateFullV2 = {
       "publisher": "christydavisforkansas.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Christy Cauble Davis's generated v2 profile."
+        "Source carried forward for Christy Cauble Davis's generated v2 profile.",
+        "Observed public online activity mapped to Immigration / Border."
       ]
     },
     {

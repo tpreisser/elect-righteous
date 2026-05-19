@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -32,7 +32,38 @@ export const KRIS_KOBACH_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "X",
+          "observation": "The accessible X mirror exposed a limited amplification sample. Kobach amplified RAGA on the Lyon County K-9 grant and an Eric W. post praising his AG office's connection to Trump administration legal staffing. The issue network visible in search results also placed Kobach near The FGA on SNAP/public-benefits enforcement and Kansans for Life/right-to-life accounts in recommendations, but the captured Kobach...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-112"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Public web",
+          "observation": "Abortion is prominent in the broader candidate profile and older campaign record, but it was not a meaningful topic in the accessible current social sample captured for this harvest. Guns/Second Amendment appeared through the official special litigation page and ATF litigation, not as a frequent current-posting theme. Religious liberty appeared in the campaign biography through Air Force vaccine-mandate...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-112"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Public web",
+          "observation": "Several areas were absent or thin in the accessible reviewed set. The current public material did not show sustained discussion of Medicaid expansion, rural hospital finance, prescription drug affordability, child care costs, housing affordability, transportation, broadband, water policy, the Ogallala Aquifer, foster care, adoption, or veterans services. Abortion is prominent in the broader candidate profile and...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-112"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        }
+      ]
     },
     {
       "id": "i-marriage-family-lgbtq-policy-2",
@@ -66,7 +97,28 @@ export const KRIS_KOBACH_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "ag.ks.gov",
+          "observation": "Key visible signals: naloxone access, Census lawsuit, AG facts, consumer protection, open government, AG opinions, and official social links. 6. AG official biography, captured 2026-05-11. Key visible signals: Trump election-integrity commission, Title IX litigation, Obamacare eligibility litigation, RAGA chairmanship, family, and office service. 7. AG special litigation page, captured 2026-05-11.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-265"
+          ],
+          "mappedToIssueId": "i-religious-liberty-3"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Facebook",
+          "observation": "Key visible signals: suing federal government over regulations, defending Kansas laws, Title IX, DACA/Obamacare, and ATF/Second Amendment litigation. 8. BallotReady profile, captured 2026-05-11. Key visible signals: verified campaign website, Facebook, Twitter/X, Instagram; official AG website, contact page, Facebook, and Twitter/X. 9. The Federalist coverage of Pfizer lawsuit, published 2024-06-18.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-religious-liberty-3"
+        }
+      ]
     },
     {
       "id": "i-guns-second-amendment-4",
@@ -100,7 +152,38 @@ export const KRIS_KOBACH_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "X",
+          "observation": "The strongest public social signal is X. The indexed profile for @KrisKobach1787 listed 26K followers and a bio separating campaign updates from official state business. Recent indexed posts concentrate on immigration, noncitizen voting, in-state tuition, SNAP data, judicial selection, fentanyl/naloxone, federal overreach, private property, tariffs, and staff/judicial appointments. The official @KSAGOffice feed...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Facebook",
+          "observation": "Facebook, Instagram, and YouTube are confirmed as platform presence but did not expose reliable current post inventories. The campaign videos page embeds six videos, including \"Kris Kobach Testifies Before Congress,\" \"TV Ad: Can't Trust Chris Mann,\" \"TV Ad: Our Family's Safety,\" \"TV Ad: Law Enforcement Agrees,\" \"TV Ad: Kris Kobach is Ready,\" and a Fox clip about Anthony Fauci and border COVID testing (source)....",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-3"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "twstalker.com",
+          "observation": "Topic: judicial selection / campaign event. (source) 5. 3 weeks ago -- Naloxone distribution box at Fort Hays Tech Northwest in Goodland. Engagement: 6 replies, 3 reposts, 12 likes, 624 views, 0 quotes. Topic: fentanyl / overdose prevention. (source) 6. 3 weeks ago -- Statement attacking Gov. Laura Kelly over turning SNAP data over to federal authorities and tying the dispute to noncitizens and deportation....",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        }
+      ]
     },
     {
       "id": "i-school-choice-parental-rights-in-education-6",
@@ -117,7 +200,38 @@ export const KRIS_KOBACH_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "LinkedIn",
+          "observation": "LinkedIn exposes a different office-administration signal. The Kansas Attorney General LinkedIn page listed 894 followers in logged-out capture and showed recent updates on a Nexstar/Tegna lawsuit, naloxone access, law enforcement memorial events, senior-resource outreach, alcohol prevention for parents, roofing-contractor registration, crime-victim awards, medication disposal, and VINE notifications. Engagement...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-4"
+          ],
+          "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "twstalker.com",
+          "observation": "Topic: election law / immigration / Trump validation. (source) 9. 4 weeks ago -- State of the Union post opposing in-state tuition rates for undocumented immigrants. Engagement: 24 replies, 42 reposts, 252 likes, 6K views, 2 quotes. Topic: immigration / higher education. (source) 10. 4 weeks ago -- State of the Union post linking violent crime deaths to immigration enforcement. Engagement: 17 replies, 29 reposts,...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "X",
+          "observation": "Topic: prosecution training / gangs. (source) 4. Official X mirror item: AG opinion on in-state tuition for undocumented immigrants. Engagement: 23 replies, 57 reposts, 282 likes, 10K views, 2 quotes. Topic: immigration / higher education / AG opinion. (source) 5. Official X mirror item: fake U.S. District Court email scam warning. Engagement: 8 replies, 41 reposts, 82 likes, 3K views, 0 quotes. Topic: consumer...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-5"
+          ],
+          "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
+        }
+      ]
     },
     {
       "id": "i-marijuana-drug-policy-7",
@@ -3106,7 +3220,9 @@ export const KRIS_KOBACH_V2: CandidateFullV2 = {
       "publisher": "ag.ks.gov",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Kris Kobach's generated v2 profile."
+        "Source carried forward for Kris Kobach's generated v2 profile.",
+        "Observed public online activity mapped to Religious Liberty.",
+        "Observed public online activity mapped to Guns / Second Amendment."
       ]
     },
     {
@@ -4514,7 +4630,8 @@ export const KRIS_KOBACH_V2: CandidateFullV2 = {
       "publisher": "ag.ks.gov",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Kris Kobach's generated v2 profile."
+        "Source carried forward for Kris Kobach's generated v2 profile.",
+        "Observed public online activity mapped to Religious Liberty."
       ]
     },
     {
@@ -4680,6 +4797,67 @@ export const KRIS_KOBACH_V2: CandidateFullV2 = {
       "accessed": "2026-05-19",
       "claimsAnchored": [
         "Source carried forward for Kris Kobach's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://www.ballotready.org/people/kris-kobach",
+      "title": "Facebook / Ballotready",
+      "publisher": "Ballotready",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Religious Liberty.",
+        "Key visible signals: suing federal government over regulations, defending Kansas laws, Title IX, DACA/Obamacare, and ATF/Second Amendment litigation. 8. BallotReady profile, captur"
+      ]
+    },
+    {
+      "id": "s-social-crossref-2",
+      "tier": "secondary",
+      "url": "https://twstalker.com/KrisKobach1787",
+      "title": "X / Twstalker",
+      "publisher": "Twstalker",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Immigration / Border.",
+        "The strongest public social signal is X. The indexed profile for @KrisKobach1787 listed 26K followers and a bio separating campaign updates from official state business. Recent ind",
+        "Observed public online activity mapped to School Choice / Parental Rights in Education."
+      ]
+    },
+    {
+      "id": "s-social-crossref-3",
+      "tier": "secondary",
+      "url": "https://www.kriskobach.com/videos/",
+      "title": "Facebook / Kriskobach",
+      "publisher": "Kriskobach",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Immigration / Border.",
+        "Facebook, Instagram, and YouTube are confirmed as platform presence but did not expose reliable current post inventories. The campaign videos page embeds six videos, including \"Kri"
+      ]
+    },
+    {
+      "id": "s-social-crossref-4",
+      "tier": "social",
+      "url": "https://www.linkedin.com/company/kansasag",
+      "title": "LinkedIn / Linkedin",
+      "publisher": "Linkedin",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to School Choice / Parental Rights in Education.",
+        "LinkedIn exposes a different office-administration signal. The Kansas Attorney General LinkedIn page listed 894 followers in logged-out capture and showed recent updates on a Nexst"
+      ]
+    },
+    {
+      "id": "s-social-crossref-5",
+      "tier": "secondary",
+      "url": "https://mobile.twstalker.com/KSAGOffice",
+      "title": "X / Mobile.Twstalker",
+      "publisher": "Mobile.Twstalker",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to School Choice / Parental Rights in Education.",
+        "Topic: prosecution training / gangs. (source) 4. Official X mirror item: AG opinion on in-state tuition for undocumented immigrants. Engagement: 23 replies, 57 reposts, 282 likes, "
       ]
     }
   ]

@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
 import {
+  ArrowRight,
   BookOpen,
   ChevronRight,
   DollarSign,
@@ -13,7 +14,6 @@ import {
 } from "lucide-react";
 import type { CandidateFullV2, SocialSignal, Source } from "@/data/types-v2";
 import IssueCardComponent from "@/components/v2/IssueCardComponent";
-import ClaimAnchoredSourcePanel from "@/components/v2/ClaimAnchoredSourcePanel";
 import CorrectionForm from "@/components/ui/correction-form";
 
 const PARTY_LABEL: Record<string, string> = {
@@ -44,12 +44,12 @@ function DossierSection({
 }: DossierSectionProps) {
   return (
     <details
-      className="group border-t"
+      className="group scroll-mt-24 border-t"
       style={{ borderColor: "rgba(16, 64, 93, 0.14)" }}
       open={defaultOpen}
     >
       <summary
-        className="flex cursor-pointer list-none items-center gap-4 py-5 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal"
+        className="flex cursor-pointer list-none items-center gap-4 py-6 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal sm:py-7"
         style={{ WebkitTapHighlightColor: "transparent" }}
       >
         <span
@@ -68,7 +68,7 @@ function DossierSection({
           </span>
           <span
             className="block font-heading font-bold"
-            style={{ color: "var(--color-navy)", fontSize: "1.35rem", lineHeight: 1.2 }}
+            style={{ color: "var(--color-navy)", fontSize: "clamp(1.35rem, 3vw, 1.85rem)", lineHeight: 1.12 }}
           >
             {title}
           </span>
@@ -80,7 +80,7 @@ function DossierSection({
           aria-hidden="true"
         />
       </summary>
-      <div className="pb-8 pt-1">{children}</div>
+      <div className="pb-9 pt-1">{children}</div>
     </details>
   );
 }
@@ -213,11 +213,24 @@ function SocialSignalRow({
 
 export default function CandidateV2Profile({ candidate }: CandidateV2ProfileProps) {
   const partyLabel = PARTY_LABEL[candidate.party] ?? candidate.party;
+  const sourcePageHref = `/candidates/${candidate.slug}/sources`;
   const actions = candidate.issues.flatMap((issue) => issue.actions);
   const gaps = candidate.issues.filter((issue) => issue.gap);
   const socialSignals = candidate.issues.flatMap((issue) =>
     issue.socialSignals.map((signal) => ({ signal, issueTitle: issue.title })),
   );
+  const sourceById = new Map(candidate.sources.map((source) => [source.id, source]));
+
+  function sourcesForIssue(issue: CandidateFullV2["issues"][number]) {
+    const ids = new Set<string>([
+      ...issue.stated.sourceIds,
+      ...issue.actions.flatMap((action) => action.sourceIds),
+      ...issue.socialSignals.flatMap((signal) => signal.sourceIds),
+    ]);
+    return [...ids]
+      .map((id) => sourceById.get(id))
+      .filter((source): source is Source => Boolean(source));
+  }
 
   const facts = [
     ["Party", partyLabel],
@@ -250,7 +263,7 @@ export default function CandidateV2Profile({ candidate }: CandidateV2ProfileProp
             <span>{candidate.name}</span>
           </nav>
 
-          <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_22rem] lg:items-start">
+          <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_24rem] lg:items-start">
             <div>
               <h1
                 className="font-heading font-bold"
@@ -268,33 +281,36 @@ export default function CandidateV2Profile({ candidate }: CandidateV2ProfileProp
             </div>
 
             <div
-              className="grid grid-cols-3 gap-2 text-center lg:text-left"
-              aria-label="Profile counts"
+              className="rounded-lg border bg-white p-4 shadow-sm"
+              style={{ borderColor: "rgba(16, 64, 93, 0.12)" }}
+              aria-label="Profile summary"
             >
-              <div className="rounded border p-3" style={{ borderColor: "rgba(16, 64, 93, 0.12)" }}>
-                <span className="block font-heading font-bold" style={{ color: "var(--color-navy)" }}>
-                  {candidate.issues.length}
-                </span>
-                <span className="font-body text-xs" style={{ color: "var(--color-slate)" }}>
-                  issue areas
-                </span>
-              </div>
-              <div className="rounded border p-3" style={{ borderColor: "rgba(16, 64, 93, 0.12)" }}>
-                <span className="block font-heading font-bold" style={{ color: "var(--color-navy)" }}>
-                  {actions.length}
-                </span>
-                <span className="font-body text-xs" style={{ color: "var(--color-slate)" }}>
-                  record items
-                </span>
-              </div>
-              <div className="rounded border p-3" style={{ borderColor: "rgba(16, 64, 93, 0.12)" }}>
-                <span className="block font-heading font-bold" style={{ color: "var(--color-navy)" }}>
-                  {candidate.sources.length}
-                </span>
-                <span className="font-body text-xs" style={{ color: "var(--color-slate)" }}>
-                  sources
-                </span>
-              </div>
+              <dl className="grid gap-3 text-sm">
+                <div className="grid grid-cols-[6.5rem_minmax(0,1fr)] gap-3">
+                  <dt className="font-body" style={{ color: "var(--color-slate)" }}>Office</dt>
+                  <dd className="font-body font-semibold" style={{ color: "var(--color-navy)" }}>{candidate.position}</dd>
+                </div>
+                <div className="grid grid-cols-[6.5rem_minmax(0,1fr)] gap-3">
+                  <dt className="font-body" style={{ color: "var(--color-slate)" }}>Status</dt>
+                  <dd className="font-body font-semibold" style={{ color: "var(--color-navy)" }}>
+                    {candidate.incumbent ? "Currently in office" : "Candidate / challenger"}
+                  </dd>
+                </div>
+                <div className="grid grid-cols-[6.5rem_minmax(0,1fr)] gap-3">
+                  <dt className="font-body" style={{ color: "var(--color-slate)" }}>Research</dt>
+                  <dd className="font-body font-semibold" style={{ color: "var(--color-navy)" }}>
+                    {candidate.sources.length} linked public sources
+                  </dd>
+                </div>
+              </dl>
+              <Link
+                href={sourcePageHref}
+                className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-md px-4 py-3 text-sm font-heading font-bold uppercase tracking-wider transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal"
+                style={{ backgroundColor: "var(--color-navy)", color: "white" }}
+              >
+                Source Trail
+                <ArrowRight size={15} aria-hidden="true" />
+              </Link>
             </div>
           </div>
         </div>
@@ -405,7 +421,7 @@ export default function CandidateV2Profile({ candidate }: CandidateV2ProfileProp
                 <IssueCardComponent
                   key={issue.id}
                   issue={issue}
-                  sources={candidate.sources}
+                  sources={sourcesForIssue(issue)}
                   defaultExpanded={idx === 0}
                 />
               ))}
@@ -553,10 +569,24 @@ export default function CandidateV2Profile({ candidate }: CandidateV2ProfileProp
             kicker="Research trail"
             icon={<FileText size={20} />}
           >
-            <p className="mb-5 font-body text-sm" style={{ color: "var(--color-slate)" }}>
-              {candidate.sources.length} sources used on this page, sorted by type.
-            </p>
-            <ClaimAnchoredSourcePanel sources={candidate.sources} />
+            <div className="rounded-lg border p-5 sm:flex sm:items-center sm:justify-between sm:gap-6" style={{ borderColor: "rgba(16, 64, 93, 0.12)", backgroundColor: "#f8f9fa" }}>
+              <div>
+                <p className="font-heading font-bold" style={{ color: "var(--color-navy)" }}>
+                  {candidate.sources.length} linked public sources
+                </p>
+                <p className="mt-1 font-body text-sm leading-relaxed" style={{ color: "var(--color-charcoal)" }}>
+                  Open the complete source trail with every public URL used for this profile.
+                </p>
+              </div>
+              <Link
+                href={sourcePageHref}
+                className="mt-4 inline-flex min-h-11 items-center justify-center gap-2 rounded-md px-4 py-3 text-sm font-heading font-bold uppercase tracking-wider transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal sm:mt-0"
+                style={{ backgroundColor: "var(--color-navy)", color: "white" }}
+              >
+                Open Sources
+                <ArrowRight size={15} aria-hidden="true" />
+              </Link>
+            </div>
           </DossierSection>
 
           <CorrectionForm candidateName={candidate.name} />

@@ -90,7 +90,7 @@ export default function CandidatesPage() {
                 className="text-base leading-relaxed"
                 style={{ color: "rgba(246,246,246,0.80)" }}
               >
-                50+ officials and candidates researched — backgrounds, voting
+                56 officials and candidates researched — backgrounds, voting
                 records, church ties, campaign finance, and source-backed
                 reporting in plain English.
               </p>
@@ -224,12 +224,12 @@ export default function CandidatesPage() {
             {/* Grid */}
             {filtered.length > 0 ? (
               <ul
-                className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
+                className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 auto-rows-fr gap-6"
                 role="list"
                 aria-label="Candidates"
               >
                 {filtered.map((candidate) => (
-                  <li key={candidate.slug}>
+                  <li key={candidate.slug} className="h-full">
                     <CandidateCard
                       name={candidate.name}
                       position={candidate.position}

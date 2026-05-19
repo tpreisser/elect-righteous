@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -33,7 +33,38 @@ export const KEN_RAHJES_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "Key themes: Value Them Both, property-tax transparency, Kansas Promise Scholarship Act, COVID liability protections, unemployment-system overhaul, budget work, and constituent contact. (source) 6. July 1, 2025 Hays Post filing coverage carrying the campaign announcement.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-57"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "The accessible reviewed set did not include meaningful candidate-controlled social posting on abortion after the older 2021 Value Them Both reference, immigration, border policy, guns, crime beyond AI/campaign misuse and stalking minors in a 2021 legislative update, Medicaid expansion, child care, housing costs, broadband deployment, veterans services, or federal Trump/Biden national-politics messaging....",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-1"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "Public web",
+          "observation": "Several issue areas do not appear at meaningful frequency in the accessible material reviewed. The public set did not include repeated candidate-controlled posts centered on Medicaid expansion, child care, housing costs, broadband, veterans services, immigration, border policy, guns, crime, federal foreign policy, or abortion beyond the older 2021 Value Them Both legislative update. Gender-transition policy,...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-1"
+          ],
+          "mappedToIssueId": "i-abortion-sanctity-of-life-1"
+        }
+      ]
     },
     {
       "id": "i-marriage-family-lgbtq-policy-2",
@@ -67,7 +98,18 @@ export const KEN_RAHJES_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "kenforkansas.com",
+          "observation": "Key themes: election integrity and security, business filings, One Stop portal, campaign prayer/support/vote ask. (source) 4. Jan. 20, 2024 campaign-site relaunch post. Rahjes said he had filed for reelection to the Kansas House and continued to serve as chair of Agriculture and Natural Resources and on appropriations, higher education budget, and special claims committees. (source) 5. May 12, 2021 campaign...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-48"
+          ],
+          "mappedToIssueId": "i-religious-liberty-3"
+        }
+      ]
     },
     {
       "id": "i-guns-second-amendment-4",
@@ -118,7 +160,38 @@ export const KEN_RAHJES_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Hays Post",
+          "observation": "Key themes: speaking directly with voters, county clerks, voter ID, ending the mail-ballot grace period, school civic education, business filings, property taxes, and review of rules and regulations. (source) 8. Mar. 16, 2026 KVOE Emporia coverage. Key themes: statewide campaign travel, secure/counted votes, business filings, entrepreneurs, and continuing Scott Schwab's business-owner service work. (source) 9....",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-50"
+          ],
+          "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Hays Post",
+          "observation": "Key themes: rural senior transportation, rural health funding, conservation, water, AI campaign misuse, NIL funding, and local control. (source) 10. Feb. 9, 2025 Hays Post legislative coffee coverage. Key themes: state spending, water conservation, local school control, gender-transition policy for minors, rural attorney shortage, and ethanol infrastructure. (source) 11. Kansas Legislature current profile.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "hayspost.com",
+          "observation": "Local coverage of his campaign stops repeats the same two-part argument. At a November 2025 Hays event, Rahjes said, \"I believe I'm most effective by looking you in the eye and having a conversation,\" and tied his run to county clerks, voter ID, ending the three-day mail-ballot grace period, and civic education in schools. On the business side, he described the secretary of state's office as the \"front door\" for...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-50"
+          ],
+          "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
+        }
+      ]
     },
     {
       "id": "i-marijuana-drug-policy-7",
@@ -705,7 +778,8 @@ export const KEN_RAHJES_V2: CandidateFullV2 = {
       "publisher": "kenforkansas.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
+        "Source carried forward for Ken Rahjes's generated v2 profile.",
+        "Observed public online activity mapped to Religious Liberty."
       ]
     },
     {
@@ -727,7 +801,8 @@ export const KEN_RAHJES_V2: CandidateFullV2 = {
       "publisher": "hayspost.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
+        "Source carried forward for Ken Rahjes's generated v2 profile.",
+        "Observed public online activity mapped to School Choice / Parental Rights in Education."
       ]
     },
     {
@@ -804,7 +879,8 @@ export const KEN_RAHJES_V2: CandidateFullV2 = {
       "publisher": "kenforkansas.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
+        "Source carried forward for Ken Rahjes's generated v2 profile.",
+        "Observed public online activity mapped to Abortion / Sanctity of Life."
       ]
     },
     {
@@ -849,6 +925,18 @@ export const KEN_RAHJES_V2: CandidateFullV2 = {
       "accessed": "2026-03-31",
       "claimsAnchored": [
         "Source carried forward for Ken Rahjes's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://hayspost.com/posts/93f5e63a-dd1b-411a-98f8-c3ca8b2c187a",
+      "title": "Hays Post / Hayspost",
+      "publisher": "Hayspost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to School Choice / Parental Rights in Education.",
+        "Key themes: rural senior transportation, rural health funding, conservation, water, AI campaign misuse, NIL funding, and local control. (source) 10. Feb. 9, 2025 Hays Post legislat"
       ]
     }
   ]

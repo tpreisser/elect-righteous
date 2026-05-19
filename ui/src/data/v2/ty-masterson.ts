@@ -1,6 +1,6 @@
-/* Auto-generated from current v1/site-profile memory.
- * To refresh generated profiles:
- *   node scripts/generate-v2-from-current-data.mjs
+/* Auto-normalized with issue-mapped social/online cross-reference signals.
+ * To refresh:
+ *   node scripts/hydrate-v2-social-signals.mjs
  */
 
 import type { CandidateFullV2 } from "@/data/types-v2";
@@ -52,7 +52,28 @@ export const TY_MASTERSON_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Kansas Reflector",
+          "observation": "1. Campaign homepage, captured 2026-05-11. Masterson says Kansas is home, accuses Democratic governors and Laura Kelly/Joe Biden alignment of breaking Kansas's promise, cites violent crime, school proficiency, tax burden, and out-migration, and asks voters to \"Take Back Kansas.\" (source) 2. Campaign issue page, captured 2026-05-11. The campaign lists taxes, jobs, law enforcement/public safety, reading/math...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-1"
+          ],
+          "mappedToIssueId": "i-marriage-family-lgbtq-policy-2"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "X",
+          "observation": "Education and culture-war content is the second major signal, with 7 of 31 items, or 23 percent of the sample. The campaign site labels one plank \"Teach reading. Teach math. Not woke nonsense,\" citing low fourth-grade proficiency and promising higher pay for \"good teachers,\" parental say, and accountability. (source) The biography page says he fought DEI in higher education, transgender participation in women's...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-1"
+          ],
+          "mappedToIssueId": "i-marriage-family-lgbtq-policy-2"
+        }
+      ]
     },
     {
       "id": "i-religious-liberty-3",
@@ -69,7 +90,38 @@ export const TY_MASTERSON_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "X",
+          "observation": "Ron Bryce as a physician, conservative, author of *Fingerprint of God*, and someone whose \"Christian worldview\" guides work in Topeka. Visible mirror metrics: 155 views and small visible engagement counts. (source) 13. 2026-01 indexed X sample: Martin Luther King Jr. Day. Masterson wrote that people should be judged by \"content of his character\" rather than immutable quality, ethnicity, or faith.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-religious-liberty-3"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "Public web",
+          "observation": "Faith is not background-only in the visible record.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-3"
+          ],
+          "mappedToIssueId": "i-religious-liberty-3"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "mastersonforgovernor.com",
+          "observation": "The campaign biography says Masterson and his family attend NewSpring Church. (source) In the October 2025 Combat Antisemitism Movement interview, he said, \"My faith teaches that every life is precious,\" and described Christianity's roots in Judaism as a reason he feels kinship with Jews and Israel. (source) In the same interview, he said moral courage means taking a stand \"no matter the price\" and added, \"I...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-66"
+          ],
+          "mappedToIssueId": "i-religious-liberty-3"
+        }
+      ]
     },
     {
       "id": "i-guns-second-amendment-4",
@@ -86,7 +138,28 @@ export const TY_MASTERSON_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "X",
+          "observation": "Visible mirror metrics: about 1K views. (source) 17. 2026-01 indexed X sample: property tax after State of the State. Masterson wrote that Kansans are \"being taxed out of their homes\" and that Kelly and Democrats ignored the state's \"number one crisis.\" Visible mirror metrics: about 64K views, 476 likes, 87 replies, 44 reposts, and 34 bookmarks/reactions as displayed by the mirror. (source) 18. 2026-01 indexed X...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-guns-second-amendment-4"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "kslegislature.gov",
+          "observation": "Masterson's official legislative record reinforces the campaign themes. The Kansas Legislature profile lists him as Senate president and shows sponsored or co-sponsored measures on property-tax valuation limits, school-device and social-media rules, citizen voting, gun rights, housing permitting, and Charlie Kirk Free Speech Day. (source) The campaign biography condenses that record into the claim that he...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-3"
+          ],
+          "mappedToIssueId": "i-guns-second-amendment-4"
+        }
+      ]
     },
     {
       "id": "i-immigration-border-5",
@@ -103,7 +176,28 @@ export const TY_MASTERSON_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "Facebook",
+          "observation": "The accessible amplification pattern is message and alliance based: the campaign site links to Facebook, Instagram, and X; the X sample repeatedly uses #TakeBackKansas; the indexed sample includes endorsements from Republican legislators; public reporting shows Trump-aligned consultants and outside groups forming around Masterson; and Masterson's own posts explicitly align with President Trump and ICE.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-3"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "X",
+          "observation": "The reviewed campaign and social material also shows a deliberate Trump-alignment strategy. Washington Examiner reported on November 11, 2025, that Trump 2024 orbit consultants and outside groups were organizing behind Masterson through Take Back Kansas and Take Back Kansas Action. (source) In the X sample, Masterson wrote, \"I stand with ICE and with President Trump!\" (source) and said President Trump's...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-377"
+          ],
+          "mappedToIssueId": "i-immigration-border-5"
+        }
+      ]
     },
     {
       "id": "i-school-choice-parental-rights-in-education-6",
@@ -120,7 +214,38 @@ export const TY_MASTERSON_V2: CandidateFullV2 = {
         ]
       },
       "actions": [],
-      "socialSignals": []
+      "socialSignals": [
+        {
+          "id": "ss-crossref-1",
+          "platform": "mastersonforgovernor.com",
+          "observation": "The official campaign site is the campaign's strongest candidate-controlled channel. It frames the race around taking back Kansas, lower taxes, jobs, public safety, education outcomes, anti-\"woke\" policy, and conservative social policy. The homepage says Kansas is not living up to its \"potential\" or \"promises\" and that Masterson is running \"To Take Back Kansas.\" (source)",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-1"
+          ],
+          "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
+        },
+        {
+          "id": "ss-crossref-3",
+          "platform": "X",
+          "observation": "Visible mirror metrics: 373 views and small visible engagement counts. (source) 14. 2026-01 indexed X sample: Charlie Kirk and classroom speech. Masterson wrote that Charlie Kirk was \"martyred for freedom of speech,\" connected the issue to K-12 education reform, and said legislation was being drafted to protect classroom speech.",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
+        },
+        {
+          "id": "ss-crossref-5",
+          "platform": "X",
+          "observation": "Visible mirror metrics: about 2K views, 40 likes, and 10 replies in the mirror display. (source) 15. 2026-01 indexed X sample: Joseph Claeys endorsement. Masterson highlighted Claeys' background as a school psychologist and \"student-focused education.\" (source) 16. 2026-01 indexed X sample: Wichita Pachyderm Club / property tax. Masterson said the top legislative priority would be a constitutional amendment...",
+          "observedAt": "2026-05-19",
+          "sourceIds": [
+            "s-social-crossref-2"
+          ],
+          "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
+        }
+      ]
     },
     {
       "id": "i-marijuana-drug-policy-7",
@@ -193,7 +318,9 @@ export const TY_MASTERSON_V2: CandidateFullV2 = {
       "publisher": "mastersonforgovernor.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Ty Masterson's generated v2 profile."
+        "Source carried forward for Ty Masterson's generated v2 profile.",
+        "Observed public online activity mapped to Marriage & Family / LGBTQ+ Policy.",
+        "Observed public online activity mapped to School Choice / Parental Rights in Education."
       ]
     },
     {
@@ -908,7 +1035,9 @@ export const TY_MASTERSON_V2: CandidateFullV2 = {
       "publisher": "mastersonforgovernor.com",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Ty Masterson's generated v2 profile."
+        "Source carried forward for Ty Masterson's generated v2 profile.",
+        "Observed public online activity mapped to Marriage & Family / LGBTQ+ Policy.",
+        "Observed public online activity mapped to Religious Liberty."
       ]
     },
     {
@@ -4329,7 +4458,8 @@ export const TY_MASTERSON_V2: CandidateFullV2 = {
       "publisher": "Washingtonexaminer.Com",
       "accessed": "2026-03-31",
       "claimsAnchored": [
-        "Source carried forward for Ty Masterson's generated v2 profile."
+        "Source carried forward for Ty Masterson's generated v2 profile.",
+        "Observed public online activity mapped to Immigration / Border."
       ]
     },
     {
@@ -4528,6 +4658,44 @@ export const TY_MASTERSON_V2: CandidateFullV2 = {
       "accessed": "2026-03-31",
       "claimsAnchored": [
         "Source carried forward for Ty Masterson's generated v2 profile."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://www.mastersonforgovernor.com/about",
+      "title": "X / Mastersonforgovernor",
+      "publisher": "Mastersonforgovernor",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Marriage & Family / LGBTQ+ Policy.",
+        "Education and culture-war content is the second major signal, with 7 of 31 items, or 23 percent of the sample. The campaign site labels one plank \"Teach reading. Teach math. Not wo"
+      ]
+    },
+    {
+      "id": "s-social-crossref-2",
+      "tier": "secondary",
+      "url": "https://w.twstalker.com/TyMastersonKS",
+      "title": "X / W.Twstalker",
+      "publisher": "W.Twstalker",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Religious Liberty.",
+        "Ron Bryce as a physician, conservative, author of *Fingerprint of God*, and someone whose \"Christian worldview\" guides work in Topeka. Visible mirror metrics: 155 views and small v",
+        "Observed public online activity mapped to Guns / Second Amendment.",
+        "Observed public online activity mapped to School Choice / Parental Rights in Education."
+      ]
+    },
+    {
+      "id": "s-social-crossref-3",
+      "tier": "primary",
+      "url": "https://www.kslegislature.gov/legislators/sen_masterson_ty_1/",
+      "title": "kslegislature.gov / Kslegislature",
+      "publisher": "Kslegislature",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Guns / Second Amendment.",
+        "Masterson's official legislative record reinforces the campaign themes. The Kansas Legislature profile lists him as Senate president and shows sponsored or co-sponsored measures on"
       ]
     }
   ]
