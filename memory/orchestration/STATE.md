@@ -9,12 +9,23 @@ wave: 1
 last_updated: 2026-05-19T20:30:00Z
 
 ## In flight
-- agent: web-code-executor
-  task: P1.2 v2 components + Allen Park PoC
-  started: 2026-05-19T21:00:00Z
-  candidate: allen-park
 
 ## Done
+- agent: web-code-executor
+  task: P1.2 v2 components + Allen Park PoC
+  completed: 2026-05-19T22:00:00Z
+  commit: 4ebe9f1
+  summary: |
+    Four v2 render components in ui/src/components/v2/:
+    IssueCardComponent, ActionList, SocialSignalChip, ClaimAnchoredSourcePanel.
+    Issue rendered: superintendent hiring practices and nepotism policy.
+    ActionEvidence: 5 entries (nepotism vote Apr 2023, admin contracts
+    Jan 2024, asbestos vote Sep 2025, bond PM May 2024, property sale Nov 2025).
+    SocialSignal: 1 entry (Oct 2023 Hays Post Q&A observation, mapped to issue).
+    Validator: { ok: true }. Build: 129 pages, 0 TS errors.
+    Symmetry test: no rewrites required — all prose neutral.
+    Route: /candidates/allen-park-v2
+
 - agent: nextjs-expert
   task: P1.1 v2 schema design
   completed: 2026-05-19T20:30:00Z
@@ -74,7 +85,7 @@ last_updated: 2026-05-19T20:30:00Z
 ## Per-candidate progress
 # tracey-mann: published
 # ken-brooks: ready_for_operator
-# allen-park: ready_for_operator
+allen-park: v2_poc_rendered (Phase 1 worked example)
 # nathan-leiker: queued
 # ...
 
@@ -105,5 +116,5 @@ last_updated: 2026-05-19T20:30:00Z
 - reports/ellis-county-elected-officials-deep-investigation.md
 
 ## Next action
-# Phase 1 in progress. P1.1 done. Next: dispatch P1.2 (web-code-executor)
-# to build v2 render components and the Allen Park worked example.
+# Phase 1 in progress. P1.2 done. Next: dispatch P1.3 (ui-mobile)
+# to audit /candidates/allen-park-v2/ at 390px viewport.
