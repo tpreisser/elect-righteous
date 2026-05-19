@@ -53,6 +53,7 @@ export const ALLEN_PARK_V2: CandidateFullV2 = {
           sourceIds: [
             "s-hayspost-nepotism-vote",
             "s-hayspost-nepotism-debate",
+            "s-usd489-boarddocs",
           ],
         },
         {
@@ -63,6 +64,7 @@ export const ALLEN_PARK_V2: CandidateFullV2 = {
           sourceIds: [
             "s-hayspost-admin-contracts",
             "s-citizenjournal-board-takeaways",
+            "s-usd489-boarddocs",
           ],
         },
         {
@@ -70,7 +72,7 @@ export const ALLEN_PARK_V2: CandidateFullV2 = {
           date: "2025-09-23",
           body:
             "Voted no on an asbestos removal change order at the high school, and also voted against an $88,347 high-school facilities change order at the same meeting. Park said his no vote was about process, not opposition to the safety work itself: \"I am No. 1 on safety.\" He said he wanted the change-order documentation reviewed in advance rather than presented at the meeting. Board member Ruth Ruder publicly challenged him after the vote, saying she was \"sick and tired\" of repeated no votes on items she considered routine.",
-          sourceIds: ["s-hayspost-asbestos-vote"],
+          sourceIds: ["s-hayspost-asbestos-vote", "s-usd489-boarddocs"],
         },
         {
           id: "a-bond-project-manager-2024",
