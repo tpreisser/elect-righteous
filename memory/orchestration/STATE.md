@@ -14,7 +14,7 @@ last_updated: 2026-05-19T20:30:00Z
 - agent: web-code-executor
   task: P1.2 loopback (sourceIds fix)
   completed: 2026-05-19T23:10:00Z
-  commit: TBD
+  commit: 308175a
   summary: |
     Appended "s-usd489-boarddocs" (tier: primary) to sourceIds of 3 vote-based
     ActionEvidence entries in ui/src/data/v2/allen-park.ts:
