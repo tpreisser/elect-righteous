@@ -124,13 +124,18 @@ export default function SiteHeader() {
             </nav>
 
             {/* Mobile hamburger button */}
+            {/* min-w-[44px] min-h-[44px]: Apple HIG 44×44px minimum tap target */}
             <button
-              className="md:hidden flex items-center justify-center w-10 h-10 rounded-md transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal hover:bg-light"
+              className="md:hidden flex items-center justify-center w-11 h-11 rounded-md transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal hover:bg-light"
               onClick={() => setIsMobileMenuOpen((prev) => !prev)}
               aria-label={isMobileMenuOpen ? "Close navigation menu" : "Open navigation menu"}
               aria-expanded={isMobileMenuOpen}
               aria-controls="mobile-nav"
-              style={{ color: "var(--color-navy)" }}
+              style={{
+                color: "var(--color-navy)",
+                WebkitTapHighlightColor: "transparent",
+                touchAction: "manipulation",
+              }}
             >
               {isMobileMenuOpen ? (
                 <X size={22} strokeWidth={2.5} />
@@ -179,11 +184,16 @@ export default function SiteHeader() {
             >
               Menu
             </span>
+            {/* min 44×44px tap target per Apple HIG */}
             <button
-              className="flex items-center justify-center w-10 h-10 rounded-md transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal hover:bg-light"
+              className="flex items-center justify-center w-11 h-11 rounded-md transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-teal hover:bg-light"
               onClick={() => setIsMobileMenuOpen(false)}
               aria-label="Close navigation menu"
-              style={{ color: "var(--color-navy)" }}
+              style={{
+                color: "var(--color-navy)",
+                WebkitTapHighlightColor: "transparent",
+                touchAction: "manipulation",
+              }}
             >
               <X size={22} strokeWidth={2.5} />
             </button>

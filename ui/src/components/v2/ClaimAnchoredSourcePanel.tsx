@@ -182,9 +182,10 @@ export default function ClaimAnchoredSourcePanel({
           if (count === 0) return null;
           const cfg = TIER_CONFIG[tier];
           return (
-            <span key={tier} className="flex items-center gap-1.5">
+            <span key={tier} className="flex items-center gap-1.5 min-w-0">
               <TierBadge tier={tier} />
-              <span style={{ color: "var(--color-slate)" }}>
+              {/* min-w-0: prevents flex item from overflowing on narrow mobile viewports */}
+              <span className="min-w-0 break-words" style={{ color: "var(--color-slate)" }}>
                 {cfg.description} ({count})
               </span>
             </span>

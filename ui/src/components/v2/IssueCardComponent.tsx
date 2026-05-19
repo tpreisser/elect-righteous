@@ -100,7 +100,12 @@ export default function IssueCardComponent({
       <button
         type="button"
         className="w-full flex items-start justify-between gap-4 p-5 sm:p-6 text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-teal group"
-        style={{ backgroundColor: "#f8f9fa" }}
+        style={{
+          backgroundColor: "#f8f9fa",
+          /* iOS Safari: eliminate 300ms tap delay + remove gray flash */
+          WebkitTapHighlightColor: "transparent",
+          touchAction: "manipulation",
+        }}
         onClick={() => setExpanded((e) => !e)}
         aria-expanded={expanded}
         aria-controls={`issue-${issue.id}-body`}

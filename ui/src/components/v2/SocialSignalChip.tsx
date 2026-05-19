@@ -89,7 +89,27 @@ export default function SocialSignalChip({
               <button
                 type="button"
                 className="ml-1 font-semibold underline focus:outline-none focus-visible:ring-2 focus-visible:ring-teal"
-                style={{ color: "var(--color-teal-dark)", fontSize: "0.85rem" }}
+                style={{
+                  color: "var(--color-teal-dark)",
+                  fontSize: "0.85rem",
+                  /* iOS Safari: ensure 44px minimum tap height via padding
+                     without affecting visual line height. Negative vertical
+                     margin compensates so surrounding text flow is unchanged. */
+                  paddingTop: "0.75rem",
+                  paddingBottom: "0.75rem",
+                  marginTop: "-0.75rem",
+                  marginBottom: "-0.75rem",
+                  paddingLeft: "0.25rem",
+                  paddingRight: "0.25rem",
+                  WebkitTapHighlightColor: "transparent",
+                  touchAction: "manipulation",
+                  /* min-width ensures the button is tappable even when "less" is short */
+                  minWidth: "2.75rem",
+                  display: "inline-flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  verticalAlign: "middle",
+                }}
                 onClick={() => setExpanded((e) => !e)}
                 aria-expanded={expanded}
               >

@@ -9,6 +9,10 @@ wave: 1
 last_updated: 2026-05-19T20:30:00Z
 
 ## In flight
+- agent: ui-mobile
+  task: P1.3 mobile audit Allen Park v2 (re-run)
+  started: 2026-05-19T23:30:00Z
+  candidate: allen-park
 
 ## Done
 - agent: web-code-executor
