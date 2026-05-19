@@ -407,29 +407,6 @@ export const RUTH_RUDER_V2: CandidateFullV2 = {
       ]
     },
     {
-      "id": "s-usd489-board-page",
-      "tier": "primary",
-      "url": "https://www.usd489.com/page/board-of-education",
-      "title": "USD 489 Board of Education — Official Members Page",
-      "publisher": "Unified School District 489 (Hays, KS)",
-      "accessed": "2026-05-20",
-      "claimsAnchored": [
-        "Ruth Ruder is a current USD 489 board member",
-        "Ruth Ruder's board term runs through approximately January 2028"
-      ]
-    },
-    {
-      "id": "s-usd489-highbond-members",
-      "tier": "primary",
-      "url": "https://usd489.community.highbond.com/portal/members.aspx?id=18",
-      "title": "USD 489 Board Member Portal — Highbond",
-      "publisher": "Unified School District 489 (Hays, KS)",
-      "accessed": "2026-05-20",
-      "claimsAnchored": [
-        "Current board officer roles reflected: Vajnar President, Brooks Vice-President, Ruder Member (date-of-page-update not visible in fetch — see title arc note)"
-      ]
-    },
-    {
       "id": "s-hayspost-discipline-handbook-jul2025",
       "tier": "secondary",
       "url": "https://hayspost.com/posts/bc933c79-2f23-4279-8171-bc6dcf391cf0",

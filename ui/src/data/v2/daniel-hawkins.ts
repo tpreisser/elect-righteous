@@ -23,12 +23,11 @@ export const DANIEL_HAWKINS_V2: CandidateFullV2 = {
       "stated": {
         "text": "Describes himself as \"pro-life\" and lists defending life as a core belief. His campaign website leads with \"PRO-LIFE. PRO-GUN. PRO-TRUMP.\"",
         "sourceIds": [
-          "s-29",
-          "s-31",
-          "s-36",
-          "s-37",
-          "s-50",
-          "s-1"
+          "s-12",
+          "s-1",
+          "s-2",
+          "s-3",
+          "s-7"
         ]
       },
       "actions": [],
@@ -39,7 +38,7 @@ export const DANIEL_HAWKINS_V2: CandidateFullV2 = {
           "observation": "Latest visible candidate-controlled material: the older campaign site's embedded Facebook feed showed relative timestamps within days of access on May 11, 2026, including posts on legislative wrap-up, United WE, Moody's, law enforcement valor awards, White House recognition, Butler County GOP, SNAP audit, property tax relief, senior crypto scams, and pro-life/religious-freedom wins.",
           "observedAt": "2026-05-19",
           "sourceIds": [
-            "s-6"
+            "s-4"
           ],
           "mappedToIssueId": "i-abortion-sanctity-of-life-1"
         },
@@ -49,7 +48,7 @@ export const DANIEL_HAWKINS_V2: CandidateFullV2 = {
           "observation": "His older Hawkins for Kansas site supplies the ideological baseline: unchecked government expansion limits freedom and hurts business growth; he says he is dedicated to defending life, strengthening the family, and protecting rights. That site's public Facebook feed shows the day-to-day version of the same message: legislative wrap-ups with chambers of commerce and GOP groups, property-tax pressure on Kelly,...",
           "observedAt": "2026-05-19",
           "sourceIds": [
-            "s-1"
+            "s-2"
           ],
           "mappedToIssueId": "i-abortion-sanctity-of-life-1"
         }
@@ -61,12 +60,10 @@ export const DANIEL_HAWKINS_V2: CandidateFullV2 = {
       "stated": {
         "text": "No candidate-controlled statement was found in the reviewed public record for this issue. This page therefore does not infer a position from party label, faith affiliation, follows, likes, comments, or associations.",
         "sourceIds": [
-          "s-11",
-          "s-17",
-          "s-28",
-          "s-30",
-          "s-33",
-          "s-41"
+          "s-1",
+          "s-2",
+          "s-3",
+          "s-7"
         ]
       },
       "actions": [],
@@ -78,12 +75,10 @@ export const DANIEL_HAWKINS_V2: CandidateFullV2 = {
       "stated": {
         "text": "No candidate-controlled statement was found in the reviewed public record for this issue. This page therefore does not infer a position from party label, faith affiliation, follows, likes, comments, or associations.",
         "sourceIds": [
-          "s-11",
-          "s-17",
-          "s-28",
-          "s-30",
-          "s-33",
-          "s-38"
+          "s-1",
+          "s-2",
+          "s-3",
+          "s-7"
         ]
       },
       "actions": [],
@@ -95,12 +90,11 @@ export const DANIEL_HAWKINS_V2: CandidateFullV2 = {
       "stated": {
         "text": "Describes himself as \"pro-gun.\" Has made Second Amendment support part of his campaign branding.",
         "sourceIds": [
-          "s-29",
-          "s-31",
-          "s-36",
-          "s-37",
-          "s-50",
-          "s-1"
+          "s-12",
+          "s-1",
+          "s-2",
+          "s-3",
+          "s-7"
         ]
       },
       "actions": [],
@@ -112,12 +106,10 @@ export const DANIEL_HAWKINS_V2: CandidateFullV2 = {
       "stated": {
         "text": "No candidate-controlled statement was found in the reviewed public record for this issue. This page therefore does not infer a position from party label, faith affiliation, follows, likes, comments, or associations.",
         "sourceIds": [
-          "s-11",
-          "s-17",
-          "s-28",
-          "s-30",
-          "s-32",
-          "s-33"
+          "s-1",
+          "s-2",
+          "s-3",
+          "s-7"
         ]
       },
       "actions": [],
@@ -129,12 +121,10 @@ export const DANIEL_HAWKINS_V2: CandidateFullV2 = {
       "stated": {
         "text": "No candidate-controlled statement was found in the reviewed public record for this issue. This page therefore does not infer a position from party label, faith affiliation, follows, likes, comments, or associations.",
         "sourceIds": [
-          "s-11",
-          "s-17",
-          "s-28",
-          "s-30",
-          "s-33",
-          "s-41"
+          "s-1",
+          "s-2",
+          "s-3",
+          "s-7"
         ]
       },
       "actions": [],
@@ -146,12 +136,12 @@ export const DANIEL_HAWKINS_V2: CandidateFullV2 = {
       "stated": {
         "text": "Runs as a Republican. The Kansas Republican Party has not endorsed marijuana legali",
         "sourceIds": [
-          "s-1",
+          "s-10",
           "s-2",
           "s-3",
-          "s-5",
-          "s-7",
-          "s-12"
+          "s-11",
+          "s-15",
+          "s-16"
         ]
       },
       "actions": [],
@@ -208,684 +198,112 @@ export const DANIEL_HAWKINS_V2: CandidateFullV2 = {
     {
       "id": "s-1",
       "tier": "secondary",
-      "url": "https://danhawkinskansas.com/",
-      "title": "Danhawkinskansas.Com",
-      "publisher": "danhawkinskansas.com",
+      "url": "https://www.hawkinsforinsurance.com/",
+      "title": "Hawkins for Insurance",
+      "publisher": "Hawkinsforinsurance",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile.",
-        "Observed public online activity mapped to Abortion / Sanctity of Life."
+        "Candidate-specific source extracted for Daniel Hawkins."
       ]
     },
     {
       "id": "s-2",
-      "tier": "primary",
-      "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm",
-      "title": "Kansas.Gov",
-      "publisher": "kansas.gov",
+      "tier": "secondary",
+      "url": "https://danhawkinskansas.com/",
+      "title": "Hawkins for Kansas",
+      "publisher": "Danhawkinskansas",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
+        "Candidate-specific source extracted for Daniel Hawkins.",
+        "Observed public online activity mapped to Abortion / Sanctity of Life."
       ]
     },
     {
       "id": "s-3",
       "tier": "primary",
-      "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/Treasurers/SW03DH_AT.pdf",
-      "title": "Kansas.Gov",
-      "publisher": "kansas.gov",
+      "url": "https://www.kslegislature.gov/b2025_26/legislators/rep_hawkins_daniel_1/",
+      "title": "Kansas Legislature profile",
+      "publisher": "Kslegislature",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
+        "Candidate-specific source extracted for Daniel Hawkins."
       ]
     },
     {
       "id": "s-4",
-      "tier": "secondary",
-      "url": "https://hartforsenate.com/",
-      "title": "Hartforsenate.Com",
-      "publisher": "hartforsenate.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-5",
-      "tier": "secondary",
-      "url": "https://www.christydavisforkansas.com/",
-      "title": "Christydavisforkansas.Com",
-      "publisher": "christydavisforkansas.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-6",
       "tier": "social",
-      "url": "https://www.facebook.com/christy.davis.710/",
-      "title": "Facebook.Com",
-      "publisher": "facebook.com",
+      "url": "https://x.com/DanHawkinsKS",
+      "title": "@DanHawkinsKS",
+      "publisher": "X",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
+        "Candidate-specific source extracted for Daniel Hawkins."
       ]
     },
     {
       "id": "s-7",
       "tier": "secondary",
-      "url": "https://sandyforkansas.com/",
-      "title": "Sandyforkansas.Com",
-      "publisher": "sandyforkansas.com",
+      "url": "https://www.wibw.com/2026/01/06/2026-session-countdown-rep-dan-hawkins-ks-house-speaker/",
+      "title": "WIBW: 2026 session interview page",
+      "publisher": "Wibw",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-8",
-      "tier": "social",
-      "url": "https://x.com/speumann",
-      "title": "X.Com",
-      "publisher": "x.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-9",
-      "tier": "social",
-      "url": "https://www.instagram.com/speumann/",
-      "title": "Instagram.Com",
-      "publisher": "instagram.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
+        "Candidate-specific source extracted for Daniel Hawkins."
       ]
     },
     {
       "id": "s-10",
-      "tier": "social",
-      "url": "https://www.linkedin.com/in/sandy-spidel-neumann-a278536/",
-      "title": "Linkedin.Com",
-      "publisher": "linkedin.com",
+      "tier": "secondary",
+      "url": "https://heartlandsignal.com/2026/03/26/kansas-republicans-defy-house-speaker-dan-hawkins-and-pass-prescription-drug-consumer-protections-bill/",
+      "title": "Heartland Signal: Kansas Republicans defy Hawkins, pass prescription drug bill",
+      "publisher": "Heartlandsignal",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
+        "Candidate-specific source extracted for Daniel Hawkins."
       ]
     },
     {
       "id": "s-11",
-      "tier": "primary",
-      "url": "https://www.fec.gov/data/candidate/S6KS00262/",
-      "title": "Fec.Gov",
-      "publisher": "fec.gov",
+      "tier": "secondary",
+      "url": "https://ballotpedia.org/Daniel_Hawkins_(Kansas",
+      "title": "Ballotpedia: Daniel Hawkins",
+      "publisher": "Ballotpedia",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
+        "Candidate-specific source extracted for Daniel Hawkins."
       ]
     },
     {
       "id": "s-12",
       "tier": "secondary",
-      "url": "https://erikforkansas.com/",
-      "title": "Erikforkansas.Com",
-      "publisher": "erikforkansas.com",
+      "url": "https://sunflowerstatejournal.com/hawkins-reveals-campaign-fundraising-for-insurance-commissioner/",
+      "title": "Sunflower State Journal: Hawkins reveals fundraising",
+      "publisher": "Sunflowerstatejournal",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-13",
-      "tier": "social",
-      "url": "https://www.facebook.com/",
-      "title": "Facebook.Com",
-      "publisher": "facebook.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-14",
-      "tier": "secondary",
-      "url": "https://mikeforkansas.my.canva.site/",
-      "title": "Mikeforkansas.My.Canva.Site",
-      "publisher": "mikeforkansas.my.canva.site",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
+        "Candidate-specific source extracted for Daniel Hawkins."
       ]
     },
     {
       "id": "s-15",
       "tier": "secondary",
-      "url": "https://secure.actblue.com/donate/michael-soetaert",
-      "title": "Secure.Actblue.Com",
-      "publisher": "secure.actblue.com",
+      "url": "https://ballotpedia.org/Daniel_Hawkins_(Kansas)",
+      "title": "Ballotpedia",
+      "publisher": "Ballotpedia",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
+        "Candidate-specific source extracted for Daniel Hawkins."
       ]
     },
     {
       "id": "s-16",
-      "tier": "social",
-      "url": "https://www.facebook.com/michael.soetaert1/",
-      "title": "Facebook.Com",
-      "publisher": "facebook.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-17",
-      "tier": "primary",
-      "url": "https://www.fec.gov/data/candidate/S2KS00097/",
-      "title": "Fec.Gov",
-      "publisher": "fec.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-18",
-      "tier": "secondary",
-      "url": "https://patrickforkansas.com/",
-      "title": "Patrickforkansas.Com",
-      "publisher": "patrickforkansas.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-19",
-      "tier": "social",
-      "url": "https://www.facebook.com/patrickforkansas/",
-      "title": "Facebook.Com",
-      "publisher": "facebook.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-20",
-      "tier": "secondary",
-      "url": "https://www.kssenatedems.org/patrick-schmidt",
-      "title": "Kssenatedems.Org",
-      "publisher": "kssenatedems.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-21",
-      "tier": "primary",
-      "url": "https://www.kslegislature.gov/li/b2025_26/members/rep_hawkins_daniel_1/",
-      "title": "Kslegislature.Gov",
-      "publisher": "kslegislature.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-22",
-      "tier": "secondary",
-      "url": "https://www.hawkinsforinsurance.com/",
-      "title": "Hawkinsforinsurance.Com",
-      "publisher": "hawkinsforinsurance.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-23",
-      "tier": "social",
-      "url": "https://x.com/danhawkinsks",
-      "title": "X.Com",
-      "publisher": "x.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-24",
-      "tier": "secondary",
-      "url": "https://www.dinahsykes.com/",
-      "title": "Dinahsykes.Com",
-      "publisher": "dinahsykes.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-25",
-      "tier": "social",
-      "url": "https://www.facebook.com/Sykes4KS/",
-      "title": "Facebook.Com",
-      "publisher": "facebook.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-26",
-      "tier": "secondary",
-      "url": "https://www.kssenatedems.org/dinah-sykes",
-      "title": "Kssenatedems.Org",
-      "publisher": "kssenatedems.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-27",
-      "tier": "primary",
-      "url": "https://www.kslegislature.gov/li/b2025_26/members/sen_sykes_dinah_1/",
-      "title": "Kslegislature.Gov",
-      "publisher": "kslegislature.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-28",
-      "tier": "secondary",
-      "url": "https://www.kcur.org/politics-elections-and-government/2025-12-30/whos-running-to-represent-kansas-in-the-u-s-senate-in-2026-heres-a-guide-to-the-candidates",
-      "title": "Kcur.Org",
-      "publisher": "kcur.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-29",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2026/03/08/kansas-democrats-in-u-s-senate-campaign-focus-on-defeating-gop-incumbent/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-30",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2026/03/23/democratic-candidate-in-u-s-senate-race-opens-arms-to-kansas-republicans-lost-in-the-wilderness/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-31",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2026/03/16/kansas-city-entrepreneur-prioritizes-passion-decency-in-campaign-for-u-s-senate/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-32",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2025/08/25/democratic-immigration-lawyer-wants-to-fix-broken-system-with-run-for-u-s-senate-in-kansas/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-33",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2025/08/18/democratic-u-s-senate-candidate-eager-to-broaden-kansas-voice-in-d-c-politics/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-34",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/briefs/kansas-senate-minority-leader-challenges-gop-house-speaker-for-state-insurance-commissioner/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-35",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2026/03/22/kansas-house-speaker-desperately-maneuvers-to-sabotage-vote-on-senate-bill-capping-drug-costs/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-36",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2025/05/13/kansas-house-speaker-launches-campaign-for-insurance-commissioner-with-pro-trump-rhetoric-1/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-37",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/briefs/kansas-democrat-launches-u-s-senate-campaign-criticizes-gop-incumbent-marshall/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-38",
-      "tier": "secondary",
-      "url": "https://heartlandsignal.com/2026/03/26/kansas-republicans-defy-house-speaker-dan-hawkins-and-pass-prescription-drug-consumer-protections-bill/",
-      "title": "Heartlandsignal.Com",
-      "publisher": "heartlandsignal.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-39",
-      "tier": "secondary",
-      "url": "https://www.kmuw.org/government/2026-03-26/kansas-house-passes-bill-providing-stricter-regulation-of-prescription-drug-middlemen",
-      "title": "Kmuw.Org",
-      "publisher": "kmuw.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-40",
-      "tier": "primary",
-      "url": "https://www.fec.gov/data/elections/senate/KS/2026/",
-      "title": "Fec.Gov",
-      "publisher": "fec.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-41",
-      "tier": "primary",
-      "url": "https://www.fec.gov/data/candidate/S0KS00315/",
-      "title": "Fec.Gov",
-      "publisher": "fec.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-42",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/United_States_Senate_election_in_Kansas,_2026",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-43",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Kansas_Insurance_Commissioner_election,_2026",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-44",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Daniel_Hawkins_(Kansas",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-45",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Dinah_Sykes",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-46",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Patrick_Schmidt",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-47",
-      "tier": "secondary",
-      "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Kansas",
-      "title": "En.Wikipedia.Org",
-      "publisher": "en.wikipedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-48",
-      "tier": "secondary",
-      "url": "https://www.cookpolitical.com/senate/race/488581",
-      "title": "Cookpolitical.Com",
-      "publisher": "cookpolitical.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-49",
-      "tier": "secondary",
-      "url": "https://smartpolitics.lib.umn.edu/2025/03/05/how-well-can-democrats-fare-in-kansas-2026-us-senate-election/",
-      "title": "Smartpolitics.Lib.Umn.Edu",
-      "publisher": "smartpolitics.lib.umn.edu",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-50",
-      "tier": "secondary",
-      "url": "https://sunflowerstatejournal.com/hawkins-reveals-campaign-fundraising-for-insurance-commissioner/",
-      "title": "Sunflowerstatejournal.Com",
-      "publisher": "sunflowerstatejournal.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-51",
-      "tier": "secondary",
-      "url": "https://www.nrsc.org/press-releases/nrsc-calls-for-investigation-into-four-kansas-democrat-senate-candidates-for-violating-the-law-2026-03-11/",
-      "title": "Nrsc.Org",
-      "publisher": "nrsc.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-52",
-      "tier": "secondary",
-      "url": "https://freebeacon.com/democrats/kansas-senate-candidate-names-his-political-inspiration-a-black-panther-soldier-working-to-destroy-the-american-empire/",
-      "title": "Freebeacon.Com",
-      "publisher": "freebeacon.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-53",
-      "tier": "secondary",
-      "url": "https://www.ksn.com/news/state-regional/kansas-us-senate-candidates-under-scrutiny-over-missing-financial-disclosures/",
-      "title": "Ksn.Com",
-      "publisher": "ksn.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-54",
-      "tier": "secondary",
-      "url": "https://www.cnn.com/2018/12/19/politics/kansas-legislature-republican-democrat/index.html",
-      "title": "Cnn.Com",
-      "publisher": "cnn.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-55",
-      "tier": "secondary",
-      "url": "https://www.kcur.org/politics-elections-and-government/2018-12-19/more-kansas-legislative-republicans-jump-ship-become-democrats",
-      "title": "Kcur.Org",
-      "publisher": "kcur.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-56",
-      "tier": "secondary",
-      "url": "https://www.salon.com/2018/12/21/three-kansas-republicans-switch-parties-in-one-week-more-defections-expected/",
-      "title": "Salon.Com",
-      "publisher": "salon.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-57",
-      "tier": "primary",
-      "url": "https://www.kslegislature.gov/li/b2025_26/members/sen_schmidt_patrick_1/",
-      "title": "Kslegislature.Gov",
-      "publisher": "kslegislature.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-58",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2024/04/18/kansas-house-speaker-meets-opposition-as-he-makes-case-against-medicaid-expansion-in-plainville/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-59",
-      "tier": "secondary",
-      "url": "https://www.jocoelection.org/candidates-elected-officials/daniel-hawkins",
-      "title": "Jocoelection.Org",
-      "publisher": "jocoelection.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-60",
       "tier": "secondary",
       "url": "https://danhawkinskansas.com/about/",
-      "title": "Danhawkinskansas.Com",
-      "publisher": "danhawkinskansas.com",
+      "title": "Danhawkinskansas",
+      "publisher": "Danhawkinskansas",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-61",
-      "tier": "primary",
-      "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW03DH_202601.pdf",
-      "title": "Kansas.Gov",
-      "publisher": "kansas.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-62",
-      "tier": "secondary",
-      "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/house-speaker-dan-hawkins-eyes-state-insurance-office-535815.aspx",
-      "title": "Insurance Business Mag",
-      "publisher": "Insurancebusinessmag.Com",
-      "accessed": "2026-03-31",
-      "claimsAnchored": [
-        "Source carried forward for Daniel Hawkins's generated v2 profile."
+        "Candidate-specific source extracted for Daniel Hawkins."
       ]
     }
   ]

@@ -24,12 +24,10 @@ export const PAT_PROCTOR_V2: CandidateFullV2 = {
       "stated": {
         "text": "No candidate-controlled statement was found in the reviewed public record for this issue. This page therefore does not infer a position from party label, faith affiliation, follows, likes, comments, or associations.",
         "sourceIds": [
-          "s-24",
-          "s-25",
-          "s-28",
-          "s-29",
-          "s-30",
-          "s-32"
+          "s-10",
+          "s-12",
+          "s-13",
+          "s-14"
         ]
       },
       "actions": [],
@@ -40,7 +38,7 @@ export const PAT_PROCTOR_V2: CandidateFullV2 = {
           "observation": "Loudlight, Appleseed, and their allies hide behind their supposed nonpartisan, nonprofit status to rake in millions from George Soros and foreign billionaires that they use to sue every common sense measure we pass to restore…\" (source). On May 27, 2025, he posted on X: \"Why are the @aclukansas, Planned Parenthood, and the other members of the pro-abortion 'Kansans for Constitutional Freedom' suing to protect...",
           "observedAt": "2026-05-19",
           "sourceIds": [
-            "s-social-crossref-1"
+            "s-1"
           ],
           "mappedToIssueId": "i-abortion-sanctity-of-life-1"
         }
@@ -52,12 +50,10 @@ export const PAT_PROCTOR_V2: CandidateFullV2 = {
       "stated": {
         "text": "No candidate-controlled statement was found in the reviewed public record for this issue. This page therefore does not infer a position from party label, faith affiliation, follows, likes, comments, or associations.",
         "sourceIds": [
-          "s-24",
-          "s-25",
-          "s-28",
-          "s-29",
-          "s-30",
-          "s-37"
+          "s-10",
+          "s-12",
+          "s-13",
+          "s-14"
         ]
       },
       "actions": [],
@@ -69,12 +65,10 @@ export const PAT_PROCTOR_V2: CandidateFullV2 = {
       "stated": {
         "text": "No candidate-controlled statement was found in the reviewed public record for this issue. This page therefore does not infer a position from party label, faith affiliation, follows, likes, comments, or associations.",
         "sourceIds": [
-          "s-24",
-          "s-25",
-          "s-28",
-          "s-29",
-          "s-30",
-          "s-32"
+          "s-10",
+          "s-12",
+          "s-13",
+          "s-14"
         ]
       },
       "actions": [],
@@ -86,12 +80,10 @@ export const PAT_PROCTOR_V2: CandidateFullV2 = {
       "stated": {
         "text": "No candidate-controlled statement was found in the reviewed public record for this issue. This page therefore does not infer a position from party label, faith affiliation, follows, likes, comments, or associations.",
         "sourceIds": [
-          "s-4",
-          "s-5",
-          "s-6",
           "s-10",
-          "s-16",
-          "s-17"
+          "s-12",
+          "s-13",
+          "s-14"
         ]
       },
       "actions": [],
@@ -103,12 +95,10 @@ export const PAT_PROCTOR_V2: CandidateFullV2 = {
       "stated": {
         "text": "No candidate-controlled statement was found in the reviewed public record for this issue. This page therefore does not infer a position from party label, faith affiliation, follows, likes, comments, or associations.",
         "sourceIds": [
-          "s-24",
-          "s-25",
-          "s-28",
-          "s-29",
-          "s-30",
-          "s-32"
+          "s-10",
+          "s-12",
+          "s-13",
+          "s-14"
         ]
       },
       "actions": [],
@@ -120,12 +110,10 @@ export const PAT_PROCTOR_V2: CandidateFullV2 = {
       "stated": {
         "text": "No candidate-controlled statement was found in the reviewed public record for this issue. This page therefore does not infer a position from party label, faith affiliation, follows, likes, comments, or associations.",
         "sourceIds": [
-          "s-24",
-          "s-25",
-          "s-28",
-          "s-29",
-          "s-30",
-          "s-37"
+          "s-10",
+          "s-12",
+          "s-13",
+          "s-14"
         ]
       },
       "actions": [],
@@ -136,7 +124,7 @@ export const PAT_PROCTOR_V2: CandidateFullV2 = {
           "observation": "Several policy areas affecting Kansas households do not appear at meaningful frequency in Proctor's harvested public feeds during the captured period. Healthcare access, Medicaid, hospital closures, K–12 education funding, agricultural commodity policy, the Ogallala Aquifer, child care, opioids, and veterans' services other than his own veteran identification are either absent or appear only as single passing...",
           "observedAt": "2026-05-19",
           "sourceIds": [
-            "s-social-crossref-1"
+            "s-1"
           ],
           "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
         }
@@ -148,12 +136,12 @@ export const PAT_PROCTOR_V2: CandidateFullV2 = {
       "stated": {
         "text": "Runs as a Republican. The Kansas Republican Party has not endorsed marijuana legali",
         "sourceIds": [
-          "s-2",
+          "s-13",
           "s-3",
-          "s-4",
-          "s-5",
-          "s-6",
-          "s-7"
+          "s-9",
+          "s-10",
+          "s-12",
+          "s-14"
         ]
       },
       "actions": [],
@@ -164,7 +152,7 @@ export const PAT_PROCTOR_V2: CandidateFullV2 = {
           "observation": "Proctor's public alignment network on his own feed centers on Kansas Republican officeholders, election-policy organizations, and his own legislative work product. His Facebook page features a campaign video titled \"Kris Kobach Wanted This 20-Year-Old To Go To Jail For…\" framing his own enforcement stance against Attorney General Kris Kobach's.",
           "observedAt": "2026-05-19",
           "sourceIds": [
-            "s-social-crossref-2"
+            "s-6"
           ],
           "mappedToIssueId": "i-marijuana-drug-policy-7"
         },
@@ -174,7 +162,7 @@ export const PAT_PROCTOR_V2: CandidateFullV2 = {
           "observation": "On national and federal-policy questions, Proctor's feed engages selectively and through a state-elections lens. He frames opposition to federal mail-in-ballot deadlines, election-related litigation, and nonprofit-funded ballot measures as state sovereignty questions. On April 11, 2025 his House-carried HB 2106 foreign-funding ban was enacted, and he posted on the bill's significance from his X account.",
           "observedAt": "2026-05-19",
           "sourceIds": [
-            "s-social-crossref-3"
+            "s-social-crossref-1"
           ],
           "mappedToIssueId": "i-marijuana-drug-policy-7"
         }
@@ -230,701 +218,96 @@ export const PAT_PROCTOR_V2: CandidateFullV2 = {
   "sources": [
     {
       "id": "s-1",
-      "tier": "secondary",
-      "url": "https://patproctor4ks.com/",
-      "title": "Patproctor4ks.Com",
-      "publisher": "patproctor4ks.com",
+      "tier": "social",
+      "url": "https://x.com/RealPatProctor",
+      "title": "@RealPatProctor",
+      "publisher": "X",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-2",
-      "tier": "primary",
-      "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm",
-      "title": "Kansas.Gov",
-      "publisher": "kansas.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
+        "Candidate-specific source extracted for Pat Proctor.",
+        "Observed public online activity mapped to Abortion / Sanctity of Life."
       ]
     },
     {
       "id": "s-3",
-      "tier": "primary",
-      "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW04PP_202601.pdf",
-      "title": "Kansas.Gov",
-      "publisher": "kansas.gov",
+      "tier": "social",
+      "url": "https://www.youtube.com/@patproctorforkansas655",
+      "title": "Pat Proctor for Kansas",
+      "publisher": "Youtube",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-4",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Kansas_Elections_for_Supreme_Court_Justices_Amendment_(August_2026",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-5",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2025/08/07/rivals-launch-fight-over-kansas-constitutional-amendment-to-elect-supreme-court-justices/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
+        "Candidate-specific source extracted for Pat Proctor."
       ]
     },
     {
       "id": "s-6",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2026/02/10/kansas-method-of-picking-supreme-court-justices-could-be-improved-but-will-an-amendment-do-that/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
+      "tier": "social",
+      "url": "https://www.facebook.com/PatProctorKS/videos/enforcing-our-election-laws/1920239725529443/",
+      "title": "\"Kris Kobach Wanted This 20-Year-Old To Go To Jail For…\"",
+      "publisher": "Facebook",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-7",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2025/03/19/kansas-house-endorses-plan-to-elect-supreme-court-justices-placing-question-on-august-2026-ballot/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-8",
-      "tier": "secondary",
-      "url": "https://thebeaconnews.org/stories/2025/03/19/kansas-supreme-court-elections-voters-will-decide-in-2026/",
-      "title": "Thebeaconnews.Org",
-      "publisher": "thebeaconnews.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
+        "Candidate-specific source extracted for Pat Proctor.",
+        "Observed public online activity mapped to Marijuana / Drug Policy."
       ]
     },
     {
       "id": "s-9",
-      "tier": "secondary",
-      "url": "https://www.kcur.org/politics-elections-and-government/2026-01-26/kansas-lawmakers-want-to-reveal-more-about-the-people-picking-supreme-court-justices",
-      "title": "Kcur.Org",
-      "publisher": "kcur.org",
+      "tier": "social",
+      "url": "https://www.facebook.com/LoudLightKS/videos/have-you-all-heard-pat-proctor-for-kansas-secretary-of-state-latest-lie-when-he-/628564576673155/",
+      "title": "statement about Kansas voters",
+      "publisher": "Facebook",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
+        "Candidate-specific source extracted for Pat Proctor."
       ]
     },
     {
       "id": "s-10",
-      "tier": "secondary",
-      "url": "https://sunflowerstatejournal.com/judicial-amendment-campaign-shapes-up-outside-group-books-nearly-1-million-in-ads/",
-      "title": "Sunflowerstatejournal.Com",
-      "publisher": "sunflowerstatejournal.com",
+      "tier": "primary",
+      "url": "https://www.kslegislature.gov/li/b2025_26/members/rep_proctor_pat_1/",
+      "title": "Wichita State University",
+      "publisher": "Kslegislature",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-11",
-      "tier": "secondary",
-      "url": "https://www.votenokansas.org/",
-      "title": "Votenokansas.Org",
-      "publisher": "votenokansas.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
+        "Candidate-specific source extracted for Pat Proctor."
       ]
     },
     {
       "id": "s-12",
-      "tier": "primary",
-      "url": "https://www.kslegislature.gov/li/b2025_26/measures/documents/summary_scr_1611_2025",
-      "title": "Kslegislature.Gov",
-      "publisher": "kslegislature.gov",
+      "tier": "secondary",
+      "url": "https://patproctor4ks.com/",
+      "title": "patproctor4ks.com",
+      "publisher": "Patproctor4ks",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
+        "Candidate-specific source extracted for Pat Proctor."
       ]
     },
     {
       "id": "s-13",
       "tier": "secondary",
-      "url": "https://www.brennancenter.org/our-work/analysis-opinion/wisconsin-supreme-court-race-breaks-spending-record-fueled-out-state",
-      "title": "Brennancenter.Org",
-      "publisher": "brennancenter.org",
+      "url": "https://kansasreflector.com/2025/04/04/leavenworth-house-member-first-republican-to-declare-as-2026-candidate-for-secretary-of-state/",
+      "title": "Kansas Reflector: Pat Proctor declares for SOS",
+      "publisher": "Kansasreflector",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
+        "Candidate-specific source extracted for Pat Proctor."
       ]
     },
     {
       "id": "s-14",
       "tier": "secondary",
-      "url": "https://pbswisconsin.org/news-item/billionaires-push-spending-in-the-2025-wisconsin-supreme-court-race-over-the-100-million-mark/",
-      "title": "Pbswisconsin.Org",
-      "publisher": "pbswisconsin.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-15",
-      "tier": "secondary",
-      "url": "https://www.npr.org/2025/04/01/nx-s1-5345862/wisconsin-supreme-court-crawford-schimel-election-results",
-      "title": "Npr.Org",
-      "publisher": "npr.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-16",
-      "tier": "secondary",
-      "url": "https://www.kansasinformationnetwork.com/2026-Kansas-Constitutional-Amendment",
-      "title": "Kansasinformationnetwork.Com",
-      "publisher": "kansasinformationnetwork.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-17",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Kansas_Citizenship_Voting_Requirement_Amendment_(2026",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-18",
-      "tier": "secondary",
-      "url": "https://news.ballotpedia.org/2025/03/27/kansas-voters-will-decide-on-citizenship-voting-requirement-amendment-in-2026-similar-measures-were-approved-in-eight-states-in-2024/",
-      "title": "News.Ballotpedia.Org",
-      "publisher": "news.ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-19",
-      "tier": "secondary",
-      "url": "https://www.npr.org/2018/06/19/621304260/judge-tosses-kansas-proof-of-citizenship-voter-law-and-rebukes-sec-of-state-koba",
-      "title": "Npr.Org",
-      "publisher": "npr.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-20",
-      "tier": "secondary",
-      "url": "https://www.aclukansas.org/press-releases/resounding-victory-tens-thousands-disenfranchised-kansas-voters-supreme-court-refuses/",
-      "title": "Aclukansas.Org",
-      "publisher": "aclukansas.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-21",
-      "tier": "secondary",
-      "url": "https://www.cnn.com/2024/11/03/politics/noncitizen-voting-ballot-measures-election/index.html",
-      "title": "Cnn.Com",
-      "publisher": "cnn.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-22",
-      "tier": "secondary",
-      "url": "https://www.prismnews.com/news/kansas-proof-of-citizenship-voting-law-blocked-31000",
-      "title": "Prismnews.Com",
-      "publisher": "prismnews.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-23",
-      "tier": "secondary",
-      "url": "https://www.pbs.org/newshour/nation/kansas-hopes-to-resurrect-proof-of-citizenship-voting-law",
-      "title": "Pbs.Org",
-      "publisher": "pbs.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-24",
-      "tier": "secondary",
-      "url": "https://www.kcur.org/politics-elections-and-government/2025-07-24/kansas-governor-race-2026-election-candidates",
-      "title": "Kcur.Org",
-      "publisher": "kcur.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-25",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2026/01/30/six-kansas-gop-candidates-for-governor-toss-haymakers-in-first-debate-find-unity-on-key-issues/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-26",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2025/07/22/kansas-sen-ethan-corson-enters-race-for-democratic-partys-nomination-for-governor/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-27",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Kansas_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-28",
-      "tier": "secondary",
-      "url": "https://www.kcur.org/politics-elections-and-government/2025-12-30/whos-running-to-represent-kansas-in-the-u-s-senate-in-2026-heres-a-guide-to-the-candidates",
-      "title": "Kcur.Org",
-      "publisher": "kcur.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-29",
-      "tier": "secondary",
-      "url": "https://www.kmuw.org/government/2026-03-25/democratic-candidate-in-u-s-senate-race-opens-arms-to-kansas-republicans-lost-in-the-wilderness",
-      "title": "Kmuw.Org",
-      "publisher": "kmuw.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-30",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2025/11/25/kansas-democratic-candidates-for-u-s-senate-sharpen-attack-on-gop-incumbent-roger-marshall/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-31",
-      "tier": "secondary",
-      "url": "https://smartpolitics.lib.umn.edu/2025/03/05/how-well-can-democrats-fare-in-kansas-2026-us-senate-election/",
-      "title": "Smartpolitics.Lib.Umn.Edu",
-      "publisher": "smartpolitics.lib.umn.edu",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-32",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2026/01/05/lawrence-democrats-take-aim-at-kansas-republicans-congressional-seat/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-33",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Kansas'_1st_Congressional_District_election,_2026",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-34",
-      "tier": "primary",
-      "url": "https://mann.house.gov/",
-      "title": "Mann.House.Gov",
-      "publisher": "mann.house.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-35",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2025/07/30/kansas-election-for-attorney-general-in-2026-may-become-a-repeat-of-2022-showdown/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-36",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Kansas_Attorney_General_election,_2026",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-37",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2025/04/04/leavenworth-house-member-first-republican-to-declare-as-2026-candidate-for-secretary-of-state/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-38",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Kansas_Secretary_of_State_election,_2026",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-39",
-      "tier": "secondary",
-      "url": "https://kspress.com/news/2026/03/27/kansas-legislature-passes-package-of-elections-bills-that-alter-voting-processes",
-      "title": "Kspress.Com",
-      "publisher": "kspress.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-40",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/briefs/kansas-senate-minority-leader-challenges-gop-house-speaker-for-state-insurance-commissioner/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-41",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2025/05/13/kansas-house-speaker-launches-campaign-for-insurance-commissioner-with-pro-trump-rhetoric-1/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-42",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Kansas_Insurance_Commissioner_election,_2026",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-43",
-      "tier": "primary",
-      "url": "https://www.kslegislature.gov/li/b2025_26/members/rep_wasinger_barbara_1/",
-      "title": "Kslegislature.Gov",
-      "publisher": "kslegislature.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-44",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Kansas_House_of_Representatives_District_111",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-45",
-      "tier": "secondary",
-      "url": "https://barbforkansas.com/",
-      "title": "Barbforkansas.Com",
-      "publisher": "barbforkansas.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-46",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Kansas_State_Board_of_Education_election,_2026",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-47",
-      "tier": "primary",
-      "url": "https://www.ksde.gov/Board/Kansas-State-Board-of-Education/District-5",
-      "title": "Ksde.Gov",
-      "publisher": "ksde.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-48",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2024/10/22/kansas-board-of-education-races-could-shift-power-to-conservative-bloc/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-49",
-      "tier": "secondary",
       "url": "https://www.jocoelection.org/candidates-elected-officials/pat-proctor",
-      "title": "Jocoelection.Org",
-      "publisher": "jocoelection.org",
+      "title": "Jocoelection",
+      "publisher": "Jocoelection",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-50",
-      "tier": "secondary",
-      "url": "https://hayspost.com/posts/1069c202-2991-4f2f-9961-773bec76a5a4",
-      "title": "Hayspost.Com",
-      "publisher": "hayspost.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-51",
-      "tier": "secondary",
-      "url": "https://www.kansascatholic.org/current-news/election-2026",
-      "title": "Kansascatholic.Org",
-      "publisher": "kansascatholic.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-52",
-      "tier": "primary",
-      "url": "https://www.kdor.ks.gov/Apps/VoterReg/",
-      "title": "Kdor.Ks.Gov",
-      "publisher": "kdor.ks.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-53",
-      "tier": "secondary",
-      "url": "https://myvoteinfo.voteks.org/",
-      "title": "Myvoteinfo.Voteks.Org",
-      "publisher": "myvoteinfo.voteks.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-54",
-      "tier": "primary",
-      "url": "https://www.kslegislature.gov/li/b2025_26/members/rep_proctor_pat_1/",
-      "title": "Kslegislature.Gov",
-      "publisher": "kslegislature.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-55",
-      "tier": "secondary",
-      "url": "https://www.hayspost.com/posts/2026-kansas-election-guide/",
-      "title": "Hayspost.Com",
-      "publisher": "hayspost.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-56",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2025/06/13/kansas-republican-exploits-fear-of-imaginary-axis-of-ballot-harvesting-to-gain-political-advantage/",
-      "title": "Kansas Reflector - \"Axis of ballot harvesting\"",
-      "publisher": "Kansasreflector.Com",
-      "accessed": "2026-03-31",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-57",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2025/02/14/in-private-video-house-elections-chair-says-he-wants-to-end-early-voting-grace-period-in-kansas/",
-      "title": "Kansas Reflector - Private video leaked",
-      "publisher": "Kansasreflector.Com",
-      "accessed": "2026-03-31",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-58",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2026/03/27/kansas-legislature-passes-package-of-elections-bills-that-alter-voting-processes/",
-      "title": "Kansas Reflector - Legislature passes election bills",
-      "publisher": "Kansasreflector.Com",
-      "accessed": "2026-03-31",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-59",
-      "tier": "secondary",
-      "url": "https://sunflowerstatejournal.com/proctor-takes-commanding-fundraising-lead-in-primary-for-secretary-of-state/",
-      "title": "Sunflower State Journal - Fundraising lead",
-      "publisher": "Sunflowerstatejournal.Com",
-      "accessed": "2026-03-31",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-60",
-      "tier": "secondary",
-      "url": "https://www.wichita.edu/profiles/academics/fairmount_college_of_liberal_arts_and_sciences/school_of_criminal_justice/Proctor-Pat.php",
-      "title": "Wichita State University - Faculty Profile",
-      "publisher": "Wichita.Edu",
-      "accessed": "2026-03-31",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-61",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Pat_Proctor",
-      "title": "Ballotpedia",
-      "publisher": "Ballotpedia.Org",
-      "accessed": "2026-03-31",
-      "claimsAnchored": [
-        "Source carried forward for Pat Proctor's generated v2 profile."
+        "Candidate-specific source extracted for Pat Proctor."
       ]
     },
     {
       "id": "s-social-crossref-1",
-      "tier": "social",
-      "url": "https://x.com/RealPatProctor",
-      "title": "x / X",
-      "publisher": "X",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Observed public online activity mapped to Abortion / Sanctity of Life.",
-        "Loudlight, Appleseed, and their allies hide behind their supposed nonpartisan, nonprofit status to rake in millions from George Soros and foreign billionaires that they use to sue "
-      ]
-    },
-    {
-      "id": "s-social-crossref-2",
-      "tier": "social",
-      "url": "https://www.facebook.com/PatProctorKS/videos/enforcing-our-election-laws/1920239725529443/",
-      "title": "Facebook / Facebook",
-      "publisher": "Facebook",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Observed public online activity mapped to Marijuana / Drug Policy.",
-        "Proctor's public alignment network on his own feed centers on Kansas Republican officeholders, election-policy organizations, and his own legislative work product. His Facebook pag"
-      ]
-    },
-    {
-      "id": "s-social-crossref-3",
       "tier": "secondary",
       "url": "https://news.ballotpedia.org/2025/04/11/indiana-joins-kansas-kentucky-and-wyoming-in-enacting-laws-to-restrict-foreign-contributions-to-ballot-measure-campaigns-the-highest-number-passed-in-a-single-year/",
       "title": "X / News.Ballotpedia",

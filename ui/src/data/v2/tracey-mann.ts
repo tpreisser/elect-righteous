@@ -703,29 +703,6 @@ export const TRACEY_MANN_V2: CandidateFullV2 = {
       ]
     },
     {
-      "id": "s-fec-candidate",
-      "tier": "primary",
-      "url": "https://www.fec.gov/data/candidate/H0KS01123/",
-      "title": "Tracey Robert Mann Candidate Page",
-      "publisher": "Federal Election Commission",
-      "accessed": "2026-05-20",
-      "claimsAnchored": [
-        "FEC candidate ID H0KS01123 belongs to Tracey Robert Mann",
-        "2025-2026 cycle totals were directly fetched from FEC"
-      ]
-    },
-    {
-      "id": "s-fec-committee",
-      "tier": "primary",
-      "url": "https://www.fec.gov/data/committee/C00460659/",
-      "title": "Mann for Congress Committee Page",
-      "publisher": "Federal Election Commission",
-      "accessed": "2026-05-20",
-      "claimsAnchored": [
-        "Mann for Congress is the principal campaign committee C00460659"
-      ]
-    },
-    {
       "id": "s-little-apple-nawg-2026",
       "tier": "secondary",
       "url": "https://littleapplepost.com/posts/bdad41f3-c25e-4dfe-ad71-4743c631cb18",

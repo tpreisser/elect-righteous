@@ -255,6 +255,196 @@ function titleFromUrl(url) {
   }
 }
 
+function cleanUrl(url) {
+  let value = String(url)
+    .trim()
+    .replace(/[\\\]]+$/g, "")
+    .replace(/[.,;]+$/g, "");
+  const opens = (value.match(/\(/g) ?? []).length;
+  let closes = (value.match(/\)/g) ?? []).length;
+  while (value.endsWith(")") && closes > opens) {
+    value = value.slice(0, -1);
+    closes -= 1;
+  }
+  return value;
+}
+
+function sourceTitle(label, url) {
+  const cleaned = cleanMarkdown(label ?? "");
+  return cleaned && cleaned.length < 120 ? cleaned : titleFromUrl(url);
+}
+
+function linksFromMarkdown(text) {
+  const links = [];
+  const markdownLinkRe = /\[([^\]]+)]\((https?:\/\/[^)\s]+(?:\([^)]*\))?[^)\s]*)\)/g;
+  let match;
+  while ((match = markdownLinkRe.exec(text)) !== null) {
+    links.push({ title: sourceTitle(match[1], match[2]), url: cleanUrl(match[2]) });
+  }
+
+  const bareUrlRe = /\bhttps?:\/\/[^\s<>"']+/g;
+  while ((match = bareUrlRe.exec(text)) !== null) {
+    const url = cleanUrl(match[0]);
+    if (!links.some((link) => link.url === url)) {
+      links.push({ title: titleFromUrl(url), url });
+    }
+  }
+
+  return links.filter((link) => {
+    try {
+      new URL(link.url);
+      return true;
+    } catch {
+      return false;
+    }
+  });
+}
+
+function sourceMemoryText(slug) {
+  const dir = join(MEMORY_CANDIDATES, slug);
+  if (!existsSync(dir)) return "";
+  const files = [
+    "profile.md",
+    "raw-intel.md",
+    "raw-dump-v2.md",
+    "social-harvest.md",
+    "in-their-own-words.md",
+    "raw-dump.md",
+    "site-profile.md",
+  ];
+
+  return files
+    .map((file) => {
+      const path = join(dir, file);
+      if (!existsSync(path)) return "";
+      let text = readFileSync(path, "utf8");
+      if (file === "site-profile.md") {
+        text = text.replace(/^## Sources\s*\n[\s\S]*$/m, "");
+      }
+      return text;
+    })
+    .filter(Boolean)
+    .join("\n\n");
+}
+
+function candidateSourceTerms(candidate) {
+  return [...new Set(
+    `${candidate.name} ${candidate.slug}`
+      .toLowerCase()
+      .split(/[^a-z0-9]+/)
+      .filter((term) => term.length >= 4),
+  )];
+}
+
+function buildCandidateSpecificSources(candidate) {
+  const seen = new Set();
+  const sources = [];
+  const candidateTerms = candidateSourceTerms(candidate);
+  for (const link of linksFromMarkdown(sourceMemoryText(candidate.slug))) {
+    const normalized = link.url.replace(/#.*$/, "");
+    if (seen.has(normalized)) continue;
+    const haystack = `${link.title} ${link.url}`.toLowerCase();
+    if (candidateTerms.length && !candidateTerms.some((term) => haystack.includes(term))) {
+      continue;
+    }
+    seen.add(normalized);
+    sources.push({
+      id: `s-${sources.length + 1}`,
+      tier: tierForUrl(link.url),
+      url: link.url,
+      title: link.title,
+      publisher: titleFromUrl(link.url),
+      accessed: "2026-05-19",
+      claimsAnchored: [`Candidate-specific source extracted for ${candidate.name}.`],
+    });
+  }
+
+  if (sources.length === 0) {
+    return candidate.sources.filter((source) => source.tier !== "social").slice(0, 4);
+  }
+
+  return sources;
+}
+
+function sourceIdsForText(sources, text, domainText = text) {
+  const cleanText = cleanMarkdown(text);
+  const cleanDomainText = cleanMarkdown(domainText);
+  const words = cleanMarkdown(text)
+    .toLowerCase()
+    .split(/[^a-z0-9]+/)
+    .filter((word) => word.length > 4)
+    .slice(0, 16);
+
+  const fallback = sources
+    .filter((source) => source.tier !== "social")
+    .slice(0, 4)
+    .map((source) => source.id);
+
+  if (/No candidate-controlled statement|No specific personal statement found/i.test(cleanText)) {
+    return fallback;
+  }
+
+  const scored = sources
+    .map((source) => {
+      const haystack = `${source.title} ${source.publisher ?? ""} ${source.url} ${source.claimsAnchored.join(" ")}`.toLowerCase();
+      const domainScore = DOMAIN_KEYWORDS
+        .filter((domain) => domain.issue.test(cleanDomainText) || domain.words.test(cleanDomainText))
+        .reduce((sum, domain) => sum + (domain.words.test(haystack) ? 12 : 0), 0);
+      const score = domainScore + words.reduce((sum, word) => sum + (haystack.includes(word) ? 1 : 0), 0);
+      return { source, score, domainScore };
+    })
+    .filter(({ score }) => score > 0);
+
+  const domainMatched = scored.filter(({ domainScore }) => domainScore > 0);
+  const ranked = (domainMatched.length ? domainMatched : scored)
+    .sort((a, b) => b.score - a.score)
+    .map(({ source }) => source.id);
+
+  return [...new Set([...ranked, ...fallback])].slice(0, 6);
+}
+
+function isGeneratedCarryForward(candidate) {
+  return candidate.sources.some((source) =>
+    source.claimsAnchored.some((claim) =>
+      claim.startsWith("Source carried forward for ") ||
+      claim.startsWith("Candidate-specific source extracted for "),
+    ),
+  );
+}
+
+function normalizeGeneratedSourceRegistry(candidate) {
+  if (!isGeneratedCarryForward(candidate)) return;
+
+  candidate.sources = buildCandidateSpecificSources(candidate);
+  for (const issue of candidate.issues) {
+    issue.stated.sourceIds = sourceIdsForText(
+      candidate.sources,
+      `${issue.title} ${issue.stated.text}`,
+      issue.title,
+    );
+    for (const action of issue.actions) {
+      action.sourceIds = sourceIdsForText(candidate.sources, `${issue.title} ${action.body}`, issue.title);
+    }
+    issue.socialSignals = issue.socialSignals.filter((signal) =>
+      signal.sourceIds.every((id) => candidate.sources.some((source) => source.id === id)),
+    );
+  }
+}
+
+function pruneUnreferencedSources(candidate) {
+  const referenced = new Set();
+  for (const issue of candidate.issues) {
+    for (const id of issue.stated.sourceIds) referenced.add(id);
+    for (const action of issue.actions) {
+      for (const id of action.sourceIds) referenced.add(id);
+    }
+    for (const signal of issue.socialSignals) {
+      for (const id of signal.sourceIds) referenced.add(id);
+    }
+  }
+  candidate.sources = candidate.sources.filter((source) => referenced.has(source.id));
+}
+
 function ensureSource(candidate, url, observation, issueTitle, platform) {
   if (!url) {
     const existing =
@@ -298,11 +488,17 @@ function observationFromChunk(chunk) {
 
 function addSignals(candidate) {
   const memory = readMemory(candidate.slug);
-  if (!memory) return 0;
+
+  normalizeGeneratedSourceRegistry(candidate);
 
   candidate.sources = candidate.sources.filter((source) => !source.id.startsWith("s-social-crossref"));
   for (const issue of candidate.issues) {
     issue.socialSignals = issue.socialSignals.filter((signal) => !signal.id.startsWith("ss-crossref"));
+  }
+
+  if (!memory) {
+    pruneUnreferencedSources(candidate);
+    return 0;
   }
 
   const chunks = chunksFromMemory(memory);
@@ -356,6 +552,7 @@ function addSignals(candidate) {
     }
   }
 
+  pruneUnreferencedSources(candidate);
   return added;
 }
 

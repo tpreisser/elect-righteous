@@ -336,17 +336,6 @@ export const KEN_BROOKS_V2: CandidateFullV2 = {
       ]
     },
     {
-      "id": "s-usd489-board-page",
-      "tier": "primary",
-      "url": "https://www.usd489.com/page/board-of-education",
-      "title": "USD 489 Board of Education — Official Members Page",
-      "publisher": "Unified School District 489 (Hays, KS)",
-      "accessed": "2026-05-20",
-      "claimsAnchored": [
-        "Ken Brooks is a current USD 489 board member"
-      ]
-    },
-    {
       "id": "s-hayspost-brooks-qa-2025",
       "tier": "primary",
       "url": "https://hayspost.com/posts/8ce0d386-aba6-4c42-b880-1307752c8220",

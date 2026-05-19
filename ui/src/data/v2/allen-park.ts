@@ -225,18 +225,6 @@ export const ALLEN_PARK_V2: CandidateFullV2 = {
       ]
     },
     {
-      "id": "s-usd489-board-page",
-      "tier": "primary",
-      "url": "https://www.usd489.com/page/board-of-education",
-      "title": "USD 489 Board of Education — Official Members Page",
-      "publisher": "Unified School District 489 (Hays, KS)",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Allen Park is a current USD 489 board member",
-        "Park's board seat term expires approximately 2027"
-      ]
-    },
-    {
       "id": "s-usd489-boarddocs",
       "tier": "primary",
       "url": "https://go.boarddocs.com/ks/usd489/Board.nsf/vpublic",
@@ -246,33 +234,6 @@ export const ALLEN_PARK_V2: CandidateFullV2 = {
       "claimsAnchored": [
         "USD 489 board meeting minutes and agenda packets are publicly available",
         "Roll-call votes are recorded in BoardDocs"
-      ]
-    },
-    {
-      "id": "s-hayspost-park-profile-2023",
-      "tier": "secondary",
-      "url": "https://hayspost.com/posts/ba82fc30-cb69-4a6d-8f09-c3ec5d9d51a7",
-      "title": "Hays USD 489 School Board Candidate: Allen Park (July 2023 Profile)",
-      "publisher": "Hays Post",
-      "accessed": "2026-03-31",
-      "claimsAnchored": [
-        "Park described himself as retired USD 489 elementary principal and licensed insurance agent",
-        "Park's campaign themes: facilities, class sizes, fees, technology, transparency",
-        "Park worked in USD 489 for 31 years in multiple roles",
-        "All four of Park's children graduated from Hays High"
-      ]
-    },
-    {
-      "id": "s-archive-park-retirement",
-      "tier": "secondary",
-      "url": "https://archive.hayspost.com/2015/05/19/park-announces-retirement-after-30-years-with-usd-489/",
-      "title": "Park announces retirement after 30 years with USD 489",
-      "publisher": "Hays Post",
-      "accessed": "2026-03-31",
-      "claimsAnchored": [
-        "Park retired from USD 489 in 2015 after 30+ years",
-        "Park served as Washington Elementary School principal",
-        "Park managed the closure and transition of Washington Elementary"
       ]
     }
   ]

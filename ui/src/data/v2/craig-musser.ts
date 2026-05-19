@@ -22,11 +22,9 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
       "stated": {
         "text": "Runs as an independent. No specific personal statement found in public sources.",
         "sourceIds": [
-          "s-24",
-          "s-29",
-          "s-46",
-          "s-1",
+          "s-3",
           "s-4",
+          "s-5",
           "s-6"
         ]
       },
@@ -38,7 +36,7 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
           "observation": "Across the captured campaign website, the issues page contains statements about healthcare, privacy and bodily autonomy, women, children, Social Security, education, budget and taxes, and agriculture. It does not include issue pages or posts specifically addressing Fort Riley, Fort Hays State University, the Ogallala Aquifer, rural hospital closures, veterans' services, or immigration.",
           "observedAt": "2026-05-19",
           "sourceIds": [
-            "s-2"
+            "s-1"
           ],
           "mappedToIssueId": "i-abortion-sanctity-of-life-1"
         }
@@ -50,10 +48,10 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
       "stated": {
         "text": "Runs as an independent. No specific personal statement found in public sources.",
         "sourceIds": [
-          "s-1",
+          "s-3",
           "s-4",
-          "s-6",
-          "s-7"
+          "s-5",
+          "s-6"
         ]
       },
       "actions": [],
@@ -65,11 +63,9 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
       "stated": {
         "text": "Runs as an independent. No specific personal statement found in public sources.",
         "sourceIds": [
-          "s-24",
-          "s-29",
-          "s-46",
-          "s-1",
+          "s-3",
           "s-4",
+          "s-5",
           "s-6"
         ]
       },
@@ -82,11 +78,9 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
       "stated": {
         "text": "Runs as an independent. No specific personal statement found in public sources.",
         "sourceIds": [
-          "s-24",
-          "s-29",
-          "s-46",
-          "s-1",
+          "s-3",
           "s-4",
+          "s-5",
           "s-6"
         ]
       },
@@ -98,7 +92,7 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
           "observation": "Across the captured social-platform record the feed contains no accessible original posts about wheat prices, water rights or the Ogallala Aquifer, rural hospital closures by name, Fort Riley, Fort Hays State University, immigration, gun policy, foreign affairs, Ukraine, Israel, tariffs, specific federal bills, or named congressional leaders.",
           "observedAt": "2026-05-19",
           "sourceIds": [
-            "s-2"
+            "s-1"
           ],
           "mappedToIssueId": "i-guns-second-amendment-4"
         }
@@ -110,11 +104,9 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
       "stated": {
         "text": "Runs as an independent. No specific personal statement found in public sources.",
         "sourceIds": [
-          "s-24",
-          "s-29",
-          "s-46",
-          "s-1",
+          "s-3",
           "s-4",
+          "s-5",
           "s-6"
         ]
       },
@@ -126,7 +118,7 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
           "observation": "Across the captured period the feed contains no posts about wheat prices, water rights, the Ogallala Aquifer, rural hospital closures by name, Fort Riley, Fort Hays State University, veterans' services, county-level economic development, or immigration. The campaign website does include broad issue statements on healthcare, education, agriculture, Social Security, budget and taxes, privacy, women, and children....",
           "observedAt": "2026-05-19",
           "sourceIds": [
-            "s-social-crossref-1"
+            "s-5"
           ],
           "mappedToIssueId": "i-immigration-border-5"
         },
@@ -136,7 +128,7 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
           "observation": "Musser's platform footprint is concentrated on an official campaign website and a small Facebook page. No candidate-controlled X, Instagram, YouTube, Truth Social, Gab, Gettr, Substack, Reddit, or TikTok account was found in the public searches captured for this harvest. A LinkedIn profile URL appears in the local research file, but logged-out access returned LinkedIn's HTTP 999 wall on May 11, 2026, so no...",
           "observedAt": "2026-05-19",
           "sourceIds": [
-            "s-51"
+            "s-social-crossref-1"
           ],
           "mappedToIssueId": "i-immigration-border-5"
         }
@@ -148,10 +140,10 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
       "stated": {
         "text": "Lists \"strong schools\" as a priority on his platform but has not elaborated publicly.",
         "sourceIds": [
-          "s-1",
+          "s-3",
           "s-4",
-          "s-6",
-          "s-7"
+          "s-5",
+          "s-6"
         ]
       },
       "actions": [],
@@ -162,7 +154,7 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
           "observation": "Topic distribution among the 24 candidate-controlled website statements: healthcare — 5 statements (21%); representation / biography / campaign theme — 7 statements (29%); personal freedoms and child welfare — 4 statements (17%); education — 3 statements (13%); budget and taxes — 2 statements (8%); agriculture — 2 statements (8%); Social Security — 1 statement (4%).",
           "observedAt": "2026-05-19",
           "sourceIds": [
-            "s-2"
+            "s-1"
           ],
           "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
         },
@@ -172,7 +164,7 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
           "observation": "For KS-01 district issues, Musser's local material centers on agriculture, healthcare, education, and a manufacturing-and-safety biography. Agriculture accounts for 2 of 24 candidate-controlled website statements, or 8 percent. His issues page says, \"Stabilizing markets is paramount: Mother Nature provides farmers with plenty of variables.\" (source).",
           "observedAt": "2026-05-19",
           "sourceIds": [
-            "s-social-crossref-1"
+            "s-5"
           ],
           "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
         }
@@ -184,11 +176,9 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
       "stated": {
         "text": "Runs as an independent. No specific personal statement found in public sources.",
         "sourceIds": [
-          "s-24",
-          "s-29",
-          "s-46",
-          "s-1",
+          "s-3",
           "s-4",
+          "s-5",
           "s-6"
         ]
       },
@@ -200,7 +190,7 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
           "observation": "On national policy, Musser's public website addresses domestic federal programs rather than foreign affairs. The issues page states, \"It’s mandatory that we maintain social security to ensure everyone who has paid in gets the income and benefits their money has provided others.\" (source). On taxes, the same page says, \"The tax code and the way funds are directed need to be simplified, and at the same time, the...",
           "observedAt": "2026-05-19",
           "sourceIds": [
-            "s-social-crossref-1"
+            "s-5"
           ],
           "mappedToIssueId": "i-marijuana-drug-policy-7"
         }
@@ -212,10 +202,10 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
       "stated": {
         "text": "Lists \"accessible healthcare\" as a priority and says he will \"bring discipline to fixing the healthcare system that is failing too many Kansans,\" but has not provided specifics.",
         "sourceIds": [
-          "s-1",
+          "s-3",
           "s-4",
-          "s-6",
-          "s-7"
+          "s-5",
+          "s-6"
         ]
       },
       "actions": [],
@@ -226,7 +216,7 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
           "observation": "Across the accessible candidate-controlled record, Musser does not have a conventional social feed with regular public posts; the largest body of material is the campaign website. The harvest examined 24 candidate-controlled website statements, with representation, biography, and campaign-theme statements accounting for 7 of 24 statements, or 29 percent, and healthcare accounting for 5 of 24 statements, or 21...",
           "observedAt": "2026-05-19",
           "sourceIds": [
-            "s-50"
+            "s-3"
           ],
           "mappedToIssueId": "i-healthcare-8"
         }
@@ -238,10 +228,10 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
       "stated": {
         "text": "Says he will work on \"fixing the tax code,\" but details are thin.",
         "sourceIds": [
-          "s-1",
+          "s-3",
           "s-4",
-          "s-6",
-          "s-7"
+          "s-5",
+          "s-6"
         ]
       },
       "actions": [],
@@ -252,7 +242,7 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
           "observation": "Additional public metadata line from Facebook card: \"Applying Kitchen Table Economics for Pragmatic Budget Solutions\"",
           "observedAt": "2026-05-19",
           "sourceIds": [
-            "s-2"
+            "s-1"
           ],
           "mappedToIssueId": "i-taxes-9"
         },
@@ -262,7 +252,7 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
           "observation": "Undated; captured 2026-05-11 — \"It’s mandatory that we maintain social security to ensure everyone who has paid in gets the income and benefits their money has provided others. To do that, we must maintain a substantial and well-trained workforce, keep the federal budget in line so we can honor our treasury notes, and raise the cap on FICA to match what those who have paid in the most are taking out\"",
           "observedAt": "2026-05-19",
           "sourceIds": [
-            "s-2"
+            "s-1"
           ],
           "mappedToIssueId": "i-taxes-9"
         },
@@ -272,7 +262,7 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
           "observation": "Audience response is mostly unavailable because the accessible social record contains one Facebook page/post metadata item and no public post body with visible reactions, comments, shares, or views. The campaign Facebook page metadata listed \"Craig Musser for Congress, Great Bend. 2 likes. Serving Kansans Not an Agenda\" as of the May 11, 2026 capture (source). The same public card listed \"Applying Kitchen Table...",
           "observedAt": "2026-05-19",
           "sourceIds": [
-            "s-social-crossref-2"
+            "s-1"
           ],
           "mappedToIssueId": "i-taxes-9"
         }
@@ -284,10 +274,10 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
       "stated": {
         "text": "Lists \"affordable housing\" as a campaign priority.",
         "sourceIds": [
-          "s-1",
+          "s-3",
           "s-4",
-          "s-6",
-          "s-7"
+          "s-5",
+          "s-6"
         ]
       },
       "actions": [],
@@ -298,7 +288,7 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
           "observation": "Undated; captured 2026-05-11 — \"I have worked a full-time job since starting my chemical engineering degree. I have experience working in various industries like housing materials, mining, and manufacturing operations. I have worked as an engineer, human resources manager, maintenance manager, and safety director. I have worked for family businesses and large corporations. Across these jobs, I have been known as...",
           "observedAt": "2026-05-19",
           "sourceIds": [
-            "s-2"
+            "s-1"
           ],
           "mappedToIssueId": "i-housing-10"
         }
@@ -310,12 +300,10 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
       "stated": {
         "text": "His clearest theme. Argues that Kansans need a representative independent of donors, party bosses, and Washington insiders, and that \"effective governance is not about ideology -- it's about listening and delivering outcomes.\"",
         "sourceIds": [
-          "s-25",
-          "s-48",
-          "s-1",
+          "s-3",
           "s-4",
-          "s-6",
-          "s-7"
+          "s-5",
+          "s-6"
         ]
       },
       "actions": [],
@@ -343,602 +331,74 @@ export const CRAIG_MUSSER_V2: CandidateFullV2 = {
   "sources": [
     {
       "id": "s-1",
-      "tier": "secondary",
-      "url": "https://colinforkansas.com/",
-      "title": "Colinforkansas.Com",
-      "publisher": "colinforkansas.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-2",
       "tier": "social",
-      "url": "https://www.instagram.com/colinforkansas/",
-      "title": "Instagram.Com",
-      "publisher": "instagram.com",
+      "url": "https://www.facebook.com/people/Craig-Musser-for-Congress/61584981264795/",
+      "title": "Craig Musser for Congress",
+      "publisher": "Facebook",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
+        "Candidate-specific source extracted for Craig Musser.",
+        "Observed public online activity mapped to Taxes."
       ]
     },
     {
       "id": "s-3",
-      "tier": "social",
-      "url": "https://www.facebook.com/colinforkansas",
-      "title": "Facebook.Com",
-      "publisher": "facebook.com",
+      "tier": "secondary",
+      "url": "https://musserforuscongress.com/",
+      "title": "musserforuscongress.com",
+      "publisher": "Musserforuscongress",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
+        "Candidate-specific source extracted for Craig Musser.",
+        "Observed public online activity mapped to Healthcare."
       ]
     },
     {
       "id": "s-4",
       "tier": "secondary",
-      "url": "https://bsky.app/profile/colinmcroberts.bsky.social",
-      "title": "Bsky.App",
-      "publisher": "bsky.app",
+      "url": "https://musserforuscongress.com/meetcraig",
+      "title": "source",
+      "publisher": "Musserforuscongress",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
+        "Candidate-specific source extracted for Craig Musser."
       ]
     },
     {
       "id": "s-5",
-      "tier": "social",
-      "url": "https://www.linkedin.com/in/colin-mcroberts-5781291/",
-      "title": "Linkedin.Com",
-      "publisher": "linkedin.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-6",
-      "tier": "secondary",
-      "url": "https://www.colin-mcroberts.com/",
-      "title": "Colin-mcroberts.Com",
-      "publisher": "colin-mcroberts.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-7",
-      "tier": "secondary",
-      "url": "https://business.ku.edu/people/colin-mcroberts",
-      "title": "Business.Ku.Edu",
-      "publisher": "business.ku.edu",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-8",
-      "tier": "secondary",
-      "url": "https://www.ratemyprofessors.com/professor/2506562",
-      "title": "Ratemyprofessors.Com",
-      "publisher": "ratemyprofessors.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-9",
-      "tier": "secondary",
-      "url": "https://www.take-bac-congress.us/team/colin-mcroberts",
-      "title": "Take-bac-congress.Us",
-      "publisher": "take-bac-congress.us",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-10",
-      "tier": "primary",
-      "url": "https://www.fec.gov/data/candidate/H6KS01195/",
-      "title": "Fec.Gov",
-      "publisher": "fec.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-11",
-      "tier": "primary",
-      "url": "https://www.fec.gov/data/committee/C00919860/",
-      "title": "Fec.Gov",
-      "publisher": "fec.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-12",
-      "tier": "primary",
-      "url": "https://www.fec.gov/data/elections/house/KS/01/2026/",
-      "title": "Fec.Gov",
-      "publisher": "fec.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-13",
-      "tier": "secondary",
-      "url": "https://www.laurenforkansas.com",
-      "title": "Laurenforkansas.Com",
-      "publisher": "laurenforkansas.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-14",
-      "tier": "social",
-      "url": "https://www.linkedin.com/in/laurenreinhold/",
-      "title": "Linkedin.Com",
-      "publisher": "linkedin.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-15",
-      "tier": "social",
-      "url": "https://www.facebook.com/dgcodems/videos/2299093513898616/",
-      "title": "Facebook.Com",
-      "publisher": "facebook.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-16",
-      "tier": "secondary",
-      "url": "https://unitedkansas.com/",
-      "title": "Unitedkansas.Com",
-      "publisher": "unitedkansas.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-17",
-      "tier": "social",
-      "url": "https://www.facebook.com/unitedksparty/",
-      "title": "Facebook.Com",
-      "publisher": "facebook.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-18",
-      "tier": "social",
-      "url": "https://www.linkedin.com/in/craig-musser-82880838/",
-      "title": "Linkedin.Com",
-      "publisher": "linkedin.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-19",
-      "tier": "secondary",
-      "url": "https://unitedkansas.com/candidates",
-      "title": "Unitedkansas.Com",
-      "publisher": "unitedkansas.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-20",
-      "tier": "primary",
-      "url": "https://www.fec.gov/data/",
-      "title": "Fec.Gov",
-      "publisher": "fec.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-21",
-      "tier": "secondary",
-      "url": "https://www.opensecrets.org/members-of-congress/tracey-mann/summary?cid=N00030743",
-      "title": "Opensecrets.Org",
-      "publisher": "opensecrets.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-22",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Colin_McRoberts",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-23",
-      "tier": "secondary",
-      "url": "https://www.kwch.com/2025/09/17/colin-mcroberts-files-1st-congressional-district-seat/",
-      "title": "Kwch.Com",
-      "publisher": "kwch.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-24",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2026/01/05/lawrence-democrats-take-aim-at-kansas-republicans-congressional-seat/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-25",
-      "tier": "secondary",
-      "url": "https://www2.ljworld.com/news/state-government/2026/jan/07/lawrence-democrats-take-aim-at-manns-congressional-seat/",
-      "title": "Www2.Ljworld.Com",
-      "publisher": "www2.ljworld.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-26",
-      "tier": "secondary",
-      "url": "https://hayspost.com/posts/886b8285-39fd-4828-ac95-b3d6d19331b9",
-      "title": "Hayspost.Com",
-      "publisher": "hayspost.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-27",
-      "tier": "secondary",
-      "url": "https://aeon.co/users/colin-mcroberts",
-      "title": "Aeon.Co",
-      "publisher": "aeon.co",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-28",
-      "tier": "secondary",
-      "url": "https://skepticalinquirer.org/exclusive/a-skeptic-on-the-conspirasea-cruiseinterview-with-colin-mcroberts/",
-      "title": "Skepticalinquirer.Org",
-      "publisher": "skepticalinquirer.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-29",
-      "tier": "secondary",
-      "url": "https://kansaspublicradio.org/show/genres-when-experts-attack/2020-03-04/live-performance-when-experts-attack-1-colin-mcroberts",
-      "title": "Kansaspublicradio.Org",
-      "publisher": "kansaspublicradio.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-30",
-      "tier": "secondary",
-      "url": "https://www.texasbar.com/AM/Template.cfm?Section=Find_A_Lawyer&template=/Customsource/MemberDirectory/MemberDirectoryDetail.cfm&ContactID=281096",
-      "title": "Texasbar.Com",
-      "publisher": "texasbar.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-31",
-      "tier": "secondary",
-      "url": "https://salinapost.com/posts/25bbb2eb-ae15-4419-8096-972bb919a48a",
-      "title": "Salinapost.Com",
-      "publisher": "salinapost.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-32",
-      "tier": "secondary",
-      "url": "https://www.kcnonline.com/wp/2026/01/05/two-lawrence-dems-seek-1st-district-seat/",
-      "title": "Kcnonline.Com",
-      "publisher": "kcnonline.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-33",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/tag/lauren-reinhold/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-34",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Craig_Musser",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-35",
-      "tier": "secondary",
-      "url": "https://hayspost.com/posts/2ac5a87c-4b19-4a42-8db8-1deab18eb3f7",
-      "title": "Hayspost.Com",
-      "publisher": "hayspost.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-36",
-      "tier": "secondary",
-      "url": "https://greatbendpost.com/posts/d2d97c94-1d35-4fc6-a09d-3453408c580e",
-      "title": "Greatbendpost.Com",
-      "publisher": "greatbendpost.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-37",
-      "tier": "primary",
-      "url": "https://docquery.fec.gov/pdf/966/202602149834322966/202602149834322966.pdf",
-      "title": "Docquery.Fec.Gov",
-      "publisher": "docquery.fec.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-38",
-      "tier": "secondary",
-      "url": "https://www.zoominfo.com/p/Craig-Musser/9122088966",
-      "title": "Zoominfo.Com",
-      "publisher": "zoominfo.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-39",
-      "tier": "secondary",
-      "url": "https://unitedkansas.com/about",
-      "title": "Unitedkansas.Com",
-      "publisher": "unitedkansas.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-40",
-      "tier": "secondary",
-      "url": "https://en.wikipedia.org/wiki/United_Kansas",
-      "title": "En.Wikipedia.Org",
-      "publisher": "en.wikipedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-41",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2024/07/12/united-kansas-party-files-lawsuits-to-challenge-state-law-forbidding-multi-party-nominations/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-42",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/briefs/united-kansas-officially-earns-spot-on-kansas-ballots-as-states-fifth-political-party/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-43",
-      "tier": "primary",
-      "url": "https://sos.ks.gov/media/press-releases/2024/05-24-24-united-kansas-recognized-as-a-political-party.html",
-      "title": "Sos.Ks.Gov",
-      "publisher": "sos.ks.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-44",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Kansas'_1st_Congressional_District_election,_2026",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-45",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Kansas'_1st_Congressional_District_election,_2026_(August_4_Democratic_primary",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-46",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Kansas'_1st_Congressional_District_election,_2026_(August_4_Republican_primary",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-47",
-      "tier": "secondary",
-      "url": "https://www.cookpolitical.com/house/race/483106",
-      "title": "Cookpolitical.Com",
-      "publisher": "cookpolitical.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-48",
-      "tier": "secondary",
-      "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Kansas",
-      "title": "En.Wikipedia.Org",
-      "publisher": "en.wikipedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-49",
-      "tier": "primary",
-      "url": "https://www.fec.gov/data/candidate/H0KS01123/",
-      "title": "Fec.Gov",
-      "publisher": "fec.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-50",
-      "tier": "secondary",
-      "url": "https://musserforuscongress.com/",
-      "title": "Musserforuscongress.Com",
-      "publisher": "musserforuscongress.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile.",
-        "Observed public online activity mapped to Healthcare."
-      ]
-    },
-    {
-      "id": "s-51",
-      "tier": "primary",
-      "url": "https://www.fec.gov/data/candidate/H6KS01211/",
-      "title": "Fec.Gov",
-      "publisher": "fec.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile.",
-        "Observed public online activity mapped to Immigration / Border."
-      ]
-    },
-    {
-      "id": "s-52",
-      "tier": "secondary",
-      "url": "https://www.unitedkansas.com/",
-      "title": "Unitedkansas.Com",
-      "publisher": "unitedkansas.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Craig Musser's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-social-crossref-1",
       "tier": "secondary",
       "url": "https://musserforuscongress.com/untitled",
-      "title": "musserforuscongress.com / Musserforuscongress",
+      "title": "source",
       "publisher": "Musserforuscongress",
       "accessed": "2026-05-19",
       "claimsAnchored": [
+        "Candidate-specific source extracted for Craig Musser.",
         "Observed public online activity mapped to Immigration / Border.",
-        "Across the captured period the feed contains no posts about wheat prices, water rights, the Ogallala Aquifer, rural hospital closures by name, Fort Riley, Fort Hays State Universit",
         "Observed public online activity mapped to School Choice / Parental Rights in Education.",
         "Observed public online activity mapped to Marijuana / Drug Policy."
       ]
     },
     {
-      "id": "s-social-crossref-2",
-      "tier": "social",
-      "url": "https://www.facebook.com/people/Craig-Musser-for-Congress/61584981264795/",
-      "title": "Facebook / Facebook",
-      "publisher": "Facebook",
+      "id": "s-6",
+      "tier": "secondary",
+      "url": "https://ballotpedia.org/Craig_Musser",
+      "title": "Craig Musser - Ballotpedia",
+      "publisher": "Ballotpedia",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Observed public online activity mapped to Taxes.",
-        "Audience response is mostly unavailable because the accessible social record contains one Facebook page/post metadata item and no public post body with visible reactions, comments,"
+        "Candidate-specific source extracted for Craig Musser."
+      ]
+    },
+    {
+      "id": "s-social-crossref-1",
+      "tier": "primary",
+      "url": "https://www.fec.gov/data/candidate/H6KS01211/",
+      "title": "Facebook / Fec",
+      "publisher": "Fec",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Immigration / Border.",
+        "Musser's platform footprint is concentrated on an official campaign website and a small Facebook page. No candidate-controlled X, Instagram, YouTube, Truth Social, Gab, Gettr, Subs"
       ]
     }
   ]

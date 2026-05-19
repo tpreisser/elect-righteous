@@ -375,18 +375,6 @@ export const NATHAN_LEIKER_V2: CandidateFullV2 = {
       ]
     },
     {
-      "id": "s-ellis-agenda-center",
-      "tier": "primary",
-      "url": "https://www.ellisco.net/AgendaCenter",
-      "title": "Ellis County Agenda Center",
-      "publisher": "Ellis County, Kansas",
-      "accessed": "2026-05-20",
-      "claimsAnchored": [
-        "Ellis County commission minutes are publicly available through the Agenda Center",
-        "Agenda Center minute URLs follow the ViewFile/Minutes pattern documented in raw-dump-v2.md"
-      ]
-    },
-    {
       "id": "s-minutes-05202025",
       "tier": "primary",
       "url": "https://www.ellisco.net/AgendaCenter/ViewFile/Minutes/_05202025-674",
@@ -527,18 +515,6 @@ export const NATHAN_LEIKER_V2: CandidateFullV2 = {
         "Leiker said commissioners are not experts and were seeking expertise for the Tallgrass solar review",
         "GAAP waiver Resolution 2026-03 passed 3-0",
         "Elected Official Salaries Resolution 2026-04 passed with Leiker as motion-maker"
-      ]
-    },
-    {
-      "id": "s-minutes-01202026",
-      "tier": "primary",
-      "url": "https://www.ellisco.net/AgendaCenter/ViewFile/Minutes/_01202026-724",
-      "title": "Ellis County Board of County Commissioners Minutes - January 20, 2026",
-      "publisher": "Ellis County, Kansas",
-      "accessed": "2026-05-20",
-      "claimsAnchored": [
-        "Leiker was absent from the January 20, 2026 meeting",
-        "Solar farm review agreements were postponed to February 3, 2026"
       ]
     },
     {
@@ -711,19 +687,6 @@ export const NATHAN_LEIKER_V2: CandidateFullV2 = {
       ]
     },
     {
-      "id": "s-ingrams-leiker-2021",
-      "tier": "secondary",
-      "url": "https://ingrams.com/article/50-kansans-you-should-know-2021/",
-      "title": "50 Kansans You Should Know 2021",
-      "publisher": "Ingram's",
-      "accessed": "2026-05-20",
-      "claimsAnchored": [
-        "Leiker described L5 Farms as part of a fifth-generation Ellis County farm",
-        "Leiker discussed direct producer-consumer relationships after COVID supply-chain disruption",
-        "Observed public online activity mapped to Subdivision growth, rural land use, and infrastructure capacity."
-      ]
-    },
-    {
       "id": "s-myaniml-leiker-2023",
       "tier": "secondary",
       "url": "https://myaniml.com/Kansas_Rancher_Installs_MyAnIML_to_Save.pdf",
@@ -734,18 +697,6 @@ export const NATHAN_LEIKER_V2: CandidateFullV2 = {
         "Leiker discussed cattle-health technology in terms of labor limits, earlier treatment, and low-stress handling",
         "Observed public online activity mapped to Mental health funding and jail-cost avoidance.",
         "Observed public online activity mapped to Subdivision growth, rural land use, and infrastructure capacity."
-      ]
-    },
-    {
-      "id": "s-ellis-candidate-filings",
-      "tier": "primary",
-      "url": "https://www.ellisco.net/626/Candidate-Filings",
-      "title": "Ellis County Candidate Filings",
-      "publisher": "Ellis County Clerk",
-      "accessed": "2026-05-20",
-      "claimsAnchored": [
-        "County-level candidate filings are held by the Ellis County Clerk",
-        "The public website does not expose itemized local candidate donor ledgers"
       ]
     },
     {

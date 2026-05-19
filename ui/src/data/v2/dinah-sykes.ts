@@ -25,11 +25,11 @@ export const DINAH_SYKES_V2: CandidateFullV2 = {
       "stated": {
         "text": "Supports access to abortion. Her legislative platform includes abortion access as part of her broader healthcare and consumer-protection agenda.",
         "sourceIds": [
-          "s-54",
+          "s-9",
           "s-1",
-          "s-2",
-          "s-3",
-          "s-4"
+          "s-6",
+          "s-7",
+          "s-8"
         ]
       },
       "actions": [],
@@ -50,7 +50,7 @@ export const DINAH_SYKES_V2: CandidateFullV2 = {
           "observation": "Within the accessible material reviewed, no sustained campaign-controlled 2026 insurance messaging centered guns, immigration/border policy, marijuana policy, rural broadband, road and bridge funding, water policy, the Ogallala aquifer, energy policy, farm policy, or election administration. Sykes has public legislative material on LGBTQ+ policy, abortion/reproductive rights, public schools, taxes, health care,...",
           "observedAt": "2026-05-19",
           "sourceIds": [
-            "s-5"
+            "s-2"
           ],
           "mappedToIssueId": "i-abortion-sanctity-of-life-1"
         },
@@ -72,12 +72,10 @@ export const DINAH_SYKES_V2: CandidateFullV2 = {
       "stated": {
         "text": "No candidate-controlled statement was found in the reviewed public record for this issue. This page therefore does not infer a position from party label, faith affiliation, follows, likes, comments, or associations.",
         "sourceIds": [
-          "s-10",
-          "s-16",
-          "s-27",
-          "s-29",
-          "s-32",
-          "s-40"
+          "s-1",
+          "s-6",
+          "s-7",
+          "s-8"
         ]
       },
       "actions": [],
@@ -98,7 +96,7 @@ export const DINAH_SYKES_V2: CandidateFullV2 = {
           "observation": "Her older candidate-attributed writing and indexed posts reinforce a theme of opposing what she calls extremism and overreach. In a February 2023 Capitol Update, she criticized public-health restrictions, anti-trans bills, abortion limits, school vouchers, Medicaid refusal, and flat-tax policy. In a 2022 archived X thread, she said redistricting was a once-in-a-decade constitutional responsibility and urged...",
           "observedAt": "2026-05-19",
           "sourceIds": [
-            "s-social-crossref-4"
+            "s-10"
           ],
           "mappedToIssueId": "i-marriage-family-lgbtq-policy-2"
         }
@@ -110,12 +108,10 @@ export const DINAH_SYKES_V2: CandidateFullV2 = {
       "stated": {
         "text": "Runs as a Democrat. No specific personal statement found in public sources.",
         "sourceIds": [
-          "s-28",
-          "s-29",
-          "s-31",
-          "s-32",
-          "s-36",
-          "s-37"
+          "s-1",
+          "s-6",
+          "s-7",
+          "s-8"
         ]
       },
       "actions": [],
@@ -126,7 +122,7 @@ export const DINAH_SYKES_V2: CandidateFullV2 = {
           "observation": "17, 2025: interview after the assassination of Minnesota Rep. Melissa Hortman. Sykes discussed safety concerns, divisiveness, and the need to go after policy rather than people. (source) 20. Yahoo/Kansas City Star opinion, May 21, 2023: Sykes wrote as a Christian, mother, and daughter who lost her mother to breast cancer, linking those experiences to public schools, health care, justice, and mercy. (source) 21....",
           "observedAt": "2026-05-19",
           "sourceIds": [
-            "s-social-crossref-5"
+            "s-11"
           ],
           "mappedToIssueId": "i-religious-liberty-3"
         },
@@ -136,7 +132,7 @@ export const DINAH_SYKES_V2: CandidateFullV2 = {
           "observation": "Sykes also uses personal and moral biography in public writing. In a 2023 opinion piece, she described herself as a mom, a daughter who lost her mother to breast cancer, and a Christian, linking those experiences to public schools, health care, justice, and mercy. That language does not dominate the current insurance campaign, but it explains why school funding, health access, and compassion recur in her public...",
           "observedAt": "2026-05-19",
           "sourceIds": [
-            "s-social-crossref-6"
+            "s-social-crossref-4"
           ],
           "mappedToIssueId": "i-religious-liberty-3"
         }
@@ -148,12 +144,10 @@ export const DINAH_SYKES_V2: CandidateFullV2 = {
       "stated": {
         "text": "No candidate-controlled statement was found in the reviewed public record for this issue. This page therefore does not infer a position from party label, faith affiliation, follows, likes, comments, or associations.",
         "sourceIds": [
-          "s-10",
-          "s-16",
-          "s-27",
-          "s-29",
-          "s-32",
-          "s-37"
+          "s-1",
+          "s-6",
+          "s-7",
+          "s-8"
         ]
       },
       "actions": [],
@@ -164,7 +158,7 @@ export const DINAH_SYKES_V2: CandidateFullV2 = {
           "observation": "The main visible absences are platform and issue absences. No verified candidate-controlled YouTube, TikTok, Bluesky, Threads, Truth Social, Gab, Gettr, Substack, or Reddit account surfaced in this pass. In the current insurance-campaign material reviewed, there was no sustained messaging on guns, immigration, marijuana, broadband, roads, water, energy, farm policy, or election administration. The accessible 2026...",
           "observedAt": "2026-05-19",
           "sourceIds": [
-            "s-5"
+            "s-2"
           ],
           "mappedToIssueId": "i-guns-second-amendment-4"
         }
@@ -176,12 +170,12 @@ export const DINAH_SYKES_V2: CandidateFullV2 = {
       "stated": {
         "text": "Runs as a Democrat. The Kansas Democratic Party platform supports immigration reform with a pathway to citi",
         "sourceIds": [
-          "s-1",
-          "s-2",
-          "s-4",
-          "s-6",
           "s-11",
-          "s-13"
+          "s-13",
+          "s-1",
+          "s-6",
+          "s-7",
+          "s-8"
         ]
       },
       "actions": [],
@@ -213,1168 +207,103 @@ export const DINAH_SYKES_V2: CandidateFullV2 = {
   "sources": [
     {
       "id": "s-1",
-      "tier": "primary",
-      "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm",
-      "title": "Kansas.Gov",
-      "publisher": "kansas.gov",
+      "tier": "secondary",
+      "url": "https://www.dinahsykes.com/",
+      "title": "source",
+      "publisher": "Dinahsykes",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
+        "Candidate-specific source extracted for Dinah Sykes."
       ]
     },
     {
       "id": "s-2",
-      "tier": "primary",
-      "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/Treasurers/SW03DS_AT.pdf",
-      "title": "Kansas.Gov",
-      "publisher": "kansas.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-3",
-      "tier": "secondary",
-      "url": "https://hartforsenate.com/",
-      "title": "Hartforsenate.Com",
-      "publisher": "hartforsenate.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-4",
-      "tier": "secondary",
-      "url": "https://www.christydavisforkansas.com/",
-      "title": "Christydavisforkansas.Com",
-      "publisher": "christydavisforkansas.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-5",
       "tier": "social",
-      "url": "https://www.facebook.com/christy.davis.710/",
-      "title": "Facebook.Com",
-      "publisher": "facebook.com",
+      "url": "https://www.facebook.com/Sykes4KS/",
+      "title": "source",
+      "publisher": "Facebook",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
+        "Candidate-specific source extracted for Dinah Sykes."
       ]
     },
     {
       "id": "s-6",
       "tier": "secondary",
-      "url": "https://sandyforkansas.com/",
-      "title": "Sandyforkansas.Com",
-      "publisher": "sandyforkansas.com",
+      "url": "https://www.kssenatedems.org/dinah-sykes",
+      "title": "source",
+      "publisher": "Kssenatedems",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
+        "Candidate-specific source extracted for Dinah Sykes."
       ]
     },
     {
       "id": "s-7",
-      "tier": "social",
-      "url": "https://x.com/speumann",
-      "title": "X.Com",
-      "publisher": "x.com",
+      "tier": "secondary",
+      "url": "https://www.kssenatedems.org/dinah-sykes1",
+      "title": "source",
+      "publisher": "Kssenatedems",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
+        "Candidate-specific source extracted for Dinah Sykes."
       ]
     },
     {
       "id": "s-8",
-      "tier": "social",
-      "url": "https://www.instagram.com/speumann/",
-      "title": "Instagram.Com",
-      "publisher": "instagram.com",
+      "tier": "primary",
+      "url": "https://www.kslegislature.gov/li/b2025_26/members/sen_sykes_dinah_1/",
+      "title": "source",
+      "publisher": "Kslegislature",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
+        "Candidate-specific source extracted for Dinah Sykes."
       ]
     },
     {
       "id": "s-9",
-      "tier": "social",
-      "url": "https://www.linkedin.com/in/sandy-spidel-neumann-a278536/",
-      "title": "Linkedin.Com",
-      "publisher": "linkedin.com",
+      "tier": "secondary",
+      "url": "https://www.nwksradio.net/post/dinah-sykes-legislative-update-end-of-sessions-recap",
+      "title": "source",
+      "publisher": "Nwksradio",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
+        "Candidate-specific source extracted for Dinah Sykes."
       ]
     },
     {
       "id": "s-10",
-      "tier": "primary",
-      "url": "https://www.fec.gov/data/candidate/S6KS00262/",
-      "title": "Fec.Gov",
-      "publisher": "fec.gov",
+      "tier": "secondary",
+      "url": "https://johnsoncountypost.com/2023/02/13/capitol-update-sen-dinah-sykes-gop-harmful-193705/",
+      "title": "source",
+      "publisher": "Johnsoncountypost",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
+        "Candidate-specific source extracted for Dinah Sykes.",
+        "Observed public online activity mapped to Marriage & Family / LGBTQ+ Policy."
       ]
     },
     {
       "id": "s-11",
       "tier": "secondary",
-      "url": "https://erikforkansas.com/",
-      "title": "Erikforkansas.Com",
-      "publisher": "erikforkansas.com",
+      "url": "https://www.kcur.org/podcast/up-to-date/2025-06-17/dinah-sykes-kansas-senate-democrat-hartman-assassination",
+      "title": "source",
+      "publisher": "Kcur",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-12",
-      "tier": "social",
-      "url": "https://www.facebook.com/",
-      "title": "Facebook.Com",
-      "publisher": "facebook.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
+        "Candidate-specific source extracted for Dinah Sykes.",
+        "Observed public online activity mapped to Religious Liberty."
       ]
     },
     {
       "id": "s-13",
       "tier": "secondary",
-      "url": "https://mikeforkansas.my.canva.site/",
-      "title": "Mikeforkansas.My.Canva.Site",
-      "publisher": "mikeforkansas.my.canva.site",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-14",
-      "tier": "secondary",
-      "url": "https://secure.actblue.com/donate/michael-soetaert",
-      "title": "Secure.Actblue.Com",
-      "publisher": "secure.actblue.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-15",
-      "tier": "social",
-      "url": "https://www.facebook.com/michael.soetaert1/",
-      "title": "Facebook.Com",
-      "publisher": "facebook.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-16",
-      "tier": "primary",
-      "url": "https://www.fec.gov/data/candidate/S2KS00097/",
-      "title": "Fec.Gov",
-      "publisher": "fec.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-17",
-      "tier": "secondary",
-      "url": "https://patrickforkansas.com/",
-      "title": "Patrickforkansas.Com",
-      "publisher": "patrickforkansas.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-18",
-      "tier": "social",
-      "url": "https://www.facebook.com/patrickforkansas/",
-      "title": "Facebook.Com",
-      "publisher": "facebook.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-19",
-      "tier": "secondary",
-      "url": "https://www.kssenatedems.org/patrick-schmidt",
-      "title": "Kssenatedems.Org",
-      "publisher": "kssenatedems.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-20",
-      "tier": "primary",
-      "url": "https://www.kslegislature.gov/li/b2025_26/members/rep_hawkins_daniel_1/",
-      "title": "Kslegislature.Gov",
-      "publisher": "kslegislature.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-21",
-      "tier": "secondary",
-      "url": "https://www.hawkinsforinsurance.com/",
-      "title": "Hawkinsforinsurance.Com",
-      "publisher": "hawkinsforinsurance.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-22",
-      "tier": "social",
-      "url": "https://x.com/danhawkinsks",
-      "title": "X.Com",
-      "publisher": "x.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-23",
-      "tier": "secondary",
-      "url": "https://www.dinahsykes.com/",
-      "title": "Dinahsykes.Com",
-      "publisher": "dinahsykes.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-24",
-      "tier": "social",
-      "url": "https://www.facebook.com/Sykes4KS/",
-      "title": "Facebook.Com",
-      "publisher": "facebook.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-25",
-      "tier": "secondary",
-      "url": "https://www.kssenatedems.org/dinah-sykes",
-      "title": "Kssenatedems.Org",
-      "publisher": "kssenatedems.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-26",
-      "tier": "primary",
-      "url": "https://www.kslegislature.gov/li/b2025_26/members/sen_sykes_dinah_1/",
-      "title": "Kslegislature.Gov",
-      "publisher": "kslegislature.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-27",
-      "tier": "secondary",
-      "url": "https://www.kcur.org/politics-elections-and-government/2025-12-30/whos-running-to-represent-kansas-in-the-u-s-senate-in-2026-heres-a-guide-to-the-candidates",
-      "title": "Kcur.Org",
-      "publisher": "kcur.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-28",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2026/03/08/kansas-democrats-in-u-s-senate-campaign-focus-on-defeating-gop-incumbent/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-29",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2026/03/23/democratic-candidate-in-u-s-senate-race-opens-arms-to-kansas-republicans-lost-in-the-wilderness/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-30",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2026/03/16/kansas-city-entrepreneur-prioritizes-passion-decency-in-campaign-for-u-s-senate/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-31",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2025/08/25/democratic-immigration-lawyer-wants-to-fix-broken-system-with-run-for-u-s-senate-in-kansas/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-32",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2025/08/18/democratic-u-s-senate-candidate-eager-to-broaden-kansas-voice-in-d-c-politics/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-33",
-      "tier": "secondary",
       "url": "https://kansasreflector.com/briefs/kansas-senate-minority-leader-challenges-gop-house-speaker-for-state-insurance-commissioner/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
+      "title": "Kansas Reflector: Sykes challenges Hawkins",
+      "publisher": "Kansasreflector",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-34",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2026/03/22/kansas-house-speaker-desperately-maneuvers-to-sabotage-vote-on-senate-bill-capping-drug-costs/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-35",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2025/05/13/kansas-house-speaker-launches-campaign-for-insurance-commissioner-with-pro-trump-rhetoric-1/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-36",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/briefs/kansas-democrat-launches-u-s-senate-campaign-criticizes-gop-incumbent-marshall/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-37",
-      "tier": "secondary",
-      "url": "https://heartlandsignal.com/2026/03/26/kansas-republicans-defy-house-speaker-dan-hawkins-and-pass-prescription-drug-consumer-protections-bill/",
-      "title": "Heartlandsignal.Com",
-      "publisher": "heartlandsignal.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-38",
-      "tier": "secondary",
-      "url": "https://www.kmuw.org/government/2026-03-26/kansas-house-passes-bill-providing-stricter-regulation-of-prescription-drug-middlemen",
-      "title": "Kmuw.Org",
-      "publisher": "kmuw.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-39",
-      "tier": "primary",
-      "url": "https://www.fec.gov/data/elections/senate/KS/2026/",
-      "title": "Fec.Gov",
-      "publisher": "fec.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-40",
-      "tier": "primary",
-      "url": "https://www.fec.gov/data/candidate/S0KS00315/",
-      "title": "Fec.Gov",
-      "publisher": "fec.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-41",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/United_States_Senate_election_in_Kansas,_2026",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-42",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Kansas_Insurance_Commissioner_election,_2026",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-43",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Daniel_Hawkins_(Kansas",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-44",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Dinah_Sykes",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-45",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Patrick_Schmidt",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-46",
-      "tier": "secondary",
-      "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Kansas",
-      "title": "En.Wikipedia.Org",
-      "publisher": "en.wikipedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-47",
-      "tier": "secondary",
-      "url": "https://www.cookpolitical.com/senate/race/488581",
-      "title": "Cookpolitical.Com",
-      "publisher": "cookpolitical.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-48",
-      "tier": "secondary",
-      "url": "https://smartpolitics.lib.umn.edu/2025/03/05/how-well-can-democrats-fare-in-kansas-2026-us-senate-election/",
-      "title": "Smartpolitics.Lib.Umn.Edu",
-      "publisher": "smartpolitics.lib.umn.edu",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-49",
-      "tier": "secondary",
-      "url": "https://sunflowerstatejournal.com/hawkins-reveals-campaign-fundraising-for-insurance-commissioner/",
-      "title": "Sunflowerstatejournal.Com",
-      "publisher": "sunflowerstatejournal.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-50",
-      "tier": "secondary",
-      "url": "https://www.nrsc.org/press-releases/nrsc-calls-for-investigation-into-four-kansas-democrat-senate-candidates-for-violating-the-law-2026-03-11/",
-      "title": "Nrsc.Org",
-      "publisher": "nrsc.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-51",
-      "tier": "secondary",
-      "url": "https://freebeacon.com/democrats/kansas-senate-candidate-names-his-political-inspiration-a-black-panther-soldier-working-to-destroy-the-american-empire/",
-      "title": "Freebeacon.Com",
-      "publisher": "freebeacon.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-52",
-      "tier": "secondary",
-      "url": "https://www.ksn.com/news/state-regional/kansas-us-senate-candidates-under-scrutiny-over-missing-financial-disclosures/",
-      "title": "Ksn.Com",
-      "publisher": "ksn.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-53",
-      "tier": "secondary",
-      "url": "https://www.cnn.com/2018/12/19/politics/kansas-legislature-republican-democrat/index.html",
-      "title": "Cnn.Com",
-      "publisher": "cnn.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-54",
-      "tier": "secondary",
-      "url": "https://www.kcur.org/politics-elections-and-government/2018-12-19/more-kansas-legislative-republicans-jump-ship-become-democrats",
-      "title": "Kcur.Org",
-      "publisher": "kcur.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-55",
-      "tier": "secondary",
-      "url": "https://www.salon.com/2018/12/21/three-kansas-republicans-switch-parties-in-one-week-more-defections-expected/",
-      "title": "Salon.Com",
-      "publisher": "salon.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-56",
-      "tier": "primary",
-      "url": "https://www.kslegislature.gov/li/b2025_26/members/sen_schmidt_patrick_1/",
-      "title": "Kslegislature.Gov",
-      "publisher": "kslegislature.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-57",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Kansas_Elections_for_Supreme_Court_Justices_Amendment_(August_2026",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-58",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2025/08/07/rivals-launch-fight-over-kansas-constitutional-amendment-to-elect-supreme-court-justices/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-59",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2026/02/10/kansas-method-of-picking-supreme-court-justices-could-be-improved-but-will-an-amendment-do-that/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-60",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2025/03/19/kansas-house-endorses-plan-to-elect-supreme-court-justices-placing-question-on-august-2026-ballot/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-61",
-      "tier": "secondary",
-      "url": "https://thebeaconnews.org/stories/2025/03/19/kansas-supreme-court-elections-voters-will-decide-in-2026/",
-      "title": "Thebeaconnews.Org",
-      "publisher": "thebeaconnews.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-62",
-      "tier": "secondary",
-      "url": "https://www.kcur.org/politics-elections-and-government/2026-01-26/kansas-lawmakers-want-to-reveal-more-about-the-people-picking-supreme-court-justices",
-      "title": "Kcur.Org",
-      "publisher": "kcur.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-63",
-      "tier": "secondary",
-      "url": "https://sunflowerstatejournal.com/judicial-amendment-campaign-shapes-up-outside-group-books-nearly-1-million-in-ads/",
-      "title": "Sunflowerstatejournal.Com",
-      "publisher": "sunflowerstatejournal.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-64",
-      "tier": "secondary",
-      "url": "https://www.votenokansas.org/",
-      "title": "Votenokansas.Org",
-      "publisher": "votenokansas.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-65",
-      "tier": "primary",
-      "url": "https://www.kslegislature.gov/li/b2025_26/measures/documents/summary_scr_1611_2025",
-      "title": "Kslegislature.Gov",
-      "publisher": "kslegislature.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-66",
-      "tier": "secondary",
-      "url": "https://www.brennancenter.org/our-work/analysis-opinion/wisconsin-supreme-court-race-breaks-spending-record-fueled-out-state",
-      "title": "Brennancenter.Org",
-      "publisher": "brennancenter.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-67",
-      "tier": "secondary",
-      "url": "https://pbswisconsin.org/news-item/billionaires-push-spending-in-the-2025-wisconsin-supreme-court-race-over-the-100-million-mark/",
-      "title": "Pbswisconsin.Org",
-      "publisher": "pbswisconsin.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-68",
-      "tier": "secondary",
-      "url": "https://www.npr.org/2025/04/01/nx-s1-5345862/wisconsin-supreme-court-crawford-schimel-election-results",
-      "title": "Npr.Org",
-      "publisher": "npr.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-69",
-      "tier": "secondary",
-      "url": "https://www.kansasinformationnetwork.com/2026-Kansas-Constitutional-Amendment",
-      "title": "Kansasinformationnetwork.Com",
-      "publisher": "kansasinformationnetwork.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-70",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Kansas_Citizenship_Voting_Requirement_Amendment_(2026",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-71",
-      "tier": "secondary",
-      "url": "https://news.ballotpedia.org/2025/03/27/kansas-voters-will-decide-on-citizenship-voting-requirement-amendment-in-2026-similar-measures-were-approved-in-eight-states-in-2024/",
-      "title": "News.Ballotpedia.Org",
-      "publisher": "news.ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-72",
-      "tier": "secondary",
-      "url": "https://www.npr.org/2018/06/19/621304260/judge-tosses-kansas-proof-of-citizenship-voter-law-and-rebukes-sec-of-state-koba",
-      "title": "Npr.Org",
-      "publisher": "npr.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-73",
-      "tier": "secondary",
-      "url": "https://www.aclukansas.org/press-releases/resounding-victory-tens-thousands-disenfranchised-kansas-voters-supreme-court-refuses/",
-      "title": "Aclukansas.Org",
-      "publisher": "aclukansas.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-74",
-      "tier": "secondary",
-      "url": "https://www.cnn.com/2024/11/03/politics/noncitizen-voting-ballot-measures-election/index.html",
-      "title": "Cnn.Com",
-      "publisher": "cnn.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-75",
-      "tier": "secondary",
-      "url": "https://www.prismnews.com/news/kansas-proof-of-citizenship-voting-law-blocked-31000",
-      "title": "Prismnews.Com",
-      "publisher": "prismnews.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-76",
-      "tier": "secondary",
-      "url": "https://www.pbs.org/newshour/nation/kansas-hopes-to-resurrect-proof-of-citizenship-voting-law",
-      "title": "Pbs.Org",
-      "publisher": "pbs.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-77",
-      "tier": "secondary",
-      "url": "https://www.kcur.org/politics-elections-and-government/2025-07-24/kansas-governor-race-2026-election-candidates",
-      "title": "Kcur.Org",
-      "publisher": "kcur.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-78",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2026/01/30/six-kansas-gop-candidates-for-governor-toss-haymakers-in-first-debate-find-unity-on-key-issues/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-79",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2025/07/22/kansas-sen-ethan-corson-enters-race-for-democratic-partys-nomination-for-governor/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-80",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Kansas_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-81",
-      "tier": "secondary",
-      "url": "https://www.kmuw.org/government/2026-03-25/democratic-candidate-in-u-s-senate-race-opens-arms-to-kansas-republicans-lost-in-the-wilderness",
-      "title": "Kmuw.Org",
-      "publisher": "kmuw.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-82",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2025/11/25/kansas-democratic-candidates-for-u-s-senate-sharpen-attack-on-gop-incumbent-roger-marshall/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-83",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2026/01/05/lawrence-democrats-take-aim-at-kansas-republicans-congressional-seat/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-84",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Kansas'_1st_Congressional_District_election,_2026",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-85",
-      "tier": "primary",
-      "url": "https://mann.house.gov/",
-      "title": "Mann.House.Gov",
-      "publisher": "mann.house.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-86",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2025/07/30/kansas-election-for-attorney-general-in-2026-may-become-a-repeat-of-2022-showdown/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-87",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Kansas_Attorney_General_election,_2026",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-88",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2025/04/04/leavenworth-house-member-first-republican-to-declare-as-2026-candidate-for-secretary-of-state/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-89",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Kansas_Secretary_of_State_election,_2026",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-90",
-      "tier": "secondary",
-      "url": "https://kspress.com/news/2026/03/27/kansas-legislature-passes-package-of-elections-bills-that-alter-voting-processes",
-      "title": "Kspress.Com",
-      "publisher": "kspress.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-91",
-      "tier": "primary",
-      "url": "https://www.kslegislature.gov/li/b2025_26/members/rep_wasinger_barbara_1/",
-      "title": "Kslegislature.Gov",
-      "publisher": "kslegislature.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-92",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Kansas_House_of_Representatives_District_111",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-93",
-      "tier": "secondary",
-      "url": "https://barbforkansas.com/",
-      "title": "Barbforkansas.Com",
-      "publisher": "barbforkansas.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-94",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Kansas_State_Board_of_Education_election,_2026",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-95",
-      "tier": "primary",
-      "url": "https://www.ksde.gov/Board/Kansas-State-Board-of-Education/District-5",
-      "title": "Ksde.Gov",
-      "publisher": "ksde.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-96",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2024/10/22/kansas-board-of-education-races-could-shift-power-to-conservative-bloc/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-97",
-      "tier": "secondary",
-      "url": "https://kansasdems.org/candidates",
-      "title": "Kansasdems.Org",
-      "publisher": "kansasdems.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-98",
-      "tier": "primary",
-      "url": "https://www.kdor.ks.gov/Apps/VoterReg/",
-      "title": "Kdor.Ks.Gov",
-      "publisher": "kdor.ks.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-99",
-      "tier": "secondary",
-      "url": "https://myvoteinfo.voteks.org/",
-      "title": "Myvoteinfo.Voteks.Org",
-      "publisher": "myvoteinfo.voteks.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-100",
-      "tier": "secondary",
-      "url": "https://www.kansasreflector.com/briefs/kansas-senate-minority-leader-challenges-gop-house-speaker-for-state-insurance-commissioner/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-101",
-      "tier": "primary",
-      "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/",
-      "title": "Kansas.Gov",
-      "publisher": "kansas.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-102",
-      "tier": "secondary",
-      "url": "https://insurancenewsnet.com/oarticle/sen-sykes-campaigning-for-insurance-commissioner",
-      "title": "InsuranceNewsNet - Sykes campaigning",
-      "publisher": "Insurancenewsnet.Com",
-      "accessed": "2026-03-31",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-103",
-      "tier": "secondary",
-      "url": "https://en.wikipedia.org/wiki/Dinah_Sykes",
-      "title": "Wikipedia",
-      "publisher": "En.Wikipedia.Org",
-      "accessed": "2026-03-31",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-104",
-      "tier": "secondary",
-      "url": "https://www.kshb.com/news/state/kansas/from-pta-president-to-kansas-senate-a-local-mom-readies-for-her-new-job",
-      "title": "KSHB - PTA to Senate",
-      "publisher": "Kshb.Com",
-      "accessed": "2026-03-31",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-105",
-      "tier": "secondary",
-      "url": "https://csgmidwest.org/wp-content/uploads/2025/04/leader-sykes.pdf",
-      "title": "CSG Midwest - Profile",
-      "publisher": "Csgmidwest.Org",
-      "accessed": "2026-03-31",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-106",
-      "tier": "secondary",
-      "url": "https://lenexarotary.org/stories/new-member-spotlight-dinah-sykes",
-      "title": "Lenexa Rotary - New Member Spotlight",
-      "publisher": "Lenexarotary.Org",
-      "accessed": "2026-03-31",
-      "claimsAnchored": [
-        "Source carried forward for Dinah Sykes's generated v2 profile."
+        "Candidate-specific source extracted for Dinah Sykes."
       ]
     },
     {
@@ -1415,30 +344,6 @@ export const DINAH_SYKES_V2: CandidateFullV2 = {
     },
     {
       "id": "s-social-crossref-4",
-      "tier": "secondary",
-      "url": "https://johnsoncountypost.com/2023/02/13/capitol-update-sen-dinah-sykes-gop-harmful-193705/",
-      "title": "X / Johnsoncountypost",
-      "publisher": "Johnsoncountypost",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Observed public online activity mapped to Marriage & Family / LGBTQ+ Policy.",
-        "Her older candidate-attributed writing and indexed posts reinforce a theme of opposing what she calls extremism and overreach. In a February 2023 Capitol Update, she criticized pub"
-      ]
-    },
-    {
-      "id": "s-social-crossref-5",
-      "tier": "secondary",
-      "url": "https://www.kcur.org/podcast/up-to-date/2025-06-17/dinah-sykes-kansas-senate-democrat-hartman-assassination",
-      "title": "kcur / Kcur",
-      "publisher": "Kcur",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Observed public online activity mapped to Religious Liberty.",
-        "17, 2025: interview after the assassination of Minnesota Rep. Melissa Hortman. Sykes discussed safety concerns, divisiveness, and the need to go after policy rather than people. (s"
-      ]
-    },
-    {
-      "id": "s-social-crossref-6",
       "tier": "secondary",
       "url": "https://www.yahoo.com/news/kansas-republicans-religion-fuel-hate-101700931.html",
       "title": "yahoo.com / Yahoo",

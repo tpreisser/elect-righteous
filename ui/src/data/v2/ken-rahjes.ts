@@ -24,12 +24,10 @@ export const KEN_RAHJES_V2: CandidateFullV2 = {
       "stated": {
         "text": "No candidate-controlled statement was found in the reviewed public record for this issue. This page therefore does not infer a position from party label, faith affiliation, follows, likes, comments, or associations.",
         "sourceIds": [
-          "s-23",
-          "s-24",
-          "s-27",
-          "s-28",
-          "s-29",
-          "s-31"
+          "s-2",
+          "s-3",
+          "s-4",
+          "s-5"
         ]
       },
       "actions": [],
@@ -40,7 +38,7 @@ export const KEN_RAHJES_V2: CandidateFullV2 = {
           "observation": "Key themes: Value Them Both, property-tax transparency, Kansas Promise Scholarship Act, COVID liability protections, unemployment-system overhaul, budget work, and constituent contact. (source) 6. July 1, 2025 Hays Post filing coverage carrying the campaign announcement.",
           "observedAt": "2026-05-19",
           "sourceIds": [
-            "s-57"
+            "s-social-crossref-1"
           ],
           "mappedToIssueId": "i-abortion-sanctity-of-life-1"
         },
@@ -72,12 +70,10 @@ export const KEN_RAHJES_V2: CandidateFullV2 = {
       "stated": {
         "text": "No candidate-controlled statement was found in the reviewed public record for this issue. This page therefore does not infer a position from party label, faith affiliation, follows, likes, comments, or associations.",
         "sourceIds": [
-          "s-23",
-          "s-24",
-          "s-27",
-          "s-28",
-          "s-29",
-          "s-36"
+          "s-2",
+          "s-3",
+          "s-4",
+          "s-5"
         ]
       },
       "actions": [],
@@ -89,12 +85,10 @@ export const KEN_RAHJES_V2: CandidateFullV2 = {
       "stated": {
         "text": "No candidate-controlled statement was found in the reviewed public record for this issue. This page therefore does not infer a position from party label, faith affiliation, follows, likes, comments, or associations.",
         "sourceIds": [
-          "s-23",
-          "s-24",
-          "s-27",
-          "s-28",
-          "s-29",
-          "s-31"
+          "s-2",
+          "s-3",
+          "s-4",
+          "s-5"
         ]
       },
       "actions": [],
@@ -105,7 +99,7 @@ export const KEN_RAHJES_V2: CandidateFullV2 = {
           "observation": "Key themes: election integrity and security, business filings, One Stop portal, campaign prayer/support/vote ask. (source) 4. Jan. 20, 2024 campaign-site relaunch post. Rahjes said he had filed for reelection to the Kansas House and continued to serve as chair of Agriculture and Natural Resources and on appropriations, higher education budget, and special claims committees. (source) 5. May 12, 2021 campaign...",
           "observedAt": "2026-05-19",
           "sourceIds": [
-            "s-48"
+            "s-2"
           ],
           "mappedToIssueId": "i-religious-liberty-3"
         }
@@ -117,12 +111,10 @@ export const KEN_RAHJES_V2: CandidateFullV2 = {
       "stated": {
         "text": "No candidate-controlled statement was found in the reviewed public record for this issue. This page therefore does not infer a position from party label, faith affiliation, follows, likes, comments, or associations.",
         "sourceIds": [
+          "s-2",
           "s-3",
           "s-4",
-          "s-5",
-          "s-9",
-          "s-15",
-          "s-16"
+          "s-5"
         ]
       },
       "actions": [],
@@ -134,12 +126,10 @@ export const KEN_RAHJES_V2: CandidateFullV2 = {
       "stated": {
         "text": "No candidate-controlled statement was found in the reviewed public record for this issue. This page therefore does not infer a position from party label, faith affiliation, follows, likes, comments, or associations.",
         "sourceIds": [
-          "s-23",
-          "s-24",
-          "s-27",
-          "s-28",
-          "s-29",
-          "s-31"
+          "s-2",
+          "s-3",
+          "s-4",
+          "s-5"
         ]
       },
       "actions": [],
@@ -151,12 +141,10 @@ export const KEN_RAHJES_V2: CandidateFullV2 = {
       "stated": {
         "text": "No candidate-controlled statement was found in the reviewed public record for this issue. This page therefore does not infer a position from party label, faith affiliation, follows, likes, comments, or associations.",
         "sourceIds": [
-          "s-23",
-          "s-24",
-          "s-27",
-          "s-28",
-          "s-29",
-          "s-36"
+          "s-2",
+          "s-3",
+          "s-4",
+          "s-5"
         ]
       },
       "actions": [],
@@ -167,7 +155,7 @@ export const KEN_RAHJES_V2: CandidateFullV2 = {
           "observation": "Key themes: speaking directly with voters, county clerks, voter ID, ending the mail-ballot grace period, school civic education, business filings, property taxes, and review of rules and regulations. (source) 8. Mar. 16, 2026 KVOE Emporia coverage. Key themes: statewide campaign travel, secure/counted votes, business filings, entrepreneurs, and continuing Scott Schwab's business-owner service work. (source) 9....",
           "observedAt": "2026-05-19",
           "sourceIds": [
-            "s-50"
+            "s-social-crossref-2"
           ],
           "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
         },
@@ -177,7 +165,7 @@ export const KEN_RAHJES_V2: CandidateFullV2 = {
           "observation": "Key themes: rural senior transportation, rural health funding, conservation, water, AI campaign misuse, NIL funding, and local control. (source) 10. Feb. 9, 2025 Hays Post legislative coffee coverage. Key themes: state spending, water conservation, local school control, gender-transition policy for minors, rural attorney shortage, and ethanol infrastructure. (source) 11. Kansas Legislature current profile.",
           "observedAt": "2026-05-19",
           "sourceIds": [
-            "s-social-crossref-1"
+            "s-social-crossref-3"
           ],
           "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
         },
@@ -187,7 +175,7 @@ export const KEN_RAHJES_V2: CandidateFullV2 = {
           "observation": "Local coverage of his campaign stops repeats the same two-part argument. At a November 2025 Hays event, Rahjes said, \"I believe I'm most effective by looking you in the eye and having a conversation,\" and tied his run to county clerks, voter ID, ending the three-day mail-ballot grace period, and civic education in schools. On the business side, he described the secretary of state's office as the \"front door\" for...",
           "observedAt": "2026-05-19",
           "sourceIds": [
-            "s-50"
+            "s-social-crossref-2"
           ],
           "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
         }
@@ -199,12 +187,10 @@ export const KEN_RAHJES_V2: CandidateFullV2 = {
       "stated": {
         "text": "Runs as a Republican. The Kansas Republican Party has not endorsed marijuana legali",
         "sourceIds": [
-          "s-1",
           "s-2",
           "s-3",
           "s-4",
-          "s-5",
-          "s-6"
+          "s-5"
         ]
       },
       "actions": [],
@@ -255,680 +241,86 @@ export const KEN_RAHJES_V2: CandidateFullV2 = {
   "sources": [
     {
       "id": "s-1",
-      "tier": "secondary",
-      "url": "https://kenforkansas.com/",
-      "title": "Kenforkansas.Com",
-      "publisher": "kenforkansas.com",
+      "tier": "social",
+      "url": "https://twitter.com/kenrahjes",
+      "title": "X/Twitter kenrahjes",
+      "publisher": "Twitter",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
+        "Candidate-specific source extracted for Ken Rahjes."
       ]
     },
     {
       "id": "s-2",
-      "tier": "primary",
-      "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm",
-      "title": "Kansas.Gov",
-      "publisher": "kansas.gov",
+      "tier": "secondary",
+      "url": "https://kenforkansas.com/news/rahjes-files-for-secretary-of-state/",
+      "title": "source",
+      "publisher": "Kenforkansas",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
+        "Candidate-specific source extracted for Ken Rahjes.",
+        "Observed public online activity mapped to Religious Liberty."
       ]
     },
     {
       "id": "s-3",
       "tier": "secondary",
-      "url": "https://ballotpedia.org/Kansas_Elections_for_Supreme_Court_Justices_Amendment_(August_2026",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
+      "url": "https://muckrack.com/ken-rahjes",
+      "title": "source",
+      "publisher": "Muckrack",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
+        "Candidate-specific source extracted for Ken Rahjes."
       ]
     },
     {
       "id": "s-4",
       "tier": "secondary",
-      "url": "https://kansasreflector.com/2025/08/07/rivals-launch-fight-over-kansas-constitutional-amendment-to-elect-supreme-court-justices/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
+      "url": "https://kvoe.com/2026/03/16/rahjes-in-emporia-touting-secretary-of-state-bid/",
+      "title": "source",
+      "publisher": "Kvoe",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
+        "Candidate-specific source extracted for Ken Rahjes."
       ]
     },
     {
       "id": "s-5",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2026/02/10/kansas-method-of-picking-supreme-court-justices-could-be-improved-but-will-an-amendment-do-that/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-6",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2025/03/19/kansas-house-endorses-plan-to-elect-supreme-court-justices-placing-question-on-august-2026-ballot/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-7",
-      "tier": "secondary",
-      "url": "https://thebeaconnews.org/stories/2025/03/19/kansas-supreme-court-elections-voters-will-decide-in-2026/",
-      "title": "Thebeaconnews.Org",
-      "publisher": "thebeaconnews.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-8",
-      "tier": "secondary",
-      "url": "https://www.kcur.org/politics-elections-and-government/2026-01-26/kansas-lawmakers-want-to-reveal-more-about-the-people-picking-supreme-court-justices",
-      "title": "Kcur.Org",
-      "publisher": "kcur.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-9",
-      "tier": "secondary",
-      "url": "https://sunflowerstatejournal.com/judicial-amendment-campaign-shapes-up-outside-group-books-nearly-1-million-in-ads/",
-      "title": "Sunflowerstatejournal.Com",
-      "publisher": "sunflowerstatejournal.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-10",
-      "tier": "secondary",
-      "url": "https://www.votenokansas.org/",
-      "title": "Votenokansas.Org",
-      "publisher": "votenokansas.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-11",
       "tier": "primary",
-      "url": "https://www.kslegislature.gov/li/b2025_26/measures/documents/summary_scr_1611_2025",
-      "title": "Kslegislature.Gov",
-      "publisher": "kslegislature.gov",
+      "url": "https://www.kslegislature.gov/b2025_26/legislators/rep_rahjes_ken_1/",
+      "title": "source",
+      "publisher": "Kslegislature",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-12",
-      "tier": "secondary",
-      "url": "https://www.brennancenter.org/our-work/analysis-opinion/wisconsin-supreme-court-race-breaks-spending-record-fueled-out-state",
-      "title": "Brennancenter.Org",
-      "publisher": "brennancenter.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-13",
-      "tier": "secondary",
-      "url": "https://pbswisconsin.org/news-item/billionaires-push-spending-in-the-2025-wisconsin-supreme-court-race-over-the-100-million-mark/",
-      "title": "Pbswisconsin.Org",
-      "publisher": "pbswisconsin.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-14",
-      "tier": "secondary",
-      "url": "https://www.npr.org/2025/04/01/nx-s1-5345862/wisconsin-supreme-court-crawford-schimel-election-results",
-      "title": "Npr.Org",
-      "publisher": "npr.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-15",
-      "tier": "secondary",
-      "url": "https://www.kansasinformationnetwork.com/2026-Kansas-Constitutional-Amendment",
-      "title": "Kansasinformationnetwork.Com",
-      "publisher": "kansasinformationnetwork.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-16",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Kansas_Citizenship_Voting_Requirement_Amendment_(2026",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-17",
-      "tier": "secondary",
-      "url": "https://news.ballotpedia.org/2025/03/27/kansas-voters-will-decide-on-citizenship-voting-requirement-amendment-in-2026-similar-measures-were-approved-in-eight-states-in-2024/",
-      "title": "News.Ballotpedia.Org",
-      "publisher": "news.ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-18",
-      "tier": "secondary",
-      "url": "https://www.npr.org/2018/06/19/621304260/judge-tosses-kansas-proof-of-citizenship-voter-law-and-rebukes-sec-of-state-koba",
-      "title": "Npr.Org",
-      "publisher": "npr.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-19",
-      "tier": "secondary",
-      "url": "https://www.aclukansas.org/press-releases/resounding-victory-tens-thousands-disenfranchised-kansas-voters-supreme-court-refuses/",
-      "title": "Aclukansas.Org",
-      "publisher": "aclukansas.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-20",
-      "tier": "secondary",
-      "url": "https://www.cnn.com/2024/11/03/politics/noncitizen-voting-ballot-measures-election/index.html",
-      "title": "Cnn.Com",
-      "publisher": "cnn.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-21",
-      "tier": "secondary",
-      "url": "https://www.prismnews.com/news/kansas-proof-of-citizenship-voting-law-blocked-31000",
-      "title": "Prismnews.Com",
-      "publisher": "prismnews.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-22",
-      "tier": "secondary",
-      "url": "https://www.pbs.org/newshour/nation/kansas-hopes-to-resurrect-proof-of-citizenship-voting-law",
-      "title": "Pbs.Org",
-      "publisher": "pbs.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-23",
-      "tier": "secondary",
-      "url": "https://www.kcur.org/politics-elections-and-government/2025-07-24/kansas-governor-race-2026-election-candidates",
-      "title": "Kcur.Org",
-      "publisher": "kcur.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-24",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2026/01/30/six-kansas-gop-candidates-for-governor-toss-haymakers-in-first-debate-find-unity-on-key-issues/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-25",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2025/07/22/kansas-sen-ethan-corson-enters-race-for-democratic-partys-nomination-for-governor/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-26",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Kansas_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-27",
-      "tier": "secondary",
-      "url": "https://www.kcur.org/politics-elections-and-government/2025-12-30/whos-running-to-represent-kansas-in-the-u-s-senate-in-2026-heres-a-guide-to-the-candidates",
-      "title": "Kcur.Org",
-      "publisher": "kcur.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-28",
-      "tier": "secondary",
-      "url": "https://www.kmuw.org/government/2026-03-25/democratic-candidate-in-u-s-senate-race-opens-arms-to-kansas-republicans-lost-in-the-wilderness",
-      "title": "Kmuw.Org",
-      "publisher": "kmuw.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-29",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2025/11/25/kansas-democratic-candidates-for-u-s-senate-sharpen-attack-on-gop-incumbent-roger-marshall/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-30",
-      "tier": "secondary",
-      "url": "https://smartpolitics.lib.umn.edu/2025/03/05/how-well-can-democrats-fare-in-kansas-2026-us-senate-election/",
-      "title": "Smartpolitics.Lib.Umn.Edu",
-      "publisher": "smartpolitics.lib.umn.edu",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-31",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2026/01/05/lawrence-democrats-take-aim-at-kansas-republicans-congressional-seat/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-32",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Kansas'_1st_Congressional_District_election,_2026",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-33",
-      "tier": "primary",
-      "url": "https://mann.house.gov/",
-      "title": "Mann.House.Gov",
-      "publisher": "mann.house.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-34",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2025/07/30/kansas-election-for-attorney-general-in-2026-may-become-a-repeat-of-2022-showdown/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-35",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Kansas_Attorney_General_election,_2026",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-36",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2025/04/04/leavenworth-house-member-first-republican-to-declare-as-2026-candidate-for-secretary-of-state/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-37",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Kansas_Secretary_of_State_election,_2026",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-38",
-      "tier": "secondary",
-      "url": "https://kspress.com/news/2026/03/27/kansas-legislature-passes-package-of-elections-bills-that-alter-voting-processes",
-      "title": "Kspress.Com",
-      "publisher": "kspress.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-39",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/briefs/kansas-senate-minority-leader-challenges-gop-house-speaker-for-state-insurance-commissioner/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-40",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2025/05/13/kansas-house-speaker-launches-campaign-for-insurance-commissioner-with-pro-trump-rhetoric-1/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-41",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Kansas_Insurance_Commissioner_election,_2026",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-42",
-      "tier": "primary",
-      "url": "https://www.kslegislature.gov/li/b2025_26/members/rep_wasinger_barbara_1/",
-      "title": "Kslegislature.Gov",
-      "publisher": "kslegislature.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-43",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Kansas_House_of_Representatives_District_111",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-44",
-      "tier": "secondary",
-      "url": "https://barbforkansas.com/",
-      "title": "Barbforkansas.Com",
-      "publisher": "barbforkansas.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-45",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Kansas_State_Board_of_Education_election,_2026",
-      "title": "Ballotpedia.Org",
-      "publisher": "ballotpedia.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-46",
-      "tier": "primary",
-      "url": "https://www.ksde.gov/Board/Kansas-State-Board-of-Education/District-5",
-      "title": "Ksde.Gov",
-      "publisher": "ksde.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-47",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2024/10/22/kansas-board-of-education-races-could-shift-power-to-conservative-bloc/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-48",
-      "tier": "secondary",
-      "url": "https://kenforkansas.com/news/rahjes-files-for-secretary-of-state/",
-      "title": "Kenforkansas.Com",
-      "publisher": "kenforkansas.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile.",
-        "Observed public online activity mapped to Religious Liberty."
-      ]
-    },
-    {
-      "id": "s-49",
-      "tier": "secondary",
-      "url": "https://www.jocoelection.org/candidates-elected-officials/ken-rahjes",
-      "title": "Jocoelection.Org",
-      "publisher": "jocoelection.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-50",
-      "tier": "secondary",
-      "url": "https://hayspost.com/posts/d7c59a6a-6884-4ac9-aad1-7c9d728f5f5f",
-      "title": "Hayspost.Com",
-      "publisher": "hayspost.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile.",
-        "Observed public online activity mapped to School Choice / Parental Rights in Education."
-      ]
-    },
-    {
-      "id": "s-51",
-      "tier": "primary",
-      "url": "https://www.kdor.ks.gov/Apps/VoterReg/",
-      "title": "Kdor.Ks.Gov",
-      "publisher": "kdor.ks.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-52",
-      "tier": "secondary",
-      "url": "https://myvoteinfo.voteks.org/",
-      "title": "Myvoteinfo.Voteks.Org",
-      "publisher": "myvoteinfo.voteks.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-53",
-      "tier": "primary",
-      "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW04KR_202601.pdf",
-      "title": "Kansas.Gov",
-      "publisher": "kansas.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-54",
-      "tier": "primary",
-      "url": "https://www.kslegislature.gov/li/b2025_26/members/rep_rahjes_ken_1/",
-      "title": "Kslegislature.Gov",
-      "publisher": "kslegislature.gov",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-55",
-      "tier": "secondary",
-      "url": "https://www.kansasreflector.com/2025/04/04/leavenworth-house-member-first-republican-to-declare-as-2026-candidate-for-secretary-of-state/",
-      "title": "Kansasreflector.Com",
-      "publisher": "kansasreflector.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-56",
-      "tier": "secondary",
-      "url": "https://www.followthemoney.org/",
-      "title": "Followthemoney.Org",
-      "publisher": "followthemoney.org",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-57",
-      "tier": "secondary",
-      "url": "https://kenforkansas.com/news/first-adjournment-is-here/",
-      "title": "Kenforkansas.Com",
-      "publisher": "kenforkansas.com",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile.",
-        "Observed public online activity mapped to Abortion / Sanctity of Life."
-      ]
-    },
-    {
-      "id": "s-58",
-      "tier": "secondary",
-      "url": "https://kvoe.com/2026/03/16/rahjes-in-emporia-touting-secretary-of-state-bid/",
-      "title": "KVOE - Rahjes in Emporia",
-      "publisher": "Kvoe.Com",
-      "accessed": "2026-03-31",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-59",
-      "tier": "secondary",
-      "url": "https://hayspost.com/posts/7178f5e9-d6e8-4fe0-af51-8ebe54531561",
-      "title": "Hays Post - Files for Secretary of State",
-      "publisher": "Hayspost.Com",
-      "accessed": "2026-03-31",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-60",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Ken_Rahjes",
-      "title": "Ballotpedia",
-      "publisher": "Ballotpedia.Org",
-      "accessed": "2026-03-31",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-61",
-      "tier": "secondary",
-      "url": "https://justfacts.votesmart.org/candidate/biography/167130/ken-rahjes",
-      "title": "VoteSmart - Biography",
-      "publisher": "Justfacts.Votesmart.Org",
-      "accessed": "2026-03-31",
-      "claimsAnchored": [
-        "Source carried forward for Ken Rahjes's generated v2 profile."
+        "Candidate-specific source extracted for Ken Rahjes."
       ]
     },
     {
       "id": "s-social-crossref-1",
+      "tier": "secondary",
+      "url": "https://kenforkansas.com/news/first-adjournment-is-here/",
+      "title": "Hays Post / Kenforkansas",
+      "publisher": "Kenforkansas",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to Abortion / Sanctity of Life.",
+        "Key themes: Value Them Both, property-tax transparency, Kansas Promise Scholarship Act, COVID liability protections, unemployment-system overhaul, budget work, and constituent cont"
+      ]
+    },
+    {
+      "id": "s-social-crossref-2",
+      "tier": "secondary",
+      "url": "https://hayspost.com/posts/d7c59a6a-6884-4ac9-aad1-7c9d728f5f5f",
+      "title": "Hays Post / Hayspost",
+      "publisher": "Hayspost",
+      "accessed": "2026-05-19",
+      "claimsAnchored": [
+        "Observed public online activity mapped to School Choice / Parental Rights in Education.",
+        "Key themes: speaking directly with voters, county clerks, voter ID, ending the mail-ballot grace period, school civic education, business filings, property taxes, and review of rul"
+      ]
+    },
+    {
+      "id": "s-social-crossref-3",
       "tier": "secondary",
       "url": "https://hayspost.com/posts/93f5e63a-dd1b-411a-98f8-c3ca8b2c187a",
       "title": "Hays Post / Hayspost",

@@ -27,7 +27,9 @@ last_updated: 2026-05-19T20:12:00Z
     from existing memory research. Social follows, likes, comments, public
     posts, platform absences, and online-public-record observations remain in
     the product, but render as issue-scoped observations rather than inferred
-    beliefs.
+    beliefs. Generated profiles now prune carried-forward race-wide source
+    registries down to candidate-specific, referenced sources so source-trail
+    pages do not publish unrelated candidate links.
 
     UI corrections landed:
     - top metric boxes removed from candidate profiles

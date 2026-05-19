@@ -133,17 +133,6 @@ export const CATHY_HOPKINS_V2: CandidateFullV2 = {
       ]
     },
     {
-      "id": "s-ballotpedia-sboe-2026",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Kansas_State_Board_of_Education_election,_2026",
-      "title": "Kansas State Board of Education election, 2026",
-      "publisher": "Ballotpedia",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "2026 Kansas State Board of Education election context."
-      ]
-    },
-    {
       "id": "s-ivoterguide-hopkins",
       "tier": "secondary",
       "url": "https://ivoterguide.com/candidate/70910/race/17825/election/987",

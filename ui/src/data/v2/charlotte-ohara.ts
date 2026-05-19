@@ -22,6 +22,7 @@ export const CHARLOTTE_OHARA_V2: CandidateFullV2 = {
       "stated": {
         "text": "Her campaign platform includes \"supporting families and protecting life,\" though specific policy details beyond that broad framing have not been elaborated in the source material.",
         "sourceIds": [
+          "s-15",
           "s-1",
           "s-2",
           "s-3",
@@ -36,7 +37,7 @@ export const CHARLOTTE_OHARA_V2: CandidateFullV2 = {
           "observation": "The campaign archive contained 71 public posts in the WordPress API on capture. The earliest listed post was \"A Sobering Look at Abortion Statistics in Kansas\" on 2025-01-14; the latest listed post was \"The Great Property Tax Shift\" on 2026-05-05. (archive source)",
           "observedAt": "2026-05-19",
           "sourceIds": [
-            "s-social-crossref-1"
+            "s-2"
           ],
           "mappedToIssueId": "i-abortion-sanctity-of-life-1"
         },
@@ -46,7 +47,7 @@ export const CHARLOTTE_OHARA_V2: CandidateFullV2 = {
           "observation": "The Feb. 17, 2026 post \"When Did You Begin\" is a pro-life poem that asks when human dignity begins, reinforcing abortion as a recurring campaign theme. (source)",
           "observedAt": "2026-05-19",
           "sourceIds": [
-            "s-social-crossref-2"
+            "s-7"
           ],
           "mappedToIssueId": "i-abortion-sanctity-of-life-1"
         },
@@ -56,7 +57,7 @@ export const CHARLOTTE_OHARA_V2: CandidateFullV2 = {
           "observation": "O'Hara attacked what she called a \"vast sea of RINOs\" in the Republican Party; the piece also reports broad GOP debate agreement on abortion opposition, marijuana opposition, and elected Supreme Court justices. (source) 17. Kansas Reflector, Feb.",
           "observedAt": "2026-05-19",
           "sourceIds": [
-            "s-11"
+            "s-social-crossref-1"
           ],
           "mappedToIssueId": "i-abortion-sanctity-of-life-1"
         }
@@ -68,12 +69,10 @@ export const CHARLOTTE_OHARA_V2: CandidateFullV2 = {
       "stated": {
         "text": "No candidate-controlled statement was found in the reviewed public record for this issue. This page therefore does not infer a position from party label, faith affiliation, follows, likes, comments, or associations.",
         "sourceIds": [
-          "s-5",
-          "s-9",
-          "s-10",
-          "s-11",
           "s-1",
-          "s-2"
+          "s-2",
+          "s-3",
+          "s-4"
         ]
       },
       "actions": [],
@@ -85,12 +84,10 @@ export const CHARLOTTE_OHARA_V2: CandidateFullV2 = {
       "stated": {
         "text": "No candidate-controlled statement was found in the reviewed public record for this issue. This page therefore does not infer a position from party label, faith affiliation, follows, likes, comments, or associations.",
         "sourceIds": [
-          "s-5",
-          "s-9",
-          "s-10",
-          "s-11",
           "s-1",
-          "s-2"
+          "s-2",
+          "s-3",
+          "s-4"
         ]
       },
       "actions": [],
@@ -113,6 +110,7 @@ export const CHARLOTTE_OHARA_V2: CandidateFullV2 = {
       "stated": {
         "text": "Has not taken a detailed public position on gun policy in the source material reviewed, though her broader \"constitutional freedoms\" messaging implies support for gun rights.",
         "sourceIds": [
+          "s-5",
           "s-1",
           "s-2",
           "s-3",
@@ -131,7 +129,9 @@ export const CHARLOTTE_OHARA_V2: CandidateFullV2 = {
           "s-1",
           "s-2",
           "s-3",
-          "s-4"
+          "s-4",
+          "s-5",
+          "s-6"
         ]
       },
       "actions": [],
@@ -143,6 +143,7 @@ export const CHARLOTTE_OHARA_V2: CandidateFullV2 = {
       "stated": {
         "text": "She homeschooled her two youngest children and her campaign emphasi",
         "sourceIds": [
+          "s-6",
           "s-1",
           "s-2",
           "s-3",
@@ -167,7 +168,7 @@ export const CHARLOTTE_OHARA_V2: CandidateFullV2 = {
           "observation": "The March 24, 2026 post \"Election Integrity: the Ghost of 2020\" tied election-integrity messaging to opposition to the sports authority/STAR bond package and asked readers to contact state senators. (source)",
           "observedAt": "2026-05-19",
           "sourceIds": [
-            "s-social-crossref-3"
+            "s-5"
           ],
           "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
         },
@@ -177,7 +178,7 @@ export const CHARLOTTE_OHARA_V2: CandidateFullV2 = {
           "observation": "The April 28, 2026 post \"Dismantling the Kansas Department of Education\" argues education should be local and criticizes what she describes as tax-incentive funded candidates and the state education bureaucracy. (source)",
           "observedAt": "2026-05-19",
           "sourceIds": [
-            "s-social-crossref-4"
+            "s-6"
           ],
           "mappedToIssueId": "i-school-choice-parental-rights-in-education-6"
         }
@@ -226,227 +227,106 @@ export const CHARLOTTE_OHARA_V2: CandidateFullV2 = {
       "id": "s-1",
       "tier": "secondary",
       "url": "https://oharaforkansas.com/",
-      "title": "Oharaforkansas.Com",
-      "publisher": "oharaforkansas.com",
+      "title": "source",
+      "publisher": "Oharaforkansas",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Charlotte O'Hara's generated v2 profile.",
+        "Candidate-specific source extracted for Charlotte O'Hara.",
         "Observed public online activity mapped to Religious Liberty.",
         "Observed public online activity mapped to School Choice / Parental Rights in Education."
       ]
     },
     {
       "id": "s-2",
-      "tier": "primary",
-      "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/SWLinks2026EC.htm",
-      "title": "Kansas.Gov",
-      "publisher": "kansas.gov",
+      "tier": "secondary",
+      "url": "https://oharaforkansas.com/wp-json/wp/v2/posts?per_page=100&_fields=date,slug,link,title.rendered,categories",
+      "title": "archive source",
+      "publisher": "Oharaforkansas",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Charlotte O'Hara's generated v2 profile."
+        "Candidate-specific source extracted for Charlotte O'Hara.",
+        "Observed public online activity mapped to Abortion / Sanctity of Life."
       ]
     },
     {
       "id": "s-3",
-      "tier": "primary",
-      "url": "https://www.kansas.gov/ethics/CFAScanned/StWide/2026ElecCycle/202601/SW01CO_202601.pdf",
-      "title": "Kansas.Gov",
-      "publisher": "kansas.gov",
+      "tier": "secondary",
+      "url": "https://oharaforkansas.com/wp-json/wp/v2/categories?per_page=100",
+      "title": "category source",
+      "publisher": "Oharaforkansas",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Charlotte O'Hara's generated v2 profile."
+        "Candidate-specific source extracted for Charlotte O'Hara."
       ]
     },
     {
       "id": "s-4",
       "tier": "secondary",
-      "url": "https://oharaforkansas.com/about-charlotte-ohara/",
-      "title": "Oharaforkansas.Com",
-      "publisher": "oharaforkansas.com",
+      "url": "https://oharaforkansas.com/the-great-property-tax-shift/",
+      "title": "source",
+      "publisher": "Oharaforkansas",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Charlotte O'Hara's generated v2 profile."
+        "Candidate-specific source extracted for Charlotte O'Hara."
       ]
     },
     {
       "id": "s-5",
       "tier": "secondary",
-      "url": "https://www.jocoelection.org/candidates-elected-officials/charlotte-o-hara",
-      "title": "Jocoelection.Org",
-      "publisher": "jocoelection.org",
+      "url": "https://oharaforkansas.com/election-integrity-the-ghost-of-2020/",
+      "title": "source",
+      "publisher": "Oharaforkansas",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Charlotte O'Hara's generated v2 profile."
+        "Candidate-specific source extracted for Charlotte O'Hara.",
+        "Observed public online activity mapped to School Choice / Parental Rights in Education."
       ]
     },
     {
       "id": "s-6",
       "tier": "secondary",
-      "url": "https://www.kansascatholic.org/current-news/election-2026",
-      "title": "Kansascatholic.Org",
-      "publisher": "kansascatholic.org",
+      "url": "https://oharaforkansas.com/dismantling-the-kansas-department-of-education/",
+      "title": "source",
+      "publisher": "Oharaforkansas",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Charlotte O'Hara's generated v2 profile."
+        "Candidate-specific source extracted for Charlotte O'Hara.",
+        "Observed public online activity mapped to School Choice / Parental Rights in Education."
       ]
     },
     {
       "id": "s-7",
       "tier": "secondary",
-      "url": "https://oharaforkansas.com/meet-charlotte-ohara/",
-      "title": "Oharaforkansas.Com",
-      "publisher": "oharaforkansas.com",
+      "url": "https://oharaforkansas.com/when-did-you-begin/",
+      "title": "source",
+      "publisher": "Oharaforkansas",
       "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Charlotte O'Hara's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-8",
-      "tier": "secondary",
-      "url": "https://oharaforkansas.com",
-      "title": "oharaforkansas.com",
-      "publisher": "Oharaforkansas.Com",
-      "accessed": "2026-03-31",
-      "claimsAnchored": [
-        "Source carried forward for Charlotte O'Hara's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-9",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2025/11/28/its-an-honesty-dozens-of-columns-voice-the-politics-of-one-candidate-for-kansas-governor/",
-      "title": "Kansas Reflector, November 28, 2025",
-      "publisher": "Kansasreflector.Com",
-      "accessed": "2026-03-31",
-      "claimsAnchored": [
-        "Source carried forward for Charlotte O'Hara's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-10",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2026/02/16/kansas-gop-candidate-for-governor-says-state-needs-a-true-conservative/",
-      "title": "Kansas Reflector, February 16, 2026",
-      "publisher": "Kansasreflector.Com",
-      "accessed": "2026-03-31",
-      "claimsAnchored": [
-        "Source carried forward for Charlotte O'Hara's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-11",
-      "tier": "secondary",
-      "url": "https://kansasreflector.com/2026/01/30/six-kansas-gop-candidates-for-governor-toss-haymakers-in-first-debate-find-unity-on-key-issues/",
-      "title": "Kansas Reflector, January 30, 2026",
-      "publisher": "Kansasreflector.Com",
-      "accessed": "2026-03-31",
-      "claimsAnchored": [
-        "Source carried forward for Charlotte O'Hara's generated v2 profile.",
+        "Candidate-specific source extracted for Charlotte O'Hara.",
         "Observed public online activity mapped to Abortion / Sanctity of Life."
-      ]
-    },
-    {
-      "id": "s-12",
-      "tier": "social",
-      "url": "https://www.facebook.com/oharaforjoco/",
-      "title": "O'Hara for JoCo",
-      "publisher": "Facebook.Com",
-      "accessed": "2026-03-31",
-      "claimsAnchored": [
-        "Source carried forward for Charlotte O'Hara's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-13",
-      "tier": "secondary",
-      "url": "https://johnsoncountypost.com/2025/03/10/charlotte-ohara-kansas-governor-bid-254803/",
-      "title": "Johnson County Post: O'Hara governor bid (March 10, 2025)",
-      "publisher": "Johnsoncountypost.Com",
-      "accessed": "2026-03-31",
-      "claimsAnchored": [
-        "Source carried forward for Charlotte O'Hara's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-14",
-      "tier": "secondary",
-      "url": "https://johnsoncountypost.com/2024/11/05/county-commission-races-2024-general-246243/",
-      "title": "Johnson County Post: 2024 election results (Nov 5, 2024)",
-      "publisher": "Johnsoncountypost.Com",
-      "accessed": "2026-03-31",
-      "claimsAnchored": [
-        "Source carried forward for Charlotte O'Hara's generated v2 profile."
       ]
     },
     {
       "id": "s-15",
       "tier": "secondary",
-      "url": "https://en.wikipedia.org/wiki/Charlotte_O'Hara",
-      "title": "Wikipedia: Charlotte O'Hara",
-      "publisher": "En.Wikipedia.Org",
-      "accessed": "2026-03-31",
+      "url": "https://oharaforkansas.com/a-sobering-look-at-abortion-statistics-in-kansas-a-call-for-reflection/",
+      "title": "abortion-statistics source",
+      "publisher": "Oharaforkansas",
+      "accessed": "2026-05-19",
       "claimsAnchored": [
-        "Source carried forward for Charlotte O'Hara's generated v2 profile."
-      ]
-    },
-    {
-      "id": "s-16",
-      "tier": "secondary",
-      "url": "https://ballotpedia.org/Charlotte_O'Hara",
-      "title": "Ballotpedia: Charlotte O'Hara",
-      "publisher": "Ballotpedia.Org",
-      "accessed": "2026-03-31",
-      "claimsAnchored": [
-        "Source carried forward for Charlotte O'Hara's generated v2 profile."
+        "Candidate-specific source extracted for Charlotte O'Hara."
       ]
     },
     {
       "id": "s-social-crossref-1",
       "tier": "secondary",
-      "url": "https://oharaforkansas.com/wp-json/wp/v2/posts?per_page=100&_fields=date,slug,link,title.rendered,categories",
-      "title": "oharaforkansas.com / Oharaforkansas",
-      "publisher": "Oharaforkansas",
+      "url": "https://kansasreflector.com/2026/01/30/six-kansas-gop-candidates-for-governor-toss-haymakers-in-first-debate-find-unity-on-key-issues/",
+      "title": "Kansas Reflector / Kansasreflector",
+      "publisher": "Kansasreflector",
       "accessed": "2026-05-19",
       "claimsAnchored": [
         "Observed public online activity mapped to Abortion / Sanctity of Life.",
-        "The campaign archive contained 71 public posts in the WordPress API on capture. The earliest listed post was \"A Sobering Look at Abortion Statistics in Kansas\" on 2025-01-14; the l"
-      ]
-    },
-    {
-      "id": "s-social-crossref-2",
-      "tier": "secondary",
-      "url": "https://oharaforkansas.com/when-did-you-begin/",
-      "title": "oharaforkansas.com / Oharaforkansas",
-      "publisher": "Oharaforkansas",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Observed public online activity mapped to Abortion / Sanctity of Life.",
-        "The Feb. 17, 2026 post \"When Did You Begin\" is a pro-life poem that asks when human dignity begins, reinforcing abortion as a recurring campaign theme. (source)"
-      ]
-    },
-    {
-      "id": "s-social-crossref-3",
-      "tier": "secondary",
-      "url": "https://oharaforkansas.com/election-integrity-the-ghost-of-2020/",
-      "title": "oharaforkansas.com / Oharaforkansas",
-      "publisher": "Oharaforkansas",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Observed public online activity mapped to School Choice / Parental Rights in Education.",
-        "The March 24, 2026 post \"Election Integrity: the Ghost of 2020\" tied election-integrity messaging to opposition to the sports authority/STAR bond package and asked readers to conta"
-      ]
-    },
-    {
-      "id": "s-social-crossref-4",
-      "tier": "secondary",
-      "url": "https://oharaforkansas.com/dismantling-the-kansas-department-of-education/",
-      "title": "oharaforkansas.com / Oharaforkansas",
-      "publisher": "Oharaforkansas",
-      "accessed": "2026-05-19",
-      "claimsAnchored": [
-        "Observed public online activity mapped to School Choice / Parental Rights in Education.",
-        "The April 28, 2026 post \"Dismantling the Kansas Department of Education\" argues education should be local and criticizes what she describes as tax-incentive funded candidates and t"
+        "O'Hara attacked what she called a \"vast sea of RINOs\" in the Republican Party; the piece also reports broad GOP debate agreement on abortion opposition, marijuana opposition, and e"
       ]
     }
   ]
