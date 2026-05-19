@@ -9,6 +9,10 @@ wave: 1
 last_updated: 2026-05-19T20:30:00Z
 
 ## In flight
+- agent: web-code-executor
+  task: P1.2 v2 components + Allen Park PoC
+  started: 2026-05-19T21:00:00Z
+  candidate: allen-park
 
 ## Done
 - agent: nextjs-expert
