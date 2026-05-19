@@ -223,31 +223,52 @@ export const ELECTIONS: Election[] = [
       "The Hays city commission is the group that runs the city. Five commissioners and a mayor set water rates, approve new housing developments, hire the city manager, decide where tax money goes, and vote on everything from road repairs to whether a new business gets built. The city manager handles day-to-day operations. These are the people who decide what Hays looks like, how much city services cost, and how the city grows.",
   },
   {
-    slug: "ellis-county-current",
-    name: "Ellis County Officials",
+    slug: "ellis-county-2026-ballot",
+    name: "Ellis County Commission — 2026 Ballot",
     level: "Local",
     date: "2026-11-03",
     jurisdiction: "Ellis County, Kansas",
-    seats: 7,
+    seats: 2,
+    status: "Incumbent Running",
+    candidateCount: 2,
+    candidateSlugs: [
+      "nathan-leiker",
+      "michael-berges",
+    ],
+    description:
+      "Two Ellis County Commission seats are on the November 2026 ballot: District 1 (Michael Berges) and District 3 (Nathan Leiker), both first elected in 2022 and now completing their four-year terms.",
+    plainEnglish:
+      "Ellis County elects its commissioners to four-year terms. Commissioners from Districts 1 and 3 were both first elected in 2022, which means their terms expire after November 2026. Michael Berges (District 1, covering part of Hays and the northwest county) and Nathan Leiker (District 3, covering the eastern county) are the two incumbents whose seats are on this ballot.",
+    whyItMatters:
+      "County commissioners set the county budget, approve road projects, decide on jail funding and mental health services, and make the land-use decisions that shape Ellis County for years. These two seats represent the majority of Ellis County's geography and population.",
+    jobDescription:
+      "Ellis County commissioners are the three-person board that runs county government. They set property tax mill levies, approve the county budget, vote on zoning and road projects, oversee the jail and mental health programs, and hire key county staff. District 1 covers part of Hays and the northwest corner of the county. District 3 is the largest district by land area, covering the entire eastern side of Ellis County. Commissioners serve four-year terms.",
+  },
+  {
+    slug: "ellis-county-incumbents-off-cycle",
+    name: "Ellis County Officials — Not on 2026 Ballot",
+    level: "Local",
+    date: "2028-11-07",
+    jurisdiction: "Ellis County, Kansas",
+    seats: 6,
     status: "N/A",
-    candidateCount: 7,
+    candidateCount: 6,
     candidateSlugs: [
       "scott-braun",
       "aaron-cunningham",
       "bobbi-dreiling",
-      "nathan-leiker",
       "neal-younger",
       "rebecca-herzog",
       "vernon-ruder-jr",
     ],
     description:
-      "Some Ellis County offices return to the ballot in 2026 and others do not, but these are the county officials currently holding the posts most relevant to Hays voters.",
+      "These six Ellis County officeholders were elected or re-elected in November 2024. Their current four-year terms run through early 2029. None of these seats appear on the 2026 ballot — the next opportunity to vote on them is November 2028.",
     plainEnglish:
-      "County government handles elections, law enforcement, prosecutions, taxes, property records, and commission decisions that affect Hays and the surrounding rural areas. This guide groups the current Ellis County officeholders together for context.",
+      "Not every county office is on the ballot every two years. Sheriff Scott Braun, County Attorney Aaron Cunningham, County Clerk Bobbi Dreiling, Commissioner Neal Younger (District 2), Register of Deeds Rebecca Herzog, and Treasurer Vernon Ruder Jr. all won or retained their seats in November 2024. Their terms run through the start of 2029. This page profiles who they are and what they do, so voters understand the full county government even in years when these seats are not up for a vote.",
     whyItMatters:
-      "County officials touch public safety, election administration, land records, tax collection, and the county budget that underpins a lot of everyday local government.",
+      "The people running county law enforcement, elections, property records, and tax collection are in office right now and making decisions that affect you, even though you will not vote on them again until 2028. Knowing who holds these positions — and what they have done — keeps voters informed year-round, not just on Election Day.",
     jobDescription:
-      "Ellis County officials run the government layer between the city and the state. The sheriff runs law enforcement for the whole county. The county attorney prosecutes crimes. The clerk runs elections and keeps records. The commissioners set the county budget, approve road projects, and make decisions about mental health funding, jail operations, and economic development. The treasurer collects your property taxes. The register of deeds records every land sale. If you live outside Hays city limits, the county is your primary local government.",
+      "Ellis County's non-commission elected offices run the day-to-day operations of county government. The sheriff commands all county law enforcement and runs the jail. The county attorney prosecutes crimes. The county clerk runs every election in Ellis County and keeps official county records. The treasurer collects property taxes and manages county funds. The register of deeds records every land sale, mortgage, and property transfer. Commissioner Neal Younger (District 2) is the third member of the county commission; he was re-elected in 2024 and is currently serving as commission chairman. All six of these seats were decided in November 2024 and are not up for election again until November 2028.",
   },
   {
     slug: "usd-489-current",

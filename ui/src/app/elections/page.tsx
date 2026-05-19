@@ -45,7 +45,7 @@ const ELECTION_CATEGORIES: ElectionCategory[] = [
     heading: "Local Officials",
     description:
       "These pages group the current city, county, and school leaders whose decisions shape daily life in Hays — even when their seats are not all on this year's ballot.",
-    slugs: ["hays-city-current", "ellis-county-current", "usd-489-current"],
+    slugs: ["hays-city-current", "ellis-county-2026-ballot", "ellis-county-incumbents-off-cycle", "usd-489-current"],
   },
 ];
 
