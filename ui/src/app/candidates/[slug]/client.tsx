@@ -16,6 +16,7 @@ import {
 } from "lucide-react";
 import type { CandidateFull, OwnWordsSection as OwnWordsData } from "@/data/candidates";
 import { getCandidateResearchSources } from "@/lib/candidate-sources";
+import { FEEDBACK_EMAIL } from "@/lib/config";
 
 // ─── Body Paragraph ──────────────────────────────────────────────────────────
 
@@ -753,7 +754,7 @@ function CorrectionForm({
     formData.append("candidate", candidateName);
 
     try {
-      const res = await fetch("https://formsubmit.co/ajax/tylerpreisser@gmail.com", {
+      const res = await fetch(`https://formsubmit.co/ajax/${FEEDBACK_EMAIL}`, {
         method: "POST",
         body: formData,
       });
@@ -918,7 +919,7 @@ function CorrectionForm({
 
         {error && (
           <p className="text-sm font-body" style={{ color: "var(--color-red-flag)" }}>
-            Something went wrong. Please try again or email us directly at tylerpreisser@gmail.com
+            Something went wrong. Please try again or email us directly at {FEEDBACK_EMAIL}
           </p>
         )}
       </form>
